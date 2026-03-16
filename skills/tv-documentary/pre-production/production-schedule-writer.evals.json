@@ -1,5 +1,55 @@
 {
   "skill_name": "production-schedule-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.3,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "3-day shoot for a documentary about a hospital's emergency department. Access limited to specific ward areas. Night shift filming is the key sequence. Small crew, single camera.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly clustered night shift filming as the logistical anchor and scheduled other sequences around it. Ethics and consent logistics for hospital filming were flagged. Day sequence ordering was efficient."
+    },
+    {
+      "id": "tc2",
+      "input": "5-day international shoot across two countries for a documentary on refugee resettlement. Multiple interviews, travel days, and border crossing. Large crew including fixer.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Travel days were correctly modeled as partial shooting days rather than wasted days. Location clustering was applied across countries. Fixer logistics were included. Critical dependencies were accurately identified."
+    },
+    {
+      "id": "tc3",
+      "input": "2-day shoot for a short documentary featuring a single elderly subject in a remote rural location. Weather unpredictability is the main risk. No crew — director and camera only.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Small crew scheduling was appropriately simplified. Weather contingency plan was specific to the remote location context — no equipment rental replacements nearby. Day 2 contingency planning was the strongest section."
+    }
+  ]
 }
