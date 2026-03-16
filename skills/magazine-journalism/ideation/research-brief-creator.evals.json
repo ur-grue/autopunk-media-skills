@@ -1,5 +1,73 @@
 {
   "skill_name": "research-brief-creator",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "assignment": "New study: children near freight routes have higher respiratory illness and lower test scores than socioeconomic peers",
+        "publication": "General-interest magazine, 3000-4000 words",
+        "timeline": "3 weeks to report, 6 weeks to publication",
+        "prior_knowledge": "Know headline finding, haven't read full methodology"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Story territory map correctly distinguishes established/contested/unknown. Three angles are genuinely distinct. Source list is ordered correctly — lead author first as the door-opener. Reporting order recommendation is strategically sound. Documents section is specific (EPA AirData portal named). Excellent brief."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "assignment": "A major city is planning to remove a historic public market to build a transit hub — the market has operated for 80 years and community groups are fighting the decision",
+        "publication": "City magazine / regional general interest",
+        "timeline": "2 weeks to report",
+        "prior_knowledge": "Know the planning decision was announced last week; have contact for one of the community groups"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Three angles (community loss story, planning process story, comparable cities story) are distinct and well-pitched. Documents section correctly identifies planning commission records, environmental assessment, and market financial records. Source list includes historical society as a less-obvious source. Reporting order accounts for the existing community contact."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "assignment": "Profile of a mid-career scientist who has pivoted from academic research to founding a startup in her field",
+        "publication": "Business magazine, 2000 words",
+        "timeline": "1 week to report",
+        "prior_knowledge": null
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Profile structure is correctly identified as requiring different angle logic than a reported story — brief adjusts appropriately. Three angles for the profile (the science angle, the career transition angle, the sector/industry angle) are all viable. Source list correctly identifies university colleagues and investors as supporting sources around the subject. Actionable for a 1-week timeline. Passes threshold."
+    }
+  ]
 }
