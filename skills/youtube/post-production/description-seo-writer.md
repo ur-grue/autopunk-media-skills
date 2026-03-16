@@ -29,9 +29,10 @@ Writes a complete, SEO-optimized YouTube video description — including hook pa
 3. Structures the links section in a standard format: chapters (if provided), subscribe CTA, social links, affiliate/sponsor disclosures
 4. Closes with 3–5 relevant hashtags placed at the end of the description (YouTube's recommended position)
 5. Reviews the full description to ensure keyword density stays between 1–2% and the tone matches the channel register
+6. After the description, provides a one-line "Next Step" specifying where to paste it (YouTube Studio → Details tab), whether chapter-timestamps need to be generated separately, and whether community-post-generator should be run to announce the video
 
 ## Output Format
-Full YouTube description, formatted exactly as it should appear in YouTube Studio. Total length: 200–350 words plus links section. First paragraph is the hook (visible before "Show more"). Subsequent paragraphs cover content detail. Links section uses a clean list format. Hashtags on the final line. No markdown headers — plain text only.
+Full YouTube description, formatted exactly as it should appear in YouTube Studio. Total length: 200–350 words plus links section. First paragraph is the hook (visible before "Show more"). Subsequent paragraphs cover content detail. Links section uses a clean list format. Hashtags on the final line. No markdown headers — plain text only. Output ends with a "Next Step" note specifying the immediate action: paste into YouTube Studio Details tab, replace any placeholder links, and run chapter-timestamps or community-post-generator if those are still needed.
 
 ## Quality Criteria
 - [ ] Primary keyword appears in the first 100 characters of the description
@@ -40,6 +41,7 @@ Full YouTube description, formatted exactly as it should appear in YouTube Studi
 - [ ] Links section is cleanly formatted and includes a subscribe CTA
 - [ ] Hashtags are relevant to the video topic, not generic (#youtube, #video are not acceptable)
 - [ ] Total description does not exceed 5,000 characters (YouTube's hard limit)
+- [ ] Output includes at least one concrete next action the user can take immediately (paste into YouTube Studio, replace link placeholders, or run chapter-timestamps or community-post-generator)
 
 ## Example
 

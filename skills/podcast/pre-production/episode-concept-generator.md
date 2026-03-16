@@ -28,9 +28,10 @@ Generates 6–8 fully developed episode concepts aligned to a podcast's format, 
 2. Identifies under-explored angles: the contrarian take, the practitioner perspective, the historical origin story, the failure case, the audience question that goes unasked in most episodes on this topic
 3. Generates concepts across different episode types: the debate episode, the deep-dive explainer, the personal story, the expert interview, the myth-busting episode, and the "what no one talks about" episode
 4. For each concept, specifies the core listener question (what the audience will have answered by the end), the ideal guest or source profile, and one hook sentence for a show notes description
+5. Closes with a "Next Step" recommendation: which concept to book first based on guest accessibility, and whether to run guest-research-brief or interview-question-builder as the immediate next skill
 
 ## Output Format
-6–8 numbered episode concepts. Each concept includes: Episode Title, Core Listener Question, Premise (2–3 sentences), Guest/Source Approach, and Hook Sentence. Total length: 500–700 words. Concepts are ordered from most immediately executable to most ambitious.
+6–8 numbered episode concepts. Each concept includes: Episode Title, Core Listener Question, Premise (2–3 sentences), Guest/Source Approach, and Hook Sentence. Total length: 500–700 words. Concepts are ordered from most immediately executable to most ambitious. Output ends with a "Next Step" note: which concept to pursue first (based on booking ease) and which skill to run next — guest-research-brief to prepare for outreach or interview-question-builder once a guest confirms.
 
 ## Quality Criteria
 - [ ] Each concept has a distinct angle — no two concepts answer the same core listener question
@@ -39,6 +40,7 @@ Generates 6–8 fully developed episode concepts aligned to a podcast's format, 
 - [ ] At least one concept takes a counterintuitive or under-explored angle on the show's topic
 - [ ] Hook sentences are specific enough to work as a draft show-notes opening line
 - [ ] No concept is simply a topic — each has a specific angle or question driving it
+- [ ] Output includes at least one concrete next action the user can take immediately (which concept to pursue first and which skill to run next: guest-research-brief or interview-question-builder)
 
 ## Example
 

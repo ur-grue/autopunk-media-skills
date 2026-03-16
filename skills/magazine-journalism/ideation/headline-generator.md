@@ -29,9 +29,10 @@ Generates a range of headline and subheadline options across different registers
 3. Calibrates register to the specified publication type — tabloid vocabulary and punctuation differ fundamentally from literary magazine style; trade press follows different conventions from consumer lifestyle
 4. For each main headline, writes a matching subheadline (dek) that adds the reporting context the main head omits
 5. Flags which options work best in print versus digital (SEO-aware headlines often sacrifice elegance; print heads can afford more wit)
+6. Closes with a one-sentence "Next Step" specifying which headline to take forward, whether to run social-media-excerpt to adapt the winning headline for platforms, and whether newsletter-teaser-writer is needed for distribution copy
 
 ## Output Format
-6–10 headline options organized into clusters by register (e.g., "Direct/News," "Analytical/Literary," "Provocative/Punchy"). Each headline followed by its dek. One-line annotation on register and best-use context. Total length: 400–600 words. No markdown beyond bold for headline text.
+6–10 headline options organized into clusters by register (e.g., "Direct/News," "Analytical/Literary," "Provocative/Punchy"). Each headline followed by its dek. One-line annotation on register and best-use context. Total length: 400–600 words. No markdown beyond bold for headline text. Output ends with a "Next Step" note identifying which headline cluster is strongest for the specified publication and what to do immediately: send to editor, run newsletter-teaser-writer, or adapt the top option for social.
 
 ## Quality Criteria
 - [ ] Headlines span at least 4 different structural formats
@@ -40,6 +41,7 @@ Generates a range of headline and subheadline options across different registers
 - [ ] At least one option is SEO-aware (keyword-led, clear noun phrase)
 - [ ] No headline fabricates a claim beyond what the article summary supports
 - [ ] Register annotations correctly distinguish print vs. digital context
+- [ ] Output includes at least one concrete next action the user can take immediately (send headline to editor, adapt for social via social-media-excerpt, or run newsletter-teaser-writer)
 
 ## Example
 

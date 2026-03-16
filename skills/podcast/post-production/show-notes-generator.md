@@ -29,9 +29,10 @@ Generates complete, SEO-friendly podcast show notes from a transcript or episode
 3. Generates timestamps for major topic shifts if a transcript with timing is provided, or notes the sections if no timestamps are available
 4. Formats the guest bio (if provided) in a clean paragraph, adding the recommended social follow and website links
 5. Structures the links section: resources mentioned, guest links, show social profiles, sponsor notes
+6. Closes with a "Next Step" line recommending what to do with the output: which platform to paste into, whether to run the episode-summary-writer first if content is thin, or whether transcript-cleanup would improve the source material
 
 ## Output Format
-Complete show notes structured with labeled sections: Episode Description, Key Takeaways, Episode Highlights (with timestamps if available), Guest Bio, Links & Resources. Total length: 350–550 words plus links section. Written for skim-readers: front-loaded value, bullet-point takeaways, clean link formatting. Plain text that pastes cleanly into any platform.
+Complete show notes structured with labeled sections: Episode Description, Key Takeaways, Episode Highlights (with timestamps if available), Guest Bio, Links & Resources. Total length: 350–550 words plus links section. Written for skim-readers: front-loaded value, bullet-point takeaways, clean link formatting. Plain text that pastes cleanly into any platform. Output ends with a brief "Next Step" note specifying the immediate action: paste into podcast host platform, add real URLs to link placeholders, or use episode-summary-writer if the source material was a summary rather than a full transcript.
 
 ## Quality Criteria
 - [ ] Episode description contains the primary keyword naturally within the first sentence
@@ -40,6 +41,7 @@ Complete show notes structured with labeled sections: Episode Description, Key T
 - [ ] Links section is cleanly formatted and includes sponsor disclosure if applicable
 - [ ] Total show notes text is under 600 words (optimal for platform display and listener scanning)
 - [ ] No fabricated quotes or claims from the episode that are not present in the provided summary or transcript
+- [ ] Output includes at least one concrete next action the user can take immediately (e.g., paste into platform, fill in link placeholders, run transcript-cleanup for better source material)
 
 ## Example
 

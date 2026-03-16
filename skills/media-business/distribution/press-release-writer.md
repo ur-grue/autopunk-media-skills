@@ -29,9 +29,10 @@ Writes a professional press release announcing a premiere, commission, award win
 1. Writes a headline that states the news factually — who did what — without promotional language or vague teasers
 2. Opens the body with a lead paragraph that delivers the essential news (who, what, when, where) in 40–60 words, then expands with project description, talent quotes, and background context in descending order of news value
 3. Closes with a standard Notes to Editors section covering production company background, contact details placeholder, and any relevant technical details (running time, broadcaster, release window)
+4. After the release body, provides a "Next Step" note listing the three immediate actions: fill in any remaining placeholder quotes and contacts, identify the specific trade press recipients to target first, and set the distribution date or embargo
 
 ## Output Format
-Headline + body copy + Notes to Editors. Body: 350–500 words. Standard AP/UK trade press format: double-spaced paragraphs, quotes in their own paragraphs, boilerplate at the end. Professional and factual throughout — no marketing language, no exclamation marks, no claims the journalist cannot verify. All quotes clearly attributed. Embargo line at the top if applicable.
+Headline + body copy + Notes to Editors. Body: 350–500 words. Standard AP/UK trade press format: double-spaced paragraphs, quotes in their own paragraphs, boilerplate at the end. Professional and factual throughout — no marketing language, no exclamation marks, no claims the journalist cannot verify. All quotes clearly attributed. Embargo line at the top if applicable. Output ends with a "Next Step" note specifying the immediate actions before distribution: replace placeholders, confirm quotes are approved, and identify which trade press outlets to send to first.
 
 ## Quality Criteria
 - [ ] Headline states the news in under 12 words, no superlatives
@@ -40,6 +41,7 @@ Headline + body copy + Notes to Editors. Body: 350–500 words. Standard AP/UK t
 - [ ] Project description is factual, not promotional
 - [ ] Notes to Editors section present with production company background and contact placeholder
 - [ ] No marketing language ("groundbreaking," "must-see," "landmark") anywhere in the copy
+- [ ] Output includes at least one concrete next action the user can take immediately (replace quote and contact placeholders, approve with named talent, identify first-target trade outlets)
 
 ## Example
 

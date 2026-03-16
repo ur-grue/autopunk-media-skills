@@ -28,9 +28,10 @@ Generates 6–8 distinct editorial angles from a broad topic or news event, each
 2. For each angle, specifies the core question the story would answer, the primary type of reporting required (documents, sources, data, observation), and the most likely publication home
 3. Marks which angles are time-sensitive versus evergreen, and which require significant access versus desk research
 4. Notes where angles overlap with common coverage so the journalist can differentiate their pitch
+5. Closes with a "Next Step" recommendation: which one or two angles to develop first given the user's access and publication target, and whether to run research-brief-creator or headline-generator as the immediate next skill
 
 ## Output Format
-6–8 numbered angle briefs. Each brief includes: Angle Name (3–5 words), Core Question, Reporting Approach (2 sentences), Ideal Publication Type, and a Pitch Line (one sentence, ready to drop into a pitch email). Total length: 500–700 words. No jargon beyond standard editorial vocabulary.
+6–8 numbered angle briefs. Each brief includes: Angle Name (3–5 words), Core Question, Reporting Approach (2 sentences), Ideal Publication Type, and a Pitch Line (one sentence, ready to drop into a pitch email). Total length: 500–700 words. No jargon beyond standard editorial vocabulary. Output ends with a "Next Step" note: which angle to develop first (based on access and publication fit), and which skill to run next — research-brief-creator to build out the reporting plan or headline-generator to refine the pitch line.
 
 ## Quality Criteria
 - [ ] Each angle has a genuinely distinct editorial perspective — not just a different framing of the same story
@@ -39,6 +40,7 @@ Generates 6–8 distinct editorial angles from a broad topic or news event, each
 - [ ] At least one angle is suitable for long-form feature treatment
 - [ ] Pitch lines are publication-ready — specific enough to stand alone in an email
 - [ ] Time-sensitive versus evergreen distinction is made for each angle
+- [ ] Output includes at least one concrete next action the user can take immediately (which angle to develop first, and which skill to run next: research-brief-creator or headline-generator)
 
 ## Example
 

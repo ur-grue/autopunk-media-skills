@@ -28,9 +28,10 @@ Drafts a formal, legally complete Freedom of Information Act request letter to a
 2. Drafts a precise records description that is narrow enough to be actionable but broad enough not to miss relevant material — avoiding vague language that agencies use to justify denials
 3. Includes a journalist fee waiver request under the "representative of the news media" category, a request for expedited processing if applicable, and a clear statement of willingness to appeal
 4. Closes with a firm but professional tone, with a response deadline reminder citing statutory 20-business-day requirement
+5. After the letter, provides a "Next Step" note specifying the three immediate actions: find the agency's specific FOIA portal or mailing address, send via certified mail or the online portal and log the submission date, and calendar a follow-up for day 21 if no acknowledgment is received
 
 ## Output Format
-Single formal letter, 350–600 words. Structured as: sender block, date, agency addressee, subject line, opening paragraph (legal basis), records description section, fee waiver section, expedited processing request (if applicable), closing paragraph (appeal statement), sign-off. No informal language. Business letter formatting.
+Single formal letter, 350–600 words. Structured as: sender block, date, agency addressee, subject line, opening paragraph (legal basis), records description section, fee waiver section, expedited processing request (if applicable), closing paragraph (appeal statement), sign-off. No informal language. Business letter formatting. Output ends with a "Next Step" note: how to file (agency portal URL or mailing address to look up), how to log the submission date for follow-up, and which related skill to run next (document-analysis-summary once records arrive, or investigation-timeline-builder to track the request).
 
 ## Quality Criteria
 - [ ] Cites 5 U.S.C. § 552 explicitly
@@ -39,6 +40,7 @@ Single formal letter, 350–600 words. Structured as: sender block, date, agency
 - [ ] Includes a 20-business-day response deadline reminder
 - [ ] Contains a statement of intent to appeal any improper denial or withholding
 - [ ] Professional, formal register throughout — no hedging or apologetic language
+- [ ] Output includes at least one concrete next action the user can take immediately (locate the agency FOIA portal, send via certified mail, log the submission date, calendar a day-21 follow-up)
 
 ## Example
 

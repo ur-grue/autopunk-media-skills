@@ -41,9 +41,11 @@ Write three opening hook options — one per style — for a YouTube video, podc
 
 4. **Respects the format.** YouTube hooks prioritize visual provocation and pattern interrupts. Podcast hooks rely entirely on language and often work best when they are conversational and surprising. Documentary openings can sustain a slower build — a declarative statement of place or time followed by a pivot.
 
+5. **Recommends the immediate next step.** After delivering the hooks, specifies which to film or record first, and which related skill to use next (seo-title-optimizer to align the title, thumbnail-concept-brief to translate the hook's visual energy, or full-script-writer to expand).
+
 ## Output Format
 
-Three labeled hook options. Each hook: 1–3 sentences, no more. No preamble, no rating, no explanation — just the hooks. After the three options, one line of practical guidance on which style tends to work best for the given format and tone.
+Three labeled hook options. Each hook: 1–3 sentences, no more. No preamble, no rating, no explanation — just the hooks. After the three options, one line of practical guidance on which style tends to work best for the given format and tone. Output ends with a one-line "Next Step" specifying the immediate action: which hook to lead with and which skill to run next.
 
 ```
 **Option 1 — Provocative Question**
@@ -67,6 +69,7 @@ Three labeled hook options. Each hook: 1–3 sentences, no more. No preamble, no
 - [ ] Each option is genuinely distinct — not a rephrasing of the others
 - [ ] Output fits the format: YouTube punchiness, podcast conversational pull, or documentary deliberateness
 - [ ] Guidance note is specific and actionable, not generic
+- [ ] Output includes at least one concrete next action the user can take immediately (which hook to use and what to do next: film it, run seo-title-optimizer, or open full-script-writer)
 
 ## Example
 

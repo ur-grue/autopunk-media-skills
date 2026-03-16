@@ -29,9 +29,10 @@ Turns a rough documentary concept into a complete pitch treatment — including 
 3. Introduces key characters or subjects in the order the film will introduce them — brief, vivid, with a specific detail that makes each person feel real
 4. Describes the visual approach and production methodology (observational, archive-led, hybrid, essay film, etc.) in language that an executive can understand without production background
 5. Closes with a brief production context block: why now, who is making it, and what development or production has occurred
+6. After the treatment, provides a one-sentence "Next Step" specifying the immediate action: which broadcaster or fund to submit to first, whether a logline-creator pass would sharpen the opening hook, or whether a series-bible-generator is needed if the project is multi-part
 
 ## Output Format
-Full pitch treatment, structured with clearly labeled sections: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context. Total length: 600–900 words. Written in present tense (describing the film as if it is happening). Formal but not academic register. No production jargon in the creative sections.
+Full pitch treatment, structured with clearly labeled sections: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context. Total length: 600–900 words. Written in present tense (describing the film as if it is happening). Formal but not academic register. No production jargon in the creative sections. Output ends with a "Next Step" line: the single most important action before submitting this treatment (e.g., verify word count against specific fund guidelines, run logline-creator, or attach a director statement).
 
 ## Quality Criteria
 - [ ] The hook block (first 150 words) communicates premise, tone, and stakes without requiring further reading to understand
@@ -40,6 +41,7 @@ Full pitch treatment, structured with clearly labeled sections: Logline, Overvie
 - [ ] The visual approach section distinguishes this film's methodology from a generic documentary
 - [ ] "Why now" is answered with a specific reason, not a generic claim about the topic's importance
 - [ ] The treatment reads as if it describes a compelling finished film, not a development pitch for a vague idea
+- [ ] Output includes at least one concrete next action the user can take immediately (submit to named fund, run logline-creator, attach director statement, or verify fund-specific word count)
 
 ## Example
 

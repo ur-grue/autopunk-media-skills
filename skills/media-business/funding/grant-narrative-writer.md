@@ -28,9 +28,10 @@ Writes a grant proposal narrative for a media project applying to a public broad
 1. Reads the funder's stated priorities and frames the project's significance through that lens — what specific criterion does this project meet, and why? — without misrepresenting the project to fit a narrative it does not genuinely support
 2. Writes the project description section in the funder's expected register: more formal than a pitch deck, evidence-led where possible, specific about creative and editorial choices rather than vague about "exploring themes"
 3. Addresses the impact and distribution section in concrete terms: who will see this project, where, when, and why that matters to the funder's mandate
+4. Closes with a "Next Step" note specifying the immediate action before submitting: which section needs real distribution evidence added, whether a budget narrative is required separately, and the application deadline to calendar
 
 ## Output Format
-Grant narrative document: Project Description (150–200 words), Significance and Context (150–200 words), Creative Approach (150–200 words), Impact and Distribution (100–150 words). Total 600–750 words. Formal but readable register — this is not a pitch, it is an application. Third person or first person depending on funder convention (default: first person). Each section is usable independently if the application form has separate fields.
+Grant narrative document: Project Description (150–200 words), Significance and Context (150–200 words), Creative Approach (150–200 words), Impact and Distribution (100–150 words). Total 600–750 words. Formal but readable register — this is not a pitch, it is an application. Third person or first person depending on funder convention (default: first person). Each section is usable independently if the application form has separate fields. Output ends with a "Next Step" note: which section is weakest without additional real-world evidence, what to prepare before submitting (budget narrative, director bio, co-funding letters), and a reminder to check the funder's exact word count limits.
 
 ## Quality Criteria
 - [ ] Project description is factual and complete — a panel member with no prior knowledge could understand the project from it alone
@@ -38,6 +39,7 @@ Grant narrative document: Project Description (150–200 words), Significance an
 - [ ] Creative approach section describes specific filmmaking or editorial choices, not intentions
 - [ ] Impact section names concrete distribution targets, audiences, and platforms — not vague claims about "reaching broad audiences"
 - [ ] The funder's stated priorities are addressed explicitly, not assumed to be self-evident
+- [ ] Output includes at least one concrete next action the user can take immediately (add real distribution evidence, prepare budget narrative, check funder word count limits before submitting)
 
 ## Example
 
