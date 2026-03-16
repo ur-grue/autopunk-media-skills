@@ -1,5 +1,82 @@
 {
   "skill_name": "press-release-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Commission announcement for European public broadcaster",
+      "input": {
+        "announcement": "Commission — 3-part documentary series by NRK",
+        "title": "The Weight of Silence",
+        "format": "3 x 52 mins",
+        "production_company": "Northgate Films",
+        "director": "Helena Vass",
+        "broadcaster": "NRK",
+        "subject": "Three deaf musicians navigating careers in the European music industry",
+        "quote_director": "I've wanted to make this series for eight years. These musicians changed the way I think about sound."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Headline factual and within length, lead paragraph delivers full news value. Notes to Editors section complete. No marketing language."
+    },
+    {
+      "id": "tc-02",
+      "description": "Festival premiere announcement",
+      "input": {
+        "announcement": "World premiere at a major international film festival",
+        "title": "Margins",
+        "format": "Feature documentary, 84 minutes",
+        "production_company": "Fieldwork Cinema",
+        "director": "Samuel Okoye",
+        "festival": "International Documentary Festival Amsterdam (IDFA)",
+        "subject": "Documentary following informal economy workers in three African cities",
+        "quote_director": "This film belongs to the people in it. Showing it at IDFA is the beginning of getting it back to them."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Festival premiere format handled correctly. Lead paragraph correctly prioritises the premiere news. Notes to Editors appropriately brief."
+    },
+    {
+      "id": "tc-03",
+      "description": "Podcast season launch",
+      "input": {
+        "announcement": "Season 3 launch of established investigative podcast",
+        "title": "Paper Trail",
+        "format": "Podcast, 8-episode season",
+        "production_company": "Signal Audio",
+        "host": "Marija Novak",
+        "distributor": "Major podcast network",
+        "subject": "Season 3 investigates a decade-long procurement scandal in a European public institution",
+        "release_date": "April 2026",
+        "quote": "Season 3 is the most complex story we've taken on. The documents run to forty thousand pages."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Podcast format adapts well. Investigative framing adds credibility to the announcement. Notes to Editors appropriately includes listening links placeholder."
+    }
+  ],
+  "overall_mean": 4.39,
+  "passed": true
 }

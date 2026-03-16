@@ -1,5 +1,78 @@
 {
   "skill_name": "series-pitch-deck-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.44,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Nature/cultural documentary series for Arte",
+      "input": {
+        "title": "The Last Liguria",
+        "genre": "Documentary series",
+        "subject": "Four elderly fishing families who are the last practitioners of a traditional net-fishing method declared endangered by UNESCO",
+        "episodes": "4 x 52 minutes",
+        "target_audience": "Cultural documentary, 35+, international",
+        "target_broadcaster": "Arte",
+        "comparables": "Clarkson's Farm, My Octopus Teacher, The Rescue"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Strong logline, specific broadcaster rationale, episode structure clearly distinct. Slightly broad in tone section."
+    },
+    {
+      "id": "tc-02",
+      "description": "Crime drama series for US cable/streaming",
+      "input": {
+        "title": "The Intake",
+        "genre": "Drama series",
+        "subject": "A veteran public defender handles five cases over one calendar year, each revealing a different failure point in the criminal justice system",
+        "episodes": "6 x 45 minutes",
+        "target_audience": "Drama audience 25-50, US/international",
+        "target_broadcaster": "AMC",
+        "comparables": "The Wire, Better Call Saul, The Night Of"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Broadcaster rationale slightly generic without named commissioning contact. Comparables section well-handled."
+    },
+    {
+      "id": "tc-03",
+      "description": "Factual entertainment format for BBC Two",
+      "input": {
+        "title": "Repair Index",
+        "genre": "Factual entertainment",
+        "subject": "A travelling repair expert works with local craftspeople to restore objects owners cannot bring themselves to throw away",
+        "episodes": "8 x 30 minutes",
+        "target_audience": "Broad factual, 25-55",
+        "target_broadcaster": "BBC Two",
+        "comparables": "The Repair Shop, Salvage Hunters"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Format overview clear. Episode structure less differentiated for format show, which is realistic. Broadcaster rationale strong."
+    }
+  ],
+  "overall_mean": 4.44,
+  "passed": true
 }

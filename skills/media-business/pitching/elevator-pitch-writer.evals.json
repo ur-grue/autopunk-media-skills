@@ -1,5 +1,72 @@
 {
   "skill_name": "elevator-pitch-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Documentary film about corporate redundancy",
+      "input": {
+        "title": "Exit Interview",
+        "format": "Documentary film, 90 minutes",
+        "subject": "Journalist embeds with an outplacement department helping newly redundant employees in their 50s",
+        "target": "Festival circuit, then broadcaster",
+        "stage": "In development"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Strong hook, natural spoken rhythm, central tension clearly stated. Ends with a forward-leaning call to continue."
+    },
+    {
+      "id": "tc-02",
+      "description": "Podcast series on urban planning",
+      "input": {
+        "title": "Below Grade",
+        "format": "Podcast series, 8 episodes",
+        "subject": "Each episode examines one infrastructure decision made decades ago that continues to shape a city today — traffic patterns, flood risk, housing access",
+        "target": "Podcast listeners, urban professionals, general interest",
+        "stage": "Concept, looking for co-producer"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Format and subject land clearly. Hook slightly weaker for an audio-first pitch. Extended version effectively adds production-stage context."
+    },
+    {
+      "id": "tc-03",
+      "description": "YouTube documentary channel pitch",
+      "input": {
+        "title": "Material Record",
+        "format": "YouTube documentary channel",
+        "subject": "Long-form documentary episodes (20-40 min) profiling overlooked industrial and manufacturing sites across Europe before they close",
+        "target": "History/industrial interest YouTube audience",
+        "stage": "Launched, 12 episodes live, looking for brand partnership"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Pitch adapts well to a brand-meeting context rather than a broadcaster meeting. Good differentiation from general history content."
+    }
+  ],
+  "overall_mean": 4.34,
+  "passed": true
 }

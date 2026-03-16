@@ -1,5 +1,73 @@
 {
   "skill_name": "cold-outreach-email-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Documentary pitch to broadcaster head of docs",
+      "input": {
+        "sender": "Clara Denton, Meridian Films",
+        "project": "THE INVENTORY — documentary following auction house specialist cataloguing a collector's estate",
+        "recipient": "Head of Documentaries, public broadcaster",
+        "stage": "Treatment and showreel ready",
+        "ask": "Introductory call"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Subject line professional, pitch paragraph crisp at two sentences, ask specific. No hyperbole. Closing clear."
+    },
+    {
+      "id": "tc-02",
+      "description": "Series pitch to streaming platform acquisitions",
+      "input": {
+        "sender": "Theo Bergmann, Wide Frame Productions",
+        "project": "THRESHOLD — 6-part drama series, young emergency doctors across three European cities, first year of practice",
+        "recipient": "Acquisitions, international streaming platform",
+        "connection": "Met briefly at Series Mania",
+        "stage": "Scripts for episodes 1-3 complete, broadcaster interest from one European partner",
+        "ask": "Read of first episode script"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Series Mania reference adds warm context without overstating the connection. Script-read ask is the right level of commitment for a cold contact."
+    },
+    {
+      "id": "tc-03",
+      "description": "Podcast pitch to podcast network",
+      "input": {
+        "sender": "Amara Osei, independent producer",
+        "project": "THE PAPER TRAIL — investigative podcast series, each season follows one financial fraud case through documents, interviews, and courtroom audio",
+        "recipient": "Commissioning producer, podcast network",
+        "stage": "Pilot episode complete",
+        "ask": "Listen to pilot episode (link attached)"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Pilot-listen ask is appropriately concrete. Podcast format pitch adapts well to the email format. Slightly less strong on the subject line for audio-first projects."
+    }
+  ],
+  "overall_mean": 4.44,
+  "passed": true
 }

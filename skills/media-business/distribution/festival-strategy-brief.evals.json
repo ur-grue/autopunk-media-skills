@@ -1,5 +1,78 @@
 {
   "skill_name": "festival-strategy-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Finnish/German co-production environmental documentary",
+      "input": {
+        "title": "The Clearing",
+        "format": "Feature documentary",
+        "runtime": "78 minutes",
+        "subject": "Finnish family harvesting peat across three summers as the practice is made illegal",
+        "countries": "Finland / Germany",
+        "completion": "September 2025"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Tiering appropriate for project profile. Sequencing advice correctly flags premiere exclusivity conflict. Deadline caveat present."
+    },
+    {
+      "id": "tc-02",
+      "description": "Short documentary, human rights subject",
+      "input": {
+        "title": "Corridor 9",
+        "format": "Short documentary",
+        "runtime": "22 minutes",
+        "subject": "Portrait of a housing court interpreter who translates eviction proceedings for non-English speaking tenants",
+        "countries": "United States",
+        "completion": "December 2025",
+        "notes": "Aiming for awards eligibility for Academy Award consideration"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Short film tiering correctly differs from feature strategy. Academy Award qualifying festivals correctly prioritised. Deadline caveat present."
+    },
+    {
+      "id": "tc-03",
+      "description": "Post-premiere secondary strategy for already-screened film",
+      "input": {
+        "title": "The Distance Between",
+        "format": "Feature documentary",
+        "runtime": "91 minutes",
+        "subject": "Three estranged siblings reunite to settle their late mother's affairs in a village in Bosnia that was divided during the 1990s conflict",
+        "countries": "Bosnia / Austria / France",
+        "completion": "Already completed",
+        "premiere": "World premiere completed at Sarajevo Film Festival",
+        "notes": "Need secondary strategy for continued circulation"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Post-premiere strategy correctly focuses on international premieres and specialist circuits. Co-production countries used to identify appropriate regional festivals."
+    }
+  ],
+  "overall_mean": 4.22,
+  "passed": true
 }
