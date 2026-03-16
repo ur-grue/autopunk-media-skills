@@ -1,5 +1,55 @@
 {
   "skill_name": "series-bible-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "3-part series on the decline of independent bookshops in small American towns. Personal stories of owners, economic analysis of why they're closing, and profiles of towns that found ways to save them. Target: PBS documentary strand.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Series arc was clear — problem/depth/resolution structure worked well. Logline captured both human and structural dimensions. Commissioning argument was relevant to PBS's audience."
+    },
+    {
+      "id": "tc2",
+      "input": "5-part series following an archaeological dig uncovering a previously unknown medieval settlement in Northern Europe. International co-production. Mix of on-site documentary and expert interviews.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Episode breakdowns correctly showed a multi-season discovery arc rather than five standalone episodes. Noted the co-production context and flagged the limitation around territory-specific commissioning arguments."
+    },
+    {
+      "id": "tc3",
+      "input": "2-part documentary about a contested land rights case between an Indigenous community and a mining company. Concept provided as rough notes with no episode-level breakdowns. Streamer target.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Handled thin input gracefully — proposed a logical two-episode structure from the concept rather than failing on missing episode breakdowns. Tone section correctly avoided taking sides while acknowledging the series' structural point of view."
+    }
+  ]
 }
