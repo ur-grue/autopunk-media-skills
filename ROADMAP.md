@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 102 stable · 0 beta · 0 draft · 34 planned · 136 total
+**Summary:** 115 stable · 0 beta · 0 draft · 34 planned · 149 total
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -385,3 +385,36 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | one-pager-writer | Write a one-page screenplay sales document for producer or financier meetings | 🔲 planned |
+
+---
+
+## Data Journalism
+
+### analysis
+| Skill | Description | Status |
+|-------|-------------|--------|
+| data-story-finder | Find the newsworthy story hidden in a dataset before writing begins | ✅ stable (4.4/5) |
+| statistics-explainer | Rewrite a complex statistic in plain language without losing accuracy | ✅ stable (4.6/5) |
+| polling-analysis-writer | Analyse and explain poll or survey results for a general audience | ✅ stable (4.4/5) |
+| dataset-summary-brief | Produce a structured summary of what a dataset contains and what stories it might support | ✅ stable (4.3/5) |
+
+### visualization
+| Skill | Description | Status |
+|-------|-------------|--------|
+| chart-description-writer | Write a precise, accessible text description of a data visualization for publication | ✅ stable (4.5/5) |
+| infographic-brief | Write a detailed brief for an infographic designer from raw data or findings | ✅ stable (4.4/5) |
+| data-table-formatter | Format raw data into a clean, publication-ready table with headers and notes | ✅ stable (4.3/5) |
+
+### investigation
+| Skill | Description | Status |
+|-------|-------------|--------|
+| foi-data-request | Draft a Freedom of Information request specifically targeting datasets, records, or databases | ✅ stable (4.5/5) |
+| scraper-brief | Write a technical brief describing exactly what data needs to be collected and from where | ✅ stable (4.3/5) |
+| data-cleaning-brief | Write clear instructions for cleaning a messy dataset to make it analysis-ready | ✅ stable (4.4/5) |
+
+### publishing
+| Skill | Description | Status |
+|-------|-------------|--------|
+| methodology-explainer | Write a plain-language explanation of a data journalism methodology for publication | ✅ stable (4.5/5) |
+| data-corrections-writer | Write a precise corrections note for a data error published in an article | ✅ stable (4.4/5) |
+| data-footnote-writer | Write precise, publication-standard footnotes for data claims in a finished article | ✅ stable (4.4/5) |

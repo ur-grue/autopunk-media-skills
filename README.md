@@ -110,7 +110,8 @@ That's the quality level you get from every stable skill in this library.
 | Newsletter | 10 skills | writing · strategy · growth · monetization |
 | PR / Communications | 9 skills | press office · crisis comms · media relations · content |
 | Screenwriting | 9 skills | development · scripting · revision · production |
-| **Total** | **140 skills** | |
+| Data Journalism | 13 skills | analysis · visualization · investigation · publishing |
+| **Total** | **153 skills** | |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
