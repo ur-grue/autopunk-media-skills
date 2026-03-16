@@ -1,5 +1,55 @@
 {
   "skill_name": "press-kit-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Political documentary about election monitoring in a developing country. Director: first-time feature director. No broadcast deal confirmed yet. Full credits and one key subject provided.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Three synopsis lengths were genuinely differentiated in scope and emphasis. Production Notes was correctly adjusted for a first-time director — focused on the project's origins rather than director's track record. No confirmed broadcast was handled cleanly."
+    },
+    {
+      "id": "tc2",
+      "input": "Music documentary about an aging jazz musician. Full production details including festival history, critical quotes, streaming deal with a major platform.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Critical quotes were integrated naturally into the Production Notes. Subject profile captured the musician's biography in relation to the film rather than as a standalone biography. All three synopsis lengths worked for their stated contexts."
+    },
+    {
+      "id": "tc3",
+      "input": "Short documentary (22 minutes) about a local community art project. Minimal credits. No broadcast partner. Festival submission context.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Scale was correctly adjusted for a short film — Production Notes was brief and specific rather than padding. Festival submission context informed the synopsis tone. Thin credits block was handled cleanly."
+    }
+  ]
 }
