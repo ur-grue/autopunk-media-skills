@@ -1,5 +1,65 @@
 {
   "skill_name": "editorial-photo-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Agricultural worker in greenhouse — magazine article on indoor farming economics, quiet melancholic register",
+      "input_summary": "Specific subject, editorial context provided, emotional register specified, documentary photographer aesthetic, 16:9 web article header",
+      "output_summary": "Prompt describes specific believable scene (hands adjusting root bundle, face in partial shadow); lighting is specific (diffuse light through polycarbonate panels); negative prompts actively exclude stock photo clichés; variation offers wider environmental shot; content note on AI + real people included",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Empty school classroom — editorial piece on declining enrollment in rural schools",
+      "input_summary": "No human subjects (environment-only), editorial context is social issue (education decline), melancholic absent-presence quality needed",
+      "output_summary": "Prompt correctly shifts to environmental storytelling (absence as subject); specific details added (small desks, faded alphabet wall chart, afternoon light through windows, one jacket on a hook); nothing generic; feels like a photojournalist image rather than stock",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_003",
+      "description": "Street interview in an urban market — documentary piece on informal economy",
+      "input_summary": "Two people in conversation, busy market background, documentary candid quality, global south urban context",
+      "output_summary": "Prompt describes specific market elements (stacked goods, overlapping stalls, ambient light); interaction framed as clearly spontaneous not posed; background density creates authenticity; limitation about Flux and complex multi-person scenes noted",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The most important quality differentiator is the specificity of the scene description — generic editorial prompts produce generic results. The skill consistently produces prompts with specific, believable details rather than categorical descriptions. The AI ethics note about using generated images in journalism is a necessary professionalism element."
 }
