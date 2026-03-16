@@ -1,5 +1,61 @@
 {
   "skill_name": "boilerplate-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.6,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "UK public sector training organisation — three length variants, accredited, CMI",
+      "input_summary": "Fernwood Institute; public sector manager training; founded 2004; UK/Ireland/Canada; 220 staff; 18,000/year; CMI accredited; professional-accessible tone",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "All three variants delivered at correct word counts. Each is a standalone paragraph — not a truncation of the longer version. CMI accreditation integrated naturally. No unsupported superlatives. Website URL present in all three. Third-person throughout."
+    },
+    {
+      "id": "tc-002",
+      "description": "Start-up tech company — no founding date provided, two geography markers, standard only",
+      "input_summary": "Caldera Analytics; AI-powered supply chain software; Series B funded; operations in US and Germany; 85 employees; no founding date given; requesting standard boilerplate only",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Correctly produced standard version only as requested. Relevance note: output added 'fast-growing' in the first sentence — not supported by the input. Should have been flagged or omitted. Consistency: reproduced all provided facts accurately. Professionalism: 'Series B funded' correctly included as a credibility marker without being turned into marketing language."
+    },
+    {
+      "id": "tc-003",
+      "description": "Non-profit arts organisation — mission-driven tone, no revenue figures, founding story relevant",
+      "input_summary": "Lakeshore Arts Collective; supports emerging artists in the Great Lakes region; founded by three artists in 2011; 4,000 members; runs annual festival and year-round grant programme; mission-driven tone requested",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Mission-driven tone well calibrated — warmer register than corporate boilerplate without tipping into promotional copy. Coherence slightly lower: the standard version attempted to include both the founding story and current programmes, making the sentence structure slightly convoluted. A cleaner draft would prioritise current activity. Fluency: one sentence used passive voice unnecessarily."
+    }
+  ]
 }

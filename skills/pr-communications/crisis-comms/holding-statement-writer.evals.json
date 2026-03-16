@@ -1,5 +1,61 @@
 {
   "skill_name": "holding-statement-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 5.0,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Staff dismissal / financial misconduct allegations — limited facts confirmed, full statement by 5 p.m.",
+      "input_summary": "Waverly & Partners; staff member dismissed; reason not yet disclosable; media asking about financial misconduct allegations; full statement promised by 5 p.m.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Acknowledges the subject directly without confirming the allegation. Confirms the single disclosed fact (staff no longer employed) without elaboration. Gives specific commitment (5 p.m. statement). Provides a media contact. 82 words — within target range. No platitudes."
+    },
+    {
+      "id": "tc-002",
+      "description": "Environmental spill — river contamination reported by local media, facts unconfirmed at time of inquiry",
+      "input_summary": "Halcyon Chemical; local media reporting river contamination near plant; organisation has not confirmed or denied; environmental agency has been contacted by the organisation; internal assessment underway; update expected following environmental agency visit tomorrow morning",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Correctly confirmed the environmental agency contact as a verifiable action without pre-judging the investigation outcome. Fluency note: one sentence used 'we are actively monitoring the situation' — borderline platitude, not a specific action. Professionalism note: the holding statement walked correctly up to but not across the legal exposure line. Actionability: tomorrow morning is a reasonable timeframe, but would benefit from a specific time (e.g., '10 a.m.')."
+    },
+    {
+      "id": "tc-003",
+      "description": "Social media post causing public controversy — organisation account, post deleted, no further info yet",
+      "input_summary": "Veritas Publishing; a social media post published from the organisation account caused public backlash; post has been deleted; no information yet on how post was published or who approved it; communications team working to establish facts; update by end of business day",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 3
+      },
+      "mean": 4.0,
+      "notes": "Correctly acknowledged the post and its deletion as confirmed facts. Relevance deduction: output added an apology for the post's content without the organisation having authorised this — an overreach given the input did not indicate an apology was approved. Actionability note: 'end of business day' is weaker than a specific time; flagged. Coherence note: second paragraph was slightly circular. Overall passes threshold at 4.0."
+    }
+  ]
 }

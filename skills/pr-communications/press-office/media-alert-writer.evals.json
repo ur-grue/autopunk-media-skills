@@ -1,5 +1,61 @@
 {
   "skill_name": "media-alert-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Rooftop farm opening — full media access, first in state, photography permitted",
+      "input_summary": "Greenway Urban Farms opening Oregon's first inner-city rooftop farm in Portland; CEO speaker; full photo access; RSVP to comms manager",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "All five WHAT/WHEN/WHERE/WHO/WHY fields present and concise. Lead sentence answers the key news peg. Logistics scannable at a glance. RSVP block correctly formatted. Word count within target range."
+    },
+    {
+      "id": "tc-002",
+      "description": "Government minister press conference — policy announcement, restricted media access, accreditation required",
+      "input_summary": "State housing minister announcing affordable housing target increase; Ministry of Housing press conference; restricted to accredited parliamentary media; embargoed briefing notes available on arrival",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Correctly noted accreditation requirement in RSVP section. Minor fluency issue: the WHY field ran to three sentences, breaking the scannable format. Professionalism note: output used 'groundbreaking announcement' in the context paragraph — not flagged as unsupported, which is a limitation. Consistency: all provided facts reproduced correctly."
+    },
+    {
+      "id": "tc-003",
+      "description": "Sports team unveils new kit — commercial event, photo opportunity only, no editorial access",
+      "input_summary": "Northern Athletic FC unveiling new home strip at club stadium; photo opportunity only, no interviews; two first-team players attending; event is commercial partnership launch with sports brand",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 3,
+        "actionability": 3
+      },
+      "mean": 3.83,
+      "notes": "Lower professionalism and actionability scores: output did not make sufficiently clear that the event was a commercial photo call with no editorial interview access — this distinction is critical for journalists deciding whether to assign a photographer vs a reporter. A revision pass was made to add an explicit 'Photo opportunity only — no spokesperson interviews available' note under the WHAT field. Revised scores: professionalism 4, actionability 4, mean 4.17."
+    }
+  ]
 }

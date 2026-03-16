@@ -1,5 +1,61 @@
 {
   "skill_name": "faq-document-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Pharmaceutical labelling error — batch recall, MHRA notified, no patient harm, contractor name restricted",
+      "input_summary": "Northgate Pharma Distribution; blood pressure medication labelling error; 47 pharmacies; internal audit identified issue; MHRA notified; recall underway; no adverse outcomes; cause under investigation; contractor name not approved for disclosure",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Questions phrased in journalist register, not internal talking-point language. Answers consistent with approved information only. 'Cannot comment' position handled with bridging language rather than blank refusal. Patient safety question answered responsibly without overreach. Internal note correctly appended for spokesperson guidance."
+    },
+    {
+      "id": "tc-002",
+      "description": "School safeguarding concern — local authority investigation, head teacher on leave, parents informed",
+      "input_summary": "Hillcrest Academy; safeguarding concern raised; head teacher on administrative leave; local authority investigation in progress; parents notified by letter; school remains open; no student names to be disclosed; DfE notified",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Correctly treated safeguarding as a sensitive category requiring careful language. Questions included the most likely parent-facing media angles ('Is my child safe?', 'Why wasn't this caught earlier?'). Fluency note: one answer used 'at this moment in time' — redundant phrase. Professionalism note: one answer implied the head teacher's absence was voluntary rather than administrative leave — not factually consistent with the briefing."
+    },
+    {
+      "id": "tc-003",
+      "description": "Airline technical fault — emergency landing, no injuries, safety investigation launched, two flights affected",
+      "input_summary": "Corvin Air; two flights declared technical emergencies and landed safely at diversion airports; no injuries to passengers or crew; cause under investigation by aviation safety authority; airline cooperating; compensation process to be confirmed",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Strong consistency — all facts in answers traceable to the briefing. Coherence note: the document opened with a question about compensation before addressing passenger safety — structurally wrong; safety questions should come first in an aviation incident FAQ. Relevance note: included a question about the airline's safety record in general, which was not prompted by the briefing and could create unnecessary scope for negative coverage. Revised ordering would improve actionability."
+    }
+  ]
 }

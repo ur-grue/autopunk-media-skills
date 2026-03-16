@@ -1,5 +1,61 @@
 {
   "skill_name": "press-release-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.6,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.6,
+    "relevance": 4.7,
+    "professionalism": 4.5,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Non-profit telehealth hub opening — philanthropy-funded, two spokespeople, no embargo",
+      "input_summary": "Meridian Health Network opens $12M telehealth hub in Phoenix serving 400,000 rural patients; quotes from CMO and foundation director; no embargo",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Textbook inverted-pyramid structure. Headline states news value clearly. Opening paragraph answers all five Ws. Quotes placed correctly after first paragraph. Wire-ready formatting including dateline, boilerplate, contact block, and end mark."
+    },
+    {
+      "id": "tc-002",
+      "description": "Tech company executive appointment — single spokesperson, no second quote, embargo 7 days",
+      "input_summary": "Harlow Systems appoints Priya Nair as Chief Technology Officer; previously VP Engineering at a fintech; quote from CEO about strategic hire; embargo until March 23",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Solid structure and correct embargo formatting. Relevance deduction: output included a generic paragraph about the company's growth trajectory not grounded in the input. Claude flagged the detail as unconfirmed, which is correct behaviour, but the paragraph still appeared in the draft — slight actionability cost. Consistency note: all provided facts reproduced accurately."
+    },
+    {
+      "id": "tc-003",
+      "description": "Industry award win — single spokesperson, data point, trade publication target",
+      "input_summary": "Castlebrook Architecture wins Building Industry Association award for sustainable design on a public library project; 40% reduction in energy use; quote from founding partner; targeting trade press",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Strong trade-register calibration. Technical vocabulary appropriate for architecture press. Coherence slightly lower: transitional sentence between award context and methodology paragraph was awkward. One sentence in body ran to 45 words — borderline for wire style. All facts consistent with input."
+    }
+  ]
 }
