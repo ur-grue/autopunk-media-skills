@@ -28,9 +28,10 @@ Produces structured editorial notes from a rough cut description, identifying st
 2. Identifies structural problems first: scenes in the wrong order, missing elements, overlong sections that slow the film's forward momentum, and undercooked sections that leave questions unanswered
 3. Identifies character and narrative issues: are the subjects' arcs coherent across the cut, does the film's central argument land, are there contradictions in the editorial logic
 4. Produces notes in priority order — structural issues first, then pacing, then language and detail — and pairs each note with a specific suggested solution
+5. After the notes, provides a "Next Step" note: which single structural change will have the greatest impact if only one note is acted on, whether to schedule a director-editor session around the top note before the next cut, and the estimated time saving if the pacing notes are implemented
 
 ## Output Format
-Tiered notes document. Sections: Structural Notes (things that affect the whole film), Sequence-Level Notes (specific scenes or sections), Pacing Notes (running time and energy issues), Narrative/Character Notes (story and subject issues), and Positive Observations (what is working). Each note: Issue Description | Impact | Suggested Fix. Notes are numbered for easy reference in conversation with an editor or director. Total length: 600–1000 words depending on cut complexity.
+Tiered notes document. Sections: Structural Notes (things that affect the whole film), Sequence-Level Notes (specific scenes or sections), Pacing Notes (running time and energy issues), Narrative/Character Notes (story and subject issues), and Positive Observations (what is working). Each note: Issue Description | Impact | Suggested Fix. Notes are numbered for easy reference in conversation with an editor or director. Total length: 600–1000 words depending on cut complexity. Output ends with a "Next Step" note: the single highest-priority change to make before the next cut, the estimated runtime saving if pacing notes are followed, and whether a director-editor review session should be scheduled around the structural notes.
 
 ## Quality Criteria
 - [ ] Structural notes distinguish between symptoms and causes — identifies why a section isn't working, not just that it doesn't work
@@ -38,6 +39,7 @@ Tiered notes document. Sections: Structural Notes (things that affect the whole 
 - [ ] Positive observations section is genuine — identifies real strengths, not generic encouragement
 - [ ] Notes are in priority order, with the most significant structural issues first
 - [ ] Language is direct and constructive — written to be shared with the editing team
+- [ ] Output includes at least one concrete next action the user can take immediately (implement the top structural note, schedule a director-editor review, or estimate the trim needed to reach target runtime)
 
 ## Example
 

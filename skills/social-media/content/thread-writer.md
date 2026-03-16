@@ -28,9 +28,10 @@ Writes a structured Twitter/X thread expanding on a media story, documentary sub
 1. Structures the thread before writing — identifies the opening hook, the logical sequence of the argument or story, and the close. A thread that wanders or repeats itself is worse than no thread.
 2. Writes the opening tweet to function as a standalone statement: it should convey the most interesting or surprising claim in the thread so that someone who reads only the first tweet still gets value — and ideally wants to keep reading
 3. Writes each subsequent tweet to advance the argument or story by one clear step, closing with a tweet that either asks a question, makes a call to action, or lands a final thought that invites response
+4. After the thread, provides a "Next Step" note: paste each tweet into the Twitter/X composer to verify character counts before posting, schedule the thread for a weekday morning for maximum reach, and whether caption-writer should be run to create Instagram or LinkedIn adaptations of the same content
 
 ## Output Format
-Numbered tweet list. Each tweet: 220–280 characters (within the Twitter/X limit). Total thread length specified by user (default: 8–10 tweets). Each tweet is usable independently if needed. Thread header (tweet 1) clearly marked as the lead. A separate one-paragraph summary of the thread's core argument is provided for reference. No tweet uses all-caps except for emphasis on a single word.
+Numbered tweet list. Each tweet: 220–280 characters (within the Twitter/X limit). Total thread length specified by user (default: 8–10 tweets). Each tweet is usable independently if needed. Thread header (tweet 1) clearly marked as the lead. A separate one-paragraph summary of the thread's core argument is provided for reference. No tweet uses all-caps except for emphasis on a single word. Output ends with a "Next Step" note: verify character counts in the composer, schedule the post, and run caption-writer to repurpose the thread content for Instagram or LinkedIn.
 
 ## Quality Criteria
 - [ ] Tweet 1 is a standalone statement — it conveys the core claim without requiring the rest of the thread to make sense
@@ -39,6 +40,7 @@ Numbered tweet list. Each tweet: 220–280 characters (within the Twitter/X limi
 - [ ] No tweet begins with "So..." or "I mean..." or other verbal filler
 - [ ] The close (final tweet) invites response — a question, a provocative claim, or a clear statement of consequence
 - [ ] Character counts are within 280 per tweet
+- [ ] Output includes at least one concrete next action the user can take immediately (verify in the composer, schedule the thread, or run caption-writer for cross-platform repurposing)
 
 ## Example
 

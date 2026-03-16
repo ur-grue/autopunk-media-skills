@@ -29,9 +29,10 @@ Generates a complete documentary press kit from a synopsis and key production fa
 3. Creates subject profiles for the key documentary subjects featured in the film
 4. Assembles the full credits block from the information provided
 5. Adds an About the Filmmaker section from the director information provided
+6. After the kit, provides a "Next Step" note: identify which synopsis length to send to which outlets (50-word for festival databases, 150-word for press releases, 400-word for full media packs), attach high-resolution stills before distributing, and whether press-release-writer should be run to create the announcement press release
 
 ## Output Format
-Complete press kit document, 800–1,400 words. Sections: Film Details (formatted metadata block), Logline, Short Synopsis (50 words), Medium Synopsis (150 words), Long Synopsis (400 words), Production Notes (200 words), Key Subjects (75–100 words each), About the Director (100 words), Full Credits. Press/media register — written to be published without editing.
+Complete press kit document, 800–1,400 words. Sections: Film Details (formatted metadata block), Logline, Short Synopsis (50 words), Medium Synopsis (150 words), Long Synopsis (400 words), Production Notes (200 words), Key Subjects (75–100 words each), About the Director (100 words), Full Credits. Press/media register — written to be published without editing. Output ends with a "Next Step" note: which synopsis to send to each outlet type, what visual assets to attach before distributing, and whether press-release-writer is needed for the formal announcement.
 
 ## Quality Criteria
 - [ ] Three synopsis lengths are genuinely different in scope, not just truncated versions of each other
@@ -39,6 +40,7 @@ Complete press kit document, 800–1,400 words. Sections: Film Details (formatte
 - [ ] Production Notes includes at least one specific detail about access, approach, or production context — not generic project description
 - [ ] Subject profiles distinguish each person's specific role in the film, not just their biography
 - [ ] All sections are publication-ready — no placeholders, no hedging, no internal-document language
+- [ ] Output includes at least one concrete next action the user can take immediately (attach stills, select the right synopsis length for each outlet, or run press-release-writer for the announcement)
 
 ## Example
 

@@ -28,9 +28,10 @@ Writes a tight 60-second verbal pitch for a media project — film, series, podc
 1. Identifies the single most arresting thing about the project — the hook — and opens with it: a counterintuitive fact, a vivid image, a question the audience cannot answer yet
 2. Delivers the essential format and subject information in plain language in the fewest possible words, then names the central dramatic or editorial tension that drives the whole project
 3. Closes with a clear statement of what makes this project distinctive and a single sentence that invites the next question — leaving the listener wanting to hear more, not feeling they have already heard everything
+4. After the pitch, provides a "Next Step" note: practice the pitch aloud before any meeting, run cold-outreach-email-writer to create a follow-up email for after the conversation, and which specific meeting or event to use this pitch at first
 
 ## Output Format
-A single block of spoken prose, 150–180 words (approximately 60 seconds at natural speaking pace). Written to sound like confident, natural speech — not a recited press release. Short sentences. No jargon. Ends on a note of forward energy, not summary. Optionally followed by a 2–3 sentence "extended version" that can be used if the conversation continues.
+A single block of spoken prose, 150–180 words (approximately 60 seconds at natural speaking pace). Written to sound like confident, natural speech — not a recited press release. Short sentences. No jargon. Ends on a note of forward energy, not summary. Optionally followed by a 2–3 sentence "extended version" that can be used if the conversation continues. Output ends with a "Next Step" note: read the pitch aloud at least three times to find the natural rhythm, and run cold-outreach-email-writer to create a follow-up email ready to send after the meeting.
 
 ## Quality Criteria
 - [ ] Opens with a hook — not the title or the logline
@@ -39,6 +40,7 @@ A single block of spoken prose, 150–180 words (approximately 60 seconds at nat
 - [ ] Uses no industry jargon that a non-professional could not understand
 - [ ] Ends with a sentence that invites a question or a "tell me more" response
 - [ ] Reads naturally at speaking pace — no sentences over 20 words
+- [ ] Output includes at least one concrete next action the user can take immediately (practice aloud, run cold-outreach-email-writer, or identify the specific meeting to use this pitch at)
 
 ## Example
 

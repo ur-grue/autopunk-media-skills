@@ -29,9 +29,10 @@ Produces a structured, host-ready research brief on an upcoming podcast guest �
 3. Surfaces the most interesting angle or tension in the guest's work — the point where their position is most contested, most counterintuitive, or most relevant to the show's audience
 4. Notes any previous podcast appearances or interviews on similar topics, and what ground has already been well-covered — so the host can go beyond the standard version of the conversation
 5. Suggests 5–7 specific questions or areas that would produce genuinely new conversation, based on the research
+6. After the brief, provides a "Next Step" note: which suggested question to open with to establish the most productive conversation direction, whether to run interview-question-builder to expand the question set, and what to confirm with the guest (or their publicist) before recording
 
 ## Output Format
-Structured brief with five sections: Guest Overview (3–5 sentences), Key Work Summary (100–150 words), Most Interesting Angle (1 paragraph), Ground Already Covered (list of 3–5 points from other appearances), and Suggested Questions (5–7 specific questions). Total length: 400–600 words. Factual, neutral register — written for a host, not an audience.
+Structured brief with five sections: Guest Overview (3–5 sentences), Key Work Summary (100–150 words), Most Interesting Angle (1 paragraph), Ground Already Covered (list of 3–5 points from other appearances), and Suggested Questions (5–7 specific questions). Total length: 400–600 words. Factual, neutral register — written for a host, not an audience. Output ends with a "Next Step" note: which opening question to lead with, whether to run interview-question-builder to build out the full question set, and what to confirm with the guest before recording (topics to avoid, technical requirements, preferred intro).
 
 ## Quality Criteria
 - [ ] Guest Overview is accurate to what was provided — no fabricated biographical details
@@ -40,6 +41,7 @@ Structured brief with five sections: Guest Overview (3–5 sentences), Key Work 
 - [ ] Ground Already Covered helps the host differentiate their conversation — it is not a complaint about the guest being over-exposed
 - [ ] Suggested questions are open-ended and go beyond what has been covered in prior appearances
 - [ ] Brief is usable by a host who has had no prior contact with the guest or their work
+- [ ] Output includes at least one concrete next action the user can take immediately (confirm the opening question, run interview-question-builder, or reach out to the guest to confirm recording logistics)
 
 ## Example
 

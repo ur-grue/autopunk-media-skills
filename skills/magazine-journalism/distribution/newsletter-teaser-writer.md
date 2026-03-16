@@ -29,9 +29,10 @@ Writes a short, high-click newsletter teaser for a published article — includi
 3. Generates 3 subject line options across different emotional registers (curiosity, urgency, direct)
 4. Writes preview text (the 50–80 character snippet visible in inbox before opening) that complements the subject line rather than repeating it
 5. Structures the full package: subject line options, preview text, teaser body, and a single in-text link cue ("Read the full piece →")
+6. After the package, provides a "Next Step" note: which subject line to use for the primary send, whether to A/B test subject lines C vs. A, and whether social-media-excerpt should be run to create platform posts that drive traffic from the same article
 
 ## Output Format
-Full newsletter teaser package: 3 subject line options (annotated with register), 1 preview text option, teaser body (70–120 words), and link cue line. Total output length: 250–350 words. Plain prose — no HTML, no headers. Formatted to copy-paste into any newsletter platform.
+Full newsletter teaser package: 3 subject line options (annotated with register), 1 preview text option, teaser body (70–120 words), and link cue line. Total output length: 250–350 words. Plain prose — no HTML, no headers. Formatted to copy-paste into any newsletter platform. Output ends with a "Next Step" note: which subject line to send first, whether to run an A/B test on two options, and whether to run social-media-excerpt to extend the article's reach across platforms.
 
 ## Quality Criteria
 - [ ] The teaser creates curiosity without summarizing the article — a reader who finishes the teaser should still need to click to get the answer
@@ -40,6 +41,7 @@ Full newsletter teaser package: 3 subject line options (annotated with register)
 - [ ] The teaser body has a single clear hook sentence in the first line
 - [ ] Tone matches the specified publication register throughout all components
 - [ ] The link cue appears exactly once and is unambiguous
+- [ ] Output includes at least one concrete next action the user can take immediately (select a subject line, schedule the send, or run social-media-excerpt for additional distribution)
 
 ## Example
 

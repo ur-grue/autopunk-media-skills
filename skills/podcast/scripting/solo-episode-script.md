@@ -39,6 +39,7 @@ Writes a complete solo episode script for a host-led narrative or educational po
 3. Writes for spoken delivery throughout — short sentences, active voice, natural rhythm, deliberate use of pause and repetition, no academic or formal register unless the show calls for it
 4. Inserts production notes for the host in brackets: [PAUSE], [SLOW DOWN HERE], [THIS IS YOUR BEAT], [INSERT CLIP] — practical guidance, not just copy
 5. Closes with a strong ending and a specific, low-friction call to action (subscribe, leave a review, one recommended action relevant to the episode topic)
+6. After the script, provides a "Next Step" note: do a timed read-through before recording to confirm runtime, identify any sections flagged for technical research verification, and run show-notes-generator to create publish-ready show notes from this script
 
 ## Output Format
 - Full script from first word to last, formatted for reading aloud
@@ -47,6 +48,7 @@ Writes a complete solo episode script for a host-led narrative or educational po
 - Sections labeled with time estimates (e.g., **[00:00–01:30] HOOK**)
 - Tone: matches stated host voice; defaults to warm-conversational if no voice guidance is given
 - No headers or bullet points in the body text — it should read as continuous spoken prose
+- Output ends with a "Next Step" note: read aloud and time before recording, flag any technical claims for verification, and run show-notes-generator to create the episode's publish assets from this script
 
 ## Quality Criteria
 - [ ] The hook creates genuine curiosity or emotional investment within the first 3 sentences
@@ -54,6 +56,7 @@ Writes a complete solo episode script for a host-led narrative or educational po
 - [ ] The script reads naturally when read aloud — no sentence that a human would not actually say
 - [ ] Transitions between segments are written, not assumed — the listener should never feel a hard cut
 - [ ] The closing is memorable — not just a list of instructions to subscribe
+- [ ] Output includes at least one concrete next action the user can take immediately (timed read-through, verification of technical claims, or running show-notes-generator)
 
 ## Example
 

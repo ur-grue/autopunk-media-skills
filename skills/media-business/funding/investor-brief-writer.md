@@ -28,9 +28,10 @@ Writes a concise investor brief for a commercial media project, covering market 
 1. Opens with the commercial proposition, not the creative vision — what is the market, what is the product, and what is the financial structure being offered to investors
 2. Presents the project description and talent in the context of commercial track record and market comparables — using box office, streaming viewership data, or documented audience figures from comparable projects where possible
 3. Outlines the investment structure clearly: total budget, amount being raised, revenue waterfall structure, recoupment mechanism, and timeline — with a brief risk section that identifies the primary commercial risks honestly
+4. Closes with a specific "Next Steps" section directing the investor to a concrete action: schedule the 30-minute presentation call, request the full financial model under NDA, or confirm interest before the financing round closes
 
 ## Output Format
-Two-page investment brief: Executive Summary (150 words), The Project (150 words), Market and Comparables (150 words), Investment Structure (200 words), Risk Factors (100 words), Next Steps (50 words). Total ~800 words. Professional financial register — direct, factual, no creative language in the investment structure section. Numbers prominently displayed. All speculative projections clearly labelled as projections.
+Two-page investment brief: Executive Summary (150 words), The Project (150 words), Market and Comparables (150 words), Investment Structure (200 words), Risk Factors (100 words), Next Steps (50 words). Total ~800 words. Professional financial register — direct, factual, no creative language in the investment structure section. Numbers prominently displayed. All speculative projections clearly labelled as projections. The Next Steps section must specify a single concrete action for the investor and a contact method — not a vague invitation to get in touch.
 
 ## Quality Criteria
 - [ ] Executive summary leads with the financial structure and the ask, not the creative premise
@@ -39,6 +40,7 @@ Two-page investment brief: Executive Summary (150 words), The Project (150 words
 - [ ] Revenue model is realistic — multiple revenue streams identified and described separately
 - [ ] Risk factors section is genuine — at least two material risks named and explained
 - [ ] Speculative financial projections are clearly labelled as projections, not facts
+- [ ] Output includes at least one concrete next action the user can take immediately (send the brief to a named investor, book the legal review before sharing, or use the Next Steps section as the basis for follow-up outreach)
 
 ## Example
 

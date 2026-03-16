@@ -27,12 +27,13 @@ Reviews a draft article and returns a structured list of grammatical errors, sty
 1. Reads the full draft and categorizes issues into three tiers: Tier 1 (errors — things that are wrong by the stated style standard and must be changed), Tier 2 (inconsistencies — things that are used two different ways in the same piece and need to be made consistent), and Tier 3 (suggestions — things that are not wrong but would benefit from rewording for clarity or flow).
 2. For each flagged item: quotes the original text, provides the correction, and gives a one-line rationale citing the rule or reason (not just "fix this").
 3. Returns items in document order so the writer can work through them linearly. Ends with a brief summary: how many Tier 1, 2, and 3 items, and an overall verdict on the draft's readiness (ready to submit, needs one more pass, requires significant line editing).
+4. After the summary, provides a "Next Step" note: work through Tier 1 items first (in document order), run fact-check-prompt separately for any statistical or attributed claims, and confirm with the specific publication's house style guide if using general AP/Chicago standards
 
 ## Output Format
 Numbered list of flagged items, each formatted as:
 - **[Tier 1/2/3] [Location cue — e.g., "Para 3"]:** "Original text" → "Corrected text" — *Rationale*
 
-Summary paragraph at the end. No rewriting of full paragraphs — corrections are targeted and specific. For a typical 1,500-word draft, expect 8–20 flagged items depending on draft quality.
+Summary paragraph at the end. No rewriting of full paragraphs — corrections are targeted and specific. For a typical 1,500-word draft, expect 8–20 flagged items depending on draft quality. Output ends with a "Next Step" note: address all Tier 1 items before submission, run fact-check-prompt for claim verification, and check any house-style-enforcer rules if submitting to a publication with a bespoke style sheet.
 
 ## Quality Criteria
 - [ ] Every flagged item includes an original text quote, a correction, and a rationale — none of the three omitted
@@ -40,6 +41,7 @@ Summary paragraph at the end. No rewriting of full paragraphs — corrections ar
 - [ ] Location cues are specific enough to find the relevant passage in the draft
 - [ ] No items flagged that are correct by the stated style standard
 - [ ] Summary verdict is honest — does not always say "minor issues only" when the draft has significant problems
+- [ ] Output includes at least one concrete next action the user can take immediately (work through Tier 1 items, run fact-check-prompt, or verify house style before submitting)
 
 ## Example
 

@@ -28,9 +28,10 @@ Maps the narrative arc of a key documentary subject across the full film or seri
 2. Identifies the arc's structural moments: the moment of conflict or complication, the point of maximum pressure or revelation, and the resolution or transformation (which in documentary may be ambiguous or incomplete)
 3. Maps each structural moment to a filming requirement — what scenes, interviews, or observational moments are needed to capture the arc on screen
 4. Assesses the arc's dramatic viability: does it have movement, does it connect to the film's larger argument, and does it give the audience someone to follow?
+5. After the plan, provides a "Next Step" note: which access decision is most critical to lock in before production, whether subject-research-brief should be run to deepen the profile before the first meeting, and whether the arc is strong enough to support the pitch-treatment-writer or needs further development first
 
 ## Output Format
-Structured planning document, 500–800 words. Sections: Subject Profile, Entry State, Arc Structure (with 3–5 key moments), Filming Requirements (per arc moment), and Dramatic Assessment. Professional development register — written to be shared with a director, producer, or commissioning editor.
+Structured planning document, 500–800 words. Sections: Subject Profile, Entry State, Arc Structure (with 3–5 key moments), Filming Requirements (per arc moment), and Dramatic Assessment. Professional development register — written to be shared with a director, producer, or commissioning editor. Output ends with a "Next Step" note: the single most critical access or information gap to resolve before committing to production, and whether to run subject-research-brief or pitch-treatment-writer as the immediate next skill.
 
 ## Quality Criteria
 - [ ] Entry state is specific and grounded — not a general biography but a precise psychological and situational snapshot at the start of filming
@@ -38,6 +39,7 @@ Structured planning document, 500–800 words. Sections: Subject Profile, Entry 
 - [ ] Filming requirements are practical and specific — not "film them at home" but "interview in their childhood neighborhood, before and after the court hearing"
 - [ ] Dramatic assessment is honest — if the arc is thin or depends on access that may not be granted, this is stated
 - [ ] The subject's arc connects explicitly to the film's larger argument
+- [ ] Output includes at least one concrete next action the user can take immediately (identify the critical access decision, run subject-research-brief, or proceed to pitch-treatment-writer)
 
 ## Example
 
