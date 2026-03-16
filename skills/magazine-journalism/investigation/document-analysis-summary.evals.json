@@ -1,5 +1,55 @@
 {
   "skill_name": "document-analysis-summary",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Leaked email chain between a pharmaceutical company's regulatory affairs team and its outside consultant, discussing how to frame clinical trial dropout data in a FDA submission. Investigating potential data manipulation.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Summary correctly identified the framing language as newsworthy. Omissions section flagged missing earlier communications that would establish intent. Follow-up questions were specific."
+    },
+    {
+      "id": "tc2",
+      "input": "A city planning department's internal impact assessment for a controversial development project, never made public, obtained through a source. Story on whether the city concealed environmental risk findings.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Contradiction between public statements and internal findings was correctly the top newsworthy item. Omissions section identified missing sign-off signatures as potentially significant."
+    },
+    {
+      "id": "tc3",
+      "input": "A FOIA-obtained contract between a federal agency and a private prison operator, with significant redactions. Story on private prison oversight failures.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "notes": "Handled redacted sections correctly — noted their presence and suggested appropriate legal paths to challenge them. Did not speculate about redacted content."
+    }
+  ]
 }

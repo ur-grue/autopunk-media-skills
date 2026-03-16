@@ -1,5 +1,55 @@
 {
   "skill_name": "investigation-timeline-builder",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Investigation into a county sheriff's use of civil asset forfeiture. Raw notes with mixed dates from court records, newspaper clips, and two interviews. Need internal working version.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly applied SINGLE SOURCE and UNVERIFIED flags. Gap analysis identified a three-year period with no documented court challenges, which the reporter had missed."
+    },
+    {
+      "id": "tc2",
+      "input": "Investigation into a series of labor violations at a food processing company over a decade. Input included OSHA inspection records, union grievance filings, and news clips. Need both internal and publishable versions.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Dual-version output was clean. Publishable version correctly stripped all unverified entries. Gap analysis noted that three OSHA inspections had no follow-up records — a meaningful editorial gap."
+    },
+    {
+      "id": "tc3",
+      "input": "Reconstructing the sequence of decisions leading to a bridge inspection failure. Input was messy — some dates contradicted each other across sources. Need the conflicts surfaced, not resolved.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Handled contradictory dates correctly by presenting both accounts and flagging the discrepancy. Did not pick a side. Minor coherence issue: one entry description was longer than others without clear reason."
+    }
+  ]
 }

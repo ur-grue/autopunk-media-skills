@@ -1,5 +1,55 @@
 {
   "skill_name": "source-research-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Source: former city housing inspector turned real estate developer; investigation topic: city contracts awarded to his development firm after he left city employment. Intended use: on-record interview.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Conflict of interest section was strong and specific. Interview questions directly targeted the revolving-door issue. Expertise section correctly noted the source's insider knowledge as both asset and liability."
+    },
+    {
+      "id": "tc2",
+      "input": "Source: academic economist, tenured professor at a state university, who has published research claiming minimum wage increases cause long-term unemployment. Topic: reporting on a state minimum wage ballot initiative.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Background section accurately distinguished peer-reviewed work from policy advocacy. Noted that academic economists' public positions often drift from their published findings. One question was slightly redundant."
+    },
+    {
+      "id": "tc3",
+      "input": "Source: community organizer with no formal credentials, first-time interviewee; investigation into police use of force practices in a mid-size city. Intended as community voice, not expert witness.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "notes": "Brief correctly adjusted tone — did not over-analyze credentials for a community voice. Conflict section was appropriately brief. Questions were well-calibrated for a first-time interview subject."
+    }
+  ]
 }

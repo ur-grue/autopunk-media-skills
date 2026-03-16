@@ -1,5 +1,55 @@
 {
   "skill_name": "expert-finder-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.3,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Story: Investigating chemical exposure at a residential housing development built on former industrial land. Publication: regional investigative news outlet. No experts yet. 6-week deadline.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Domains were well-separated: toxicology, environmental law, EPA enforcement, and affected residents. Finding strategies for academic toxicologists and EPA alumni were specific and realistic."
+    },
+    {
+      "id": "tc2",
+      "input": "Story: Investigating gender pay gap at a regional university. Publication: national higher education journal. One expert already identified: an HR consultant. Tight 3-week deadline.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Brief correctly flagged that HR consultants hired by institutions have inherent conflicts. Finding strategy for labor economists was practical. Approach notes were realistic about faculty willingness to criticize own institution."
+    },
+    {
+      "id": "tc3",
+      "input": "Story: Cybersecurity breach at a state government agency exposing citizen data. Publication: technology and policy magazine. No experts identified. Standard deadline.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Domains covered technical forensics, state IT policy, and legal liability. Sourcing risks section correctly warned about vendor NDAs restricting forensics firms. Actionability was slightly lower — some finding strategies were generic."
+    }
+  ]
 }
