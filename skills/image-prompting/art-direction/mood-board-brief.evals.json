@@ -1,5 +1,65 @@
 {
   "skill_name": "mood-board-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Labor/economics newsletter and podcast — The Margin — documentary journalism visual position",
+      "input_summary": "Clear editorial personality, named references (Walker Evans, NYT Magazine), specific color direction, strong anti-references provided",
+      "output_summary": "Visual position statement is specific and evocative; five dimensions in prose (not bullet points); Walker Evans reference citation specifies 'forensic precision not nostalgic quotation'; AI prompt anchor is functional and usable; 'what this is not' section is specific about three failure modes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.83
+    },
+    {
+      "id": "tc_002",
+      "description": "Science education YouTube channel — bright, curious, accessible — no prior visual identity",
+      "input_summary": "New project, no existing references, general 'bright and curious' direction, YouTube primary platform, young-adult audience",
+      "output_summary": "Skill generates reference suggestions when user hasn't provided them (Kurzgesagt for animated context, National Geographic for photography context); five dimensions reflect the curious-optimistic register without defaulting to generic educational imagery; AI anchor phrase avoids stock photo look",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "True crime podcast — dark but not exploitative, narrative journalism quality",
+      "input_summary": "Dark aesthetic required, but client wants to avoid exploitation aesthetics; tension between dark subject and ethical presentation",
+      "output_summary": "Visual position statement addresses the ethical tension directly; references cite crime documentary photography (not sensationalist media) as anchors; 'what this is not' section explicitly names exploitative true crime imagery conventions to avoid; AI anchor phrase includes 'no graphic imagery, no crime scene staging'",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 5.0,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Fluency is the strongest dimension — the mood board brief writes at a genuinely evocative level, not just a descriptive one. The five-dimension structure in prose (not bullets) is the key quality differentiator. The skill generates useful reference suggestions even when the user hasn't provided them."
 }

@@ -1,5 +1,65 @@
 {
   "skill_name": "cover-image-pipeline",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Solitude/remote work podcast — Off-Grid — lighthouse keeper concept, 4 formats, Flux",
+      "input_summary": "Clear core concept, dark editorial style, 4 formats requested (1:1, 16:9, 4:5, 3:1), text overlay accommodation specified, Flux as generation tool",
+      "output_summary": "Shared style anchor extracted and labeled; each format has composition note explaining why it differs from others (not just why the ratio changed); text-safe zones specified per format; generation sequence with seed workflow clearly explained; composition logic is sound (focal point shifts between formats)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc_002",
+      "description": "Cooking show — warm, kitchen-focused — YouTube + Instagram only, 2 formats",
+      "input_summary": "Bright warm aesthetic (counter to dark default), 2 formats only (16:9 and 4:5), cooking subject, Instagram food photography register",
+      "output_summary": "Shared anchor correctly shifts to warm register; 16:9 composition uses table-level camera angle for depth; 4:5 moves to closer framing that works for Instagram food photography; composition notes explain how vertical format changes what food imagery emphasizes",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_003",
+      "description": "Investigative journalism newsletter — 3 formats, Midjourney, must accommodate heavy text overlay",
+      "input_summary": "Editorial photography style, 3 formats, Midjourney as tool, text overlay is heavy (headline + subhead), news media register",
+      "output_summary": "Prompt grammar adapted for Midjourney (not Flux); text-safe zones specified as large areas because of heavy overlay requirement; compositions designed around the text placement first; limitation about Midjourney vs Flux differences noted in generation sequence",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The composition-note-per-format is the most valuable element — explaining why each format is composed differently (not just resized differently) is the core insight of this skill. Actionability is strong because the output is a ready-to-use prompt set with a clear workflow. The seed documentation guidance is essential and often missing from basic prompt tutorials."
 }

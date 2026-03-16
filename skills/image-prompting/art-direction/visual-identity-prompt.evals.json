@@ -1,5 +1,65 @@
 {
   "skill_name": "visual-identity-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Urban journalism podcast/newsletter — Frequency — architecture and city focus, serious editorial register",
+      "input_summary": "Clear editorial personality (precise, contrarian), named references (Dezeen, Iwan Baan, Monocle), anti-references (smart-city marketing), four platforms specified",
+      "output_summary": "Visual identity statement is specific and not interchangeable with another project; six dimensions in prose; Iwan Baan reference is precise ('occupation-first' approach named explicitly); 'what this is not' names three specific failure modes; master AI prompt string is functional; asset guide covers 4 formats with specific notes per format",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Personal finance podcast — warm, accessible, not corporate — no named references from user",
+      "input_summary": "Audience is financial non-experts, warm and accessible tone required, strong anti-reference to avoid (stuffy financial media, aggressive fintech), no named references from user",
+      "output_summary": "Skill generates reference suggestions autonomously (Morning Brew aesthetic for digital warmth, specific personal finance publications); identity statement distinguishes 'warm and trustworthy' from 'dumbed down'; master prompt string avoids stock-photo financial imagery",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Horror anthology fiction podcast — dark, literary, adult — print horror fiction magazine reference",
+      "input_summary": "Horror genre, literary quality (not pulp), adult audience, print-adjacent aesthetic, specific constraint (no gore, psychological not visceral horror)",
+      "output_summary": "Visual identity correctly positions in literary horror (Shirley Jackson territory) rather than graphic horror; references cite Weird Tales era illustration and horror literary fiction covers; 'what this is not' explicitly excludes both gore aesthetics and teen-horror tropes; motion/animation dimension notes that horror uses stillness not jump-cut editing",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.0
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The most comprehensive skill in the art-direction category. Actionability is the weakest dimension because the output is a brief rather than a produced asset — implementation requires a designer. The six-dimension structure in prose is the key quality signal: it elevates this above a checklist to something a creative collaborator can actually work from."
 }

@@ -1,5 +1,65 @@
 {
   "skill_name": "dark-aesthetic-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Noir warehouse investigator — true crime podcast cover, cold monochrome with amber accent, square format",
+      "input_summary": "Classic film noir aesthetic, specific lighting setup (amber flashlight in darkness), emotional register (tension/isolation), square podcast format",
+      "output_summary": "Primary prompt with precise shadow-to-light ratio (75% shadow); lighting diagram in words; aesthetic notes table explaining each noir element; negative prompts exclude horror-kitsch and digital sharpness; alternative offers gothic outdoor variant",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Gothic cemetery at night — horror anthology podcast, moonlight, architectural dark",
+      "input_summary": "Gothic aesthetic (distinct from noir), cemetery environment, moonlight as key light source, cold silver-blue palette",
+      "output_summary": "Prompt correctly distinguishes gothic from noir (architectural scale, moonlight not streetlamp, romantic darkness not crime darkness); specific environmental details (iron gates, crumbling stone, yew trees); negative prompts exclude cheap horror clichés",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Industrial urban decay — investigative journalism newsletter header, grimdark without horror",
+      "input_summary": "Industrial aesthetic, grimdark register, urban decay as subject, newsletter 3:1 header format, melancholy not horror",
+      "output_summary": "Prompt uses abandoned factory environment with specific industrial details (broken skylights, oxidized steel, standing water reflecting sky); emotional register correctly set as melancholy not horror; negative prompt excludes both jump-scare horror and dystopian sci-fi aesthetics",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The skill correctly distinguishes between different flavors of dark aesthetic — the most important quality differentiator. Lighting precision is the strongest element: specifying shadow-to-light ratios and exact light source positions produces better results than general 'dark' instructions. Thumbnail legibility note for podcast artwork is a useful practical addition."
 }

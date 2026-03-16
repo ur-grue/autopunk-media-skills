@@ -1,5 +1,65 @@
 {
   "skill_name": "color-palette-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Labor journalism newsletter — The Margin — warm earth tones, print journalism reference",
+      "input_summary": "Strong editorial personality, named references (NYRB, n+1), preference for warm off-white background, platforms specified",
+      "output_summary": "5-color system with hex codes, RGB values, and usage notes; palette rationale explains print-journalism tradition; usage guidelines include specific prohibition on rust-as-background; dark mode variant specified; AI prompt color language in 4 contextual variants",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Tech podcast — clean, minimal, modern — blue-adjacent palette avoided per instructions",
+      "input_summary": "Clean minimal aesthetic, tech subject matter, explicit instruction to avoid corporate blue, younger audience",
+      "output_summary": "Palette uses teal-green as primary instead of blue (avoids the avoidance while staying in the cool register); clean sans-serif typography implied in rationale; AI prompt phrases avoid blue language; contrast ratios discussed for accessibility",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Children's educational podcast — bright, safe, accessible — WCAG compliance flagged",
+      "input_summary": "Children's audience, bright and approachable, accessibility requirements mentioned, primary color preference stated",
+      "output_summary": "Palette designed for high contrast and legibility; accessibility note flags that hex values should be verified with a contrast checker before deployment; warm primaries chosen; AI prompt language avoids complex photographic references in favor of illustration-friendly descriptors",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The hex codes are the most immediately useful output — they give designers a precise starting point. The accessibility caveat is a necessary professionalism element. AI prompt color language is a distinctive feature of this skill that goes beyond typical color brief outputs."
 }
