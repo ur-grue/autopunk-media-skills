@@ -30,3 +30,11 @@ Closes #[issue number]
 ### For all PRs
 - [ ] All content is in English
 - [ ] Commit message follows the format: `type: description (category/subcategory)`
+
+## Skill type
+
+Check one — this helps maintainers triage at a glance:
+
+- [ ] New skill
+- [ ] Skill improvement
+- [ ] Documentation / fix

@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: General questions and discussion
+    url: https://github.com/ur-grue/autopunk-media-skills/discussions
+    about: Have a question that doesn't fit a bug report or skill request? Start a discussion here.

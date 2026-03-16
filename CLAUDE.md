@@ -40,7 +40,7 @@ autopunk-media-skills/
 ├── README.md                        ← Public landing page (non-technical audience)
 ├── CONTRIBUTING.md                  ← How to contribute a skill
 ├── SKILL_TEMPLATE.md                ← Exact format every skill must follow
-├── ROADMAP.md                       ← All ~55 skills: status, priorities
+├── ROADMAP.md                       ← All ~102 skills: status, priorities
 ├── CHANGELOG.md                     ← Version history
 ├── LICENSE                          ← MIT
 │
@@ -59,7 +59,11 @@ autopunk-media-skills/
 │   │   │                               interview-question-generator, narrator-voice-adapter
 │   │   ├── post-production/         ← rough-cut-notes, subtitles-rewriter,
 │   │   │                               press-kit-generator
-│   │   └── localization/            ← dubbing-script-adapter, festival-synopsis-writer
+│   │   ├── localization/            ← dubbing-script-adapter, festival-synopsis-writer
+│   │   ├── pre-production/          ← shoot-schedule-builder, location-brief-writer,
+│   │   │                               release-form-checklist, equipment-list-generator
+│   │   └── business/                ← co-production-brief, broadcaster-one-pager,
+│   │                                   funding-application-writer
 │   │
 │   ├── magazine-journalism/
 │   │   ├── ideation/                ← story-angle-finder, headline-generator,
@@ -68,7 +72,13 @@ autopunk-media-skills/
 │   │   │                               interview-transcript-editor, sidebar-fact-box-writer
 │   │   ├── editing/                 ← copy-editor-assistant, fact-check-prompt,
 │   │   │                               house-style-enforcer
-│   │   └── distribution/            ← newsletter-teaser-writer, social-media-excerpt
+│   │   ├── distribution/            ← newsletter-teaser-writer, social-media-excerpt
+│   │   ├── investigation/           ← source-contact-tracker, document-analysis-brief,
+│   │   │                               foia-request-writer, tipsheet-summarizer
+│   │   ├── fact-checking/           ← claim-verification-checklist, source-credibility-scorer,
+│   │   │                               correction-notice-writer
+│   │   └── legal/                   ← defamation-risk-checker, privacy-law-brief,
+│   │                                   rights-clearance-checklist
 │   │
 │   ├── youtube/
 │   │   ├── pre-production/          ← niche-video-idea-generator, seo-title-optimizer,
@@ -77,22 +87,46 @@ autopunk-media-skills/
 │   │   │                               call-to-action-generator, shorts-script-adapter
 │   │   ├── post-production/         ← description-seo-writer, chapter-timestamps,
 │   │   │                               community-post-generator
-│   │   └── channel-strategy/        ← content-calendar-planner, audience-persona-builder
+│   │   ├── channel-strategy/        ← content-calendar-planner, audience-persona-builder
+│   │   ├── business/                ← sponsorship-pitch-writer, media-kit-generator,
+│   │   │                               brand-deal-rate-card
+│   │   └── analytics/               ← performance-report-summarizer, ab-title-tester,
+│   │                                   audience-retention-analyzer
 │   │
 │   ├── podcast/
 │   │   ├── pre-production/          ← episode-concept-generator, guest-research-brief,
 │   │   │                               interview-question-builder
 │   │   ├── scripting/               ← solo-episode-script, intro-outro-writer,
 │   │   │                               ad-read-script
-│   │   └── post-production/         ← show-notes-generator, transcript-cleanup,
-│   │                                   episode-summary-writer
-│   └── image-prompting/
-│       ├── midjourney/              ← style-reference-prompt, character-consistency-prompt,
-│       │                               cinematic-shot-prompt
-│       ├── flux/                    ← editorial-photo-prompt, dark-aesthetic-prompt
-│       ├── art-direction/           ← mood-board-brief, color-palette-brief,
-│       │                               visual-identity-prompt
-│       └── workflows/               ← cover-image-pipeline, social-media-visual-batch
+│   │   ├── post-production/         ← show-notes-generator, transcript-cleanup,
+│   │   │                               episode-summary-writer
+│   │   └── business/                ← podcast-media-kit, listener-sponsorship-pitch,
+│   │                                   network-submission-brief
+│   │
+│   ├── image-prompting/
+│   │   ├── midjourney/              ← style-reference-prompt, character-consistency-prompt,
+│   │   │                               cinematic-shot-prompt
+│   │   ├── flux/                    ← editorial-photo-prompt, dark-aesthetic-prompt
+│   │   ├── art-direction/           ← mood-board-brief, color-palette-brief,
+│   │   │                               visual-identity-prompt
+│   │   └── workflows/               ← cover-image-pipeline, social-media-visual-batch
+│   │
+│   ├── media-business/
+│   │   ├── pitching/                ← investor-deck-writer, executive-summary-generator,
+│   │   │                               elevator-pitch-builder, cold-email-writer
+│   │   ├── distribution/            ← festival-submission-brief, distributor-one-pager,
+│   │   │                               press-release-writer, platform-pitch-adapter
+│   │   ├── funding/                 ← grant-application-writer, crowdfunding-copy-writer,
+│   │   │                               budget-narrative-generator
+│   │   └── legal/                   ← contract-summary-explainer, rights-audit-checklist,
+│   │                                   talent-agreement-brief
+│   │
+│   └── social-media/
+│       ├── content/                 ← caption-writer, thread-generator,
+│       │                               story-script-writer, reel-concept-brief,
+│       │                               hashtag-strategy-builder
+│       └── strategy/                ← platform-content-plan, audience-growth-brief,
+│                                       engagement-audit, cross-platform-repurposer
 │
 └── tests/
     ├── EVAL_FRAMEWORK.md            ← Full G-Eval testing protocol
@@ -122,8 +156,8 @@ Every skill follows this exact template. Standalone version is in `SKILL_TEMPLAT
 ---
 name: skill-name-in-kebab-case
 status: planned | draft | beta | stable
-category: tv-documentary | magazine-journalism | youtube | podcast | image-prompting
-subcategory: development | scripting | post-production | localization | ideation | writing | editing | distribution | pre-production | channel-strategy | midjourney | flux | art-direction | workflows
+category: tv-documentary | magazine-journalism | youtube | podcast | image-prompting | media-business | social-media
+subcategory: development | scripting | post-production | localization | pre-production | business | ideation | writing | editing | distribution | investigation | fact-checking | legal | channel-strategy | analytics | midjourney | flux | art-direction | workflows | pitching | funding | content | strategy
 version: 1.0
 eval_score: null
 tags: [tag1, tag2]
@@ -249,8 +283,8 @@ How to propose and submit a skill. First section: zero git jargon, written for a
 **SKILL_TEMPLATE.md**  
 The skill template from this file as a clean standalone document. Add a short usage guide above the template: when to use it, how to fill each field, what counts as a good example.
 
-**ROADMAP.md**  
-All ~55 skills listed by category. For each: name, one-line description, status badge. Summary at top: X stable · X beta · X draft · X planned. This file is the living task list — update it every session.
+**ROADMAP.md**
+All ~102 skills listed by category. For each: name, one-line description, status badge. Summary at top: X stable · X beta · X draft · X planned. This file is the living task list — update it every session.
 
 ---
 
@@ -282,7 +316,7 @@ Five yes/no questions any user can answer after trying a skill, with no technica
 
 ---
 
-### Phase 4 — Skill placeholders (~55 files + matching .evals.json files)
+### Phase 4 — Skill placeholders (~102 files + matching .evals.json files)
 
 Create every skill file listed in the Repository Structure. Each file:
 - `status: planned`
