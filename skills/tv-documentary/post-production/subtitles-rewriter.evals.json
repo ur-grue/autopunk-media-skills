@@ -1,5 +1,55 @@
 {
   "skill_name": "subtitles-rewriter",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Auto-generated English subtitles from a medical documentary. Multiple proper noun errors (drug names, medical terminology). Broadcast delivery target. SRT format.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Proper noun corrections were accurate for standard medical terminology. Line break rules were applied consistently at clause boundaries. Changes Log was complete and specific."
+    },
+    {
+      "id": "tc2",
+      "input": "Streaming platform delivery (Netflix-style) subtitles from a documentary with fast-talking interviewees. Several blocks are over-speed and need splitting. Plain text without timecodes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Over-speed blocks were correctly identified and split with logical content breaks. Platform standard was correctly applied. Changes Log noted every split clearly."
+    },
+    {
+      "id": "tc3",
+      "input": "Cinema (DCP) delivery — subtitles from a documentary with Spanish dialogue originally subbed for broadcast. Need reformatting to cinema standard with narrower line length.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Cinema standard was correctly applied with narrower character limit. Some blocks required additional splits due to the reduced line length. Noted correctly that cinema standard timecode adjustments need verification in a subtitle application."
+    }
+  ]
 }
