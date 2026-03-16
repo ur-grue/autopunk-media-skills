@@ -1,5 +1,75 @@
 {
   "skill_name": "carousel-script-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "LinkedIn carousel — documentary filmmaker insights for communications professionals",
+      "input": {
+        "platform": "LinkedIn",
+        "topic": "5 things documentary filmmakers know about storytelling that most corporate communicators don't",
+        "slides": 8,
+        "account": "Documentary filmmaker / production company",
+        "voice": "Direct, knowledgeable, not preachy",
+        "cta": "DM or comment for full essay"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Slide 1 hooks immediately with a provocation. Each slide contains one idea only. Progression is logical. CTA slide specific. Accompanying caption works as a standalone post."
+    },
+    {
+      "id": "tc-02",
+      "description": "Instagram carousel — journalism student guide to source verification",
+      "input": {
+        "platform": "Instagram",
+        "topic": "How to verify a source before you quote them — a practical 6-slide guide",
+        "slides": 6,
+        "account": "Journalism education account",
+        "voice": "Educational, direct, accessible to students",
+        "cta": "Save this for your next story"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33,
+      "notes": "Educational carousel format handled well. Slide character counts appropriate for Instagram mobile. Save CTA correctly chosen for educational content."
+    },
+    {
+      "id": "tc-03",
+      "description": "LinkedIn carousel — podcast media kit highlights",
+      "input": {
+        "platform": "LinkedIn",
+        "topic": "Why brands should advertise on independent podcasts instead of radio in 2026",
+        "slides": 7,
+        "account": "Independent podcast network",
+        "voice": "Confident, data-led, direct commercial argument",
+        "cta": "Download media kit"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Commercial argument carousel uses data-per-slide structure correctly. CTA links to external download. Voice maintains confidence without overselling."
+    }
+  ],
+  "overall_mean": 4.39,
+  "passed": true
 }
