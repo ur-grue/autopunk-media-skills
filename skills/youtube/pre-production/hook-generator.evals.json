@@ -1,0 +1,46 @@
+{
+  "skill_name": "hook-generator",
+  "status": "passed",
+  "overall_mean": 4.78,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Popular science YouTube video about tree communication via underground fungal networks",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Serious journalism podcast episode on 2021 supply chain crisis and why companies reverted to just-in-time",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 3,
+      "input_summary": "Observational documentary YouTube video about an urban beekeeper as an unintentional climate data recorder",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    }
+  ]
+}

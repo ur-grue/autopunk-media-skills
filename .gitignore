@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V8
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Claude Code local settings (keep .claude/skills/ — skills are repo content)
+.claude/settings.json
+.claude/settings.local.json
+.claude/*.local.*
+.claude/todos/
+.claude/cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS
+Desktop.ini
