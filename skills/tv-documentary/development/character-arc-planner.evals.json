@@ -1,5 +1,55 @@
 {
   "skill_name": "character-arc-planner",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Subject: a whistleblower in a corporate fraud documentary who has already spoken publicly. Film is a 3-part series. Subject's arc spans from internal dissent to public exposure to legal aftermath.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Arc correctly distributed across three episodes. Access concerns about ongoing legal proceedings were flagged in the dramatic assessment. Filming requirements were specific and matched to the legal constraints."
+    },
+    {
+      "id": "tc2",
+      "input": "Subject: elderly fisherman whose village is threatened by industrial farming runoff. No significant public presence. Film: single 70-minute feature. Minimal information provided by user.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Handled thin subject profile gracefully — built entry state from available context and flagged that key arc moments would need to emerge from filming rather than being pre-planned. Honest about the limitation."
+    },
+    {
+      "id": "tc3",
+      "input": "Subject: a city politician at the center of a corruption investigation who has agreed to be filmed but has significant legal restrictions on what they can discuss. Series: 2-part investigation.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Dramatic assessment was appropriately cautious about the legal restrictions. Arc was structured around what could be filmed (behavior, reactions) rather than statements that may be legally prohibited."
+    }
+  ]
 }

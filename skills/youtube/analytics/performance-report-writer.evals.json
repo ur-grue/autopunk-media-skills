@@ -1,5 +1,79 @@
 {
   "skill_name": "performance-report-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "period": "February 2026",
+        "channel": "The Productive Developer",
+        "current_metrics": {"views": 312000, "watch_time": 43800, "net_subs": 610, "videos": 6},
+        "previous_metrics": {"views": 271000, "watch_time": 37400, "net_subs": 430, "videos": 4},
+        "top_5": ["Stop Using VSCode Defaults (89K)", "6 Task Managers (71K)", "Keyboard review (54K)", "Weekly Review (38K)", "Git Workflow (29K)"],
+        "notes": "Published 6 vs 4 videos; sponsored integration in keyboard video"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Metrics table is clean. Trend analysis correctly identifies pattern behind top performer. Recommendation #3 (don't increase frequency) is derived from data, not generic advice. Excellent."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "period": "Q4 2025",
+        "channel": "Coastal Kitchen (home cooking, Mediterranean focus)",
+        "current_metrics": {"views": 890000, "watch_time": 112000, "net_subs": 3200, "videos": 24},
+        "previous_metrics": {"views": 740000, "watch_time": 98000, "net_subs": 2100},
+        "top_5": ["30-minute moussaka (180K)", "Greek salad secrets (145K)", "Whole fish on the grill (98K)", "Sheet pan vegetables (76K)", "Homemade pita (67K)"],
+        "notes": "Holiday season Q4; recipe videos outperformed technique videos 3:1"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Holiday seasonality correctly noted as a confounding factor. Recipe vs. technique observation is actionable. Watch time per video metric correctly calculated and used."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "period": "March 2026",
+        "channel": "FirstTimeFlyer (budget travel tips)",
+        "current_metrics": {"views": 28000, "watch_time": 3200, "net_subs": 85},
+        "previous_metrics": null,
+        "top_5": ["Carry-on only for 2 weeks (12K)", "Airport lounge access hacks (8K)", "Best travel credit cards (4K)"],
+        "notes": "No comparison period available — first month tracking"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "No comparison data — skill correctly establishes a baseline rather than fabricating trends. Recommendations are appropriate for a small channel at early stage. Limitation confirmed. Passes threshold."
+    }
+  ]
 }

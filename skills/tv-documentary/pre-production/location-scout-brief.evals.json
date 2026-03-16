@@ -1,5 +1,55 @@
 {
   "skill_name": "location-scout-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.3,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Location: a working fishing harbor for a documentary about declining commercial fishing. Crew of 4. Observational filming during the early morning catch. No prior access confirmed.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly flagged the operational sensitivity of filming in a working commercial environment. Sound environment section was specific about vessel engine noise. Permissions section identified harbor authority as primary contact."
+    },
+    {
+      "id": "tc2",
+      "input": "Location: a family home in a rural area where a key documentary subject lives. Interview and observational filming over two days. Sensitive subject matter (illness). Small crew.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Domestic location brief was appropriately adjusted in tone — less industrial logistics, more attention to privacy, consent, and minimizing intrusion. Contingency for subject fatigue was a smart production-specific addition."
+    },
+    {
+      "id": "tc3",
+      "input": "Location: a protest site in a public square for a documentary about civil activism. Unpermitted gathering expected. Large crowd. Run-and-gun shooting style.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Correctly addressed the public filming permissions context and the distinction between filming in a public space and filming participants without consent. Noted police presence protocols for production safety."
+    }
+  ]
 }
