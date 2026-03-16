@@ -1,5 +1,79 @@
 {
   "skill_name": "sponsorship-email-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "brand": "Noise-canceling headphone brand ($150-$250, remote workers/commuters)",
+        "integration": "Mid-roll mention (60 seconds)",
+        "video_concept": "Deep work and focus techniques for remote developers",
+        "rate": "$950",
+        "timeline": "Publishes in 3 weeks",
+        "channel_metrics": "78K subscribers, 310K monthly views, 72% working professionals 24-38"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Opens with concept, not channel introduction. Rate, timeline, and deliverables all stated. Next step is specific ('reply here and I'll send my standard contract'). Under 280 words. Excellent."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "brand": "Specialty coffee subscription service (third-wave coffee, $18-$30/month)",
+        "integration": "Dedicated mention at the start of a video about morning routines",
+        "video_concept": "Redesigning your morning from the ground up — 12-minute long-form",
+        "rate": "$600",
+        "timeline": "Flexible — within next month",
+        "channel_metrics": "22K subscribers, 80K monthly views, morning routine/lifestyle audience"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Natural product-content fit. Email is concise and correctly calibrated for a smaller channel. Rate is stated without apology. Flexible timeline handled gracefully."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "brand": "VPN service (privacy and security focus)",
+        "integration": "Standard mid-roll mention",
+        "video_concept": "General tutorial video (no specific concept provided)",
+        "rate": "$750",
+        "timeline": "No specific date",
+        "channel_metrics": "45K subscribers"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "VPN is a common creator sponsorship category. Without a specific video concept, the product-content fit section is weaker than TC-001 and TC-002. Output correctly flags this and uses a generic but professional framing. Actionable — passes threshold."
+    }
+  ]
 }

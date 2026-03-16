@@ -1,5 +1,81 @@
 {
   "skill_name": "youtube-media-kit-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "channel": "The Productive Developer",
+        "niche": "Productivity tools and workflows for software developers",
+        "metrics": "78K subscribers, 310K monthly views, 60% completion, 3.2% engagement",
+        "demographics": "72% male, 24-38 primary, USA/UK/Germany/Canada",
+        "top_videos": ["VSCode setup 280K views", "Task manager comparison 195K", "Notion tutorial 148K"],
+        "rates": {"dedicated": "$2,500", "midroll": "$900", "newsletter": "$400"}
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "All six sections are complete and distinct. Audience profile converts raw numbers into brand-relevant framing well. Rate card is clear. Section structure is designer-ready."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "channel": "Green Plate Kitchen",
+        "niche": "Sustainable cooking and zero-waste meal prep",
+        "metrics": "31K subscribers, 95K monthly views, 55% completion",
+        "demographics": "68% female, 28-45 primary, USA/Australia/UK",
+        "top_videos": ["Zero waste meal prep 65K views", "Composting for beginners 48K", "Budget sustainable pantry 41K"],
+        "rates": {"dedicated": "$900", "midroll": "$400"},
+        "past_partners": "Organic food subscription box (affiliate), sustainable kitchenware brand"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Good media kit for a mid-size channel. Past partners section adds credibility. Audience framing is specific to sustainability-aligned brands. Integration options are appropriately scoped for channel size."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "channel": "Amateur Astrophotography",
+        "niche": "Astrophotography tutorials and night sky photography for beginners",
+        "metrics": "8,500 subscribers, 28K monthly views",
+        "demographics": "No detailed analytics available",
+        "top_videos": ["Milky Way beginners guide 18K views", "Best budget star tracker 14K"],
+        "rates": null,
+        "past_partners": null
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Smaller channel with limited data. Skill correctly handles missing rates (placeholder language with instruction) and missing demographics (acknowledges data gap). Channel identity section compensates by emphasizing niche specificity. Passes threshold — limitations apply as noted in skill file."
+    }
+  ]
 }
