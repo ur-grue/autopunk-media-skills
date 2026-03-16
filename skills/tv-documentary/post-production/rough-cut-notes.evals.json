@@ -1,5 +1,55 @@
 {
   "skill_name": "rough-cut-notes",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "45-minute rough cut of a 30-minute single-subject profile documentary. Cut is 15 minutes over and the third act loses energy. Subject is a chef; film follows her preparing for a restaurant opening.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Structural note correctly identified that the third act problem was caused by a second-act setup failure, not a third-act content problem. Trim recommendations were specific with estimated time savings."
+    },
+    {
+      "id": "tc2",
+      "input": "70-minute cut of a 52-minute investigation with four subjects, all roughly equal screen time. Broadcaster feedback: 'we don't know who to care about.' No existing director concerns specified.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Notes correctly diagnosed the broadcaster feedback as a protagonist problem — equal screen time was preventing the viewer from investing in any one subject. Structural note recommended a clear hierarchy of subjects rather than parity."
+    },
+    {
+      "id": "tc3",
+      "input": "88-minute assembly cut (target 75 minutes) of a historical documentary. Multiple archive-heavy sequences. Structural problem suspected in the mid-film transition between two historical periods.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Historical period transition problem was correctly identified as a bridge scene problem — the current transition assumed knowledge the viewer hadn't yet been given. Positive observations section was genuinely specific about the strongest archive sequences."
+    }
+  ]
 }
