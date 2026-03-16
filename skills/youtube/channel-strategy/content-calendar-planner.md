@@ -27,9 +27,10 @@ Builds a realistic 4-week content calendar for a YouTube channel, with specific 
 1. Maps the available publishing slots across 4 weeks against the ideas provided, applying a strategic sequence — balancing evergreen content (long shelf life) with timely content (seasonal or trend-responsive), and varying formats to maintain audience engagement across the month.
 2. Assigns each slot a specific video topic (not just a theme), a format note (tutorial, opinion, case study, vlog, Shorts clip), and a one-line strategic rationale explaining why this video goes in this position in the calendar.
 3. Adds a brief production notes section flagging which videos need the most lead time (research-heavy topics, interviews, external locations) and recommending a batch filming schedule.
+4. After the calendar, provides a "Next Step" note: the first video to film (based on lead time and publish date), which skill to run next for the first title (seo-title-optimizer or hook-generator), and what to set up in the creator's scheduling tool before the first filming day.
 
 ## Output Format
-A 4-week calendar table with columns: Week, Publish Date, Video Title (working), Format, Strategic Note. Followed by a Production Schedule section listing which videos to film in which order. Total length: 400–600 words including the table and production notes. No preamble.
+A 4-week calendar table with columns: Week, Publish Date, Video Title (working), Format, Strategic Note. Followed by a Production Schedule section listing which videos to film in which order. Total length: 400–600 words including the table and production notes. No preamble. Output ends with a "Next Step" note: which video to start producing today, which skill to run next (seo-title-optimizer to finalize the first working title), and what scheduling or tool setup is needed before filming begins.
 
 ## Quality Criteria
 - [ ] Every slot has a specific video title, not just a topic area ("How I Fixed My Studio Lighting for $80" not just "Gear setup")
@@ -38,6 +39,7 @@ A 4-week calendar table with columns: Week, Publish Date, Video Title (working),
 - [ ] Production schedule accounts for real lead times — research-heavy videos are not scheduled back-to-back
 - [ ] Calendar respects the frequency goal — no more slots than the creator committed to
 - [ ] Fixed dates and seasonal moments from the input are incorporated where relevant
+- [ ] Output includes at least one concrete next action the user can take immediately (start producing the first video, run seo-title-optimizer, set up the publishing schedule in their chosen tool)
 
 ## Example
 

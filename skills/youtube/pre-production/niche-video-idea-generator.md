@@ -27,6 +27,7 @@ Generates 10 targeted video ideas for a specific YouTube niche, each with a work
 1. Analyzes the niche and example videos to identify the content patterns already common in that space — then looks for gaps, underserved angles, and audience questions that aren't being answered well.
 2. Generates ideas across a range of content types (beginner entry points, intermediate deep-dives, opinion/debate, practical how-to, case study, myth-busting) to give the channel variety rather than 10 variations of the same format.
 3. For each idea: writes a working title optimized for search intent, a one-sentence hook that explains why this video is worth watching, and a short angle note explaining what makes this idea distinctive in this niche.
+4. Closes with a "Next Step" recommendation: which idea to develop into a script first (typically the one with the highest search demand and lowest production complexity), and which skill to run immediately: seo-title-optimizer to refine the title, or hook-generator to write the opening.
 
 ## Output Format
 Numbered list of 10 video ideas. Each entry has three lines:
@@ -34,7 +35,7 @@ Numbered list of 10 video ideas. Each entry has three lines:
 - **Hook:** One sentence explaining the video's core value proposition to the target viewer
 - **Angle:** One sentence explaining what makes this treatment distinctive — what's the specific point of view or format choice
 
-Total length: approximately 400–600 words. No preamble. No padding. Ends with a one-line note flagging the 2–3 ideas with the strongest search demand potential.
+Total length: approximately 400–600 words. No preamble. No padding. Ends with a one-line note flagging the 2–3 ideas with the strongest search demand potential, and a "Next Step" specifying which idea to develop first (run seo-title-optimizer to validate and finalize the title, then hook-generator to write the opening 30 seconds).
 
 ## Quality Criteria
 - [ ] All 10 ideas are genuinely distinct — no two ideas are variations of the same concept
@@ -43,6 +44,7 @@ Total length: approximately 400–600 words. No preamble. No padding. Ends with 
 - [ ] Titles reflect realistic search language, not insider jargon
 - [ ] Hooks explain viewer benefit, not just topic description
 - [ ] No idea requires a budget, studio, or access that a solo creator couldn't reasonably have
+- [ ] Output includes at least one concrete next action the user can take immediately (which idea to develop first and which skill to run next: seo-title-optimizer or hook-generator)
 
 ## Example
 

@@ -28,9 +28,10 @@ Writes platform-optimised social media captions for Instagram, LinkedIn, TikTok,
 1. Identifies the platform's conventions and what performs well in that context — Instagram rewards visual storytelling and warmth, LinkedIn rewards insight and professional credibility, TikTok rewards immediacy and humour or raw authenticity, Twitter/X rewards brevity and opinion
 2. Takes the core content and finds the single most engaging angle for the platform — not the most complete description of the content, but the one sentence or idea that makes someone stop scrolling
 3. Writes to the platform's natural length and structural conventions: hook, body (or immediate impact), close (question, CTA, or punchline), then suggests hashtags or platform-specific elements if requested
+4. After the captions, provides a "Next Step" note: which platform to post to first based on where the account's audience is most active, whether thread-writer or carousel-script-writer should be run to build out the content further, and the recommended posting time window for each platform
 
 ## Output Format
-One caption per platform requested. Instagram: 125–200 words + hashtag suggestions (5–10 relevant tags). LinkedIn: 100–150 words, no hashtag padding. TikTok: 50–80 words, conversational, fast. Twitter/X: 240–280 characters, with an optional threaded follow-up. Each caption clearly labelled with the platform. Emojis used if appropriate to the voice and platform; omitted if the account is formal or serious.
+One caption per platform requested. Instagram: 125–200 words + hashtag suggestions (5–10 relevant tags). LinkedIn: 100–150 words, no hashtag padding. TikTok: 50–80 words, conversational, fast. Twitter/X: 240–280 characters, with an optional threaded follow-up. Each caption clearly labelled with the platform. Emojis used if appropriate to the voice and platform; omitted if the account is formal or serious. Output ends with a "Next Step" note: which caption to post first, whether to run thread-writer or carousel-script-writer to extend the content, and the recommended post scheduling action.
 
 ## Quality Criteria
 - [ ] Each caption uses the specific conventions of its platform — not the same text reformatted
@@ -39,6 +40,7 @@ One caption per platform requested. Instagram: 125–200 words + hashtag suggest
 - [ ] No generic filler phrases ("check this out," "so excited to share," "this one really hits different")
 - [ ] Hashtags (where used) are relevant and not purely reach-padding with irrelevant tags
 - [ ] Voice is consistent — if the account uses first person, all captions use first person
+- [ ] Output includes at least one concrete next action the user can take immediately (schedule the highest-priority caption, run thread-writer or carousel-script-writer to extend the content)
 
 ## Example
 

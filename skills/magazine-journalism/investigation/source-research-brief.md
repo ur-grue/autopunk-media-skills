@@ -28,9 +28,10 @@ Produces a structured pre-interview research brief on a potential source, coveri
 2. Reviews the source's known public positions on the investigation topic, identifying consistency or evolution over time, and flagging any previously stated views that could affect their testimony
 3. Assesses potential conflicts of interest, institutional affiliations, funding sources, or personal relationships that could bias their account — without making unsupported accusations
 4. Generates a set of targeted pre-interview questions calibrated to probe both the substance of the story and the source's reliability
+5. After the brief, provides a "Next Step" note: whether any identified conflict of interest requires editorial review before proceeding, which question should open the interview and why, and whether foia-request-writer should be run to independently verify claims this source may make
 
 ## Output Format
-Structured brief, 400–600 words. Sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions (6–10 questions). Factual, neutral tone. No editorial conclusions about the source's truthfulness — only documented facts and flagged unknowns.
+Structured brief, 400–600 words. Sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions (6–10 questions). Factual, neutral tone. No editorial conclusions about the source's truthfulness — only documented facts and flagged unknowns. Output ends with a "Next Step" note: whether a conflict of interest needs editorial sign-off before the interview, which question to lead with, and whether to run foia-request-writer to independently corroborate what the source may reveal.
 
 ## Quality Criteria
 - [ ] Background section distinguishes between verified credentials and self-reported expertise
@@ -38,6 +39,7 @@ Structured brief, 400–600 words. Sections: Background Summary, Relevant Expert
 - [ ] Conflicts section is specific and evidence-based — no speculation without a factual basis
 - [ ] Interview questions address both the story's substance and the source's potential blind spots
 - [ ] Tone is neutral throughout — the brief does not pre-judge the source's credibility
+- [ ] Output includes at least one concrete next action the user can take immediately (flag a conflict for editorial review, identify the opening interview question, or run foia-request-writer for independent verification)
 
 ## Example
 

@@ -28,9 +28,10 @@ Writes the complete narrative content for a TV or streaming series pitch deck, c
 1. Opens with a logline that captures the central dramatic or editorial proposition in one sentence — specific enough to be distinctive, short enough to be memorable
 2. Writes a format overview paragraph covering genre, episode count, length, and production style, then articulates the series' tone and world in concrete language
 3. Outlines the episode arc or series structure (what changes across episodes, what the throughline is), adds comparable show references with a brief note on how this series differs, and closes with a broadcaster rationale that explains why this project fits that specific commissioning slate
+4. After the deck copy, provides a "Next Step" note specifying the immediate action before submission: which section needs the most strengthening, whether elevator-pitch-writer should be run to prepare a verbal pitch for the meeting, and how to send (cold-outreach-email-writer for initial contact or direct submission to a known commissioner)
 
 ## Output Format
-Structured document with clear section headers: Logline, Series Overview, Format, Episode Structure, Tone & World, Comparable Shows, and Why [Broadcaster/Platform]. Total length 600–900 words. Written in present tense, declarative sentences, professional but not corporate. Each section is usable independently as a slide caption.
+Structured document with clear section headers: Logline, Series Overview, Format, Episode Structure, Tone & World, Comparable Shows, and Why [Broadcaster/Platform]. Total length 600–900 words. Written in present tense, declarative sentences, professional but not corporate. Each section is usable independently as a slide caption. Output ends with a "Next Step" note: what to strengthen before the meeting, whether to run elevator-pitch-writer for the verbal version, and how to make first contact with the target commissioner.
 
 ## Quality Criteria
 - [ ] Logline names the subject, the conflict or journey, and the stakes in one sentence
@@ -39,6 +40,7 @@ Structured document with clear section headers: Logline, Series Overview, Format
 - [ ] Comparable shows are real, credible, and the differentiation note is specific
 - [ ] Broadcaster rationale references the named platform's actual programming priorities, not generic praise
 - [ ] Tone section uses concrete language, not vague adjectives like "compelling" or "thought-provoking"
+- [ ] Output includes at least one concrete next action the user can take immediately (strengthen a named section, run elevator-pitch-writer, or send via cold-outreach-email-writer)
 
 ## Example
 

@@ -29,9 +29,10 @@ Generates a complete documentary series bible from a concept brief and episode o
 3. Writes episode breakdowns for each episode: title, subject focus, key scenes or set pieces, and narrative arc
 4. Creates subject or character profiles for the key documentary subjects, framing their role in the series' overall argument
 5. Adds a target audience section and closes with a commissioning argument — why this series, why now, why this production team
+6. After the bible, provides a "Next Step" note: which section is weakest (usually episode breakdowns or key subjects at early development stage), whether pitch-treatment-writer should be run to produce a standalone episode-one treatment for initial meetings, and who to send the bible to first
 
 ## Output Format
-Formatted document, 1,200–2,000 words. Sections: Logline (1–2 sentences), Series Overview (200 words), Tone and Visual Approach (150 words), Episode Breakdowns (100–150 words per episode), Key Subjects (75–100 words per subject, up to 4), Target Audience (100 words), Commissioning Argument (150 words). Professional broadcast-pitch register.
+Formatted document, 1,200–2,000 words. Sections: Logline (1–2 sentences), Series Overview (200 words), Tone and Visual Approach (150 words), Episode Breakdowns (100–150 words per episode), Key Subjects (75–100 words per subject, up to 4), Target Audience (100 words), Commissioning Argument (150 words). Professional broadcast-pitch register. Output ends with a "Next Step" note: which section to strengthen before sending, whether to run pitch-treatment-writer for the pilot episode, and which commissioner or fund to approach first.
 
 ## Quality Criteria
 - [ ] Logline captures both the emotional hook and the factual subject in under two sentences
@@ -39,6 +40,7 @@ Formatted document, 1,200–2,000 words. Sections: Logline (1–2 sentences), Se
 - [ ] Episode breakdowns show a clear narrative arc across the series, not a sequence of standalone episodes
 - [ ] Tone section is specific — references concrete visual and editorial choices, not generic descriptors like "cinematic" or "gripping"
 - [ ] Commissioning argument addresses the current moment and the series' place in the broadcast landscape
+- [ ] Output includes at least one concrete next action the user can take immediately (strengthen a specific section, run pitch-treatment-writer for episode one, or identify the first commissioner to approach)
 
 ## Example
 

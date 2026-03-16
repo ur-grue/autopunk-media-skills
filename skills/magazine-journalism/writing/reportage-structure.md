@@ -27,9 +27,10 @@ Builds a complete narrative structure for a long-form reported piece — includi
 1. Identifies the best opening from the material — not necessarily the chronologically first event, but the scene or moment that most efficiently establishes the stakes, the character, and the questions the reader will spend the piece trying to answer.
 2. Maps a section-by-section structure: what each section must accomplish (establish, reveal, complicate, resolve), which sources and findings belong where, and how transitions between sections will maintain momentum.
 3. Proposes a closing strategy — how to land the piece thematically without over-explaining, and whether the best ending circles back to the opening scene, ends on a final reported moment, or closes on a wider implication of the central finding.
+4. After the structure document, provides a "Next Step" note: whether any section has a reporting gap that needs filling before writing begins, whether interview-transcript-editor should be run to extract usable quotes from raw transcripts, and whether the editor pitch summary is ready to send as-is or needs a follow-up headline from headline-generator
 
 ## Output Format
-A structured document with: Opening Scene Proposal (1 paragraph of description, not actual prose), Section Map (numbered sections with a one-sentence purpose, assigned sources, and assigned findings), and Closing Strategy note. Ends with an "Editor Pitch Summary" — two sentences that describe what this piece is and why it matters, suitable for a pitch email or story meeting. Total length: 400–600 words.
+A structured document with: Opening Scene Proposal (1 paragraph of description, not actual prose), Section Map (numbered sections with a one-sentence purpose, assigned sources, and assigned findings), and Closing Strategy note. Ends with an "Editor Pitch Summary" — two sentences that describe what this piece is and why it matters, suitable for a pitch email or story meeting. Total length: 400–600 words. Output ends with a "Next Step" note: flag any structural gaps requiring additional reporting, specify whether to send the pitch summary to the editor now, and recommend the next skill to run (interview-transcript-editor or headline-generator).
 
 ## Quality Criteria
 - [ ] Opening scene is specific and scene-based — not an abstract statement of theme
@@ -38,6 +39,7 @@ A structured document with: Opening Scene Proposal (1 paragraph of description, 
 - [ ] Structure accommodates the material provided — doesn't require new reporting to work
 - [ ] Closing strategy is distinct from the opening — not just mirroring the first scene
 - [ ] Editor pitch summary can be used as-is in a pitch email
+- [ ] Output includes at least one concrete next action the user can take immediately (send pitch summary to editor, fill a reporting gap, run interview-transcript-editor or headline-generator)
 
 ## Example
 

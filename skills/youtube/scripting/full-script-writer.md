@@ -27,9 +27,10 @@ Writes a complete, word-for-word YouTube video script — from opening hook thro
 1. Opens with a hook designed for the first 30 seconds — the window when most viewers decide whether to stay. Chooses hook format (problem, bold claim, story, curiosity gap) based on the topic and the tone specified.
 2. Writes each section in spoken, conversational prose — not essay prose. Includes natural transitions, rhetorical questions, and on-camera direction cues (e.g., [cut to screen recording], [hold up product]) where they add clarity.
 3. Closes with a strong final point that reinforces the video's core value, then a natural outro with the requested call-to-action. Total word count calibrated to the target video length (approximately 130–150 words per minute of spoken video).
+4. After the script, provides a "Next Step" note specifying the immediate action: time a read-through to verify length, run b-roll-shot-list to plan the visual layer, or run chapter-timestamps to generate the description timestamps.
 
 ## Output Format
-Full script in chronological order. Sections marked with bold headers matching the talking points. On-camera direction notes in [square brackets]. Spoken text in plain prose — no bullet points in the script body itself. Approximate word count noted at the top. Length calibrated to requested video duration: an 8-minute video runs approximately 1,050–1,200 words of spoken content.
+Full script in chronological order. Sections marked with bold headers matching the talking points. On-camera direction notes in [square brackets]. Spoken text in plain prose — no bullet points in the script body itself. Approximate word count noted at the top. Length calibrated to requested video duration: an 8-minute video runs approximately 1,050–1,200 words of spoken content. Output ends with a "Next Step" note: do a timed read-through to confirm runtime, then run b-roll-shot-list or chapter-timestamps as the next production step.
 
 ## Quality Criteria
 - [ ] Hook is complete and self-contained within the first 30 seconds of spoken content
@@ -38,6 +39,7 @@ Full script in chronological order. Sections marked with bold headers matching t
 - [ ] Each talking point is developed fully, not just named and moved on from
 - [ ] Call-to-action is specific and placed naturally, not bolted on
 - [ ] Script reads at the right pace for the requested video length
+- [ ] Output includes at least one concrete next action the user can take immediately (timed read-through, b-roll-shot-list, or chapter-timestamps)
 
 ## Example
 

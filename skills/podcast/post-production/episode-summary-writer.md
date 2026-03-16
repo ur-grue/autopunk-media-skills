@@ -29,9 +29,10 @@ Writes concise episode summaries in three lengths — platform short (100 words)
 3. Expands to 150 words for directory standard by adding guest context and one concrete detail that signals depth
 4. Writes the 250-word promotional version with a stronger hook, more content detail, and a closing sentence that creates urgency or emotional resonance
 5. Reviews all three for tone consistency and ensures none repeat the same language
+6. After the three summaries, provides a "Next Step" note specifying which version to paste where — platform short into Spotify/Apple, directory standard into the hosting platform episode page, promotional into the newsletter or social post — and whether show-notes-generator or newsletter-teaser-writer should be run for additional distribution assets
 
 ## Output Format
-Three clearly labeled summary blocks: PLATFORM SHORT (100 words), DIRECTORY STANDARD (150 words), PROMOTIONAL (250 words). Each block preceded by usage context. Written in third person for platform directories or first person for show-voice contexts — specify preference. Plain text, no headers within the summaries.
+Three clearly labeled summary blocks: PLATFORM SHORT (100 words), DIRECTORY STANDARD (150 words), PROMOTIONAL (250 words). Each block preceded by usage context. Written in third person for platform directories or first person for show-voice contexts — specify preference. Plain text, no headers within the summaries. Output ends with a "Next Step" note mapping each summary to its immediate destination and identifying any remaining distribution asset to create (show notes, newsletter feature, social thread).
 
 ## Quality Criteria
 - [ ] Platform short is genuinely under 110 words and functions as a standalone promotional piece
@@ -40,6 +41,7 @@ Three clearly labeled summary blocks: PLATFORM SHORT (100 words), DIRECTORY STAN
 - [ ] Guest context is proportionate — prominent in the 250-word version, concise in the 100-word version
 - [ ] All three summaries create a reason to listen, not just a description of content
 - [ ] Primary keyword appears naturally in the platform short version
+- [ ] Output includes at least one concrete next action the user can take immediately (paste each version into its platform, run show-notes-generator or newsletter-teaser-writer for remaining assets)
 
 ## Example
 

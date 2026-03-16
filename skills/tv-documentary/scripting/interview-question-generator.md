@@ -29,9 +29,10 @@ Generates a targeted, structured interview question set for a specific documenta
 3. Develops the substantive middle section: 10–15 questions that progress from factual to reflective to personally revealing, each building on the natural answer the previous question invites
 4. Closes with the difficult or high-stakes questions — sequenced so they arrive after trust is established, not at the beginning
 5. Adds production notes: which questions are most likely to yield usable sound bites, which may need a follow-up silence, and which can be safely cut if time is short
+6. After the question set, provides a "Next Step" note: which three questions are the most critical if time runs short, what to prepare before filming (release forms, additional research), and whether scene-breakdown-writer should be run to plan the visual context around the interview
 
 ## Output Format
-Numbered question list, organized into three labeled sections: Opening (3–4 questions), Substantive (10–15 questions), and High-Stakes (3–5 questions). Each section preceded by a one-paragraph director's note explaining the section's purpose. Production notes on 3–4 questions throughout. Total: 20–25 questions. 500–700 words.
+Numbered question list, organized into three labeled sections: Opening (3–4 questions), Substantive (10–15 questions), and High-Stakes (3–5 questions). Each section preceded by a one-paragraph director's note explaining the section's purpose. Production notes on 3–4 questions throughout. Total: 20–25 questions. 500–700 words. Output ends with a "Next Step" note: the three questions to prioritize if time runs short, what to have prepared before filming, and whether to run scene-breakdown-writer to plan the visual coverage around the interview.
 
 ## Quality Criteria
 - [ ] No question can be answered with "yes" or "no" — all questions are open
@@ -40,6 +41,7 @@ Numbered question list, organized into three labeled sections: Opening (3–4 qu
 - [ ] The sequence moves from safe to sensitive — high-stakes questions do not appear in the first section
 - [ ] Production notes flag which questions are most critical for the film's editorial needs
 - [ ] No question embeds an assumption that the subject must agree with to answer
+- [ ] Output includes at least one concrete next action the user can take immediately (identify the three must-ask questions, prepare release forms, or run scene-breakdown-writer for visual planning)
 
 ## Example
 
