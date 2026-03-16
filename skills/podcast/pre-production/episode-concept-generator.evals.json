@@ -1,5 +1,58 @@
 {
   "skill_name": "episode-concept-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Podcast: Weekly interview show about the future of urban design and city planning. Audience: architects, urban planners, policy people, curious generalists. Format: Interview, 60 min. Recent episodes: 15-minute cities, housing density policy, cycling infrastructure, climate resilience in urban planning. Need fresh angles.",
+      "output_summary": "Generated 7 concepts including: the zoning code as a political document (contrarian take), an episode with a city that intentionally shrank its footprint (counterintuitive), the failure of a celebrated urban design project, an episode on disability access as the leading edge of urban design, and a 'what cities miscopied from other cities' concept. All seven had distinct angles. Guest profiles were specific (not just 'an expert'). Hook sentences were strong and usable.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Podcast: Solo narrative podcast about the history of food — each episode tells the story of one dish, ingredient, or food tradition. No guests. 30 minutes. Audience: general food-curious listeners. Recent: episode on saffron's price, episode on the invention of the sandwich, episode on fermentation history.",
+      "output_summary": "Correctly adapted to solo narrative format — no guest profiles. Generated 7 episode concepts including: the history of military rations and how war shaped modern food, the orange's journey from Southeast Asia to global trade symbol, how refrigeration changed what poverty means in food terms, and the untold story of medieval spice routes. All concepts had distinct angles. Hook sentences worked as opening narration prompts. Core listener questions well-defined.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Podcast: Weekly roundtable discussion show about parenting and child development. 4 regular hosts, occasional guests. 45 min. Audience: parents of children 0-10. Need full seasonal batch of 8 concepts.",
+      "output_summary": "Generated 8 concepts. Correctly adapted to roundtable format — guest profile noted as 'occasional external expert or guest parent.' Concepts covered: screen time evidence vs. panic, the science of boredom in children, what discipline research actually shows (vs. received wisdom), single-parent financial planning for child milestones, the myth of the 'good baby.' All 8 had distinct core listener questions. Ordering from immediately executable to more ambitious was clear. One concept (the 'over-scheduled child' episode) was slightly derivative of widely covered territory — noted in output.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

@@ -1,5 +1,58 @@
 {
   "skill_name": "festival-synopsis-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Title: SALT WATER. Documentary following three generations of a coastal fishing family dealing with catch quota reductions over five years. Completed film, 92 minutes. Observational, no narrator.",
+      "output_summary": "All three synopses produced at correct word counts (short: 52 words, medium: 98 words, long: 247 words). Present tense, third person throughout. No production language ('the camera,' 'the filmmakers'). Short synopsis captured the generational conflict and quota stakes in under 55 words. Long synopsis ended with a resonant payoff line about what the sea takes back. Tone consistent across all three lengths.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": "tc-002",
+      "input": "Title: ROOM 14. Documentary about an aging classroom teacher in her final year before retirement, filmed in a single primary school classroom. Completed film, 68 minutes. Intimate, observational.",
+      "output_summary": "Short synopsis: 49 words, clean and specific. Medium: 100 words exactly, strong catalog-quality text. Long synopsis built character arc for the teacher and one or two students. Payoff line effective. All three tonally consistent. No fabrication of events beyond the description provided. Correctly avoided using 'the film shows' and similar production-language constructs.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Title: THE NOISE WE MAKE. Work-in-progress documentary about a protest movement in an unnamed country. Filming ongoing. No resolved ending available. Festival WIP submission.",
+      "output_summary": "Correctly adapted to WIP format — did not fabricate a resolution. Short synopsis framed the subject without an ending. Medium and long synopses described what the film observes and what questions it is pursuing, rather than what it concludes. Usage note flagged WIP conventions correctly. One section of the long synopsis edged toward political statement rather than descriptive language — minor flag for festival neutrality requirements.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }

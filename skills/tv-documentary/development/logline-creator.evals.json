@@ -1,5 +1,58 @@
 {
   "skill_name": "logline-creator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Documentary about a community of deaf surfers in a coastal town who compete nationally. The film follows three surfers over one competitive season. Observational style. Festival submission and broadcaster pitch needed.",
+      "output_summary": "Generated 5 loglines including: 'Three deaf surfers. One competitive season. A film about what the ocean sounds like when you can't hear it.' (poetic/festival), 'An observational film following three deaf competitive surfers through one national season — and the question of whether the sport was built for them or despite them.' (broadcaster). All options had distinct emphases. Social short-form included. Annotations accurate.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Documentary about the history of a specific architectural style (brutalism) and its contested preservation. Multi-subject, no single protagonist. Public broadcaster context. Polemical tone.",
+      "output_summary": "Correctly flagged that without a protagonist, the dramatic spine is the debate itself. Generated loglines structured around the central conflict ('Who decides which buildings survive?') rather than a character arc. Thematic form worked best. One option slightly too academic for the broadcaster context — annotated as such. Social bio line effective.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Documentary following a small family-owned publishing house in its final year before closing. Three employees, the owner, and the last books they will publish. Intimate, observational. International film festival submission.",
+      "output_summary": "Generated 5 loglines. Best: 'A small publishing house is closing. This is its last year, its last books, and the people who stayed until the end.' Clean, specific, earned. Festival long-form included context on the industry angle. Social bio line under 20 words. All options distinguished by emphasis. No option was generic.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.5
+    }
+  ]
 }

@@ -1,5 +1,58 @@
 {
   "skill_name": "interview-question-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Subject: A retired Olympic sprinter who suffered a career-ending injury at the peak of her career and who has spent the past decade coaching youth athletics. Editorial angle: the film examines how elite athletes rebuild identity after their sport ends. Known facts: she was favored to win gold, the injury happened publicly at a major event, she has spoken about it before but mainly in inspirational terms. Guarded about: the emotional reality of the injury period.",
+      "output_summary": "Generated 22 questions in correct three-section structure. Opening questions built toward the subject's athletic identity before the injury. Substantive section moved from factual (the injury event) to reflective (the period after) with good sequencing. High-stakes section included: 'What was the version of you that disappeared when you got hurt — and do you miss her?' Production notes on 4 questions. No yes/no questions. Two questions asked for specific scenes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Subject: A scientist who has spent 30 years studying a remote ecosystem that is now visibly deteriorating. Role: Primary expert subject. Film: cinematic observational doc with interview as counterpoint to landscape footage. Known: published extensively, not accustomed to emotional questions, known to be precise and guarded in public talks.",
+      "output_summary": "Generated 20 questions. Opening section correctly started with work-based questions rather than personal ones (appropriate for this subject type). Substantive questions progressed from scientific observation to personal meaning. High-stakes questions asked about what the subject will have failed to prevent, and what they want their work to have meant. Production note correctly flagged that scientific subjects need more time in the factual section before the personal questions will land. All questions open-ended.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Subject: A former gang member who has spent 15 years working in community rehabilitation. Sensitive subject matter. Film: observational with significant interview weight. Known: has spoken about his past publicly, runs a non-profit, has complicated views on the criminal justice system. Guarded about: specific criminal history details, names of people from his past.",
+      "output_summary": "Generated 22 questions. Correctly avoided any question that asked for names or specific criminal details (respecting the guarded areas). Opening section built world through community work first, then moved toward the past. High-stakes questions addressed the rehabilitation work's limits, not the criminal history directly. Production notes flagged which questions might trigger legal advice concerns. Questions were appropriately sensitive and did not feel exploitative or therapeutic.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

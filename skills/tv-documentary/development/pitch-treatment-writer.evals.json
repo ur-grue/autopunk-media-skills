@@ -1,5 +1,58 @@
 {
   "skill_name": "pitch-treatment-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Documentary about a small-town high school robotics team that qualified for nationals for the first time. Follows the team over one competitive season. Format: Single feature, ~75 min. Public broadcaster. Tone: warm observational, like 'Spellbound'. Why now: STEM education funding cuts are in national news.",
+      "output_summary": "Produced full treatment with logline, overview, arc, character introductions for team captain and coach, visual approach, and why-now. Hook block strong and under 150 words. Narrative arc had clear beginning/development/resolution. Characters introduced with specific details. Visual approach distinguished from generic 'competition doc' format. Why-now connected to STEM funding context. Treatment felt like a film, not a pitch concept.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Documentary investigating the collapse of a regional fishing industry due to regulatory changes and climate factors. Multiple subjects (fishermen, scientists, regulators). Format: 2-part, 50 min each. Investigative broadcaster strand. Systemic/journalistic tone.",
+      "output_summary": "Produced treatment for 2-part format with structural differentiation between episodes noted. Multi-subject introductions handled well — three characters introduced with specific details. Investigative tone maintained throughout. Visual approach section correctly described a hybrid observational/archive methodology. One character description was slightly thin due to limited input — flagged in a note at end. Why-now section strong.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Essay film about a photographer who spent 30 years documenting a single rural community. Film blends archive, new interviews, and the photographer's own commentary. Format: Single feature, 65 min. Art house/festival focus. No broadcaster target specified.",
+      "output_summary": "Produced treatment adapted to essay film format — correctly avoided the standard observational treatment structure in favor of a more reflective form. Visual approach section strong: archive treatment and photographer-as-narrator approach clearly described. Narrative arc addressed the challenge of structuring an essay film (no external conflict) by centering the photographer's evolving relationship to the community. Logline variations provided for both festival and press contexts.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }
