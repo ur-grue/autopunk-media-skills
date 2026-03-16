@@ -1,5 +1,73 @@
 {
   "skill_name": "interview-transcript-editor",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "transcript": "Materials scientist explaining biodegradable packaging — 1050 words of raw transcript across 3 Q&A exchanges",
+        "format": "Q&A for publication",
+        "target": "480 words",
+        "subject_type": "expert"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Editing preserves subject's vocabulary throughout. No words added. Compression ratio achieved (1050 to ~480). Editorial notes are transparent about specific cuts and why. Stutter removal in answer 3 handled correctly and noted."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "transcript": "60-minute conversation with a chef about the decline of traditional fermentation practices — full transcript, 9,000 words, selected for 2,000-word Q&A",
+        "format": "Full Q&A, subject has approval rights",
+        "target": "2000 words",
+        "subject_type": "expert/practitioner"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Approval rights flag handled correctly — editorial notes formatted for forwarding to subject. Running order restructured to lead with the chef's strongest answer. 15 exchanges condensed to 8. Subject's distinctive vocabulary and speech patterns preserved."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "transcript": "Short interview excerpt — affected community member describing experience of flooding (370 words, target 200 words)",
+        "format": "Excerpt within a narrative piece",
+        "target": "200 words",
+        "subject_type": "affected individual"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Affected individual — skill correctly applies lighter editing hand than expert interview. Emotional language preserved. One instance flagged where ambiguous pronoun reference required an editorial judgment call. Actionable for the narrative excerpt use case."
+    }
+  ]
 }
