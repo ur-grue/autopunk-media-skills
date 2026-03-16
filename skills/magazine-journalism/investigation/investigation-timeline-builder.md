@@ -28,9 +28,10 @@ Builds a structured, annotated chronological timeline from raw notes, documents,
 2. For each entry, records the event, the source or document it comes from, and a verification status (confirmed, single-source, or unverified)
 3. Identifies structural gaps in the timeline — periods of unexplained silence, missing transitions between events, or logical breaks that suggest something happened but is not yet documented
 4. Produces two versions if requested: a detailed internal version with source notes and verification flags, and a clean publishable version suitable for graphic design handoff
+5. After the timeline, provides a "Next Step" note: identifying the highest-priority reporting gap to close first, whether to run foia-request-writer to obtain official records for an unverified entry, and what is needed before the publishable version can be released
 
 ## Output Format
-Chronological list. Each entry: Date (exact or approximate) | Event description (1–3 sentences) | Source | Verification status. Internal version includes notes column for reporting gaps and discrepancies. Publishable version strips source notes and flags, retaining only verified entries. Events marked [UNVERIFIED], [SINGLE SOURCE], or [DATE APPROXIMATE] in internal version.
+Chronological list. Each entry: Date (exact or approximate) | Event description (1–3 sentences) | Source | Verification status. Internal version includes notes column for reporting gaps and discrepancies. Publishable version strips source notes and flags, retaining only verified entries. Events marked [UNVERIFIED], [SINGLE SOURCE], or [DATE APPROXIMATE] in internal version. Output ends with a "Next Step" note: which reporting gap is most critical to close before publication, whether to run foia-request-writer for key documents, and how many UNVERIFIED entries remain before the publishable version is ready.
 
 ## Quality Criteria
 - [ ] Every entry has a corresponding source or note about why the source is unknown
@@ -38,6 +39,7 @@ Chronological list. Each entry: Date (exact or approximate) | Event description 
 - [ ] Dates are presented at the most precise level available — year/month/day when known, month/year or year-only when not
 - [ ] Disputed events are represented accurately, not resolved in favor of one account
 - [ ] Publishable version contains only verified entries and does not misrepresent confidence level
+- [ ] Output includes at least one concrete next action the user can take immediately (close the most critical reporting gap, run foia-request-writer for documents, or confirm what is needed before the publishable version can be released)
 
 ## Example
 

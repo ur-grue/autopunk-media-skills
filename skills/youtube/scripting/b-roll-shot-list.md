@@ -27,9 +27,10 @@ Generates a detailed, numbered B-roll shot list from a video script or outline, 
 1. Reads through the script section by section, identifying every moment where a visual is needed to cover narration, demonstrate a concept, establish a location, or add texture to a talking-head shot.
 2. For each moment, determines the most effective shot type (wide establishing, close-up detail, over-the-shoulder, cutaway, insert, time-lapse suggestion) and writes a specific, filmable description — not "show cooking" but "close-up of hands pressing dough into a bowl, flour cloud visible."
 3. Organizes shots by script section, flags any shots that require special preparation (permits, props, second person, specific time of day), and adds a brief shooting notes section at the end with logistical groupings to make the shoot day efficient.
+4. After the shot list, provides a "Next Step" note: which group of shots to film first on the shoot day (typically setup shots before process shots), what to prepare before arriving on location, and whether chapter-timestamps should be run after the edit to generate the video's description chapters
 
 ## Output Format
-Numbered shot list organized under bold section headers matching the script. Each entry: shot number, shot type in brackets, specific subject description, one-line purpose note. Ends with a "Shoot Day Notes" section that groups shots by location or setup for efficient filming. Total length: proportional to script complexity — a 10-minute script typically generates 20–35 B-roll shots.
+Numbered shot list organized under bold section headers matching the script. Each entry: shot number, shot type in brackets, specific subject description, one-line purpose note. Ends with a "Shoot Day Notes" section that groups shots by location or setup for efficient filming. Total length: proportional to script complexity — a 10-minute script typically generates 20–35 B-roll shots. Output ends with a "Next Step" note: which group to film first, what to prepare before the shoot, and whether to run chapter-timestamps after the edit is done.
 
 ## Quality Criteria
 - [ ] Every major script section has at least one B-roll shot assigned to it
@@ -38,6 +39,7 @@ Numbered shot list organized under bold section headers matching the script. Eac
 - [ ] Purpose notes explain why each shot serves the edit, not just what it shows
 - [ ] Shoot Day Notes group shots logically to minimize setup time
 - [ ] No shots listed that require unavailable resources (unless flagged as optional)
+- [ ] Output includes at least one concrete next action the user can take immediately (start filming the first group, prepare props or location, or run chapter-timestamps after the edit)
 
 ## Example
 

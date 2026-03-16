@@ -38,6 +38,7 @@ Writes a structured mood board brief for a visual project — a document that sp
 3. Lists three to five specific reference points — named films, photographers, publications, or art works — with a one-sentence explanation of exactly what quality in each reference is being cited (not just the name)
 4. Lists two to three things the visual language explicitly is not — negative space that helps a designer understand the exact register being targeted
 5. Closes with a brief brief for AI prompting: a short anchor phrase that can be added to any image prompt to keep all generated images within the same visual world
+6. After the brief, provides a "Next Step" note: share the document with any collaborator (designer, photographer, or AI prompter) before starting work, test the AI Prompt Anchor immediately with a cinematic-shot-prompt or editorial-photo-prompt run, and confirm the reference points are known to all collaborators before production begins
 
 ## Output Format
 - Length: 400–600 words
@@ -45,6 +46,7 @@ Writes a structured mood board brief for a visual project — a document that sp
 - Tone: Descriptive and evocative, not technical — a mood board brief should inspire as well as specify
 - The five dimensions are formatted as labeled paragraphs, not bullet lists (evocative prose)
 - References listed with source attribution and a one-sentence reason for the citation
+- Output ends with a "Next Step" note: share with collaborators, test the AI Prompt Anchor immediately using cinematic-shot-prompt or editorial-photo-prompt, and confirm all references are understood before production begins
 
 ## Quality Criteria
 - [ ] The visual position statement creates a specific visual world, not just a mood word ("melancholy" is not a position; "the specific grey light of a northern European city in November, where everything looks like it happened a long time ago" is)
@@ -52,6 +54,7 @@ Writes a structured mood board brief for a visual project — a document that sp
 - [ ] The "what this is not" section is as specific as the "what this is" — "not stock photo" is useful; "not corporate, not aspirational, not the visual language of a startup pitch deck" is better
 - [ ] The AI prompt anchor is a short phrase that actually functions as a prompt element, not a description of the brief
 - [ ] A designer who has never spoken to you could build an accurate mood board from this document alone
+- [ ] Output includes at least one concrete next action the user can take immediately (share with collaborators, test the AI Prompt Anchor with cinematic-shot-prompt, or confirm reference understanding before production)
 
 ## Example
 

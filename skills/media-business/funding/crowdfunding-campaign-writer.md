@@ -28,9 +28,10 @@ Writes the campaign description, reward tier copy, and campaign update text for 
 1. Writes the campaign headline and opening paragraph to hook the specific community the project belongs to — not a general audience pitch but a direct address to the people who already care about this subject
 2. Writes the campaign body copy covering: what the project is, why it matters now, who is making it, and exactly what the money will fund — each section in plain language that respects the backer's intelligence
 3. Writes reward tier descriptions that justify each price point with something real (access, acknowledgement, physical objects, involvement) — and writes two sample campaign updates: one mid-campaign milestone update and one campaign-end thank-you
+4. After the campaign materials, provides a "Next Step" note: which section to paste into the crowdfunding platform first (headline and hook), what to prepare before launch (project video, first-day backer outreach list), and whether cold-outreach-email-writer should be run to prepare outreach emails for key contacts on launch day
 
 ## Output Format
-Three deliverables: (1) Campaign page copy — headline, opening hook paragraph, full description body (400–600 words), and three-sentence campaign summary for social sharing; (2) Reward tier descriptions — 2–4 tiers with suggested amounts and copy for each; (3) Two sample campaign update posts (150–200 words each). Conversational but purposeful register — the voice of someone making something they believe in, not a sales deck.
+Three deliverables: (1) Campaign page copy — headline, opening hook paragraph, full description body (400–600 words), and three-sentence campaign summary for social sharing; (2) Reward tier descriptions — 2–4 tiers with suggested amounts and copy for each; (3) Two sample campaign update posts (150–200 words each). Conversational but purposeful register — the voice of someone making something they believe in, not a sales deck. Output ends with a "Next Step" note: what to set up in the platform before pasting this copy, what launch-day communications to prepare, and whether to run cold-outreach-email-writer for personal outreach to the first-day backer list.
 
 ## Quality Criteria
 - [ ] Opening paragraph addresses the project's core community or audience directly
@@ -39,6 +40,7 @@ Three deliverables: (1) Campaign page copy — headline, opening hook paragraph,
 - [ ] Each tier's value is proportionate to its price point
 - [ ] Campaign updates have a specific milestone or piece of news — not generic "we're so grateful" copy
 - [ ] No hyperbole ("revolutionary," "life-changing," "groundbreaking")
+- [ ] Output includes at least one concrete next action the user can take immediately (set up the platform page, prepare the project video, or run cold-outreach-email-writer for launch-day personal outreach)
 
 ## Example
 

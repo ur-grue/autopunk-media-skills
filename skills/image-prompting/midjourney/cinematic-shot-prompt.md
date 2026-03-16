@@ -29,9 +29,10 @@ Generates a film-grammar-aware Midjourney prompt from a scene description — sp
 3. Defines a color grade or palette (desaturated teal-and-orange, warm amber shadows, cold blue midtones, high-contrast monochrome) that supports the emotional register
 4. Adds cinematic texture parameters — grain, bokeh, depth of field — that signal "film still" to the model rather than "digital photography" or "illustration"
 5. Structures the final prompt in Midjourney's preferred order: subject, action/context, shot type, lens, lighting, color grade, mood, style parameters
+6. After the prompt(s), provides a "Next Step" note: paste the prompt into Midjourney, generate at least 4 initial variations before upscaling, and which parameter to adjust first if the output is too stylized or not cinematic enough (typically --s for stylization strength or --c for chaos)
 
 ## Output Format
-The full Midjourney prompt, copy-paste ready, formatted as a single paragraph ending with technical parameters. Followed by a brief breakdown (3–5 bullet points) explaining the key choices made and why they serve the described mood. Optionally, a second variant prompt with a different shot type or color treatment for comparison. Total: 200–350 words.
+The full Midjourney prompt, copy-paste ready, formatted as a single paragraph ending with technical parameters. Followed by a brief breakdown (3–5 bullet points) explaining the key choices made and why they serve the described mood. Optionally, a second variant prompt with a different shot type or color treatment for comparison. Total: 200–350 words. Output ends with a "Next Step" note: paste the prompt into Midjourney, generate a grid of 4, and which parameters to tweak first if the output needs adjustment (--s, --c, or lighting terms).
 
 ## Quality Criteria
 - [ ] Prompt includes at minimum: subject description, shot type, lighting, color grade, and at least one film/cinematography style reference
@@ -40,6 +41,7 @@ The full Midjourney prompt, copy-paste ready, formatted as a single paragraph en
 - [ ] The prompt includes at least one technical Midjourney parameter (--ar, --v, --s, --c, or similar)
 - [ ] The breakdown explains why each major choice was made for this specific mood
 - [ ] The prompt produces a "film still" quality image, not a portrait, illustration, or stock photo
+- [ ] Output includes at least one concrete next action the user can take immediately (paste into Midjourney, generate a 4-variation grid, adjust --s or --c if needed)
 
 ## Example
 

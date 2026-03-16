@@ -28,9 +28,10 @@ Produces a festival submission strategy brief for a documentary or short film, i
 1. Establishes the film's positioning — its genre, subject, and tone — and identifies which festival categories and strands it is most likely to be competitive in (e.g., competitive documentary, human rights, environmental, experimental, short film)
 2. Proposes a tiered festival list organised by prestige/strategic value: Tier 1 (world premiere, maximum visibility), Tier 2 (regional premiere or strong specialist festival), Tier 3 (broader circuit, audience building, qualification for awards eligibility)
 3. Outlines submission sequencing advice: which festivals require world premiere status, which accept post-premiere, approximate submission deadlines, and any strategic conflicts to avoid
+4. After the brief, provides a "Next Step" note: verify the Tier 1 submission deadline immediately on the festival's official website, decide on the world premiere festival before any other submission, and whether to run press-release-writer to prepare the announcement press release before the submission deadline
 
 ## Output Format
-Structured brief with four sections: (1) Festival Positioning, (2) Recommended Festival Targets by Tier, (3) Submission Sequencing and Deadlines, (4) Key Considerations and Risks. Total length 500–700 words. Uses bullet points for festival lists. Deadlines noted as approximate ranges (since exact deadlines change annually) with a note to verify current dates on festival websites.
+Structured brief with four sections: (1) Festival Positioning, (2) Recommended Festival Targets by Tier, (3) Submission Sequencing and Deadlines, (4) Key Considerations and Risks. Total length 500–700 words. Uses bullet points for festival lists. Deadlines noted as approximate ranges (since exact deadlines change annually) with a note to verify current dates on festival websites. Output ends with a "Next Step" note: check the Tier 1 festival deadline today, choose the world premiere festival before making any other submissions, and run press-release-writer to prepare announcement materials in advance.
 
 ## Quality Criteria
 - [ ] Tier 1 recommendations are realistic for the specific film's profile — not aspirational beyond the project's likely competitive range
@@ -38,6 +39,7 @@ Structured brief with four sections: (1) Festival Positioning, (2) Recommended F
 - [ ] Sequencing advice correctly identifies which Tier 1 festivals require world premiere status
 - [ ] At least one strategic consideration or risk is flagged (e.g., submitting to competing festivals, broadcaster premiere windows)
 - [ ] Deadlines are noted as approximate and users are directed to verify current submission windows
+- [ ] Output includes at least one concrete next action the user can take immediately (verify Tier 1 deadline, select the world premiere festival, or run press-release-writer)
 
 ## Example
 

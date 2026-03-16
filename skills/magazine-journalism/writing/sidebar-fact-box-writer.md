@@ -29,9 +29,10 @@ Writes a structured, print-ready fact box or sidebar to accompany a feature arti
 3. Writes each sidebar item at consistent length and register — fact boxes should not mix long explanations with bare bullet points
 4. Verifies internally that no sidebar fact contradicts or duplicates material already present in the article text provided
 5. Formats the output to reflect standard magazine sidebar conventions: title, optional subheading, bulleted or numbered items, source line at the end
+6. After the sidebar, provides a "Next Step" note: verify each statistic against the original source before publication, run fact-check-prompt on any figures not sourced in the provided input, and confirm with the article editor that the sidebar does not duplicate any passage in the main text
 
 ## Output Format
-Complete, publication-ready sidebar. Includes: sidebar title (bold, 3–6 words), optional one-line subheading, 4–8 items or entries depending on format type, and a source attribution line. Total length: 80–200 words (sidebars are intentionally brief). Register: factual, neutral, no narrative voice. Formatted for print/digital paste-in.
+Complete, publication-ready sidebar. Includes: sidebar title (bold, 3–6 words), optional one-line subheading, 4–8 items or entries depending on format type, and a source attribution line. Total length: 80–200 words (sidebars are intentionally brief). Register: factual, neutral, no narrative voice. Formatted for print/digital paste-in. Output ends with a "Next Step" note: verify all statistics before publication, run fact-check-prompt for any figures not already verified in your reporting, and confirm with the editor that the sidebar placement and content does not duplicate the main text.
 
 ## Quality Criteria
 - [ ] Sidebar title is specific and descriptive — "By the Numbers" is acceptable; "Facts" is not
@@ -40,6 +41,7 @@ Complete, publication-ready sidebar. Includes: sidebar title (bold, 3–6 words)
 - [ ] Source attribution is included at the end
 - [ ] Items are parallel in structure (all complete sentences, or all noun-phrase bullets — not mixed)
 - [ ] Total word count is under 200
+- [ ] Output includes at least one concrete next action the user can take immediately (verify statistics against sources, run fact-check-prompt, or confirm with editor on placement and duplication)
 
 ## Example
 

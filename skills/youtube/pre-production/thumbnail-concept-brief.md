@@ -28,9 +28,10 @@ Produces a detailed, production-ready thumbnail concept brief that a designer or
 2. Develops 2–3 distinct concept directions, each with a different emotional or compositional approach (e.g., one curiosity-driven, one results-focused, one identity-based)
 3. For each concept, specifies: background treatment, foreground subject(s), text overlay (copy, position, size hierarchy), color mood, and any facial expression or gesture if a presenter is shown
 4. Adds production notes: what to shoot or source, what to avoid, and which concept to prioritize for the first publish
+5. After the concepts, provides a "Next Step" note: specifying which concept to design first, what to do immediately (open Canva, Photoshop, or brief your designer), and whether to run seo-title-optimizer to ensure the text overlay language matches the SEO title
 
 ## Output Format
-Structured brief with a top-line summary, then 2–3 numbered concept blocks. Each concept block contains: Concept Name, Emotional Hook, Background, Foreground/Subject, Text Overlay, Color Mood, and Production Notes. Total length: 350–500 words. Written in plain English — no design jargon that would confuse a non-designer.
+Structured brief with a top-line summary, then 2–3 numbered concept blocks. Each concept block contains: Concept Name, Emotional Hook, Background, Foreground/Subject, Text Overlay, Color Mood, and Production Notes. Total length: 350–500 words. Written in plain English — no design jargon that would confuse a non-designer. Output ends with a "Next Step" note: which concept to design first, what tool or person to use, and whether to run seo-title-optimizer to align the text overlay copy with the video's SEO title.
 
 ## Quality Criteria
 - [ ] Each concept has a distinct emotional approach — not just visual variations of the same idea
@@ -38,6 +39,7 @@ Structured brief with a top-line summary, then 2–3 numbered concept blocks. Ea
 - [ ] Every concept includes specific color or mood direction, not just "bright" or "dark"
 - [ ] Production notes flag anything that would require special equipment or permissions
 - [ ] At least one concept is optimized for mobile viewing (high contrast, minimal text)
+- [ ] Output includes at least one concrete next action the user can take immediately (open the design tool, brief the designer, or run seo-title-optimizer to finalize text overlay copy)
 
 ## Example
 

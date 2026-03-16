@@ -29,9 +29,10 @@ Writes episode-specific intro and outro scripts matched to a podcast's tone, for
 3. Writes the outro in two parts: brief episode callback (2–3 sentences referencing what was just heard), then CTA sequence
 4. Calibrates every word to spoken-aloud delivery — contractions, natural rhythm, and no written-English constructions that sound awkward when spoken
 5. Optionally provides two intro variants: one opening with the hook-quote, one opening with a host-narrated setup — so the host can choose
+6. After the scripts, provides a "Next Step" note: read both versions aloud before recording to choose the right variant, confirm the hook quote is approved for use, and whether show-notes-generator should be run alongside to complete the episode's publish assets
 
 ## Output Format
-Two clearly labeled script blocks: INTRO and OUTRO. Each is marked with approximate spoken duration at 150 words per minute. Delivery notes in parentheses where tone or pacing matters. Written to be read directly into a microphone. Total: 200–350 words for both scripts combined.
+Two clearly labeled script blocks: INTRO and OUTRO. Each is marked with approximate spoken duration at 150 words per minute. Delivery notes in parentheses where tone or pacing matters. Written to be read directly into a microphone. Total: 200–350 words for both scripts combined. Output ends with a "Next Step" note: read both intro variants aloud before recording, confirm any quoted material is approved, and run show-notes-generator to create the matching episode publish assets.
 
 ## Quality Criteria
 - [ ] The intro hook is specific to this episode — not a generic "today we're talking about X" opener
@@ -40,6 +41,7 @@ Two clearly labeled script blocks: INTRO and OUTRO. Each is marked with approxim
 - [ ] CTAs in the outro are specific and in the correct order (listen/share before subscribe; subscribe before Patreon)
 - [ ] Both scripts read naturally at normal speech pace — test by reading aloud, not silently
 - [ ] Guest name and context are included in the intro (if a guest episode)
+- [ ] Output includes at least one concrete next action the user can take immediately (read aloud and choose a variant, confirm quoted material, or run show-notes-generator)
 
 ## Example
 

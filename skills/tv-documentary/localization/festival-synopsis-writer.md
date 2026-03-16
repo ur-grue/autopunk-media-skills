@@ -29,9 +29,10 @@ Writes short (50 words), medium (100 words), and long (250 words) festival synop
 3. Expands to 100 words by adding context — the subject's situation, the film's emotional register, and a hint of how the narrative concludes
 4. Writes the full 250-word synopsis with character introduction, narrative arc, and a closing line that conveys the film's perspective or emotional resonance — without summarizing it like a report
 5. Reviews all three for tonal consistency: the longest synopsis should feel like an expanded version of the shortest, not a different document
+6. After the synopses, provides a "Next Step" note: verify the word count of each version in the submission platform's field before pasting, check whether the target festival's guidelines require any additional elements (director's statement, content notes), and run press-kit-generator if full press materials are still needed alongside the synopsis
 
 ## Output Format
-Three clearly labeled synopsis blocks: SHORT (50 words), MEDIUM (100 words), LONG (250 words). Each preceded by its word count in parentheses. Written in third person, present tense (standard festival convention). One brief usage note per length explaining where that length is typically required.
+Three clearly labeled synopsis blocks: SHORT (50 words), MEDIUM (100 words), LONG (250 words). Each preceded by its word count in parentheses. Written in third person, present tense (standard festival convention). One brief usage note per length explaining where that length is typically required. Output ends with a "Next Step" note: count words in the paste before submitting (platform limits vary), check the festival's specific requirements for additional elements, and run press-kit-generator if full press materials are still needed.
 
 ## Quality Criteria
 - [ ] Short synopsis is under 60 words (festivals enforce strict limits)
@@ -40,6 +41,7 @@ Three clearly labeled synopsis blocks: SHORT (50 words), MEDIUM (100 words), LON
 - [ ] The long synopsis ends with a sentence that conveys the film's emotional or intellectual payoff
 - [ ] All three synopses are tonally consistent — the same voice at different levels of detail
 - [ ] No synopsis fabricates story events not present in the provided description
+- [ ] Output includes at least one concrete next action the user can take immediately (verify word counts in the submission platform, check for additional required elements, or run press-kit-generator)
 
 ## Example
 
