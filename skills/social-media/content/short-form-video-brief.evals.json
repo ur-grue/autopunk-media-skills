@@ -1,5 +1,78 @@
 {
   "skill_name": "short-form-video-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "TikTok explainer about festival submission fees",
+      "input": {
+        "subject": "Festival submission fees as a hidden barrier for first-time filmmakers",
+        "platform": "TikTok",
+        "length": "30 seconds",
+        "account": "Documentary filmmaker / film education",
+        "tone": "Educational, sardonic",
+        "footage": "New filming — talking head",
+        "audio": "On-camera"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Timestamped structure accounts for full 30 seconds. Hook is platform-specific — direct camera address with no preamble. Visual direction specific to creator aesthetic. Caption text written for accessibility."
+    },
+    {
+      "id": "tc-02",
+      "description": "Instagram Reels clip from a magazine investigation",
+      "input": {
+        "subject": "A magazine investigation found that fast fashion brands are buying back their own clothing from charity shops to avoid processing costs",
+        "platform": "Instagram Reels",
+        "length": "45 seconds",
+        "account": "Investigative magazine",
+        "tone": "Outrage-adjacent, factual, shareable",
+        "footage": "Existing — photographer's stills and documents",
+        "audio": "Voiceover + text overlays"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Reels format correctly differentiates from TikTok — visual-first hook rather than talking head. Voiceover script tight. Shareable moment identified at second 30. CTA drives to article."
+    },
+    {
+      "id": "tc-03",
+      "description": "YouTube Shorts repurposing a podcast interview",
+      "input": {
+        "subject": "A 90-minute podcast episode on how algorithmic editing tools are changing the documentary industry",
+        "platform": "YouTube Shorts",
+        "length": "60 seconds",
+        "account": "Documentary podcast channel",
+        "tone": "Informational, slightly provocative",
+        "footage": "Existing — video podcast recording, already filmed",
+        "audio": "Original podcast audio with visual edits"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Shorts format correctly reflects search-optimised title strategy. Clip selection advice for existing footage specific. CTA drives to full podcast episode on same channel."
+    }
+  ],
+  "overall_mean": 4.34,
+  "passed": true
 }

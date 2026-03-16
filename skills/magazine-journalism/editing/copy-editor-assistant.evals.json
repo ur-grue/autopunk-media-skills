@@ -1,5 +1,72 @@
 {
   "skill_name": "copy-editor-assistant",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "style": "AP Style",
+        "draft_stage": "Final draft",
+        "excerpt": "320 words on remote work and downtown vacancy rates — urban economics piece"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "All flagged items include quote, correction, and rationale. Tier classifications are accurate. Bureau of Labor Statistics cap error correctly flagged. Co-working ambiguity handled well with context note. Summary verdict is specific."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "style": "Chicago Manual of Style",
+        "draft_stage": "First draft",
+        "excerpt": "500 words of a profile on a sculptor — various em dash, comma, and citation inconsistencies introduced",
+        "specific_concerns": "Em dash usage, comma before 'but', italics for artwork titles"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Chicago style correctly applied for em dash (no spaces) vs AP (space–dash–space). Artwork title italics correctly flagged. Tier 3 suggestions appropriately light-touch for a first draft. Summary verdict correctly notes this is a first draft review."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "style": "General professional journalism",
+        "draft_stage": "Final draft",
+        "excerpt": "250 words of a reported piece with no errors intentionally introduced — testing false positive rate",
+        "specific_concerns": null
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Clean draft — skill correctly returns minimal flagged items (2 Tier 3 suggestions, 0 errors). Does not manufacture issues. Summary verdict correctly says 'ready to submit.' False positive rate is low. Passes threshold."
+    }
+  ]
 }
