@@ -1,5 +1,73 @@
 {
   "skill_name": "platform-strategy-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Architecture magazine LinkedIn strategy",
+      "input": {
+        "platform": "LinkedIn",
+        "brand_type": "Monthly print magazine — architecture and urban design",
+        "current_followers": 1200,
+        "goal": "Grow to 5,000 engaged followers, drive website subscriptions",
+        "resource": "One staff member part-time on social"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Platform fit assessment honest about LinkedIn's content culture bias. Content approach specific to LinkedIn mechanics. Distinctive angle section answers the 'why follow this account' question. Key risk is specific and actionable."
+    },
+    {
+      "id": "tc-02",
+      "description": "Investigative podcast TikTok entry strategy",
+      "input": {
+        "platform": "TikTok",
+        "brand_type": "Investigative podcast — financial crime and corruption",
+        "current_followers": 0,
+        "goal": "Build audience and drive podcast listens",
+        "resource": "Podcast host creating content solo"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "TikTok entry strategy correctly identifies the format-mismatch risk for audio-first content. Distinctive angle section honestly notes that investigation-style TikTok is growing but competitive. 90-day targets realistic for zero base."
+    },
+    {
+      "id": "tc-03",
+      "description": "Documentary filmmaker Instagram reset strategy",
+      "input": {
+        "platform": "Instagram",
+        "brand_type": "Independent documentary filmmaker — social and political subjects",
+        "current_followers": 4500,
+        "current_engagement": "Low — 0.5% average",
+        "goal": "Re-engage existing audience, build production community",
+        "resource": "Filmmaker posting personally, no support"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Reset strategy correctly shifts content mix toward behind-the-scenes and process content. Engagement-rate target more useful than follower target for this situation. Algorithm note about Instagram's Reels prioritisation included."
+    }
+  ],
+  "overall_mean": 4.22,
+  "passed": true
 }

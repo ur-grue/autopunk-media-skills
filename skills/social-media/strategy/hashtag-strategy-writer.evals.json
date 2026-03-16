@@ -1,5 +1,72 @@
 {
   "skill_name": "hashtag-strategy-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Criminal justice podcast Instagram hashtag strategy",
+      "input": {
+        "platform": "Instagram",
+        "account": "Documentary podcast — wrongful convictions, prison conditions, police accountability",
+        "followers": 6200,
+        "goal": "Reach new listeners",
+        "existing_tags": "#podcast #truecrime #criminaljustice",
+        "campaign": "New season on wrongful convictions"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Three-tier logic explained clearly. Existing tag problem identified honestly (all broad tier). Tag bank specific to criminal justice subject, not generic. Campaign hashtag ownable. Usage rules include ghost-tag warning."
+    },
+    {
+      "id": "tc-02",
+      "description": "Food culture magazine TikTok hashtag strategy",
+      "input": {
+        "platform": "TikTok",
+        "account": "Food culture magazine — independent restaurants, food history, chefs",
+        "followers": 2100,
+        "goal": "Grow account to 10,000 followers",
+        "existing_tags": "None established yet"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "TikTok strategy correctly notes that hashtags are secondary to sound and interest signals. Tag bank differentiates food culture from mainstream food content. Limitation about TikTok's interest-based algorithm acknowledged."
+    },
+    {
+      "id": "tc-03",
+      "description": "Documentary filmmaker LinkedIn professional hashtag strategy",
+      "input": {
+        "platform": "LinkedIn",
+        "account": "Documentary filmmaker — social documentaries, festival circuit",
+        "followers": 890,
+        "goal": "Connect with producers, broadcasters, festival programmers"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "LinkedIn hashtag mechanics correctly noted as different from Instagram. Professional-register tags selected. 3-5 tag limit for LinkedIn noted. Industry-specific tags (festival circuit, commissioning) included."
+    }
+  ],
+  "overall_mean": 4.22,
+  "passed": true
 }

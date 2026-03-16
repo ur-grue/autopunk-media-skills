@@ -1,5 +1,71 @@
 {
   "skill_name": "fact-check-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "draft_type": "Magazine feature",
+        "excerpt": "450 words on remote work and downtown vacancy — BLS statistics, Portland city council vote, Columbia University study, NAR cost comparison",
+        "publication_standard": "Full verification"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "All numerical claims flagged. Structural concern (both BLS figures must be from same series) is the highest-value insight in the checklist. Source type recommendations are specific. Internal ambiguity ('nearly 28 percent') correctly flagged. Excellent."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "draft_type": "Investigative news piece",
+        "excerpt": "380 words involving corporate financial figures, a regulatory agency ruling, and quotes from three named sources",
+        "publication_standard": "Full verification with source documentation",
+        "high_risk_areas": "Legal claims about the regulatory ruling"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Legal claims correctly classified as High Priority and flagged for legal review, not just fact-check. Financial figures all captured. Source title verifications included. Checklist is appropriately thorough for investigative standard."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "draft_type": "Personal essay / column with reported elements",
+        "excerpt": "300 words with minimal statistics — one historical date, one attributed quote, one institutional claim",
+        "publication_standard": "Light editorial check"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Light standard applied correctly — only three items flagged. Skill correctly distinguishes opinion/argument from reported elements and does not flag interpretive claims. Checklist is proportionate to the piece. Passes threshold."
+    }
+  ]
 }

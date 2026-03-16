@@ -1,5 +1,55 @@
 {
   "skill_name": "scene-breakdown-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Climactic sequence of a political documentary: a key vote in a parliament. Available material includes observational lobby footage, interview excerpts from two politicians, archive of the vote announcement, and protest footage outside. Target: 7 minutes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Scene ordering built appropriate tension through intercutting interior/exterior. Interview placement was correctly held until after the vote result was shown. Sequence Notes flagged the protest footage as risk (crowd may be unidentifiable)."
+    },
+    {
+      "id": "tc2",
+      "input": "Mid-film expository sequence for a science documentary explaining how a virus mutates. Available: animation brief, expert interview, archived microscopy footage. Target: 4 minutes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly identified that expository sequences require visual support for every narration beat. Animation scenes were given specific function notes. B-roll requirements were technically specific for microscopy footage."
+    },
+    {
+      "id": "tc3",
+      "input": "Closing sequence for a personal documentary about a family reconciliation. Minimal available footage — one long observational scene at a family dinner and a final interview. Target: 5 minutes.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Handled sparse material well — built a viable scene structure from limited footage without inventing material that didn't exist. Sequence Notes was the strongest section, honestly assessing the risks of a sparse closing sequence."
+    }
+  ]
 }

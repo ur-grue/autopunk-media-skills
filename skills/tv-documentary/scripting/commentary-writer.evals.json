@@ -1,5 +1,55 @@
 {
   "skill_name": "commentary-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Sequence from a nature documentary showing elephant matriarch leading herd to a water source during drought. Research notes on drought severity, herd memory, elephant navigation. Formal, David Attenborough-style register. 100 words.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Commentary correctly subordinated to image — no description of what was visible. Research facts integrated naturally. Rhythm was suitable for the formal register. Sentence lengths were appropriate for spoken delivery."
+    },
+    {
+      "id": "tc2",
+      "input": "Archival sequence for a historical documentary about a 1970s urban renewal project. Pictures: demolition of a neighborhood, displaced residents, new housing blocks. Research: dates, official justifications, resident testimony. Measured, factual register. 150 words.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Archive picture context was well-managed — narration added period detail not visible in the footage. Resident testimony was incorporated without editorializing. Commentary Notes correctly identified two moments where silence was preferable."
+    },
+    {
+      "id": "tc3",
+      "input": "Mid-film sequence from a personal documentary. Subject is alone at the site of a childhood home, now demolished. Minimal research notes — emotional content only. Intimate first-person-adjacent register. 80 words.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "notes": "Handled sparse research notes gracefully — wrote commentary that worked from emotional observation rather than fact. Correctly recommended in Commentary Notes that this sequence may need the subject's own voice rather than third-person narration."
+    }
+  ]
 }

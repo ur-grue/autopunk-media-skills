@@ -1,5 +1,55 @@
 {
   "skill_name": "narrator-voice-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Original: dense academic narration about urban planning history. Target voice: journalist-presenter style, investigative tone, slightly adversarial. Sample transcript provided from target presenter.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Voice transformation was clear and consistent. Factual content was fully preserved. The adversarial register was applied appropriately without distorting the factual register. Voice Notes accurately described the structural changes."
+    },
+    {
+      "id": "tc2",
+      "input": "Original: dry corporate-style narration for a broadcaster-requested natural history segment. Target: warm, intimate, wonder-driven. No sample provided.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Voice transformation worked well without a sample — the description was sufficient for the register. Warmth was applied without becoming sentimental. One fact was slightly paraphrased in the adaptation; Voice Notes flagged this for the producer to check."
+    },
+    {
+      "id": "tc3",
+      "input": "Original: first-person presenter narration. Target: third-person, more detached, for a different version of the same film with a different presenter. The target voice has no prior sample.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "First-to-third person transformation required more structural changes than simple re-voicing. The adapted version maintained factual integrity. Voice Notes correctly flagged that the emotional subjectivity of the original does not translate cleanly to a detached third-person register."
+    }
+  ]
 }

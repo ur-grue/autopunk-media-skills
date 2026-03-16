@@ -1,5 +1,67 @@
 {
   "skill_name": "house-style-enforcer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "house_style_rules": "8 rules: single quotes, day-month-year dates, lowercase job titles, spell out 1-10, per cent two words, Oxford comma, publication names in italics, UK not U.K.",
+        "draft": "280-word financial reporting excerpt with deliberate deviations introduced across multiple rules"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "All 13 deviations correctly found. Ambiguous case (basis points) correctly flagged for editor judgment rather than resolved arbitrarily. Consistency check section adds genuine value. Rules with no applicable instances explicitly stated — good transparency."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "house_style_rules": "5 rules from a magazine with US-UK hybrid style: '-ise' not '-ize' spellings, serial comma, no spaces around em dash, numbers below 100 spelled out, quote attribution 'said X' not 'X said'",
+        "draft": "350 words of cultural commentary with mixed spelling conventions and several attribution reversals"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "-ise/-ize variants all caught. Attribution order reversals ('X said' → 'said X') flagged systematically. One edge case (quoted speech within a longer sentence) correctly noted as ambiguous. Consistency check correctly identifies the attribution pattern as writer's default."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "house_style_rules": "3 rules only (minimal style sheet): no semicolons in news copy, all acronyms spelled out on first use, times in 12-hour format with am/pm lowercase",
+        "draft": "200 words with clean adherence to all three rules — testing false positive rate"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Clean draft — all three rules checked, no deviations found. Output correctly states this explicitly rather than padding with marginal suggestions. Low false positive rate confirmed. Passes threshold."
+    }
+  ]
 }
