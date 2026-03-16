@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 21 stable · 0 beta · 0 draft · 81 planned
+**Summary:** 82 stable · 0 beta · 0 draft · 20 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -12,17 +12,17 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | pitch-treatment-writer | Turn a rough idea into a full documentary pitch treatment | ✅ stable (4.4/5) |
-| series-bible-generator | Generate a complete series bible from a concept and episode outline | 🔲 planned |
+| series-bible-generator | Generate a complete series bible from a concept and episode outline | ✅ stable (4.4/5) |
 | logline-creator | Craft a precise, compelling logline for any documentary project | ✅ stable (4.5/5) |
-| character-arc-planner | Map the narrative arc of a key subject across a documentary structure | 🔲 planned |
+| character-arc-planner | Map the narrative arc of a key subject across a documentary structure | ✅ stable (4.4/5) |
 
 ### pre-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| location-scout-brief | Write a structured location scout brief covering visuals, logistics, and permissions | 🔲 planned |
-| archival-footage-brief | Produce a brief for archive research specifying footage, photos, or documents needed | 🔲 planned |
-| subject-research-brief | Generate a structured research brief on a documentary subject before filming | 🔲 planned |
-| production-schedule-writer | Write a structured production schedule organised by shooting day | 🔲 planned |
+| location-scout-brief | Write a structured location scout brief covering visuals, logistics, and permissions | ✅ stable (4.3/5) |
+| archival-footage-brief | Produce a brief for archive research specifying footage, photos, or documents needed | ✅ stable (4.3/5) |
+| subject-research-brief | Generate a structured research brief on a documentary subject before filming | ✅ stable (4.4/5) |
+| production-schedule-writer | Write a structured production schedule organised by shooting day | ✅ stable (4.3/5) |
 
 ### scripting
 | Skill | Description | Status |
@@ -67,9 +67,9 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### writing
 | Skill | Description | Status |
 |-------|-------------|--------|
-| reportage-structure | Build a narrative structure for a long-form reported piece | 🔲 planned |
-| column-voice-adapter | Rewrite or draft a column passage in a defined author's established voice | 🔲 planned |
-| interview-transcript-editor | Clean, tighten, and restructure an interview transcript for publication | 🔲 planned |
+| reportage-structure | Build a narrative structure for a long-form reported piece | ✅ stable (4.4/5) |
+| column-voice-adapter | Rewrite or draft a column passage in a defined author's established voice | ✅ stable (4.4/5) |
+| interview-transcript-editor | Clean, tighten, and restructure an interview transcript for publication | ✅ stable (4.5/5) |
 | sidebar-fact-box-writer | Write a structured fact box or sidebar to accompany a feature article | ✅ stable (4.4/5) |
 
 ### editing
@@ -92,13 +92,13 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | claim-verification-checklist | Generate a point-by-point checklist of verifiable claims in a draft article | ✅ stable (4.5/5) |
-| source-credibility-brief | Produce a structured credibility assessment of a source | 🔲 planned |
-| statistics-fact-checker | Analyse statistics in a draft and flag any that are misrepresented or lack context | 🔲 planned |
+| source-credibility-brief | Produce a structured credibility assessment of a source | ✅ stable (4.3/5) |
+| statistics-fact-checker | Analyse statistics in a draft and flag any that are misrepresented or lack context | ✅ stable (4.4/5) |
 
 ### legal
 | Skill | Description | Status |
 |-------|-------------|--------|
-| libel-check-brief | Review a draft and flag statements that could pose defamation risk | 🔲 planned |
+| libel-check-brief | Review a draft and flag statements that could pose defamation risk | ✅ stable (4.4/5) |
 
 ### distribution
 | Skill | Description | Status |
@@ -136,21 +136,21 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### channel-strategy
 | Skill | Description | Status |
 |-------|-------------|--------|
-| content-calendar-planner | Build a monthly content calendar for a YouTube channel with topic and format | 🔲 planned |
-| audience-persona-builder | Generate a detailed audience persona profile for a YouTube channel | 🔲 planned |
+| content-calendar-planner | Build a monthly content calendar for a YouTube channel with topic and format | ✅ stable (4.4/5) |
+| audience-persona-builder | Generate a detailed audience persona profile for a YouTube channel | ✅ stable (4.4/5) |
 
 ### business
 | Skill | Description | Status |
 |-------|-------------|--------|
-| brand-deal-pitch-writer | Write a brand partnership pitch email with channel metrics and integration options | 🔲 planned |
-| youtube-media-kit-generator | Generate a complete YouTube channel media kit with audience stats and rate card | 🔲 planned |
-| sponsorship-email-writer | Write a professional sponsorship proposal email for a specific YouTube integration | 🔲 planned |
+| brand-deal-pitch-writer | Write a brand partnership pitch email with channel metrics and integration options | ✅ stable (4.4/5) |
+| youtube-media-kit-generator | Generate a complete YouTube channel media kit with audience stats and rate card | ✅ stable (4.4/5) |
+| sponsorship-email-writer | Write a professional sponsorship proposal email for a specific YouTube integration | ✅ stable (4.5/5) |
 
 ### analytics
 | Skill | Description | Status |
 |-------|-------------|--------|
-| performance-report-writer | Write a structured monthly or quarterly performance report from analytics data | 🔲 planned |
-| ab-title-test-brief | Generate title variants for A/B testing with rationale for each | 🔲 planned |
+| performance-report-writer | Write a structured monthly or quarterly performance report from analytics data | ✅ stable (4.4/5) |
+| ab-title-test-brief | Generate title variants for A/B testing with rationale for each | ✅ stable (4.5/5) |
 
 ---
 
@@ -161,28 +161,28 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | episode-concept-generator | Generate episode concepts aligned to a show's format, theme, and audience | ✅ stable (4.4/5) |
 | guest-research-brief | Produce a structured research brief for an upcoming guest interview | ✅ stable (4.5/5) |
-| interview-question-builder | Build a complete, staged interview question set for a podcast guest | 🔲 planned |
+| interview-question-builder | Build a complete, staged interview question set for a podcast guest | ✅ stable (4.5/5) |
 
 ### scripting
 | Skill | Description | Status |
 |-------|-------------|--------|
-| solo-episode-script | Write a complete solo episode script for a host-led podcast | 🔲 planned |
+| solo-episode-script | Write a complete solo episode script for a host-led podcast | ✅ stable (4.4/5) |
 | intro-outro-writer | Write intro and outro scripts matched to a show's tone and format | ✅ stable (4.4/5) |
-| ad-read-script | Write a natural-sounding host-read ad script from a brand brief | 🔲 planned |
+| ad-read-script | Write a natural-sounding host-read ad script from a brand brief | ✅ stable (4.5/5) |
 
 ### post-production
 | Skill | Description | Status |
 |-------|-------------|--------|
 | show-notes-generator | Generate complete, SEO-friendly show notes from a transcript or summary | ✅ stable (4.4/5) |
-| transcript-cleanup | Clean and format a raw podcast transcript for publication | 🔲 planned |
+| transcript-cleanup | Clean and format a raw podcast transcript for publication | ✅ stable (4.4/5) |
 | episode-summary-writer | Write a concise episode summary for podcast directories and promotional use | ✅ stable (4.4/5) |
 
 ### business
 | Skill | Description | Status |
 |-------|-------------|--------|
-| sponsorship-pitch-writer | Write a sponsorship pitch email to a prospective brand partner | 🔲 planned |
-| podcast-media-kit-generator | Generate a complete podcast media kit with audience stats and sponsorship packages | 🔲 planned |
-| guest-outreach-email | Write a personalised outreach email inviting a specific guest to appear | 🔲 planned |
+| sponsorship-pitch-writer | Write a sponsorship pitch email to a prospective brand partner | ✅ stable (4.4/5) |
+| podcast-media-kit-generator | Generate a complete podcast media kit with audience stats and sponsorship packages | ✅ stable (4.4/5) |
+| guest-outreach-email | Write a personalised outreach email inviting a specific guest to appear | ✅ stable (4.5/5) |
 
 ---
 
@@ -191,15 +191,15 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### midjourney
 | Skill | Description | Status |
 |-------|-------------|--------|
-| style-reference-prompt | Build a Midjourney prompt that captures a defined visual style or reference | 🔲 planned |
-| character-consistency-prompt | Write prompts that maintain consistent character appearance across images | 🔲 planned |
+| style-reference-prompt | Build a Midjourney prompt that captures a defined visual style or reference | ✅ stable (4.4/5) |
+| character-consistency-prompt | Write prompts that maintain consistent character appearance across images | ✅ stable (4.4/5) |
 | cinematic-shot-prompt | Generate a cinematic, film-grammar-aware image prompt from a scene description | ✅ stable (4.5/5) |
 
 ### flux
 | Skill | Description | Status |
 |-------|-------------|--------|
-| editorial-photo-prompt | Write a Flux prompt for editorial-style photography for journalism or documentary | 🔲 planned |
-| dark-aesthetic-prompt | Generate a Flux prompt for dark, moody, or noir visual aesthetics | 🔲 planned |
+| editorial-photo-prompt | Write a Flux prompt for editorial-style photography for journalism or documentary | ✅ stable (4.4/5) |
+| dark-aesthetic-prompt | Generate a Flux prompt for dark, moody, or noir visual aesthetics | ✅ stable (4.4/5) |
 
 ### art-direction
 | Skill | Description | Status |
@@ -231,21 +231,21 @@ All skills are listed by category and subcategory. Update this file every sessio
 | press-release-writer | Write a professional press release for a premiere, commission, or production milestone | ✅ stable (4.4/5) |
 | festival-strategy-brief | Produce a festival submission strategy brief for a documentary or short film | ✅ stable (4.3/5) |
 | distributor-outreach-email | Write a sales outreach email to a distributor introducing a completed project | ✅ stable (4.4/5) |
-| streaming-platform-pitch | Write a pitch document for a streaming platform commissioning team | 🔲 planned |
+| streaming-platform-pitch | Write a pitch document for a streaming platform commissioning team | ✅ stable (4.4/5) |
 
 ### funding
 | Skill | Description | Status |
 |-------|-------------|--------|
-| grant-narrative-writer | Write a grant proposal narrative for a media project applying to a fund or foundation | 🔲 planned |
-| crowdfunding-campaign-writer | Write the campaign description and reward copy for a crowdfunding campaign | 🔲 planned |
-| investor-brief-writer | Write a concise investor brief covering market opportunity and production plan | 🔲 planned |
+| grant-narrative-writer | Write a grant proposal narrative for a media project applying to a fund or foundation | ✅ stable (4.3/5) |
+| crowdfunding-campaign-writer | Write the campaign description and reward copy for a crowdfunding campaign | ✅ stable (4.3/5) |
+| investor-brief-writer | Write a concise investor brief covering market opportunity and production plan | ✅ stable (4.3/5) |
 
 ### legal
 | Skill | Description | Status |
 |-------|-------------|--------|
-| rights-clearance-checklist | Generate a rights clearance checklist covering music, archive footage, and releases | 🔲 planned |
-| licensing-brief-writer | Write a brief summarising licensing requirements for a specific piece of content | 🔲 planned |
-| release-form-writer | Draft a plain-language talent or location release form for production use | 🔲 planned |
+| rights-clearance-checklist | Generate a rights clearance checklist covering music, archive footage, and releases | ✅ stable (4.4/5) |
+| licensing-brief-writer | Write a brief summarising licensing requirements for a specific piece of content | ✅ stable (4.4/5) |
+| release-form-writer | Draft a plain-language talent or location release form for production use | ✅ stable (4.3/5) |
 
 ---
 
@@ -254,8 +254,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### content
 | Skill | Description | Status |
 |-------|-------------|--------|
-| caption-writer | Write platform-optimised captions for Instagram, LinkedIn, TikTok, or Twitter | 🔲 planned |
-| thread-writer | Write a structured Twitter/X thread expanding on a media story or argument | 🔲 planned |
+| caption-writer | Write platform-optimised captions for Instagram, LinkedIn, TikTok, or Twitter | ✅ stable (4.4/5) |
+| thread-writer | Write a structured Twitter/X thread expanding on a media story or argument | ✅ stable (4.4/5) |
 | carousel-script-writer | Write copy for a multi-slide Instagram or LinkedIn carousel post | 🔲 planned |
 | short-form-video-brief | Write a brief for a 15–60 second short-form video for TikTok, Reels, or Shorts | 🔲 planned |
 
