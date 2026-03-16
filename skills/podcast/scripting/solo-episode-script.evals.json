@@ -1,5 +1,65 @@
 {
   "skill_name": "solo-episode-script",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Science podcast — ocean smell / dimethyl sulfide — warm nerdy host, 20 min",
+      "input_summary": "Specific scientific topic, non-technical audience, host voice clearly defined, real research cited, main idea stated",
+      "output_summary": "Full ~2,800-word script with section timestamps, production notes, hook opens on specific sensory scene, transitions written between all segments, closing memorable and specific",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_002",
+      "description": "True crime narrative — cold case from the 1970s — 35 min, narrative-first storytelling",
+      "input_summary": "Historical case, character-driven narrative structure, atmospheric opening required, host not visible in the story (pure narrator)",
+      "output_summary": "Script opens with scene-setting in present tense for immediacy; shifts to past tense for historical narrative; production notes mark emotional beats; closing raises unresolved question rather than tidy resolution",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Business/career podcast — 'how to negotiate your first freelance rate' — 15 min, practical educational",
+      "input_summary": "Practical how-to episode, actionable advice, audience is early-career professionals, host voice is direct and encouraging",
+      "output_summary": "Script structured around three principles with clear transitions; host voice is encouraging without being patronizing; closing CTA is specific action (calculate your own rate using a provided method) not just generic subscribe ask",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.0
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "Fluency and coherence are strongest — the scripts read naturally when spoken aloud and maintain clear structure throughout. Actionability is the weakest dimension because the scripts require a real recording and audio production step before they are 'used'; the output is ready for studio but not complete as a deliverable."
 }

@@ -1,5 +1,65 @@
 {
   "skill_name": "transcript-cleanup",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Supply chain interview — heavy cleanup — 2 speakers, technical terminology, filler-heavy auto-transcript",
+      "input_summary": "Raw Otter.ai-style transcript with SPEAKER 1/2 labels, multiple filler words, one technical term (chassis) that was correctly transcribed, false starts present",
+      "output_summary": "Speaker labels correctly assigned to both hosts; filler and false starts removed; technical term 'chassis' verified with definition note; no meaning changes; one [UNCLEAR] not needed (all text was recoverable)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc_002",
+      "description": "3-person panel discussion — light cleanup only — host + 2 guests, academic subject, proper nouns consistently wrong",
+      "input_summary": "Three speakers, academic proper nouns mangled by auto-transcription (researcher names, journal names), light cleanup requested so filler preserved",
+      "output_summary": "All three speakers correctly attributed; proper nouns flagged where correction is uncertain with [UNCLEAR — check against audio]; filler words preserved as requested; paragraph breaks at natural speaker transitions",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Solo narrated episode — no guest — heavy cleanup, markdown output for website",
+      "input_summary": "Single speaker transcript, no speaker-attribution needed, markdown formatting requested for web publication, 40-minute episode",
+      "output_summary": "Header added with show name/episode; no speaker labels (single voice); section timestamp markers every ~8 minutes; markdown formatting applied (bold headers, line breaks); output ready for CMS paste",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The [UNCLEAR] tagging system is the most important quality differentiator — it prevents Claude from guessing at unrecoverable passages and passing off incorrect text as accurate. The skill correctly preserves meaning even when removing filler, which is the hardest constraint to maintain at scale."
 }

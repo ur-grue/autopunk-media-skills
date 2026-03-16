@@ -1,5 +1,65 @@
 {
   "skill_name": "interview-question-builder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Behavioral economist — planning fallacy — smart general audience, 45 min, topic to avoid flagged",
+      "input_summary": "Expert guest with TED-style public profile, published book, specific topic, one sensitive area (government departure) flagged as off-limits",
+      "output_summary": "Full staged question set: 3 opening, 10 core with follow-up prompts, 3 closing, 4 overflow. Sensitive area flagged with [NOTE] in two places. One genuinely unexpected core question (asymmetry between self/other estimates).",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc_002",
+      "description": "Novelist — debut literary fiction — book podcast, conversational, 30 min",
+      "input_summary": "First-time guest, debut novel, literary podcast audience, shorter episode, no topics to avoid",
+      "output_summary": "Question arc emphasizes the novel's themes without requiring the guest to summarize the plot; includes one meta question about the writing process and one about what they want readers to take away; closing loops back to opening with emotional callback",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_003",
+      "description": "Former intelligence analyst — national security podcast, technically informed audience, 60 min, multiple sensitive areas",
+      "input_summary": "High-profile guest, current geopolitical context, multiple sensitivity flags, audience comfortable with technical terminology",
+      "output_summary": "Core questions are sharp and specific; 4 flagged questions with alternatives offered; follow-up prompts anticipate deflection strategies; closing section includes 'what would it take for you to change your mind' as a final reflection question",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Follow-up prompt quality is the skill's strongest differentiator — the conditional 'if they say X' structure is more actionable than generic prompts. The unexpected-question criterion was met in all three test cases, which is the most important quality indicator for this skill type."
 }

@@ -1,5 +1,65 @@
 {
   "skill_name": "sponsorship-pitch-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Freelance operations app — Bonsai — freelance business podcast, 12K downloads/ep, personal endorsement",
+      "input_summary": "Strong audience-brand fit, host personal endorsement confirmed, specific metrics provided, CPM-based pricing, newsletter add-on offered",
+      "output_summary": "Email opens with specific audience fit claim (not generic); metrics stated clearly; personal endorsement establishes credibility without overclaiming; packages described as a menu; CTA is one specific call",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Coffee brand — general interest podcast, 4K downloads/ep, smaller show, no prior sponsors",
+      "input_summary": "Smaller show, no sponsor history, aspirational but achievable pitch, audience demographics loosely defined",
+      "output_summary": "Pitch honest about show size; leads with niche audience loyalty as the value proposition rather than raw numbers; pricing reflects smaller scale; no overclaiming",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "HR software — career development podcast, 30K downloads/ep, existing sponsor list, premium CPM",
+      "input_summary": "Larger show, existing sponsor credibility signals, target is enterprise software company, B2B pitch angle",
+      "output_summary": "Opens with existing sponsors as credibility proof; B2B audience framing (hiring managers, HR professionals) specific to target brand; premium pricing justified with specifics; offers case study call with existing sponsor as optional proof point",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.0
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "Professionalism and consistency are strongest. The skill correctly scales the pitch approach to show size — smaller shows are not advised to pretend they are larger than they are. Actionability is the weakest dimension because the pitch requires real brand contact research before it can be sent."
 }

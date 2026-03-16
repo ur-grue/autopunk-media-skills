@@ -1,5 +1,65 @@
 {
   "skill_name": "ad-read-script",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Note-taking app — Inkwell — science podcast, warm nerdy host, personal endorsement, pre-roll + mid-roll",
+      "input_summary": "B2B-adjacent software, specific audience fit (research-intensive podcast listeners), personal endorsement confirmed, promo code provided, two placement versions requested",
+      "output_summary": "Pre-roll at 80 words is clean and direct; mid-roll at 150 words opens with transition, uses specific personal usage story, restates code once clearly at end; compliance note added flagging personal endorsement verification requirement",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.83
+    },
+    {
+      "id": "tc_002",
+      "description": "Online mattress brand — health/wellness podcast, upbeat host, no personal endorsement, mid-roll only",
+      "input_summary": "DTC consumer product, wellness podcast audience, no personal endorsement (host hasn't used it), host required claims provided verbatim by brand",
+      "output_summary": "Script avoids endorsement language while remaining warm; required brand claims integrated naturally; one required phrase flagged as slightly awkward in spoken form with alternative offered",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Financial services tool — freelance business podcast, dry professional host, high compliance requirements",
+      "input_summary": "Regulated category (financial product), compliance disclaimers required, host tone is professional and unsentimental",
+      "output_summary": "Ad copy is clean and accurate; compliance note flags that financial product ads require specific disclaimers per jurisdiction; delivery note recommends host maintain dry register and avoid any implied financial advice",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.67,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Highest-scoring podcast skill in this batch. The skill excels when a personal endorsement angle is available — the specificity of 'I use this for X' copy is noticeably stronger than non-endorsement versions. Compliance flagging is a key professionalism differentiator."
 }
