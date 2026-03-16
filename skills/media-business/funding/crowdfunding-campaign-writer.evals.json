@@ -1,5 +1,78 @@
 {
   "skill_name": "crowdfunding-campaign-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Ocean conservation documentary on Kickstarter",
+      "input": {
+        "title": "Saltwater",
+        "format": "Feature documentary, 85 minutes",
+        "goal": "€35,000",
+        "platform": "Kickstarter",
+        "what_funded": "Post-production",
+        "audience": "Ocean conservation community, documentary enthusiasts",
+        "tiers": "€10, €25, €75, €150"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Opening hook addresses conservation community directly. Campaign body answers all four required questions. Reward tiers specific and proportionate. Campaign updates have real news hooks."
+    },
+    {
+      "id": "tc-02",
+      "description": "Investigative podcast second season on Seed&Spark",
+      "input": {
+        "title": "Offshore",
+        "format": "Investigative podcast, 6-episode season 2",
+        "goal": "$18,000",
+        "platform": "Seed&Spark",
+        "what_funded": "Production costs — researcher salary, travel, mixing",
+        "audience": "Existing season 1 listeners (8,000), financial journalism readers",
+        "background": "Season 1 won a regional podcast award"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Season 2 continuation framing correctly builds on existing audience trust. Reward tiers appropriate for podcast format (early access, transcripts, bonus episodes)."
+    },
+    {
+      "id": "tc-03",
+      "description": "Photography book and exhibition project",
+      "input": {
+        "title": "Night Shift",
+        "format": "Photography book and online exhibition",
+        "goal": "£12,000",
+        "platform": "Kickstarter",
+        "what_funded": "Print costs and exhibition venue hire",
+        "audience": "Photography community, night workers, documentary photography enthusiasts",
+        "subject": "Five years photographing night-shift workers in a single industrial city"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Photography book format adapts well — physical reward tiers (signed book, print) correctly differentiated. Five-year timeline communicated as evidence of commitment."
+    }
+  ],
+  "overall_mean": 4.28,
+  "passed": true
 }

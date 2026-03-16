@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 41 stable · 0 beta · 0 draft · 61 planned
+**Summary:** 21 stable · 0 beta · 0 draft · 81 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -167,7 +167,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | solo-episode-script | Write a complete solo episode script for a host-led podcast | 🔲 planned |
-| intro-outro-writer | Write intro and outro scripts matched to a show's tone and format | 🔲 planned |
+| intro-outro-writer | Write intro and outro scripts matched to a show's tone and format | ✅ stable (4.4/5) |
 | ad-read-script | Write a natural-sounding host-read ad script from a brand brief | 🔲 planned |
 
 ### post-production
@@ -193,7 +193,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | style-reference-prompt | Build a Midjourney prompt that captures a defined visual style or reference | 🔲 planned |
 | character-consistency-prompt | Write prompts that maintain consistent character appearance across images | 🔲 planned |
-| cinematic-shot-prompt | Generate a cinematic, film-grammar-aware image prompt from a scene description | 🔲 planned |
+| cinematic-shot-prompt | Generate a cinematic, film-grammar-aware image prompt from a scene description | ✅ stable (4.5/5) |
 
 ### flux
 | Skill | Description | Status |

@@ -1,5 +1,75 @@
 {
   "skill_name": "grant-narrative-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Sports documentary applying to arts council international fund",
+      "input": {
+        "title": "The Distance Runners",
+        "format": "Feature documentary ~90 min",
+        "subject": "Three East African runners in European marathon circuits — economic infrastructure of elite African athletics",
+        "funder": "National arts council, international co-production fund",
+        "stage": "Production funding",
+        "track_record": "Director's previous doc at Hot Docs and CPH:DOX"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Significance section addresses funder priorities explicitly. Creative approach section describes actual filmmaking choices, not intentions. Impact section names concrete targets."
+    },
+    {
+      "id": "tc-02",
+      "description": "Short film applying to national film institute development fund",
+      "input": {
+        "title": "Night Soil",
+        "format": "Short documentary, 18 minutes",
+        "subject": "Elderly night-soil collectors still working in a West African city using pre-industrial methods — their routes unchanged for 60 years",
+        "funder": "National film institute, new voices development fund",
+        "stage": "Development — script complete, first-time director",
+        "what_funded": "Director attachment fee and development travel"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "New voices fund framing appropriate. Short film format handled well. Impact section appropriately scaled for a short — festival circuit rather than broadcaster."
+    },
+    {
+      "id": "tc-03",
+      "description": "Investigative journalism series applying to foundation fund",
+      "input": {
+        "title": "The Procurement Files",
+        "format": "Investigative documentary series, 3 x 52 minutes",
+        "subject": "Three-year investigation into how public infrastructure contracts are awarded in three EU countries — documented through leaked procurement records",
+        "funder": "Journalism foundation, investigative media fund",
+        "stage": "Production — investigation complete, filming begins in 3 months",
+        "what_funded": "Principal photography and post-production"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Foundation register correctly differentiated from arts council language. Significance section addresses public interest journalism mandate. Evidence-based framing appropriate for journalism fund."
+    }
+  ],
+  "overall_mean": 4.28,
+  "passed": true
 }

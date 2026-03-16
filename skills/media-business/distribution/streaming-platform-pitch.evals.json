@@ -1,5 +1,75 @@
 {
   "skill_name": "streaming-platform-pitch",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Art documentary pitched to MUBI",
+      "input": {
+        "platform": "MUBI",
+        "title": "The Archivist's Garden",
+        "format": "Feature documentary, 94 minutes",
+        "subject": "Retired film archivist whose garden is planted according to the colour palettes of restored silent films",
+        "audience": "Cinephile, documentary enthusiast",
+        "comparables": "Cunningham (2019), The Painter and the Thief"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Opening proposition is platform-specific and names a comparable already on MUBI. Audience section specific and not generic. No marketing language."
+    },
+    {
+      "id": "tc-02",
+      "description": "True crime series pitched to Netflix",
+      "input": {
+        "platform": "Netflix",
+        "title": "The Last Witness",
+        "format": "4-part documentary series, 4 x 48 minutes",
+        "subject": "The last living witness to a 1970s arson case that killed eleven people reconsidered in light of new forensic evidence",
+        "audience": "True crime audience, true crime is Netflix's strongest documentary genre",
+        "comparables": "Making a Murderer, The Staircase, American Murder"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33,
+      "notes": "Series format handled with episode count clarity. Netflix true crime positioning strong. Comparable titles include titles already on Netflix platform."
+    },
+    {
+      "id": "tc-03",
+      "description": "Comedy series pitched to a regional streamer",
+      "input": {
+        "platform": "Walter Presents (UK)",
+        "title": "The Building",
+        "format": "Comedy drama series, 6 x 28 minutes",
+        "subject": "Residents of a small apartment block in Stockholm whose lives become briefly, chaotically entangled when the building's internet goes down for a week",
+        "audience": "Subtitled European drama audience, comedy fans",
+        "comparables": "Bonusfamiljen, 30 Degrees in February"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Regional streamer positioning requires knowledge of specific platform's programming focus. Walter Presents framing correctly oriented around subtitled European content. Comedy-drama tonal balance maintained."
+    }
+  ],
+  "overall_mean": 4.33,
+  "passed": true
 }

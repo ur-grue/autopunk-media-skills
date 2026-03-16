@@ -1,5 +1,76 @@
 {
   "skill_name": "content-calendar-planner",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "niche": "Home recording and music production for bedroom producers",
+        "frequency": "Twice weekly (Wednesday and Saturday)",
+        "ideas": ["Budget mic comparison", "Vocal mixing tutorial", "Acoustic treatment on a budget", "Gear walkthrough", "Compression guide", "Full track production process"],
+        "fixed_dates": "Major software update release in Week 2",
+        "best_performers": "Tutorials and gear comparisons"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Calendar is well-sequenced. Strategic notes add genuine value. Software release timing is handled correctly. Batch filming recommendation is practical and specific."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "niche": "Plant-based cooking for athletes",
+        "frequency": "Once weekly (Sunday)",
+        "ideas": ["Pre-workout meal prep", "High-protein vegan recipes", "Debunking protein myths", "Budget plant-based week", "Cookbook review"],
+        "fixed_dates": "Veganuary awareness month — channel is publishing in January",
+        "best_performers": "Recipe videos and meal preps"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Seasonal moment (Veganuary) correctly leveraged in Week 1. Calendar is appropriately paced for once-weekly frequency. Topic sequencing is logical."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "niche": "Minimalist lifestyle and intentional living",
+        "frequency": "Twice weekly",
+        "ideas": ["Decluttering your wardrobe", "The 100 things challenge", "Digital minimalism", "Why I stopped buying things for a year"],
+        "fixed_dates": "None",
+        "best_performers": null
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Only 4 ideas for 8 publishing slots — skill correctly notes the gap and suggests repeating topics in different formats. Would benefit from Niche Video Idea Generator being run first. Passes threshold."
+    }
+  ]
 }

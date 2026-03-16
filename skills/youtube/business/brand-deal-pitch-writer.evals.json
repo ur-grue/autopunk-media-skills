@@ -1,5 +1,76 @@
 {
   "skill_name": "brand-deal-pitch-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.3,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "brand": "Premium ergonomic keyboard company ($80-$300 products)",
+        "channel": "Mechanical keyboard reviews, 78K subscribers, 310K monthly views, 8.4 min avg view duration",
+        "audience": "Working professionals 24-38, 72% male, USA/UK/Germany/Canada, 3.2% engagement",
+        "integration": "Dedicated review video after 60-day testing period",
+        "rate": "$2,500 flat + 90-day pinned affiliate link"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Opens with audience relevance, not channel metrics — correct. Rate stated clearly. CTA is low-pressure and professional. Subject line is specific. Excellent."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "brand": "Sustainable cookware brand (stainless steel, non-toxic, $120-$250 price range)",
+        "channel": "Plant-based cooking for athletes, 42K subscribers, 180K monthly views",
+        "audience": "Health-conscious adults 28-45, active lifestyle, interested in clean ingredients and sustainable products",
+        "integration": "Product feature in a weekly meal prep video",
+        "rate": "$1,200 for integration + pinned affiliate link"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Audience-brand alignment is well-articulated. Integration format is specific. Email is appropriately concise for a 42K channel. Professional tone throughout."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "brand": "Online project management tool (SaaS, monthly subscription)",
+        "channel": "Freelance business and productivity, 15K subscribers, 55K monthly views",
+        "audience": "Freelancers and solo business owners, all industries, primary pain point is client management and project tracking",
+        "integration": "Dedicated walkthrough/tutorial video showing the tool in a freelance workflow",
+        "rate": "No rate provided — creator unsure what to charge"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "No rate provided — skill correctly flags this in limitations and handles it gracefully in the pitch (uses 'open to discussing rates' language instead of a number). Output is professional and audience alignment is strong. Passes threshold."
+    }
+  ]
 }

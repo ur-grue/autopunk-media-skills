@@ -1,5 +1,78 @@
 {
   "skill_name": "distributor-outreach-email",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "IDFA award-winning documentary at EFM",
+      "input": {
+        "title": "Cartography of the Unseen",
+        "format": "Feature documentary, 84 minutes",
+        "logline": "A blind geographer creates tactile maps of places she has never seen — and her maps begin revealing things sighted cartographers missed",
+        "company": "Coastline Productions",
+        "festival": "IDFA 2024 Main Competition, Special Jury Mention",
+        "territories": "All excluding Scandinavia",
+        "context": "EFM outreach, no prior contact"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Subject line contains all key commercial information. Body covers all acquisition essentials in under 200 words. Screener access offered concretely. Single clear ask."
+    },
+    {
+      "id": "tc-02",
+      "description": "Independent drama film post-festival with no prior deals",
+      "input": {
+        "title": "Seven Hours",
+        "format": "Feature drama, 97 minutes",
+        "logline": "A defence lawyer discovers her client is innocent twelve hours before his execution — and cannot reach anyone with the authority to stop it",
+        "company": "Ironwood Films",
+        "festival": "Tribeca 2025, Audience Award winner",
+        "territories": "All territories worldwide",
+        "context": "Post-Tribeca outreach, no sales agent attached"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33,
+      "notes": "Drama format handled appropriately. Absence of sales agent noted without undermining confidence. Worldwide availability is clear selling point."
+    },
+    {
+      "id": "tc-03",
+      "description": "Series pitch to streaming distributor, no festival history",
+      "input": {
+        "title": "Common Ground",
+        "format": "4-part documentary series, 4 x 48 minutes",
+        "logline": "Four rural communities across Europe where farming subsidies have been cut, and the very different political choices their residents make in response",
+        "company": "Parallel Stories",
+        "festival": "None — no festival history",
+        "territories": "All territories",
+        "context": "Direct distributor outreach"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Absence of festival pedigree handled honestly. Series format requires slightly different commercial framing than a feature. Screener-only approach acknowledged as a weaker position."
+    }
+  ],
+  "overall_mean": 4.33,
+  "passed": true
 }

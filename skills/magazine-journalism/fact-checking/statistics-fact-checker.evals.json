@@ -1,5 +1,55 @@
 {
   "skill_name": "statistics-fact-checker",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Climate change feature with statistics on global temperature rise, sea level change, and extreme weather event frequency. Mix of IPCC data, a university press release, and an unattributed claim.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly prioritized the unattributed claim as highest risk. Distinguished IPCC data (primary source, high confidence) from university press release (secondary source, check underlying study). Recommended fixes were specific."
+    },
+    {
+      "id": "tc2",
+      "input": "Healthcare access story with statistics on uninsured rates, wait times, and a relative risk claim about mortality for uninsured patients. Two statistics are percentage-point claims labeled as percentages.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Caught both percentage/percentage-point errors. The relative risk mortality claim was correctly flagged as requiring the original study citation and causal language correction."
+    },
+    {
+      "id": "tc3",
+      "input": "Education funding story with five statistics all from the same state education department's annual report. Mostly clean data, one figure is several years old and may be outdated.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Summary was accurate — four statistics marked Likely Accurate, one flagged for outdated data. Did not over-flag clean statistics. Actionable fix for the outdated figure was specific."
+    }
+  ]
 }

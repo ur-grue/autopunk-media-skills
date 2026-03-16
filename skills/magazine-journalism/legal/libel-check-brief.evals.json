@@ -1,5 +1,55 @@
 {
   "skill_name": "libel-check-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Draft article about a school principal accused of bullying staff. Mix of on-record quotes, anonymous claims, and characterizations. Principal is a private individual.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly applied higher risk standard for private individual. Anonymous bullying claims correctly flagged Red. Attribution for a Green passage was appropriately confirmed as protected."
+    },
+    {
+      "id": "tc2",
+      "input": "Profile of a city councilmember (public figure) with allegations of financial conflicts related to a development vote. Mix of documented public records and one unsourced allegation.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly applied lower threshold for public figure. Unsourced allegation was still Red-flagged even under actual malice standard. Documented public record passages correctly assigned Green."
+    },
+    {
+      "id": "tc3",
+      "input": "Investigative feature about a named corporation (not individual) with allegations of wage theft from employees. UK publication.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Correctly switched to UK libel framework when jurisdiction was specified. Noted that UK law places burden of proof on publisher, not plaintiff — a meaningful difference in risk assessment. One passage categorization could have been Amber rather than Red."
+    }
+  ]
 }

@@ -1,5 +1,78 @@
 {
   "skill_name": "investor-brief-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Narrative feature film equity gap financing",
+      "input": {
+        "title": "After the Verdict",
+        "format": "Narrative feature, 95 minutes",
+        "total_budget": "€4.2M",
+        "sought": "€800,000",
+        "revenue_model": "Theatrical + streaming + TV rights",
+        "confirmed_financing": "German tax credit (€1.47M), one broadcaster presale (€400K)",
+        "director": "One previous feature, sold to Netflix"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Executive summary leads with financial structure. Waterfall table clear. Risk factors genuine — distribution and cast risks both named specifically. Speculative projections correctly labelled."
+    },
+    {
+      "id": "tc-02",
+      "description": "Documentary series seeking streaming presale investment",
+      "input": {
+        "title": "The Supply Chain",
+        "format": "3-part documentary series, 3 x 52 minutes",
+        "total_budget": "€1.8M",
+        "sought": "€300,000",
+        "revenue_model": "Broadcaster presales, streaming acquisition",
+        "confirmed_financing": "Irish film board development fund, 40% production confirmed",
+        "director": "Two previous series, both sold to European broadcasters"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Documentary series format handled correctly. Smaller budget investor brief appropriately scaled. Irish tax credit structure noted. Recoupment waterfall proportionate."
+    },
+    {
+      "id": "tc-03",
+      "description": "Podcast network seeking growth investment",
+      "input": {
+        "title": "Signal Audio Network",
+        "format": "Podcast network — 3 shows, seeking growth capital",
+        "total_budget": "£500,000 growth round",
+        "sought": "£500,000 (full round)",
+        "revenue_model": "Advertising, Patreon subscriptions, live events, licensing",
+        "current_state": "Combined 120,000 monthly listeners, two shows profitable, one new show launching",
+        "revenue": "£180,000 annual revenue current year, projecting £350,000 next year"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Podcast network growth investment adapts the template well. Revenue model with multiple income streams clearly differentiated. Growth projections correctly labelled as projections."
+    }
+  ],
+  "overall_mean": 4.28,
+  "passed": true
 }

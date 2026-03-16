@@ -1,5 +1,55 @@
 {
   "skill_name": "source-credibility-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.3,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Source: a retired police chief making claims about rising violent crime rates in a major metro area. Claims: crime is at a 20-year high; the cause is reduced police funding. Story: public safety policy feature.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly separated the factual crime rate claim (verifiable) from the causal attribution claim (opinion). Conflict of interest section noted retirement and institutional identity without overstating its significance."
+    },
+    {
+      "id": "tc2",
+      "input": "Source: an anonymous whistleblower claiming financial fraud at a pharmaceutical company. No name, but specific documentary evidence provided. Story: investigation into drug pricing.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Handled anonymous source correctly — assessed the documents as primary evidence rather than the anonymous source per se. Corroboration recommendation was appropriately stringent."
+    },
+    {
+      "id": "tc3",
+      "input": "Source: a published economist making predictions about inflation for a business magazine. Claims based on publicly available model; no conflicts identified.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Appropriately calibrated to a low-conflict expert. Correctly noted that economic predictions are inherently uncertain and should be framed as projections, not findings. Verdict was nuanced and useful."
+    }
+  ]
 }

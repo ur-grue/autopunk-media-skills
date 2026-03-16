@@ -1,5 +1,55 @@
 {
   "skill_name": "claim-verification-checklist",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "A 1,200-word profile of a local politician including claims about their voting record, education credentials, campaign donation amounts, and a quote attributed to a political opponent.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "All six verifiable categories were identified. High-risk flag was correctly applied to the opponent's attributed quote. Evidence requirements were specific and actionable."
+    },
+    {
+      "id": "tc2",
+      "input": "A science feature about microplastics in drinking water including statistics from three different studies, regulatory thresholds, and expert quotes. Short 800-word piece.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly distinguished peer-reviewed studies from government data. Flagged that two statistics appeared to use different measurement methodologies, creating an apples-to-oranges comparison risk."
+    },
+    {
+      "id": "tc3",
+      "input": "A breaking news article about a corporate bankruptcy filing with specific debt figures, named creditors, and a characterization of executive misconduct based on a single anonymous source.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "notes": "Anonymous source limitation was correctly flagged as high-risk without being overly cautious. Recommended court filing verification for all debt figures. Summary was accurate."
+    }
+  ]
 }
