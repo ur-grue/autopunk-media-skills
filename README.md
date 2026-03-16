@@ -1,6 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg)
 
-![Skills](https://img.shields.io/badge/skills-102_stable-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Skills](https://img.shields.io/badge/skills-140_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
 ---
 
@@ -23,6 +23,10 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 - **Visual content creators** — image prompts for Midjourney, Flux, and art direction workflows
 - **Media business** — pitching broadcasters, fundraising, distribution, rights clearance
 - **Social media managers** — captions, threads, carousels, platform strategy
+- **Radio journalists and producers** — bulletins, packages, two-ways, running orders, broadcaster pitches
+- **Newsletter writers** — editions, subject lines, subscriber growth, paid conversions, sponsorship
+- **PR and communications professionals** — press releases, crisis statements, spokesperson briefs, op-eds
+- **Screenwriters** — treatments, beat sheets, scene writing, script notes, coverage
 
 ---
 
@@ -102,7 +106,11 @@ That's the quality level you get from every stable skill in this library.
 | Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
 | Media Business | 13 skills | pitching · distribution · funding · legal |
 | Social Media | 7 skills | content · strategy |
-| **Total** | **103 skills** | |
+| Radio / Audio | 9 skills | scripting · news packages · production · strategy |
+| Newsletter | 10 skills | writing · strategy · growth · monetization |
+| PR / Communications | 9 skills | press office · crisis comms · media relations · content |
+| Screenwriting | 9 skills | development · scripting · revision · production |
+| **Total** | **140 skills** | |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 

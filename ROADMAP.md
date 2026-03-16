@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 102 stable · 0 beta · 0 draft · 0 planned
+**Summary:** 102 stable · 0 beta · 0 draft · 34 planned · 136 total
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -265,3 +265,123 @@ All skills are listed by category and subcategory. Update this file every sessio
 | platform-strategy-brief | Write a platform strategy brief for a media brand on a specific social platform | ✅ stable (4.3/5) |
 | hashtag-strategy-writer | Generate a tiered hashtag strategy with niche, mid-range, and broad tags | ✅ stable (4.3/5) |
 | cross-promotion-pitch | Write a cross-promotion pitch to another creator proposing a collaborative swap | ✅ stable (4.4/5) |
+
+---
+
+## Radio / Audio
+
+### scripting
+| Skill | Description | Status |
+|-------|-------------|--------|
+| bulletin-script-writer | Write a broadcast-ready radio news bulletin script from raw story notes | 🔲 planned |
+| presenter-link-writer | Write natural, conversational presenter links to introduce, bridge, and close segments | 🔲 planned |
+| documentary-narration-writer | Write narration for a radio or audio documentary | 🔲 planned |
+| interview-cue-sheet-writer | Produce a formatted radio interview cue sheet with intro, questions, and out-cue | 🔲 planned |
+
+### news-packages
+| Skill | Description | Status |
+|-------|-------------|--------|
+| package-script-writer | Write a complete radio news package script — track, clips, and back announcement | 🔲 planned |
+| clip-selection-brief | Analyse an interview transcript and recommend the best actuality clips | 🔲 planned |
+| two-way-brief-writer | Write a briefing document for a live studio two-way | 🔲 planned |
+
+### production
+| Skill | Description | Status |
+|-------|-------------|--------|
+| running-order-builder | Build a complete radio programme running order with timed segments | 🔲 planned |
+| programme-brief-writer | Write a structured radio programme brief for a new or relaunching show | 🔲 planned |
+
+### strategy
+| Skill | Description | Status |
+|-------|-------------|--------|
+| podcast-to-radio-adapter | Adapt a podcast episode or series format for broadcast radio | 🔲 planned |
+| pitch-to-broadcaster | Write a radio programme pitch document for a network or station commissioner | 🔲 planned |
+
+---
+
+## Newsletter
+
+### writing
+| Skill | Description | Status |
+|-------|-------------|--------|
+| edition-writer | Write a complete newsletter edition — intro, main piece, curated links, and sign-off | 🔲 planned |
+| subject-line-writer | Write high-open-rate email subject line options for a newsletter edition | 🔲 planned |
+| welcome-email-writer | Write a subscriber welcome email that introduces the newsletter's voice and value | 🔲 planned |
+| re-engagement-email-writer | Write a re-engagement email sequence for inactive subscribers | 🔲 planned |
+
+### strategy
+| Skill | Description | Status |
+|-------|-------------|--------|
+| content-arc-planner | Plan a multi-edition content arc across a defined publishing period | 🔲 planned |
+| niche-positioning-brief | Write a positioning brief defining a newsletter's niche and editorial promise | 🔲 planned |
+
+### growth
+| Skill | Description | Status |
+|-------|-------------|--------|
+| referral-copy-writer | Write in-email referral copy encouraging subscribers to share the newsletter | 🔲 planned |
+| landing-page-copy-writer | Write conversion-optimised subscribe page copy for a newsletter | 🔲 planned |
+
+### monetization
+| Skill | Description | Status |
+|-------|-------------|--------|
+| paid-tier-pitch-writer | Write an in-newsletter upgrade pitch that converts free subscribers to paid | 🔲 planned |
+| sponsorship-rate-card | Generate a formatted newsletter sponsorship rate card with placement options and pricing | 🔲 planned |
+
+---
+
+## PR / Communications
+
+### press-office
+| Skill | Description | Status |
+|-------|-------------|--------|
+| press-release-writer | Write a complete, newswire-ready press release from a briefing note | 🔲 planned |
+| media-alert-writer | Write a short, factual media alert inviting journalists to a press event | 🔲 planned |
+| boilerplate-writer | Write a standard "About" boilerplate paragraph for press materials | 🔲 planned |
+
+### crisis-comms
+| Skill | Description | Status |
+|-------|-------------|--------|
+| crisis-statement-writer | Draft an initial crisis communications statement for a breaking negative story | 🔲 planned |
+| holding-statement-writer | Write a holding statement when an organisation is under pressure without all the facts | 🔲 planned |
+| faq-document-writer | Write a journalist-facing FAQ document for a crisis or complex issue | 🔲 planned |
+
+### media-relations
+| Skill | Description | Status |
+|-------|-------------|--------|
+| journalist-pitch-email | Write a targeted pitch email to a specific journalist offering a story angle | 🔲 planned |
+| spokesperson-briefing-note | Write a pre-interview briefing note for a spokesperson | 🔲 planned |
+
+### content
+| Skill | Description | Status |
+|-------|-------------|--------|
+| op-ed-writer | Write a bylined opinion article for placement in a newspaper or trade publication | 🔲 planned |
+| speech-writer | Write a structured speech for an executive or spokesperson for a media event | 🔲 planned |
+
+---
+
+## Screenwriting
+
+### development
+| Skill | Description | Status |
+|-------|-------------|--------|
+| logline-writer | Craft a precise logline for a feature film or TV pilot | 🔲 planned |
+| treatment-writer | Write a professional screenplay treatment for a feature film or TV pilot | 🔲 planned |
+| beat-sheet-builder | Build a complete beat sheet mapping story beats across a three-act structure | 🔲 planned |
+| character-profile-writer | Write a detailed character profile covering psychology, backstory, and voice | 🔲 planned |
+
+### scripting
+| Skill | Description | Status |
+|-------|-------------|--------|
+| scene-writer | Write a screenplay scene in industry-standard format from a scene brief | 🔲 planned |
+| dialogue-polisher | Rewrite or sharpen dialogue to improve subtext and character voice differentiation | 🔲 planned |
+
+### revision
+| Skill | Description | Status |
+|-------|-------------|--------|
+| coverage-report-writer | Write a structured script coverage report as used by development executives | 🔲 planned |
+| script-notes-writer | Write detailed editorial script notes identifying structural and scene-level fixes | 🔲 planned |
+
+### production
+| Skill | Description | Status |
+|-------|-------------|--------|
+| one-pager-writer | Write a one-page screenplay sales document for producer or financier meetings | 🔲 planned |
