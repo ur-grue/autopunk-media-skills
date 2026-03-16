@@ -18,11 +18,13 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 
 ## Who Is This For?
 
-- **TV documentary producers** — development, scripting, post-production, localization
-- **Magazine journalists** — story ideation, writing, editing, distribution
-- **YouTube creators** — pre-production, scripting, post-production, channel strategy
-- **Podcast producers** — episode planning, scripting, show notes and transcripts
+- **TV documentary producers** — development, pre-production, scripting, post-production, localization, business
+- **Magazine journalists** — story ideation, writing, editing, investigation, fact-checking, legal
+- **YouTube creators** — pre-production, scripting, post-production, channel strategy, business, analytics
+- **Podcast producers** — episode planning, scripting, show notes, sponsorship
 - **Visual content creators** — image prompts for Midjourney, Flux, and art direction workflows
+- **Media business** — pitching broadcasters, fundraising, distribution, rights clearance
+- **Social media managers** — captions, threads, carousels, platform strategy
 
 ---
 
@@ -38,14 +40,16 @@ That's it. Claude handles the rest.
 
 ## What's In The Library
 
-| Category | Skills | Status |
-|----------|--------|--------|
-| TV Documentary | 13 skills | development · scripting · post-production · localization |
-| Magazine Journalism | 12 skills | ideation · writing · editing · distribution |
-| YouTube | 13 skills | pre-production · scripting · post-production · channel strategy |
-| Podcast | 10 skills | pre-production · scripting · post-production |
-| Image Prompting | 9 skills | Midjourney · Flux · art direction · workflows |
-| **Total** | **57 skills** | |
+| Category | Skills | Subcategories |
+|----------|--------|---------------|
+| TV Documentary | 21 skills | development · pre-production · scripting · post-production · localization · business |
+| Magazine Journalism | 22 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
+| Podcast | 12 skills | pre-production · scripting · post-production · business |
+| Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
+| Media Business | 13 skills | pitching · distribution · funding · legal |
+| Social Media | 7 skills | content · strategy |
+| **Total** | **103 skills** | |
 
 ---
 
