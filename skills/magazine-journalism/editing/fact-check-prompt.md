@@ -27,6 +27,7 @@ Generates a systematic fact-checking checklist from a draft article, categorizin
 1. Reads through the draft and extracts every verifiable claim — statistics, dates, names and titles, institutional descriptions, historical facts, legal statements, causal claims ("X caused Y"), and direct quotes attributed to named sources.
 2. Categorizes claims by risk level: High (statistics, specific numbers, legal or medical claims, anything that could expose the publication to a defamation claim), Medium (biographical details, historical claims, institutional descriptions), Low (widely known facts, claims easily verified in seconds).
 3. For each claim: writes the verification question in plain language, recommends the source type (primary document, official record, academic paper, direct confirmation with named source, etc.), and flags any claim where the draft text itself is ambiguous or internally inconsistent — separate from whether the underlying fact is correct.
+4. Closes with a "Next Step" note: which High Priority item to verify first (typically the claim most likely to affect the piece's core argument if wrong), whether to run house-style-enforcer after fact-checking is complete, and the estimated total checking time
 
 ## Output Format
 Three-section checklist organized by risk level: High Priority, Medium Priority, Low Priority. Each item formatted as:
@@ -35,7 +36,7 @@ Three-section checklist organized by risk level: High Priority, Medium Priority,
 - **Source type:** [what kind of source resolves this]
 - **Flag:** [any internal ambiguity or consistency note, if applicable]
 
-Summary at the end: total item count by risk level, estimated checking time, and any structural fact concerns (e.g., a single source underpins multiple high-risk claims).
+Summary at the end: total item count by risk level, estimated checking time, and any structural fact concerns (e.g., a single source underpins multiple high-risk claims). Output ends with a "Next Step" note: which item to verify first, estimated total checking time, and whether to run house-style-enforcer once fact-checking is complete.
 
 ## Quality Criteria
 - [ ] Every numerical claim in the draft appears in the checklist
@@ -44,6 +45,7 @@ Summary at the end: total item count by risk level, estimated checking time, and
 - [ ] Verification questions are specific enough to hand to a researcher without further explanation
 - [ ] Internal inconsistencies in the draft are flagged separately from external fact errors
 - [ ] No claims omitted because they "seem obviously correct"
+- [ ] Output includes at least one concrete next action the user can take immediately (start with the highest-risk item, run house-style-enforcer next, or confirm the structural concern flagged in the summary)
 
 ## Example
 

@@ -40,6 +40,7 @@ Produces a coordinated batch of image prompts for a social media campaign — a 
 3. Writes each individual prompt around a distinct scene or subject, ensuring no two images are compositionally identical while all images share the same lighting approach, palette, and register
 4. Plans visual variety deliberately: varies composition (close/medium/wide), subject (person/object/environment), and mood within the shared aesthetic — so the batch feels like a curated editorial series, not a set of variations on one image
 5. Outputs the batch with a brief content note per image suggesting caption direction or where in a posting calendar the image fits
+6. Closes with a "Next Step" note: which image to generate first to establish the visual anchor, whether to review the grid layout before scheduling (for Instagram), and whether cover-image-pipeline should be run if any batch image also needs to be produced in multiple platform formats
 
 ## Output Format
 - Visual anchor string (labeled, ready to append to all prompts)
@@ -47,6 +48,7 @@ Produces a coordinated batch of image prompts for a social media campaign — a 
 - Content note per image: 1 sentence on when/how to use this image in a posting calendar
 - Generation sequence advice if the batch benefits from seed continuity
 - Brief batch overview: how the images work together and what variety has been built in
+- Output ends with a "Next Step" note: which image to generate first, whether to check the grid layout before scheduling, and whether cover-image-pipeline is needed for multi-format versions
 
 ## Quality Criteria
 - [ ] No two images in the batch have the same composition type (close/wide/medium) or subject category (person/object/space)
@@ -54,6 +56,7 @@ Produces a coordinated batch of image prompts for a social media campaign — a 
 - [ ] Each prompt is complete and would produce a usable image without the other prompts in the batch
 - [ ] Content notes are practical — they tell the user specifically when to post each image, not just what it shows
 - [ ] The batch as a whole tells a story about the project, even if individual images are standalone
+- [ ] Output includes at least one concrete next action the user can take immediately (generate the anchor image first, check the grid layout, or run cover-image-pipeline for multi-format versions)
 
 ## Example
 

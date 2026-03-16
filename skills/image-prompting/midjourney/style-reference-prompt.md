@@ -37,12 +37,14 @@ Builds a Midjourney prompt that precisely captures a defined visual style or art
 3. Adds the appropriate camera, lens, or medium reference if the style implies specific photographic or artistic technique (e.g., "shot on 35mm Kodak Portra 400," "gouache on textured paper," "Leica M6 wide-open")
 4. Sets aspect ratio parameter and adds `--stylize` value suggestion appropriate to the style (higher for painterly/artistic, lower for documentary/editorial)
 5. Optionally generates 2–3 variations that explore the style from slightly different angles (different subject, same aesthetic)
+6. Closes with a "Next Step" note: how many generations to run at this `--s` value before adjusting, whether to try the alternative prompts if the primary doesn't land, and whether character-consistency-prompt should be run if a recurring figure also needs to appear in this aesthetic
 
 ## Output Format
 - Primary prompt: complete Midjourney-ready string, formatted as: `/imagine [subject], [style descriptors], [technical reference], [mood/light], [finish parameters] --ar [ratio] --s [value] --v [version]`
 - Breakdown section: brief explanation of which prompt elements produce which visual characteristics — so the user can modify intelligently
 - Optional: 2 alternative prompts that vary subject or emphasis while maintaining the same aesthetic
 - Negative prompt suggestions (`--no [element]`) where relevant to exclude common artifacts that clash with the style
+- Output ends with a "Next Step" note: how many generations to run, whether to test the alternative prompts, and whether to run character-consistency-prompt if a recurring character also needs to appear in this style
 
 ## Quality Criteria
 - [ ] The prompt captures the specific style described, not just its genre — "Nan Goldin snapshot aesthetic" is different from "documentary photography"
@@ -50,6 +52,7 @@ Builds a Midjourney prompt that precisely captures a defined visual style or art
 - [ ] The prompt includes at least one lighting descriptor — lighting is the single strongest style determinant in generated images
 - [ ] Aspect ratio is set — a promptless default square is rarely the right output for professional content
 - [ ] The breakdown section explains the logic so the user can iterate, not just copy-paste
+- [ ] Output includes at least one concrete next action the user can take immediately (run generations at the given `--s` value, try alternative prompts, or run character-consistency-prompt)
 
 ## Example
 

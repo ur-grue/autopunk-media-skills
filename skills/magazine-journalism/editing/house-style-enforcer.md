@@ -27,13 +27,14 @@ Reviews copy against a defined house style guide and returns a structured list o
 1. Maps each house style rule provided to its category (punctuation, capitalization, date/number format, quotation conventions, etc.) and applies each rule systematically to the full draft.
 2. Flags every instance where the draft deviates from the specified rule — including cases where the writer uses the correct form in some places but not others (inconsistency within the piece, not just violation of the rule).
 3. For each flagged item: quotes the original, gives the corrected form, and cites the specific rule it violates. If a rule could be interpreted two ways, flags the ambiguity and asks for clarification rather than making an arbitrary choice.
+4. Closes with a "Next Step" note: whether to request a clean corrected version of the full text, which writer tendency to note for future edits, and whether to run fact-check-prompt on the same piece for a complete pre-publication pass
 
 ## Output Format
 Two-part output:
 1. **Deviations list** — numbered items in document order, each with: original text, corrected form, rule violated
 2. **Consistency check** — any rule that the writer got right in some places but wrong in others (listed separately so the editor knows which inconsistencies to watch for in future copy from this writer)
 
-Optional third section: **Clean corrected excerpt** (requested explicitly). Total flagged items: proportional to draft length and house style specificity — a 1,000-word draft checked against 15 rules might yield 5–25 flagged items.
+Optional third section: **Clean corrected excerpt** (requested explicitly). Total flagged items: proportional to draft length and house style specificity — a 1,000-word draft checked against 15 rules might yield 5–25 flagged items. Output ends with a "Next Step" note: whether to request the clean corrected version, what writer tendency to watch for, and whether to run fact-check-prompt to complete the pre-publication edit pass.
 
 ## Quality Criteria
 - [ ] Every deviation from a stated rule is caught — no omissions of clearly applicable rules
@@ -41,6 +42,7 @@ Optional third section: **Clean corrected excerpt** (requested explicitly). Tota
 - [ ] Each flag cites the specific rule, not just "house style says"
 - [ ] Ambiguous cases are flagged as questions, not resolved arbitrarily
 - [ ] If no deviations are found for a particular rule, this is stated explicitly (so the editor knows it was checked)
+- [ ] Output includes at least one concrete next action the user can take immediately (request the clean corrected version, note the writer's tendency, or run fact-check-prompt for a complete pre-publication pass)
 
 ## Example
 

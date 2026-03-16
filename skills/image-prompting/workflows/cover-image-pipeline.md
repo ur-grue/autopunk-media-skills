@@ -38,6 +38,7 @@ Generates a complete, coordinated set of image prompts for a cover image concept
 3. Writes a coordinated prompt set where all versions share a consistent subject, style, and palette anchor, but each prompt is written to optimize for its specific ratio and use context
 4. Notes text-safe zones for each format — where title text can be placed without covering the focal point
 5. Identifies the generation sequence: which format to generate first (usually the most compositionally complex), and how to use that result's style/seed to anchor the others
+6. Closes with a "Next Step" note: confirm the first format generation before moving on to the others, note the seed number after the first successful result, and review the full set at actual display sizes before finalizing
 
 ## Output Format
 - One prompt per format requested, each labeled with: format name, aspect ratio, intended platform, and approximate pixel dimensions
@@ -45,6 +46,7 @@ Generates a complete, coordinated set of image prompts for a cover image concept
 - Text-safe zone note for each format (where title/text can safely overlay)
 - Generation sequence recommendation (which to generate first and how to carry consistency forward)
 - A shared style anchor string to append to all prompts for visual consistency
+- Output ends with a "Next Step" note: which format to generate first, how to record the seed, and how to review the final set at actual platform display sizes
 
 ## Quality Criteria
 - [ ] Each format prompt is specifically composed for its ratio — not a generic version with an aspect ratio parameter changed
@@ -52,6 +54,7 @@ Generates a complete, coordinated set of image prompts for a cover image concept
 - [ ] Text-safe zones are specified for every format
 - [ ] The shared style anchor is consistent across all prompts
 - [ ] The generation sequence note explains the logic, not just the order
+- [ ] Output includes at least one concrete next action the user can take immediately (generate the first format, record the seed number, or review the set at platform display sizes)
 
 ## Example
 
