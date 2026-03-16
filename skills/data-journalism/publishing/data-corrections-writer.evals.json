@@ -1,0 +1,47 @@
+{
+  "skill_name": "data-corrections-writer",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Transposed digit error in percentage — does not affect core finding",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc2",
+      "description": "Wrong comparison year used in analysis — does affect the headline claim",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    },
+    {
+      "id": "tc3",
+      "description": "Currency conversion error in contract value — figure off by factor of 1000",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    }
+  ],
+  "overall_mean": 4.39
+}

@@ -1,0 +1,47 @@
+{
+  "skill_name": "data-cleaning-brief",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Procurement contracts FOI response — mixed formats, duplicates, blank values",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc2",
+      "description": "Electoral register data — name inconsistencies and address formatting issues",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    },
+    {
+      "id": "tc3",
+      "description": "Hospital admissions dataset — mixed date formats and ICD code inconsistencies",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    }
+  ],
+  "overall_mean": 4.39
+}

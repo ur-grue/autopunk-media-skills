@@ -1,0 +1,47 @@
+{
+  "skill_name": "scraper-brief",
+  "status": "passed",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Government procurement portal — paginated index, 45k records, weekly updates",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc2",
+      "description": "Corporate filings website — company director search, dynamic JS content",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    },
+    {
+      "id": "tc3",
+      "description": "Parliamentary voting records — multi-year archive, session and member structure",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "overall_mean": 4.28
+}
