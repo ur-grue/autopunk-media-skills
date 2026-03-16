@@ -1,5 +1,61 @@
 {
   "skill_name": "journalist-pitch-email",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.6,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Academic research pitch — exclusive pre-publication interview, beat-matched to journalist's recent coverage",
+      "input_summary": "Roscoe University 20-minute neighbourhood study; 14 cities; 31% car dependency reduction; 18% loneliness reduction; exclusive pre-publication interview with lead researcher; journalist recently wrote opposing angle piece",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Subject line front-loads the story and the data. First sentence is the news hook — no preamble. Journalist's recent article referenced specifically. Offer (exclusive pre-publication interview) stated in second paragraph. Closing ask is a single low-friction question. 155 words — within target. No marketing language."
+    },
+    {
+      "id": "tc-002",
+      "description": "Corporate sustainability report — no exclusive, multiple journalists targeted, data-led angle",
+      "input_summary": "Talvern Manufacturing; annual sustainability report showing 42% emissions reduction over 5 years; pitching to three environmental correspondents simultaneously; no exclusive; CEO available for interview; targeting environmental business press",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Relevance note: output did not address the multi-journalist pitch in the subject line or body — when pitching to multiple outlets simultaneously, this is a material fact that ethical PR practice requires disclosing. Flagged as a gap. Professionalism note: 'industry-leading sustainability credentials' appeared in the second paragraph — unsupported superlative not present in the input. Consistency: data reproduced accurately."
+    },
+    {
+      "id": "tc-003",
+      "description": "Crisis follow-up pitch — offering exclusive access to the scene of an incident after a holding statement",
+      "input_summary": "Greenfield Energy; solar farm fire contained; proposing exclusive guided tour for specialist energy journalist; interview with plant manager; fire cause now confirmed as electrical fault in inverter; embargo on tour for 24 hours",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Correctly treated the tour offer as the news peg rather than the fire itself (already reported). Embargo condition stated in the body without being buried. Fluency note: second paragraph slightly overlong at 55 words — could be tightened. Professionalism note: the pitch appropriately did not use the exclusivity to minimise the original incident."
+    }
+  ]
 }

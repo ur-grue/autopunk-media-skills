@@ -1,5 +1,61 @@
 {
   "skill_name": "speech-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Housing federation conference address — CEO, 8 minutes, government accountability argument, three embedded key messages",
+      "input_summary": "James Aldridge, National Housing Federation CEO; annual conference; 600 professionals; 8 minutes; three key messages about planning failures, sector performance, 10-year plan endorsement ask; authoritative not combative register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Does not open with thanks. Three key messages embedded at natural argument pivots, not listed. Three-question sequence built for pause and effect. Call to action at close is specific and time-bounded ('by end of this month'). Sentences average 18 words — appropriate for spoken delivery. Delivery note at top adds practical value without cluttering the script."
+    },
+    {
+      "id": "tc-002",
+      "description": "Product launch speech — CMO, 5-minute stage address, technology conference, two key messages, teleprompter delivery",
+      "input_summary": "CMO of a SaaS company; product launch at a technology conference; 5 minutes; two key messages: product solves a specific workflow bottleneck; company is expanding to European market; teleprompter delivery; direct and confident register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Teleprompter format correctly applied — slightly shorter lines, predictable rhythm. Relevance note: included a third implicit message about competitive differentiation that was not in the brief — could cause problems if the company has cleared messaging only for the two stated points. Fluency note: opening sentence in the product demo section had a relative clause that would be awkward on teleprompter. Consistency: no fabricated product features."
+    },
+    {
+      "id": "tc-003",
+      "description": "Award acceptance speech — individual receiving lifetime achievement award at media industry dinner, 3 minutes, personal reflection expected",
+      "input_summary": "Veteran documentary filmmaker receiving a lifetime achievement award; 3-minute acceptance speech at a media industry dinner; personal reflection on career expected; no key messages per se; warm and humble register; anecdote about a specific formative assignment to include",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Correctly shifted from the structured argumentative format to a more reflective, personal register. The requested anecdote was naturalistically integrated, not inserted. Relevance note: output included a forward-looking paragraph about the future of documentary filmmaking — not requested in the brief, and slightly out of place in an acceptance speech which should close on gratitude or personal reflection rather than a keynote-style position statement. Actionability: the optional delivery note was included and appropriate."
+    }
+  ]
 }

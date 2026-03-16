@@ -1,5 +1,61 @@
 {
   "skill_name": "op-ed-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Carbon offsets critique — climate research director, national broadsheet, anti-offset argument with EC news hook",
+      "input_summary": "Dr. Elena Sousa; Vantage Environmental Institute; carbon offset markets failing; phantom credits evidence; $2B market; EC regulatory review news hook; national broadsheet; engaged professional register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Opens with a concrete, arresting observation (airline neutrality claim vs rising emissions). Central argument clear by paragraph 2. Counterargument (reform vs replacement) acknowledged and rebutted. Evidence points integrated in prose, not listed. No paragraph reads as a press release. Closes with a challenge, not a summary. 790 words — within target range."
+    },
+    {
+      "id": "tc-002",
+      "description": "Healthcare waiting times — hospital trust CEO, trade publication, argument for local care model over centralisation",
+      "input_summary": "Hospital trust CEO; argument: centralised specialist centres increase waiting times for 80% of patients who have straightforward needs; trade publication for NHS leadership; two supporting data points; formal professional register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Formal register correctly applied throughout. Relevance note: third section drifted into an argument about workforce retention — not part of the stated brief. Should have been flagged or omitted. Fluency: two sentences used passive voice ('it has been noted that') unnecessarily. Consistency: data points reproduced correctly; no fabricated evidence."
+    },
+    {
+      "id": "tc-003",
+      "description": "Tech industry diversity — startup founder, industry newsletter, argument that diversity initiatives without structural change are performative",
+      "input_summary": "Startup founder; argument: tech industry DEI programmes are largely performative without changes to founding team composition criteria and VC investment patterns; industry newsletter; conversational expert register; one personal anecdote to include",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Conversational register well calibrated. Personal anecdote (a hiring experience) integrated naturally. Coherence note: paragraph four contained two distinct arguments — the VC investment pattern claim and the hiring pipeline claim — which should have been separate paragraphs. Relevance note: conclusion made a call to action aimed at VC firms, but the stated audience is industry newsletter readers who are primarily founders. Actionability: the call to action was too broad to act on."
+    }
+  ]
 }

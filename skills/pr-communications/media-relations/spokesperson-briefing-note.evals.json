@@ -1,5 +1,61 @@
 {
   "skill_name": "spokesperson-briefing-note",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.6,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "description": "Job relocation announcement — COO facing worker-sympathetic economics journalist, print format",
+      "input_summary": "Bridgeway Logistics COO; 120 Manchester jobs relocating; Robert Carver, National Tribune; worker-sympathetic correspondent; 3 key messages; severance figures and Eastern European costs off-limits; print format",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 5.0,
+      "notes": "Interview context paragraph correctly identified journalist's likely framing (worker-focused, cost-cutting angle). Key messages stated in one sentence each with rationale. Anticipated questions are adversarial as required. Every topic-to-avoid has bridging language. Closing reminder is a single, memorable, usable sentence. Document is scannable at 587 words."
+    },
+    {
+      "id": "tc-002",
+      "description": "Product recall interview — CEO on radio, 10-minute live slot, questions submitted in advance",
+      "input_summary": "Suncroft Foods CEO; baby food recall over contamination concern; live radio interview, 10 minutes; three submitted questions: what happened, is it safe now, what are you doing for affected families; key message: proactive recall, no confirmed harm, full refund",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Live radio format correctly flagged in the context section with practical advice (short sentences, no technical jargon on air). Pre-submitted questions addressed first, then anticipated follow-ups. Fluency note: one suggested response contained a sub-clause that would be difficult to deliver naturally on live radio. Professionalism note: 'safety is our top priority' appeared in one suggested response — flagged as a phrase that sounds hollow; bridging language replaced it on review."
+    },
+    {
+      "id": "tc-003",
+      "description": "New CEO first media interview — introductory profile piece, no crisis, brand positioning focus",
+      "input_summary": "Newly appointed CEO of a regional arts organisation; first media interview with arts trade publication; journalist profiling new leadership; key messages: community access, digital expansion, financial sustainability; no sensitive topics; 30-minute print interview",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Non-crisis briefing note correctly calibrated — less defensive, more conversational tone throughout. Coherence note: the topics-to-avoid section was almost empty (correctly so) but the format created an awkward near-blank section; a revised version would reframe it as 'Areas to Handle With Care' with a lighter touch. Relevance note: included guidance on handling budget questions not mentioned in the input — reasonable anticipation but should be flagged as an assumption."
+    }
+  ]
 }
