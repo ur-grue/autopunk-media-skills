@@ -1,5 +1,58 @@
 {
   "skill_name": "cinematic-shot-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Scene: An elderly fisherman repairs nets on a dock at dawn, alone. Mood: solitude, routine, dignity. Reference: Terence Davies, slow cinema aesthetic. Aspect ratio: 2.39:1 (anamorphic). No specific shot type preference.",
+      "output_summary": "Prompt specified a wide-to-medium composition with the fisherman off-center, pre-dawn warm orange light from the east behind heavy grey cloud, muted amber and blue-grey palette, minimal camera angle (near-horizon level). Slow cinema vocabulary: still camera implied, long-lens compression (135mm), heavy grain, faded highlights. Breakdown explained the color split between the practical warmth of sunrise and the cold dock environment. Variant prompt offered a tighter medium shot for a more intimate reading. --ar 2.39:1 parameter correct. No generic descriptors ('beautiful', 'stunning') present.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Scene: Two teenagers argue outside a convenience store at night, one about to leave. Mood: tension, the last moment before something changes. Reference: Sean Baker, contemporary American realist cinema. Aspect ratio: 16:9. Shot type: medium, handheld.",
+      "output_summary": "Prompt correctly specified handheld medium shot, fluorescent convenience store practical lighting spilling onto the sidewalk, mixed color temperature (warm yellow from the store, cool street ambient), shallow depth of field, high-contrast sodium-vapor color. Sean Baker visual references incorporated through the warm/cool practical light split and realistic location setting. Breakdown explained why handheld was the right choice (tension, intimacy). Variant offered a wider shot from across the street. All technical parameters present and correct.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-003",
+      "input": "Scene: A corporate boardroom meeting in progress, seen through the glass wall from outside. Mood: power, exclusion, surveillance. Reference: No specific film. Aspect ratio: 16:9. Cold, clinical aesthetic requested.",
+      "output_summary": "Prompt specified exterior-looking-in framing through floor-to-ceiling glass, surveillance-angle camera position (slightly elevated, off-axis), fluorescent interior lighting creating blue-white clinical tones, reflections in the glass partially obscuring the figures inside. Cold desaturated palette, no warmth. Breakdown correctly connected the glass-wall framing to the exclusion/surveillance mood. Technical parameters included. One element in the prompt was slightly redundant (specified 'clinical' twice in different sections), a minor fluency issue.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

@@ -1,5 +1,58 @@
 {
   "skill_name": "intro-outro-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Show: 'The Long Read' — a literary fiction discussion podcast. Hosts: two co-hosts, Priya and Sam. Episode: discussing a novel about a family estrangement. Tone: warm, intellectual, conversational. Most interesting moment: Priya's observation that the novel's central character never once uses the word 'love' in the entire book. No sponsor. CTAs: subscribe and Patreon.",
+      "output_summary": "Intro opened with the observation about 'love' never appearing in the book — specific and immediately interesting for the show's literary audience. Show name and both hosts introduced naturally within 30 seconds. Tone appropriately warm and intellectual. Outro included an episode callback and a natural Patreon mention. Alternate intro provided with a co-host dialogue setup. All scripts read naturally aloud. Word count accurate to timing estimates.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Show: 'The Gig Breakdown' — freelance strategy podcast. Solo host: Marcus. Episode: tips for raising your rates with existing clients. Tone: direct, no-nonsense, practical. No guest. Compelling moment: host's own experience losing a client after raising rates, then getting a better client two weeks later. Target: 30-second intro. CTAs: subscribe + newsletter signup.",
+      "output_summary": "Intro opened with the specific anecdote about losing and regaining a better client — concrete and useful for the target audience. Show ID within 20 seconds. Tone correctly direct and practical. Outro included episode callback and both CTAs (subscribe first, newsletter second — correct ordering). 30-second target met (75 words). Scripts were clean and natural for solo delivery. Outro was appropriately brief.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Show: 'Parental Advisory' — parenting podcast with rotating guest experts. Host: a solo host named Claire. Episode: screen time and toddlers. Guest: a developmental psychologist. Tone: warm, non-judgmental, informative. Target: 60-second intro. CTAs: subscribe + community group link.",
+      "output_summary": "Intro opened with a question parents would recognize (not a quote, as none was provided). 60-second target met (145 words). Guest introduced with appropriate credentials. Show tone was warm and non-judgmental throughout. Outro included reference back to the episode's reassurance angle (appropriate for a parenting show). Community group CTA included. Alternate intro provided. One delivery note was slightly generic — could have been more specific about pacing.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

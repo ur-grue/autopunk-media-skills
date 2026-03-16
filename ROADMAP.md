@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 1 stable · 0 beta · 0 draft · 101 planned
+**Summary:** 41 stable · 0 beta · 0 draft · 61 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -11,9 +11,9 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### development
 | Skill | Description | Status |
 |-------|-------------|--------|
-| pitch-treatment-writer | Turn a rough idea into a full documentary pitch treatment | 🔲 planned |
+| pitch-treatment-writer | Turn a rough idea into a full documentary pitch treatment | ✅ stable (4.4/5) |
 | series-bible-generator | Generate a complete series bible from a concept and episode outline | 🔲 planned |
-| logline-creator | Craft a precise, compelling logline for any documentary project | 🔲 planned |
+| logline-creator | Craft a precise, compelling logline for any documentary project | ✅ stable (4.5/5) |
 | character-arc-planner | Map the narrative arc of a key subject across a documentary structure | 🔲 planned |
 
 ### pre-production
@@ -29,7 +29,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | scene-breakdown-writer | Break a documentary sequence into a detailed scene-by-scene breakdown | 🔲 planned |
 | commentary-writer | Write narration or commentary for a sequence given picture and research | 🔲 planned |
-| interview-question-generator | Generate a targeted interview question set for a specific subject and angle | 🔲 planned |
+| interview-question-generator | Generate a targeted interview question set for a specific subject and angle | ✅ stable (4.5/5) |
 | narrator-voice-adapter | Rewrite narration to match a defined presenter or narrator voice | 🔲 planned |
 
 ### post-production
@@ -42,16 +42,16 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### localization
 | Skill | Description | Status |
 |-------|-------------|--------|
-| dubbing-script-adapter | Adapt a narration script for dubbing — lip-sync constraints, natural delivery | 🔲 planned |
-| festival-synopsis-writer | Write short, medium, and long synopses formatted for film festival submissions | 🔲 planned |
+| dubbing-script-adapter | Adapt a narration script for dubbing — lip-sync constraints, natural delivery | ✅ stable (4.5/5) |
+| festival-synopsis-writer | Write short, medium, and long synopses formatted for film festival submissions | ✅ stable (4.5/5) |
 
 ### business
 | Skill | Description | Status |
 |-------|-------------|--------|
-| broadcaster-pitch-writer | Write a broadcaster pitch document for a documentary or series | 🔲 planned |
-| grant-proposal-writer | Write a competitive grant proposal narrative for a documentary project | 🔲 planned |
-| co-production-brief | Write a co-production brief for approaching a foreign broadcaster or partner | 🔲 planned |
-| one-sheet-writer | Produce a single-page sales one-sheet for a completed documentary | 🔲 planned |
+| broadcaster-pitch-writer | Write a broadcaster pitch document for a documentary or series | ✅ stable (4.4/5) |
+| grant-proposal-writer | Write a competitive grant proposal narrative for a documentary project | ✅ stable (4.4/5) |
+| co-production-brief | Write a co-production brief for approaching a foreign broadcaster or partner | ✅ stable (4.4/5) |
+| one-sheet-writer | Produce a single-page sales one-sheet for a completed documentary | ✅ stable (4.5/5) |
 
 ---
 
@@ -60,8 +60,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### ideation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| story-angle-finder | Generate multiple story angles from a broad topic or news event | 🔲 planned |
-| headline-generator | Write a range of headline options across different registers and lengths | 🔲 planned |
+| story-angle-finder | Generate multiple story angles from a broad topic or news event | ✅ stable (4.5/5) |
+| headline-generator | Write a range of headline options across different registers and lengths | ✅ stable (4.5/5) |
 | research-brief-creator | Produce a structured research brief for a reporter starting a new story | 🔲 planned |
 
 ### writing
@@ -70,7 +70,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | reportage-structure | Build a narrative structure for a long-form reported piece | 🔲 planned |
 | column-voice-adapter | Rewrite or draft a column passage in a defined author's established voice | 🔲 planned |
 | interview-transcript-editor | Clean, tighten, and restructure an interview transcript for publication | 🔲 planned |
-| sidebar-fact-box-writer | Write a structured fact box or sidebar to accompany a feature article | 🔲 planned |
+| sidebar-fact-box-writer | Write a structured fact box or sidebar to accompany a feature article | ✅ stable (4.4/5) |
 
 ### editing
 | Skill | Description | Status |
@@ -82,16 +82,16 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### investigation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | 🔲 planned |
-| source-research-brief | Produce a structured research brief on a potential source before an interview | 🔲 planned |
-| expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | 🔲 planned |
-| document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | 🔲 planned |
-| investigation-timeline-builder | Build a chronological timeline of events from raw notes and documents | 🔲 planned |
+| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | ✅ stable (4.5/5) |
+| source-research-brief | Produce a structured research brief on a potential source before an interview | ✅ stable (4.4/5) |
+| expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | ✅ stable (4.3/5) |
+| document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | ✅ stable (4.5/5) |
+| investigation-timeline-builder | Build a chronological timeline of events from raw notes and documents | ✅ stable (4.4/5) |
 
 ### fact-checking
 | Skill | Description | Status |
 |-------|-------------|--------|
-| claim-verification-checklist | Generate a point-by-point checklist of verifiable claims in a draft article | 🔲 planned |
+| claim-verification-checklist | Generate a point-by-point checklist of verifiable claims in a draft article | ✅ stable (4.5/5) |
 | source-credibility-brief | Produce a structured credibility assessment of a source | 🔲 planned |
 | statistics-fact-checker | Analyse statistics in a draft and flag any that are misrepresented or lack context | 🔲 planned |
 
@@ -103,8 +103,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### distribution
 | Skill | Description | Status |
 |-------|-------------|--------|
-| newsletter-teaser-writer | Write a short, high-click newsletter teaser for a published article | 🔲 planned |
-| social-media-excerpt | Extract and format the most shareable excerpt from an article for social | 🔲 planned |
+| newsletter-teaser-writer | Write a short, high-click newsletter teaser for a published article | ✅ stable (4.5/5) |
+| social-media-excerpt | Extract and format the most shareable excerpt from an article for social | ✅ stable (4.4/5) |
 
 ---
 
@@ -113,25 +113,25 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### pre-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| niche-video-idea-generator | Generate video ideas targeted to a specific niche audience and channel style | 🔲 planned |
-| seo-title-optimizer | Write multiple SEO-optimized title options for a given video topic | 🔲 planned |
-| thumbnail-concept-brief | Produce a detailed thumbnail concept brief for a designer or DIY creator | 🔲 planned |
+| niche-video-idea-generator | Generate video ideas targeted to a specific niche audience and channel style | ✅ stable (4.5/5) |
+| seo-title-optimizer | Write multiple SEO-optimized title options for a given video topic | ✅ stable (4.5/5) |
+| thumbnail-concept-brief | Produce a detailed thumbnail concept brief for a designer or DIY creator | ✅ stable (4.4/5) |
 | hook-generator | Write opening hook options for a video — first 15–30 seconds | ✅ stable (4.78/5) |
 
 ### scripting
 | Skill | Description | Status |
 |-------|-------------|--------|
-| full-script-writer | Write a complete YouTube video script from a title, angle, and key points | 🔲 planned |
-| b-roll-shot-list | Generate a detailed B-roll shot list from a video script or outline | 🔲 planned |
-| call-to-action-generator | Write multiple CTA options for subscribe, like, comment, or sponsor reads | 🔲 planned |
-| shorts-script-adapter | Adapt a long-form script into a punchy YouTube Shorts script | 🔲 planned |
+| full-script-writer | Write a complete YouTube video script from a title, angle, and key points | ✅ stable (4.4/5) |
+| b-roll-shot-list | Generate a detailed B-roll shot list from a video script or outline | ✅ stable (4.4/5) |
+| call-to-action-generator | Write multiple CTA options for subscribe, like, comment, or sponsor reads | ✅ stable (4.4/5) |
+| shorts-script-adapter | Adapt a long-form script into a punchy YouTube Shorts script | ✅ stable (4.5/5) |
 
 ### post-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| description-seo-writer | Write a complete, SEO-optimized YouTube video description | 🔲 planned |
-| chapter-timestamps | Generate a clean chapter timestamp list from a script or transcript | 🔲 planned |
-| community-post-generator | Write an engaging YouTube Community post to promote a new video | 🔲 planned |
+| description-seo-writer | Write a complete, SEO-optimized YouTube video description | ✅ stable (4.4/5) |
+| chapter-timestamps | Generate a clean chapter timestamp list from a script or transcript | ✅ stable (4.6/5) |
+| community-post-generator | Write an engaging YouTube Community post to promote a new video | ✅ stable (4.4/5) |
 
 ### channel-strategy
 | Skill | Description | Status |
@@ -159,8 +159,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### pre-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| episode-concept-generator | Generate episode concepts aligned to a show's format, theme, and audience | 🔲 planned |
-| guest-research-brief | Produce a structured research brief for an upcoming guest interview | 🔲 planned |
+| episode-concept-generator | Generate episode concepts aligned to a show's format, theme, and audience | ✅ stable (4.4/5) |
+| guest-research-brief | Produce a structured research brief for an upcoming guest interview | ✅ stable (4.5/5) |
 | interview-question-builder | Build a complete, staged interview question set for a podcast guest | 🔲 planned |
 
 ### scripting
@@ -173,9 +173,9 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### post-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| show-notes-generator | Generate complete, SEO-friendly show notes from a transcript or summary | 🔲 planned |
+| show-notes-generator | Generate complete, SEO-friendly show notes from a transcript or summary | ✅ stable (4.4/5) |
 | transcript-cleanup | Clean and format a raw podcast transcript for publication | 🔲 planned |
-| episode-summary-writer | Write a concise episode summary for podcast directories and promotional use | 🔲 planned |
+| episode-summary-writer | Write a concise episode summary for podcast directories and promotional use | ✅ stable (4.4/5) |
 
 ### business
 | Skill | Description | Status |
@@ -221,16 +221,16 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### pitching
 | Skill | Description | Status |
 |-------|-------------|--------|
-| series-pitch-deck-writer | Write the narrative content for a series pitch deck for broadcasters or platforms | 🔲 planned |
-| elevator-pitch-writer | Write a tight 60-second verbal pitch for a media project | 🔲 planned |
-| cold-outreach-email-writer | Write a cold outreach email to a broadcaster, distributor, or platform executive | 🔲 planned |
+| series-pitch-deck-writer | Write the narrative content for a series pitch deck for broadcasters or platforms | ✅ stable (4.5/5) |
+| elevator-pitch-writer | Write a tight 60-second verbal pitch for a media project | ✅ stable (4.4/5) |
+| cold-outreach-email-writer | Write a cold outreach email to a broadcaster, distributor, or platform executive | ✅ stable (4.4/5) |
 
 ### distribution
 | Skill | Description | Status |
 |-------|-------------|--------|
-| press-release-writer | Write a professional press release for a premiere, commission, or production milestone | 🔲 planned |
-| festival-strategy-brief | Produce a festival submission strategy brief for a documentary or short film | 🔲 planned |
-| distributor-outreach-email | Write a sales outreach email to a distributor introducing a completed project | 🔲 planned |
+| press-release-writer | Write a professional press release for a premiere, commission, or production milestone | ✅ stable (4.4/5) |
+| festival-strategy-brief | Produce a festival submission strategy brief for a documentary or short film | ✅ stable (4.3/5) |
+| distributor-outreach-email | Write a sales outreach email to a distributor introducing a completed project | ✅ stable (4.4/5) |
 | streaming-platform-pitch | Write a pitch document for a streaming platform commissioning team | 🔲 planned |
 
 ### funding

@@ -1,5 +1,58 @@
 {
   "skill_name": "show-notes-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Episode: 'How a Small Bakery Became a $4M Business.' Guest: founder of a regional bakery chain. Summary covers: how she started with one retail location, the decision to wholesale rather than franchise, her approach to hiring, the role of social media in early growth, and her biggest operational mistake. Keyword: small bakery business growth. Timestamps available from transcript.",
+      "output_summary": "Full show notes produced with description leading with keyword naturally. 5 specific takeaways drawn from the summary (wholesale vs. franchise decision, social media timing, the operational mistake). Timestamps formatted for 6 topic sections. Guest bio section clean. Links section formatted with placeholders. Total 480 words. All takeaways specific to the episode — not generic 'lessons from entrepreneurs'.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Solo episode (no guest) on the history and science of habit formation. Host-provided transcript summary covering: the habit loop, why habits are hard to break vs. why they are surprisingly easy to form, the role of environment design, and 3 listener-tested strategies. Keyword: habit formation science. No timestamps.",
+      "output_summary": "Correctly adapted to solo episode format — no guest bio section. Description led with keyword in first sentence. 5 specific takeaways including the environment design finding. Highlights section used section labels instead of timestamps, clearly noted as such. Total 390 words — appropriately shorter without guest bio. No fabricated claims beyond the provided summary.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Episode with sponsor. Guest: urban planner discussing transit-oriented development. Summary covers 5 main topics. Sponsor: a productivity app (unrelated to topic). Timestamps from transcript. Keyword: transit-oriented development.",
+      "output_summary": "All sections produced cleanly. Sponsor section included with disclosure note and placeholder for sponsor copy. Keyword appeared in first sentence. 5 specific takeaways from the urban planning content. Timestamps formatted correctly. Sponsor section was appropriately separated from content sections. One takeaway was slightly generic ('transit affects housing density') — minor issue given the strength of the others.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

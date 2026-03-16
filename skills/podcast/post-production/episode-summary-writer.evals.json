@@ -1,5 +1,58 @@
 {
   "skill_name": "episode-summary-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Episode: 'The Climate Scientist Who Changed Her Mind.' Content: interview with an environmental scientist who was a nuclear energy skeptic for 20 years and has publicly reversed her position based on the math of decarbonization. Key quote: 'I was wrong. The numbers don't work without nuclear.' Show: Science journalism podcast. Keyword: nuclear energy climate.",
+      "output_summary": "Platform short (93 words) led with the reversal as the hook — specific and immediately compelling. Directory standard added the research context and her institutional credibility. Promotional version opened with the key quote, built the argument, and closed with a 'why this matters now' paragraph. All three lengths added new information progressively. Keyword 'nuclear energy climate' appeared naturally in the platform short. Tone consistent across all three.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Episode: roundtable on remote work trends with 3 guests. Content covers: productivity research findings, manager trust issues, the hybrid office debate, and generational differences in remote work preferences. No single standout moment. Show: Business strategy podcast. Keyword: remote work productivity.",
+      "output_summary": "Correctly flagged in a note that the roundtable format without a single standout moment makes promotion harder. Produced usable summaries by identifying the most concrete finding (productivity research) as the hook. Platform short led with that finding. Promotional version framed the debate structure as the value proposition. All three met word count criteria. Hook sentences were specific despite the diffuse source material.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Episode: solo meditation-style reflection on gratitude and daily practice. No guest, no argument, primarily contemplative. Show: mindfulness podcast. Keyword: daily gratitude practice.",
+      "output_summary": "Correctly adapted to contemplative register — no argument-driven hook. Platform short used invitation language ('an episode for slowing down'). Directory standard described the content without overselling. Promotional version was appropriately quieter in register. Keyword appeared. The promotional version was slightly generic in places — the content provided was genuinely contemplative rather than argumentative, limiting specificity. Limitation note in the skill's Known Limitations section correctly anticipated this case.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }

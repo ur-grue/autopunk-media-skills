@@ -1,5 +1,58 @@
 {
   "skill_name": "guest-research-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Guest: Marcus Webb, venture capitalist and former startup founder who recently wrote an essay arguing that the startup ecosystem rewards sociopathy. Show: Business and culture podcast, 45 min. Audience: founders and investors. Booking reason: the essay went viral. Some prior podcast appearances on standard VC topics.",
+      "output_summary": "Produced full brief with overview, key work summary covering the essay's core argument, a well-identified most interesting angle (the tension between his critique and his continued participation in VC), ground already covered in prior appearances (standard startup advice, growth metrics), and 7 specific questions. Question 4: 'You wrote this essay from inside the ecosystem you're describing. What does that say about you?' — appropriately pointed. Brief was host-ready and actionable.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Guest: A midwife and maternal health researcher who has published on racial disparities in birth outcomes in urban hospitals. Show: Health policy podcast. Audience: healthcare professionals and informed general public. Booking reason: new study just published. No prior podcast appearances noted.",
+      "output_summary": "Brief correctly summarized the research area without fabricating specific study findings. Most interesting angle identified as the gap between awareness of racial disparities and institutional change. Questions were substantive and non-generic, including: 'Your research documents what hospitals already know at some level. What accounts for the gap between knowing and changing?' Sensitivity to the topic appropriately reflected in the suggested question framing. Consistent with provided information throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Guest: A retired diplomat who negotiated three international arms control agreements. Show: Foreign policy podcast. Audience: policy professionals and engaged generalists. Booking reason: their memoir just published. Highly experienced interviewee, likely comfortable with standard questions.",
+      "output_summary": "Brief correctly flagged that this is a practiced interviewee and suggested going below the memoir's surface narrative. Ground already covered section correctly identified memoir-standard talking points (the big agreements, the adversarial negotiations, the diplomatic lessons). Suggested questions included: 'Which of the three agreements do you think will not survive the next decade — and why?' and 'What did you get wrong?' Brief was appropriately calibrated for an experienced subject.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }
