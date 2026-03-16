@@ -28,9 +28,10 @@ Writes a cold outreach email to a broadcaster, distributor, or platform executiv
 1. Writes a subject line that is specific and professional — it names the project and the format, nothing more. No clickbait, no overstatement
 2. Opens the email body by briefly establishing any connection or context, then delivers the project's core proposition in two sentences maximum: what it is and why it matters right now
 3. Closes with a clear, single ask — one specific next step — and makes it easy for the recipient to say yes: a brief meeting, a one-page read, a call at a time of their choosing
+4. Closes with a "Next Step" note: the ideal follow-up window if no response arrives (typically 10–14 days), whether elevator-pitch-writer should be run to prepare for the call if a meeting is the ask, and whether a full series-pitch-deck-writer should be ready before the response arrives
 
 ## Output Format
-Subject line + email body. Body: 180–220 words maximum. Three paragraphs: (1) context and hook, (2) project description, (3) specific ask and next step. Professional register, active voice. No attachments referenced in the email unless the user specifies they are sending one. No hyperbole, no claims about the project being "groundbreaking" or "urgent."
+Subject line + email body. Body: 180–220 words maximum. Three paragraphs: (1) context and hook, (2) project description, (3) specific ask and next step. Professional register, active voice. No attachments referenced in the email unless the user specifies they are sending one. No hyperbole, no claims about the project being "groundbreaking" or "urgent." Output ends with a "Next Step" note: when to follow up if no response, whether to run elevator-pitch-writer to prepare for the meeting, and whether the pitch deck is ready if a response comes back quickly.
 
 ## Quality Criteria
 - [ ] Subject line names the project and format without superlatives
@@ -39,6 +40,7 @@ Subject line + email body. Body: 180–220 words maximum. Three paragraphs: (1) 
 - [ ] The ask is specific: one clear next step, not an open-ended "would love to chat sometime"
 - [ ] No adjectives applied to the project that the recipient cannot verify ("powerful," "timely," "must-see")
 - [ ] Tone is confident but not presumptuous — it does not assume the recipient is already interested
+- [ ] Output includes at least one concrete next action the user can take immediately (send the email, set a follow-up reminder, or run elevator-pitch-writer to prepare for the meeting)
 
 ## Example
 

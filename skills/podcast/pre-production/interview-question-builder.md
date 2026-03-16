@@ -37,6 +37,7 @@ Builds a complete, staged interview question set for a podcast guest — organiz
 3. For each core question, adds two or three follow-up prompts in brackets — not scripted follow-ups, but reminders of where to dig if the guest's answer opens a door
 4. Flags any question that might be sensitive or that the guest may deflect, with a brief note on why and a suggested alternative framing
 5. Adds a "questions to have ready but not necessarily use" section at the end — overflow questions that can fill dead air or redirect a conversation that has stalled
+6. Closes with a "Next Step" note: which opening question to actually use first (and why), and whether guest-research-brief should be run to deepen background preparation before the recording
 
 ## Output Format
 - Three sections: Opening (3–5 questions) · Core (6–10 questions with follow-up prompts) · Closing (3–4 questions)
@@ -45,6 +46,7 @@ Builds a complete, staged interview question set for a podcast guest — organiz
 - Overflow section at end: 4–6 unlabeled questions with no follow-up prompts
 - Tone of questions matches stated show tone
 - No question should be answerable with yes or no
+- Output ends with a "Next Step" note: which opening question to lead with and why, and whether to run guest-research-brief for deeper background preparation
 
 ## Quality Criteria
 - [ ] No yes/no questions anywhere in the set
@@ -52,6 +54,7 @@ Builds a complete, staged interview question set for a podcast guest — organiz
 - [ ] At least one core question is genuinely unexpected — not the obvious question the guest has answered a hundred times
 - [ ] Every follow-up prompt is specific to the main question, not generic ("tell me more" is not a follow-up prompt)
 - [ ] Any sensitive topic is flagged, not avoided or left as a surprise
+- [ ] Output includes at least one concrete next action the user can take immediately (choose the opening question, do additional guest research, or run guest-research-brief)
 
 ## Example
 

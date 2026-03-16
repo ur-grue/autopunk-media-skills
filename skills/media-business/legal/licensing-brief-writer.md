@@ -28,9 +28,10 @@ Writes a brief summarising the licensing requirements for using a specific piece
 1. Identifies the type(s) of licence needed based on the content and use — distinguishing between the layers of rights that may apply (e.g., sync licence and master licence for a music recording, or archive footage licence vs underlying rights in footage)
 2. Identifies who holds or likely holds the relevant rights and how to locate and approach them, noting any complexity (split rights, contested ownership, archive vs original rights holder)
 3. Drafts a licensing request summary — the key terms to request and a note on what terms are standard versus what requires negotiation — and flags any scenarios where specialist legal advice is needed before approaching rights holders
+4. Closes with a "Next Step" note: which rights holder to contact first, whether a music supervisor or clearance agent should be engaged instead of direct contact, and whether rights-clearance-checklist should be run to check for any other items in the same project that still need clearing
 
 ## Output Format
-Brief document: Licensing Summary (100 words — what you want to do and what licences you need), Rights Holder Identification (100 words — who to approach and how), Key Licence Terms to Request (bullet list — territory, duration, platform, exclusivity, fee type), Risks and Considerations (50–100 words). Total 350–500 words. Plain language throughout — written for a producer to understand and act on without a law degree.
+Brief document: Licensing Summary (100 words — what you want to do and what licences you need), Rights Holder Identification (100 words — who to approach and how), Key Licence Terms to Request (bullet list — territory, duration, platform, exclusivity, fee type), Risks and Considerations (50–100 words). Total 350–500 words. Plain language throughout — written for a producer to understand and act on without a law degree. Output ends with a "Next Step" note: which rights holder to contact first, whether to engage a clearance professional, and whether to run rights-clearance-checklist for the wider project.
 
 ## Quality Criteria
 - [ ] Correctly identifies all licence types needed for the content and use described (e.g., does not conflate sync and master licences for music)
@@ -38,6 +39,7 @@ Brief document: Licensing Summary (100 words — what you want to do and what li
 - [ ] Key terms section covers: territory, duration, platform/distribution method, exclusivity (required or not), and fee basis (flat fee vs royalty)
 - [ ] Risks section flags any content that may require specialist legal advice
 - [ ] Language is accessible to a non-lawyer producer
+- [ ] Output includes at least one concrete next action the user can take immediately (contact the identified rights holder, engage a music supervisor, or run rights-clearance-checklist)
 
 ## Example
 

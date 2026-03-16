@@ -28,9 +28,10 @@ Drafts a plain-language talent or location release form for use in documentary, 
 1. Identifies the type of release required and the key provisions that must be present for the production's intended use — talent releases and location releases have different core requirements
 2. Drafts the release in plain language that covers: what rights are being granted, for what purpose, for which platforms and territories, for how long, and what (if anything) the subject receives in return
 3. Flags any provisions that are standard but require the subject's informed understanding (such as a publicity rights grant) and includes a plain-language explanation alongside any formal legal language
+4. Closes with a "Next Step" note: which customisation in the Producer Guidance Note to complete first (typically governing law), whether a broadcaster's required release form should replace this template, and whether rights-clearance-checklist should be run to confirm all other project releases are in place
 
 ## Output Format
-A complete release form: Title, Parties section, Recitals (brief plain-language description of what this form does), Clauses covering: grant of rights, scope of use, territory, duration, compensation, representation and warranty, and signature block. Total length 400–600 words. Written in plain English — no Latin, no impenetrable legal boilerplate. Includes a producer guidance note at the end explaining which provisions may need customisation before use.
+A complete release form: Title, Parties section, Recitals (brief plain-language description of what this form does), Clauses covering: grant of rights, scope of use, territory, duration, compensation, representation and warranty, and signature block. Total length 400–600 words. Written in plain English — no Latin, no impenetrable legal boilerplate. Includes a producer guidance note at the end explaining which provisions may need customisation before use. Output ends with a "Next Step" note: which field to complete first, whether to use a broadcaster's required form instead, and whether to run rights-clearance-checklist.
 
 ## Quality Criteria
 - [ ] Grant of rights clause specifies: what is being licensed, for what purposes, on which platforms, in which territories, for what duration
@@ -39,6 +40,7 @@ A complete release form: Title, Parties section, Recitals (brief plain-language 
 - [ ] Form is written in language a non-lawyer can understand without removing the legal provisions that make it binding
 - [ ] Producer guidance note identifies which clauses require customisation for specific broadcaster requirements
 - [ ] Form includes a plain-language summary at the top: one paragraph explaining what the person is agreeing to
+- [ ] Output includes at least one concrete next action the user can take immediately (complete the governing law field, check the broadcaster's release requirements, or run rights-clearance-checklist)
 
 ## Example
 

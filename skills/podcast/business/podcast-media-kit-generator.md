@@ -43,6 +43,7 @@ Generates a complete podcast media kit — the document you send to prospective 
 3. Builds the statistics block: download numbers, growth trend (if provided), social reach, email subscribers — formatted as a clean summary, not a data dump
 4. Structures the sponsorship packages as a clear menu with pricing or pricing benchmarks, including what each package delivers and any add-on options
 5. Adds a social proof section (notable guests, press, awards) and closes with host bio and contact information
+6. Closes with a "Next Step" note: what to add before sending to the first sponsor (typically missing demographic data or CPM rates to fill in), and whether sponsorship-pitch-writer should be run to create the outreach email that will accompany the media kit
 
 ## Output Format
 - Length: 600–900 words of body copy, plus formatted data blocks
@@ -51,6 +52,7 @@ Generates a complete podcast media kit — the document you send to prospective 
 - Statistics presented in a clean formatted block (not prose sentences)
 - Sponsorship packages as a labeled table or clearly structured list
 - All copy ready for a designer to drop into a branded PDF layout
+- Output ends with a "Next Step" note: what to complete before sending (demographic data, CPM rates, design layout), and whether to run sponsorship-pitch-writer to create the outreach email
 
 ## Quality Criteria
 - [ ] The show overview positions the podcast specifically — a reader should immediately understand what kind of show this is and who its audience is
@@ -58,6 +60,7 @@ Generates a complete podcast media kit — the document you send to prospective 
 - [ ] Statistics are stated honestly — no inflated or projected figures
 - [ ] Sponsorship packages are specific enough that a brand manager knows exactly what they are buying
 - [ ] The document could stand alone and be understood by someone who has never heard the show
+- [ ] Output includes at least one concrete next action the user can take immediately (fill in the missing data fields, design the PDF layout, or run sponsorship-pitch-writer)
 
 ## Example
 

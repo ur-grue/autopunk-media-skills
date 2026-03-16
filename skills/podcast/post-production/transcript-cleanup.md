@@ -38,6 +38,7 @@ Cleans and formats a raw auto-generated podcast transcript for publication on a 
    - **Heavy:** Also remove filler words (um, uh, you know, like used non-meaningfully), clean false starts (incomplete sentences immediately corrected by the speaker), and tighten repeated false starts into the completed sentence
 4. Adds minimal formatting: timestamps every 5–10 minutes, a header with episode title and date, clean paragraph breaks between speakers
 5. Does not change the meaning, reorder ideas, or silently alter what was said — any uncertain transcription is marked [UNCLEAR] rather than guessed at
+6. Closes with a "Next Step" note: how to handle any [UNCLEAR] passages (check against the audio file), and whether show-notes-generator or episode-summary-writer should be run using this cleaned transcript as the source material
 
 ## Output Format
 - Header: Show name · Episode title · Recording date (if provided) · Format note (Light or Heavy cleanup)
@@ -48,6 +49,7 @@ Cleans and formats a raw auto-generated podcast transcript for publication on a 
 - For web publication: markdown formatting (headers, bold labels)
 - For plain document: clean paragraph structure, no markdown
 - No editorializing, no added context, no summarizing — the transcript is a record, not an interpretation
+- Output ends with a "Next Step" note: how to resolve [UNCLEAR] passages, and whether to run show-notes-generator or episode-summary-writer using this transcript
 
 ## Quality Criteria
 - [ ] Every speaker turn is correctly attributed — no line assigned to the wrong speaker
@@ -55,6 +57,7 @@ Cleans and formats a raw auto-generated podcast transcript for publication on a 
 - [ ] No sentence has its meaning changed by the cleanup, even in heavy mode
 - [ ] [UNCLEAR] tags are used consistently for genuinely unrecoverable passages rather than guesses
 - [ ] The cleaned transcript reads naturally — filler removal (in heavy mode) does not create choppy or unnatural sentence fragments
+- [ ] Output includes at least one concrete next action the user can take immediately (resolve [UNCLEAR] passages against the audio, publish the transcript, or run show-notes-generator)
 
 ## Example
 

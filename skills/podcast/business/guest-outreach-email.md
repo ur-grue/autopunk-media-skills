@@ -39,6 +39,7 @@ Writes a personalized outreach email inviting a specific person to appear as a g
 3. States the episode idea in one clear sentence — a specific question or framing that makes the conversation sound genuinely interesting, not just "I'd love to have you on to discuss your work"
 4. Makes the ask concrete and low-friction: what format, approximately how long, how much preparation is required
 5. Closes with a single clear CTA — usually a brief call or email reply — and signals flexibility on timing
+6. Closes with a "Next Step" note: how long to wait before a follow-up if there is no reply (typically 7–10 days), and whether guest-research-brief or interview-question-builder should be run in parallel while waiting for confirmation
 
 ## Output Format
 - Email format: subject line + body, 200–300 words maximum
@@ -46,6 +47,7 @@ Writes a personalized outreach email inviting a specific person to appear as a g
 - Tone: warm, specific, collegial — this is a professional invitation, not a fan letter and not a formal request
 - Subject line: specific and interest-generating (references the guest's work or the episode idea, not just "Podcast Invitation")
 - One paragraph maximum on the show before pivoting to the episode idea
+- Output ends with a "Next Step" note: when to follow up if no reply, and whether to run guest-research-brief or interview-question-builder while waiting for confirmation
 
 ## Quality Criteria
 - [ ] The opening sentence references something specific about the guest's work — not their job title alone
@@ -53,6 +55,7 @@ Writes a personalized outreach email inviting a specific person to appear as a g
 - [ ] The show description is one paragraph or less — the focus is on why this conversation is interesting, not on selling the show
 - [ ] The ask is specific: format, length, low preparation requirement
 - [ ] The email is under 300 words — if it is longer, it is too long
+- [ ] Output includes at least one concrete next action the user can take immediately (send the email, set a follow-up reminder, or run guest-research-brief)
 
 ## Example
 

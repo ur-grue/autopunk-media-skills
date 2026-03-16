@@ -39,6 +39,7 @@ Writes a sponsorship pitch email or one-page deck to a prospective brand partner
 3. Lays out the sponsorship packages as a clear menu: what each placement includes, approximate reach, and pricing (or a prompt to discuss pricing if the user has not set rates yet)
 4. Closes with a low-friction call to action: a 20-minute call, a sample episode, or an introductory rate offer
 5. Keeps the total pitch under 400 words for email format, or structures it as a clean one-page brief if a deck format is requested
+6. Closes with a "Next Step" note: when to follow up if no reply (typically 7 days for a cold pitch), whether to send the podcast-media-kit-generator output alongside this email if the brand asks for more detail, and whether ad-read-script should be prepared for rapid activation once the deal is confirmed
 
 ## Output Format
 - Email format (default): subject line + body, 300–400 words, no headers, conversational professional tone
@@ -46,6 +47,7 @@ Writes a sponsorship pitch email or one-page deck to a prospective brand partner
 - Pricing presented as a range or as specific CPM-based rates (whichever the user provides)
 - Tone: confident and specific — not pleading or vague; this is a business proposal, not a request for a favor
 - Subject line: specific and benefit-led (not "Partnership Opportunity")
+- Output ends with a "Next Step" note: follow-up timing, whether to have the media kit ready if the brand asks for more detail, and whether to run ad-read-script in advance of deal confirmation
 
 ## Quality Criteria
 - [ ] The opening sentence names the brand and states the audience fit specifically — not generic ("your brand aligns with our values")
@@ -53,6 +55,7 @@ Writes a sponsorship pitch email or one-page deck to a prospective brand partner
 - [ ] The sponsorship packages are described specifically enough that a brand manager can immediately understand what they are buying
 - [ ] The call to action is one specific thing — not "let me know if you're interested"
 - [ ] The pitch is under 400 words in email format — no wasted sentences
+- [ ] Output includes at least one concrete next action the user can take immediately (send the email, set a follow-up reminder, or run ad-read-script to prepare for rapid activation)
 
 ## Example
 

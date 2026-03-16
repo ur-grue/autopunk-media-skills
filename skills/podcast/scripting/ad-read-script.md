@@ -38,6 +38,7 @@ Writes a natural-sounding host-read ad script from a brand brief that fits the s
 3. Writes the ad body in the host's stated voice — if the show is warm and conversational, the ad is warm and conversational; if the show is dry and skeptical, the ad reflects that register
 4. Integrates the promo offer or CTA cleanly — specific, simple, and repeated once (not three times)
 5. Writes the outro transition back to content if mid-roll, and flags any required legal or compliance language in a separate note
+6. Closes with a "Next Step" note: read the script aloud before recording to check natural rhythm, confirm any personal endorsement claim is accurate, and whether the sponsor's required disclosure statement needs to be added before the ad
 
 ## Output Format
 - Up to three versions: pre-roll (~30 sec / ~75 words), mid-roll (~60 sec / ~140 words), post-roll (~25 sec / ~65 words)
@@ -45,6 +46,7 @@ Writes a natural-sounding host-read ad script from a brand brief that fits the s
 - Required sponsor phrases integrated naturally or flagged in [BRACKETS] if they cannot be made to sound natural
 - Delivery notes in [square brackets] where helpful (e.g., [WARM], [SLIGHT PAUSE], [SMILE IN VOICE])
 - Compliance note at the end if any required claims need legal review (e.g., health or financial product claims)
+- Output ends with a "Next Step" note: read aloud before recording, verify any personal endorsement is accurate, and confirm the required sponsorship disclosure statement is ready
 
 ## Quality Criteria
 - [ ] The ad sounds like the host, not like a commercial — natural sentence rhythm, vocabulary consistent with the show's register
@@ -52,6 +54,7 @@ Writes a natural-sounding host-read ad script from a brand brief that fits the s
 - [ ] The transition into and out of the ad is written (not left to the host to improvise) and sounds smooth
 - [ ] No sentence would strike a listener as obviously written by an advertiser rather than the host
 - [ ] If a personal endorsement angle is used, the language is specific, not generic ("I use this every morning" is better than "I really love this product")
+- [ ] Output includes at least one concrete next action the user can take immediately (read aloud to check rhythm, verify the endorsement is accurate, or confirm the disclosure statement)
 
 ## Example
 

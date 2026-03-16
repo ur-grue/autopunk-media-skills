@@ -28,9 +28,10 @@ Generates a comprehensive rights clearance checklist for a media project, coveri
 1. Identifies all categories of rights that apply to the project based on the content description — music (sync and master), archive footage, talent releases, location releases, third-party IP (logos, brands, artworks visible on screen), and any special categories (news footage, AI-generated content, crowd scenes)
 2. For each category, generates a specific checklist of items to be cleared, documents to obtain, rights holders to contact, and common mistakes to avoid
 3. Flags any high-risk items (e.g., music with complex ownership, famous faces in crowd footage, footage from contested archives) and recommends specialist legal review where the risk is material
+4. Closes with a "Next Step" note: which HIGH RISK item to address first and whether to contact an entertainment lawyer before beginning clearance on that item, and whether release-form-writer or licensing-brief-writer should be run for specific items still not started
 
 ## Output Format
-Structured checklist by category, with a summary table at the top listing all categories and a status column (completed, in progress, not started). Each category section contains: what requires clearance, what documents are needed, who to contact, and any specific risk notes. Length varies with project complexity — typically 600–900 words. Uses checkboxes and tables for easy tracking. Includes a note on items that require entertainment lawyer review, not just standard clearance.
+Structured checklist by category, with a summary table at the top listing all categories and a status column (completed, in progress, not started). Each category section contains: what requires clearance, what documents are needed, who to contact, and any specific risk notes. Length varies with project complexity — typically 600–900 words. Uses checkboxes and tables for easy tracking. Includes a note on items that require entertainment lawyer review, not just standard clearance. Output ends with a "Next Step" note: which HIGH RISK item to tackle first, whether legal review is needed immediately, and whether to run release-form-writer or licensing-brief-writer for specific items.
 
 ## Quality Criteria
 - [ ] All relevant clearance categories are identified based on the content description — nothing generically omitted
@@ -38,6 +39,7 @@ Structured checklist by category, with a summary table at the top listing all ca
 - [ ] High-risk items are flagged explicitly with a risk note, not buried in the general list
 - [ ] The checklist distinguishes between clearances the producer can handle directly and those requiring legal counsel
 - [ ] Distribution territory and platform type are reflected in the clearance requirements (e.g., streaming adds different requirements than theatrical only)
+- [ ] Output includes at least one concrete next action the user can take immediately (start the highest-risk clearance, contact a lawyer for high-risk items, or run release-form-writer or licensing-brief-writer)
 
 ## Example
 
