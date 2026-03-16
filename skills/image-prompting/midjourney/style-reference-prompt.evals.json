@@ -1,5 +1,65 @@
 {
   "skill_name": "style-reference-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Alec Soth documentary portrait style — editorial illustration for magazine article, 4:5 Instagram",
+      "input_summary": "Named photographer reference with specific body of work cited, editorial context, specific subject and format, 2 variations requested",
+      "output_summary": "Primary prompt includes correct technical references (Deardorff 8x10, Kodak Ektar 100), correct lighting descriptor (flat overcast), correct composition language (frontal, slightly formal); breakdown table explains each element; negative prompts exclude commercial aesthetics; 2 alternatives vary subject not style",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "1970s Soviet propaganda poster aesthetic — magazine cover illustration",
+      "input_summary": "Art movement reference (Soviet constructivism/Socialist Realism), illustration medium, vintage aesthetic, magazine cover format",
+      "output_summary": "Prompt references correct stylistic markers (bold diagonals, limited color palette, flat graphic design, heroic figure framing); includes print medium references; --s value set high for painterly/graphic quality; breakdown explains constructivist visual grammar",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Wes Anderson film aesthetic — symmetrical, pastel, deadpan — YouTube thumbnail",
+      "input_summary": "Named filmmaker reference, very specific visual grammar, digital media format, needs to work at thumbnail scale",
+      "output_summary": "Prompt correctly identifies Wes Anderson markers (bilateral symmetry, pastel desaturated palette, geometric framing, deadpan expression); thumbnail-scale considerations noted (simple clear focal point, high contrast within the aesthetic); negative prompts exclude asymmetry and dark palettes",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "Actionability is the strongest dimension — the prompts are ready to use without modification. The breakdown table is consistently the most valued element for users who want to iterate. Technical accuracy of film stock and camera references depends on Claude's training knowledge of photography; users with deep technical knowledge may want to verify specific medium references."
 }

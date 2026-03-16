@@ -1,5 +1,65 @@
 {
   "skill_name": "guest-outreach-email",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Psychologist with published book — workplace podcast, specific research hook, notable prior guests",
+      "input_summary": "Well-defined guest background, specific research finding as hook, show has credibility signals (notable past guests), personal reference to guest's book",
+      "output_summary": "Email opens with specific finding from guest's book (not just 'I loved your work'); episode framed as a specific conversation not a book recap; show intro is one paragraph; ask is concrete (45-min recording, no prep needed); under 300 words",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.83
+    },
+    {
+      "id": "tc_002",
+      "description": "New-to-podcasting academic — small show, no notable prior guests, first high-profile outreach",
+      "input_summary": "Smaller show without credibility signals, reaching slightly above current guest tier, must rely on episode idea quality not show brand",
+      "output_summary": "Email leads with the quality of the question rather than show credentials; honest about show size; invests more in the specific episode framing to compensate for lack of brand credibility; appropriately modest ask",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Returning guest — second appearance, different topic, warm relationship already established",
+      "input_summary": "Host has met guest before, different topic from first episode, more casual tone appropriate, reference to prior episode",
+      "output_summary": "Tone shifts from formal invitation to warm collegial follow-up; references the prior episode specifically; episode idea is the only focus (no need to explain the show); under 200 words",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 5.0,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Fluency is the highest dimension — the emails read naturally and avoid the stilted quality of template outreach. The key quality differentiator is specificity of the episode hook. The skill correctly calibrates tone to the relationship level when that context is provided."
 }

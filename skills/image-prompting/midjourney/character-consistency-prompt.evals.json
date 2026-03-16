@@ -1,5 +1,65 @@
 {
   "skill_name": "character-consistency-prompt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Investigative journalist persona — podcast cover series — editorial illustration style, 4 scenes",
+      "input_summary": "Detailed character description (age, race, hair, build, signature clothing), 4 scenes identified, square and 16:9 formats, illustration style",
+      "output_summary": "Character anchor string includes all required consistency markers; 4 scene prompts use anchor string verbatim; seed workflow explained clearly; --cref flag noted for v6 users; negative prompts applied",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Young male scientist character — educational YouTube series, photorealistic, 3 lab scenes",
+      "input_summary": "Photorealistic style (harder for consistency), 3 lab-setting scenes, character description includes distinctive glasses as key identifier",
+      "output_summary": "Anchor string foregrounds distinctive glasses as primary consistency marker; limitation about photorealistic face drift flagged prominently; --cref workflow emphasized as essential for this style; 3 lab scene prompts vary environment while keeping character anchor identical",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Fantasy character — graphic novel series — illustrated style, 5 scenes including action",
+      "input_summary": "Fantasy/illustrated style, more expressive character design, action scene required (tests consistency beyond portrait), 5 scenes",
+      "output_summary": "Anchor string adapted for illustrated character (includes signature costume elements as key markers); action prompt maintains anchor while varying body position; limitation about action/pose consistency drift noted; negative prompts include style inconsistency markers",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.0,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The seed and --cref workflow explanation is the most important element of this skill — users who don't know these workflows will get inconsistent results no matter how good the prompt is. The skill correctly flags that character drift is unavoidable and sets appropriate expectations."
 }

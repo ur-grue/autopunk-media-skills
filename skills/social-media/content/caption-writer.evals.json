@@ -1,5 +1,72 @@
 {
   "skill_name": "caption-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Investigative podcast episode — Instagram and LinkedIn",
+      "input": {
+        "platforms": ["Instagram", "LinkedIn"],
+        "content": "Episode 6 of investigative documentary podcast — how a whistleblower protection law is used by corporations to suppress journalism",
+        "account_type": "Documentary podcast",
+        "voice": "Serious, direct, slightly dry",
+        "effect": "Drive listens, provoke discussion"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Instagram and LinkedIn versions are genuinely differentiated. Instagram opens with a hook, LinkedIn opens with insight. No generic filler phrases. Hashtags relevant."
+    },
+    {
+      "id": "tc-02",
+      "description": "New magazine article — Twitter/X and TikTok",
+      "input": {
+        "platforms": ["Twitter/X", "TikTok"],
+        "content": "Feature article investigating how supermarket loyalty card data is sold to insurance companies — affecting premiums for people who buy alcohol, cigarettes, or certain medications",
+        "account_type": "Consumer magazine",
+        "voice": "Accessible, factual, with a sense of urgency",
+        "effect": "Drive clicks, generate shares"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Twitter version works within character count. TikTok version is fast and punchy. Both find a different angle on the same story. TikTok version uses second-person address appropriately."
+    },
+    {
+      "id": "tc-03",
+      "description": "Documentary film premiere announcement — Instagram",
+      "input": {
+        "platforms": ["Instagram"],
+        "content": "Feature documentary premiering at IDFA. Subject: climate grief counsellors who work with people experiencing psychological distress caused by climate change",
+        "account_type": "Film production company",
+        "voice": "Warm, thoughtful, not promotional",
+        "effect": "Build awareness, invite emotional engagement"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Tone correctly avoids promotional register for a film account. Emotional hook appropriate for the subject. IDFA premiere mentioned as credential without being the lead."
+    }
+  ],
+  "overall_mean": 4.39,
+  "passed": true
 }

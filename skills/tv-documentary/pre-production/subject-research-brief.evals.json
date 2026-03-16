@@ -1,5 +1,55 @@
 {
   "skill_name": "subject-research-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Subject: a former child soldier, now in his 30s, participating in a documentary about post-conflict reconstruction. Extensive prior media appearances. Significant known trauma history.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Sensitivities section was appropriately serious and specific about trauma-informed filming approaches. On-camera assessment noted the risk of over-familiar narratives from extensive prior coverage. First session approach recommended trauma-aware pacing."
+    },
+    {
+      "id": "tc2",
+      "input": "Subject: an expert climate scientist who appears frequently in media. Documentary on climate inaction. No personal connection to the subject matter — purely professional role.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Brief correctly identified the challenge of making an expert voice feel personal rather than lecturing. Key narrative territory focused on the emotional experience of scientific certainty being ignored — a fresh angle on a media-familiar subject."
+    },
+    {
+      "id": "tc3",
+      "input": "Subject: a teenager participating in a documentary about homelessness. First media appearance. Parents have given consent. Minimal background available.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Handled the minor subject appropriately — first session approach was strongly protective and age-appropriate. On-camera assessment section was brief and honest about the absence of track record without over-analyzing. Sensitivities section was the strongest in the output."
+    }
+  ]
 }
