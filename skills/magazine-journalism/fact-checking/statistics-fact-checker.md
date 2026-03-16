@@ -28,9 +28,10 @@ Analyzes statistics used in a draft article and flags any that are misrepresente
 2. Checks for common misrepresentation patterns: reversed causality presented as fact, relative vs. absolute risk conflation, percentage vs. percentage-point errors, non-representative sample presented as universal, outdated data, and inappropriate comparisons across different measurement methodologies
 3. Flags missing context that would change how a reader interprets the statistic — base rate, sample size, margin of error, comparison period
 4. For each flagged item, specifies the type of issue and the minimum correction or clarification needed
+5. Closes with a "Next Step" note: which statistic to verify first (typically the highest-risk item or the one the story's argument depends on most), and whether claim-verification-checklist should be run on the full draft after statistical issues are resolved
 
 ## Output Format
-Numbered list, one item per statistic. Each item: Statistic (exact quote) | Issue Type | Description of Problem | Recommended Fix. Issue Types: Likely Accurate (no action needed), Context Missing, Methodology Concern, Possible Misquote, Misleading Framing, or High Risk (do not publish without legal/editorial review). Followed by a brief Summary of overall statistical quality.
+Numbered list, one item per statistic. Each item: Statistic (exact quote) | Issue Type | Description of Problem | Recommended Fix. Issue Types: Likely Accurate (no action needed), Context Missing, Methodology Concern, Possible Misquote, Misleading Framing, or High Risk (do not publish without legal/editorial review). Followed by a brief Summary of overall statistical quality. Output ends with a "Next Step" note: which statistic to verify first and whether to run claim-verification-checklist on the full draft after statistics are cleared.
 
 ## Quality Criteria
 - [ ] Every statistic in the provided draft is assessed — no omissions
@@ -38,6 +39,7 @@ Numbered list, one item per statistic. Each item: Statistic (exact quote) | Issu
 - [ ] Recommended fixes are specific and actionable, not generic ("needs more context" is insufficient; "needs the sample size and confidence interval" is correct)
 - [ ] The skill correctly distinguishes between statistics that are wrong vs. statistics that are accurate but misleadingly framed
 - [ ] Summary gives an accurate proportional picture of the draft's statistical quality
+- [ ] Output includes at least one concrete next action the user can take immediately (verify the highest-risk statistic, apply the recommended fix, or run claim-verification-checklist)
 
 ## Example
 

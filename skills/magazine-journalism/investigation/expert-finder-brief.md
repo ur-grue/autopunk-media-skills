@@ -28,9 +28,10 @@ Generates a structured brief identifying the types of experts needed for a story
 2. For each knowledge domain, identifies the most credible expert types (by professional role, institutional affiliation, or credential) and flags which are more likely to be neutral versus advocacy-oriented
 3. Suggests specific finding strategies for each expert type: professional associations, academic departments, regulatory agency alumni networks, conference programs, court records, and public databases
 4. Provides a brief approach note for each expert type — how to frame the initial contact to maximize response rate
+5. Closes with a "Next Step" note: which domain to contact first (typically the one that will build credibility for subsequent outreach), and whether research-brief-creator should be run to expand the full reporting plan beyond expert sourcing
 
 ## Output Format
-Structured brief, 400–700 words. Sections: Story Questions Requiring Expert Input (bulleted), Expert Types by Domain (2–4 domains, each with expert roles + finding strategy + approach note). Closes with a short Sourcing Risks section flagging common pitfalls for this story type. Practical, direct tone.
+Structured brief, 400–700 words. Sections: Story Questions Requiring Expert Input (bulleted), Expert Types by Domain (2–4 domains, each with expert roles + finding strategy + approach note). Closes with a short Sourcing Risks section flagging common pitfalls for this story type. Practical, direct tone. Output ends with a "Next Step" note: which domain to contact first, the most important approach note to act on immediately, and whether research-brief-creator should be run to build the wider reporting plan.
 
 ## Quality Criteria
 - [ ] Each expert type is mapped to a specific story question it answers
@@ -38,6 +39,7 @@ Structured brief, 400–700 words. Sections: Story Questions Requiring Expert In
 - [ ] Brief distinguishes neutral experts from those likely to have advocacy positions
 - [ ] Approach notes are realistic — accounts for why experts might be reluctant and how to address that
 - [ ] Sourcing risks section flags at least one story-specific pitfall
+- [ ] Output includes at least one concrete next action the user can take immediately (contact the first domain's expert type, use the finding strategy for the most critical domain, or run research-brief-creator)
 
 ## Example
 

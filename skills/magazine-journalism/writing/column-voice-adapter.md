@@ -27,9 +27,10 @@ Rewrites or drafts a column passage in a defined author's established voice and 
 1. Analyzes the voice sample for structural and stylistic patterns: sentence length and rhythm, characteristic vocabulary level, the writer's relationship to their subject (detached observer, first-person participant, amused skeptic), how they handle transitions, how they use irony or understatement, whether they explain or imply.
 2. Extracts 4–6 specific stylistic rules from the sample — enough to apply consistently across the new passage — and applies them to the new content. Patterns that appear once in the sample are suggestions; patterns that appear multiple times are rules.
 3. Writes the new passage in the target voice, then internally checks each sentence against the identified rules before finalizing. Notes any places where the topic creates a tension with the voice that required a judgment call.
+4. Closes with a "Next Step" note: which voice rule felt most strained in the adaptation (the writer should review this sentence), whether copy-editor-assistant should be run after the voice pass, and whether the passage needs a fact-check before submission
 
 ## Output Format
-Two parts: (1) Voice Analysis — a brief bullet list of the stylistic rules extracted from the sample, so the writer can verify them; (2) New Passage — the requested content in the adapted voice, at the requested length. The voice analysis section is short (6–8 bullets); it exists to make the adaptation transparent, not to be included in the final piece.
+Two parts: (1) Voice Analysis — a brief bullet list of the stylistic rules extracted from the sample, so the writer can verify them; (2) New Passage — the requested content in the adapted voice, at the requested length. The voice analysis section is short (6–8 bullets); it exists to make the adaptation transparent, not to be included in the final piece. Output ends with a "Next Step" note: which adapted sentence to review first, whether to run copy-editor-assistant, and whether to fact-check any reported claims in the passage.
 
 ## Quality Criteria
 - [ ] Voice analysis identifies specific patterns, not generic adjectives ("average sentence length 12 words" not "concise")
@@ -37,6 +38,7 @@ Two parts: (1) Voice Analysis — a brief bullet list of the stylistic rules ext
 - [ ] Characteristic vocabulary and sentence rhythm from the sample are present in the new passage
 - [ ] New passage is topically complete — it makes its argument fully, not just as a voice exercise
 - [ ] If the voice has a distinctive relationship to the reader (ironic, confessional, authoritative), that relationship is maintained throughout
+- [ ] Output includes at least one concrete next action the user can take immediately (review the most strained sentence, run copy-editor-assistant, or fact-check reported claims)
 
 ## Example
 

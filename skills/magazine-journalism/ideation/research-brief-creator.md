@@ -27,9 +27,10 @@ Produces a structured research brief for a reporter starting a new story assignm
 1. Maps the story territory: what is established (the background a reporter should understand), what is contested (the questions still being debated by sources and institutions), and what is unknown (the gaps that could make this story original).
 2. Generates three distinct potential story angles — each with a different primary question, target source set, and expected evidence type. One angle is the most obvious interpretation of the assignment; the others offer alternatives that may be more original or more reportable.
 3. Produces a structured reporting checklist: primary sources to seek (with a brief note on why each matters), documents to request or locate, background reading, and questions for each source type. Ordered by priority — what to do first.
+4. Closes with a "Next Step" note: the single first action to take before any other reporting work (typically reading the original study, finding the affected individual, or filing the document request that opens other doors)
 
 ## Output Format
-Five sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, and Reporting Order (what to do first through last). Total length: 500–700 words. Written for a working reporter, not an academic — practical, direct, no hedging.
+Five sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, and Reporting Order (what to do first through last). Total length: 500–700 words. Written for a working reporter, not an academic — practical, direct, no hedging. Output ends with a "Next Step" note: the single first action to take before any other reporting, and whether to run story-angle-finder if the angle recommendation needs to be expanded further.
 
 ## Quality Criteria
 - [ ] Story Territory Map distinguishes between established facts, contested claims, and unknowns
@@ -38,6 +39,7 @@ Five sections: Story Territory Map, Three Potential Angles, Source List, Documen
 - [ ] Documents section identifies specific record types, not just "find documents"
 - [ ] Reporting Order prioritizes by what opens up further reporting — the source who unlocks other sources first
 - [ ] Brief is specific enough to start reporting from immediately — no vague instructions
+- [ ] Output includes at least one concrete next action the user can take immediately (make the first call, file the first document request, or read the original study before any other step)
 
 ## Example
 

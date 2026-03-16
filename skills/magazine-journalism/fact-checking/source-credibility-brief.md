@@ -28,9 +28,10 @@ Produces a structured credibility assessment of a source whose claims appear in 
 2. Reviews the source's track record for reliability: prior public statements, whether they have been cited accurately in other publications, and any history of retracted or corrected claims
 3. Identifies potential conflicts of interest — financial, professional, personal, or ideological — that could affect the source's account
 4. Recommends a corroboration threshold: whether the claim can be used on a single source, requires one additional corroboration, requires documentary evidence, or should not be published without independent verification
+5. Closes with a "Next Step" note: the most important corroboration step to take immediately (contact the named corroborating expert type, locate the study or document, or run statistics-fact-checker if the claims are numerical)
 
 ## Output Format
-Structured brief, 350–500 words. Sections: Expertise Assessment, Track Record, Conflicts of Interest, Corroboration Recommendation. Closes with a one-sentence Editorial Verdict summarizing the overall weight the source's testimony should carry. Neutral, analytical register — no editorializing about the source's character.
+Structured brief, 350–500 words. Sections: Expertise Assessment, Track Record, Conflicts of Interest, Corroboration Recommendation. Closes with a one-sentence Editorial Verdict summarizing the overall weight the source's testimony should carry. Neutral, analytical register — no editorializing about the source's character. Output ends with a "Next Step" note: the single most important corroboration action to take first, and whether statistics-fact-checker or claim-verification-checklist should be run on the wider draft.
 
 ## Quality Criteria
 - [ ] Expertise assessment is specific to the claims being made, not to the source's general reputation
@@ -38,6 +39,7 @@ Structured brief, 350–500 words. Sections: Expertise Assessment, Track Record,
 - [ ] Corroboration recommendation is concrete and calibrated to the claim's potential impact
 - [ ] Editorial verdict is appropriately nuanced — avoids binary "trust/don't trust" framing
 - [ ] Brief distinguishes between what is known and what is unknown about the source
+- [ ] Output includes at least one concrete next action the user can take immediately (seek corroboration, locate the source's original study or document, or run statistics-fact-checker)
 
 ## Example
 

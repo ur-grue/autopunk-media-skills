@@ -28,9 +28,10 @@ Produces a structured summary of a leaked, official, or obtained document, extra
 2. Identifies what the document does not address — omissions that are significant given its stated purpose, gaps in dates or data, missing signatories, or redacted sections
 3. Flags internal contradictions — statements in different sections that conflict, discrepancies between stated figures and attached data, or language that appears to have been revised
 4. Ranks newsworthy elements by significance: what is new information, what confirms known facts, and what contradicts official statements
+5. Closes with a "Next Step" note: which follow-up document request to file first (based on the most significant finding or gap), and whether foia-request-writer or investigation-timeline-builder should be run to support the next reporting phase
 
 ## Output Format
-Structured summary, 400–700 words. Sections: Document Overview (type, date, author/origin, stated purpose), Key Findings (bulleted), Notable Omissions (bulleted), Internal Contradictions (bulleted, if any), Newsworthy Elements by Priority (ranked 1–5), Suggested Follow-up Documents or Questions. Neutral, factual register — no editorial framing.
+Structured summary, 400–700 words. Sections: Document Overview (type, date, author/origin, stated purpose), Key Findings (bulleted), Notable Omissions (bulleted), Internal Contradictions (bulleted, if any), Newsworthy Elements by Priority (ranked 1–5), Suggested Follow-up Documents or Questions. Neutral, factual register — no editorial framing. Output ends with a "Next Step" note: which follow-up document request to file first and whether to run foia-request-writer or investigation-timeline-builder next.
 
 ## Quality Criteria
 - [ ] Document Overview accurately identifies document type, origin, and stated purpose
@@ -38,6 +39,7 @@ Structured summary, 400–700 words. Sections: Document Overview (type, date, au
 - [ ] Omissions section notes what is absent given the document's own stated scope
 - [ ] Newsworthy elements are ranked by journalistic significance, not chronological order
 - [ ] Suggested follow-ups are actionable — specific records, questions, or verification steps
+- [ ] Output includes at least one concrete next action the user can take immediately (file the first follow-up document request, run foia-request-writer, or build the investigation timeline)
 
 ## Example
 

@@ -28,9 +28,10 @@ Generates a point-by-point checklist of every verifiable claim in a draft articl
 2. Categorizes each claim by type: statistical, biographical, chronological, attribution (quote or paraphrase), official record, scientific, or legal
 3. For each claim, specifies the minimum evidence standard needed for verification — primary source, secondary corroboration, expert confirmation, or documentary proof
 4. Flags highest-risk claims: those that are specific, potentially defamatory, or that directly contradict public statements by named individuals
+5. Closes with a "Next Step" note: which High-risk item to verify first, estimated time to clear the checklist, and whether libel-check-brief should be run alongside for any drafts containing allegations against named individuals
 
 ## Output Format
-Numbered checklist. Each item: Claim (exact quote from draft) | Claim Type | Required Evidence | Risk Level (Low / Medium / High). Grouped by section of the article. Followed by a Summary section noting total claim count, High-risk count, and items already marked as verified. Length scales with article length — typically 400–800 words for a 1,500-word article.
+Numbered checklist. Each item: Claim (exact quote from draft) | Claim Type | Required Evidence | Risk Level (Low / Medium / High). Grouped by section of the article. Followed by a Summary section noting total claim count, High-risk count, and items already marked as verified. Length scales with article length — typically 400–800 words for a 1,500-word article. Output ends with a "Next Step" note: which High-risk claim to verify first, how long the full check is likely to take, and whether libel-check-brief should be run on the same draft.
 
 ## Quality Criteria
 - [ ] Every specific, verifiable claim in the draft is captured — no omissions
@@ -38,6 +39,7 @@ Numbered checklist. Each item: Claim (exact quote from draft) | Claim Type | Req
 - [ ] Evidence requirements are specific — not "needs a source" but "needs the original 2023 court filing" or "needs confirmation from the named agency's press office"
 - [ ] High-risk claims are correctly identified — specificity, named individuals, and contradiction of official positions all elevate risk
 - [ ] Summary gives an accurate picture of the draft's overall verification status
+- [ ] Output includes at least one concrete next action the user can take immediately (start with the highest-risk item, run libel-check-brief, or confirm the structural concern noted in the summary)
 
 ## Example
 

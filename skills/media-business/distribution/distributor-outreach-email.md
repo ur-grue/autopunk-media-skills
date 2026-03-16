@@ -28,9 +28,10 @@ Writes a sales outreach email to a film or content distributor introducing a com
 1. Opens with brief professional context (who is writing, any connection to the recipient) and states immediately that the email concerns a completed project available for acquisition
 2. Delivers the commercial essentials in compact form: title, format, runtime, logline, festival pedigree or key credentials, territories available — all information an acquisitions executive needs to decide whether to request a screener
 3. Closes with a single clear ask — usually a screener request or a market meeting — and notes any time-sensitive factors (upcoming festival exposure, competing offers) without creating false urgency
+4. Closes with a "Next Step" note: how many distributors to send this to in the first wave, whether to prepare a follow-up timing plan (typical response window is 2–3 weeks), and whether festival-strategy-brief should be run if the distribution strategy is still being planned
 
 ## Output Format
-Subject line + email body. Body: 200–250 words. Professional sales tone — factual, efficient, confident. Not pitching a creative vision (that is the filmmaker's job); pitching an acquisition opportunity. Screener link or availability noted. Market-specific version (EFM, Cannes) available if requested.
+Subject line + email body. Body: 200–250 words. Professional sales tone — factual, efficient, confident. Not pitching a creative vision (that is the filmmaker's job); pitching an acquisition opportunity. Screener link or availability noted. Market-specific version (EFM, Cannes) available if requested. Output ends with a "Next Step" note: how many distributors to contact in the first outreach wave, expected response timeline, and whether to run festival-strategy-brief to develop the wider distribution strategy.
 
 ## Quality Criteria
 - [ ] Subject line identifies this is an acquisition opportunity and names the project
@@ -39,6 +40,7 @@ Subject line + email body. Body: 200–250 words. Professional sales tone — fa
 - [ ] Available territories clearly listed or described
 - [ ] Screener access offered concretely — not "available upon request" as a vague formality
 - [ ] Closing ask is specific: a screener link, a market meeting, or a call
+- [ ] Output includes at least one concrete next action the user can take immediately (send the first wave, prepare a follow-up schedule, or run festival-strategy-brief)
 
 ## Example
 

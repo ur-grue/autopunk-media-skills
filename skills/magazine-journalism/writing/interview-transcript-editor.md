@@ -27,9 +27,10 @@ Cleans, tightens, and restructures a raw interview transcript for publication �
 1. Reads the full transcript to identify the three to five most substantive answers — the moments where the subject says something irreducible — and treats these as the structural anchors. Everything else is assessed for whether it supports or duplicates these moments.
 2. Edits for clarity and compression: removes filler words, verbal repetition, and false starts; tightens long answers to their essential content; resolves pronoun ambiguity and unclear references. Does not change the subject's meaning, vocabulary level, or word choices — only removes and condenses, never substitutes.
 3. Proposes a running order for the Q&A if restructuring is requested — moves the most compelling exchange to the top rather than preserving chronological order, and sequences subsequent exchanges so each one adds a distinct dimension (not repeating or contradicting the previous).
+4. Closes with a "Next Step" note: whether to send the edited transcript to the subject for approval (if they have that right), which editorial note to review most carefully, and whether to run fact-check-prompt on any reported claims made by the subject in their answers
 
 ## Output Format
-Edited transcript in Q&A format with interviewer questions marked **Q:** and subject answers marked **A:**. A brief editorial notes section at the end flags: any passages where editing required an editorial judgment (paraphrase risk), any passages that were cut in full with one-sentence explanation, and any answers where the meaning felt unclear in the original and the edit made a specific choice. Target word count honored. No changes to the subject's word choices — only removal and compression.
+Edited transcript in Q&A format with interviewer questions marked **Q:** and subject answers marked **A:**. A brief editorial notes section at the end flags: any passages where editing required an editorial judgment (paraphrase risk), any passages that were cut in full with one-sentence explanation, and any answers where the meaning felt unclear in the original and the edit made a specific choice. Target word count honored. No changes to the subject's word choices — only removal and compression. Output ends with a "Next Step" note: whether to send for subject approval, which editorial note to review first, and whether to run fact-check-prompt on factual claims in the answers.
 
 ## Quality Criteria
 - [ ] Subject's vocabulary and characteristic expressions are preserved throughout
@@ -38,6 +39,7 @@ Edited transcript in Q&A format with interviewer questions marked **Q:** and sub
 - [ ] Running order puts the most substantive exchange first (unless chronological order is specified)
 - [ ] Editorial notes are honest about any judgment calls made during editing
 - [ ] Output meets the requested word count (±10%)
+- [ ] Output includes at least one concrete next action the user can take immediately (send for subject approval, review the flagged editorial judgment, or run fact-check-prompt)
 
 ## Example
 

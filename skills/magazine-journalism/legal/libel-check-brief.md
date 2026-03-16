@@ -28,9 +28,10 @@ Reviews a draft article and flags statements that could pose defamation risk, id
 2. Assesses each identified statement for defamation risk factors: specificity of the allegation, public vs. private figure status of the subject, verifiability of the claim, and potential for harm to reputation
 3. Flags passages where the current language creates unnecessary risk that could be reduced with simple editing — conditional language, attribution, or right-of-reply framing
 4. Produces a risk-tiered brief: passages requiring immediate legal review, passages requiring qualification or right-of-reply before publication, and passages that are currently protected
+5. Closes with a "Next Step" note: whether to send to a media lawyer immediately (if any Red items are present), which Amber item to address first, and whether claim-verification-checklist should be run in parallel to resolve factual issues alongside legal risk
 
 ## Output Format
-Tiered brief. Three sections: Red (do not publish without legal review), Amber (requires qualification, right-of-reply, or additional verification), Green (currently protected). Each flagged passage: Quoted text | Risk Category | Legal Concern Explained in Plain Language | Recommended Action. Closes with a publication readiness assessment. Language is plain English — journalists should be able to act on this without legal training, but sensitive cases must still go to a media lawyer.
+Tiered brief. Three sections: Red (do not publish without legal review), Amber (requires qualification, right-of-reply, or additional verification), Green (currently protected). Each flagged passage: Quoted text | Risk Category | Legal Concern Explained in Plain Language | Recommended Action. Closes with a publication readiness assessment. Language is plain English — journalists should be able to act on this without legal training, but sensitive cases must still go to a media lawyer. Output ends with a "Next Step" note: whether legal review is needed immediately, which Amber item to clear first, and whether to run claim-verification-checklist in parallel.
 
 ## Quality Criteria
 - [ ] Every potentially actionable statement is captured — no omissions
@@ -38,6 +39,7 @@ Tiered brief. Three sections: Red (do not publish without legal review), Amber (
 - [ ] Legal concerns are explained in plain language without using technical legal jargon incorrectly
 - [ ] Recommended actions are specific — "qualify with 'allegedly'" or "get written right-of-reply on record" rather than "needs more work"
 - [ ] The brief makes clear this is a first-pass editorial assessment, not a substitute for legal counsel
+- [ ] Output includes at least one concrete next action the user can take immediately (send to a media lawyer, resolve the first Amber item, or run claim-verification-checklist)
 
 ## Example
 
