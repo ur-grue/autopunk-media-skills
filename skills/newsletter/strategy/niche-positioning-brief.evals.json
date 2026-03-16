@@ -1,5 +1,79 @@
 {
   "skill_name": "niche-positioning-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "subject": "AI governance and policy — not technical",
+        "target_reader": "Executives, policy professionals, journalists — decision-makers, not engineers",
+        "motivation": "Former tech policy journalist; frustrated by coverage that was either too technical or too hype-driven",
+        "competitors": "Exponential View, Import AI, The Batch",
+        "exclusions": "No product launches, funding rounds, AGI speculation",
+        "background": "Technology policy journalist, policy think tank"
+      },
+      "output_summary": "Full 5-section brief. Positioning territory names competitors and makes the differentiation claim specific (governance story, not technology story). Target reader has 6 specific psychographic bullets including a frustration. Editorial promise is one testable sentence. What-we-cover and what-we-don't sections are genuinely restrictive. External description 72 words, publication-ready.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "subject": "Independent music — specifically the business and economics of being a working musician, not the cultural criticism side",
+        "target_reader": "Working musicians, managers, and music business professionals who are tired of coverage aimed at either major label acts or bedroom producers",
+        "motivation": "Former music industry lawyer who got tired of watching musicians make bad business decisions due to poor information",
+        "competitors": "Hypebot, Music Business Worldwide, Water & Music",
+        "exclusions": "No album reviews, no genre trend pieces, no streaming numbers without business context",
+        "three_year_vision": "The newsletter that music managers recommend to every client before signing a deal"
+      },
+      "output_summary": "Positioning territory carves a specific lane (business information for working musicians, not charts and streaming coverage). Target reader psychographics specific to music business context. Editorial promise focused on actionable business intelligence. Exclusions genuinely exclude large categories of music coverage. External description 68 words, strong and specific.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "subject": "Urban planning and housing policy — specifically how planning decisions affect ordinary residents, not developers or planners",
+        "target_reader": "Residents, community organisers, local journalists, and local politicians who are involved in planning disputes or housing debates but don't have planning expertise",
+        "motivation": "Worked in a planning department and became frustrated that residents were always at an information disadvantage in planning consultations",
+        "competitors": "Strong Towns, Sightline Institute, local newspaper planning coverage",
+        "exclusions": "No architectural criticism, no pro-development or anti-development advocacy, no national housing policy without local implications",
+        "background": "Former local government planning officer, 8 years"
+      },
+      "output_summary": "Positioning territory identifies the gap clearly (resident perspective on planning, not practitioner or advocate perspective). Differentiates from Strong Towns (advocacy) and Sightline (regional). Target reader situational description is practical and specific. Editorial promise focuses on translating planning language for residents. What-we-don't includes both advocacy directions explicitly.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ]
 }

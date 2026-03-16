@@ -1,5 +1,89 @@
 {
   "skill_name": "sponsorship-rate-card",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Friction Report",
+        "subscribers_active": 6200,
+        "open_rate": "46%",
+        "click_rate": "5.2%",
+        "cadence": "Weekly, Wednesday",
+        "audience": "Product managers and UX professionals, 60% manager/director, 25% senior IC, 15% founders",
+        "placements": ["top-of-edition sponsored note", "mid-edition mention", "dedicated sponsor edition"],
+        "rate_preference": "flat fee",
+        "exclusivity": "one sponsor per edition, category exclusivity on packages"
+      },
+      "output_summary": "Full rate card: audience overview in sponsor language, three placement options each with format description and CPM calculation, 3-month package pricing, complete terms section (booking, approval, cancellation, payment). No placeholders except contact. Clean professional structure throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Carbon Ledger",
+        "subscribers_active": 560,
+        "open_rate": "38%",
+        "click_rate": "6.1%",
+        "cadence": "Biweekly, Tuesday",
+        "audience": "ESG analysts, sustainability officers, and climate journalists at investment firms, NGOs, and media companies",
+        "placements": ["sponsor note (150 words)", "classified listing (50 words)"],
+        "rate_preference": "flat fee",
+        "note": "Small list but highly targeted niche — sponsor should understand value of precision over reach"
+      },
+      "output_summary": "Rate card leading with precise audience quality argument (ESG decision-makers, not general public). Two placement options with CPM calculations shown. Pricing positioned as premium niche rather than apologising for small list size. Terms section included. Honest about list size while making the case for targeting premium.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Good Soil",
+        "subscribers_active": 3100,
+        "open_rate": "41%",
+        "click_rate": "4.8%",
+        "cadence": "Weekly, Thursday",
+        "audience": "Independent farmers and market gardeners farming under 5 acres. Purchase decisions include seeds, tools, irrigation, soil amendments, direct sales platforms.",
+        "placements": ["top sponsor note (200 words)", "product recommendation (80 words, editor-written)"],
+        "rate_preference": "flat fee",
+        "existing_sponsors": "Two seed suppliers and one soil amendment company (can name on request)",
+        "exclusivity": "category exclusivity available"
+      },
+      "output_summary": "Rate card leads with agricultural purchasing context (seeds, tools, soil amendments). Two placement options with prices and CPM. Existing sponsor references mentioned appropriately. Category exclusivity terms included. Practical down-to-earth language mirrors the newsletter's register. Complete terms section.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
 }

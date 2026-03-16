@@ -1,5 +1,82 @@
 {
   "skill_name": "content-arc-planner",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Long View",
+        "subject": "Economic history and present-day crisis parallels",
+        "cadence": "Weekly, Sunday",
+        "period": "8 editions, starting April",
+        "fixed_hooks": "IMF World Economic Outlook mid-April, major debt conference late May",
+        "saved_topics": ["1953 German debt restructuring", "1980s sovereign debt politics", "currency devaluations in crises"],
+        "ambition": "Deep arc on sovereign debt"
+      },
+      "output_summary": "8-edition plan with coherent narrative arc. Overview establishes thematic logic. Each edition has working title, specific angle, format note, and production flag. Timely peg edition (IMF Outlook) flagged for turnaround constraint. Two entry-point editions identified. Final edition timed to conference. Production flags honest and specific.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Night Market",
+        "subject": "Independent food and hospitality business",
+        "cadence": "Weekly, Thursday",
+        "period": "6 editions (January/February)",
+        "fixed_hooks": "Restaurant sector slow season, annual trade show in February",
+        "saved_topics": ["dark kitchens collapsing", "the return of prix-fixe format", "supplier relationship negotiation"],
+        "ambition": "Range across the hospitality landscape in the slow season when operators have time to think"
+      },
+      "output_summary": "6-edition plan framing January-February as a 'planning season' arc. Overview uses hospitality-industry logic. Each edition is independently strong but builds cumulative picture. Trade show edition identified as timely anchor. Character-led edition on supplier relationships included for texture. Production flags realistic for reported newsletter.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Good Soil",
+        "subject": "Small-scale farming — growing and business",
+        "cadence": "Weekly, Thursday",
+        "period": "12 editions (March through May, planting season)",
+        "fixed_hooks": "Last frost dates (variable by region), spring market season opening",
+        "saved_topics": ["soil temperature vs calendar planting dates", "CSA pricing strategy", "cover crop economics", "direct marketing at markets"],
+        "ambition": "Practical planting-season arc — build from soil prep through to first sales"
+      },
+      "output_summary": "12-edition seasonal arc following natural farming progression. Overview frames the planting-to-market narrative logic clearly. Editions move logically from soil prep to planting decisions to sales strategy. Four 'evergreen' editions identified as strong share/promotion pieces. Production flags note which editions need regional data sourcing. Recurring 'reader question' format introduced at Edition 4.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
 }

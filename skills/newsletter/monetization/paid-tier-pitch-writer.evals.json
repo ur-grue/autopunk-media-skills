@@ -1,5 +1,85 @@
 {
   "skill_name": "paid-tier-pitch-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Long View",
+        "voice": "Calm, authoritative, slightly contrarian",
+        "free_tier": "One weekly essay",
+        "paid_tier": "$9/month — Friday 'The Sources' piece (1,200 words, primary documents) + quarterly reading list",
+        "free_subscribers": 9400,
+        "paid_subscribers": 340,
+        "testimonial": "The Friday piece is what I look forward to most. Used it in three policy briefings. — Policy Analyst",
+        "offer": "Standard pricing"
+      },
+      "output_summary": "240-word pitch. Opens with gracious acknowledgment of free reader relationship, not guilt. 'The Sources' benefit described specifically (1,200 words, primary documents, what was cut). Price stated explicitly ($9/$90). Single paid subscriber quote. One CTA button. Closes with reassurance that free essay continues. Calm authoritative register throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "The Friction Report",
+        "voice": "Sharp, sardonic, data-driven",
+        "free_tier": "Weekly analysis post",
+        "paid_tier": "$12/month — Monthly live data teardown session (60 min, recorded) + access to a running database of UX research findings with source links",
+        "free_subscribers": 6200,
+        "paid_subscribers": 180,
+        "offer": "Launch discount: $8/month for first 3 months for subscribers who join before end of month",
+        "offer_deadline": "End of current month"
+      },
+      "output_summary": "220-word pitch in sharp sardonic voice. Live teardown described concretely (60 min, what happens in them). Database benefit is specific (running, sourced). Launch discount presented plainly with clear deadline — no false-scarcity language. Price comparison is factual not coffee-metaphor. Three CTA button options. Voice consistent throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Good Soil",
+        "voice": "Practical, direct, unpretentious. Small-scale farmers.",
+        "free_tier": "Weekly growing and business advice",
+        "paid_tier": "$7/month — Monthly supplier directory update (verified wholesale contacts, negotiated pricing info from reader network) + seasonal planning templates",
+        "free_subscribers": 3100,
+        "paid_subscribers": 95,
+        "offer": "Standard pricing",
+        "testimonial": "The supplier directory alone has saved me more than the subscription costs in better wholesale prices. — market gardener, 2 acres"
+      },
+      "output_summary": "180-word pitch in unpretentious practical voice. Supplier directory benefit is concrete (verified contacts, pricing info). Seasonal templates described briefly but specifically. $7/month price stated plainly. Testimonial from a market gardener feels authentic and specific to the audience. CTA options practical not salesy.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ]
 }
