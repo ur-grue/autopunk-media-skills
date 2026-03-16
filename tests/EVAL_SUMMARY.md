@@ -10,12 +10,13 @@ This report summarises the quality scores for every skill that has completed the
 
 | Metric | Value |
 |--------|-------|
-| Total skills evaluated | 11 |
-| Passed (overall mean ≥ 4.0) | 11 |
-| Failed or pending | 91 |
-| Mean score across all stable skills | **4.44 / 5.00** |
+| Total skills in library | 102 |
+| Skills evaluated | 15 |
+| Passed (overall mean ≥ 4.0) | 15 |
+| Failed or pending evaluation | 87 |
+| Mean score across all stable skills | **4.42 / 5.00** |
 
-The library is in early build-out. All evaluated skills have passed. The strongest category so far is magazine journalism, which accounts for nine of the eleven stable skills.
+The library is in active build-out. All 15 evaluated skills have passed. Magazine journalism and TV documentary lead in coverage; YouTube and podcast skills are next in line for evaluation.
 
 ---
 
@@ -31,26 +32,30 @@ The library is in early build-out. All evaluated skills have passed. The stronge
 | investigation-timeline-builder | Magazine journalism | Investigation | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.0 |
 | source-research-brief | Magazine journalism | Investigation | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.3 |
 | libel-check-brief | Magazine journalism | Legal | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.0 |
+| character-arc-planner | TV documentary | Development | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.0 |
 | series-bible-generator | TV documentary | Development | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.0 |
+| subject-research-brief | TV documentary | Pre-production | **4.40** | 4.7 | 4.3 | 4.7 | 4.3 | 4.3 | 4.0 |
 | source-credibility-brief | Magazine journalism | Fact-checking | **4.30** | 4.7 | 4.3 | 4.3 | 4.3 | 4.3 | 4.0 |
 | expert-finder-brief | Magazine journalism | Investigation | **4.30** | 4.7 | 4.3 | 4.3 | 4.3 | 4.3 | 4.0 |
+| archival-footage-brief | TV documentary | Pre-production | **4.30** | 4.7 | 4.0 | 4.3 | 4.3 | 4.3 | 4.0 |
+| location-scout-brief | TV documentary | Pre-production | **4.30** | 4.7 | 4.3 | 4.3 | 4.3 | 4.3 | 4.0 |
 
 ---
 
 ## Scores By Dimension (library-wide averages)
 
-These are the average scores across all 11 stable skills, showing which quality dimensions the library currently handles best — and where there is room for improvement.
+These are the average scores across all 15 stable skills, showing which quality dimensions the library currently handles best — and where there is room for improvement.
 
 | Dimension | Library Average | What It Measures |
 |-----------|----------------|-----------------|
-| Coherence | **4.73** | Well-structured and logically organised |
-| Fluency | **4.60** | Natural, readable, professional language |
-| Relevance | **4.43** | Addresses exactly what was asked — no more, no less |
-| Consistency | **4.40** | Free of contradictions and invented facts |
-| Professionalism | **4.37** | Acceptable to an experienced media professional as-is |
-| Actionability | **4.14** | Usable directly in production without major revision |
+| Coherence | **4.72** | Well-structured and logically organised |
+| Fluency | **4.57** | Natural, readable, professional language |
+| Relevance | **4.39** | Addresses exactly what was asked — no more, no less |
+| Consistency | **4.36** | Free of contradictions and invented facts |
+| Professionalism | **4.35** | Acceptable to an experienced media professional as-is |
+| Actionability | **4.10** | Usable directly in production without major revision |
 
-**Key finding:** Coherence and fluency are the library's strongest dimensions — outputs read well and hold together logically. Actionability is the weakest, scoring 0.59 points below coherence. This means outputs are well-written but sometimes need more practical specificity before a journalist or producer can use them directly.
+**Key finding:** Coherence and fluency are the library's strongest dimensions — outputs read well and are logically organised. Actionability is the weakest, scoring 0.62 points below coherence. This gap is consistent across categories: outputs are well-written but sometimes need more specific, concrete next steps before a journalist or producer can act on them immediately.
 
 ---
 
@@ -58,16 +63,21 @@ These are the average scores across all 11 stable skills, showing which quality 
 
 These skills passed overall (mean ≥ 4.0) but scored below 4.3 on at least one individual dimension. They are production-ready, but a targeted revision could make them stronger.
 
-| Skill | Weak Dimension | Score | Recommended Action |
-|-------|---------------|-------|--------------------|
-| statistics-fact-checker | Actionability | 4.0 | Add more specific remediation steps for each statistical error type |
-| investigation-timeline-builder | Actionability | 4.0 | Include a clearer template for how to act on each gap identified |
-| libel-check-brief | Actionability | 4.0 | Add concrete rewrite suggestions for Red-flagged passages, not just warnings |
-| series-bible-generator | Actionability | 4.0 | Include commissioning-ready language for the most common broadcaster types |
-| source-credibility-brief | Actionability | 4.0 | Add specific follow-up question recommendations for each credibility risk |
-| expert-finder-brief | Actionability | 4.0 | Expand finding strategies with more platform-specific sourcing tactics |
+| Skill | Category | Weak Dimension | Score | Recommended Action |
+|-------|----------|---------------|-------|--------------------|
+| statistics-fact-checker | Magazine journalism | Actionability | 4.0 | Add specific remediation steps for each statistical error type |
+| investigation-timeline-builder | Magazine journalism | Actionability | 4.0 | Include a clearer template for acting on each identified gap |
+| libel-check-brief | Magazine journalism | Actionability | 4.0 | Add concrete rewrite suggestions for Red-flagged passages, not just warnings |
+| character-arc-planner | TV documentary | Actionability | 4.0 | Include a worked example of how to translate arc notes into a shooting plan |
+| series-bible-generator | TV documentary | Actionability | 4.0 | Add commissioning-ready language for the most common broadcaster types |
+| subject-research-brief | TV documentary | Actionability | 4.0 | Expand the first-session approach section with more specific practical steps |
+| source-credibility-brief | Magazine journalism | Actionability | 4.0 | Add follow-up question recommendations for each credibility risk identified |
+| expert-finder-brief | Magazine journalism | Actionability | 4.0 | Expand finding strategies with platform-specific sourcing tactics |
+| archival-footage-brief | TV documentary | Actionability | 4.0 | Add rights-clearance next steps and cost-range guidance per archive type |
+| archival-footage-brief | TV documentary | Consistency | 4.0 | Tighten cost estimates to avoid under- or overstating archive fees |
+| location-scout-brief | TV documentary | Actionability | 4.0 | Add a site visit checklist to convert the brief into immediate field action |
 
-**Pattern:** Actionability is the consistent weak point. Six of eleven stable skills score exactly 4.0 on this dimension. This is a library-wide opportunity: revisiting each skill's output format to include more concrete next steps would likely push several skills to 4.5+ overall.
+**Pattern:** Actionability is the consistent weak point across 10 of 15 stable skills. This is a library-wide opportunity: revisiting each skill's output format to add more concrete next steps, worked examples, or checklists would likely push several skills toward 4.5+ overall.
 
 ---
 
@@ -79,4 +89,4 @@ No skill in this library is marked stable unless it has been tested on three var
 
 ---
 
-*This report covers 11 of 102 skills currently in the library. The remaining 91 are planned, draft, or beta status and have not yet been evaluated. As more skills complete testing, this report will be updated.*
+*This report covers 15 of 102 skills currently in the library. The remaining 87 are planned, draft, or beta status and have not yet been evaluated. As more skills complete testing, this report will be updated.*
