@@ -1,5 +1,61 @@
 {
   "skill_name": "programme-brief-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "PBW-001",
+      "input_summary": "'The Long View' — weekly 45-minute Sunday 8pm documentary strand. Returns to news stories 6-18 months after original coverage. News-literate adult audience 35-60. Small production team (2 producers, 1 researcher). No regular features confirmed.",
+      "output_summary": "Full 8-section brief. Programme identity in one clear sentence. Audience section describes listener need rather than just demographics. Format maps to editorial proposition. Tone section uses concrete 'not' as well as 'yes'. Editorial constraints explicit. Presenter profile functional.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Strong across all dimensions. The 'emphatically not' section in tone is an editorial value-add that producers found useful in test. Relevance: production notes are detailed but the 4-6 week lead time figure was not in the input — reasonable assumption but should be flagged as a default. Actionability: document needed light editing to adapt to specific station house style."
+    },
+    {
+      "test_id": "PBW-002",
+      "input_summary": "Daily 7am breakfast news-magazine, 90 minutes. Mixed format: news, live interviews, traffic and travel, consumer stories, one regular feature ('The Fix' — home maintenance tips, 3 mins, Fridays). Audience: working adults 30-55 preparing for the day. Two presenters.",
+      "output_summary": "Brief correctly structures a multi-element breakfast format. 'The Fix' regular feature is described with position, duration, and purpose. Two-presenter dynamic addressed in presenter profile. Tone section correctly distinguishes breakfast energy from evening polish. Format section maps content blocks to listener journey.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Relevance and professionalism strong. Coherence: the 'regular features' section expanded 'The Fix' well but did not provide guidance on the other non-fixed content blocks, which felt like a gap given how much of a breakfast show is recurrent. Consistency: minor — the brief referred to 'a presenter' in one section, then 'two presenters' elsewhere."
+    },
+    {
+      "test_id": "PBW-003",
+      "input_summary": "Relaunching a local afternoon music-and-features show after a 3-year gap. New 2-hour format replacing a music-only slot. Presenter is an established local name returning after a break. Strong local community identity expected. Regular features: local events round-up, guest musician session.",
+      "output_summary": "Brief frames the relaunch editorially — not just 'what the show is' but 'why it is back and what has changed'. Regular features described accurately. Presenter profile emphasises local connection as editorial asset. Editorial aims include explicit community engagement criterion. Tone section captures the warmth/substance balance for afternoon local radio.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "The framing of the relaunch as an editorial event, not just a schedule change, is a strong editorial move. Actionability high — circulated to team as the production bible for the first month. Relevance: one section on production resource requirements was speculative (no budget information was given), and this needed to be stripped before circulation."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4
 }

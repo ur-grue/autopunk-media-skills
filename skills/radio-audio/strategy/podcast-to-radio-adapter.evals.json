@@ -1,5 +1,61 @@
 {
   "skill_name": "podcast-to-radio-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "test_id": "PRA-001",
+      "input_summary": "'What Your Doctor Didn't Tell You' — 55-minute health podcast. Host + one guest format, personal opening monologue (5 mins), heavy listener questions (15-20 mins), casual blunt tone. Target: national public radio, 11am weekday, 28 minutes.",
+      "output_summary": "Full adaptation brief with comparison table and 5 specific recommendations. Monologue-to-tease recommendation is specific and explains the why. Listener questions section preserves the podcast's engagement identity in reduced form. Compliance flags are Ofcom-specific and accurate. Sample structure maps to 28-minute slot with 2 minutes flex.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Strong professionalism and coherence. The document correctly distinguishes which podcast qualities to preserve vs change — a common failure in adaptation briefs. Relevance slightly marked: compliance flags included one Ofcom section reference that was not precisely the right provision for health content — flagged and verified before use. Actionability: used as the basis for a broadcaster meeting with minor additions."
+    },
+    {
+      "test_id": "PRA-002",
+      "input_summary": "True crime narrative podcast, 6-part series, 45 minutes per episode. Highly produced with music beds and cinematic audio design. Target: commercial radio evening strand, 35 minutes per episode. US-based broadcaster (FCC context).",
+      "output_summary": "Adaptation correctly identifies FCC rather than Ofcom standards. Music beds flagged as a production asset that can be largely preserved but must meet DMCA/broadcast licensing requirements. Duration reduction recommendations focus on narrative tightening rather than structural removal. Ad break positions integrated into the adapted structure.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Good relevance — the FCC context was correctly applied. Music licensing compliance note was appropriate but brief; a producer would need more detail before clearance. Coherence: one recommendation section ran across two related changes without clearly separating them into distinct recommendations."
+    },
+    {
+      "test_id": "PRA-003",
+      "input_summary": "Tech explainer podcast (weekly, 25 minutes) — already close to broadcast length. Target: regional public radio, mid-morning. Audience shift: from tech enthusiasts to general adult listener. Duration: 22 minutes with a news break at 15 minutes.",
+      "output_summary": "Adaptation correctly identifies the primary challenge as audience rather than duration — the tech-enthusiast register needs recalibration for a general listener. Comparison table focuses on expertise assumption differences. The news break is correctly integrated as a fixed point in the adapted structure. Minimal structural disruption needed.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "The reframe from 'duration problem' to 'audience problem' is the correct editorial diagnosis and shows the skill is doing genuine analysis, not just applying a template. Actionability high — the producer adapted the first episode using this document directly. Consistency: minor — one recommendation referenced 'jargon' without defining which terms were the issue, which required a follow-up conversation."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.3
 }

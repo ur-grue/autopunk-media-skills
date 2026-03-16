@@ -1,5 +1,61 @@
 {
   "skill_name": "clip-selection-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "test_id": "CSB-001",
+      "input_summary": "1:45 bulletin package on four-day working week trial at a distribution centre. Workforce manager interview transcript (5 candidate sections A-E). Story angle: is it working? 2-3 clips needed.",
+      "output_summary": "3 clips recommended in priority order with verbatim in/out cues, duration estimates, justifications, and edit notes. Clips D and E explicitly not recommended with reasons. Sequence suggestion shows narrative arc awareness.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "High actionability — reporter went to edit with this brief directly. The sequence recommendation (doubt → data → resolution) was used as-is. Relevance slightly marked: edit note on Clip 3's filler word was precise but the recommendation to 'check audio before committing' is obvious to an experienced reporter."
+    },
+    {
+      "test_id": "CSB-002",
+      "input_summary": "3-minute feature package on a community mental health programme. Service user interview transcript with 6 candidate sections. Package angle: personal impact. 2 clips needed. One section contains a disclosure the reporter flagged as legally sensitive.",
+      "output_summary": "Primary clip recommendation correctly avoids the flagged sensitive section. Secondary clip shows strong editorial reasoning — selects an indirect expression of impact over a more explicit statement, on the grounds it would require less sensitising context in surrounding track.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Professionalism and relevance strong. Legal sensitivity flagged correctly in the 'not recommended' section. Consistency: the estimated duration on Clip 2 appeared slightly optimistic based on word count — timed at 24s against estimate of 18s. Coherence: sequence suggestion was brief; a longer feature might benefit from a more developed sequencing rationale."
+    },
+    {
+      "test_id": "CSB-003",
+      "input_summary": "Accountability interview with a councillor about missed housing targets. 7 transcript sections, several evasive. Reporter needs 2 clips. Package tone: challenging but fair.",
+      "output_summary": "Brief correctly identifies the two moments where the subject moved beyond deflection into substantive statement. Edit notes identify two sections where evasive language, if clipped carelessly, could misrepresent the speaker. Sequence recommendation places the stronger clip second for editorial impact.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Solid across all dimensions. No standout weaknesses. The edit notes on misrepresentation risk are exactly what an accountability package requires. Coherence: the 'not recommended' section was longer than strictly necessary — three rejected sections annotated in detail when a brief flag would have sufficed."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.0,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.3
 }

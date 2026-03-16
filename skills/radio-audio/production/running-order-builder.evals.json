@@ -1,5 +1,61 @@
 {
   "skill_name": "running-order-builder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "ROB-001",
+      "input_summary": "45-minute news-magazine programme starting 12:00. Fixed items: news bulletin (3 mins), ad break (2 mins), afternoon trail (1 min). Variable: housing secretary interview (8 mins), package (2 mins), music bridge (2 mins), phone-in (6 mins), charity interview droppable (5 mins), presenter links (3 mins).",
+      "output_summary": "Full running order table with cumulative clock times, type labels, and production notes. Flex slot identified and flagged. Droppable item marked. Programme shape note explains the housing thread. Total time sums correctly.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Running order used in production without structural changes. Flex slot note was actionable and correctly flagged. Consistency: clock time on ad break was listed as 'approx. 12:20' in the notes but the table showed 12:22:15 — minor inconsistency, explained by preceding items running to time, but could confuse a producer."
+    },
+    {
+      "test_id": "ROB-002",
+      "input_summary": "30-minute weekend morning music-and-talk show, 9:00am start. No fixed news. 3 music tracks, 1 presenter feature (local history, 4 mins), 1 pre-recorded interview (author, 5 mins), trail for weekend schedule (1 min), 2 ad breaks (90 secs each).",
+      "output_summary": "Running order correctly interspersed music and speech items. No two speech items back to back. Programme opens with music (appropriate for format). Close uses the author interview, which has a strong ending. Droppable item flagged (local history feature can be cut if interview overruns).",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Strong consistency and fluency. Coherence: the programme shape note did not fully explain why the author interview was placed at the close rather than mid-programme — the reasoning is sound but not stated. Relevance: the table included a 'presenter tease' slot that was not in the input brief, though it added value."
+    },
+    {
+      "test_id": "ROB-003",
+      "input_summary": "60-minute drive-time current affairs programme, 5:00pm. Hard news top. Two live studio interviews. Two packages. Phone-in. News at 5:30 (3 mins fixed). Ad breaks at 5:10 and 5:45. Programme close before 6:00 news.",
+      "output_summary": "Complex multi-fixed-point running order handled correctly. 5:30 news anchor creates a natural programme break used to restructure the second half. Both live interviews are placed before the mid-programme news. Droppable items identified in second half. All fixed times met.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Best test for a complex format. Fixed-point handling is precise. The use of the 5:30 news as a natural half-time break is an editorial insight not prompted by the input. Consistency: one ad break duration in the table appeared as 2:00 but the input specified 90 seconds — simple error, easy to spot and correct."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.67,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4
 }

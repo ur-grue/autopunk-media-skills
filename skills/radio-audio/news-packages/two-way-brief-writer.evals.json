@@ -1,5 +1,61 @@
 {
   "skill_name": "two-way-brief-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "TWB-001",
+      "input_summary": "Midday news programme, 3-minute two-way after a 90-second package. Ambulance response time record high (9m23s against 8m target). Health correspondent Priya Chakraborty. CEO declined interview, gave on-record comment. Health secretary statement earlier.",
+      "output_summary": "Full brief with scannable story bullets, 5 questions with frameworks, and Watch Out For section covering on-record attribution risk and political framing. Story brief readable in under 60 seconds. Questions phrased as air-ready presenter copy.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent. The Watch Out For section on the CEO attribution issue is a genuine editorial value-add. Actionability: reporter used brief before going live with minor additions from own notes. Consistency: one answer framework included a historical reference to meeting targets — not in the input, flagged for verification."
+    },
+    {
+      "test_id": "TWB-002",
+      "input_summary": "Breakfast show, 2-minute two-way. Environment correspondent reporting on a Supreme Court ruling on planning law affecting green belt development. Legal ruling issued 90 minutes ago. No pre-prepared package. Correspondent has read the judgment summary.",
+      "output_summary": "Story brief correctly adapted for a very recent ruling — focuses on what is known, flags what is still being clarified. Questions are accessible (audience is general). Answer frameworks include a 'plain English explanation' cue for the technical legal question.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Strong professionalism. The 'plain English' cue in framework is well-judged for a breakfast audience. Coherence: the 4th question introduced a secondary legal point that wasn't in the input — editorially defensible but slightly outside scope. Relevance: minor overreach on one answer framework."
+    },
+    {
+      "test_id": "TWB-003",
+      "input_summary": "Drive time programme, 4-minute two-way. Science correspondent reporting on a new climate study showing accelerated glacier melt. Study published today. Contentious finding — some scientists have questioned the methodology. Presenter likely to be adversarial.",
+      "output_summary": "Story brief includes caveat about contested methodology. Questions anticipate methodological challenge directly. Answer framework for the contested question steers toward 'weight of evidence' framing. Watch Out For section covers adversarial presenter style explicitly.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Watch Out For section is particularly strong — actionable guidance for managing an adversarial presenter without going off-message. Relevance: one question felt slightly redundant given a previous answer framework covered the same ground. Fluency: one bullet in the story brief used an acronym without expansion."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4
 }

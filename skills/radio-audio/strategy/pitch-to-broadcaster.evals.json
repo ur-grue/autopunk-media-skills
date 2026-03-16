@@ -1,5 +1,61 @@
 {
   "skill_name": "pitch-to-broadcaster",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "test_id": "PTB-001",
+      "input_summary": "'The Year After' — longitudinal audio documentary series tracking one person's first year after a major life event. 12 × 25-minute episodes, 10pm slot. Small indie production company pitching. No pilot. No presenter attachment.",
+      "output_summary": "Full pitch with 6 sections. Editorial proposition is clear and specific, avoids buzzwords. Format section visualises an episode from start to finish including the editorial shift at Episode 4-5. Why Now correctly identifies the serialised audio market gap. Production credentials section flagged as placeholder. Series proposal offers commissioning flexibility.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Editorial proposition paragraph is the strongest element — the 'one promise' framing is genuinely commissioning-ready. Relevance slightly marked: the audience section included a claim about 10pm slot research that was not in the input — defensible journalistically but the skill should not present unverified claims as evidence. Actionability: document used in a commissioning meeting with minor redaction of production credentials placeholder."
+    },
+    {
+      "test_id": "PTB-002",
+      "input_summary": "Weekly science explainer magazine show, 30 minutes, daytime. Target: public radio network. Comparable: Radio 4-style accessible science. Presenter attached (science journalist with podcast following). 6-episode pilot run proposed.",
+      "output_summary": "Pitch correctly uses the attached presenter's podcast following as evidence of audience demand. Format section maps each episode's structure clearly. Why Now points to science literacy gap rather than making a general 'science is popular' claim. Series proposal correctly frames the pilot-first approach.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Strong relevance — all input information is used purposefully. Consistency: no invented facts. Coherence: the audience section moved between two audience descriptions (science-curious general listener and science-adjacent professional) without fully resolving which is the primary target. One paragraph would resolve this."
+    },
+    {
+      "test_id": "PTB-003",
+      "input_summary": "True crime audio documentary series, 6 × 40-minute episodes, targeting a commercial network evening slot. Case involves a cold case wrongful conviction. Independent producer with one previous commissioned series. Taster tape available.",
+      "output_summary": "Pitch correctly front-loads the editorial proposition (wrongful conviction + cold case = both crime appeal and justice journalism) without sensationalising. Why Now references the regulatory environment around true crime responsibly. Series proposal includes the taster tape as a commissioning accelerant. Production credentials section uses the one previous commission effectively.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "The dual editorial proposition (crime + justice journalism) is well-handled. Professionalism: the document correctly avoids sensationalist language and frames the ethical handling of the subject as a production value. Consistency: one sentence implied the wrongful conviction was confirmed — the input described it as alleged; this required correction before submission."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.0
+  },
+  "overall_mean": 4.3
 }
