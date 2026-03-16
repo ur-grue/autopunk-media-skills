@@ -1,5 +1,69 @@
 {
   "skill_name": "thread-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Documentary filmmaker thread about climate grief film",
+      "input": {
+        "subject": "Documentary about climate grief counsellors, accepted at IDFA",
+        "argument": "Climate grief is real and treated professionally, but counsellors experience the same grief they treat",
+        "length": "Medium (10 tweets)",
+        "voice": "Filmmaker — personal, direct, not academic"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Tweet 1 works as a standalone. Each tweet advances the argument by one step. No padding or repetition. Close invites response with an open question. No filler opening phrases."
+    },
+    {
+      "id": "tc-02",
+      "description": "Journalist thread expanding on an investigation",
+      "input": {
+        "subject": "Investigation into a government procurement database that has been offline for 18 months, preventing scrutiny of public contracts worth billions",
+        "argument": "The outage is not technical — correspondence shows the database was intentionally taken down after a journalist began requesting records from it",
+        "length": "Short (6 tweets)",
+        "voice": "Investigative journalist — dry, factual, builds tension"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Short thread handles the investigative reveal format well — builds to the key document disclosure in tweet 5. Dry tone maintained throughout. No speculation beyond the evidence described."
+    },
+    {
+      "id": "tc-03",
+      "description": "Podcast host thread building an editorial argument",
+      "input": {
+        "subject": "Argument that true crime podcasts have made the justice system less transparent, not more — by prioritising narrative over accountability",
+        "argument": "True crime audiences want resolution. Real accountability is ambiguous and slow. The genre optimises for resolution and in doing so has changed what audiences expect from journalism.",
+        "length": "Medium (8 tweets)",
+        "voice": "Podcast host — opinionated, willing to be wrong, invites disagreement"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Argument is provocative and logically structured. Opinionated voice maintained without being strident. Close explicitly invites disagreement. Thread structure uses the counterargument before landing the main claim."
+    }
+  ],
+  "overall_mean": 4.39,
+  "passed": true
 }

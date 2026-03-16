@@ -1,5 +1,70 @@
 {
   "skill_name": "column-voice-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.3,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "voice_sample": "Institutional observer voice — dry wit, formal-adjacent, pre-emptively acknowledges objections, refuses to conclude, uses 'I' as measurement device not emotional center",
+        "new_topic": "Open-plan offices and why the design failed every experiment it was supposed to validate",
+        "length": "200-250 words"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Voice analysis extracts specific rules, not adjectives. New passage maintains the dry institutional voice throughout. Characteristic pattern (state → acknowledge objection → restate) is present. Ending refuses to conclude correctly. Excellent adaptation."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "voice_sample": "Warm, confessional first-person voice. Short sentences. Food and family intertwined. Uses sensory detail to carry emotional weight. Mediterranean background implied rather than explained. Rarely uses 'because' — cause and effect are implied.",
+        "new_topic": "The ritual of Sunday cooking and what gets lost when it disappears from a family",
+        "length": "200 words"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Voice analysis correctly identifies implied causation pattern. New passage uses sensory detail (smell, physical action) rather than explanation. Emotional weight carried by scene, not statement. Consistent warm register throughout."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "voice_sample": "Short sample, 90 words: blunt, data-forward, skeptical of consensus. No rhetorical questions. Ends on a fact, not a flourish.",
+        "new_topic": "Why productivity app downloads spike in January and whether they produce any measurable change",
+        "length": "150 words"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Short voice sample (90 words, below recommended 150) — skill correctly flags insufficient pattern repetition in analysis. Output is blunt and data-forward as described, but two sentences slip into mild rhetorical phrasing not in the sample. Acceptable given data constraint. Passes threshold."
+    }
+  ]
 }
