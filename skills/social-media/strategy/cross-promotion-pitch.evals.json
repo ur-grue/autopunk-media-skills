@@ -1,5 +1,72 @@
 {
   "skill_name": "cross-promotion-pitch",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Newsletter swap between investigative journalism and finance newsletters",
+      "input": {
+        "my_account": "PAPER TRAIL — investigative financial crime newsletter/podcast, 14,000 subscribers",
+        "target": "CAPITAL NOTES — financial regulation newsletter, 22,000 subscribers",
+        "proposal": "Newsletter swap — one-issue feature in each other's newsletter",
+        "compatibility": "Both cover financial system failures from different angles",
+        "connection": "Quoted their coverage twice, no prior contact"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Opening references specific recent piece — not generic praise. Audience compatibility is concrete. Proposal is named (newsletter swap) with explicit terms. Ask is specific and low-friction. Peer-to-peer tone maintained throughout."
+    },
+    {
+      "id": "tc-02",
+      "description": "Podcast guest swap between two documentary podcasts",
+      "input": {
+        "my_account": "FIELD NOTES — documentary making podcast, 8,000 listeners per episode",
+        "target": "THE LONG FRAME — film criticism podcast focusing on documentary, 15,000 listeners",
+        "proposal": "Guest swap — I appear on their show, their host appears on mine",
+        "compatibility": "Documentary production and documentary criticism are complementary angles on the same world",
+        "connection": "Met briefly at a screening event"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33,
+      "notes": "In-person connection reference personalises the pitch appropriately without overstating the relationship. Guest swap format clearly explained. Tone correctly peer-to-peer despite follower size difference."
+    },
+    {
+      "id": "tc-03",
+      "description": "Instagram story takeover between two photographers",
+      "input": {
+        "my_account": "Documentary photographer, 4,200 Instagram followers, urban industrial photography",
+        "target": "Photography magazine Instagram account, 45,000 followers, covers documentary and street photography",
+        "proposal": "Instagram story takeover — I take over their stories for one day during my current project",
+        "compatibility": "Their audience interested in documentary photography, my work fits their editorial coverage",
+        "connection": "No prior contact — cold pitch"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Size asymmetry handled correctly — pitch offers specific value (access/story) rather than simple audience swap. Takeover format proposal includes content preview. Limitation about size gap acknowledged."
+    }
+  ],
+  "overall_mean": 4.33,
+  "passed": true
 }
