@@ -1,0 +1,47 @@
+{
+  "skill_name": "data-story-finder",
+  "status": "passed",
+  "eval_score": 4.5,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Hospital waiting times dataset — regional health data with clear outliers",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc2",
+      "description": "Municipal spending dataset — local government procurement records",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc3",
+      "description": "School attainment dataset — national exam results by district and demographics",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "overall_mean": 4.44
+}

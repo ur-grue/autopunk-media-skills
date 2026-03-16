@@ -1,0 +1,47 @@
+{
+  "skill_name": "polling-analysis-writer",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Voting intention poll with subgroup data — general election scenario",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc2",
+      "description": "Consumer confidence survey — economic sentiment tracker with monthly comparison",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc3",
+      "description": "Public health survey — vaccination attitudes with age and regional breakdowns",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "overall_mean": 4.39
+}

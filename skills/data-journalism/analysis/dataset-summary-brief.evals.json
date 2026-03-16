@@ -1,0 +1,47 @@
+{
+  "skill_name": "dataset-summary-brief",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Residential property transaction register — 7 years, national scope",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc2",
+      "description": "Police incident log — 3 years, single metropolitan area",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc3",
+      "description": "Company filings dataset — directors and shareholder records",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ],
+  "overall_mean": 4.33
+}
