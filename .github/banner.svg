@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <!-- Background -->
+  <rect width="1280" height="400" fill="#0d1117"/>
+
+  <!-- Accent rule -->
+  <rect x="60" y="280" width="1160" height="2" fill="#e05c3a"/>
+
+  <!-- Main wordmark -->
+  <text
+    x="60"
+    y="200"
+    font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="900"
+    font-size="96"
+    letter-spacing="-3"
+    fill="#f0f6fc">autopunk-media-skills</text>
+
+  <!-- Subtitle -->
+  <text
+    x="62"
+    y="252"
+    font-family="'Courier New', Courier, monospace"
+    font-weight="400"
+    font-size="22"
+    letter-spacing="1"
+    fill="#8b949e">102 skills for journalists, producers, and creators</text>
+
+  <!-- Bottom-right stat line -->
+  <text
+    x="1220"
+    y="340"
+    text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-weight="400"
+    font-size="15"
+    letter-spacing="0.5"
+    fill="#8b949e">&#x2705; 102 stable  ·  7 categories  ·  G-Eval tested</text>
+
+  <!-- Bottom-left: URL hint -->
+  <text
+    x="62"
+    y="340"
+    font-family="'Courier New', Courier, monospace"
+    font-weight="400"
+    font-size="14"
+    letter-spacing="0.5"
+    fill="#484f58">github.com/ur-grue/autopunk-media-skills</text>
+</svg>
