@@ -1,5 +1,61 @@
 {
   "skill_name": "bulletin-script-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "BSW-001",
+      "input_summary": "3-minute daytime bulletin, 3 stories: council library closures (lead, includes 12-sec clip), national rail fare rise, overnight ice warning. Northgate Radio.",
+      "output_summary": "Full 3-minute bulletin script with CUE 1/2/3 structure, clip label with in/out cues, spoken-style prose, ~445 words, out-cue sign-off. Lead correctly placed on highest-impact local story.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Output is bulletin-ready. Clip label format is correct. Running time estimate accurate. Minor: second story could open with a stronger active verb."
+    },
+    {
+      "test_id": "BSW-002",
+      "input_summary": "2-minute news summary, 2 stories: hospital waiting times hit record high (national), local football club enters administration. Evening show. No clips.",
+      "output_summary": "Two-cue bulletin at ~300 words. Hospital story leads (higher impact). Football item uses clear financial language without jargon. Clean out-cue. No clip labels needed.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent fluency and professionalism. Relevance slightly marked down because the output included a brief contextual sentence not signalled in input — editorial but not strictly required."
+    },
+    {
+      "test_id": "BSW-003",
+      "input_summary": "5-minute bulletin, 5 stories: government energy policy announcement (lead), teacher strike ballot result, supermarket price freeze pledge, minor earthquake in coastal region, weekend weather.",
+      "output_summary": "Five-cue bulletin ~750 words. Strong hierarchical structure. Energy policy leads with policy detail foregrounded before minister name. Strike ballot uses correct labour relations vocabulary. Weather cue appropriately brief.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Actionability is high — script went straight to transmission in test. Coherence slightly marked: the supermarket story transitions abruptly from the previous cue without a brief signposting word."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.67,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5
 }

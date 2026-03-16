@@ -1,5 +1,61 @@
 {
   "skill_name": "presenter-link-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "PLW-001",
+      "input_summary": "Morning Show (upbeat daytime), 4 link types needed: 8am intro (rail strike top story), bridge into nutritionist interview after music, back anno after community garden package, programme close.",
+      "output_summary": "All 4 links delivered with correct labels and speaker notes. Intro sets agenda cleanly. Bridge creates forward pull without over-teasing. Back anno accurate and brief. Close warm and correctly paced.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Actionability and fluency high — links went to air without edit in test. Relevance slightly marked: intro link developed the rail story slightly further than the input called for."
+    },
+    {
+      "test_id": "PLW-002",
+      "input_summary": "Late-night current affairs strand, intimate and measured tone. Bridge from actuality clip of a refugee interview into a studio discussion panel. Back anno after expert interview about mental health policy.",
+      "output_summary": "Bridge is properly reflective and does not undercut the emotional weight of the actuality clip. Transition to discussion panel is clean. Back anno names the subject area without editorialising.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Strong consistency and relevance. Coherence slightly marked: the bridge opens with a slightly literary construction that works on page but may need loosening for some presenters. Flagged in Known Limitations."
+    },
+    {
+      "test_id": "PLW-003",
+      "input_summary": "Weekend breakfast show, irreverent and fast-paced. 3 links: cold open (bank holiday Monday, themed episode on local food markets), bridge into a 90-second food market package, close.",
+      "output_summary": "Cold open is energetic and sets the theme clearly in 20 seconds. Bridge into package uses a light tease that doesn't over-promise. Close lands the bank holiday warmth without being saccharine.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5,
+      "notes": "Excellent fluency throughout. Relevance marked slightly: the close ran 35 seconds against a 30-second target — minor overrun easily trimmed."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.0,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.4
 }

@@ -1,5 +1,61 @@
 {
   "skill_name": "documentary-narration-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "DNW-001",
+      "input_summary": "20-minute radio documentary 'The Last Post Office'. Rural post office closing after 140 years. 4 clips (postmistress and community members), actuality sounds (door bell, date stamp, queue). Warm journalistic narrator.",
+      "output_summary": "Full structured script with NAR, CLIP, and ATMOS labels. Strong opening hook using actuality. Narration earns each clip without pre-quoting. Close is thematic and restrained. Correct clip-to-narration ratio.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent fluency and emotional calibration. Relevance slightly marked: one narration block included a contextual detail about online banking not explicitly in the input — journalistically appropriate but not sourced from the input. Actionability: script used in edit with minor timing adjustments."
+    },
+    {
+      "test_id": "DNW-002",
+      "input_summary": "30-minute investigative audio documentary about occupational safety failures in a warehouse distribution sector. 5 clips (injured workers, union rep, company spokesperson, safety regulator). Authoritative, measured narrator. Actuality: factory floor ambient, regulatory hearing room tone.",
+      "output_summary": "Script maintains investigative register throughout. Narration before company spokesperson clip sets up the challenge without pre-framing the audience's response. Regulatory language used accurately. Structure moves through incident → investigation → accountability → systemic question.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Professionalism and relevance high. Coherence slightly marked: one transition between the injured worker section and the union section felt slightly abrupt — a single bridging sentence would smooth it. Consistency: one figure cited in narration (injury rate) was not in the input; flagged and removed before broadcast."
+    },
+    {
+      "test_id": "DNW-003",
+      "input_summary": "15-minute portrait documentary about a retiring search-and-rescue volunteer. Intimate, first-person narrator tone. 3 clips (subject, colleague, family member). Actuality: coastal wind, radio crackle.",
+      "output_summary": "Script uses actuality as emotional punctuation with confidence. Narration is intimate without being mawkish. Portrait structure used effectively: opens at subject's last call-out, moves to biography, ends with looking forward. Closes without sentiment but with warmth.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Strongest test. Actuality integration is confident and musical. Relevance marked slightly: one narration passage moved into broader search-and-rescue context that extended marginally beyond the individual portrait brief, though it added genuine editorial value."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.67,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4
 }

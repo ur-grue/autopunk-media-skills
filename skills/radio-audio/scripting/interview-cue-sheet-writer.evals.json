@@ -1,5 +1,61 @@
 {
   "skill_name": "interview-cue-sheet-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "ICS-001",
+      "input_summary": "Drive Time, 6-minute live interview. Dr. Amara Osei, emergency medicine consultant. Topic: record A&E waiting times. Purpose: explanation and mild accountability. Sensitive framing around systemic vs individual failure.",
+      "output_summary": "Full cue sheet with scripted intro, factual reference card (5 bullets), 5 questions with follow-ups, and out-cue. Questions progress from open context-setting to challenge to listener-service. Sensitive framing respected throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Presenter used cue sheet without amendment in dry run. Relevance slightly marked: the factual reference card included one bullet (ambulance handover time) not explicitly in the input but professionally reasonable to include."
+    },
+    {
+      "test_id": "ICS-002",
+      "input_summary": "Morning current affairs show, 4-minute pre-recorded interview. Finance director of a housing charity. Topic: new government affordable housing targets announced today. Purpose: accountability — targets missed for 5 consecutive years.",
+      "output_summary": "Cue sheet opens with a warm but direct intro. Questions move efficiently to accountability. Follow-ups for likely political deflections are well-targeted. Reference card accurate to input data. Out-cue is clean.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Strong relevance and professionalism. One question was slightly double-barrelled — presenter noted this and split it before recording. Minor coherence note: question 4 introduced a new subject (planning reform) not in the input brief."
+    },
+    {
+      "test_id": "ICS-003",
+      "input_summary": "Weekend magazine show, 8-minute human interest interview. Author who walked the entire coastline of a small island nation solo. Purpose: storytelling — why they did it, what they found, what it changed for them.",
+      "output_summary": "Tone shifts correctly to warm and curious. Intro sets scene well. Questions open up narrative space without boxing the guest in. Follow-ups are exploratory rather than challenging. Out-cue is conversational and warm.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Excellent register shift from news-accountability to human-interest mode. Relevance slightly marked: factual reference card included a geography note about the island that was not provided in the input. Listener-facing accuracy not at risk but worth noting."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.67,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.67
+  },
+  "overall_mean": 4.5
 }

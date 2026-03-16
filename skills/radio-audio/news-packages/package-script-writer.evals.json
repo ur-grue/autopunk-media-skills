@@ -1,5 +1,61 @@
 {
   "skill_name": "package-script-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "test_id": "PSW-001",
+      "input_summary": "Evening bulletin, 1:45 package. Call centre closure story, 340 jobs at risk. 3 clips: company spokesperson (12s), union rep (18s), anonymous worker (8s). Reporter: James Okoro.",
+      "output_summary": "Full 4-track package script with presenter intro, back announcement, and clip labels. Tracks don't repeat clip content. Anonymous worker clip correctly set up with track. Sign-off names reporter, beat, and location. Duration accurate to target.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Strong. Back announcement accurately reflects company statement. Minor consistency note: Track 3 used the phrase 'abstract dispute' which slightly elevated the register beyond the rest of the script — easily adjusted. Actionability: script submitted to edit without structural changes."
+    },
+    {
+      "test_id": "PSW-002",
+      "input_summary": "Daytime programme, 2:30 package. Planning permission granted for controversial wind farm development. Environmental group opposed, local authority in favour, local resident clip. No back announcement needed.",
+      "output_summary": "Package gives both sides equal track space. Reporter voice stays neutral throughout. Clips are properly set up with context. Closing sign-off correctly places reporter at the planning office. Duration estimated accurately.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Good balance and consistency. Coherence: the opening track ran slightly long before the first clip — could be tightened by 5 seconds. Fluency: one sentence in Track 2 opened with a participle phrase that sounds slightly bookish on air."
+    },
+    {
+      "test_id": "PSW-003",
+      "input_summary": "Breaking news programme, tight 1:15 package required. School fire, no injuries, building evacuated. Headteacher clip (10s), fire service spokesperson clip (12s). Reporter on location.",
+      "output_summary": "Tight, focused 2-track package. Presenter intro frontloads the 'no injuries' key fact. Reporter track between clips maintains pace. Closing track confirms ongoing investigation and school's contingency plan. Hits 1:13.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Strongest test. Breaking news pacing excellent. Key reassurance fact ('no injuries') placed correctly in presenter intro as well as confirmed in closing track. Minor consistency: fire service spokesperson's title slightly varied between intro and back anno."
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.67,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4
 }
