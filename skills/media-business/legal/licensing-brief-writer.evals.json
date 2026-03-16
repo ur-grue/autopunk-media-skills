@@ -1,5 +1,70 @@
 {
   "skill_name": "licensing-brief-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Featured pop song in documentary opening sequence",
+      "input": {
+        "content": "45 seconds of a well-known 1979 pop song, prominently featured",
+        "use": "Opening sequence of a feature documentary",
+        "distribution": "International theatrical, global streaming, possible broadcast",
+        "rights_holder": "Unknown",
+        "budget": "Limited — independent documentary"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Sync vs master distinction made explicit and clear. Rights holder identification approach specific. Fee range flagged as realistic without being misleading. Music supervisor recommendation appropriate."
+    },
+    {
+      "id": "tc-02",
+      "description": "Archive news footage clip from the 1990s",
+      "input": {
+        "content": "20 seconds of news broadcast footage from 1994 showing a public political event",
+        "use": "Documentary film — footage appears in a montage, not prominently featured",
+        "distribution": "European broadcast and streaming",
+        "rights_holder": "Believed to be held by a major international news agency"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33,
+      "notes": "Archive footage licensing correctly differentiated from music licensing. Underlying rights in archive footage (music, third-party footage within news clip) flagged. Incidental use distinction noted."
+    },
+    {
+      "id": "tc-03",
+      "description": "Photograph in a magazine article",
+      "input": {
+        "content": "A portrait photograph taken in 1962, photographer known but deceased",
+        "use": "Full-page reproduction in a print magazine article",
+        "distribution": "Print magazine (UK), digital edition",
+        "rights_holder": "Believed to be photographer's estate, represented by a photo agency"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Still image licensing correctly differentiated from audio-visual licensing. Estate representation through agency correctly identified. Print vs digital distinction in scope correctly noted. Copyright term calculation flagged as jurisdiction-dependent."
+    }
+  ],
+  "overall_mean": 4.39,
+  "passed": true
 }

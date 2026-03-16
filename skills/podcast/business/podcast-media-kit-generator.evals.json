@@ -1,5 +1,65 @@
 {
   "skill_name": "podcast-media-kit-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Workplace law podcast — full demographics, 2 sponsors, award nomination, 8.5K downloads/ep",
+      "input_summary": "Complete input: demographics, notable guests, social following, email list, sponsorship rates, existing sponsors, award",
+      "output_summary": "Full media kit with 7 sections; audience section goes beyond demographics to include behavioral signal (action rate); stats presented as clean table; sponsorship packages as labeled table; social proof section concise; host bio credible",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "New podcast — 3 months old, no demographic data, no sponsors yet, 800 downloads/ep",
+      "input_summary": "Early-stage show, limited data, no sponsors, no press, seeking first sponsor outreach",
+      "output_summary": "Skill correctly emphasizes niche and audience quality over volume; listener count stated honestly without inflation; sections that lack data noted as 'in development' rather than fabricated; packages framed as introductory rates",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "True crime podcast — press mentions, no demographic data available, seeking award submission",
+      "input_summary": "Established show, strong press coverage, seeking award/directory submission format rather than sponsor-facing document",
+      "output_summary": "Format adapts slightly for award submission context — editorial voice is stronger, press quotes prominent, sponsorship section de-emphasized; format still works for both use cases",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.0
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The skill handles sparse inputs gracefully — it does not invent data that hasn't been provided, which is critical for credibility. The strongest outputs come when the user provides demographic and behavioral data."
 }

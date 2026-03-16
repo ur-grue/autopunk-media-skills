@@ -1,5 +1,55 @@
 {
   "skill_name": "archival-footage-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.3,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.0,
+    "fluency": 4.3,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Documentary about the history of a national railway network, 1950s-1980s. Need footage of stations, trains, and passengers across four decades. UK production. Standard broadcast budget.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly identified BFI National Archive and British Transport Films as primary sources. Rights note for BBC archive material was accurate. Cost estimate was appropriately hedged."
+    },
+    {
+      "id": "tc2",
+      "input": "Documentary about a 1990s music subculture in a specific European city. Need footage of clubs, street scenes, and key performances. Low budget. Some footage may exist only in private hands.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "notes": "Correctly flagged community-held and privately filmed footage as likely primary source for this period and subculture. Suggested crowdsourcing appeals through surviving community networks. Budget assessment acknowledged the low-budget constraint."
+    },
+    {
+      "id": "tc3",
+      "input": "Documentary on a 1970s environmental disaster in a developing country. Scarce archival record expected. Need to establish the before/during/after of a river contamination event.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "notes": "Brief honestly acknowledged the likelihood of significant archival gaps and recommended satellite imagery and scientific data visualization as supplements to missing footage. Availability assessment was appropriately cautious."
+    }
+  ]
 }

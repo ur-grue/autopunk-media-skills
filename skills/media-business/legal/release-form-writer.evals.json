@@ -1,5 +1,78 @@
 {
   "skill_name": "release-form-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Contributor release for feature documentary",
+      "input": {
+        "type": "Talent/contributor release",
+        "project": "Threshold — feature documentary",
+        "company": "Ironwood Films Ltd",
+        "subject": "Contributor appearing in filmed interviews and daily life footage",
+        "distribution": "Theatrical + global streaming + European broadcast",
+        "term": "In perpetuity",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Grant of rights clause covers all required elements. Plain-language summary at top. Editorial independence clause present. Producer guidance note identifies all customisation points. Compensation clearly stated as zero."
+    },
+    {
+      "id": "tc-02",
+      "description": "Location release for private property",
+      "input": {
+        "type": "Location release",
+        "project": "The Interior — short documentary",
+        "company": "Current Space Films",
+        "location": "Private residential property, owner present during filming",
+        "distribution": "Festival circuit, educational streaming",
+        "term": "In perpetuity",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17,
+      "notes": "Location release correctly differentiated from talent release. Property owner's rights vs tenant rights flagged in guidance note. Filming schedule provisions included."
+    },
+    {
+      "id": "tc-03",
+      "description": "Journalist interview release for magazine article",
+      "input": {
+        "type": "Interview subject release for journalism",
+        "project": "Feature article for a consumer magazine",
+        "company": "Magazine publisher name",
+        "subject": "Interview subject discussing professional life and personal experience",
+        "distribution": "Print magazine, digital edition, magazine website",
+        "term": "Indefinite for published work",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Magazine/journalism context correctly differentiated from film production context. Text/quote use vs image use distinction made. Social media reproduction rights for magazine included."
+    }
+  ],
+  "overall_mean": 4.28,
+  "passed": true
 }

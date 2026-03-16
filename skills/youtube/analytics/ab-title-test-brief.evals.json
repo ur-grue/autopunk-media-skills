@@ -1,5 +1,75 @@
 {
   "skill_name": "ab-title-test-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "topic": "Implementation intentions and procrastination — writing when/where/how increases follow-through 2-3x",
+        "working_title": "How to Stop Procrastinating on Deep Work",
+        "channel": "Productivity science, evidence-based work habits",
+        "top_performers": ["Why Your To-Do List Is Making You Less Productive", "The Science Behind Getting Things Done"]
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "5 variants are genuinely distinct. Each principle is clearly named. Testing hypothesis is specific and references channel's own performance history. Variant 3 curiosity gap is strong. Excellent output."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "topic": "Budget meal prep for college students — full week of meals for under $40",
+        "working_title": "How to Meal Prep on a Tight Budget",
+        "channel": "Budget cooking and student life",
+        "current_ctr": "3.1%",
+        "competitor_titles": ["$25 Meal Prep for the Week", "I Fed Myself for $5 a Day for a Month"]
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Competitor analysis correctly used to differentiate. Specific dollar amount ($40) correctly leveraged in multiple variants. All variants under 70 characters. Testing hypothesis references low current CTR and proposes a stronger specificity test."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "topic": "How to photograph the Milky Way from your backyard — no telescope needed",
+        "working_title": "Milky Way Photography Beginners Guide",
+        "channel": "Astrophotography for hobbyists",
+        "current_ctr": null,
+        "competitor_titles": null
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "No competitor data available. Output correctly uses the 'no telescope needed' detail (the key differentiator) as a variant anchor. Working title is generic — skill correctly identifies this as the primary weakness. Actionable variants generated. Passes threshold."
+    }
+  ]
 }
