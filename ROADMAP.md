@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 101 stable · 0 beta · 0 draft · 1 planned
+**Summary:** 102 stable · 0 beta · 0 draft · 0 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -37,7 +37,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | rough-cut-notes | Produce structured editorial notes from a rough cut description | ✅ stable (4.4/5) |
 | subtitles-rewriter | Reformat and tighten subtitle text for timing, readability, and clarity | ✅ stable (4.4/5) |
-| press-kit-generator | Generate a complete press kit from a documentary synopsis and key facts | 🔲 planned |
+| press-kit-generator | Generate a complete press kit from a documentary synopsis and key facts | ✅ stable (4.4/5) |
 
 ### localization
 | Skill | Description | Status |
