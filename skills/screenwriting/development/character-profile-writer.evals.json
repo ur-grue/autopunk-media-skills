@@ -1,5 +1,76 @@
 {
   "skill_name": "character-profile-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "role": "Protagonist — 44-year-old female detective, homicide investigator",
+        "genre": "Crime drama, grounded and procedural",
+        "external_goal": "Catch person responsible for staged suicides",
+        "surface_description": "Competent, respected, calm under pressure. Keeps everyone at arm's length.",
+        "tone": "The Wire, Mare of Easttown"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.83,
+      "notes": "Wound is specific and scene-ready. Want/need clearly distinct and in dramatic tension. Voice signature includes concrete micro-dialogue. Ghost is active. Arc differentiated clearly from starting point."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "role": "Antagonist — a mid-level pharmaceutical sales director who knowingly suppressed adverse trial data",
+        "genre": "Political thriller / corporate drama",
+        "external_goal": "Protect the drug launch and his own career",
+        "surface_description": "Charming, family man, coached his kid's soccer team for six years",
+        "tone": "Systemic villain, not a monster. References: Dopesick, Margin Call."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent handling of systemic antagonist without moralizing or flattening. Consistency docked: one biographical detail implied a specific corporate structure not present in the input."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "role": "Supporting character — protagonist's estranged adult daughter who resurfaces mid-story",
+        "genre": "Family drama",
+        "external_goal": "Get her mother to acknowledge what her childhood was actually like",
+        "surface_description": "Competent, contained, married with one child. Sounds like her mother.",
+        "relationship": "Mirror character to protagonist",
+        "tone": "Quiet, devastating. References: Ordinary People, We Need to Talk About Kevin."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Solid profile for a supporting character functioning as mirror. All five sections present and appropriately scaled. Voice signature micro-dialogue slightly generic. Ghost section felt more thematic than scene-ready."
+    }
+  ]
 }

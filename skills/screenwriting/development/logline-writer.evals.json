@@ -1,5 +1,72 @@
 {
   "skill_name": "logline-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "format": "Feature film",
+        "premise": "A hostage negotiator discovers mid-negotiation that her estranged teenage son is one of the hostages. The robber figures this out and uses it against her.",
+        "genre": "Thriller",
+        "tone": "Dog Day Afternoon meets Prisoners"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "All three variants under word limit. Dramatic and Ironic versions meaningfully different in approach. Diagnostic note names a specific missing stake element. Compressed variant usable verbally without modification."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "format": "TV pilot, 60-minute drama",
+        "premise": "A food inspector in a small coastal city discovers that the city's most beloved fishing family has been systematically dumping chemical waste offshore for thirty years — and that her own father was the inspector who signed off on it.",
+        "genre": "Environmental drama / family story",
+        "tone": "Slow burn, morally complex. References: Succession, Bloodline."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Excellent handling of the double betrayal (community and family). Ironic variant particularly strong. Consistency docked: the Compressed variant dropped the 'father' element, losing the personal stake that distinguishes the concept."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "format": "Feature film",
+        "premise": "A woman goes through her late husband's phone after the funeral and discovers he was living a completely parallel life — second apartment, second set of friends, possibly a second family — for at least six years.",
+        "genre": "Psychological drama / mystery",
+        "tone": "Quiet, unsettling. The investigation is the grief."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Handled the absent-antagonist (dead husband) constraint well. Diagnostic note correctly identified that external stakes are weak in this premise. All three variants within word limits. Coherence docked: Ironic variant read more as a tagline than a logline, losing the protagonist's active role."
+    }
+  ]
 }

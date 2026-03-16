@@ -1,5 +1,78 @@
 {
   "skill_name": "treatment-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "title": "COLD GROUND",
+        "format": "Feature film",
+        "protagonist": "Dr. Maren Voss, 41, grief counselor who hasn't processed her own husband's suicide",
+        "logline": "A grief counselor who has never confronted her own husband's suicide accepts a remote rural posting — and is assigned to the one widow who refuses to be treated.",
+        "act_structure": "Full three-act summary provided",
+        "tone": "Manchester by the Sea, Frozen River"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Present tense throughout. Title block correctly formatted. Character section specifies want and flaw for each major character. Story prose uses scene-level specificity at turning points. Theme paragraph makes a claim, does not recap plot. No new characters introduced in story section."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "title": "THE CORRESPONDENT",
+        "format": "TV pilot, 60 minutes",
+        "protagonist": "Foreign correspondent, 38, who spent 12 years covering conflicts and has just taken a staff desk job in a domestic newsroom",
+        "logline": "A war correspondent returned to civilian life discovers that the newsroom's quiet political battles are more dangerous — and more dishonest — than anything she covered abroad.",
+        "act_structure": "Act 1: First week at new desk. Act 2: Discovers a source suppression deal between the paper's owner and a government minister. Act 3: She files the story anyway knowing it will cost her the job.",
+        "tone": "Sharp, institutional, character-driven. References: The Newsroom (UK), Spotlight."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent adaptation to pilot format — correctly compressed Act 1 and expanded Act 2 pilot hook. Institutional dynamics rendered specifically. Consistency docked: a secondary character introduced in the Story section had not appeared in the Characters section."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "title": "FORTY BELOW",
+        "format": "Feature film",
+        "protagonist": "A Cree wildlife biologist fighting to block a pipeline reroute through critical caribou migration territory",
+        "logline": "A wildlife biologist has 90 days to prove her data is correct before a pipeline company breaks ground on land her nation has been trying to protect for twenty years.",
+        "act_structure": "Act 1: She submits her environmental impact findings; they are rejected. Act 2: She goes outside official process to build a public case. Act 3: She wins the scientific argument and loses the political one — but a junior minister abstains from the decisive vote.",
+        "tone": "Political drama. Grounded, non-romantic. References: Dark Waters, Erin Brockovich without the arc."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Handled political and procedural subject matter without oversimplifying. Theme paragraph correctly located the moral argument. Coherence docked: the Story section compressed Act 2 unevenly — the public campaign was summarized where it should have been specified. Fluency slightly lower due to one bureaucratic sentence structure in the government process passage."
+    }
+  ]
 }

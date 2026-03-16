@@ -1,5 +1,78 @@
 {
   "skill_name": "one-pager-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "title": "SHELF LIFE",
+        "format": "Feature film",
+        "writer": "Priya Khatri — debut feature, produced short films, line producer on three dramatic features",
+        "premise": "A supermarket shelf-stacker in her late thirties realizes during a single overnight shift that she has been sleepwalking through a life she chose entirely for other people.",
+        "act_structure": "Full three-act summary provided",
+        "tone_references": "Aftersun, Wendy and Lucy"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Logline under 40 words with all four elements. Synopsis stops before resolution. Comparables section distinguishes the project from both reference films specifically. Writer bio correctly scoped to this project. Document reads as single sales voice."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "title": "BREACH PROTOCOL",
+        "format": "Feature film",
+        "writer": "James Whitfield — two produced thriller shorts, optioned one prior screenplay",
+        "premise": "A cybersecurity consultant hired to stress-test a private hospital's systems discovers, mid-exercise, that someone else is already inside the network — and is shutting down life support systems one by one.",
+        "act_structure": "Act 1: hired, arrives, begins penetration test. Act 2: discovers real intruder, realizes staff think it's him. Act 3: has to stop the actual attack while appearing to be the attacker.",
+        "tone_references": "Die Hard, Hackers, but grounded — procedural thriller"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Excellent compression of commercial thriller premise. Comparables section correctly positioned the film as genre with a procedural distinction. Consistency docked: the story section introduced a named hospital administrator character not mentioned in the input."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "title": "SECOND FLOOR",
+        "format": "TV pilot, 30-minute drama-comedy",
+        "writer": "Anya Kowalski — staff writer on two broadcast comedies, debut drama project",
+        "premise": "Four residents of a social housing block share one broken elevator — and every argument about fixing it reveals something about who gets to decide what matters in a place where nobody feels heard.",
+        "act_structure": "Pilot: the elevator breaks, a residents meeting is called, nobody agrees on anything, and the youngest resident does something unilaterally that works but makes everyone else furious.",
+        "tone_references": "This Is England (series), Detectorists — ensemble, warm but honest"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Handled ensemble pilot without a single clear protagonist gracefully — correctly identified the youngest resident as the narrative drive character. Comparables section made a genuine distinction from both reference shows. Coherence docked: the Tone section ran slightly long for a one-pager, beginning to read as a vision statement rather than a sales pitch."
+    }
+  ]
 }
