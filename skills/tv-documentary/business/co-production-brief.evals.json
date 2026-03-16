@@ -1,5 +1,65 @@
 {
   "skill_name": "co-production-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "3-part series — Arctic fishing communities — Norway to Canadian broadcaster, majority/minority structure",
+      "input_summary": "Norwegian majority production, Canadian storyline in series, 20% co-pro ask, NRK and NFI already attached, specific rights and editorial terms provided",
+      "output_summary": "Brief explains Canadian story necessity (not just financing convenience), deal terms in bullet list, financing architecture shows gap clearly, closes with specific market meeting request",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "Single film — urban architecture — UK production approaching German broadcaster",
+      "input_summary": "90-min film, Berlin and London as dual focus cities, UK as majority producer, Channel 4 attached, approaching ARD/ZDF equivalent as minority partner",
+      "output_summary": "Brief leads with dual-city story structure to establish German relevance, editorial involvement offer limited to German content approval, rights split by territory",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Co-development brief — early-stage project, no financing yet, Australian producer approaching French partner",
+      "input_summary": "Project in concept stage, no financing in place, Australian/French historical story, seeking co-development partner before production deal",
+      "output_summary": "Brief clearly scoped to co-development (not production co-pro), honest about early stage, proposes joint development workshop and shared rights to be structured after development phase",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "Professionalism is the strongest dimension — the business-tone writing and deal-term formatting are appropriate for international co-production conversations. The skill correctly distinguishes between co-development and co-production stages when inputs are specific about the project's current stage."
 }

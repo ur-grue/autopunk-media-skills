@@ -1,5 +1,76 @@
 {
   "skill_name": "community-post-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.3,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.0,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "video_title": "The Honest Guide to Freelancing Full-Time in Year One",
+        "video_summary": "Financial and psychological reality of first year freelancing — what advice gets wrong, how to set rates, cash flow strategy",
+        "surprising_detail": "Most freelancers price too low and attract wrong clients, not too high",
+        "tone": "Direct, honest, slightly skeptical of hustle culture",
+        "post_type": "new upload"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Both options are distinct and in-voice. Option A narrative works well. Option B punchy is tighter. Poll options are specific and relevant. No boilerplate detected."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "video_title": "I Rewatched Every Episode of a Classic Sci-Fi Show So You Don't Have To",
+        "video_summary": "Deep-dive retrospective on a 90s sci-fi show — what holds up, what doesn't, and one episode that predicted something we're dealing with now",
+        "surprising_detail": "One episode from 1997 describes a social media dynamic almost exactly — written before the web was mainstream",
+        "tone": "Enthusiastic, nerdy, warm. Talks to fellow fans, not casual viewers",
+        "post_type": "new upload"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Surprising detail is handled exceptionally well — it becomes the hook for both options. Poll is well-matched to a fan community. Voice is warm and enthusiastic as requested."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "video_title": "How I Set Up My Small Apartment Gym for Under $400",
+        "video_summary": "Practical guide to building a usable home gym in a small space — equipment choices, layout strategies, what to skip",
+        "surprising_detail": null,
+        "tone": "Practical, direct, helpful. No hype",
+        "post_type": "tease (video not yet published)"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "No surprising detail provided — output is serviceable and on-topic but less distinctive than TC-001 and TC-002. Tease format handled correctly (no premature full video reference). Limitation confirmed: 'surprising detail' input significantly improves output quality."
+    }
+  ]
 }

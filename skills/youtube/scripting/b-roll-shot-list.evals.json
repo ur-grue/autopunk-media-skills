@@ -1,5 +1,73 @@
 {
   "skill_name": "b-roll-shot-list",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "topic": "Making and aging cultured butter at home",
+        "script_sections": ["Hook (VO)", "What is cultured butter", "The process", "Taste test", "Practical tips", "Outro"],
+        "environment": "Home kitchen, consumer gear",
+        "style": "Clean, natural light, artisan food aesthetic"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67,
+      "notes": "Shot descriptions are specific and filmable. Shoot Day Notes grouping is genuinely useful. Purpose notes add editorial value. Strong output."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "topic": "A day in the life of a remote software developer",
+        "script_sections": ["Morning setup and workspace", "First work block: deep focus", "Lunch break and movement", "Afternoon: meetings and async communication", "End of day shutdown ritual"],
+        "environment": "Home office, outdoor neighborhood, coffee shop",
+        "style": "Cinematic vlog, muted tones, handheld camera"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Good variety of interior and exterior shots. Screen recording sections correctly suggested as alternatives to B-roll. Actionable for a solo vlogger."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "topic": "How compound interest works and why starting early matters",
+        "script_sections": ["Hook: the $1 million question", "What compound interest actually is", "The math: two scenarios compared", "The three mistakes people make", "One thing to do this week"],
+        "environment": "Talking-head studio, cannot film financial locations",
+        "style": "Clean, professional, educational"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Abstract financial topic is the hardest case for this skill. Output correctly identifies screen recordings and graphics as primary visual tools. B-roll suggestions (hands typing, coffee cup, calendar) are workable but generic. Limitation noted in skill file — passes threshold."
+    }
+  ]
 }

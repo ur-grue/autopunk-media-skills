@@ -1,5 +1,65 @@
 {
   "skill_name": "one-sheet-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Art-house documentary — Sicilian salt harvester — IDFA/CPH:DOX/Hot Docs selections, award, two critical quotes",
+      "input_summary": "82-min film, 3 festival selections, 1 award, 2 critical quotes from named publications, Italian production, minimal-dialogue film",
+      "output_summary": "Clean one-page structure: tagline 'The last harvest.' captures subject and stakes in 3 words; film description distinguishes from generic landscape docs; festival block correctly leads with award; credits clean and complete",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.83
+    },
+    {
+      "id": "tc_002",
+      "description": "Investigative documentary — corporate malfeasance — no festival history yet, pre-release",
+      "input_summary": "75-min film, strong subject, no festival selections yet, strong critical position, seeking distributor before festival run",
+      "output_summary": "One-sheet with flagged note that pre-festival documents are weaker; description and tagline carry full weight; Claude flags that adding festival credits after first selection will significantly strengthen the document",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Sports documentary — marathon runner — broad theatrical/streaming audience, multiple awards, extensive festival history",
+      "input_summary": "90-min film, 8 festival selections, 3 awards, 4 critical quotes, US production, sales agent attached",
+      "output_summary": "Awards and selections prioritized intelligently (top-tier first), quotes curated down to 2 strongest, tagline skews emotional for broad audience rather than art-house register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.67,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Highest-scoring skill in the business batch. The structured one-sheet format is well-suited to Claude's output strengths. Tagline quality is the most variable element — depends on input richness. Actionability slightly lower because design execution is outside scope."
 }

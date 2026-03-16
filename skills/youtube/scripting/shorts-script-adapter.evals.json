@@ -1,5 +1,73 @@
 {
   "skill_name": "shorts-script-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "source": "Sleep inertia section from productivity video — 220 words of source material",
+        "core_point": "Don't do cognitively demanding work in the first 30 minutes after waking",
+        "target_length": "55 seconds",
+        "drive_to_full_video": true
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Hook lands in first 3 seconds. Fully self-contained. On-screen text suggestions are specific and usable. CTA is naturally placed."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "source": "Section from a personal finance video explaining why most people misunderstand compound interest — the difference between annual and daily compounding",
+        "core_point": "Daily compounding over 30 years makes a $50,000 difference on a $10,000 investment",
+        "target_length": "50 seconds",
+        "drive_to_full_video": false
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Stat-driven hook works well for Shorts format. Adaptation correctly drops the comparative setup from the long-form and leads with the surprise number. Self-contained and punchy."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "source": "Section from a video about urban foraging — how to identify safe edible plants versus toxic lookalikes, specifically covering elderflower vs hemlock identification",
+        "core_point": "One visual check that distinguishes elderflower from hemlock at a glance",
+        "target_length": "55 seconds",
+        "drive_to_full_video": true
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Good adaptation. The safety-critical nature of the topic is handled appropriately — Short correctly recommends additional research. On-screen text suggestions are strong for a visual identification topic. Actionable."
+    }
+  ]
 }

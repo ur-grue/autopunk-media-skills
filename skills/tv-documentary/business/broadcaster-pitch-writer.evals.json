@@ -1,5 +1,65 @@
 {
   "skill_name": "broadcaster-pitch-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Single documentary film — Cold War radio operators — European public broadcaster",
+      "input_summary": "75-min film, 3 elderly subjects, Cold War/technology angle, two comps provided, development stage, no financing",
+      "output_summary": "600-word pitch with logline, editorial hook citing infrastructure decommission timing, character descriptions, observational approach statement, accurate comps placement, production status block",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc_002",
+      "description": "4-part series — climate migration, Southeast Asia — SVOD platform",
+      "input_summary": "4x45min series, access to three communities in Philippines, Thailand, Indonesia, partial financing (one development grant), seeking streaming lead partner",
+      "output_summary": "Pitch adapts tone for SVOD (global audience framing, binge structure hinted), logline anchors on individual stories not geopolitics, production status shows existing support as credibility signal",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Single film — intimate portrait of a midwife — national public broadcaster, no comps provided",
+      "input_summary": "60-min film, one central character, character-driven rather than issue-driven, no comps given, broadcaster is generalist public channel",
+      "output_summary": "Claude generates two suggested comps with caveat to verify, pitch body foregrounds character intimacy as the editorial hook, avoids over-claiming social importance",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.33,
+    "fluency": 4.67,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "Fluency is the strongest dimension — prose pitch writing is a natural fit for this skill. Relevance and coherence are consistent. Actionability score reflects that the pitch document requires user personalization for specific broadcaster strands before submission."
 }

@@ -1,5 +1,76 @@
 {
   "skill_name": "niche-video-idea-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.5,
+    "fluency": 4.6,
+    "relevance": 4.4,
+    "professionalism": 4.3,
+    "actionability": 4.5
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "niche": "Fermentation and home food preservation",
+        "audience": "Adults 30-55, urban/suburban, interested in sustainability, intermediate skill level",
+        "example_videos": ["Why Your Sourdough Starter Dies Every Winter", "I Fermented Everything in My Fridge For a Month", "The $30 Fermentation Setup"],
+        "already_covered": ["Basic sauerkraut", "simple kimchi", "beginner sourdough"],
+        "preferred_formats": ["Tutorial", "experiment", "myth-busting"]
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.83,
+      "notes": "Ideas are well differentiated, span multiple formats, and titles reflect genuine search language. Strong."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "niche": "Budget travel in Southeast Asia",
+        "audience": "Solo travelers 22-35, first or second trip, comfortable with hostels, want authentic experiences over tourist traps",
+        "example_videos": ["$15/Day in Vietnam — Full Breakdown", "How I Crossed 6 Countries for Under $1000", "Hostels vs Guesthouses — Which Is Actually Better"],
+        "already_covered": ["Thailand packing list", "Bali on a budget", "Visa basics"],
+        "preferred_formats": ["Itinerary walkthroughs", "cost breakdowns", "comparison videos"]
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Good variety of formats and angles. Two ideas slightly too similar (both cost-breakdown adjacent). Actionable overall."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "niche": "Digital illustration for beginners — specifically Procreate on iPad",
+        "audience": "Adults who want to draw as a hobby, no formal art training, own an iPad but feel intimidated by the blank canvas",
+        "example_videos": ["I Drew for 30 Days Straight — Here's What Happened", "The 5 Procreate Brushes I Use for Everything", "Why Your Digital Art Looks Flat"],
+        "already_covered": ["Interface tour", "basic brush settings", "color theory intro"],
+        "preferred_formats": ["Tutorial", "challenge", "critique/before-after"]
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Solid output. Ideas are appropriate and actionable. A few titles lean generic — could be sharper. Passes threshold."
+    }
+  ]
 }

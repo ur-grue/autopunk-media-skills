@@ -1,5 +1,65 @@
 {
   "skill_name": "dubbing-script-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.5,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "European Spanish VO narration — fishing industry collapse, mixed timing constraints",
+      "input_summary": "3-line narration excerpt, off-screen VO, ES target, mixed timing (3–6 sec blocks), one over-long translation",
+      "output_summary": "Two-column adapted script with syllable counts, one flagged line (NR_02 addition removed), prose summary",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc_002",
+      "description": "Brazilian Portuguese — nature documentary, tight 2-second blocks with on-screen narrator",
+      "input_summary": "4-line script, narrator visible on screen, PT-BR target, very short blocks (2.0–2.5 sec), source translation systematically 20% over",
+      "output_summary": "Aggressive contraction of all 4 lines, 3 flagged for semantic trimming, note about plosive avoidance at visible mouth-close moments",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "German — historical documentary, compound-noun-heavy, 5–8 second blocks",
+      "input_summary": "5-line script, DE target, long blocks, German compound terminology that cannot be contracted; one block requires content decision by producer",
+      "output_summary": "3 lines adapted cleanly, 2 flagged with [TIMING NOTE] citing compound-noun constraint, summary recommends producer decision on flagged lines before recording",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.67,
+    "consistency": 4.33,
+    "fluency": 4.33,
+    "relevance": 4.67,
+    "professionalism": 4.67,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.5,
+  "pass": true,
+  "notes": "Strong performance across all dimensions. Professionalism and relevance highest — the two-column format with syllable counts is immediately usable by a dubbing editor. Fluency score reflects that adapted target-language lines cannot be fully verified by an English-only evaluator; real-world use requires native-speaker review."
 }

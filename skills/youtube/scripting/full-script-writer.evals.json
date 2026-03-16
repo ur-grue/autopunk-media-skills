@@ -1,5 +1,76 @@
 {
   "skill_name": "full-script-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "title": "Why Your Morning Routine Isn't Working (And What to Do Instead)",
+        "angle": "Most morning routine advice optimizes for discipline, not energy — that's why it fails",
+        "talking_points": ["Discipline-based routines burn out", "Energy vs time management", "3 questions to audit your morning", "Realistic 20-minute morning", "Consistency beats optimization"],
+        "target_length": "9-10 minutes",
+        "tone": "Thoughtful, slightly skeptical of productivity culture, grounded"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Script flows naturally, hook is strong, transitions work well. Voice is consistent throughout. CTA is organic. Excellent first draft quality."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "title": "The Best Free Tools for Video Editors in 2026",
+        "angle": "Paid software gets all the attention but the free tools have caught up in most workflows",
+        "talking_points": ["Color grading: DaVinci Resolve free tier", "Audio cleanup: Audacity plugins", "Motion graphics: Canva + CapCut for creators on a budget", "File management: free asset library workflows", "When free tools break down and you actually need paid"],
+        "target_length": "11-12 minutes",
+        "tone": "Practical, no-nonsense, slightly irreverent. Respects the viewer's time."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33,
+      "notes": "Good structure and pacing. One section (file management) felt slightly padded. Voice is consistent. Actionable and well-calibrated to length."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "title": "I Tested 6 Budget Mechanical Keyboards — Here's the Honest Ranking",
+        "angle": "The sub-$100 mechanical keyboard market is genuinely good now, but the differences matter",
+        "talking_points": ["Test criteria explained upfront", "Rankings 6 to 4 with brief reasoning", "The top 3 in detail: typing feel, build quality, software", "Who each top pick is actually for", "The one you should avoid despite the hype"],
+        "target_length": "8 minutes",
+        "tone": "Enthusiast but accessible — written for someone who wants a good keyboard, not a keyboard collector"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Solid draft. Test criteria section slightly generic without specific product names to anchor it. For review-format videos, this skill works best when specific product names are provided. Passes threshold."
+    }
+  ]
 }
