@@ -1,5 +1,58 @@
 {
   "skill_name": "newsletter-teaser-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Article: Profile of a surgeon who left a high-paying hospital job to practice in a rural area for a fraction of the pay. Headline: 'The Doctor Who Chose Somewhere Else'. Newsletter tone: Literary, personal essays and narrative journalism audience.",
+      "output_summary": "Generated 3 subject lines including 'The surgeon who walked away' (curiosity), 'He left a $500k job for a town of 3,000' (direct), and 'Why a surgeon gave it all up' (question frame). Preview text: 'A choice that makes sense once you know the whole story.' Teaser body 95 words, correctly withheld the payoff, opened with a specific scene from the piece. Tone matched the literary register throughout. Link cue clean.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Article: Data investigation showing which cities have the highest proportion of empty office buildings post-pandemic, and what municipalities plan to do with them. Headline: 'Dead Floors'. Newsletter tone: Punchy, policy-adjacent, urban affairs audience.",
+      "output_summary": "Generated 3 subject lines including 'The empty floors problem' (direct), 'What happens to a city with 30% office vacancy?' (question), and 'Downtown is emptying out. Cities are figuring it out.' (descriptive). Preview text under 80 characters. Teaser body correctly led with a specific statistic from the article rather than a generic setup. Punchy tone maintained. One subject line was 58 characters — slightly over optimal but acceptable.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Article: Review and buying guide for consumer noise-cancelling headphones. Newsletter tone: Consumer tech, casual, product-focused audience. Paywall note requested.",
+      "output_summary": "Generated 3 subject lines appropriate for consumer tech register. Teaser body correctly framed as a recommendation guide without giving away the winner. Paywall note added in teaser body as instructed. Link cue clean. Tone was appropriately casual and consumer-friendly. One subject line slightly generic for a competitive tech newsletter space — could have been more specific about what differentiates this guide.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

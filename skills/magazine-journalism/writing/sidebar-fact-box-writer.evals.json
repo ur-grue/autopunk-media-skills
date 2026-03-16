@@ -1,5 +1,58 @@
 {
   "skill_name": "sidebar-fact-box-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.3,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Article: Feature on the history and global reach of franchising as a business model. Sidebar type: Timeline — key milestones in franchising history. Facts provided in article text. Publication: Business magazine. ~120 word limit.",
+      "output_summary": "Generated a clean 6-item timeline from 1850s (Singer sewing machines, the first franchise model) to present day. Dates and events drawn from provided article text only. Title: 'How Franchising Spread: A Timeline.' Items parallel in structure. Source line included. Under 120 words. No item duplicated main article content. Correctly formatted for print sidebar.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Article: Investigation into wildfire smoke health impacts in Western cities. Sidebar type: Key Terms — glossary of medical and environmental terms used in the article (PM2.5, AQI, bronchial inflammation, inversion layer). Publication: General interest newspaper. Plain language required.",
+      "output_summary": "Generated 4-item glossary with definitions in plain language accessible to general readers. Each definition self-contained. No technical jargon in the definitions themselves. Title: 'Terms to Know.' Source line attributed to EPA and WHO definitions. One definition (inversion layer) was slightly more technical than the plain language directive required — minor flag but within acceptable range.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Article: Profile of a record-breaking mountain climber preparing for a solo summit attempt. Sidebar type: By the Numbers — key statistics about the mountain and the attempt. Facts provided. Publication: Adventure/outdoor magazine. 100 word limit.",
+      "output_summary": "Generated a 6-item By the Numbers panel with facts drawn from provided article. Title: 'The Climb, in Numbers.' Items included elevation, temperature range, prior solo attempts on the route, estimated duration, equipment weight, and altitude acclimatization days required. All items parallel. Under 100 words. Source line included. Register appropriately punchy for adventure publication. All facts traceable to the provided article input.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }

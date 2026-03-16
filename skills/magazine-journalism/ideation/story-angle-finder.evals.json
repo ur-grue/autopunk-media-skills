@@ -1,5 +1,58 @@
 {
   "skill_name": "story-angle-finder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Topic: Rising use of AI tools by lawyers to draft legal documents. Publication: General-interest national magazine. No angle restrictions.",
+      "output_summary": "Generated 7 distinct angles including: the malpractice risk story (what happens when AI drafts go wrong), the access-to-justice angle (AI making legal help available to people who can't afford lawyers), a profile of a solo practitioner using AI daily, the bar association rulemaking angle, and a counterintuitive take on paralegals thriving despite AI. Each angle had specific reporting approach, pitch line, and timeframe. No angle repeated another's core question.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Topic: Youth soccer participation declining in the United States. Publication: Sports magazine. Avoid: any angle focused on cost as the sole explanation.",
+      "output_summary": "Generated 7 angles including: the travel soccer club pipeline that pushes kids out early, the demographic shift in which sports kids choose, a coach shortage angle, the immigrant community angle (soccer as cultural identity vs. participation decline), and a counterintuitive 'adult recreational leagues growing' take. Correctly avoided the cost-only explanation. Pitch lines specific and ready to use. One angle (the statistical data angle) had a slightly generic reporting approach.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Topic: Traditional textile crafts in rural communities under economic pressure. Publication: Literary/cultural magazine. Evergreen focus. Long-form preferred.",
+      "output_summary": "Generated 6 angles including: the inheritance story (who will learn these skills), a single-subject profile of a master craftsperson, the globalization pricing angle, a counterintuitive story about young urban artisans reviving traditions, and a philosophical/essay angle on craft as embodied knowledge. All angles suited to literary long-form. Pitch lines appropriately literary in register. The data/economic angle was less developed than others given the literary publication context — a reasonable limitation.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

@@ -1,5 +1,58 @@
 {
   "skill_name": "social-media-excerpt",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Article excerpt from an investigation into how long-haul trucking companies underpay drivers through lease-to-own equipment deals. Strong quotes available. Platforms: X/Twitter and LinkedIn. Publication handle provided. No paywall.",
+      "output_summary": "Selected the strongest quote from a driver: 'After two years, I owed the company more than when I started.' X post worked as a standalone 240-character tweet. LinkedIn version correctly added labor/business context before the quote. Attribution clean. No paraphrase added to the excerpt — preserved journalism voice. Posts did not oversell beyond the article's claims.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Article: Long-form essay on the decline of the family dinner as a social institution. No data, no quotes — primarily argumentative/essayistic. Platforms: Instagram and LinkedIn.",
+      "output_summary": "Correctly identified that without quotes or statistics, the most shareable element was the essay's central thesis statement. Instagram quote card was a clean distillation of the argument. LinkedIn framing added sociological context. One quote card selection was slightly long for the 200-character guideline (218 characters) — minor flag. Caption on Instagram appropriately conversational. Did not fabricate a quote or statistic.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Article: Short news report (300 words) on a city council vote approving a new transit line. Minimal narrative, mostly factual. Platforms: X/Twitter only. No paywall.",
+      "output_summary": "Correctly identified this as thin source material for social excerpting. Generated a clean X post from the lead statistic. Flagged in usage note that the article lacks strong narrative hooks for social and suggested the journalist add a reaction quote if one becomes available. Did not fabricate content. Post was accurate to the article. Practical limitation honestly noted.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }

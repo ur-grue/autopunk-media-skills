@@ -1,5 +1,58 @@
 {
   "skill_name": "headline-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Article: Investigation into why emergency rooms in mid-sized cities are closing at night, leaving rural patients with no acute care within 60 miles. Publication: National newspaper (NYT/WaPo register). Dek needed. No character limit.",
+      "output_summary": "Generated 8 headlines across direct, analytical, and provocative registers. Best options: 'When the ER Closes at Midnight' (literary, print), 'America's Disappearing Emergency Rooms' (SEO, digital), 'The Night Shift Nobody's Covering' (punchy). All deks added accurate context without fabricating statistics. Correctly flagged print vs. digital distinctions in annotations.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Article: Profile of a professional competitive eater who is also a registered dietitian. Publication: Lifestyle magazine (GQ/Esquire register). Wry tone requested. Dek needed.",
+      "output_summary": "Generated 7 headlines with appropriate wry register. Best: 'The Dietitian Who Eats for a Living (All of It)', 'A Professional Contradiction', 'He Knows What He's Doing to Himself'. Deks well-matched to each headline's tone. One headline was slightly too earnest for the requested wry register — minor mismatch. Cover-length options included.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-003",
+      "input": "Article: Trade press piece about how logistics software startups are winning contracts away from legacy enterprise vendors in freight forwarding. Publication: B2B logistics trade magazine. Neutral/authoritative tone. SEO priority.",
+      "output_summary": "Generated 6 headlines calibrated to trade press register. Correctly led with industry-specific vocabulary ('freight forwarding software', 'logistics tech'). SEO-aware options front-loaded keywords. Literary/punchy options correctly flagged as secondary for this audience. Deks accurate and informative. One dek slightly too long for trade press convention.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }
