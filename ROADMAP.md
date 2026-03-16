@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 82 stable · 0 beta · 0 draft · 20 planned
+**Summary:** 98 stable · 0 beta · 0 draft · 4 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -27,15 +27,15 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### scripting
 | Skill | Description | Status |
 |-------|-------------|--------|
-| scene-breakdown-writer | Break a documentary sequence into a detailed scene-by-scene breakdown | 🔲 planned |
-| commentary-writer | Write narration or commentary for a sequence given picture and research | 🔲 planned |
+| scene-breakdown-writer | Break a documentary sequence into a detailed scene-by-scene breakdown | ✅ stable (4.4/5) |
+| commentary-writer | Write narration or commentary for a sequence given picture and research | ✅ stable (4.5/5) |
 | interview-question-generator | Generate a targeted interview question set for a specific subject and angle | ✅ stable (4.5/5) |
-| narrator-voice-adapter | Rewrite narration to match a defined presenter or narrator voice | 🔲 planned |
+| narrator-voice-adapter | Rewrite narration to match a defined presenter or narrator voice | ✅ stable (4.4/5) |
 
 ### post-production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| rough-cut-notes | Produce structured editorial notes from a rough cut description | 🔲 planned |
+| rough-cut-notes | Produce structured editorial notes from a rough cut description | ✅ stable (4.4/5) |
 | subtitles-rewriter | Reformat and tighten subtitle text for timing, readability, and clarity | 🔲 planned |
 | press-kit-generator | Generate a complete press kit from a documentary synopsis and key facts | 🔲 planned |
 
@@ -75,9 +75,9 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### editing
 | Skill | Description | Status |
 |-------|-------------|--------|
-| copy-editor-assistant | Flag grammatical, style, and consistency issues with suggested corrections | 🔲 planned |
-| fact-check-prompt | Generate a systematic fact-checking checklist for a draft article | 🔲 planned |
-| house-style-enforcer | Review copy against a defined house style guide and flag all deviations | 🔲 planned |
+| copy-editor-assistant | Flag grammatical, style, and consistency issues with suggested corrections | ✅ stable (4.5/5) |
+| fact-check-prompt | Generate a systematic fact-checking checklist for a draft article | ✅ stable (4.4/5) |
+| house-style-enforcer | Review copy against a defined house style guide and flag all deviations | ✅ stable (4.4/5) |
 
 ### investigation
 | Skill | Description | Status |
@@ -204,14 +204,14 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### art-direction
 | Skill | Description | Status |
 |-------|-------------|--------|
-| mood-board-brief | Write a structured mood board brief for a visual project | 🔲 planned |
-| color-palette-brief | Generate a detailed color palette brief with rationale for a visual identity | 🔲 planned |
-| visual-identity-prompt | Write a comprehensive visual identity prompt for a show, channel, or publication | 🔲 planned |
+| mood-board-brief | Write a structured mood board brief for a visual project | ✅ stable (4.5/5) |
+| color-palette-brief | Generate a detailed color palette brief with rationale for a visual identity | ✅ stable (4.4/5) |
+| visual-identity-prompt | Write a comprehensive visual identity prompt for a show, channel, or publication | ✅ stable (4.4/5) |
 
 ### workflows
 | Skill | Description | Status |
 |-------|-------------|--------|
-| cover-image-pipeline | Generate a complete set of prompts for a cover image across multiple formats | 🔲 planned |
+| cover-image-pipeline | Generate a complete set of prompts for a cover image across multiple formats | ✅ stable (4.4/5) |
 | social-media-visual-batch | Produce a batch of coordinated image prompts for a social media campaign | 🔲 planned |
 
 ---
@@ -256,12 +256,12 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | caption-writer | Write platform-optimised captions for Instagram, LinkedIn, TikTok, or Twitter | ✅ stable (4.4/5) |
 | thread-writer | Write a structured Twitter/X thread expanding on a media story or argument | ✅ stable (4.4/5) |
-| carousel-script-writer | Write copy for a multi-slide Instagram or LinkedIn carousel post | 🔲 planned |
-| short-form-video-brief | Write a brief for a 15–60 second short-form video for TikTok, Reels, or Shorts | 🔲 planned |
+| carousel-script-writer | Write copy for a multi-slide Instagram or LinkedIn carousel post | ✅ stable (4.4/5) |
+| short-form-video-brief | Write a brief for a 15–60 second short-form video for TikTok, Reels, or Shorts | ✅ stable (4.4/5) |
 
 ### strategy
 | Skill | Description | Status |
 |-------|-------------|--------|
-| platform-strategy-brief | Write a platform strategy brief for a media brand on a specific social platform | 🔲 planned |
-| hashtag-strategy-writer | Generate a tiered hashtag strategy with niche, mid-range, and broad tags | 🔲 planned |
-| cross-promotion-pitch | Write a cross-promotion pitch to another creator proposing a collaborative swap | 🔲 planned |
+| platform-strategy-brief | Write a platform strategy brief for a media brand on a specific social platform | ✅ stable (4.3/5) |
+| hashtag-strategy-writer | Generate a tiered hashtag strategy with niche, mid-range, and broad tags | ✅ stable (4.3/5) |
+| cross-promotion-pitch | Write a cross-promotion pitch to another creator proposing a collaborative swap | ✅ stable (4.4/5) |
