@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 98 stable · 0 beta · 0 draft · 4 planned
+**Summary:** 101 stable · 0 beta · 0 draft · 1 planned
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -36,7 +36,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | rough-cut-notes | Produce structured editorial notes from a rough cut description | ✅ stable (4.4/5) |
-| subtitles-rewriter | Reformat and tighten subtitle text for timing, readability, and clarity | 🔲 planned |
+| subtitles-rewriter | Reformat and tighten subtitle text for timing, readability, and clarity | ✅ stable (4.4/5) |
 | press-kit-generator | Generate a complete press kit from a documentary synopsis and key facts | 🔲 planned |
 
 ### localization
@@ -62,7 +62,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | story-angle-finder | Generate multiple story angles from a broad topic or news event | ✅ stable (4.5/5) |
 | headline-generator | Write a range of headline options across different registers and lengths | ✅ stable (4.5/5) |
-| research-brief-creator | Produce a structured research brief for a reporter starting a new story | 🔲 planned |
+| research-brief-creator | Produce a structured research brief for a reporter starting a new story | ✅ stable (4.5/5) |
 
 ### writing
 | Skill | Description | Status |
@@ -212,7 +212,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | Skill | Description | Status |
 |-------|-------------|--------|
 | cover-image-pipeline | Generate a complete set of prompts for a cover image across multiple formats | ✅ stable (4.4/5) |
-| social-media-visual-batch | Produce a batch of coordinated image prompts for a social media campaign | 🔲 planned |
+| social-media-visual-batch | Produce a batch of coordinated image prompts for a social media campaign | ✅ stable (4.4/5) |
 
 ---
 
