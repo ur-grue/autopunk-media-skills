@@ -1,5 +1,78 @@
 {
   "skill_name": "edition-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 5.0,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "Shelf Life",
+        "voice": "Thoughtful, melancholy, literary — like a letter from a well-read friend in publishing",
+        "main_story": "Publishers quietly cancelling debut novels post-acquisition due to social media controversies; agents advising authors to scrub online histories before querying",
+        "links": 3,
+        "word_count_target": "~800 words"
+      },
+      "output_summary": "Complete 4-section edition: literary opening hook, 550-word essay with clear argument about self-censorship in submissions, three link commentaries with editorial perspective, personal sign-off. Consistent melancholy literary register throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.83
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "The Policy Stack",
+        "voice": "Precise, analytical, non-partisan. Written for policy professionals and political journalists. No hedging, no drama.",
+        "main_story": "A newly published analysis showing that four major infrastructure bills passed in the last three years contain conflicting regulatory frameworks that will create enforcement gaps. Specifically: two bills passed by different administrations each designated different agencies as lead regulator for the same class of infrastructure asset.",
+        "links": 4,
+        "word_count_target": "700-900 words",
+        "structure": "No opening hook section — start directly with the main piece. Use subheadings."
+      },
+      "output_summary": "Direct-entry essay with three subheadings, precise analytical register, no emotional framing. Identifies the specific regulatory conflict, explains enforcement implications, contextualises within broader legislative pattern. Four link commentaries are dry and evaluative. Closing is minimal and policy-forward.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Night Market",
+        "voice": "Energetic, scene-focused, first-person. Covers independent food and hospitality businesses. Readers are chefs, restaurateurs, and serious food media people. Tone is like talking to a chef after service.",
+        "main_story": "The rise of private-hire dinner experiences — restaurants operating one-night-only invitation-only dinners at undisclosed locations as a separate revenue stream from their main business. Three operators interviewed. Revenue figures provided.",
+        "links": 2,
+        "word_count_target": "600-700 words",
+        "recurring_signoff": "Eat well."
+      },
+      "output_summary": "High-energy opening that drops into scene immediately. Main feature uses reported quotes and revenue data. Conversational register maintained; no hedging. Two link commentaries feel like word-of-mouth recommendations. Sign-off lands 'Eat well.' naturally.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ]
 }

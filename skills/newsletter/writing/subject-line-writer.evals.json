@@ -1,5 +1,77 @@
 {
   "skill_name": "subject-line-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.5,
+    "fluency": 4.7,
+    "relevance": 4.5,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Friction Report",
+        "tone": "Sharp, data-driven, slightly sardonic",
+        "audience": "Product managers and UX professionals",
+        "edition_summary": "New research showing progress bars increase cart abandonment in subscription box checkouts by 14%, contradicting conventional UX wisdom.",
+        "emoji_allowed": false
+      },
+      "output_summary": "Five subject lines covering direct value, contrarian, personal relevance, credibility-forward, and curiosity gap approaches. Each under 55 characters. Preview text appended.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Climate Brief",
+        "tone": "Urgent, accessible, non-partisan",
+        "audience": "General readers interested in climate science",
+        "edition_summary": "Coverage of a leaked internal memo from a major shipping federation outlining plans to delay decarbonisation commitments by 10 years despite public pledges. Also covers a new offshore wind financing model being piloted in three countries.",
+        "emoji_allowed": true
+      },
+      "output_summary": "Five options including an exclusivity angle on the leaked memo, a direct consequence frame, a personal stake line, an urgency line with light emoji, and a question-based curiosity gap. Preview text included.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Independent Bookseller Weekly",
+        "tone": "Warm, community-focused, practical",
+        "audience": "Independent bookshop owners and buyers",
+        "edition_summary": "How one shop doubled its events revenue by switching to structured reader discussion nights. Plus: a new wholesale pricing model three publishers are testing with independent retailers.",
+        "emoji_allowed": false,
+        "previous_high_performer": "The event format that actually fills seats"
+      },
+      "output_summary": "Five options: a specificity line on doubling revenue, a 'steal this idea' frame, a direct utility line about the discussion night format, a credibility line on the pricing model, and a mild curiosity gap. All warm in register. Preview text included.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.67
+    }
+  ]
 }

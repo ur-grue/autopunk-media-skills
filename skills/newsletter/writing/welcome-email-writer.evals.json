@@ -1,5 +1,78 @@
 {
   "skill_name": "welcome-email-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Long View",
+        "description": "Weekly essay newsletter covering economic history and what past crises teach us about the present",
+        "cadence": "Weekly, Sunday mornings",
+        "voice": "Calm, authoritative, slightly contrarian. Former economic historian, left academia.",
+        "cta": "Reply with what you want to understand better"
+      },
+      "output_summary": "200-word welcome email opening with a hook that subverts the expected 'Welcome!' opener. Specific editorial promise (1,200-1,800 word essays, primary sources), clear cadence, archive link, single reply CTA, Gmail whitelist postscript. Signed personally.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Futures Dispatch",
+        "description": "Biweekly newsletter about emerging technology policy — AI regulation, data rights, platform governance — for policy professionals and tech journalists",
+        "cadence": "Every other Wednesday",
+        "voice": "Precise, neutral, rigorous. Never breathless. References primary sources.",
+        "cta": "Whitelist and save to a reading folder",
+        "paid_tier": "Paid subscribers get a Friday briefing with primary source links and an annotated policy document"
+      },
+      "output_summary": "Welcome email opens with a clear framing of what 'Futures Dispatch' is not (punditry, reaction takes) before stating what it is. Introduces free/paid distinction without hard-selling. Whitelist instructions included. Precise professional register throughout. Subject line included.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Good Soil",
+        "description": "Weekly newsletter for small-scale farmers and market gardeners — practical growing advice, crop economics, and stories from people farming under 5 acres",
+        "cadence": "Every Thursday morning",
+        "voice": "Practical, direct, unpretentious. Occasional dry humor. Reads like advice from someone who's made all the mistakes.",
+        "cta": "Reply with your biggest current growing challenge",
+        "personal_origin": "Started after the writer's first full season farming and realising most advice online was for large commercial operations"
+      },
+      "output_summary": "Welcome email opens with a grounded personal note about why the newsletter exists, uses 'you' throughout to address small farmers directly, editorial promise is practical ('what to plant, when to sell, what not to bother with'), strong reply CTA with specific prompt. Conversational and unpretentious throughout.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ]
 }

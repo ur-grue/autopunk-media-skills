@@ -1,5 +1,85 @@
 {
   "skill_name": "landing-page-copy-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Long View",
+        "description": "Weekly essays on economic history for finance professionals and policy people",
+        "cadence": "One essay, Sunday morning",
+        "tone": "Calm, authoritative, slightly contrarian",
+        "subscriber_count": 9400,
+        "open_rate": "51%",
+        "best_edition": "The 1970s Inflation We're Not Supposed to Remember",
+        "testimonial": "The only newsletter I read the same day it arrives. — Senior economist"
+      },
+      "output_summary": "Full page copy: two headline options (benefit-led, not brand-led), specific subheadline, two-sentence value proposition with genuine differentiator, social proof with real numbers and job-title testimonial, four-bullet what-to-expect section, three CTA button options. 350 words total. No hype language.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Night Market",
+        "description": "Weekly newsletter for independent food and hospitality professionals — crop economics, supplier relationships, revenue models",
+        "cadence": "Every Thursday",
+        "tone": "Direct, energetic, like advice from someone who has made all the mistakes",
+        "subscriber_count": 2100,
+        "open_rate": "44%",
+        "no_testimonials": true,
+        "best_edition": "How one restaurant doubled event revenue by switching to structured reader dinners"
+      },
+      "output_summary": "Two headline options using restaurant-owner language. Value prop distinguishes from general food media. Social proof section honest about no testimonials, suggests what to gather. What-to-expect section has practical specificity about the type of content. CTA options all specific to action.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Carbon Ledger",
+        "description": "Biweekly deep-dives on corporate climate accounting — ESG reporting standards, greenwashing cases, and regulatory changes — for sustainability professionals and financial analysts",
+        "cadence": "Every other Tuesday",
+        "tone": "Methodical, precise, no advocacy",
+        "subscriber_count": 560,
+        "open_rate": "38%",
+        "paid_tier": "Paid subscribers get access to a quarterly database of corporate emissions discrepancy cases",
+        "incentive": "Free sample report on ESG reporting divergence for new subscribers"
+      },
+      "output_summary": "Headlines lead with professional value for compliance/analyst audience. Value prop clearly differentiates from ESG-cheerleader newsletters. Free sample report prominently featured. Paid tier described concisely without hard sell. What-to-expect section focused on professional use cases. Social proof honest about smaller list size with strong open rate framing.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ]
 }

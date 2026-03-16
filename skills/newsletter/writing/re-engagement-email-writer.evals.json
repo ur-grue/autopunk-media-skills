@@ -1,5 +1,83 @@
 {
   "skill_name": "re-engagement-email-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Friction Report",
+        "description": "Data-driven UX and product management analysis",
+        "inactive_threshold": "90 days",
+        "voice": "Sharp, sardonic, evidence-based",
+        "recent_standout": "Progress bar / 14% abandonment finding",
+        "sequence": "2 emails",
+        "consequence": "Removal after Email 2"
+      },
+      "output_summary": "Two-email sequence. Email 1 (220 words): direct subject line 'You haven't opened this in 90 days', no guilt framing, specific edition reference with data point, single CTA, graceful unsubscribe mention. Email 2 (100 words): short final notice, single CTA, no passive aggression. Both sharply voiced.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Good Soil",
+        "description": "Practical farming newsletter for small-scale growers",
+        "inactive_threshold": "60 days",
+        "voice": "Practical, direct, dry humour",
+        "recent_standout": "A piece on winter soil amendment timing that generated 40 replies",
+        "sequence": "Single email",
+        "consequence": "No hard list clean, just checking in"
+      },
+      "output_summary": "Single email (175 words) with unpretentious subject line 'Still farming?', opens with direct acknowledgment without drama, references specific winter soil edition with a reason it matters, single re-engagement CTA, low-pressure tone. Reads naturally for the audience.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Futures Dispatch",
+        "description": "Technology policy newsletter for policy professionals and tech journalists",
+        "inactive_threshold": "120 days",
+        "voice": "Precise, neutral, rigorous",
+        "recent_standout": "Annotated breakdown of a major AI liability framework",
+        "sequence": "2 emails",
+        "newsletter_changes": "Added a Friday primary-source briefing for paid subscribers since most of these subscribers joined",
+        "consequence": "List removal after Email 2"
+      },
+      "output_summary": "Two-email sequence in precise neutral register. Email 1 leads with what has changed since subscriber joined (new paid Friday briefing) before re-engagement ask. References specific AI liability piece. Subject line is factual not emotional. Email 2 is clean and administratively framed. Both maintain professional tone throughout.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ]
 }

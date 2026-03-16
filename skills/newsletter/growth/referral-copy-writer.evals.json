@@ -1,5 +1,77 @@
 {
   "skill_name": "referral-copy-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "input": {
+        "newsletter": "The Friction Report",
+        "voice": "Sharp, sardonic, data-driven. Product managers and UX professionals.",
+        "referral_programme": true,
+        "rewards": "3 referrals = monthly live data teardown; 10 referrals = one-year paid subscription",
+        "subscriber_profile": "Mid-to-senior product managers and UX leads at tech companies and agencies"
+      },
+      "output_summary": "130-word referral section. Opens with voice-appropriate description of ideal recipient (colleague who over-cites Nielsen Norman). Rewards presented as clean two-line summary. Pre-written share copy is sardonic and sounds like something a product manager would actually send. Referral link placeholder clearly labelled.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc-02",
+      "input": {
+        "newsletter": "Shelf Life",
+        "voice": "Thoughtful, melancholy, literary. Serious book people.",
+        "referral_programme": false,
+        "organic_ask": true,
+        "subscriber_profile": "People who work in or around publishing, or read seriously"
+      },
+      "output_summary": "100-word organic sharing section. No reward framing. Ask is specific: 'someone who notices when a novel's sentences are doing something unusual'. Pre-written share copy reads like a genuine recommendation, not a marketing blurb. Low-pressure close. Tone maintains the newsletter's literary register throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc-03",
+      "input": {
+        "newsletter": "Carbon Ledger",
+        "voice": "Methodical, precise, no advocacy. Sustainability professionals and financial analysts.",
+        "referral_programme": true,
+        "rewards": "5 referrals = quarterly emissions-discrepancy database access; 15 referrals = annual paid subscription",
+        "subscriber_profile": "ESG analysts, sustainability officers, climate journalists",
+        "referral_link_format": "[REFERRAL LINK]"
+      },
+      "output_summary": "160-word section. No hype language. Ideal recipient described in precise professional terms ('a colleague trying to reconcile contradictory ESG disclosures'). Rewards presented as simple two-tier structure. Pre-written share copy is factual and professional — reads like a genuine analyst recommendation. Referral link placeholder included.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    }
+  ]
 }
