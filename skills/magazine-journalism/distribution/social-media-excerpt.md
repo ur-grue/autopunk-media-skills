@@ -30,9 +30,10 @@ Extracts and reformats the most shareable passage or argument from a published a
 4. For LinkedIn: a slightly longer, context-setting frame before the excerpt, closing with a professional takeaway
 5. For Instagram: a quote-card format with a caption that extends the thought
 6. Preserves the article's voice — these posts should read like the journalism, not like promotional copy for it
+7. Closes with a "Next Step" note: which post to publish first, whether to schedule the thread or post all platforms simultaneously, and whether thumbnail-concept-brief should be run to create a matching visual asset for the Instagram quote card
 
 ## Output Format
-Platform-by-platform blocks, clearly labeled. Each block contains the post copy, character count note, and one-line usage guidance. Quote-card text (for Instagram) is clearly separated from caption. Total length: 350–500 words depending on platforms requested. Plain text throughout — no HTML.
+Platform-by-platform blocks, clearly labeled. Each block contains the post copy, character count note, and one-line usage guidance. Quote-card text (for Instagram) is clearly separated from caption. Total length: 350–500 words depending on platforms requested. Plain text throughout — no HTML. Output ends with a "Next Step" note: which platform to post to first, whether to run posts simultaneously or stagger them, and whether to use thumbnail-concept-brief to create the Instagram visual.
 
 ## Quality Criteria
 - [ ] Every excerpt is drawn from the actual article — no paraphrase or editorial addition that is not in the piece
@@ -41,6 +42,7 @@ Platform-by-platform blocks, clearly labeled. Each block contains the post copy,
 - [ ] Instagram quote-card text is under 200 characters (legible at thumbnail size)
 - [ ] No post oversells or exaggerates the article's claims beyond what the text supports
 - [ ] Attribution format is consistent with the platform convention
+- [ ] Output includes at least one concrete next action the user can take immediately (post to first platform, schedule the thread, or run thumbnail-concept-brief for the Instagram visual)
 
 ## Example
 

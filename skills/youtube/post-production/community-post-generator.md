@@ -27,13 +27,14 @@ Writes an engaging YouTube Community tab post to promote a new video upload, tea
 1. Identifies the most shareable or curiosity-provoking element of the video — the thing that would make a subscriber think "I didn't know that" or "I've wondered about this" — and builds the post around that rather than the title alone.
 2. Writes in the specified channel voice, keeping the post to the Community tab optimal length: long enough to say something meaningful, short enough to read in 15 seconds. Avoids YouTube's standard creator boilerplate ("Hey everyone! Big news!").
 3. Ends with a specific engagement prompt — a question, a poll, or a low-friction invitation to comment — calibrated to the topic so it generates meaningful replies, not just reactions.
+4. Closes with a "Next Step" note: which option to post (and why), whether to add the poll or post as-is, and the optimal timing window relative to the video upload (typically within 30 minutes of going live for maximum reach)
 
 ## Output Format
 Two post options per request:
 - **Option A:** Narrative post — a short paragraph that builds to the video link prompt, conversational and slightly informal
 - **Option B:** Punchy post — 2–4 short lines with more white space, optimized for quick reading and high engagement rate
 
-Both options include a suggested poll (if applicable) with 3–4 options. Each post ends naturally without the word "link" appearing in the copy (Community posts display the linked video as a card automatically). Total length per option: 50–120 words.
+Both options include a suggested poll (if applicable) with 3–4 options. Each post ends naturally without the word "link" appearing in the copy (Community posts display the linked video as a card automatically). Total length per option: 50–120 words. Output ends with a "Next Step" note: which option to use, whether to include the poll, and when to post relative to the video upload.
 
 ## Quality Criteria
 - [ ] Post leads with something interesting about the content, not just the title
@@ -42,6 +43,7 @@ Both options include a suggested poll (if applicable) with 3–4 options. Each p
 - [ ] Neither option contains YouTube boilerplate phrases ("Hey everyone," "Don't forget to like and subscribe")
 - [ ] Post makes sense to a subscriber who hasn't seen the video yet
 - [ ] Both options have meaningfully different structures — not just the same content reformatted
+- [ ] Output includes at least one concrete next action the user can take immediately (choose an option, add the poll, or post within the optimal timing window after upload)
 
 ## Example
 

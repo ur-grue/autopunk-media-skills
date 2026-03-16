@@ -38,6 +38,7 @@ Writes a set of Midjourney prompts designed to maintain consistent character app
 3. Writes a base prompt for the first image, then generates scene-specific prompts that keep the character anchor string identical and vary only the environment, action, and lighting
 4. Recommends the `--seed` workflow: generate the first image, note the seed number from the Job ID, and use `--seed [number]` in subsequent prompts to bias toward the same character rendering
 5. If Midjourney v6 is being used, notes where the `--cref [image URL]` flag should be inserted to use an existing character image as a visual reference
+6. Closes with a "Next Step" note: which prompt to run first (always the base portrait), how to record the seed number after the first generation, and whether to run cinematic-shot-prompt if the character also needs to appear in more complex scene compositions
 
 ## Output Format
 - Character anchor string: a labeled block of descriptive text ready to copy into every prompt
@@ -45,6 +46,7 @@ Writes a set of Midjourney prompts designed to maintain consistent character app
 - Scene variations: 3–5 additional prompts using the character anchor, each for a different situation
 - Consistency workflow note: explains the seed and `--cref` workflow in plain language
 - All prompts formatted as complete, copy-paste-ready Midjourney strings
+- Output ends with a "Next Step" note: run the base prompt first, record the seed, and run cinematic-shot-prompt if complex scene compositions are also needed
 
 ## Quality Criteria
 - [ ] The character anchor string covers at minimum: apparent age, gender, one distinctive facial feature, hair, and a consistent clothing item or signature visual element
@@ -52,6 +54,7 @@ Writes a set of Midjourney prompts designed to maintain consistent character app
 - [ ] The anchor string is specific enough to distinguish this character from similar characters
 - [ ] The consistency workflow is explained — users who don't know about `--seed` and `--cref` must be told
 - [ ] At least one prompt places the character in a non-portrait scene (action, environment) to test consistency beyond close-up shots
+- [ ] Output includes at least one concrete next action the user can take immediately (run the base prompt, record the seed number, or run cinematic-shot-prompt for scene compositions)
 
 ## Example
 

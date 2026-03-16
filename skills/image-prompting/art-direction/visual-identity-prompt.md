@@ -39,6 +39,7 @@ Writes a comprehensive visual identity prompt for a show, channel, or publicatio
 3. Identifies three to five specific visual reference points with precise explanations of what quality in each is being cited — not names alone, but the specific visual attribute being borrowed
 4. Writes a master AI prompt string — a reusable block of descriptive language that can be appended to any image prompt to keep generated assets within the visual system
 5. Closes with an asset application guide: what the visual identity looks like applied to the key asset types (cover art, social posts, headers, thumbnails)
+6. Ends with a "Next Step" note: which asset to produce first using the master AI prompt string, whether color-palette-brief should be run to extract specific hex codes from the palette described, and whether to brief a designer using this document or test the prompt string in an image generator first
 
 ## Output Format
 - Length: 700–900 words
@@ -47,6 +48,7 @@ Writes a comprehensive visual identity prompt for a show, channel, or publicatio
 - Reference points with specific quality citation, not just source names
 - Master AI prompt string formatted as a ready-to-copy code block
 - Asset application guide as brief paragraph per asset type (3–5 asset types)
+- Output ends with a "Next Step" note: which asset to generate first using the prompt string, whether to run color-palette-brief to extract hex codes, and whether to test the prompt string before briefing a designer
 
 ## Quality Criteria
 - [ ] The visual identity statement is specific to this project — it could not describe any other show or publication
@@ -54,6 +56,7 @@ Writes a comprehensive visual identity prompt for a show, channel, or publicatio
 - [ ] References are specific: what quality in each reference is being borrowed, not just the name
 - [ ] The master AI prompt string produces visually consistent images when tested across different subject matter
 - [ ] The "what this is not" section names specific failure modes, not generic warnings
+- [ ] Output includes at least one concrete next action the user can take immediately (test the prompt string in an image generator, run color-palette-brief, or share with a designer)
 
 ## Example
 

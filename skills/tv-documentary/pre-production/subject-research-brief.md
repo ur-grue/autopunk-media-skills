@@ -28,9 +28,10 @@ Generates a structured research brief on a documentary subject before the first 
 2. Assesses the subject's on-camera track record: how they typically present in interviews, whether they are guarded or open, whether their public statements show consistency or contradiction over time
 3. Identifies the narrative territory most likely to yield strong documentary material: the experiences, relationships, or turning points in their life that connect most directly to the film's themes
 4. Recommends how to approach the first filming session: what to establish early, what to save for later, and any sensitivities that need careful handling
+5. Closes with a "Next Step" note: what to do immediately before the first session (review any prior footage of the subject, brief the crew on the sensitivities, or run interview-question-generator to prepare specific questions for the initial filmed conversation)
 
 ## Output Format
-Structured brief, 500–750 words. Sections: Subject Profile, Relevance to Film, On-Camera Assessment, Key Narrative Territory (3–5 areas), First Session Approach, and Sensitivities. Professional, conversational register — written to be read quickly before a shoot, not filed as a formal document.
+Structured brief, 500–750 words. Sections: Subject Profile, Relevance to Film, On-Camera Assessment, Key Narrative Territory (3–5 areas), First Session Approach, and Sensitivities. Professional, conversational register — written to be read quickly before a shoot, not filed as a formal document. Output ends with a "Next Step" note: what to prepare before the first session, whether to run interview-question-generator for opening questions, and whether to review available prior footage of the subject before arriving on location.
 
 ## Quality Criteria
 - [ ] Subject profile is specific to information relevant to the film, not a general biography
@@ -38,6 +39,7 @@ Structured brief, 500–750 words. Sections: Subject Profile, Relevance to Film,
 - [ ] Key narrative territory section identifies specific, filmable areas rather than general themes
 - [ ] First session approach gives practical guidance on how to open the filming relationship
 - [ ] Sensitivities section is specific — names the actual concern, not a generic flag
+- [ ] Output includes at least one concrete next action the user can take immediately (review prior footage, run interview-question-generator, or brief the crew on identified sensitivities)
 
 ## Example
 

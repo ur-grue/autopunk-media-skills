@@ -28,9 +28,10 @@ Writes a pitch document for a streaming platform commissioning or acquisitions t
 1. Frames the project explicitly in terms of what it adds to the specific platform's slate — what audience it serves, what need it fills — not just what it is as a standalone project
 2. Presents the format, logline, and series structure or film concept with enough detail for a commissioning executive to see how it would exist on-screen, including pacing, format, and any distinctive production approach
 3. Makes the commercial and audience case: why this audience is on the platform, why they will watch this project, and how it positions alongside comparable titles — including, if possible, comparable titles already on that platform's catalogue
+4. Closes with a "Next Step" note: the ideal first action after completing the pitch document (research the platform's current commissioning pipeline, find the right commissioning contact, or run series-pitch-deck-writer if a visual deck is also required for the meeting)
 
 ## Output Format
-Structured document: Opening Proposition (why this project for this platform), Format Overview, The Concept, Audience and Positioning, Comparable Titles (on the platform and elsewhere), Production Status and Next Steps. Total 600–800 words. Written for a commissioning reader who will evaluate twenty pitches in a sitting — clear, specific, no preamble.
+Structured document: Opening Proposition (why this project for this platform), Format Overview, The Concept, Audience and Positioning, Comparable Titles (on the platform and elsewhere), Production Status and Next Steps. Total 600–800 words. Written for a commissioning reader who will evaluate twenty pitches in a sitting — clear, specific, no preamble. Output ends with a "Next Step" note: how to find the right commissioning contact, whether to run series-pitch-deck-writer for a visual deck, and what to prepare before sending or submitting the document.
 
 ## Quality Criteria
 - [ ] Opening section is platform-specific: names the platform, names the audience segment, and makes the fit case in two sentences
@@ -39,6 +40,7 @@ Structured document: Opening Proposition (why this project for this platform), F
 - [ ] Audience description is specific (not "broad audience") — demographics, viewing habits, platform behaviour
 - [ ] Production status section is honest about what exists and what is still needed
 - [ ] No generic pitch language ("a story that needs to be told," "audiences will love")
+- [ ] Output includes at least one concrete next action the user can take immediately (identify the commissioning contact, run series-pitch-deck-writer, or submit via the platform's official pipeline)
 
 ## Example
 

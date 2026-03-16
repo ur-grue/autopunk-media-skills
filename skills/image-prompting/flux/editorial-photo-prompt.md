@@ -38,6 +38,7 @@ Writes a Flux prompt for editorial-style photography suitable for journalism, do
 3. Applies Flux-specific prompt optimizations: Flux responds well to detailed scene descriptions, specific lighting language, and photographic medium references
 4. Adds negative-space considerations: what the image should not contain (stock photo genericness, artificial posing, commercial brightness, digital artifact sheen)
 5. Suggests aspect ratio and any metadata tags that improve Flux output quality for editorial photography
+6. Closes with a "Next Step" note: how many variations to generate before selecting for editorial use, whether to run the variation prompt for a different framing option, and any publication disclosure considerations to address before using AI-generated imagery
 
 ## Output Format
 - Primary Flux prompt: complete, detailed, formatted for direct use in Flux (Flux.1 Dev or Pro)
@@ -45,6 +46,7 @@ Writes a Flux prompt for editorial-style photography suitable for journalism, do
 - Negative prompt: a short list of elements to exclude
 - Optional: a second variation with slightly different framing, lighting, or emotional register
 - Note on any content considerations (Flux will not generate images of real, identifiable people)
+- Output ends with a "Next Step" note: how many variations to generate, whether to run the alternative prompt, and whether to check your publication's AI image policy before use
 
 ## Quality Criteria
 - [ ] The scene described is specific enough that Midjourney or Flux would generate a particular image, not a generic one
@@ -52,6 +54,7 @@ Writes a Flux prompt for editorial-style photography suitable for journalism, do
 - [ ] The image described would be believable as a real photograph — no fantastical elements, no idealized presentation
 - [ ] The subject is described without identifying as any real, living person
 - [ ] The prompt avoids stock-photo clichés: no business handshakes, no generic "teamwork," no forced emotional expressions
+- [ ] Output includes at least one concrete next action the user can take immediately (generate 4–6 variations and select, run the alternative prompt, or check the publication's AI image policy)
 
 ## Example
 

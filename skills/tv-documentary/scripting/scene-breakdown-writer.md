@@ -28,9 +28,10 @@ Breaks a documentary sequence into a detailed scene-by-scene breakdown with acti
 2. Structures the scene order to create maximum forward momentum: establishes before explains, shows before tells, plants before pays off
 3. Writes each scene with three elements: Action (what the audience sees), Narration Cue (where and approximately what the narration should say, or "N/A" if the scene plays without narration), and Interview Placement (which interview line or subject appears, if any)
 4. Adds B-roll requirements for each scene — what additional footage is needed to cover cuts or add visual depth
+5. Closes with a "Next Step" note: which scene to confirm material for first (typically the one most at risk of having no footage), whether commentary-writer should be run to develop the narration cues into full script, and whether rough-cut-notes will be needed once a first cut exists
 
 ## Output Format
-Scene-by-scene breakdown document. Each scene: Scene number, Approximate running time, Action (what we see), Narration Cue, Interview Placement, B-roll Required. Followed by a Sequence Notes section flagging potential structural problems or missing material. Target length scales with sequence complexity — typically 400–700 words for a 4–6 minute sequence.
+Scene-by-scene breakdown document. Each scene: Scene number, Approximate running time, Action (what we see), Narration Cue, Interview Placement, B-roll Required. Followed by a Sequence Notes section flagging potential structural problems or missing material. Target length scales with sequence complexity — typically 400–700 words for a 4–6 minute sequence. Output ends with a "Next Step" note: which scene to verify material availability for first, whether to run commentary-writer to develop narration cues, and whether rough-cut-notes will be useful once an assembly cut exists.
 
 ## Quality Criteria
 - [ ] Scenes are numbered and have approximate running times that total to the target sequence length
@@ -38,6 +39,7 @@ Scene-by-scene breakdown document. Each scene: Scene number, Approximate running
 - [ ] Narration cues are brief prompts, not finished narration — they indicate editorial function, not final script
 - [ ] Interview placement identifies specific speakers and approximate content, not generic "interview here"
 - [ ] Sequence Notes honestly flags missing material or structural risks
+- [ ] Output includes at least one concrete next action the user can take immediately (confirm material availability, run commentary-writer for narration development, or prepare rough-cut-notes after the assembly cut)
 
 ## Example
 

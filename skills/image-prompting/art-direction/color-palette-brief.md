@@ -38,6 +38,7 @@ Generates a detailed color palette brief with named colors, hex codes, rationale
 3. Provides each color with: a descriptive name, a hex code, an RGB value, and a one-sentence usage note
 4. Explains the palette's logic — why these specific colors were chosen and what they communicate together
 5. Provides prompt-ready color language for AI image generation: phrases that consistently produce images within the palette
+6. Closes with a "Next Step" note: the first practical action after receiving the palette (test the hex codes in your design tool, run visual-identity-prompt to build the full visual system, or run cover-image-pipeline to produce the first asset using these colors)
 
 ## Output Format
 - Structure: Palette Overview → Color-by-Color Breakdown → Palette Rationale → Usage Guidelines → AI Prompt Color Language
@@ -45,6 +46,7 @@ Generates a detailed color palette brief with named colors, hex codes, rationale
 - Palette rationale in 2–3 paragraphs explaining the color relationships and emotional logic
 - Usage guidelines: specific rules for which color is dominant, how accent is used, what combinations to avoid
 - AI prompt color language: 3–5 phrase variations for different contexts (light scene, dark scene, neutral scene)
+- Output ends with a "Next Step" note: how to test the palette, whether to run visual-identity-prompt next, and which asset to produce first using these colors
 
 ## Quality Criteria
 - [ ] Each color has a specific hex code, not a vague description
@@ -52,6 +54,7 @@ Generates a detailed color palette brief with named colors, hex codes, rationale
 - [ ] Usage guidelines include at least one specific prohibition (e.g., "do not use accent on backgrounds — only on text and interactive elements")
 - [ ] The AI prompt color language phrases are specific enough to reliably constrain image generation
 - [ ] The palette has internal contrast — a functioning palette needs both light and dark values
+- [ ] Output includes at least one concrete next action the user can take immediately (test hex codes in a design tool, run visual-identity-prompt, or produce the first asset using cover-image-pipeline)
 
 ## Example
 

@@ -37,6 +37,7 @@ Generates a Flux prompt for dark, moody, or noir visual aesthetics — producing
 3. Applies the appropriate technical references: for noir, classic Hollywood side-lighting and chiaroscuro; for dark editorial, contemporary low-key photography; for gothic, candle or moon light with architectural gloom
 4. Adds atmosphere through specific environmental details — fog, rain, rusted surfaces, peeling paint, empty streets — rather than just "dark background"
 5. Calibrates the negative prompt to actively exclude the most common failure modes for dark aesthetics in Flux: overexposed highlights, loss of shadow detail, unintentional murkiness
+6. Closes with a "Next Step" note: how many generations to run before selecting (dark aesthetics require more variation runs than standard prompts), whether to test at thumbnail size before committing to the final image, and whether to run cover-image-pipeline for the full asset production workflow
 
 ## Output Format
 - Primary Flux prompt: complete, detailed, copy-paste ready
@@ -44,6 +45,7 @@ Generates a Flux prompt for dark, moody, or noir visual aesthetics — producing
 - Negative prompt: targeted exclusions to avoid common dark-image failure modes (muddy blacks, loss of detail, accidental horror-kitsch)
 - One alternative prompt exploring a different register of the same aesthetic (e.g., colder/warmer, more or less theatrical)
 - Lighting diagram in words: a one-sentence description of where the light source is and what it illuminates
+- Output ends with a "Next Step" note: how many generations to run for selection, whether to test at thumbnail size, and whether to run cover-image-pipeline for the complete asset workflow
 
 ## Quality Criteria
 - [ ] The lighting setup is specific — "dark" is not a lighting description; the prompt states where light comes from and what it reveals
@@ -51,6 +53,7 @@ Generates a Flux prompt for dark, moody, or noir visual aesthetics — producing
 - [ ] The prompt creates atmosphere through specific environmental details, not just palette instructions
 - [ ] The negative prompt actively excludes the aesthetic's common failure modes
 - [ ] The emotional register of the image is stated — the darkness serves a feeling, not just a look
+- [ ] Output includes at least one concrete next action the user can take immediately (run 4–6 generations and select, test at thumbnail size, or run cover-image-pipeline)
 
 ## Example
 
