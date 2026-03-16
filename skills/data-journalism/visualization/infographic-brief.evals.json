@@ -1,0 +1,47 @@
+{
+  "skill_name": "infographic-brief",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Government procurement concentration story — multi-format digital and social",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    },
+    {
+      "id": "tc2",
+      "description": "Climate emissions data — country comparison for magazine feature",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.17
+    },
+    {
+      "id": "tc3",
+      "description": "Healthcare workforce shortage — regional heatmap brief for print supplement",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.5
+    }
+  ],
+  "overall_mean": 4.39
+}

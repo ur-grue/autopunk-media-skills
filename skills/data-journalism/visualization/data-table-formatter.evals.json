@@ -1,0 +1,47 @@
+{
+  "skill_name": "data-table-formatter",
+  "status": "passed",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Hospital waiting times — raw CSV to publication-ready Markdown table",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc2",
+      "description": "Election results by constituency — messy export with mixed formatting",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17
+    },
+    {
+      "id": "tc3",
+      "description": "Company financial summary — annual report table with currency fields",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ],
+  "overall_mean": 4.28
+}
