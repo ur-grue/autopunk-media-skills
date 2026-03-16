@@ -1,5 +1,65 @@
 {
   "skill_name": "social-media-visual-batch",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_score": 4.4,
+  "eval_date": "2026-03-16",
+  "evaluator": "claude-sonnet-4-6",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "description": "Urban journalism podcast launch — Frequency — 7 images, Instagram, 2-week campaign, documentary style",
+      "input_summary": "Clear campaign goal (show launch), existing visual identity referenced, 7 images, thematic collection structure, specific platform (Instagram), Flux",
+      "output_summary": "Visual anchor string extracted and labeled; batch overview describes macro-to-micro narrative arc across 7 images; no two images share composition type (verified: wide/close/medium/medium/wide/close/wide); content notes give specific calendar placement and caption direction; generation notes advise starting with most compositionally specific image",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "id": "tc_002",
+      "description": "True crime podcast episode promotion — 5 images, Twitter/X and Instagram cross-post, dark aesthetic",
+      "input_summary": "Episode-specific campaign (not show launch), dark aesthetic, cross-platform (Twitter/X landscape + Instagram), 5 images, sequential narrative structure",
+      "output_summary": "Batch structured as a sequential tease — each image reveals slightly more about the episode's subject; format adapts for Twitter/X (16:9 dominates); content notes suggest posting timing relative to episode drop day; visual variety achieved through light-dark-light-dark-light rhythm within dark aesthetic",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "id": "tc_003",
+      "description": "Science magazine recurring content series — 10 images, mixed platforms, monthly calendar fill",
+      "input_summary": "Recurring series (not launch), 10 images, editorial science photography register, bright and curious aesthetic, multi-platform",
+      "output_summary": "Batch organized into 3 thematic clusters within the 10 (discovery/research/application) for posting calendar logic; consistent visual anchor across all 10; platform format varies between images based on content type; content notes specify which cluster each image belongs to for calendar planning",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.17
+    }
+  ],
+  "dimension_means": {
+    "coherence": 4.33,
+    "consistency": 4.67,
+    "fluency": 4.33,
+    "relevance": 4.33,
+    "professionalism": 4.33,
+    "actionability": 4.33
+  },
+  "overall_mean": 4.4,
+  "pass": true,
+  "notes": "The compositional variety planning is the most important quality signal — a batch where all images have the same composition type is not useful as a social media series. The content notes (calendar placement + caption direction) elevate the skill from a pure image-prompting tool to a content planning tool. Consistency dimension is strong because the visual anchor string approach reliably constrains all prompts in the batch."
 }
