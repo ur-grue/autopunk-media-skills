@@ -1,5 +1,58 @@
 {
   "skill_name": "call-to-action-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "CTA type: Subscribe + comment. Channel: Science education, enthusiastic but not hyper. Video topic: How black holes evaporate via Hawking radiation. Comment CTA should connect to the topic. Position: End of video.",
+      "output_summary": "Produced 3 subscribe options and 2 comment CTAs. Subscribe options ranged from value-promise ('Every week we take something impossibly large and make it make sense') to direct ask. Comment CTA asked: 'If the universe ends up as a sea of photons and nothing else, does that feel like an ending to you, or just a transformation? Genuinely curious where people land on this.' Topic connection was strong. Language appropriate for science-curious adults. All options speakable aloud.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "CTA type: Sponsor read only. Sponsor: A VPN service. Channel: Cybersecurity/privacy, serious and authoritative. Position: Mid-roll, after explaining why public Wi-Fi is dangerous.",
+      "output_summary": "Produced a well-structured mid-roll sponsor read that transitioned naturally from the Wi-Fi danger content. Used 'show not tell' structure: opened with a problem statement the audience just heard about, then positioned the product as the solution. Disclosure ('this video is sponsored') placed at the start of the segment per FTC conventions. One option was slightly over-enthusiastic for a serious cybersecurity channel — minor tone mismatch. Overall strong.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "CTA type: Channel membership CTA (YouTube Memberships). Channel: Independent film criticism, dry and literary tone. Membership perk: Early access to videos and a monthly written essay. Position: End of video.",
+      "output_summary": "Generated 4 membership CTA options. Tone correctly matched the dry, literary register. Best option: 'There's also a membership tier for people who want more — early access to each video and a monthly essay. Details in the description.' Appropriately minimal for the channel's voice. One option was too enthusiastic and felt out of character — correctly flagged in the placement note. Overall well-calibrated to the niche.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

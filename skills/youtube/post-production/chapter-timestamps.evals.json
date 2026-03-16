@@ -1,5 +1,58 @@
 {
   "skill_name": "chapter-timestamps",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.6,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Script for a 22-minute tutorial on building a personal budget spreadsheet from scratch. 8 sections: intro, why budgets fail, setting up columns, entering income, categorizing expenses, the 50/30/20 rule, tracking for 30 days, outro. ~2,900 total words.",
+      "output_summary": "Generated 8 clean chapters starting at 0:00. Chapter names viewer-facing and specific ('Why Most Budgets Fail in Week One', 'Set Up Your Income Columns', etc.). All timestamps estimated with appropriate margin-of-error note. First timestamp correctly at 0:00. Format paste-ready for YouTube. Note suggested merging intro and 'why budgets fail' if under 2 minutes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": "tc-002",
+      "input": "Timestamped transcript from a 45-minute documentary-style interview on urban farming. Exact timestamps available. 12 natural topic shifts in the transcript.",
+      "output_summary": "Correctly identified exact timestamps from transcript (no estimation needed). Generated 12 chapters with viewer-facing names rather than generic 'Section 1' labels. Correctly noted this was from a timestamped transcript (no margin-of-error disclaimer needed). All chapters over 10 seconds. Format correct.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": "tc-003",
+      "input": "Script for a 7-minute video on one specific photography technique (bokeh). Three sections: what bokeh is, how to achieve it, three common mistakes. ~900 words total.",
+      "output_summary": "Generated 4 chapters (including intro) with correct timestamps. Flagged that for a 7-minute video with only 3 content sections, chapters are sparse but still useful for navigation. Chapter names specific and viewer-facing. Correctly noted YouTube's 3-chapter minimum is met. One chapter name slightly generic ('Introduction') — minor issue; skill did not fully apply the 'avoid weak internal labels' criterion here.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }

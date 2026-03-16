@@ -1,5 +1,58 @@
 {
   "skill_name": "seo-title-optimizer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.5,
+    "fluency": 4.7,
+    "relevance": 4.7,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Topic: Budget travel in Southeast Asia for first-timers. Audience: 20s travelers, first international trip. Goal: Informational guide. Tone: Friendly, adventurous.",
+      "output_summary": "Generated 10 titles including 'Southeast Asia on a Budget: First-Timer's Complete Guide', 'How to Travel Southeast Asia for $30 a Day', plus 8 variants across list, question, and curiosity-gap formats. All titles under 65 characters. Primary keyword front-loaded correctly in 8 of 10 titles.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": "tc-002",
+      "input": "Topic: Sourdough bread baking for beginners who have failed before. Audience: Home bakers. Goal: Tutorial. Tone: Warm, encouraging. Competitor title: 'My Sourdough Journey'.",
+      "output_summary": "Generated 10 titles including 'Sourdough for Beginners: Why You Keep Failing (Fix This)', 'How to Bake Sourdough That Actually Rises', 'Beginner Sourdough Guide: No More Dense Loaves'. Correctly identified failure/frustration as dominant search emotion. All titles differentiated from vague competitor title.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": "tc-003",
+      "input": "Topic: Interview with a climate scientist on ocean acidification. Audience: Science-curious adults, not specialists. Goal: Inform/educate. Tone: Serious, journalistic.",
+      "output_summary": "Generated 10 titles including 'What Ocean Acidification Is Doing to Our Food Supply', 'The Silent Ocean Crisis Scientists Are Warning About'. Appropriately avoided clickbait for journalism context. Two titles slightly over 65 characters — minor flag. Keyword front-loaded in 6 of 10 titles.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 3
+      },
+      "case_mean": 3.83
+    }
+  ]
 }

@@ -1,5 +1,58 @@
 {
   "skill_name": "description-seo-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Title: 'The Best Espresso Machine Under $500 — Full Review'. Summary: Review of three prosumer espresso machines under $500, with hands-on testing of extraction quality, ease of use, and durability. Primary keyword: espresso machine under $500. Channel: Coffee gear review channel, casual tone.",
+      "output_summary": "Description opened with keyword in first 80 characters. Hook paragraph effectively communicated value: 'We tested three espresso machines under $500 so you don't have to.' Body covered all three tested machines by category with organic keyword integration. Links section clean and complete. Hashtags relevant (#espressomachine, #coffeegear, #homebarista). Appropriate casual tone maintained throughout.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": "tc-002",
+      "input": "Title: 'Why the Roman Empire Fell — 5 Theories Historians Disagree On'. Summary: Historical explainer covering five competing academic theories on Rome's fall, from economic collapse to military overextension to climate. Primary keyword: why did Rome fall. Audience: History enthusiasts. Tone: Academic but accessible.",
+      "output_summary": "Primary keyword appeared naturally in first sentence. Body section correctly summarized the five theory categories without inventing specific claims. Tone appropriately elevated for history content. Hashtags: #romanempire #ancientrome #historyexplained — all relevant. Subscribe CTA was slightly too casual for the channel's academic register — minor note.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Title: '30-Day Home Workout Challenge — No Equipment Needed'. Summary: Full 30-day workout plan structured by week, covering upper body, lower body, core, and rest days. Includes beginner and intermediate difficulty paths. Primary keyword: home workout no equipment. Sponsor: Fitness nutrition brand with affiliate link.",
+      "output_summary": "Description well-structured with strong hook paragraph ('No gym membership. No equipment. Just 30 days.'). Body accurately summarized the four-week structure and dual difficulty paths. Sponsor disclosure included and correctly placed above hashtags. Affiliate disclosure language included. Hashtags specific (#homeworkout #noequipmentworkout #30daychallenge). Chapters section left as placeholder — skill correctly noted these should be provided by user.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
 }

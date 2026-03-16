@@ -1,5 +1,58 @@
 {
   "skill_name": "thumbnail-concept-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Video: 'I Quit My Job and Traveled for a Year — Here's What I Learned'. Audience: 25–35 career professionals. Emotion: Inspiration + FOMO. Channel: Travel/lifestyle, warm tones, host always appears.",
+      "output_summary": "Produced 3 distinct concepts: (1) Host with suitcase at a scenic overlook, bold text 'I QUIT / NOW WHAT?', warm orange tone; (2) Split-frame before/after (office vs. beach), text 'ONE YEAR LATER'; (3) Close-up of host face, surprised-joyful expression, text overlay 'BEST DECISION / OF MY LIFE'. Each concept fully specified with production notes. Text overlay copy written out in full for all three.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-002",
+      "input": "Video: 'The Worst Programming Mistakes Beginners Make'. Audience: Self-taught developers, 18–30. Emotion: Recognition/relatability. No host on camera. Channel: Clean dark aesthetic.",
+      "output_summary": "Produced 3 concepts including code-on-screen with red error overlay, a 'top mistakes' list reveal concept, and a minimalist warning-sign design. Correctly adapted to no-host constraint. Text overlays specific and written out. Mobile-first concept included. One concept over-specified the exact error message text in a way that might not match the video's actual content — minor consistency issue.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": "tc-003",
+      "input": "Video: 'How a Small Town in Portugal Is Winning the Remote Work Revolution'. Audience: Remote workers, digital nomads. Emotion: Curiosity + aspiration. Journalistic/documentary channel tone.",
+      "output_summary": "Produced 3 concepts: aerial-style town shot with bold overlay text, a close-up of someone working outdoors with cobblestone background, and a text-dominant concept. Emotional differentiation across concepts was clear. Production notes flagged aerial shot as potentially requiring drone footage — useful constraint warning. Slightly less actionable for the journalistic context as it assumed creator-controlled shoots rather than documentary-style acquired footage.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.0
+    }
+  ]
 }
