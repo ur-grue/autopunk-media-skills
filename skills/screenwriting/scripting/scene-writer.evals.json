@@ -1,5 +1,75 @@
 {
   "skill_name": "scene-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "location": "INT. SOLICITOR'S OFFICE — DAY",
+        "scene_function": "First meeting between half-brothers. Neither is prepared to see themselves in the other person.",
+        "characters": "Elliot (42, factual questions to avoid emotional ones), Daniel (28, formal when unsure), Brennan solicitor (60s, procedural)",
+        "story_position": "End of Act One",
+        "target_length": "2 pages"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Slugline correctly formatted. Action lines present tense and visual only. Both main characters have distinct registers — Elliot asks a factual question ('How old were you') immediately, Daniel drops formality when startled. Scene has a clear opening condition and a closing condition. Final exchange ('So do you') lands the mirroring function without stating it. No internal states in action lines."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "location": "EXT. HOSPITAL LOADING BAY — NIGHT",
+        "scene_function": "Two nurses on break. One has just made a decision that will cost her job. The other doesn't know yet. By the end the first one has said enough that the second one almost understands.",
+        "characters": "Cora (38, senior nurse, has already decided, speaking around it). Jess (29, junior nurse, quick, talks to fill silence).",
+        "story_position": "Act Two midpoint, post-decision",
+        "target_length": "1 page"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Excellent compression into one page. The scene's information gradient (Cora knows, Jess almost figures it out) rendered through behavior and talk-around-the-subject dialogue. Slugline correctly formatted. Consistency docked: one action line described the angle of a shot ('we see her face in profile') which is camera direction, not action description."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "location": "INT. CAR — MOVING — NIGHT",
+        "scene_function": "Father driving his teenage son home after the son has done something serious. The conversation does not address what happened directly. Father is trying to say something he doesn't have language for. Son knows what he did was wrong and is waiting to be punished.",
+        "characters": "Marcus (50, father, measured, not given to speeches). Owen (17, son, defensive then slowly realizing the conversation is something else).",
+        "story_position": "Act Two",
+        "target_length": "2 pages"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Handled contained single-location scene with two characters and constrained space well. The oblique dialogue approach suited the brief. Coherence docked: the scene ran slightly long at approximately 2.5 pages and the final beat could have been tightened by half a page without losing impact. Consistency docked: Marcus's voice shifted register once in a way inconsistent with 'not given to speeches.'"
+    }
+  ]
 }

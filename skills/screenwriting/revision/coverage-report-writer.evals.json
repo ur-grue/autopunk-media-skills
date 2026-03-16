@@ -1,5 +1,81 @@
 {
   "skill_name": "coverage-report-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "title": "THE QUIET INHERITANCE",
+        "writer": "Marcus Lee",
+        "format": "Feature film, 98 pages",
+        "genre": "Drama / Family",
+        "draft": "Third draft, January 2026",
+        "context": "Requested read for co-production development slate",
+        "synopsis": "Full three-act breakdown provided with character names and plot details"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Header block complete. Rating grid covers all five categories. Synopsis covers full story including Act 3 resolution. Comments section addresses stated topics with scene-specific citations. Recommendation consistent with comments tone. Final recommendation is unambiguous (Consider, not a fourth hedged option)."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "title": "SIGNAL LOST",
+        "writer": "Caron Hughes",
+        "format": "TV pilot, 60 minutes",
+        "genre": "Sci-fi thriller",
+        "draft": "First draft, November 2025",
+        "context": "Unsolicited submission to a genre production company's open window",
+        "synopsis": "An aerospace engineer working at a remote listening station receives a signal she cannot identify — and realizes her company has been receiving it for six months and classifying the responses. Act 1 establishes the station and her isolation. Act 2: she begins unauthorized decryption and discovers the signal is a pattern, not noise. Act 3: she is removed from the project. Final scene: she transmits a response from her personal equipment."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Correctly handled unsolicited submission context in marketability section. Genre conventions assessed accurately. Pilot structure evaluated on pilot-specific criteria (hook, series potential) rather than feature criteria. Consistency docked: one character mentioned in comments was not in the synopsis."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "title": "BORDER HYMNS",
+        "writer": "Tes Okonkwo",
+        "format": "Feature film, 112 pages",
+        "genre": "Political drama",
+        "draft": "Second draft, February 2026",
+        "context": "Development executive read — internal company slate assessment",
+        "synopsis": "A recently appointed immigration judge, on her first week in the role, must rule on four cases in succession. Each case is the story of a different person seeking asylum. The judge's personal history (her own family arrived as refugees thirty years ago) is revealed incrementally. The four cases are structurally parallel but thematically divergent — the film argues not for a verdict but for the impossibility of clean verdicts. The final scene: she enters her ruling in the fourth case. We do not see what she writes."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Handled unconventional parallel structure correctly — assessed as an intentional formal choice rather than a structural problem. Marketability section gave genuinely useful festival positioning. Coherence docked: the comments section paragraph on structure was slightly longer than specified and began to overlap with the character paragraph. Actionability was high: the recommendation note gave the development executive a specific next step."
+    }
+  ]
 }

@@ -1,5 +1,78 @@
 {
   "skill_name": "script-notes-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.4,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.0,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "title": "FALLBACK POSITION",
+        "format": "Feature film, 104 pages",
+        "draft": "Second draft",
+        "genre": "Workplace drama / dark comedy",
+        "writer_concern": "Act 2 loses momentum, protagonist goes passive. Ending feels deflating.",
+        "breakdown": "Full three-act breakdown with character names and scene descriptions"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.5,
+      "notes": "Root issue stated in a single clear paragraph. All structural notes cite specific act breaks or page ranges. Scene notes include both problem and suggested direction. Priority list is ordered and the first item matches the Root Issue. Character notes acknowledge what is working. Consistency docked: one structural note referenced a scene slightly outside the page range described in the breakdown."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "title": "NIGHT STOCK",
+        "format": "TV pilot, 30 minutes",
+        "draft": "First draft",
+        "genre": "Dark comedy",
+        "writer_concern": "Ensemble is too large for a pilot. Not sure which character is the lead.",
+        "breakdown": "A hospital pharmacy at night, staffed by three pharmacists and an intern. A controlled medication goes missing mid-shift. The pilot follows the search through four characters' perspectives. No clear resolution — intended to be the series hook."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Root Issue correctly identified the lead character problem without imposing a single answer — offered two structural paths (identify the lead, or commit fully to ensemble). Pilot-format structural notes appropriately scaled to 30-minute structure. All five sections present. Consistency docked: Character Notes listed four characters but the input mentioned only three pharmacists plus an intern."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "title": "THE ATLAS PROJECT",
+        "format": "Feature film, 118 pages",
+        "draft": "Third draft",
+        "genre": "Action thriller",
+        "writer_concern": "Third act feels generic. The climax is 20 pages long and loses tension.",
+        "breakdown": "An intelligence analyst uncovers a private surveillance network embedded in consumer devices across twelve countries. Act 1: discovery. Act 2: she builds a case while being actively hunted. Act 3: she reaches the facility, destroys the network's physical infrastructure, escapes, gets the information out. Twenty-page climax sequence."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.0,
+      "notes": "Root Issue correctly identified the climax pacing problem. Structural notes gave specific page-range guidance. Genre-appropriate advice — acknowledged that 20-page action climaxes are conventional and the problem is structural (no tension arc within the sequence), not length per se. Coherence docked: Scene Notes section had four items of uneven depth — one note was significantly shorter than the others without justification. Actionability slightly lower due to generic 'raise the emotional stakes' advice in one Priority List item."
+    }
+  ]
 }

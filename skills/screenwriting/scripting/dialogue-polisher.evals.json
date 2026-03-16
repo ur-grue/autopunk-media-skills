@@ -1,5 +1,72 @@
 {
   "skill_name": "dialogue-polisher",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.5,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.7,
+    "actionability": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": {
+        "scene_type": "Emotional midpoint confrontation, two siblings",
+        "genre": "Family drama",
+        "character_notes": "Elliot: asks factual questions when avoiding emotional ones. Petra: talks quickly under anxiety.",
+        "original_dialogue_issues": "On-the-nose statements of emotion, identical register between characters, conclusion line instead of open question"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "No on-the-nose emotion statements in the rewrite. Characters clearly differentiated — Elliot stays in factual register throughout, Petra breaks into a run-on speech that reveals her self-interest without stating it. Action lines show behavior only. Notes block identifies all five major changes with specific reasoning. Scene function preserved."
+    },
+    {
+      "id": "tc-002",
+      "input": {
+        "scene_type": "Job interview, protagonist is lying about his qualifications",
+        "genre": "Dark comedy / thriller",
+        "character_notes": "The interviewer suspects something is wrong but cannot identify what. The protagonist is performing confidence while internally panicking.",
+        "original_dialogue_issues": "Both characters too direct — interviewer asks what she actually suspects, protagonist explains his lie to the audience through his answers."
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67,
+      "notes": "Excellent handling of dramatic irony scene — both characters now speaking about the surface conversation (the job) while the subtext (suspicion/deception) operates entirely through what is not said. Consistent use of different register between formal interviewer and protagonist's slight over-explanation. Consistency docked: one action line used the word 'nervously' which violates the show-don't-direct-emotion principle stated in the skill."
+    },
+    {
+      "id": "tc-003",
+      "input": {
+        "scene_type": "Two detectives arguing about whether to pursue an unofficial lead",
+        "genre": "Crime drama, procedural",
+        "character_notes": "Senior detective: been doing this twenty years, talks in shorthand, skeptical of instinct over evidence. Junior detective: convinced she is right, overexplains when challenged.",
+        "original_dialogue_issues": "Both detectives making full arguments, no interruption, scene reads like a debate not an argument."
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.17,
+      "notes": "Successfully introduced interruption and partial speech patterns that make the scene feel like an argument rather than a debate. Senior detective's shorthand register distinctly different from junior's overexplaining. Actionability high — notes block gave writer specific craft principles usable in other scenes. Coherence docked: the rewrite was slightly longer than the original, adding beats the original scene didn't have; the skill should have flagged this explicitly."
+    }
+  ]
 }
