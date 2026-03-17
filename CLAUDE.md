@@ -52,6 +52,43 @@ autopunk-media-skills/
 │   └── pull_request_template.md
 │
 ├── skills/
+│   │
+│   │   # Functional journalism taxonomy (204 skills)
+│   │
+│   ├── research/
+│   │   ├── people-contacts/         ← 10 skills: contact info, biography, expert identification
+│   │   ├── facts-context/           ← 18 skills: background briefs, fact-checking, timelines
+│   │   ├── data-statistics/         ← 8 skills: stats research, official data, trend analysis
+│   │   ├── scientific-academic/     ← 8 skills: literature briefs, paper summaries, methodology
+│   │   ├── locations-logistics/     ← 9 skills: location research, archive finding, travel
+│   │   └── media-competitive/       ← 7 skills: competitor coverage, gap analysis, press roundups
+│   │
+│   ├── pre-production/              ← 14 skills: pitches, call sheets, rights, glossaries
+│   │
+│   ├── writing/
+│   │   ├── articles/                ← 28 skills: headlines, ledes, features, captions, rewrites
+│   │   ├── broadcast/               ← 12 skills: voice-over, teleprompter, cue sheets, podcasts
+│   │   ├── digital-social/          ← 15 skills: social posts, SEO, newsletters, YouTube metadata
+│   │   └── institutional/           ← 13 skills: press releases, emails, grant applications
+│   │
+│   ├── editing/                     ← 16 skills: proofreading, copy editing, style checks
+│   │
+│   ├── translation-localization/    ← 8 skills: article, quote, subtitle, press release translation
+│   │
+│   ├── data-journalism/
+│   │   ├── analysis/                ← dataset summaries, outlier finding, trend identification
+│   │   ├── investigation/           ← data cleaning, FOIA, PDF extraction
+│   │   ├── visualization/           ← chart types, labels, descriptions
+│   │   └── publishing/              ← corrections, methodology boxes
+│   │
+│   ├── archive-legal/               ← 10 skills: rights checking, GDPR, CMS metadata
+│   │
+│   ├── audience-distribution/       ← 9 skills: audience targeting, A/B tests, reader engagement
+│   │
+│   ├── production-support/          ← 10 skills: formatting, layout, transcripts, credits
+│   │
+│   │   # Existing format-specific skills (unchanged)
+│   │
 │   ├── tv-documentary/
 │   │   ├── development/             ← pitch-treatment-writer, series-bible-generator,
 │   │   │                               logline-creator, character-arc-planner
@@ -157,7 +194,7 @@ Every skill follows this exact template. Standalone version is in `SKILL_TEMPLAT
 name: skill-name-in-kebab-case
 status: planned | draft | beta | stable
 category: tv-documentary | magazine-journalism | youtube | podcast | image-prompting | media-business | social-media
-subcategory: development | scripting | post-production | localization | pre-production | business | ideation | writing | editing | distribution | investigation | fact-checking | legal | channel-strategy | analytics | midjourney | flux | art-direction | workflows | pitching | funding | content | strategy
+subcategory: development | scripting | post-production | localization | pre-production | business | ideation | writing | editing | distribution | investigation | fact-checking | legal | channel-strategy | analytics | midjourney | flux | art-direction | workflows | pitching | funding | content | strategy | people-contacts | facts-context | data-statistics | scientific-academic | locations-logistics | media-competitive | articles | broadcast | digital-social | institutional | analysis | visualization | publishing
 version: 1.0
 eval_score: null
 tags: [tag1, tag2]
