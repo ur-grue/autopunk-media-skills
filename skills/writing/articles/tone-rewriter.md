@@ -1,10 +1,10 @@
 ---
 name: tone-rewriter
-status: beta
+status: stable
 category: writing
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 5.0
 tags: [editing, tone, rewriting, adaptation, journalism, content-repurposing]
 ---
 
