@@ -1,5 +1,46 @@
 {
   "skill_name": "pull-quote-selector",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Profile interview — Dr Amara Osei, consultant surgeon who left NHS to run a free clinic; four direct quotes from subject available; target: national broadsheet weekend magazine print feature.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Hard news with data — council housing shortage report, 4,700-home shortfall by 2031; quotes from council chair, named resident, and anonymous resident; multiple voices and data points.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "Opinion column on decline of long-form journalism interview; primarily authorial voice with one attributed quote from unnamed commissioning editor; skill must handle paraphrase and conclusion-quote edge cases.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 ---
 name: pull-quote-selector
-status: beta
+status: stable
 category: writing
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 5.0
 tags: [journalism, editing, layout, print, digital, quotes]
 ---
 

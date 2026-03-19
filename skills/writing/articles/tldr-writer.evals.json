@@ -1,5 +1,46 @@
 {
   "skill_name": "tldr-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Breaking news — rail operator cancels 240 trains per day indefinitely after wage talks with drivers' union collapse; 12% pay rise demanded, eight intercity routes affected, government calls for return to table.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Investigative feature — three water companies discharged sewage for 2.1 million hours (up 34%), paid executives £14.3m in bonuses; fined £18m (under 1% of profit); proposed legislation would raise maximum fine to 10% of turnover.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "Policy analysis — government's free childcare expansion from 9 months (September launch) depends on recruiting 45,000 new workers; three analysts say target unrealistic given current pay and training pipelines.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

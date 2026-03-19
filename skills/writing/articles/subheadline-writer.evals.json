@@ -1,5 +1,46 @@
 {
   "skill_name": "subheadline-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Hard news — NHS waiting list at 8.5 million, government targets 7.5m by year end via weekend surgery, GP expansion, and triage; clinicians warn 12,000 theatre nurses unrecruited. Target: national broadsheet web standfirst.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Magazine feature — profile of six painters aged 58-74 who trained pre-internet; feature argues skills gap is two-directional (old can't do hex codes, young lack studio fundamentals). Target: national culture magazine print dek.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "Digital-first with SEO — Land Registry data shows 31% rise in small-town first-time buyer completions, 9% fall in cities; SEO target is 'first-time buyer locations UK 2024'. Target: property news website web standfirst.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

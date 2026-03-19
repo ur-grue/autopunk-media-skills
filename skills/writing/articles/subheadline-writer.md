@@ -1,10 +1,10 @@
 ---
 name: subheadline-writer
-status: beta
+status: stable
 category: writing
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 5.0
 tags: [journalism, subheadlines, writing, editing, seo, digital, print]
 ---
 
