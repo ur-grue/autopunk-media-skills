@@ -32,7 +32,7 @@ progress:
 - Phase 2 Plan 02: COMPLETE (proofreader, copy-editor-assistant — beta)
 - Phase 2 Plan 03: COMPLETE (feature-article-writer, news-article-writer — beta)
 - Phase 2 Plan 04: COMPLETE (interview-question-catalogue, photo-caption-writer — beta; fact-check-prompt framing corrected)
-- Phase 2 Plan 05: COMPLETE (Wave 1 G-Eval — headline-writer, lede-writer, interview-question-catalogue, photo-caption-writer promoted to stable)
+- Phase 2 Plan 05: COMPLETE (Wave 1 G-Eval — headline-writer 5.0, lede-writer 4.9, tldr-writer 5.0, pull-quote-selector 5.0, subheadline-writer 5.0 — all promoted to stable)
 - Phase 2 Plan 06: COMPLETE (Wave 2 G-Eval — proofreader, copy-editor-assistant, house-style-enforcer, fact-check-prompt, pull-quote-selector promoted to stable; all 5.0/5)
 - Phase 2 Plan 07: COMPLETE (Wave 3 G-Eval — feature-article-writer, news-article-writer, expert-identifier, biography-researcher, topic-background-brief promoted to stable)
 
@@ -60,7 +60,7 @@ progress:
 - Phase 2 / Plan 02: proofreader, copy-editor-assistant written to beta
 - Phase 2 / Plan 03: feature-article-writer, news-article-writer written to beta
 - Phase 2 / Plan 04: interview-question-catalogue, photo-caption-writer written to beta; fact-check-prompt framing corrected
-- Phase 2 / Plan 05: Wave 1 G-Eval — 4 skills promoted to stable (headline-writer 4.67, lede-writer 4.83, interview-question-catalogue 4.83, photo-caption-writer 4.83)
+- Phase 2 / Plan 05: Wave 1 G-Eval — 5 skills promoted to stable (headline-writer 5.0, lede-writer 4.9, tldr-writer 5.0, pull-quote-selector 5.0, subheadline-writer 5.0)
 - Phase 2 / Plan 06: Wave 2 G-Eval — 5 editing skills promoted to stable, all scoring 5.0/5 (proofreader, copy-editor-assistant, house-style-enforcer, fact-check-prompt, pull-quote-selector)
 - Phase 2 / Plan 07: Wave 3 G-Eval — 5 skills promoted to stable (feature-article-writer 4.83, news-article-writer 4.83, expert-identifier 4.89, biography-researcher 4.83, topic-background-brief 4.89); all research skill Consistency checks passed
 
