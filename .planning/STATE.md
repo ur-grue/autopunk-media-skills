@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v2.0
 milestone_name: milestone
-current_phase: 02-priority-skills-stable
+current_phase: 02 — priority-skills-stable
 current_plan: 02-04-PLAN.md (COMPLETE)
 status: in_progress
-stopped_at: Completed 02-04-PLAN.md
-last_updated: "2026-03-19T09:00:00.000Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-19T09:02:08.218Z"
 progress:
   total_phases: 6
   completed_phases: 1
   total_plans: 9
-  completed_plans: 5
+  completed_plans: 3
 ---
 
 # Project State
@@ -51,6 +51,6 @@ progress:
 - Phase 2 / Plan 04: interview-question-catalogue, photo-caption-writer written to beta; fact-check-prompt framing corrected
 
 ## Last Session
-- **Stopped at:** Completed Phase 2 / 02-04-PLAN.md
+- **Stopped at:** Completed 02-01-PLAN.md
 - **Duration:** ~8 minutes
 - **Date:** 2026-03-19

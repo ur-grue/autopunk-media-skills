@@ -93,7 +93,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. atomic-journalism-taxonomy | 1/1 | Complete | 2026-03-17 |
-| 2. priority-skills-stable | 0/TBD | Not started | - |
+| 2. priority-skills-stable | 3/8 | In Progress|  |
 | 3. research-skills-stable | 0/TBD | Not started | - |
 | 4. writing-skills-stable | 0/TBD | Not started | - |
 | 5. editing-localization-stable | 0/TBD | Not started | - |
