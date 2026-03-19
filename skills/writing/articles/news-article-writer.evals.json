@@ -1,5 +1,46 @@
 {
   "skill_name": "news-article-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.83,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Local government vote: city council approves 12.6km cycling lane network 7-4, £2.1m active travel grant, two attributed quotes, 350 words, regional newspaper",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Business/economic: regional airport announces Frankfurt route, £4.2m economic impact projection, 180 indirect jobs, 400 words, regional business press",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": 3,
+      "input_summary": "Public safety: gas leak forces evacuation of 34 residents, one hospitalised as precaution, leak sealed within 4 hours, 300 words, local news",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

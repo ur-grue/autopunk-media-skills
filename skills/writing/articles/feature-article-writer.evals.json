@@ -1,5 +1,46 @@
 {
   "skill_name": "feature-article-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.83,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Environmental story: river restoration project returns salmon to biologically dead waterway after 37 years, 600 words, magazine feature",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Tech/education piece: free coding bootcamp for unemployed adults over 40, 61% employment rate, funding gap approaching, 800 words, digital longform",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5
+    },
+    {
+      "id": 3,
+      "input_summary": "Human-interest: dementia choir at care home, music memory research, carer-mother relationship, first public performance, 500 words, warm tone",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }
