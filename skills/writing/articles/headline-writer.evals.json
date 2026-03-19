@@ -1,5 +1,46 @@
 {
   "skill_name": "headline-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Breaking news — government announces £28bn emergency offshore wind fund with 50GW target by 2035, 40,000 new jobs; environmental groups criticise absence of onshore wind provision. Target: national broadsheet, print and web.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Human-interest feature — 12 volunteers with no professional experience transform derelict Victorian mill into working community arts centre over 6 years, funded entirely by crowdfunding and donated labour. Target: regional magazine, print.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "Opinion column — local news consolidation under two major media groups is structurally destroying original local journalism through cost-cutting logic; columnist argues for public funding model. Target: national digital news outlet, opinion section.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

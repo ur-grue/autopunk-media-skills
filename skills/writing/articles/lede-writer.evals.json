@@ -1,5 +1,46 @@
 {
   "skill_name": "lede-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.94,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Hard news — Northfield Borough Council votes 11-4 to close all three public libraries by end of financial year, £1.4m budget shortfall, 23,000 monthly visitors affected. Target: regional daily newspaper.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Feature — 34 Scottish Highlands hill-farming families adopt precision agricultural technology (satellite sensors, drones, weather monitoring), cutting costs 22% in two years; oldest participant is 71, many had never used smartphones before. Target: national farming magazine.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": 3,
+      "input_summary": "Analysis — university research shows pupils who change schools between ages 11-16 score 8.3 grade points lower in GCSEs; effect strongest in Year 10-11; researchers link cause to housing benefit rules that move families across local authority boundaries. Target: national newspaper education supplement.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }
