@@ -7,7 +7,7 @@ Build the most comprehensive Claude skill library for media professionals. v2.0 
 ## Phases
 
 - [x] **Phase 1: atomic-journalism-taxonomy** - Create all 204 skill stubs + new folder structure
-- [ ] **Phase 2: priority-skills-stable** - Develop top-20 universal skills to stable
+- [x] **Phase 2: priority-skills-stable** - Develop top-20 universal skills to stable (completed 2026-03-19)
 - [ ] **Phase 3: research-skills-stable** - Develop all research/ skills to stable
 - [ ] **Phase 4: writing-skills-stable** - Develop all writing/ skills to stable
 - [ ] **Phase 5: editing-localization-stable** - Develop editing/ + translation-localization/ to stable
@@ -93,7 +93,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. atomic-journalism-taxonomy | 1/1 | Complete | 2026-03-17 |
-| 2. priority-skills-stable | 7/8 | In Progress|  |
+| 2. priority-skills-stable | 8/8 | Complete   | 2026-03-19 |
 | 3. research-skills-stable | 0/TBD | Not started | - |
 | 4. writing-skills-stable | 0/TBD | Not started | - |
 | 5. editing-localization-stable | 0/TBD | Not started | - |
