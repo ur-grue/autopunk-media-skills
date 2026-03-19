@@ -5,13 +5,13 @@ milestone_name: milestone
 current_phase: 02 — priority-skills-stable
 current_plan: 02-04-PLAN.md (COMPLETE)
 status: in_progress
-stopped_at: Completed 02-01-PLAN.md
-last_updated: "2026-03-19T09:02:08.218Z"
+stopped_at: Completed 02-02-PLAN.md
+last_updated: "2026-03-19T09:02:35.653Z"
 progress:
   total_phases: 6
   completed_phases: 1
   total_plans: 9
-  completed_plans: 3
+  completed_plans: 4
 ---
 
 # Project State
@@ -42,6 +42,9 @@ progress:
 - Overlap notes in Related Skills section of overlapping stubs
 - Skills already at stable are not downgraded to beta — plan targets treated as minimums
 - fact-check-prompt framed as VERIFICATION CHECKLIST generator, not automated verifier
+- [Phase 02]: proofreader uses numbered change log pattern for transparent, author-reviewable corrections
+- [Phase 02]: copy-editor separates edited text from editorial note — substantive issues flagged, not silently rewritten
+- [Phase 02]: Three reusable output patterns established: change log, editorial note, tone shift note
 
 ## Completed Plans
 - Phase 1 / Plan 01: atomic-journalism-taxonomy — 204 skill stubs created across 11 new folders
@@ -51,6 +54,6 @@ progress:
 - Phase 2 / Plan 04: interview-question-catalogue, photo-caption-writer written to beta; fact-check-prompt framing corrected
 
 ## Last Session
-- **Stopped at:** Completed 02-01-PLAN.md
+- **Stopped at:** Completed 02-02-PLAN.md
 - **Duration:** ~8 minutes
 - **Date:** 2026-03-19
