@@ -134,11 +134,13 @@ The economics are also challenging. The average cost per unit of adaptive reuse 
 ---
 
 ## Known Limitations
-- This skill identifies and categorizes checkable claims — it does not perform the verification itself. Claude does not have access to real-time databases, subscription research services, or government data portals. Every item on the checklist requires a human fact-checker to verify against primary sources.
+- This skill produces a VERIFICATION CHECKLIST, not verified facts. Claude does not check claims against external databases, call sources, or access current records. The checklist tells a human fact-checker what to verify and how — the human must execute the checks.
 - For direct quotes attributed to named sources, this skill flags them for verification but cannot confirm whether a source actually said the words in the draft. That requires the original recording or notes.
 - Opinion pieces and columns present a different fact-checking standard than reported pieces. For opinion, only reported elements (statistics, named facts, attributions) require verification — the author's argument and interpretation do not.
+- The skill may miss claims phrased as implications rather than direct assertions — review the checklist against the draft to ensure implied factual claims are also captured.
 
 ## Related Skills
 - [copy-editor-assistant](../editing/copy-editor-assistant.md)
 - [house-style-enforcer](../editing/house-style-enforcer.md)
+- [claim-fact-checker](../../research/facts-context/claim-fact-checker.md)
 - [research-brief-creator](../ideation/research-brief-creator.md)
