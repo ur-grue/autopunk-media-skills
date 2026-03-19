@@ -1,5 +1,58 @@
 {
   "skill_name": "photo-caption-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-19",
+  "overall_mean": 4.89,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 4.67,
+    "fluency": 5.0,
+    "relevance": 4.67,
+    "professionalism": 5.0,
+    "actionability": 5.0
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "News photo: wide shot of approximately 200 protesters in front of city hall holding handwritten signs reading 'Save Our School' and 'No Cuts', police visible in background. Story: community demonstration against proposed budget cuts affecting 3 schools and 1,200 students. Web news article. Credit: Maya Sutherland, staff.",
+      "output_summary": "Two-part news caption in correct tense format. Present-tense visual description followed by past/context sentence linking to the budget cuts story. Credit line formatted correctly. Verification flags for crowd estimate sourcing and sign text accuracy. No emotional descriptors used. No assumptions about intentions of protesters.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": "tc-002",
+      "input": "Documentary still: four elderly women sitting around a folding table covered in fabric swatches, in discussion, one gesturing at fabric. Community centre signage visible. Press kit use for long-form documentary on traditional textile craft preservation. No credit line.",
+      "output_summary": "Adapted correctly to documentary/press kit register — slightly more literary than hard news. Two-part caption structure maintained. Observational description without emotional inference. Verification flags correctly identified consent/release as a press kit distribution concern. Minor: release note slightly outside core captioning scope but practically valuable.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": "tc-003",
+      "input": "Magazine feature lead photo: close-up portrait of a woman working at an industrial loom, natural light from left, hands visible on machinery. Feature on revival of small-scale rural manufacturing. Magazine print, long-form. Credit: Paulo Reis, freelance.",
+      "output_summary": "Caption correctly calibrated to magazine register — slightly more expansive than hard news. Lead photo context handled appropriately. Credit line formatted correctly. Verification flags identified the 'past five years' temporal claim as requiring sourcing before publication. All names correctly flagged for consent. Output meets magazine print standards.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 4.83
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "skill_name": "fact-check-prompt",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.4,
   "dimension_means": {
