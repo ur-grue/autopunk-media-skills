@@ -1,10 +1,10 @@
 ---
 name: interview-question-catalogue
-status: beta
+status: stable
 category: pre-production
 subcategory:
 version: 1.0
-eval_score: null
+eval_score: 4.8
 tags: [interview, pre-production, journalism, podcast, documentary, questions]
 ---
 

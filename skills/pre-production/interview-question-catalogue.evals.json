@@ -1,5 +1,58 @@
 {
   "skill_name": "interview-question-catalogue",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "eval_date": "2026-03-19",
+  "overall_mean": 4.78,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 4.67,
+    "fluency": 5.0,
+    "relevance": 4.67,
+    "professionalism": 5.0,
+    "actionability": 4.33
+  },
+  "test_cases": [
+    {
+      "id": "tc-001",
+      "input": "Podcast interview with a climate scientist at a major research institution. Topic: Recent findings on methane emissions from permafrost thaw and their implications for climate projections. Format: podcast, 20 minutes, lightly edited. Tone: Collaborative. Outcomes: clear explanation for general audience, one surprising finding, personal stake in the work.",
+      "output_summary": "Produced 4 thematic blocks moving from background to research findings to implications to personal dimension. Questions in spoken register throughout. [MUST-ASK] tags on core findings and implications questions. Closing question invited unrehearsed personal reflection. All 18 questions open-ended. Sensitive uncertainty questions had alternative phrasings. Pacing appropriate for 20-minute podcast.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": "tc-002",
+      "input": "TV interview with a local city councillor responsible for housing policy. Topic: New housing strategy critics say will displace low-income renters. Format: TV news, 10 minutes, will be edited. Tone: Adversarial — councillor under scrutiny. Outcomes: response to displacement criticism, timeline accountability, acknowledgement of trade-offs.",
+      "output_summary": "Adversarial framing correctly reflected across 3 blocks (context, displacement challenge, accountability). [MUST-ASK] on displacement response and timeline. Alternative phrasings provided for direct challenges. Questions are short and TV-ready. Closing invites acknowledgement of trade-offs. Minor: 10-minute constraint not explicitly addressed in sequencing guidance.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": "tc-003",
+      "input": "Magazine profile interview with a documentary filmmaker. Topic: New film on stateless people living in legal limbo, and her working process. Format: print/magazine, 30 minutes, collaborative. Outcomes: personal origin story for the film, craft and process, relationship with subjects, future direction.",
+      "output_summary": "5 thematic blocks covering origins, subjects, craft, film itself, future. Questions longer and more discursive — appropriate for magazine register. [MUST-ASK] on why this subject, what happened to filmed subjects, hardest moment, next project. Closing maximally open-ended. 22 questions total. Minor: craft block slightly overweighted relative to human story dimension.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    }
+  ]
 }
