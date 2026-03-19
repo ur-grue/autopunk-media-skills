@@ -1,5 +1,46 @@
 {
   "skill_name": "proofreader",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "News brief with six grammar and spelling errors including subject-verb agreement, wrong homophone, and apostrophe misuse",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Feature article with systematic British-to-American spelling inconsistencies across six words (programme, neighbourhoods, councillors, organisations, endeavours, centre)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "Opinion column with deliberate sentence fragments and informal register — intentional style choices correctly preserved with no corrections made",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }

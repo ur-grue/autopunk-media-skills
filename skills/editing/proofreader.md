@@ -1,10 +1,10 @@
 ---
 name: proofreader
-status: beta
+status: stable
 category: editing
 subcategory:
 version: 1.0
-eval_score: null
+eval_score: 5.0
 tags: [editing, proofreading, grammar, spelling, punctuation, journalism, quality]
 ---
 

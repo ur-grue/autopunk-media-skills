@@ -1,5 +1,46 @@
 {
   "skill_name": "copy-editor",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 5.0,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Single-sentence academic paragraph on childhood obesity and socioeconomic status adapted for general news web audience",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "Multi-author report on media trust with tense inconsistency, redundant attribution phrases, and style variation",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "French-translated article about a new train station with unnatural phrasing, passive constructions, and non-standard currency format",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0
+    }
+  ]
 }
