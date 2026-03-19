@@ -1,5 +1,49 @@
 {
   "skill_name": "topic-background-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.89,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Tram line extension investigation: deliberately unstructured notes including potential developer-council conflict of interest, budget discrepancy (£67m vs £78m), alternative routes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained only information from provided notes; budget discrepancy and conflict-of-interest flagged explicitly as contradictions/open questions — not resolved or augmented"
+    },
+    {
+      "id": 2,
+      "input_summary": "Public health policy: regional authority ending smoking cessation services, unstructured notes with uncertain dates, unverified rumour about tender process",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67,
+      "consistency_note": "Output added no information from general knowledge; unverified rumour about tender process correctly flagged as unconfirmed, not included as fact"
+    },
+    {
+      "id": 3,
+      "input_summary": "Arts funding controversy: grassroots organisations vs flagship institutions, rough notes with missing names, quote from affected theatre director",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained only provided information; missing names (campaign group, arts council chair's public response) correctly flagged as gaps to fill"
+    }
+  ]
 }

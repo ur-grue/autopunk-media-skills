@@ -1,5 +1,49 @@
 {
   "skill_name": "expert-identifier",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.89,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Health policy story: colorectal cancer screening uptake gaps in South Asian and Black British communities — medical, policy, and community expert categories needed",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained no named individuals — all expert profiles described by credential type and institutional category only"
+    },
+    {
+      "id": 2,
+      "input_summary": "Tech investigation: AI recruitment tools and algorithmic bias — technical, legal, and HR practitioner expert categories needed",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67,
+      "consistency_note": "Output contained no named individuals — sourcing strategy only; no fabricated expert credentials"
+    },
+    {
+      "id": 3,
+      "input_summary": "Environmental feature: beaver reintroduction in Scottish rivers — conservation science, land management, and community impact expert categories needed",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained no named individuals — institutional categories and search approaches only"
+    }
+  ]
 }

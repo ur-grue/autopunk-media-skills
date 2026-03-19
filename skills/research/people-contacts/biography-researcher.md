@@ -1,10 +1,10 @@
 ---
 name: biography-researcher
-status: beta
+status: stable
 category: research
 subcategory: people-contacts
 version: 1.0
-eval_score: null
+eval_score: 4.83
 tags: [research, biography, interview-prep, journalism, pre-production, due-diligence]
 ---
 

@@ -1,5 +1,49 @@
 {
   "skill_name": "biography-researcher",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.83,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Profile: newly appointed Vice-Chancellor with Indigenous Australian background and postcolonial studies expertise — higher education trade publication",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained no fabricated biographical facts — all content structured as research categories, source types, and questions based on input provided"
+    },
+    {
+      "id": 2,
+      "input_summary": "Podcast prep: logistics automation startup CEO with working-class background, views on automation and labour displacement — entrepreneurship podcast",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.5,
+      "consistency_note": "Output contained no fabricated biographical facts; questions were slightly more generic due to limited input — consistent with Known Limitations"
+    },
+    {
+      "id": 3,
+      "input_summary": "Tribute article: retiring NHS Chief Medical Officer after 22 years, patient safety record, public positions on funding — health trade magazine",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "case_mean": 5.0,
+      "consistency_note": "Output contained no fabricated biographical facts — template organised around what was provided in input, flagged items to verify"
+    }
+  ]
 }

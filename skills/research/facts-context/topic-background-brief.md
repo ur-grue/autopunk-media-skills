@@ -1,10 +1,10 @@
 ---
 name: topic-background-brief
-status: beta
+status: stable
 category: research
 subcategory: facts-context
 version: 1.0
-eval_score: null
+eval_score: 4.89
 tags: [research, background, briefing, journalism, pre-production, organisation]
 ---
 

@@ -1,10 +1,10 @@
 ---
 name: expert-identifier
-status: beta
+status: stable
 category: research
 subcategory: people-contacts
 version: 1.0
-eval_score: null
+eval_score: 4.89
 tags: [research, sourcing, experts, journalism, pre-production, investigation]
 ---
 
