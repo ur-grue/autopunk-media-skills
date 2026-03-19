@@ -1,42 +1,63 @@
 ![autopunk-media-skills](.github/banner.svg)
 
-![Skills](https://img.shields.io/badge/skills-140_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Stable skills](https://img.shields.io/badge/skills-195_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-121-555555?style=flat-square) ![Planned](https://img.shields.io/badge/planned-61-333333?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+
+**AI for media that matters.**
 
 ---
 
-## What Is This?
+## What is this?
 
-This is a free collection of **Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for media production work.
+A free library of Claude skills for media professionals. Not a software product. Not a subscription. A collection of ready-to-use instructions that turn Claude into a specialist for specific production tasks.
 
-Think of each skill as hiring an expert collaborator for one specific task: writing a pitch treatment, generating SEO-optimized YouTube titles, cleaning up an interview transcript, or building a cinematic image prompt from scratch.
+Each skill covers one job: writing a pitch treatment, generating SEO titles for YouTube, cleaning an interview transcript, building a cinematic image prompt, drafting a press release. You paste the skill into Claude, give it your material, and get professional-grade output.
 
-**No coding required. No technical knowledge needed.** Pick a skill, give Claude what it needs, and get professional-grade output.
+No coding. No setup. No new system to learn.
 
----
-
-## Who Is This For?
-
-- **TV documentary producers** — development, pre-production, scripting, post-production, localization, business
-- **Magazine journalists** — story ideation, writing, editing, investigation, fact-checking, legal
-- **YouTube creators** — pre-production, scripting, post-production, channel strategy, business, analytics
-- **Podcast producers** — episode planning, scripting, show notes, sponsorship
-- **Visual content creators** — image prompts for Midjourney, Flux, and art direction workflows
-- **Media business** — pitching broadcasters, fundraising, distribution, rights clearance
-- **Social media managers** — captions, threads, carousels, platform strategy
-- **Radio journalists and producers** — bulletins, packages, two-ways, running orders, broadcaster pitches
-- **Newsletter writers** — editions, subject lines, subscriber growth, paid conversions, sponsorship
-- **PR and communications professionals** — press releases, crisis statements, spokesperson briefs, op-eds
-- **Screenwriters** — treatments, beat sheets, scene writing, script notes, coverage
+There are currently **195 stable skills** across 16 categories — each tested against a six-dimension quality standard before reaching that status. Another 121 are in beta, and 61 are in development.
 
 ---
 
-## Quick Start
+## Who it's for
 
-**Copy this into Claude right now and see what you get.**
+**By what you make:**
 
-This example uses the `hook-generator` skill from `skills/youtube/pre-production/hook-generator.md`.
+- TV documentary producers — development, scripting, pre-production, post, localization, business
+- Magazine and newspaper journalists — research, writing, editing, investigation, fact-checking, legal
+- YouTube creators — pre-production, scripting, post-production, channel strategy, analytics
+- Podcast producers — episode planning, scripting, show notes, sponsorship
+- Visual content creators — image prompts for Midjourney, Flux, and art direction workflows
+- Media business teams — pitching, fundraising, distribution, rights clearance
+- Social media managers — captions, threads, carousels, platform strategy
 
-### What you paste into Claude:
+**By what you're doing right now:**
+
+- Researching — find experts, verify claims, trace sources, scout locations, review papers
+- Pre-production — write pitches, call sheets, interview questions, release forms
+- Writing — articles, scripts, social posts, press releases, institutional documents
+- Editing — proofread, copy-edit, check tone, flag libel risk, harmonise multi-author copy
+- Translating — articles, quotes, subtitles, voice-over scripts, with cultural adaptation
+- Working with data — clean datasets, find the story, write chart text, explain methodology
+- Legal and compliance — rights clearance, GDPR notes, copyright checks, CMS metadata
+- Distribution — define audience, write A/B variants, schedule publication, respond to readers
+
+---
+
+## How to use a skill
+
+1. **Find the skill you need** in the `skills/` folder — browse by format and production stage, or use the directory table below
+2. **Open the skill file** and read the "What You Need To Provide" section — it tells you exactly what to bring
+3. **Paste the skill into Claude** along with your material, following the worked example at the bottom of each file
+
+That's it. Claude handles the rest.
+
+---
+
+## Try it now
+
+Here's a real example using `hook-generator` from `skills/youtube/pre-production/`. Copy this into Claude and see what comes back.
+
+**What you paste:**
 
 ```
 You are a YouTube hook specialist. Your job is to write the first 15–30 seconds
@@ -55,11 +76,11 @@ Write 3 alternative hooks. For each: write the full script, then a one-line note
 explaining the psychological mechanism it uses.
 ```
 
-### What Claude gives you:
+**What Claude gives you:**
 
 ---
 
-**Hook A — The Broken Promise**
+**Hook A — The broken promise**
 
 "Every language app, every tutor, every Reddit thread told you the same thing: immerse yourself. Surround yourself with the language. Just listen. Just watch. Just live it.
 
@@ -71,7 +92,7 @@ Here's what they didn't tell you — and what the research has known since 1985.
 
 ---
 
-**Hook B — The Number**
+**Hook B — The number**
 
 "94% of adult language learners plateau within six months. Not because they quit. Because they're doing the one thing every expert recommends — and it is actively working against how the adult brain acquires language.
 
@@ -81,7 +102,7 @@ The science on this is twenty years old. Nobody taught it to you."
 
 ---
 
-**Hook C — The Confession**
+**Hook C — The confession**
 
 "I spent three years living in a country where I didn't speak the language. By the end, I could order coffee and ask for directions. That's it. Three years.
 
@@ -91,80 +112,69 @@ Turns out, immersion without one specific ingredient is just expensive confusion
 
 ---
 
-That's the quality level you get from every stable skill in this library.
+That's the output level you get from every stable skill in this library.
 
 ---
 
-## What's In The Library
+## The skill directory
 
-| Category | Skills | What It Covers |
+| Category | Skills | What it covers |
 |----------|--------|----------------|
-| TV Documentary | 21 skills | development · pre-production · scripting · post-production · localization · business |
-| Magazine Journalism | 22 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
-| YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
-| Podcast | 12 skills | pre-production · scripting · post-production · business |
-| Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
-| Media Business | 13 skills | pitching · distribution · funding · legal |
-| Social Media | 7 skills | content · strategy |
-| Radio / Audio | 9 skills | scripting · news packages · production · strategy |
-| Newsletter | 10 skills | writing · strategy · growth · monetization |
-| PR / Communications | 9 skills | press office · crisis comms · media relations · content |
-| Screenwriting | 9 skills | development · scripting · revision · production |
-| Data Journalism | 13 skills | analysis · visualization · investigation · publishing |
-| **Total** | **153 skills** | |
+| Research | 60 | People and contacts, facts and context, data and statistics, scientific and academic literature, locations and logistics, media and competitive analysis |
+| Writing | 68 | Articles (all formats), broadcast scripts, digital and social copy, institutional documents |
+| TV documentary | 21 | Development, scripting, pre-production, post-production, localization, business |
+| Magazine journalism | 21 | Ideation, writing, editing, investigation, fact-checking, legal, distribution |
+| YouTube | 18 | Pre-production, scripting, post-production, channel strategy, business, analytics |
+| Pre-production | 14 | Pitches, call sheets, interview questions, rights checks, glossaries |
+| Media business | 13 | Pitching, distribution, funding, legal |
+| Podcast | 12 | Pre-production, scripting, show notes, sponsorship |
+| Editing | 16 | Proofreading, copy editing, style checks, tone, multi-author harmonisation |
+| Data journalism | 17 | Analysis, investigation, visualization, publishing, methodology |
+| Image prompting | 10 | Midjourney, Flux, art direction, image workflows |
+| Archive and legal | 10 | Rights clearance, GDPR, copyright, CMS metadata |
+| Production support | 10 | Formatting, layout, transcripts, credits |
+| Audience and distribution | 9 | Audience targeting, A/B tests, reader engagement, scheduling |
+| Social media | 7 | Content creation, platform strategy |
+| Translation and localization | 8 | Articles, quotes, subtitles, voice-over scripts |
 
-Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
+Browse the full library in the `skills/` folder. Skills are organized by category, then by production stage.
 
 ---
 
-## Quality Badges
+## What the quality badges mean
 
-Every skill displays a status badge so you know exactly how production-ready it is.
+Every skill carries a status badge. Here's what each one means in practice.
 
-| Badge | Status | What It Means |
+| Badge | Status | What it means |
 |-------|--------|---------------|
-| 🔲 `planned` | Coming soon | On the roadmap but not written yet |
+| 🔲 `planned` | On the roadmap | File exists as a placeholder — skill not yet written |
 | 🟡 `draft` | Written, not tested | Do not use in production |
 | 🔵 `beta` | Tested at least once | Usable — may have rough edges |
-| ✅ `stable` | Scored ≥ 4.0/5 on quality eval | Safe to use without supervision |
+| ✅ `stable` | Passed quality evaluation | Safe to use without supervision |
 
-Only skills that pass a rigorous six-dimension quality evaluation earn `stable` status. The evaluation tests coherence, consistency, fluency, relevance, professionalism, and actionability — scored by Claude against a rubric aligned to real media industry standards.
+**How a skill earns `stable` status:** it's tested using a six-dimension quality evaluation — coherence, consistency, fluency, relevance, professionalism, and actionability — each scored 1 to 5. A skill needs a mean score of 4.0 or higher across all six dimensions to reach `stable`. In practical terms, that means the output is good enough to hand to an editor or a commissioner without apologizing for it.
 
-See `tests/EVAL_FRAMEWORK.md` for the full process.
-
----
-
-## Example Outputs
-
-Three short examples showing the quality standard across different categories. Each is a real output from the skill, generated with a generic input.
+The full evaluation protocol is in `tests/EVAL_FRAMEWORK.md`. If you've used a skill and it gave you something below that standard, report it via a GitHub Issue — that's how the quality bar stays real.
 
 ---
 
-### Hook · `hook-generator` · YouTube
+## More example outputs
 
-**Input:** Video about why open-plan offices hurt deep work. Audience: knowledge workers. Tone: research-backed, not ranty.
-
-**Output:**
-
-> "Stanford published a study in 2023 that should have ended the open-plan office debate permanently. It didn't — because the real estate industry has a $2.3 trillion reason to ignore it. Here's what they found, and what it means for every hour you've spent trying to think in a glass box."
+Three outputs across different categories, to give you a feel for the range.
 
 ---
 
-### Logline · `logline-creator` · TV Documentary
+**Logline — `logline-creator` — TV documentary**
 
-**Input:** Feature documentary about a team of forensic archivists who recover destroyed government records from degraded magnetic tape.
-
-**Output:**
+Input: Feature documentary about a team of forensic archivists recovering destroyed government records from degraded magnetic tape.
 
 > "In a basement lab outside Washington, three archivists race to recover government records that were officially destroyed — before the statute of limitations runs out on the people who ordered the erasure."
 
 ---
 
-### Press Release Opening · `press-kit-generator` · TV Documentary
+**Press release opening — `press-kit-generator` — TV documentary**
 
-**Input:** Nature documentary series, six parts, following migrating bird species across three continents. Tone: prestigious, PBS-adjacent.
-
-**Output:**
+Input: Nature documentary series, six parts, following migratory bird species across three continents. Tone: prestigious, PBS-adjacent.
 
 > "Seven years in production. Forty-two filming locations across three continents. One question that ornithologists have debated for a century: where do they actually go?
 >
@@ -172,27 +182,30 @@ Three short examples showing the quality standard across different categories. E
 
 ---
 
-## How To Use A Skill
+**Research brief opening — `facts-context` category — journalism**
 
-1. **Find the skill you need** in the `skills/` folder — browse by media format and production stage
-2. **Open the skill file** and read the "What You Need To Provide" section
-3. **Paste the skill into Claude** along with your material, following the example at the bottom of the file
+Input: Brief on the economic history of lithium mining in South America, for a 20-minute current affairs documentary.
 
-That's it. Claude handles the rest.
+> "Lithium sits beneath the salt flats of Argentina, Bolivia, and Chile — a region now called the Lithium Triangle, holding an estimated 58% of the world's known lithium reserves. The mineral has been commercially extracted from the region since the early 1980s, initially for industrial ceramics and lubricants. Demand remained steady and unremarkable until approximately 2008, when the electric vehicle market began its first serious growth phase.
+>
+> Three things changed simultaneously after 2015: EV manufacturing scaled faster than almost any analyst had forecast, battery chemistry standardized around lithium-ion, and the geopolitical value of controlling supply chains became obvious to governments that had previously ignored the sector entirely."
 
 ---
 
-## How To Contribute
+## How to contribute
 
-Got an idea for a skill? Found one that gave bad output? Want to improve an existing skill?
+Got an idea for a skill that's missing? Found one that gave you bad output?
 
-See `CONTRIBUTING.md` — there's a plain-English section at the top written for non-developers.
+See `CONTRIBUTING.md` — it has a plain-English section at the top for non-developers.
 
-Short version:
-1. Open a GitHub Issue describing the skill you want
-2. The concept is reviewed and approved
-3. The skill is written using `SKILL_TEMPLATE.md`
+The short version:
+
+1. Open a GitHub Issue describing the skill you want, or the problem you found
+2. The concept is discussed and confirmed
+3. The skill is written using the standard template in `SKILL_TEMPLATE.md`
 4. It goes through quality testing before it's marked `stable`
+
+The quality bar is real. A skill doesn't ship as stable until it passes. That's the point.
 
 ---
 
@@ -200,4 +213,4 @@ Short version:
 
 MIT — free to use, fork, and adapt. See `LICENSE`.
 
-Maintained by [Ur-grue](https://github.com/ur-grue).
+Maintained by [Ur-grue](https://github.com/ur-grue) — autopunk · AI for media that matters.
