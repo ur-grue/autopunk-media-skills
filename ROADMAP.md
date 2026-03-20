@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 115 stable · 0 beta · 0 draft · 34 planned · 149 total
+**Summary:** 155 stable · 0 beta · 0 draft · 74 planned · 229 total
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -23,6 +23,10 @@ All skills are listed by category and subcategory. Update this file every sessio
 | archival-footage-brief | Produce a brief for archive research specifying footage, photos, or documents needed | ✅ stable (4.3/5) |
 | subject-research-brief | Generate a structured research brief on a documentary subject before filming | ✅ stable (4.4/5) |
 | production-schedule-writer | Write a structured production schedule organised by shooting day | ✅ stable (4.3/5) |
+| call-sheet-writer | Draft a production call sheet with crew, talent, location, schedule, and contacts | 🔲 planned |
+| production-budget-estimator | Produce a line-item budget estimate for a production element | 🔲 planned |
+| location-request-letter | Write a formal letter requesting filming permission at a location | 🔲 planned |
+| equipment-list-generator | Compile a packing and equipment list for a specific shoot scenario | 🔲 planned |
 
 ### scripting
 | Skill | Description | Status |
@@ -31,6 +35,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | commentary-writer | Write narration or commentary for a sequence given picture and research | ✅ stable (4.5/5) |
 | interview-question-generator | Generate a targeted interview question set for a specific subject and angle | ✅ stable (4.5/5) |
 | narrator-voice-adapter | Rewrite narration to match a defined presenter or narrator voice | ✅ stable (4.4/5) |
+| animated-explainer-script | Write narration and on-screen text for an animated explainer video | 🔲 planned |
 
 ### post-production
 | Skill | Description | Status |
@@ -38,6 +43,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | rough-cut-notes | Produce structured editorial notes from a rough cut description | ✅ stable (4.4/5) |
 | subtitles-rewriter | Reformat and tighten subtitle text for timing, readability, and clarity | ✅ stable (4.4/5) |
 | press-kit-generator | Generate a complete press kit from a documentary synopsis and key facts | ✅ stable (4.4/5) |
+| transcript-timecoder | Add timecodes to a transcript at speaker changes for broadcast production use | 🔲 planned |
 
 ### localization
 | Skill | Description | Status |
@@ -71,6 +77,14 @@ All skills are listed by category and subcategory. Update this file every sessio
 | column-voice-adapter | Rewrite or draft a column passage in a defined author's established voice | ✅ stable (4.4/5) |
 | interview-transcript-editor | Clean, tighten, and restructure an interview transcript for publication | ✅ stable (4.5/5) |
 | sidebar-fact-box-writer | Write a structured fact box or sidebar to accompany a feature article | ✅ stable (4.4/5) |
+| lede-writer | Write three opening paragraph options using different lede styles | 🔲 planned |
+| news-article-writer | Write body text of a news article in inverted-pyramid structure | 🔲 planned |
+| profile-writer | Write a magazine-style profile piece from interview notes and background | 🔲 planned |
+| review-writer | Write a critical review of a book, film, exhibition, or performance | 🔲 planned |
+| photo-caption-writer | Write publication-standard photo captions with identification and credit | 🔲 planned |
+| alt-text-writer | Write descriptive alt text for editorial images following accessibility best practices | 🔲 planned |
+| article-summary-writer | Write a summary, abstract, or TL;DR for a completed article | 🔲 planned |
+| glossary-builder | Create a glossary of key terms for a topic, formatted for publication | 🔲 planned |
 
 ### editing
 | Skill | Description | Status |
@@ -78,6 +92,15 @@ All skills are listed by category and subcategory. Update this file every sessio
 | copy-editor-assistant | Flag grammatical, style, and consistency issues with suggested corrections | ✅ stable (4.5/5) |
 | fact-check-prompt | Generate a systematic fact-checking checklist for a draft article | ✅ stable (4.4/5) |
 | house-style-enforcer | Review copy against a defined house style guide and flag all deviations | ✅ stable (4.4/5) |
+| editor-note-writer | Write editor's notes for corrections, clarifications, or editorial circumstances | 🔲 planned |
+| pull-quote-selector | Identify and extract the strongest pull quotes from a completed article | 🔲 planned |
+| text-condenser | Shorten an article to a target word count preserving key information and voice | 🔲 planned |
+| text-expander | Expand a short text with additional detail and context while maintaining tone | 🔲 planned |
+| structure-checker | Review a draft for logical flow, coherence, redundancies, and suggest reordering | 🔲 planned |
+| jargon-flagger | Scan a draft and flag technical jargon and acronyms a general audience wouldn't understand | 🔲 planned |
+| passive-voice-checker | Identify passive voice overuse and suggest active-voice alternatives | 🔲 planned |
+| version-comparator | Compare two versions of a text, highlighting substantive changes | 🔲 planned |
+| multi-author-harmonizer | Review multi-author text and edit for consistent voice, tone, and terminology | 🔲 planned |
 
 ### investigation
 | Skill | Description | Status |
@@ -224,6 +247,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 | series-pitch-deck-writer | Write the narrative content for a series pitch deck for broadcasters or platforms | ✅ stable (4.5/5) |
 | elevator-pitch-writer | Write a tight 60-second verbal pitch for a media project | ✅ stable (4.4/5) |
 | cold-outreach-email-writer | Write a cold outreach email to a broadcaster, distributor, or platform executive | ✅ stable (4.4/5) |
+| award-submission-writer | Write a competition or award submission text for a judging panel | 🔲 planned |
+| collaboration-proposal-writer | Write a co-production or editorial partnership proposal | 🔲 planned |
 
 ### distribution
 | Skill | Description | Status |
@@ -246,6 +271,10 @@ All skills are listed by category and subcategory. Update this file every sessio
 | rights-clearance-checklist | Generate a rights clearance checklist covering music, archive footage, and releases | ✅ stable (4.4/5) |
 | licensing-brief-writer | Write a brief summarising licensing requirements for a specific piece of content | ✅ stable (4.4/5) |
 | release-form-writer | Draft a plain-language talent or location release form for production use | ✅ stable (4.3/5) |
+| copyright-holder-finder | Produce a research plan for identifying the copyright holder of content | 🔲 planned |
+| creative-commons-explainer | Summarize Creative Commons license terms in plain language | 🔲 planned |
+| gdpr-data-handling-note | Draft a GDPR-compliant data handling notice for journalistic projects | 🔲 planned |
+| source-bibliography-compiler | Compile a formatted source list or bibliography from research notes | 🔲 planned |
 
 ---
 
@@ -258,6 +287,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 | thread-writer | Write a structured Twitter/X thread expanding on a media story or argument | ✅ stable (4.4/5) |
 | carousel-script-writer | Write copy for a multi-slide Instagram or LinkedIn carousel post | ✅ stable (4.4/5) |
 | short-form-video-brief | Write a brief for a 15–60 second short-form video for TikTok, Reels, or Shorts | ✅ stable (4.4/5) |
+| push-notification-writer | Write concise push notification text for news apps | 🔲 planned |
+| seo-meta-description-writer | Write SEO-optimized meta descriptions for web articles | 🔲 planned |
 
 ### strategy
 | Skill | Description | Status |
@@ -265,6 +296,8 @@ All skills are listed by category and subcategory. Update this file every sessio
 | platform-strategy-brief | Write a platform strategy brief for a media brand on a specific social platform | ✅ stable (4.3/5) |
 | hashtag-strategy-writer | Generate a tiered hashtag strategy with niche, mid-range, and broad tags | ✅ stable (4.3/5) |
 | cross-promotion-pitch | Write a cross-promotion pitch to another creator proposing a collaborative swap | ✅ stable (4.4/5) |
+| tag-keyword-generator | Generate tags and keywords optimized for platform discoverability | 🔲 planned |
+| ab-social-post-tester | Generate A/B test variants of social media posts for performance testing | 🔲 planned |
 
 ---
 
@@ -273,29 +306,30 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### scripting
 | Skill | Description | Status |
 |-------|-------------|--------|
-| bulletin-script-writer | Write a broadcast-ready radio news bulletin script from raw story notes | 🔲 planned |
-| presenter-link-writer | Write natural, conversational presenter links to introduce, bridge, and close segments | 🔲 planned |
-| documentary-narration-writer | Write narration for a radio or audio documentary | 🔲 planned |
-| interview-cue-sheet-writer | Produce a formatted radio interview cue sheet with intro, questions, and out-cue | 🔲 planned |
+| bulletin-script-writer | Write a broadcast-ready radio news bulletin script from raw story notes | ✅ stable (4.5/5) |
+| presenter-link-writer | Write natural, conversational presenter links to introduce, bridge, and close segments | ✅ stable (4.4/5) |
+| documentary-narration-writer | Write narration for a radio or audio documentary | ✅ stable (4.4/5) |
+| interview-cue-sheet-writer | Produce a formatted radio interview cue sheet with intro, questions, and out-cue | ✅ stable (4.5/5) |
+| stand-up-script-writer | Write a reporter stand-up script (piece to camera) for broadcast news | 🔲 planned |
 
 ### news-packages
 | Skill | Description | Status |
 |-------|-------------|--------|
-| package-script-writer | Write a complete radio news package script — track, clips, and back announcement | 🔲 planned |
-| clip-selection-brief | Analyse an interview transcript and recommend the best actuality clips | 🔲 planned |
-| two-way-brief-writer | Write a briefing document for a live studio two-way | 🔲 planned |
+| package-script-writer | Write a complete radio news package script — track, clips, and back announcement | ✅ stable (4.4/5) |
+| clip-selection-brief | Analyse an interview transcript and recommend the best actuality clips | ✅ stable (4.3/5) |
+| two-way-brief-writer | Write a briefing document for a live studio two-way | ✅ stable (4.4/5) |
 
 ### production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| running-order-builder | Build a complete radio programme running order with timed segments | 🔲 planned |
-| programme-brief-writer | Write a structured radio programme brief for a new or relaunching show | 🔲 planned |
+| running-order-builder | Build a complete radio programme running order with timed segments | ✅ stable (4.4/5) |
+| programme-brief-writer | Write a structured radio programme brief for a new or relaunching show | ✅ stable (4.4/5) |
 
 ### strategy
 | Skill | Description | Status |
 |-------|-------------|--------|
-| podcast-to-radio-adapter | Adapt a podcast episode or series format for broadcast radio | 🔲 planned |
-| pitch-to-broadcaster | Write a radio programme pitch document for a network or station commissioner | 🔲 planned |
+| podcast-to-radio-adapter | Adapt a podcast episode or series format for broadcast radio | ✅ stable (4.3/5) |
+| pitch-to-broadcaster | Write a radio programme pitch document for a network or station commissioner | ✅ stable (4.3/5) |
 
 ---
 
@@ -304,28 +338,31 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### writing
 | Skill | Description | Status |
 |-------|-------------|--------|
-| edition-writer | Write a complete newsletter edition — intro, main piece, curated links, and sign-off | 🔲 planned |
-| subject-line-writer | Write high-open-rate email subject line options for a newsletter edition | 🔲 planned |
-| welcome-email-writer | Write a subscriber welcome email that introduces the newsletter's voice and value | 🔲 planned |
-| re-engagement-email-writer | Write a re-engagement email sequence for inactive subscribers | 🔲 planned |
+| edition-writer | Write a complete newsletter edition — intro, main piece, curated links, and sign-off | ✅ stable (4.4/5) |
+| subject-line-writer | Write high-open-rate email subject line options for a newsletter edition | ✅ stable (4.5/5) |
+| welcome-email-writer | Write a subscriber welcome email that introduces the newsletter's voice and value | ✅ stable (4.5/5) |
+| re-engagement-email-writer | Write a re-engagement email sequence for inactive subscribers | ✅ stable (4.4/5) |
+| reader-response-writer | Draft a response to a reader letter, listener email, or audience complaint | 🔲 planned |
 
 ### strategy
 | Skill | Description | Status |
 |-------|-------------|--------|
-| content-arc-planner | Plan a multi-edition content arc across a defined publishing period | 🔲 planned |
-| niche-positioning-brief | Write a positioning brief defining a newsletter's niche and editorial promise | 🔲 planned |
+| content-arc-planner | Plan a multi-edition content arc across a defined publishing period | ✅ stable (4.4/5) |
+| niche-positioning-brief | Write a positioning brief defining a newsletter's niche and editorial promise | ✅ stable (4.5/5) |
+| audience-feedback-summarizer | Summarize reader comments and audience feedback into thematic categories | 🔲 planned |
+| newsletter-audience-segmenter | Produce a segmentation brief identifying subscriber groups and content recommendations | 🔲 planned |
 
 ### growth
 | Skill | Description | Status |
 |-------|-------------|--------|
-| referral-copy-writer | Write in-email referral copy encouraging subscribers to share the newsletter | 🔲 planned |
-| landing-page-copy-writer | Write conversion-optimised subscribe page copy for a newsletter | 🔲 planned |
+| referral-copy-writer | Write in-email referral copy encouraging subscribers to share the newsletter | ✅ stable (4.4/5) |
+| landing-page-copy-writer | Write conversion-optimised subscribe page copy for a newsletter | ✅ stable (4.4/5) |
 
 ### monetization
 | Skill | Description | Status |
 |-------|-------------|--------|
-| paid-tier-pitch-writer | Write an in-newsletter upgrade pitch that converts free subscribers to paid | 🔲 planned |
-| sponsorship-rate-card | Generate a formatted newsletter sponsorship rate card with placement options and pricing | 🔲 planned |
+| paid-tier-pitch-writer | Write an in-newsletter upgrade pitch that converts free subscribers to paid | ✅ stable (4.4/5) |
+| sponsorship-rate-card | Generate a formatted newsletter sponsorship rate card with placement options and pricing | ✅ stable (4.4/5) |
 
 ---
 
@@ -334,28 +371,31 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### press-office
 | Skill | Description | Status |
 |-------|-------------|--------|
-| press-release-writer | Write a complete, newswire-ready press release from a briefing note | 🔲 planned |
-| media-alert-writer | Write a short, factual media alert inviting journalists to a press event | 🔲 planned |
-| boilerplate-writer | Write a standard "About" boilerplate paragraph for press materials | 🔲 planned |
+| press-release-writer | Write a complete, newswire-ready press release from a briefing note | ✅ stable (4.6/5) |
+| media-alert-writer | Write a short, factual media alert inviting journalists to a press event | ✅ stable (4.5/5) |
+| boilerplate-writer | Write a standard "About" boilerplate paragraph for press materials | ✅ stable (4.6/5) |
 
 ### crisis-comms
 | Skill | Description | Status |
 |-------|-------------|--------|
-| crisis-statement-writer | Draft an initial crisis communications statement for a breaking negative story | 🔲 planned |
-| holding-statement-writer | Write a holding statement when an organisation is under pressure without all the facts | 🔲 planned |
-| faq-document-writer | Write a journalist-facing FAQ document for a crisis or complex issue | 🔲 planned |
+| crisis-statement-writer | Draft an initial crisis communications statement for a breaking negative story | ✅ stable (4.5/5) |
+| holding-statement-writer | Write a holding statement when an organisation is under pressure without all the facts | ✅ stable (4.5/5) |
+| faq-document-writer | Write a journalist-facing FAQ document for a crisis or complex issue | ✅ stable (4.5/5) |
 
 ### media-relations
 | Skill | Description | Status |
 |-------|-------------|--------|
-| journalist-pitch-email | Write a targeted pitch email to a specific journalist offering a story angle | 🔲 planned |
-| spokesperson-briefing-note | Write a pre-interview briefing note for a spokesperson | 🔲 planned |
+| journalist-pitch-email | Write a targeted pitch email to a specific journalist offering a story angle | ✅ stable (4.6/5) |
+| spokesperson-briefing-note | Write a pre-interview briefing note for a spokesperson | ✅ stable (4.6/5) |
+| follow-up-email-writer | Write a professional follow-up email to a non-responsive source | 🔲 planned |
+| thank-you-email-writer | Write a post-interview thank-you email maintaining the source relationship | 🔲 planned |
 
 ### content
 | Skill | Description | Status |
 |-------|-------------|--------|
-| op-ed-writer | Write a bylined opinion article for placement in a newspaper or trade publication | 🔲 planned |
-| speech-writer | Write a structured speech for an executive or spokesperson for a media event | 🔲 planned |
+| op-ed-writer | Write a bylined opinion article for placement in a newspaper or trade publication | ✅ stable (4.5/5) |
+| speech-writer | Write a structured speech for an executive or spokesperson for a media event | ✅ stable (4.5/5) |
+| internal-memo-writer | Write an internal memo or status update for stakeholders or management | 🔲 planned |
 
 ---
 
@@ -364,27 +404,27 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### development
 | Skill | Description | Status |
 |-------|-------------|--------|
-| logline-writer | Craft a precise logline for a feature film or TV pilot | 🔲 planned |
-| treatment-writer | Write a professional screenplay treatment for a feature film or TV pilot | 🔲 planned |
-| beat-sheet-builder | Build a complete beat sheet mapping story beats across a three-act structure | 🔲 planned |
-| character-profile-writer | Write a detailed character profile covering psychology, backstory, and voice | 🔲 planned |
+| logline-writer | Craft a precise logline for a feature film or TV pilot | ✅ stable (4.5/5) |
+| treatment-writer | Write a professional screenplay treatment for a feature film or TV pilot | ✅ stable (4.4/5) |
+| beat-sheet-builder | Build a complete beat sheet mapping story beats across a three-act structure | ✅ stable (4.5/5) |
+| character-profile-writer | Write a detailed character profile covering psychology, backstory, and voice | ✅ stable (4.4/5) |
 
 ### scripting
 | Skill | Description | Status |
 |-------|-------------|--------|
-| scene-writer | Write a screenplay scene in industry-standard format from a scene brief | 🔲 planned |
-| dialogue-polisher | Rewrite or sharpen dialogue to improve subtext and character voice differentiation | 🔲 planned |
+| scene-writer | Write a screenplay scene in industry-standard format from a scene brief | ✅ stable (4.4/5) |
+| dialogue-polisher | Rewrite or sharpen dialogue to improve subtext and character voice differentiation | ✅ stable (4.5/5) |
 
 ### revision
 | Skill | Description | Status |
 |-------|-------------|--------|
-| coverage-report-writer | Write a structured script coverage report as used by development executives | 🔲 planned |
-| script-notes-writer | Write detailed editorial script notes identifying structural and scene-level fixes | 🔲 planned |
+| coverage-report-writer | Write a structured script coverage report as used by development executives | ✅ stable (4.5/5) |
+| script-notes-writer | Write detailed editorial script notes identifying structural and scene-level fixes | ✅ stable (4.4/5) |
 
 ### production
 | Skill | Description | Status |
 |-------|-------------|--------|
-| one-pager-writer | Write a one-page screenplay sales document for producer or financier meetings | 🔲 planned |
+| one-pager-writer | Write a one-page screenplay sales document for producer or financier meetings | ✅ stable (4.4/5) |
 
 ---
 
@@ -397,6 +437,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | statistics-explainer | Rewrite a complex statistic in plain language without losing accuracy | ✅ stable (4.6/5) |
 | polling-analysis-writer | Analyse and explain poll or survey results for a general audience | ✅ stable (4.4/5) |
 | dataset-summary-brief | Produce a structured summary of what a dataset contains and what stories it might support | ✅ stable (4.3/5) |
+| basic-statistics-calculator | Perform and explain basic statistical calculations from provided data | 🔲 planned |
 
 ### visualization
 | Skill | Description | Status |
@@ -411,6 +452,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | foi-data-request | Draft a Freedom of Information request specifically targeting datasets, records, or databases | ✅ stable (4.5/5) |
 | scraper-brief | Write a technical brief describing exactly what data needs to be collected and from where | ✅ stable (4.3/5) |
 | data-cleaning-brief | Write clear instructions for cleaning a messy dataset to make it analysis-ready | ✅ stable (4.4/5) |
+| pdf-table-extractor-brief | Produce instructions for extracting tabular data from PDFs into spreadsheets | 🔲 planned |
 
 ### publishing
 | Skill | Description | Status |
@@ -418,3 +460,103 @@ All skills are listed by category and subcategory. Update this file every sessio
 | methodology-explainer | Write a plain-language explanation of a data journalism methodology for publication | ✅ stable (4.5/5) |
 | data-corrections-writer | Write a precise corrections note for a data error published in an article | ✅ stable (4.4/5) |
 | data-footnote-writer | Write precise, publication-standard footnotes for data claims in a finished article | ✅ stable (4.4/5) |
+
+---
+
+## Research
+
+### people
+| Skill | Description | Status |
+|-------|-------------|--------|
+| person-biography-brief | Generate a structured research plan for profiling a person | 🔲 planned |
+| publication-history-finder | Produce a research brief for tracing an author's publication history | 🔲 planned |
+| press-office-finder | Generate a structured approach for contacting an organization's press office | 🔲 planned |
+| policy-decision-maker-mapper | Map key institutional actors and decision-makers in a policy area | 🔲 planned |
+
+### background
+| Skill | Description | Status |
+|-------|-------------|--------|
+| legislative-history-brief | Trace the regulatory or legislative history of a policy | 🔲 planned |
+| debate-state-summary | Summarize the current state of a public debate or controversy | 🔲 planned |
+| historical-precedent-finder | Identify historical precedents relevant to a current news event | 🔲 planned |
+| corporate-structure-brief | Produce a research brief on organizational or ownership structure of a company | 🔲 planned |
+| funding-source-investigator | Generate a research plan for tracing funding sources of an NGO or think tank | 🔲 planned |
+
+### fact-checking
+| Skill | Description | Status |
+|-------|-------------|--------|
+| legal-framework-brief | Produce a plain-language summary of the legal framework applicable to a story | 🔲 planned |
+| claim-origin-tracer | Trace a widely circulated claim back to its original source | 🔲 planned |
+
+### academic
+| Skill | Description | Status |
+|-------|-------------|--------|
+| scientific-paper-summarizer | Summarize a scientific paper in plain language for a general audience | 🔲 planned |
+| scientific-consensus-brief | Produce a brief on current scientific consensus on a topic | 🔲 planned |
+| study-methodology-evaluator | Evaluate a published study's methodology, flagging strengths and weaknesses | 🔲 planned |
+| jargon-translator | Rewrite scientific, legal, or technical jargon into plain language | 🔲 planned |
+
+### media
+| Skill | Description | Status |
+|-------|-------------|--------|
+| coverage-review-brief | Produce a structured review of how a topic was covered by other outlets | 🔲 planned |
+| press-roundup-writer | Compile a press review summarizing how multiple outlets covered a single event | 🔲 planned |
+
+### logistics
+| Skill | Description | Status |
+|-------|-------------|--------|
+| travel-logistics-brief | Produce a logistics brief for a reporting trip | 🔲 planned |
+
+---
+
+## Translation
+
+### text
+| Skill | Description | Status |
+|-------|-------------|--------|
+| article-translator | Translate a news or feature article preserving journalistic register | 🔲 planned |
+| quote-translator | Translate interview quotes preserving speaker's tone and emphasis | 🔲 planned |
+
+### institutional
+| Skill | Description | Status |
+|-------|-------------|--------|
+| press-release-translator | Translate a press release for a different-language market | 🔲 planned |
+
+### digital
+| Skill | Description | Status |
+|-------|-------------|--------|
+| social-post-translator | Translate social media posts with platform-appropriate adaptations | 🔲 planned |
+
+### reference
+| Skill | Description | Status |
+|-------|-------------|--------|
+| translation-glossary-builder | Create a bilingual glossary of key terms for consistent translation | 🔲 planned |
+
+### quality
+| Skill | Description | Status |
+|-------|-------------|--------|
+| translation-reviewer | Review a translated text for accuracy, fluency, and cultural appropriateness | 🔲 planned |
+
+### localization
+| Skill | Description | Status |
+|-------|-------------|--------|
+| regional-variant-adapter | Adapt text from one regional variant of a language to another | 🔲 planned |
+
+---
+
+## Production Support
+
+### formatting
+| Skill | Description | Status |
+|-------|-------------|--------|
+| cms-metadata-writer | Write structured metadata fields for a CMS entry | 🔲 planned |
+| asset-description-writer | Write content descriptions for digital asset management systems | 🔲 planned |
+| manuscript-formatter | Reformat a manuscript to match a style guide's structural requirements | 🔲 planned |
+| web-section-splitter | Break long-form articles into web-optimized sections with subheadings | 🔲 planned |
+| author-bio-writer | Write "about the author" bio blurbs in the appropriate register | 🔲 planned |
+
+### reference
+| Skill | Description | Status |
+|-------|-------------|--------|
+| fact-sheet-compiler | Compile a structured fact sheet or glossary on a topic for editorial reference | 🔲 planned |
+| teaser-block-writer | Write "related articles," "previously on," or "read next" teaser blocks | 🔲 planned |

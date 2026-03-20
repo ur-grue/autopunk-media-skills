@@ -1,6 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg)
 
-![Skills](https://img.shields.io/badge/skills-140_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Skills](https://img.shields.io/badge/skills-229_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
 ---
 
@@ -27,6 +27,9 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 - **Newsletter writers** — editions, subject lines, subscriber growth, paid conversions, sponsorship
 - **PR and communications professionals** — press releases, crisis statements, spokesperson briefs, op-eds
 - **Screenwriters** — treatments, beat sheets, scene writing, script notes, coverage
+- **Data journalists** — dataset analysis, chart descriptions, FOI requests, methodology documentation
+- **Researchers** — scientific papers, policy analysis, source verification, competitive coverage review
+- **Editors and production teams** — translation, formatting, metadata, asset management, fact sheets
 
 ---
 
@@ -99,19 +102,22 @@ That's the quality level you get from every stable skill in this library.
 
 | Category | Skills | What It Covers |
 |----------|--------|----------------|
-| TV Documentary | 21 skills | development · pre-production · scripting · post-production · localization · business |
-| Magazine Journalism | 22 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| TV Documentary | 28 skills | development · pre-production · scripting · post-production · localization · business |
+| Magazine Journalism | 39 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
 | YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
 | Podcast | 12 skills | pre-production · scripting · post-production · business |
 | Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
-| Media Business | 13 skills | pitching · distribution · funding · legal |
-| Social Media | 7 skills | content · strategy |
-| Radio / Audio | 9 skills | scripting · news packages · production · strategy |
-| Newsletter | 10 skills | writing · strategy · growth · monetization |
-| PR / Communications | 9 skills | press office · crisis comms · media relations · content |
+| Media Business | 19 skills | pitching · distribution · funding · legal |
+| Social Media | 11 skills | content · strategy |
+| Radio / Audio | 12 skills | scripting · news packages · production · strategy |
+| Newsletter | 13 skills | writing · strategy · growth · monetization |
+| PR / Communications | 13 skills | press office · crisis comms · media relations · content |
 | Screenwriting | 9 skills | development · scripting · revision · production |
-| Data Journalism | 13 skills | analysis · visualization · investigation · publishing |
-| **Total** | **153 skills** | |
+| Data Journalism | 15 skills | analysis · visualization · investigation · publishing |
+| Research | 18 skills | people · background · fact-checking · academic · media · logistics |
+| Translation | 7 skills | text · institutional · digital · reference · quality · localization |
+| Production Support | 7 skills | formatting · reference |
+| **Total** | **229 skills** | |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
