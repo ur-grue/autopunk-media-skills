@@ -1,5 +1,46 @@
 {
   "skill_name": "article-translator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "AT-001",
+      "input_summary": "English-to-French translation of a 500-word feature about car-free urban neighborhoods, broadsheet formal register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "AT-002",
+      "input_summary": "Spanish-to-English translation of a 400-word hard news article about municipal budget cuts, AP style",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "AT-003",
+      "input_summary": "German-to-English translation of a 600-word analysis piece on energy policy with technical terminology, digital conversational register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.44
 }

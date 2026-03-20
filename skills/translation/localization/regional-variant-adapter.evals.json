@@ -1,5 +1,46 @@
 {
   "skill_name": "regional-variant-adapter",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "RVA-001",
+      "input_summary": "British English to American English adaptation of a 400-word news feature, with measurement conversions and change log",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "RVA-002",
+      "input_summary": "European Spanish to Mexican Spanish adaptation of a 300-word social media campaign brief, conversational register",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "RVA-003",
+      "input_summary": "European Portuguese to Brazilian Portuguese adaptation of a 500-word press release, formal institutional register with currency conversion",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.39
 }

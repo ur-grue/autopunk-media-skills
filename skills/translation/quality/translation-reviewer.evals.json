@@ -1,5 +1,46 @@
 {
   "skill_name": "translation-reviewer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "TR-001",
+      "input_summary": "Review of French-to-English translation of a 500-word magazine feature, checking for accuracy errors and fluency issues",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "TR-002",
+      "input_summary": "Review of English-to-Spanish translation of a press release with financial terminology, glossary compliance check",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "TR-003",
+      "input_summary": "Review of German-to-English translation of an interview transcript, checking for tone preservation and attribution accuracy",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.50
 }

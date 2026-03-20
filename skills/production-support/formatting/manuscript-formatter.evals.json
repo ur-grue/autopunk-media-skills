@@ -1,5 +1,46 @@
 {
   "skill_name": "manuscript-formatter",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "MF-001",
+      "input_summary": "Academic-to-magazine format conversion of a 1,200-word article with APA citations, footnotes, and abstract",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "MF-002",
+      "input_summary": "Blog post to AP-style submission format, 800 words, adding front matter and restructuring subheadings",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "MF-003",
+      "input_summary": "Raw interview-based draft to Chicago Manual style feature, 2,000 words, with endnote conversion and section restructuring",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.39
 }

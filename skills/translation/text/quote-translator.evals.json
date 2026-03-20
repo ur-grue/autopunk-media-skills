@@ -1,5 +1,46 @@
 {
   "skill_name": "quote-translator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "QT-001",
+      "input_summary": "Spanish-to-English translation of two formal press conference quotes from an urban planning director, with attribution",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "QT-002",
+      "input_summary": "French-to-English translation of three interview quotes from a museum curator, conversational register, dual-language format requested",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "QT-003",
+      "input_summary": "Arabic-to-English translation of a single emotional quote from a humanitarian worker in a conflict zone, formal journalistic register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.39
 }

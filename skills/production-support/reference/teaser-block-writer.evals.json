@@ -1,5 +1,46 @@
 {
   "skill_name": "teaser-block-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "TBW-001",
+      "input_summary": "Three end-of-article 'Read Next' teasers for a web article about community solar, headline-plus-one-sentence format",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "TBW-002",
+      "input_summary": "Five newsletter teasers for a weekly media digest, conversational tone, headline-plus-two-sentences format with category labels",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "TBW-003",
+      "input_summary": "Four homepage teaser cards for a documentary series website, news-formal tone, with reading time metadata",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    }
+  ],
+  "overall_mean": 4.33
 }
