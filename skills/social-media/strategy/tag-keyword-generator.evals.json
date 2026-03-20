@@ -1,5 +1,46 @@
 {
   "skill_name": "tag-keyword-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "YouTube tutorial on interview lighting with household items, aimed at beginner filmmakers",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 2,
+      "input_summary": "Podcast episode on freelance journalism financial survival strategies, Spotify and Apple Podcasts platform",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "WordPress blog post on documentary pre-production checklists for independent filmmakers",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
 }

@@ -1,5 +1,46 @@
 {
   "skill_name": "audience-feedback-summarizer",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "14 reader replies to an urban design newsletter asking what to cover more and less of",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 2,
+      "input_summary": "22 survey responses from a podcast audience rating episode format preferences and topic requests",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "10 reader complaint emails about a paywall change on a journalism newsletter",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
 }
