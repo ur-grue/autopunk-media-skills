@@ -1,4 +1,4 @@
-![autopunk-media-skills](.github/banner.svg)
+![autopunk-media-skills](.github/banner.svg?v=2)
 
 ![Skills](https://img.shields.io/badge/skills-229_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
