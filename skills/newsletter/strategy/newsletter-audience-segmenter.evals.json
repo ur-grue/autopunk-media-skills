@@ -1,5 +1,46 @@
 {
   "skill_name": "newsletter-audience-segmenter",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "European renewable energy newsletter with 8,500 subscribers, exploring paid tier and sponsored content",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.50
+    },
+    {
+      "id": 2,
+      "input_summary": "Indie filmmaking newsletter with 2,000 subscribers, free model, wants to understand audience for potential course launch",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Local news newsletter with 12,000 subscribers, ad-supported, declining open rates, needs to identify at-risk segments",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
 }

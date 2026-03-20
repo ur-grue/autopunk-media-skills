@@ -1,5 +1,46 @@
 {
   "skill_name": "basic-statistics-calculator",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "City burglary data for 2019 and 2024 with population figures, requesting percentage change and per-capita rate",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 2,
+      "input_summary": "School district test scores across five schools, requesting average, median, and identification of outliers",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Municipal water usage data in gallons, requesting per-household rate and year-over-year percentage change",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }
