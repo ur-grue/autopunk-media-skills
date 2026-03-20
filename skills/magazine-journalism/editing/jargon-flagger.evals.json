@@ -1,5 +1,46 @@
 {
   "skill_name": "jargon-flagger",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "JF-001",
+      "input_summary": "500-word finance article on bond markets for general newspaper reader",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "JF-002",
+      "input_summary": "350-word technology piece on AI regulation for informed-but-non-specialist audience",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "JF-003",
+      "input_summary": "800-word legal affairs feature on environmental litigation for general magazine reader",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.44
 }

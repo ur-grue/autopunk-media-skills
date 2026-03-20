@@ -1,5 +1,46 @@
 {
   "skill_name": "passive-voice-checker",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "PVC-001",
+      "input_summary": "400-word news report on environmental regulation, flag all passives",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "PVC-002",
+      "input_summary": "600-word opinion piece on education reform, flag only those that weaken",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "PVC-003",
+      "input_summary": "1,200-word investigative feature on corporate tax, flag all passives for coaching purposes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.44
 }

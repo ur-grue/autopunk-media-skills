@@ -4,7 +4,7 @@ status: stable
 category: magazine-journalism
 subcategory: editing
 version: 1.0
-eval_score: 4.47
+eval_score: 4.44
 tags: [journalism, editing, corrections, editorial, transparency, ethics]
 ---
 
