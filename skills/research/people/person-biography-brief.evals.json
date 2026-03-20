@@ -1,5 +1,49 @@
 {
   "skill_name": "person-biography-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "PBB-001",
+      "input_summary": "Research plan for a university vice-chancellor facing allegations of misuse of research funds, for an investigative news story",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Source checklist was comprehensive and well-prioritised for the investigative angle. Key questions were specific to the academic/financial context. Verification priorities correctly targeted credential and funding claims."
+    },
+    {
+      "test_id": "PBB-002",
+      "input_summary": "Interview preparation brief for a tech startup CEO appearing on a podcast about AI ethics, general profile angle",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Strong adaptation to the tech/startup context. Patent and IP searches were well-integrated. Interview angles were thoughtful. Slightly over-broad on the source checklist for the stated purpose."
+    },
+    {
+      "test_id": "PBB-003",
+      "input_summary": "Background research on a retired military officer now advising a defence contractor, for a conflict-of-interest investigation",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Excellent revolving-door angle coverage. Military records and procurement databases were correctly identified. Verification priorities were sharply focused on the conflict-of-interest question. Slightly dense — could be more scannable."
+    }
+  ]
 }

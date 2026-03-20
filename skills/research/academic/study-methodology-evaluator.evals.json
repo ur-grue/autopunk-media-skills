@@ -1,5 +1,49 @@
 {
   "skill_name": "study-methodology-evaluator",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "SME-001",
+      "input_summary": "Evaluating a cross-sectional survey claiming a link between smartphone use and depression in teenagers",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.83,
+      "notes": "Correctly identified the causal inference limitation of cross-sectional design. Self-reported screen time weakness was well-explained. Bottom line verdict was clear and directly useful for editorial decision-making."
+    },
+    {
+      "test_id": "SME-002",
+      "input_summary": "Evaluating a small randomised trial (n=40) of a dietary supplement's effect on cognitive performance",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Sample size concerns were explained with appropriate statistical context. Supplement industry funding was correctly flagged. The distinction between the RCT design strength and the specific implementation weaknesses was well-drawn."
+    },
+    {
+      "test_id": "SME-003",
+      "input_summary": "Evaluating a large observational cohort study on the association between neighbourhood green space and mental health outcomes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Confounding by socioeconomic status was correctly identified as the key methodological concern. The selection bias issue (healthier people choose greener neighbourhoods) was well-explained. Bottom line was appropriately cautious."
+    }
+  ]
 }

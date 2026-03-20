@@ -1,5 +1,49 @@
 {
   "skill_name": "claim-origin-tracer",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "COT-001",
+      "input_summary": "Tracing the origin of the claim that '90% of startups fail within the first year' — a widely cited statistic with no clear source",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Excellent deconstruction — correctly identified that the percentage and timeframe vary across citations. Citation chain trace was methodical. Distortion detection section identified the specific mutation from 'close within 5 years' to 'fail within 1 year.'"
+    },
+    {
+      "test_id": "COT-002",
+      "input_summary": "Tracing a viral claim that a specific country's healthcare system was ranked 'number one in the world' by the WHO",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Correctly identified the WHO 2000 World Health Report as the likely source and noted it has been superseded. Distortion detection caught the common error of citing a 25-year-old ranking as current. Verification steps were practical."
+    },
+    {
+      "test_id": "COT-003",
+      "input_summary": "Tracing a quote attributed to a historical figure that may be apocryphal, circulating on social media",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good adaptation to the historical quote verification context. Correctly identified quote investigation databases and the pattern of retroactive attribution. Acknowledged that some quotes are genuinely untraceable."
+    }
+  ]
 }

@@ -1,5 +1,49 @@
 {
   "skill_name": "legislative-history-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.44,
+  "test_cases": [
+    {
+      "test_id": "LHB-001",
+      "input_summary": "Tracing the legislative history of a data protection law, focusing on how industry lobbying shaped the consent requirements",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Timeline framework was thorough and well-structured for the lobbying angle. Source documents were correctly identified at each stage. Turning points were genuinely contested moments, not routine steps."
+    },
+    {
+      "test_id": "LHB-002",
+      "input_summary": "Tracing the history of a national minimum wage law through multiple revisions over 20 years",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Excellent handling of a multi-decade legislative history. Comparison framework for successive revisions was clear. Political dynamics section was balanced across party lines."
+    },
+    {
+      "test_id": "LHB-003",
+      "input_summary": "Tracing a recently enacted environmental regulation, focusing on whether scientific evidence was accurately reflected in the final rule",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good integration of scientific advisory committee records and regulatory impact assessments. The science-to-policy translation angle was well-served. Slightly dense for a journalist working under deadline."
+    }
+  ]
 }

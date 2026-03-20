@@ -1,5 +1,49 @@
 {
   "skill_name": "travel-logistics-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.39,
+  "test_cases": [
+    {
+      "test_id": "TLB-001",
+      "input_summary": "Logistics brief for a two-person team reporting on migrant labour conditions in a Gulf state, with filming equipment",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Safety framework was appropriately elevated for the press freedom context. Equipment import regulations were correctly flagged as a major risk. Digital security measures were well-detailed. Pre-departure checklist was sharp."
+    },
+    {
+      "test_id": "TLB-002",
+      "input_summary": "Logistics brief for a solo reporter covering a rural election in a Sub-Saharan African country, no filming equipment",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good adaptation to solo travel in a low-infrastructure environment. Health precautions were appropriate. Local fixer engagement was correctly prioritised. Check-in protocol was well-calibrated to the risk level."
+    },
+    {
+      "test_id": "TLB-003",
+      "input_summary": "Logistics brief for a three-person crew covering a climate conference in a European capital, routine travel",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Appropriately scaled down the safety framework for low-risk travel. Conference accreditation and access logistics were well-covered. Equipment transport within the EU was correctly noted as straightforward. Pre-departure list was practical."
+    }
+  ]
 }

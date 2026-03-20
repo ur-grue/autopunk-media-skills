@@ -1,5 +1,49 @@
 {
   "skill_name": "publication-history-finder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.44,
+  "test_cases": [
+    {
+      "test_id": "PHF-001",
+      "input_summary": "Tracing all publications and public statements of an academic epidemiologist who became a government health advisor during a pandemic",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Excellent coverage of academic-to-government transition. Correctly identified pre-print servers and government testimony archives. Red flags section was particularly sharp on position shifts."
+    },
+    {
+      "test_id": "PHF-002",
+      "input_summary": "Tracing media appearances and op-eds of a former politician who now chairs an industry trade association",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Strong on the political-to-industry pivot angle. Hansard/parliamentary record searches were correctly specified. Tracking framework was immediately usable."
+    },
+    {
+      "test_id": "PHF-003",
+      "input_summary": "Comprehensive publication trace for a corporate lawyer who has published articles in legal journals and provided expert commentary on financial regulation",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good coverage of legal databases and bar association records. Search syntax tips were practical. Slightly less adapted to the legal field than the other test cases — some generic source categories."
+    }
+  ]
 }

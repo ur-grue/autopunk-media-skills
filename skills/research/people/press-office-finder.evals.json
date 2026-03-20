@@ -1,5 +1,49 @@
 {
   "skill_name": "press-office-finder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.39,
+  "test_cases": [
+    {
+      "test_id": "POF-001",
+      "input_summary": "Finding the press office for a multinational pharmaceutical company's regional division to request comment on a drug pricing story",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Correctly distinguished between global and regional press offices. Outreach template was professional and appropriately urgent. Pitfalls about external PR agencies were highly relevant."
+    },
+    {
+      "test_id": "POF-002",
+      "input_summary": "Locating the media contact for a small non-profit environmental organisation with no visible press page",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Fallback strategies were genuinely useful for small organisations. LinkedIn approach was well-explained. Template was appropriately informal for a small NGO context."
+    },
+    {
+      "test_id": "POF-003",
+      "input_summary": "Reaching the press office of a foreign government ministry to request comment on a diplomatic story, 24-hour deadline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good adaptation to the government/diplomatic context. Embassy route was correctly prioritised. Time-zone considerations were flagged. Could have been slightly more concise for the tight deadline."
+    }
+  ]
 }

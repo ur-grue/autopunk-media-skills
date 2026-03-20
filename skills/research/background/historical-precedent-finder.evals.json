@@ -1,5 +1,49 @@
 {
   "skill_name": "historical-precedent-finder",
-  "status": "pending",
-  "test_cases": []
+  "status": "stable",
+  "overall_score": 4.56,
+  "test_cases": [
+    {
+      "test_id": "HPF-001",
+      "input_summary": "Finding precedents for a government proposal to break up a dominant technology company, comparing to historical antitrust actions",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.83,
+      "notes": "Structural features were sharply defined. Precedents ranged across industries and decades. Analogy strength assessments were honest — weak analogies were not inflated. Misleading analogies section effectively debunked the most common lazy comparison."
+    },
+    {
+      "test_id": "HPF-002",
+      "input_summary": "Finding precedents for a national government imposing a social media age verification law",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Good range of precedents from alcohol age verification to film classification. Sources were specific and locatable. Acknowledged the novelty of the digital context effectively."
+    },
+    {
+      "test_id": "HPF-003",
+      "input_summary": "Finding precedents for a city declaring bankruptcy, for a local government finance story",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Solid selection of municipal bankruptcy precedents across different decades and causes. Differences between cases were well-articulated. Could have been slightly more concise."
+    }
+  ]
 }
