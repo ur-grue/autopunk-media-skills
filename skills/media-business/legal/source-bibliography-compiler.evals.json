@@ -1,5 +1,46 @@
 {
   "skill_name": "source-bibliography-compiler",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "Internal editorial record for a magazine feature with interviews, published sources, government documents, and data sources",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Public-facing bibliography for a documentary broadcast, Chicago style, alphabetical order, with anonymised sources",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Fact-checking reference list for a podcast investigation with FOIA responses, leaked documents, and multiple anonymous sources",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
 }
