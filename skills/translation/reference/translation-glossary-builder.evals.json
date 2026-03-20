@@ -1,0 +1,46 @@
+{
+  "skill_name": "translation-glossary-builder",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "TGB-001",
+      "input_summary": "English-to-French glossary for a renewable energy company's press materials, 10 terms, formal institutional register",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "TGB-002",
+      "input_summary": "English-to-Japanese glossary for a documentary production, 15 terms including cultural references and crew roles",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "TGB-003",
+      "input_summary": "Spanish-to-English glossary for investigative journalism series on financial regulation, 20 terms with legal terminology",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.44
+}

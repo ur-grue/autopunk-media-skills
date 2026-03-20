@@ -1,0 +1,46 @@
+{
+  "skill_name": "version-comparator",
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "VC-001",
+      "input_summary": "Compare two drafts of 1,500-word feature, editor requested stronger opening and tighter quotes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "VC-002",
+      "input_summary": "Compare original and legally reviewed version of investigative piece, check for meaning changes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "VC-003",
+      "input_summary": "Compare first and second drafts of opinion column, substantive changes only",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.33
+    }
+  ],
+  "overall_mean": 4.44
+}

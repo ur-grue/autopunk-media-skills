@@ -1,0 +1,49 @@
+{
+  "skill_name": "coverage-review-brief",
+  "status": "stable",
+  "overall_score": 4.44,
+  "test_cases": [
+    {
+      "test_id": "CRB-001",
+      "input_summary": "Coverage review framework for a story about a national railway strike, to identify fresh angles for a feature piece",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Search strategy was comprehensive across news databases and social media. Gap-finding questions were sharp — correctly identified that freight and supply chain impacts are typically underreported in passenger-focused coverage."
+    },
+    {
+      "test_id": "CRB-002",
+      "input_summary": "Coverage review for a story about a city's new congestion pricing scheme, to support a pitch to an editor",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good integration of transport specialist publications alongside general news. The coverage density assessment template was immediately usable. Gap-finding questions helped identify the equity dimension as underreported."
+    },
+    {
+      "test_id": "CRB-003",
+      "input_summary": "Coverage review for a mental health crisis among university students, to find an original angle for a long-form magazine piece",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Correctly identified that most coverage focuses on demand for counselling services while structural issues (academic culture, financial pressure, social media) receive less systematic treatment. Analysis framework was practical."
+    }
+  ]
+}

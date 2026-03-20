@@ -1,0 +1,49 @@
+{
+  "skill_name": "transcript-timecoder",
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "TTC-001",
+      "input_summary": "Single-interview transcript excerpt, speaker changes, 25fps, start TC 01:03:22:00",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Timecodes placed correctly at speaker changes. Format consistent throughout. Estimation disclaimer clear. Elapsed time plausible for word count."
+    },
+    {
+      "test_id": "TTC-002",
+      "input_summary": "Long single-speaker passage, 30-second fixed intervals, 29.97fps drop-frame, US production",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Drop-frame semicolon notation correctly applied. Intervals placed at sentence boundaries, not mid-word. Long passage handled without drift beyond stated accuracy range."
+    },
+    {
+      "test_id": "TTC-003",
+      "input_summary": "Multi-speaker panel discussion, both speaker-change and 60-second interval timecodes, simplified HH:MM:SS format",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Combined interval mode worked well. Speaker labels consistent across four speakers. Simplified format applied correctly. Noted that rapid speaker changes in discussion may create very frequent timecodes."
+    }
+  ]
+}

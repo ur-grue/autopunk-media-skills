@@ -1,0 +1,46 @@
+{
+  "skill_name": "cms-metadata-writer",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "CMW-001",
+      "input_summary": "Metadata for a 2,200-word feature about city bus systems as climate policy, WordPress CMS, target keywords provided",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "CMW-002",
+      "input_summary": "Metadata for a 900-word interview with no target keywords, Ghost CMS, existing tagging taxonomy provided",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "CMW-003",
+      "input_summary": "Batch metadata for three articles in a series about renewable energy, WordPress, with Open Graph fields and consistent tagging",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.44
+}

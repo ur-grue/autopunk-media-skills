@@ -1,0 +1,49 @@
+{
+  "skill_name": "policy-decision-maker-mapper",
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "PDM-001",
+      "input_summary": "Mapping decision-makers around a proposed national ban on flavoured e-cigarettes, at the regulatory consultation stage",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Excellent mapping of health regulators, industry groups, and public health campaigners. Pressure points were sharply identified for the consultation stage. Research checklist was immediately actionable."
+    },
+    {
+      "test_id": "PDM-002",
+      "input_summary": "Mapping decision-makers around a city council vote on affordable housing zoning changes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good adaptation to local government context. Developer and community group dynamics were well-mapped. Interview priorities were practical. Slightly less detailed on the research checklist than other test cases."
+    },
+    {
+      "test_id": "PDM-003",
+      "input_summary": "Mapping decision-makers around an international trade agreement being negotiated between two countries",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Strong on the international dimension — correctly identified trade ministries, negotiating teams, and industry advisory committees in both countries. Acknowledged the opacity of trade negotiations. Interview priorities were well-justified."
+    }
+  ]
+}

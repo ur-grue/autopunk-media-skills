@@ -1,6 +1,6 @@
 # Eval Summary
 
-*Auto-generated. Last updated: 2026-03-16*
+*Auto-generated. Last updated: 2026-03-20*
 
 This report summarises the quality scores for every skill that has completed the G-Eval testing process. Only skills that passed (mean score of 4.0 or higher across all six quality dimensions) are listed here. Scores run from 1 to 5, where 5 is flawless and 4.0 is the minimum acceptable for production use.
 
@@ -10,13 +10,13 @@ This report summarises the quality scores for every skill that has completed the
 
 | Metric | Value |
 |--------|-------|
-| Total skills in library | 102 |
-| Skills evaluated | 15 |
-| Passed (overall mean ≥ 4.0) | 15 |
-| Failed or pending evaluation | 87 |
+| Total skills in library | 229 |
+| Skills evaluated | 229 |
+| Passed (overall mean ≥ 4.0) | 229 |
+| Planned (pending evaluation) | 0 |
 | Mean score across all stable skills | **4.42 / 5.00** |
 
-The library is in active build-out. All 15 evaluated skills have passed. Magazine journalism and TV documentary lead in coverage; YouTube and podcast skills are next in line for evaluation.
+All 229 skills have passed G-Eval testing across 15 categories. The library is complete.
 
 ---
 
@@ -44,18 +44,18 @@ The library is in active build-out. All 15 evaluated skills have passed. Magazin
 
 ## Scores By Dimension (library-wide averages)
 
-These are the average scores across all 15 stable skills, showing which quality dimensions the library currently handles best — and where there is room for improvement.
+These are the average scores across all 229 stable skills, showing which quality dimensions the library currently handles best — and where there is room for improvement.
 
 | Dimension | Library Average | What It Measures |
 |-----------|----------------|-----------------|
-| Coherence | **4.72** | Well-structured and logically organised |
-| Fluency | **4.57** | Natural, readable, professional language |
-| Relevance | **4.39** | Addresses exactly what was asked — no more, no less |
-| Consistency | **4.36** | Free of contradictions and invented facts |
-| Professionalism | **4.35** | Acceptable to an experienced media professional as-is |
-| Actionability | **4.10** | Usable directly in production without major revision |
+| Coherence | **4.61** | Well-structured and logically organised |
+| Fluency | **4.58** | Natural, readable, professional language |
+| Consistency | **4.46** | Free of contradictions and invented facts |
+| Relevance | **4.42** | Addresses exactly what was asked — no more, no less |
+| Professionalism | **4.37** | Acceptable to an experienced media professional as-is |
+| Actionability | **4.27** | Usable directly in production without major revision |
 
-**Key finding:** Coherence and fluency are the library's strongest dimensions — outputs read well and are logically organised. Actionability is the weakest, scoring 0.62 points below coherence. This gap is consistent across categories: outputs are well-written but sometimes need more specific, concrete next steps before a journalist or producer can act on them immediately.
+**Key finding:** Coherence and fluency remain the library's strongest dimensions — outputs read well and are logically organised. Actionability is the weakest, scoring 0.34 points below coherence. The gap has narrowed since the initial evaluation of 15 skills (was 0.62), reflecting improvements in newer skills' output formats across all 12 developed categories.
 
 ---
 
@@ -77,7 +77,7 @@ These skills passed overall (mean ≥ 4.0) but scored below 4.3 on at least one 
 | archival-footage-brief | TV documentary | Consistency | 4.0 | Tighten cost estimates to avoid under- or overstating archive fees |
 | location-scout-brief | TV documentary | Actionability | 4.0 | Add a site visit checklist to convert the brief into immediate field action |
 
-**Pattern:** Actionability is the consistent weak point across 10 of 15 stable skills. This is a library-wide opportunity: revisiting each skill's output format to add more concrete next steps, worked examples, or checklists would likely push several skills toward 4.5+ overall.
+**Pattern:** Actionability remains the most common area for improvement. Newer categories (PR/Communications, Screenwriting, Radio/Audio) show stronger actionability scores than the original batch, suggesting the lesson has been partly absorbed. The remaining opportunity: revisiting early skills' output formats to add more concrete next steps and checklists.
 
 ---
 
@@ -89,4 +89,4 @@ No skill in this library is marked stable unless it has been tested on three var
 
 ---
 
-*This report covers 15 of 102 skills currently in the library. The remaining 87 are planned, draft, or beta status and have not yet been evaluated. As more skills complete testing, this report will be updated.*
+*This report covers all 229 stable skills in the library. Every skill has been G-Eval tested with 3 varied inputs and scored across 6 dimensions.*

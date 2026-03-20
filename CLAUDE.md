@@ -40,7 +40,7 @@ autopunk-media-skills/
 ├── README.md                        ← Public landing page (non-technical audience)
 ├── CONTRIBUTING.md                  ← How to contribute a skill
 ├── SKILL_TEMPLATE.md                ← Exact format every skill must follow
-├── ROADMAP.md                       ← All ~102 skills: status, priorities
+├── ROADMAP.md                       ← All ~229 skills: status, priorities
 ├── CHANGELOG.md                     ← Version history
 ├── LICENSE                          ← MIT
 │
@@ -121,12 +121,88 @@ autopunk-media-skills/
 │   │   └── legal/                   ← contract-summary-explainer, rights-audit-checklist,
 │   │                                   talent-agreement-brief
 │   │
-│   └── social-media/
-│       ├── content/                 ← caption-writer, thread-generator,
-│       │                               story-script-writer, reel-concept-brief,
-│       │                               hashtag-strategy-builder
-│       └── strategy/                ← platform-content-plan, audience-growth-brief,
-│                                       engagement-audit, cross-platform-repurposer
+│   ├── social-media/
+│   │   ├── content/                 ← caption-writer, thread-writer,
+│   │   │                               carousel-script-writer, short-form-video-brief,
+│   │   │                               push-notification-writer, seo-meta-description-writer
+│   │   └── strategy/                ← platform-strategy-brief, hashtag-strategy-writer,
+│   │                                   cross-promotion-pitch, tag-keyword-generator,
+│   │                                   ab-social-post-tester
+│   │
+│   ├── radio-audio/
+│   │   ├── scripting/               ← bulletin-script-writer, presenter-link-writer,
+│   │   │                               documentary-narration-writer, interview-cue-sheet-writer,
+│   │   │                               stand-up-script-writer
+│   │   ├── news-packages/           ← package-script-writer, clip-selection-brief,
+│   │   │                               two-way-brief-writer
+│   │   ├── production/              ← running-order-builder, programme-brief-writer
+│   │   └── strategy/                ← podcast-to-radio-adapter, pitch-to-broadcaster
+│   │
+│   ├── newsletter/
+│   │   ├── writing/                 ← edition-writer, subject-line-writer,
+│   │   │                               welcome-email-writer, re-engagement-email-writer,
+│   │   │                               reader-response-writer
+│   │   ├── strategy/                ← content-arc-planner, niche-positioning-brief,
+│   │   │                               audience-feedback-summarizer, newsletter-audience-segmenter
+│   │   ├── growth/                  ← referral-copy-writer, landing-page-copy-writer
+│   │   └── monetization/            ← paid-tier-pitch-writer, sponsorship-rate-card
+│   │
+│   ├── pr-communications/
+│   │   ├── press-office/            ← press-release-writer, media-alert-writer,
+│   │   │                               boilerplate-writer
+│   │   ├── crisis-comms/            ← crisis-statement-writer, holding-statement-writer,
+│   │   │                               faq-document-writer
+│   │   ├── media-relations/         ← journalist-pitch-email, spokesperson-briefing-note,
+│   │   │                               follow-up-email-writer, thank-you-email-writer
+│   │   └── content/                 ← op-ed-writer, speech-writer, internal-memo-writer
+│   │
+│   ├── screenwriting/
+│   │   ├── development/             ← logline-writer, treatment-writer,
+│   │   │                               beat-sheet-builder, character-profile-writer
+│   │   ├── scripting/               ← scene-writer, dialogue-polisher
+│   │   ├── revision/                ← coverage-report-writer, script-notes-writer
+│   │   └── production/              ← one-pager-writer
+│   │
+│   ├── data-journalism/
+│   │   ├── analysis/                ← data-story-finder, statistics-explainer,
+│   │   │                               polling-analysis-writer, dataset-summary-brief,
+│   │   │                               basic-statistics-calculator
+│   │   ├── visualization/           ← chart-description-writer, infographic-brief,
+│   │   │                               data-table-formatter
+│   │   ├── investigation/           ← foi-data-request, scraper-brief,
+│   │   │                               data-cleaning-brief, pdf-table-extractor-brief
+│   │   └── publishing/              ← methodology-explainer, data-corrections-writer,
+│   │                                   data-footnote-writer
+│   │
+│   ├── research/
+│   │   ├── people/                  ← person-biography-brief, publication-history-finder,
+│   │   │                               press-office-finder, policy-decision-maker-mapper
+│   │   ├── background/              ← legislative-history-brief, debate-state-summary,
+│   │   │                               historical-precedent-finder, corporate-structure-brief,
+│   │   │                               funding-source-investigator
+│   │   ├── fact-checking/           ← legal-framework-brief, claim-origin-tracer
+│   │   ├── academic/                ← scientific-paper-summarizer, scientific-consensus-brief,
+│   │   │                               study-methodology-evaluator, jargon-translator
+│   │   ├── media/                   ← coverage-review-brief, press-roundup-writer
+│   │   └── logistics/               ← travel-logistics-brief
+│   │
+│   ├── translation/
+│   │   ├── text/                    ← article-translator, quote-translator
+│   │   ├── institutional/           ← press-release-translator
+│   │   ├── digital/                 ← social-post-translator
+│   │   ├── reference/               ← translation-glossary-builder
+│   │   ├── quality/                 ← translation-reviewer
+│   │   └── localization/            ← regional-variant-adapter
+│   │
+│   ├── production-support/
+│   │   ├── formatting/              ← cms-metadata-writer, asset-description-writer,
+│   │   │                               manuscript-formatter, web-section-splitter,
+│   │   │                               author-bio-writer
+│   │   └── reference/               ← fact-sheet-compiler, teaser-block-writer
+│   │
+│   └── locales/
+│       ├── es/                      ← Spanish localizations (10 skills)
+│       └── fr/                      ← French localizations (10 skills)
 │
 └── tests/
     ├── EVAL_FRAMEWORK.md            ← Full G-Eval testing protocol
@@ -156,8 +232,8 @@ Every skill follows this exact template. Standalone version is in `SKILL_TEMPLAT
 ---
 name: skill-name-in-kebab-case
 status: planned | draft | beta | stable
-category: tv-documentary | magazine-journalism | youtube | podcast | image-prompting | media-business | social-media
-subcategory: development | scripting | post-production | localization | pre-production | business | ideation | writing | editing | distribution | investigation | fact-checking | legal | channel-strategy | analytics | midjourney | flux | art-direction | workflows | pitching | funding | content | strategy
+category: tv-documentary | magazine-journalism | youtube | podcast | image-prompting | media-business | social-media | radio-audio | newsletter | pr-communications | screenwriting | data-journalism | research | translation | production-support
+subcategory: development | scripting | post-production | localization | pre-production | business | ideation | writing | editing | distribution | investigation | fact-checking | legal | channel-strategy | analytics | midjourney | flux | art-direction | workflows | pitching | funding | content | strategy | news-packages | production | growth | monetization | press-office | crisis-comms | media-relations | revision | analysis | visualization | publishing | people | background | academic | media | logistics | text | institutional | digital | reference | quality | formatting
 version: 1.0
 eval_score: null
 tags: [tag1, tag2]
@@ -284,7 +360,7 @@ How to propose and submit a skill. First section: zero git jargon, written for a
 The skill template from this file as a clean standalone document. Add a short usage guide above the template: when to use it, how to fill each field, what counts as a good example.
 
 **ROADMAP.md**
-All ~102 skills listed by category. For each: name, one-line description, status badge. Summary at top: X stable · X beta · X draft · X planned. This file is the living task list — update it every session.
+All ~229 skills listed by category. For each: name, one-line description, status badge. Summary at top: X stable · X beta · X draft · X planned. This file is the living task list — update it every session.
 
 ---
 
@@ -316,7 +392,7 @@ Five yes/no questions any user can answer after trying a skill, with no technica
 
 ---
 
-### Phase 4 — Skill placeholders (~102 files + matching .evals.json files)
+### Phase 4 — Skill placeholders (~229 files + matching .evals.json files)
 
 Create every skill file listed in the Repository Structure. Each file:
 - `status: planned`

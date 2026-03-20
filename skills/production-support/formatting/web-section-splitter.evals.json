@@ -1,0 +1,46 @@
+{
+  "skill_name": "web-section-splitter",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "WSS-001",
+      "input_summary": "820-word article about librarians fighting misinformation, WordPress, with pull quote and image suggestions",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    },
+    {
+      "test_id": "WSS-002",
+      "input_summary": "2,500-word investigative feature with data tables and multiple sources, Ghost CMS, 400-word max sections",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "WSS-003",
+      "input_summary": "1,800-word travel feature adapted from print, Webflow, with video embed placements and reading time estimates",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.44
+}

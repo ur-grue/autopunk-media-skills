@@ -1,0 +1,49 @@
+{
+  "skill_name": "debate-state-summary",
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "DSS-001",
+      "input_summary": "Summarising the debate over whether cities should ban gas stoves in new residential construction",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Identified four distinct positions beyond simple for/against. Points of agreement were genuinely shared. Underreported angles (rental housing impact, cultural cooking practices) were insightful."
+    },
+    {
+      "test_id": "DSS-002",
+      "input_summary": "Summarising the debate over mandatory AI content labelling in journalism",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Strong nuance on the spectrum of positions. Correctly identified the definitional problem (what counts as AI-generated). Tone was appropriately neutral on a topic where the audience may have strong views."
+    },
+    {
+      "test_id": "DSS-003",
+      "input_summary": "Summarising the debate over whether professional sports leagues should allow betting sponsorship",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good identification of the athlete welfare and problem gambling dimensions alongside the economic arguments. Points of agreement section was solid. Could have been sharper on the international regulatory comparison."
+    }
+  ]
+}

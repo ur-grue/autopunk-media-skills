@@ -1,0 +1,46 @@
+{
+  "skill_name": "copyright-holder-finder",
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "Unattributed 1960s photograph from a defunct publisher, UK jurisdiction, television documentary use",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.50
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Music track from an obscure 1980s vinyl record, US jurisdiction, podcast use",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Archival news footage from a dissolved television station, no jurisdiction specified, YouTube documentary use",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
+}

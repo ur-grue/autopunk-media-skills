@@ -1,0 +1,46 @@
+{
+  "skill_name": "ab-social-post-tester",
+  "status": "passed",
+  "overall_mean": 4.50,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "LinkedIn post promoting a newsletter article on always-on communication culture, goal: click-throughs",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 2,
+      "input_summary": "Instagram post for a documentary screening event, goal: engagement and comments, conversational voice",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "X/Twitter post promoting a data journalism investigation, goal: shares, authoritative voice",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.67
+    }
+  ]
+}

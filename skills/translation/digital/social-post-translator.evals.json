@@ -1,0 +1,46 @@
+{
+  "skill_name": "social-post-translator",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "SPT-001",
+      "input_summary": "English-to-Latin American Spanish translation of an Instagram caption about coffee supply chain journalism with hashtags",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "SPT-002",
+      "input_summary": "English-to-French translation of a LinkedIn thought leadership post (600 characters) with professional tone and no hashtags",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "SPT-003",
+      "input_summary": "German-to-English translation of a batch of three X/Twitter posts (280 character limit each) for a media outlet's breaking news account",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    }
+  ],
+  "overall_mean": 4.33
+}

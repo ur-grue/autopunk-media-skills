@@ -1,0 +1,46 @@
+{
+  "skill_name": "structure-checker",
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "SC-001",
+      "input_summary": "2,400-word investigative feature on school funding disparities, writer concerned about pacing",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.67
+    },
+    {
+      "test_id": "SC-002",
+      "input_summary": "800-word news report on municipal budget, no specific concerns stated",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "SC-003",
+      "input_summary": "3,200-word profile piece on a chef, editor says 'the ending doesn't land'",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.5
+}

@@ -1,0 +1,49 @@
+{
+  "skill_name": "animated-explainer-script",
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "AES-001",
+      "input_summary": "Microplastics food chain explainer, 2 minutes, general audience, infographic style, follows interview transition",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.50,
+      "notes": "Strong two-column format. Visual cues specific enough for animation team. Word count matched duration target. Pauses built in at appropriate moments. Transition from interview handled cleanly."
+    },
+    {
+      "test_id": "AES-002",
+      "input_summary": "Financial system explainer — how money laundering works in 90 seconds, investigative tone, specialist-adjacent audience",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42,
+      "notes": "Complex subject broken down clearly. Three-stage process structure effective. Visual metaphors appropriate for investigative tone. One visual cue slightly vague — 'financial flow diagram' could be more specific."
+    },
+    {
+      "test_id": "AES-003",
+      "input_summary": "Climate data visualisation, 3 minutes, educational tone, 3D style preference, standalone sequence not connected to interview",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Handled longer duration well without padding. Data points clearly specified. 3D visual direction was competent but noted that a storyboard would be particularly important for 3D work. Standalone opening slightly less strong without interview context to anchor to."
+    }
+  ]
+}

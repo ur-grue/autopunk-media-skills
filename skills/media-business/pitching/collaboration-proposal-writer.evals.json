@@ -1,0 +1,46 @@
+{
+  "skill_name": "collaboration-proposal-writer",
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "Podcast-and-news outlet co-production proposal for an investigative series, cold approach",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.50
+    },
+    {
+      "test_id": "TC-002",
+      "description": "YouTube channel and documentary production company cross-platform collaboration, existing informal relationship",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Two regional newspapers proposing a shared investigative unit with cost-sharing",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "skill_name": "funding-source-investigator",
+  "status": "stable",
+  "overall_score": 4.5,
+  "test_cases": [
+    {
+      "test_id": "FSI-001",
+      "input_summary": "Investigating the funding sources of a think tank that publishes research opposing climate regulation, registered as a 501(c)(3) in the US",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Excellent use of Form 990, foundation grant databases, and indirect tracing strategies. Conflict-of-interest checklist was sharply targeted to the energy policy context. Opacity indicators were well-explained."
+    },
+    {
+      "test_id": "FSI-002",
+      "input_summary": "Tracing the funding of a grassroots campaign group opposing a local development project, registered as a UK charity",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Good adaptation to UK Charity Commission context. Correctly identified the difference between charity accounts and company filings. Indirect tracing via property records and local government submissions was creative."
+    },
+    {
+      "test_id": "FSI-003",
+      "input_summary": "Investigating whether a patient advocacy group is funded by pharmaceutical companies, for a healthcare reporting story",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Pharma transparency databases (Dollars for Docs, Open Payments) were correctly identified. Conflict-of-interest checklist was well-calibrated to the healthcare context. Could have been slightly more concise."
+    }
+  ]
+}
