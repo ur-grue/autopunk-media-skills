@@ -1,5 +1,46 @@
 {
   "skill_name": "creative-commons-explainer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.50,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "CC BY-NC-SA 4.0 photograph used in a monetised YouTube documentary with modifications",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.83
+    },
+    {
+      "test_id": "TC-002",
+      "description": "CC BY 4.0 dataset used in a commercial print magazine infographic, no modifications",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.50
+    },
+    {
+      "test_id": "TC-003",
+      "description": "CC0 audio recording used in a podcast with commercial sponsorship, remixed with other audio",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.00
+    }
+  ]
 }

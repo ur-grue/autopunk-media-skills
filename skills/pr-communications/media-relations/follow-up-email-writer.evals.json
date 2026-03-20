@@ -1,5 +1,46 @@
 {
   "skill_name": "follow-up-email-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "First follow-up to a cold media correspondent with new information and time-sensitive urgency",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean": 4.67
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Second follow-up to an established trade journalist, routine urgency, no new hook",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Third follow-up to a cold podcast producer ahead of a deadline-critical embargo lift",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
 }

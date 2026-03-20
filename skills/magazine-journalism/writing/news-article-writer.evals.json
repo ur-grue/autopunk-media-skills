@@ -1,5 +1,46 @@
 {
   "skill_name": "news-article-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "news-001",
+      "input_summary": "Regional transport authority approves $340M light rail extension; broadsheet style, 550 words",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42
+    },
+    {
+      "test_id": "news-002",
+      "input_summary": "City council passes affordable housing ordinance after contentious debate; wire service style, 400 words",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.0,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "news-003",
+      "input_summary": "State education department releases school performance data showing widening achievement gap; trade press, 600 words",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42
+    }
+  ]
 }

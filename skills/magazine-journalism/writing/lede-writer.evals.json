@@ -1,5 +1,46 @@
 {
   "skill_name": "lede-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "lede-001",
+      "input_summary": "Feature about urban library system eliminating late fees; long-form magazine style",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.8,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.47
+    },
+    {
+      "test_id": "lede-002",
+      "input_summary": "Hard news about regional hospital merger; broadsheet style",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.0,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42
+    },
+    {
+      "test_id": "lede-003",
+      "input_summary": "Investigative piece on water contamination in rural communities; trade press style",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42
+    }
+  ]
 }

@@ -1,5 +1,46 @@
 {
   "skill_name": "editor-note-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "ENW-001",
+      "input_summary": "Minor factual correction: wrong age of a quoted expert in a health feature",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "ENW-002",
+      "input_summary": "Substantive correction: article misattributed a policy position to the wrong political party in an election feature",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "ENW-003",
+      "input_summary": "Disclosure note: journalist's spouse works at company profiled in a business feature",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    }
+  ],
+  "overall_mean": 4.44
 }

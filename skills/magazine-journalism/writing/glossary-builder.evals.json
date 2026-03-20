@@ -1,5 +1,46 @@
 {
   "skill_name": "glossary-builder",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.36,
+  "test_cases": [
+    {
+      "test_id": "glossary-001",
+      "input_summary": "Municipal bond financing terms for general newspaper reader; sidebar format, 8 terms",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 3.5
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "glossary-002",
+      "input_summary": "Climate science terminology for magazine feature; general reader, 12 terms",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "glossary-003",
+      "input_summary": "Cybersecurity terms for investigative series; informed reader, standalone reference, 15 terms",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42
+    }
+  ]
 }

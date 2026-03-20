@@ -1,5 +1,46 @@
 {
   "skill_name": "award-submission-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "3-part audio documentary series submitted to international audio awards, with sonification innovation and measurable impact",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Investigative journalism article submitted to national press awards, limited impact data available",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "YouTube education series submitted to digital media awards, strong audience metrics but no policy impact",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
 }

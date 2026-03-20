@@ -1,5 +1,49 @@
 {
   "skill_name": "equipment-list-generator",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.42,
+  "test_cases": [
+    {
+      "test_id": "ELG-001",
+      "input_summary": "Interview-based documentary, 3-person crew, 8 days, Sony FX6, mixed interior/exterior, hired kit",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Comprehensive list appropriate to format. Quantities realistic. Expendables included. Practical notes genuinely useful — battery and frequency advice particularly strong."
+    },
+    {
+      "test_id": "ELG-002",
+      "input_summary": "Self-shooting PD, observational doc, 15 days, run-and-gun, exterior-heavy, cold weather conditions",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Correctly scaled down to one-person operation. Cold weather adaptations included (hand warmers, extra batteries, weather sealing notes). No heavy lighting — appropriate for observational format."
+    },
+    {
+      "test_id": "ELG-003",
+      "input_summary": "Minimal input: documentary shoot, 5 days, 2-person crew, no camera preference specified",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Applied reasonable defaults (broadcast-standard camera suggestion with alternatives noted). Flagged that camera choice should be confirmed. List was appropriately general without being vague."
+    }
+  ]
 }

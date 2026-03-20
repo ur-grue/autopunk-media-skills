@@ -1,5 +1,49 @@
 {
   "skill_name": "call-sheet-writer",
-  "status": "pending",
-  "test_cases": []
+  "status": "complete",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "test_id": "CSW-001",
+      "input_summary": "Single-location documentary interview day, 4-person crew, 2 contributors, community centre venue with specific access constraints",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Clean structure, all sections populated. CONFIRM flags correctly placed for missing phone numbers. Schedule timings realistic for documentary interviews."
+    },
+    {
+      "test_id": "CSW-002",
+      "input_summary": "Two-location exterior shoot day with travel between sites, 6-person crew, drone operator with CAA restrictions, winter weather",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Handled multi-location schedule well. Correctly flagged drone restrictions and weather contingency. Travel time between locations was estimated and flagged for confirmation."
+    },
+    {
+      "test_id": "CSW-003",
+      "input_summary": "Minimal input: production title, date, one location, 2 crew, no hospital or catering info provided",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.50,
+      "notes": "Graceful degradation — all missing safety-critical fields flagged as CONFIRM BEFORE DISTRIBUTION. Did not invent details. Applied sensible default schedule offsets."
+    }
+  ]
 }
