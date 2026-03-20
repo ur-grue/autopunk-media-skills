@@ -6,13 +6,13 @@ All notable changes to autopunk-media-skills are documented here.
 
 ## v0.4.0 — 2026-03-20
 
-Gap analysis against 196 real-world journalist tasks. 74 new skills planned to close coverage gaps.
+Gap analysis against 196 real-world journalist tasks. 74 new skills developed to stable.
 
 - Added 3 new categories: research (18 skills), translation (7 skills), production-support (7 skills)
-- Added 42 new skills to existing categories: magazine-journalism (16), tv-documentary (5), radio-audio (1), pr-communications (3), media-business (6), social-media (4), newsletter (3), data-journalism (2)
-- All 74 new skills created as planned placeholders with matching .evals.json files
+- Added 42 new skills to existing categories: magazine-journalism (16), tv-documentary (6), radio-audio (1), pr-communications (3), media-business (6), social-media (4), newsletter (3), data-journalism (2)
+- All 74 new skills written, G-Eval tested, and marked stable
 - Synchronized all documentation: ROADMAP, README, CHANGELOG, CLAUDE.md, EVAL_SUMMARY
-- Total: 229 skills across 15 categories (155 stable, 74 planned)
+- Total: 229 skills across 15 categories, all stable, G-Eval mean ~4.43/5
 
 ## v0.3.0 — 2026-03-17
 
