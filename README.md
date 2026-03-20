@@ -188,6 +188,34 @@ That's it. Claude handles the rest.
 
 ---
 
+## First Time Here?
+
+Not sure where to start? These guides will get you up and running fast.
+
+| Guide | What It Does |
+|-------|-------------|
+| [**Getting Started**](docs/getting-started.md) | Pick your role, get 3 starter skills, start producing |
+| [**Writing Better Inputs**](docs/writing-better-inputs.md) | How to brief Claude so output is usable on the first try |
+| [**Skill Index**](docs/skill-index.md) | Find any skill by what you need to do — not by category |
+| [**Troubleshooting**](docs/troubleshooting.md) | Output not right? Common fixes for common problems |
+
+---
+
+## Workflows
+
+Most real projects use multiple skills in sequence. These step-by-step workflows walk you through an entire project from start to finish.
+
+| Workflow | Skills | Who It's For |
+|----------|--------|-------------|
+| [YouTube Video Launch](docs/workflows/youtube-video-launch.md) | 8 skills | YouTube creators |
+| [Investigative Journalism Project](docs/workflows/investigative-journalism-project.md) | 10 skills | Investigative reporters |
+| [Podcast Season Launch](docs/workflows/podcast-season-launch.md) | 9 skills | Podcast producers |
+| [Documentary Pitch to Greenlight](docs/workflows/documentary-pitch-to-greenlight.md) | 8 skills | Documentary filmmakers |
+| [Newsletter From Scratch](docs/workflows/newsletter-from-scratch.md) | 8 skills | Newsletter writers |
+| [PR Crisis Response](docs/workflows/pr-crisis-response.md) | 6 skills | PR professionals |
+
+---
+
 ## How To Contribute
 
 Got an idea for a skill? Found one that gave bad output? Want to improve an existing skill?
