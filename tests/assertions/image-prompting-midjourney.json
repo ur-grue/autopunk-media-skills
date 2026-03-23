@@ -1,0 +1,14 @@
+{
+  "category": "image-prompting/midjourney",
+  "skills": {
+    "cinematic-shot-prompt": {
+      "assertions": [
+        {"id": "copy-paste-ready", "text": "Output includes a complete Midjourney prompt formatted as a single paragraph ready to paste", "type": "binary"},
+        {"id": "technical-params", "text": "The prompt includes at least one technical Midjourney parameter (--ar, --v, --s, --c, or similar)", "type": "binary"},
+        {"id": "cinematographic-lighting", "text": "Lighting is described in cinematographic terms (e.g., Rembrandt, practical, golden hour) not generic descriptors like 'nice light'", "type": "binary"},
+        {"id": "prompt-breakdown", "text": "A breakdown of 3-5 bullet points follows the prompt explaining why each major choice was made", "type": "binary"},
+        {"id": "no-generic-descriptors", "text": "No generic style descriptors appear such as 'beautiful', 'stunning', or 'amazing'", "type": "binary"}
+      ]
+    }
+  }
+}

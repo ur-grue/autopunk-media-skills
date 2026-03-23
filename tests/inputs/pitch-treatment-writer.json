@@ -1,0 +1,30 @@
+{
+  "skill": "pitch-treatment-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard documentary pitch",
+      "prompt": "Project description: A feature documentary following a retired teacher who has spent 15 years photographing every abandoned school building in her state, documenting the architectural decay and the communities that were hollowed out when the schools closed. Format: Single feature documentary, ~75 minutes. Target broadcaster: Independent documentary strand. Tone reference: Quiet observational, like Nomadland or Minari. Primary subject: Margaret Hollis, 72, retired elementary school teacher. Central question: What happens to a community's identity when its school disappears?"
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical subject",
+      "prompt": "Project description: A documentary about the people who maintain undersea internet cables — the physical infrastructure that carries 99% of intercontinental data. The film follows a cable ship crew during a repair mission in the North Atlantic. Format: Single documentary, ~90 minutes. Target broadcaster: Science/technology documentary strand. Central question: What happens when the invisible infrastructure of the modern world breaks? Primary subjects: The ship's captain and the lead cable engineer."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Project description: A documentary about urban beekeeping. Format: Short documentary, 30 minutes. Target: Festival submission."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Project description: A documentary following three families in Thessaloniki, Greece, who lost their homes during the 2010s economic crisis and have been living in squatted buildings since. Now the buildings are being sold to developers as part of the post-crisis recovery. Format: Feature documentary, ~85 minutes. Target broadcaster: European public broadcaster (ARTE or similar). Central question: When a city recovers economically, who gets left behind? Tone: Intimate, observational, with a structural argument about gentrification and displacement. Why now: Several squatted buildings in Thessaloniki are scheduled for demolition in the next 12 months."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Project description: A film about the environment. Format: Documentary. Target: Someone who might fund it."
+    }
+  ]
+}

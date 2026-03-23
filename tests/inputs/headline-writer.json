@@ -1,0 +1,30 @@
+{
+  "skill": "headline-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard news story",
+      "prompt": "Article summary: The city's largest employer, a semiconductor manufacturing plant, announced today that it will close its local facility by the end of next year, eliminating 2,300 jobs. The company cited rising energy costs and competition from subsidised facilities in Asia. The mayor called it 'a devastating blow' and said she would seek emergency state funding for retraining programmes. The plant has operated for 28 years and is the economic anchor of the surrounding community. Target publication: regional daily newspaper (print and web)."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Article summary: A new peer-reviewed study has found that large language models trained on medical data can identify rare genetic conditions from patient symptom descriptions with 87% accuracy — outperforming the average diagnostic rate of non-specialist physicians (62%) but underperforming genetic specialists (94%). The study's authors caution that the model cannot replace clinical judgment but could serve as a screening tool in regions with few genetic specialists. Target publication: health technology trade magazine."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Article summary: A local park is being renovated. Target publication: community newsletter."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Article summary: Sweden has become the first country in the world to officially recommend that children under 2 have zero screen time, children aged 2-5 be limited to one hour per day, and children aged 6-12 be limited to two hours per day. The guidelines, issued by the Swedish Public Health Agency, are based on a three-year study of 15,000 children. They are recommendations, not legally binding. Norway and Denmark are expected to issue similar guidelines within months. Target publication: international broadsheet newspaper."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Article summary: Something happened at a meeting. Target publication: a newspaper."
+    }
+  ]
+}

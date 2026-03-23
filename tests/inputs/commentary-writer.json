@@ -1,0 +1,30 @@
+{
+  "skill": "commentary-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard documentary sequence",
+      "prompt": "Sequence: A documentary about an independent bookshop in a small town. Picture sequence: Wide shot of a quiet high street at dawn, the bookshop's facade with a handwritten 'OPEN' sign. Interior: the owner, a woman in her 60s, shelving books. Close-up of her hands sorting a stack. A customer enters and they talk. Final shot: the owner alone again, reading behind the counter. Research notes: The shop has been open for 34 years. It is the last independent bookshop in the county. Three chain bookshops closed in nearby towns between 2018-2022. The owner's name is Helen. She opens at 7:30am every day. Narration length: ~100 words. Voice: Warm, understated, factual."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Sequence: A documentary about deep-sea mining. Picture sequence: Underwater footage of a nodule field on the ocean floor at 4,500 meters depth. Slow pan across polymetallic nodules. A robotic collector arm descends into frame. The arm begins scooping nodules. Sediment plume rises. Cut to: the surface ship's control room, operators watching screens. Research notes: Polymetallic nodules take millions of years to form. They contain manganese, nickel, cobalt, and copper — metals critical for battery production. The International Seabed Authority has issued 31 exploration contracts but zero exploitation permits as of 2025. Environmental impact assessments show sediment plumes can travel 4-5km from the collection site. Narration length: ~120 words. Voice: Authoritative, measured, not alarmist."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Sequence: A market scene. People buying vegetables. Narration length: ~50 words. Voice: Neutral."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Sequence: A documentary about the last coal mine in the Ruhr Valley, Germany. Picture sequence: Aerial shot of the mine complex at sunset. Workers emerging from the shaft elevator at shift change. Close-up of a miner's face, dust-covered. The locker room: men changing out of work clothes in silence. A wide shot of the empty conveyor belt. Research notes: The Prosper-Haniel mine in Bottrop was the last active hard coal mine in Germany, closing in December 2018. At peak in the 1950s, the Ruhr had over 600,000 miners. By the final shift, fewer than 1,000 remained. The region has spent 30 years transitioning to service industries. Many former mining towns still have unemployment rates above the national average. Narration length: ~130 words. Voice: Sober, respectful, no nostalgia."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Sequence: Some nature footage. Trees and a river. Narration length: ~80 words."
+    }
+  ]
+}

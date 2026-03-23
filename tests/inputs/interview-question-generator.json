@@ -1,0 +1,30 @@
+{
+  "skill": "interview-question-generator",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard documentary interview",
+      "prompt": "Subject: A whistleblower at a pharmaceutical company who reported falsified clinical trial data. Role in documentary: Primary subject — the person whose disclosure drives the film's investigation. Editorial angle: Exploring the personal cost of whistleblowing and why institutional protections often fail. Known facts: Worked at the company for 11 years before reporting; was terminated within 6 months of filing the complaint; the regulatory investigation is still ongoing. Guarded about: The specific data that was falsified (legal proceedings pending)."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical subject",
+      "prompt": "Subject: A volcanologist who monitors an active volcano that threatens a city of 300,000 people. Role in documentary: Expert subject who humanises the science. Editorial angle: What it is like to be personally responsible for warning a city when the data is uncertain. Known facts: Has monitored this volcano for 18 years; issued a false alarm 6 years ago that caused an unnecessary evacuation; the next eruption is statistically overdue. Guarded about: The false alarm and its consequences for her credibility."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Subject: A teacher. Role in documentary: One of several people in a film about education. Editorial angle: What teaching is really like. Known facts: Has taught for 20 years."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Subject: The mayor of a small Italian town (population 2,800) who adopted a policy of welcoming migrants to repopulate the town and reopen its school. Role in documentary: Central figure in a film about demographic decline and migration in Southern Europe. Editorial angle: Whether migration can reverse the death of small European towns. Known facts: The town had lost 40% of its population since 1990; 200 migrants now live there; the school reopened after being closed for 5 years; the mayor faces opposition from some residents. Guarded about: The specific incidents of tension between residents and newcomers."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Subject: Someone important. Role in documentary: Main person in the film. Editorial angle: Their story. Known facts: They did something interesting."
+    }
+  ]
+}

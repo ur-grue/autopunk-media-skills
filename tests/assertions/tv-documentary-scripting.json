@@ -1,0 +1,23 @@
+{
+  "category": "tv-documentary/scripting",
+  "skills": {
+    "commentary-writer": {
+      "assertions": [
+        {"id": "no-picture-description", "text": "Narration does not describe what the picture already shows", "type": "binary"},
+        {"id": "blocks-labeled", "text": "Each narration block is labeled with approximate screen position (e.g., 'Over the departure shot')", "type": "binary"},
+        {"id": "word-count-per-block", "text": "Word count is noted for each narration block", "type": "binary"},
+        {"id": "commentary-notes", "text": "Output includes a separate Commentary Notes section flagging where silence works better than words", "type": "binary"},
+        {"id": "sentence-rhythm", "text": "No narration sentence exceeds 25 words without a natural internal break", "type": "binary"}
+      ]
+    },
+    "interview-question-generator": {
+      "assertions": [
+        {"id": "three-sections", "text": "Questions are organized into three labeled sections: Opening, Substantive, and High-Stakes", "type": "binary"},
+        {"id": "question-count", "text": "Output contains 20-25 questions total", "type": "binary"},
+        {"id": "no-yes-no", "text": "No question can be answered with a simple yes or no", "type": "binary"},
+        {"id": "production-notes", "text": "Production notes appear on at least 3 questions throughout the set", "type": "binary"},
+        {"id": "safe-to-sensitive", "text": "High-stakes or challenging questions appear only in the final section, not in the opening", "type": "binary"}
+      ]
+    }
+  }
+}

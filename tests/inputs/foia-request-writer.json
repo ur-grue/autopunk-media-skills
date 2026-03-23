@@ -1,0 +1,30 @@
+{
+  "skill": "foia-request-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard FOIA request",
+      "prompt": "Agency: U.S. Environmental Protection Agency. Records wanted: All internal communications regarding the decision to delay enforcement of Clean Water Act violations at industrial facilities in the Ohio River Basin between January 2024 and December 2025. Purpose: Investigating a pattern of delayed enforcement during an election cycle. Organization: Staff reporter at a regional environmental news outlet. Name: David Chen. Contact: david.chen@email.com."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Agency: U.S. Department of Defense, Defense Advanced Research Projects Agency (DARPA). Records wanted: All contracts, task orders, and statements of work related to autonomous weapons target identification systems awarded between fiscal years 2023 and 2025, including contractor names, contract values, and performance evaluations. Purpose: Investigating the development pipeline for lethal autonomous weapons systems. Organization: Freelance defence correspondent publishing in a national security journal. Name: Sarah Okonkwo. Contact: s.okonkwo@email.com."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Agency: Federal Bureau of Investigation. Records wanted: Records about surveillance at protests. Purpose: Journalism. Name: Alex Rivera. Contact: alex@email.com."
+    },
+    {
+      "id": "input-04",
+      "description": "Request with international relevance",
+      "prompt": "Agency: U.S. Department of State. Records wanted: All cables, memoranda, and briefing materials related to the U.S. government's response to the European Union's Digital Markets Act between January 2022 and June 2025, including communications with U.S. technology companies regarding the Act's implementation. Purpose: Investigating U.S. government lobbying on behalf of American tech companies against European regulation. Organization: Correspondent for a European broadsheet newspaper's Washington bureau. Name: Katrin Weiss. Contact: k.weiss@newspaper.eu."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Agency: Some government agency. Records wanted: Information about spending. Purpose: A story. Name: Pat Johnson. Contact: pat@email.com."
+    }
+  ]
+}

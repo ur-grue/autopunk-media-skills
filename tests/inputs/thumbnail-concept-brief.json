@@ -1,0 +1,30 @@
+{
+  "skill": "thumbnail-concept-brief",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard YouTube explainer",
+      "prompt": "Video title: Why You Can't Focus Anymore. Target audience: knowledge workers 25-40. Core emotion: Recognition — the viewer should feel seen, like someone finally named their problem. Channel style: Clean white backgrounds, host on right, bold text on left."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Video title: How LIDAR Changed Archaeology Forever. Target audience: science-curious viewers and archaeology enthusiasts. Core emotion: Wonder — the viewer should feel like a lost world is being revealed. No presenter face."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Video title: Making Sourdough. Target audience: home bakers. Core emotion: Warmth."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Video title: Inside Barcelona's Fight Against Mass Tourism. Target audience: Europeans aged 25-50 interested in urban politics. Core emotion: Tension — the viewer should feel the conflict between economic benefit and community destruction. Presenter appears in the thumbnail."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Video title: Life Advice. Target audience: young adults. Core emotion: Something motivational."
+    }
+  ]
+}

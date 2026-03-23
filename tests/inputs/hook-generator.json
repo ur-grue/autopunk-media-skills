@@ -1,0 +1,30 @@
+{
+  "skill": "hook-generator",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard YouTube explainer",
+      "prompt": "Topic: Why most people fail at learning a new language as adults. Format: YouTube long-form. Tone: direct, science-backed. Audience: 28-45, frustrated learners who have tried apps and courses."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Topic: How wastewater epidemiology is being used to track drug consumption patterns in cities by testing sewage samples. Format: YouTube long-form. Tone: serious journalism. Audience: public health professionals and policy wonks."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Topic: Sleep. Format: YouTube."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Topic: Why the Dutch housing crisis is worse than most Europeans realize, despite the Netherlands being one of the wealthiest countries in the EU. Format: Documentary opening. Tone: serious journalism. Audience: European viewers interested in housing policy."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Topic: Something about how technology is changing things. Format: Podcast. Audience: general."
+    }
+  ]
+}

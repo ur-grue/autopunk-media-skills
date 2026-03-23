@@ -1,8 +1,33 @@
 # Roadmap
 
-**Summary:** 115 stable · 0 beta · 0 draft · 239 planned · 354 total
+**Summary:** 199 stable · 178 beta · 0 draft · 0 planned · 377 total (354 + 23 locale variants)
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
+
+---
+
+## Project Milestones
+
+### Completed
+- [x] 354 skills across 21 categories (+ 23 locale variants)
+- [x] G-Eval quality framework (6 dimensions, 4.0/5 threshold)
+- [x] SKILL_TEMPLATE.md for contributors
+- [x] CONTRIBUTING.md (non-technical + technical sections)
+- [x] Claude Plugin Marketplace format (`.claude-plugin/marketplace.json`)
+- [x] AutoResearch binary eval loop (complementing G-Eval)
+
+### In Progress
+- [ ] npm package for one-command installation
+- [ ] Awesome-list submissions (travisvn, ComposioHQ, VoltAgent)
+- [ ] Skill directory listings (SkillsMP, SkillHub)
+
+### Planned
+- [ ] GitHub Actions: auto-validate new skills on PR
+- [ ] GitHub Actions: auto-sync marketplace.json on merge
+- [ ] Docs site (GitHub Pages) with interactive skill browser
+- [ ] Expanded test inputs for top 50 skills
+- [ ] Community skill submissions (first external PRs)
+- [ ] Localized skill variants (DE, FR, ES) for European broadcasters
 
 ---
 

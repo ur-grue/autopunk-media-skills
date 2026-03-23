@@ -1,0 +1,14 @@
+{
+  "category": "magazine-journalism/investigation",
+  "skills": {
+    "foia-request-writer": {
+      "assertions": [
+        {"id": "statutory-citation", "text": "Output cites 5 U.S.C. section 552 explicitly", "type": "binary"},
+        {"id": "fee-waiver", "text": "Output includes a journalist fee waiver request using statutory language", "type": "binary"},
+        {"id": "deadline-reminder", "text": "Output includes a 20-business-day response deadline reminder", "type": "binary"},
+        {"id": "appeal-statement", "text": "Output contains a statement of intent to appeal any improper denial or withholding", "type": "binary"},
+        {"id": "formal-letter", "text": "Output is formatted as a formal business letter with sender block, date, agency addressee, and sign-off", "type": "binary"}
+      ]
+    }
+  }
+}

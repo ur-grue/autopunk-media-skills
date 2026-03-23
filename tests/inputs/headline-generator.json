@@ -1,0 +1,30 @@
+{
+  "skill": "headline-generator",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard feature article",
+      "prompt": "Article summary: An investigation into how retirement homes across the country are using algorithmic scheduling software that minimises staffing costs by reducing overlap between shifts — resulting in 10-15 minute windows where residents have no caregiver present. The piece includes leaked internal memos showing that the software vendor marketed the gap as a 'cost efficiency feature.' Publication: National newspaper, serious broadsheet. Dek needed: Yes."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Article summary: A deep-dive into how forensic linguists are being used in court cases to determine whether AI wrote a specific document — and why their methods are already being challenged as unreliable. Three recent cases are examined. Publication: Legal affairs magazine. Dek needed: Yes."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Article summary: A story about a local library that is being closed. Publication: Regional newspaper."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Article summary: An investigation into how EU agricultural subsidies, designed to support small farmers, are being captured by large agribusiness corporations through shell company structures. The investigation covers five countries and identifies over 200 million euros in subsidies going to corporate entities rather than family farms. Publication: European investigative magazine (similar to Der Spiegel or The Bureau of Investigative Journalism). Dek needed: Yes."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Article summary: Something about schools and technology. Publication: Online magazine."
+    }
+  ]
+}

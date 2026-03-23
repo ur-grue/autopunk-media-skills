@@ -1,0 +1,30 @@
+{
+  "skill": "full-script-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard YouTube explainer",
+      "prompt": "Title: Why Most Diets Fail (It's Not Willpower). Angle: The problem with most diets is metabolic adaptation, not lack of discipline. Talking points: 1) The willpower myth, 2) What metabolic adaptation actually is, 3) Why your body fights weight loss, 4) Three evidence-based strategies that work with your metabolism, 5) Why consistency matters more than perfection. Target length: 10-12 minutes. Tone: educational but conversational, empathetic, not preachy. CTA: Share this with someone who needs to hear it."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Title: How Microplastics Enter Your Brain (And What the Science Actually Says). Angle: Recent studies have found microplastics crossing the blood-brain barrier in lab conditions, but the real-world health implications are still uncertain. Talking points: 1) What microplastics are and where they come from, 2) The blood-brain barrier study, 3) What we know vs what we don't, 4) Why the media coverage has been misleading, 5) What you can realistically do. Target length: 15 minutes. Tone: science journalism, measured, not alarmist. CTA: Comment with your questions for a follow-up video."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Title: How to Read More Books. Talking points: 1) Why people don't read, 2) Simple habits, 3) What to read. Target length: 8 minutes. Tone: casual."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Title: Why Portugal's Golden Visa Changed Everything. Angle: How a residency-for-investment programme transformed Lisbon's housing market and displaced local residents. Talking points: 1) What the Golden Visa programme is, 2) How it changed Lisbon property prices, 3) The displacement of local renters, 4) The 2023 policy reversal, 5) What other European countries can learn. Target length: 12 minutes. Tone: documentary-style journalism, empathetic but analytical. CTA: Subscribe for more European housing stories."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Title: Things I Wish I Knew Earlier. Talking points: life lessons. Target length: 10 minutes. Tone: chill."
+    }
+  ]
+}

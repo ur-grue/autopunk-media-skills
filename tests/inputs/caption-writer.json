@@ -1,0 +1,30 @@
+{
+  "skill": "caption-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard social media post",
+      "prompt": "Platform: Instagram and LinkedIn. Content: A new investigative article about how food delivery apps are classifying riders as independent contractors to avoid paying minimum wage, with data from three cities showing average hourly earnings below the legal minimum. Account type: Investigative news outlet. Voice: Serious, direct. Intended effect: Drive reads and provoke discussion."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Platform: LinkedIn and Twitter/X. Content: A behind-the-scenes post about using photogrammetry to create 3D models of archaeological artefacts for a museum's digital archive. Includes before/after images of a 2,000-year-old ceramic vessel. Account type: Cultural heritage technology company. Voice: Professional but enthusiastic. Intended effect: Build credibility, attract potential museum clients."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Platform: Instagram. Content: A photo of a sunset. Intended effect: Engagement."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Platform: Instagram, LinkedIn, and Twitter/X. Content: A new episode of a documentary podcast about the housing crisis in Dublin — Episode 4 interviews three families who have been living in emergency hotel accommodation for over two years while waiting for social housing. Account type: Documentary podcast. Voice: Measured, empathetic, factual. Intended effect: Drive listens and raise awareness."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Platform: All of them. Content: We have a new thing. Intended effect: Get people interested."
+    }
+  ]
+}

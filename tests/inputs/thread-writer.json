@@ -1,0 +1,30 @@
+{
+  "skill": "thread-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard editorial thread",
+      "prompt": "Subject: A long-form article I published about how algorithmic content moderation on social platforms systematically suppresses content from conflict zones because the algorithms cannot distinguish war reporting from violent content. Main argument: The same systems designed to protect users from harmful content are making it impossible for journalists in war zones to reach audiences. Length: medium (8-10 tweets). Voice: journalist, direct."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Subject: The discovery that a commonly prescribed antidepressant has a previously unknown anti-inflammatory effect that may explain why it helps some patients with chronic pain conditions. Main argument: This finding could change how we understand why SSRIs work — and suggests they may be useful for conditions well beyond depression. Length: medium (10-12 tweets). Voice: science journalist, careful with claims."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Subject: Books I read this year. Main argument: Reading is important. Length: short (5 tweets). Voice: casual."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Subject: I spent three weeks reporting on the Greek island of Lesbos, where the refugee processing system has created a permanent population of people in legal limbo — not detained, not deported, not resettled. Some have been on the island for five years. Main argument: Europe's asylum system has created a class of people who exist in administrative suspension, and the human cost is invisible to most Europeans. Length: long (15-18 tweets). Voice: documentary filmmaker, personal, observational."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Subject: Some thoughts about the news industry. Main argument: Things are changing. Length: medium. Voice: not sure."
+    }
+  ]
+}

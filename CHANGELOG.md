@@ -4,6 +4,31 @@ All notable changes to autopunk-media-skills are documented here.
 
 ---
 
+## [1.0.0] — 2026-03-23
+
+### Added
+- Install instructions for Claude Code, Cursor, Codex CLI, Gemini CLI
+- AutoResearch eval framework with binary assertions (top 20 skills)
+- Related Projects section with ecosystem cross-links
+- Agent compatibility statement (Agent Skills standard)
+- GitHub Release v1.0.0
+- Claude Plugin Marketplace format (`.claude-plugin/marketplace.json`)
+- `scripts/generate-marketplace.py` for automated marketplace.json generation
+- `tests/assertions/` framework for binary skill testing
+- `tests/inputs/` test input library
+- `tests/run-eval.sh` automated eval runner
+- Marketing materials in `docs/marketing/`
+
+### Changed
+- Repo description updated for discovery
+- GitHub Topics added (15 topics)
+- README restructured: Install block first, Related Projects section, updated footer
+- ROADMAP.md updated with current status and plans
+- Skill directory table expanded to 21 categories with correct counts
+- Badge counts updated to reflect actual skill statuses (199 stable, 178 beta)
+
+---
+
 ## v0.2.0 — 2026-03-16
 
 Full library developed to stable. All 102 skills written, G-Eval tested, and marked stable.

@@ -1,8 +1,22 @@
 ![autopunk-media-skills](.github/banner.svg)
 
-![Stable skills](https://img.shields.io/badge/skills-195_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-121-555555?style=flat-square) ![Planned](https://img.shields.io/badge/planned-61-333333?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![Stable skills](https://img.shields.io/badge/skills-199_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-178-555555?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 **AI for media that matters.**
+
+---
+
+## Install
+
+```bash
+# Clone the full library
+git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
+
+# Or install individual skills
+npx skills add ur-grue/autopunk-media-skills --skill hook-generator
+```
+
+**Compatible with:** Claude Code · Cursor · Codex CLI · Gemini CLI · OpenCode · any agent supporting the [Agent Skills standard](https://agentskills.io).
 
 ---
 
@@ -10,11 +24,13 @@
 
 A free library of Claude skills for media professionals. Not a software product. Not a subscription. A collection of ready-to-use instructions that turn Claude into a specialist for specific production tasks.
 
+Skills follow the open [Agent Skills standard](https://agentskills.io) — they work in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any compatible coding agent.
+
 Each skill covers one job: writing a pitch treatment, generating SEO titles for YouTube, cleaning an interview transcript, building a cinematic image prompt, drafting a press release. You paste the skill into Claude, give it your material, and get professional-grade output.
 
 No coding. No setup. No new system to learn.
 
-There are currently **195 stable skills** across 16 categories — each tested against a six-dimension quality standard before reaching that status. Another 121 are in beta, and 61 are in development.
+There are currently **199 stable skills** across 21 categories — each tested against a six-dimension quality standard before reaching that status. Another 178 are in beta.
 
 ---
 
@@ -125,17 +141,21 @@ That's the output level you get from every stable skill in this library.
 | TV documentary | 21 | Development, scripting, pre-production, post-production, localization, business |
 | Magazine journalism | 21 | Ideation, writing, editing, investigation, fact-checking, legal, distribution |
 | YouTube | 18 | Pre-production, scripting, post-production, channel strategy, business, analytics |
+| Data journalism | 17 | Analysis, investigation, visualization, publishing, methodology |
+| Editing | 16 | Proofreading, copy editing, style checks, tone, multi-author harmonisation |
 | Pre-production | 14 | Pitches, call sheets, interview questions, rights checks, glossaries |
 | Media business | 13 | Pitching, distribution, funding, legal |
 | Podcast | 12 | Pre-production, scripting, show notes, sponsorship |
-| Editing | 16 | Proofreading, copy editing, style checks, tone, multi-author harmonisation |
-| Data journalism | 17 | Analysis, investigation, visualization, publishing, methodology |
+| Radio / Audio | 11 | Bulletins, news packages, documentary narration, running orders, strategy |
 | Image prompting | 10 | Midjourney, Flux, art direction, image workflows |
 | Archive and legal | 10 | Rights clearance, GDPR, copyright, CMS metadata |
+| Newsletter | 10 | Edition writing, subject lines, growth, monetization, strategy |
+| PR / Communications | 10 | Press releases, crisis comms, media relations, speeches, op-eds |
 | Production support | 10 | Formatting, layout, transcripts, credits |
 | Audience and distribution | 9 | Audience targeting, A/B tests, reader engagement, scheduling |
-| Social media | 7 | Content creation, platform strategy |
+| Screenwriting | 9 | Loglines, treatments, beat sheets, scenes, coverage, script notes |
 | Translation and localization | 8 | Articles, quotes, subtitles, voice-over scripts |
+| Social media | 7 | Content creation, platform strategy |
 
 Browse the full library in the `skills/` folder. Skills are organized by category, then by production stage.
 
@@ -209,8 +229,35 @@ The quality bar is real. A skill doesn't ship as stable until it passes. That's 
 
 ---
 
+## Related Projects
+
+### Journalism & Media Skills
+- [jamditis/claude-skills-journalism](https://github.com/jamditis/claude-skills-journalism) — Skills for investigative journalists, FOIA, source verification, fact-checking
+- [fdaudens/ai-journalism-skills](https://huggingface.co/spaces/fdaudens/ai-journalism-skills) — Fact-checking and OSINT skills for newsrooms
+
+### Skill Ecosystem
+- [anthropics/skills](https://github.com/anthropics/skills) — Official Anthropic skills (document creation, frontend design, skill-creator)
+- [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) — 86 AI research engineering skills with AutoResearch orchestration
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — Marketing skills: CRO, copywriting, SEO, analytics
+
+### Skill Directories
+- [SkillsMP](https://skillsmp.com/) — 500K+ searchable agent skills
+- [SkillHub](https://www.skillhub.club) — 7K+ AI-evaluated skills with quality scoring
+- [Awesome Claude Skills](https://awesomeclaude.ai/awesome-claude-skills) — Visual directory
+
+### Quality & Testing
+- [Anthropic skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) — Binary eval framework with benchmark viewer (used by this project)
+
+---
+
 ## License
 
 MIT — free to use, fork, and adapt. See `LICENSE`.
 
-Maintained by [Ur-grue](https://github.com/ur-grue) — autopunk · AI for media that matters.
+---
+
+Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers.
+
+Built by a commissioning editor with 15+ years in European public broadcasting. These skills encode real production knowledge from documentary development, magazine journalism, broadcast scripting, and international co-productions.
+
+Want to contribute? See [CONTRIBUTING.md](CONTRIBUTING.md). Found a bug? [Open an issue](https://github.com/ur-grue/autopunk-media-skills/issues).

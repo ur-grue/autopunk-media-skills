@@ -1,0 +1,30 @@
+{
+  "skill": "ad-read-script",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard podcast ad read",
+      "prompt": "Brand: Fieldnote — a project management tool designed for freelancers and solo creators. Product: Simple task tracking, invoicing, and time logging in one app. No team features, no enterprise complexity. $6/month. Key message: Built for people who work alone, not stripped-down enterprise software. Offer: 60-day free trial at fieldnote.app/podcast, code DEEPWORK. Show: The Deep Work Hour — audience of freelancers and independent professionals. Host voice: direct, practical, no hype. Personal endorsement: Yes, host uses it. Placement: mid-roll."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical product",
+      "prompt": "Brand: SpectraLab — a portable spectroscopy device for field geologists and environmental scientists. Product: Handheld mineral identification using laser-induced breakdown spectroscopy. Provides real-time elemental analysis in the field. Priced at $4,200. Key message: Lab-grade mineral ID without returning to the lab. Offer: 15% off first order at spectralab.com with code FIELDWORK. Show: The Rock Record — a geology podcast for professionals and enthusiasts. Host voice: enthusiastic but technically credible. Personal endorsement: No. Placement: pre-roll and mid-roll."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Brand: A coffee company. Product: Coffee subscription. Key message: Good coffee delivered. Offer: Use code MORNING for free shipping. Show: A morning show podcast. Placement: pre-roll."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Brand: Babbel — the language learning app. Product: Subscription-based language learning with courses in 14 languages, designed by linguists. Key message: Lessons designed to get you speaking in real conversations within 3 weeks, not just memorising vocabulary. Offer: 60% off annual subscription at babbel.com/continent, code CONTINENT. Show: Continent — a European politics podcast for an international English-speaking audience. Host voice: journalistic, slightly wry. Personal endorsement: Yes, host is learning Portuguese. Required phrase: 'Babbel — lessons designed by over 150 linguists.' Placement: mid-roll."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Brand: Some tech company. Product: An app. Key message: It's good. Offer: Try it free. Show: A podcast. Placement: mid-roll."
+    }
+  ]
+}

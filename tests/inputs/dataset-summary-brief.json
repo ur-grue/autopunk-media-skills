@@ -1,0 +1,30 @@
+{
+  "skill": "dataset-summary-brief",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard dataset assessment",
+      "prompt": "Dataset name: National Hospital Waiting Times Register, Q1 2020 - Q4 2025. Source: Department of Health (published open data). Rows: 4,218,500. Columns: 12. Column descriptions: patient_id (anonymised), referral_date, treatment_date, specialty (e.g., cardiology, orthopaedics), hospital_code, hospital_name, region, wait_days (days between referral and treatment), priority_level (urgent/routine/cancer), outcome (treated/cancelled/did_not_attend), age_band (10-year bands), gender. Known issues: wait_days has negative values in ~0.3% of rows (likely data entry errors). Some hospital_codes changed during NHS restructuring in 2022."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical dataset",
+      "prompt": "Dataset name: European Air Quality Monitoring Network - PM2.5 Hourly Readings. Source: European Environment Agency (EEA). Rows: 87,000,000. Columns: 8. Column descriptions: station_id, station_name, country_code (ISO 3166-1), latitude, longitude, datetime_utc, pm25_ug_m3 (PM2.5 concentration in micrograms per cubic metre), data_quality_flag (valid/suspect/missing). Time period: January 2019 to December 2025. Geographic scope: 39 European countries, ~4,000 monitoring stations. Known issues: Station density varies enormously between countries. Rural stations underrepresent actual exposure because most people live in cities."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Dataset name: A spreadsheet of crime statistics. Source: Police department. Rows: About 50,000. Columns: date, type, location."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Dataset name: EU Farm Subsidy Payments Database, 2018-2025. Source: Compiled from national payment agency disclosures across 27 EU member states by a journalism consortium. Rows: 12,400,000. Columns: 10. Column descriptions: beneficiary_name, beneficiary_country, beneficiary_municipality, payment_year, scheme_name (e.g., Basic Payment Scheme, Rural Development), payment_amount_eur, payment_currency_original, sector (crop/livestock/mixed/other), legal_form (natural_person/company/cooperative/public_body), data_source_url. Known issues: Beneficiary names are not standardised across countries. Some countries report at entity level, others at holding level. Payment amounts in non-euro countries are converted at year-end exchange rates, introducing minor conversion artefacts."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Dataset name: Some data about schools. Source: Government. Rows: A lot. Columns: Various things about schools."
+    }
+  ]
+}

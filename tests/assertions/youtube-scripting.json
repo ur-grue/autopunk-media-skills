@@ -1,0 +1,23 @@
+{
+  "category": "youtube/scripting",
+  "skills": {
+    "full-script-writer": {
+      "assertions": [
+        {"id": "word-count-header", "text": "Output begins with an approximate word count and estimated runtime", "type": "binary"},
+        {"id": "hook-present", "text": "Script opens with a labeled hook section covering the first 30 seconds of spoken content", "type": "binary"},
+        {"id": "sections-labeled", "text": "Each section is marked with a bold header matching the talking points provided in the input", "type": "binary"},
+        {"id": "direction-cues", "text": "On-camera direction notes appear in [square brackets] at least twice in the script", "type": "binary"},
+        {"id": "cta-included", "text": "Script ends with a specific call-to-action that is placed naturally within the outro", "type": "binary"}
+      ]
+    },
+    "shorts-script-adapter": {
+      "assertions": [
+        {"id": "runtime-limit", "text": "Estimated runtime is 60 seconds or less", "type": "binary"},
+        {"id": "two-parts", "text": "Output contains two clearly labeled parts: Shorts Script and On-Screen Text Suggestions", "type": "binary"},
+        {"id": "text-suggestions", "text": "On-Screen Text Suggestions include 3-5 specific text overlays with timestamps", "type": "binary"},
+        {"id": "self-contained", "text": "The script is self-contained and understandable without having seen the source video", "type": "binary"},
+        {"id": "no-longform-language", "text": "No transitional long-form language such as 'as I mentioned earlier' or 'in the next section' appears", "type": "binary"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "story-angle-finder",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard broad topic",
+      "prompt": "Topic: The rise of four-day work week trials across multiple industries. Publication type: National general-interest magazine. Avoid: Any angle that is essentially 'employees love it and productivity went up' — that has been covered extensively."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Topic: The growing use of AI-generated synthetic data in clinical drug trials, where artificial patient records are used to supplement real patient data. Publication type: Health/science journalism, long-form. Geographic scope: International."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Topic: Housing. Publication type: News website."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Topic: The rapid growth of padel tennis across Europe — from a niche Spanish sport to one of the fastest-growing sports on the continent, with significant real estate and investment implications. Publication type: European business magazine. Geographic scope: Pan-European."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Topic: Something about young people and mental health. Publication type: Not sure yet."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "shorts-script-adapter",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard use case with clear source material",
+      "prompt": "Source material: 'The biggest mistake people make when learning to cook is following recipes too literally. Professional chefs don't measure everything. They taste constantly. They adjust. The difference between a home cook and a professional isn't technique — it's the willingness to deviate from the plan. A recipe is a suggestion, not a contract. Once you understand the principle behind a technique, you can adapt it to whatever you have in the fridge. That's when cooking stops being stressful and starts being creative.' Core point: Stop following recipes literally — learn the principle, then improvise. Target length: 55 seconds."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Source material: 'Satellite imagery has completely transformed deforestation monitoring. In the past, illegal logging in remote areas could go undetected for months. Now, systems like Global Forest Watch use Landsat and Sentinel-2 data to detect tree cover loss within days. The resolution has improved dramatically — we can now detect clearings as small as 30 meters across. But the technology creates a paradox: we can see the destruction in near real-time, but enforcement capacity in most tropical countries has not kept pace. We know exactly where the forests are being cut. We just can't stop it fast enough.' Core point: We can see deforestation in real-time now, but seeing it and stopping it are different problems. Target length: 50 seconds."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Source material: 'Most people drink coffee wrong. They drink it first thing in the morning when cortisol is already high. The best time for coffee is 90 minutes after waking.' Core point: Delay your first coffee by 90 minutes. Target length: 30 seconds."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Source material: 'Denmark's approach to elderly care is fundamentally different from most Western countries. Instead of building larger nursing homes, they have been systematically reducing institutional care and investing in home-based support. The concept is called hverdagsrehabilitering — everyday rehabilitation. The idea is simple: instead of doing things for elderly people, you help them regain the ability to do things for themselves. A 2019 study showed that municipalities using this model reduced permanent nursing home placements by 22% over five years. The elderly reported higher life satisfaction. The cost per person went down.' Core point: Denmark's approach to elderly care focuses on helping people regain independence, not managing decline. Target length: 55 seconds. Drive to full video: Yes."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Source material: 'There are some interesting things about how habits work. People often struggle with habits. It takes time. Consistency is important. You should start small.' Core point: Something about habits. Target length: 45 seconds."
+    }
+  ]
+}

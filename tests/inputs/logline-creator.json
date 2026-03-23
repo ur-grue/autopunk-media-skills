@@ -1,0 +1,30 @@
+{
+  "skill": "logline-creator",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard documentary with clear narrative",
+      "prompt": "Project description: A documentary about a high school debate team from a low-income neighborhood that qualifies for the national championship for the first time. The coach is a former competitive debater who returned to her neighborhood to teach. The film follows the team through the qualifying season. Central conflict: The students must compete against teams with vastly more resources while dealing with instability at home."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical subject",
+      "prompt": "Project description: A documentary about the last remaining manual typesetters in the letterpress printing industry. Three printers in three countries — Japan, Germany, and the United States — still set type by hand for commercial clients. The film examines what is lost when a craft becomes obsolete and whether these practitioners are preserving something essential or simply delaying the inevitable. Broadcaster context: Arts documentary strand."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Project description: A documentary about nurses. They work hard and nobody appreciates them."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Project description: A documentary following the crew of a Mediterranean search-and-rescue vessel that picks up migrants in distress at sea. The film covers one summer season of operations. The crew includes former military personnel, medical volunteers, and people who have themselves made the crossing. Central tension: The political pressure to stop rescue operations versus the legal and moral obligation to save lives at sea. Festival context: IDFA or Berlinale documentary section. Social/press bio line also needed."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Project description: It's about climate change and how it affects people. Maybe a series."
+    }
+  ]
+}

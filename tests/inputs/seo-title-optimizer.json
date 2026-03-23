@@ -1,0 +1,30 @@
+{
+  "skill": "seo-title-optimizer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard YouTube explainer",
+      "prompt": "Video topic: How to negotiate your salary at a new job. Target audience: young professionals 22-35 starting their first or second job. Primary goal: tutorial. Channel tone: direct, no-fluff, practical."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Video topic: Understanding photogrammetry for archaeological site documentation. Target audience: archaeology students and early-career professionals. Primary goal: educational. Channel niche: digital archaeology tools."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Video topic: Cooking pasta. Target audience: beginners. Primary goal: tutorial."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Video topic: How the German Energiewende (energy transition) actually works in practice and where it has failed. Target audience: European policy watchers and climate-interested viewers. Primary goal: inform. Channel tone: journalistic, data-driven."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Video topic: Productivity tips. Target audience: everyone. Primary goal: help people."
+    }
+  ]
+}

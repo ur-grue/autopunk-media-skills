@@ -1,0 +1,30 @@
+{
+  "skill": "cinematic-shot-prompt",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard cinematic scene",
+      "prompt": "Scene description: A man in his 30s sits alone at a diner counter late at night. The diner is nearly empty. He is staring at a cup of coffee he hasn't touched. The mood should feel like the moment just after a significant loss — quiet, heavy, but not melodramatic. Reference film: Paris, Texas (Wim Wenders). Aspect ratio: 2.39:1."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical/specific request",
+      "prompt": "Scene description: An aerial shot of a massive open-pit lithium mine in the Atacama Desert at golden hour. The geometric terraces of the mine contrast with the organic landscape around it. The mood should convey scale, industrial beauty, and environmental ambivalence — not clearly pro- or anti-mining. Reference cinematographer: Bradford Young. Shot type: Wide aerial, drone perspective. Aspect ratio: 16:9."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Scene description: A forest. Mood: peaceful."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Scene description: An elderly woman walks alone through a fog-covered cemetery in rural Ireland at dawn. She is visiting a grave. She carries a small bunch of wildflowers. The mood should feel like a private ritual — something she does every week, not a moment of acute grief but of quiet, practiced remembrance. Reference film: The Banshees of Inisherin or Calvary (John Michael McDonagh visual language). Aspect ratio: 2.39:1."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Scene description: A city at night. Mood: cool."
+    }
+  ]
+}

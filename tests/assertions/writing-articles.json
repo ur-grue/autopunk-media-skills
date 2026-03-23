@@ -1,0 +1,23 @@
+{
+  "category": "writing/articles",
+  "skills": {
+    "headline-writer": {
+      "assertions": [
+        {"id": "variant-count", "text": "Output contains exactly 5 headline variants", "type": "binary"},
+        {"id": "char-counts", "text": "Character count is shown in parentheses after each headline", "type": "binary"},
+        {"id": "distinct-purpose", "text": "Each variant serves a genuinely distinct purpose (news, SEO, engagement, feature, social), not minor word swaps", "type": "binary"},
+        {"id": "editorial-first", "text": "The most editorially rigorous headline is listed first", "type": "binary"},
+        {"id": "accuracy", "text": "Every headline accurately reflects the story without overstating or fabricating claims", "type": "binary"}
+      ]
+    },
+    "lede-writer": {
+      "assertions": [
+        {"id": "type-labeled", "text": "Each lede is labeled with its type (e.g., Summary lede - hard news, Scene-setting lede - feature)", "type": "binary"},
+        {"id": "word-count-shown", "text": "Word count is shown in parentheses after each lede", "type": "binary"},
+        {"id": "no-throat-clearing", "text": "No lede opens with filler phrases like 'In today's world', 'It's no secret', 'Now more than ever', or 'In recent years'", "type": "binary"},
+        {"id": "active-voice", "text": "Active voice is used throughout except where journalistically necessary", "type": "binary"},
+        {"id": "key-fact-first", "text": "The key fact or hook appears in the first sentence, not buried in sentence two or three", "type": "binary"}
+      ]
+    }
+  }
+}

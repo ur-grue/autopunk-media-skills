@@ -1,0 +1,30 @@
+{
+  "skill": "lede-writer",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard hard news",
+      "prompt": "Story facts: The national rail operator announced this morning that it will cut 40% of weekend services on regional lines starting 1 April, citing a £180 million annual operating deficit. The cuts will affect an estimated 2.1 million passenger journeys per year, primarily in rural areas. The transport minister said the government is 'exploring alternatives' but did not commit to additional funding. Three rural MPs have called for an emergency parliamentary debate. Article type: Hard news for a national broadsheet."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Story facts: Researchers at a European university have developed a concrete mixture that absorbs CO2 from the atmosphere as it cures — effectively turning building foundations into carbon sinks. Early tests show a standard house foundation made with the new mixture would absorb approximately 2.4 tonnes of CO2 over 50 years, equivalent to the emissions from 6 transatlantic flights. The research was published in Nature Materials. The mixture costs approximately 15% more than standard concrete. Article type: Science feature for a general-interest magazine."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Story facts: A dog was rescued from a well. It took firefighters four hours. The dog is fine. Article type: Hard news, local newspaper."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Story facts: The European Central Bank has quietly begun testing a digital euro with 10,000 citizens across five countries (Germany, France, Spain, Ireland, and Estonia) in what officials are calling the 'preparation phase' of a potential rollout by 2028. Participants can use the digital euro for retail purchases up to 500 euros. Privacy advocates have raised concerns that the system would give the ECB unprecedented visibility into individual spending patterns. The ECB says all transaction data is anonymised. Article type: Analysis for a European financial newspaper. Multiple lede variants requested: news summary and analytical."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Story facts: There was a meeting about the budget. Some people disagreed. Article type: News."
+    }
+  ]
+}

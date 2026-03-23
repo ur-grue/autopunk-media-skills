@@ -1,0 +1,23 @@
+{
+  "category": "magazine-journalism/ideation",
+  "skills": {
+    "story-angle-finder": {
+      "assertions": [
+        {"id": "angle-count", "text": "Output contains 6-8 numbered angle briefs", "type": "binary"},
+        {"id": "pitch-line", "text": "Each angle includes a Pitch Line that is one sentence and ready to use in a pitch email", "type": "binary"},
+        {"id": "reporting-approach", "text": "Every angle includes a concrete reporting approach beyond 'interview experts'", "type": "binary"},
+        {"id": "counterintuitive", "text": "At least one angle is counterintuitive or challenges the conventional framing of the topic", "type": "binary"},
+        {"id": "time-sensitivity", "text": "Each angle is marked as either time-sensitive or evergreen", "type": "binary"}
+      ]
+    },
+    "headline-generator": {
+      "assertions": [
+        {"id": "headline-count", "text": "Output contains 6-10 headline options", "type": "binary"},
+        {"id": "dek-present", "text": "Every headline has a matching subheadline (dek) that adds reporting context", "type": "binary"},
+        {"id": "format-variety", "text": "Headlines span at least 4 different structural formats", "type": "binary"},
+        {"id": "short-option", "text": "At least one headline option is under 6 words", "type": "binary"},
+        {"id": "register-clusters", "text": "Headlines are organized into clusters by register (e.g., Direct/News, Analytical/Literary, Provocative/Punchy)", "type": "binary"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "solo-episode-script",
+  "inputs": [
+    {
+      "id": "input-01",
+      "description": "Standard educational podcast episode",
+      "prompt": "Show: The Practical Mind — a weekly 15-minute podcast about psychology concepts explained for everyday life. Audience: curious adults 25-45. Episode topic: The sunk cost fallacy and why people stay in bad jobs, relationships, and commitments longer than they should. Main idea: Understanding sunk cost as a cognitive bias gives you permission to quit things that are not working. Length: 15 minutes. Host voice: warm, slightly self-deprecating, uses personal anecdotes."
+    },
+    {
+      "id": "input-02",
+      "description": "Niche technical topic",
+      "prompt": "Show: The Deep Map — a monthly long-form podcast about cartography, geography, and how maps shape power. Audience: geography enthusiasts, urbanists, and map nerds. Episode topic: How colonial-era map projections still distort our understanding of the relative size of African countries. Main idea: The maps most people grew up with systematically minimise Africa, and this distortion has measurable effects on policy perception and aid allocation. Length: 25 minutes. Host voice: authoritative, measured, slightly provocative."
+    },
+    {
+      "id": "input-03",
+      "description": "Minimal input",
+      "prompt": "Show: A podcast. Episode topic: Procrastination. Main idea: Why people procrastinate. Length: 10 minutes."
+    },
+    {
+      "id": "input-04",
+      "description": "European/international context",
+      "prompt": "Show: Continent — a fortnightly podcast about European politics for an international English-speaking audience. Audience: English-speaking Europeans, expats, and internationally minded listeners. Episode topic: Why Finland consistently ranks as the happiest country in the world, and what the ranking actually measures versus what people assume it measures. Main idea: The happiness ranking measures life satisfaction and institutional trust, not emotional joy — and understanding that distinction changes what other countries can learn from Finland. Length: 20 minutes. Host voice: curious, slightly skeptical of rankings and easy narratives, journalistic."
+    },
+    {
+      "id": "input-05",
+      "description": "Vague/ambiguous input",
+      "prompt": "Show: My podcast. Episode topic: Something about wellness. Main idea: Wellness is important. Length: 12 minutes."
+    }
+  ]
+}

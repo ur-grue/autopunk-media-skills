@@ -1,0 +1,23 @@
+{
+  "category": "podcast/scripting",
+  "skills": {
+    "solo-episode-script": {
+      "assertions": [
+        {"id": "time-labels", "text": "Sections are labeled with time estimates (e.g., [00:00-01:30] HOOK)", "type": "binary"},
+        {"id": "hook-opening", "text": "The script opens with a hook that creates curiosity or emotional investment within the first 3 sentences", "type": "binary"},
+        {"id": "production-notes", "text": "Production notes for the host appear in [square brackets] throughout the script (e.g., [PAUSE], [SLOW DOWN])", "type": "binary"},
+        {"id": "spoken-prose", "text": "The body text reads as continuous spoken prose with no bullet points or headers within the body", "type": "binary"},
+        {"id": "word-count-calibrated", "text": "Total word count is calibrated to the requested episode duration at 130-150 words per minute", "type": "binary"}
+      ]
+    },
+    "ad-read-script": {
+      "assertions": [
+        {"id": "placement-versions", "text": "Output includes up to three versions labeled by placement: pre-roll, mid-roll, and/or post-roll", "type": "binary"},
+        {"id": "word-count-labeled", "text": "Each version shows approximate word count and duration", "type": "binary"},
+        {"id": "promo-code", "text": "The promo code or CTA from the input appears clearly in the ad copy", "type": "binary"},
+        {"id": "host-voice", "text": "The ad copy sounds like the host speaking naturally, not like commercial copy", "type": "binary"},
+        {"id": "transition-written", "text": "Transition into and out of the ad is written explicitly, not left to the host to improvise", "type": "binary"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "category": "tv-documentary/development",
+  "skills": {
+    "pitch-treatment-writer": {
+      "assertions": [
+        {"id": "sections-present", "text": "Output contains all required sections: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, and Why Now / Production Context", "type": "binary"},
+        {"id": "word-count", "text": "Total treatment length is between 600 and 900 words", "type": "binary"},
+        {"id": "present-tense", "text": "The narrative arc section is written in present tense as if describing a finished film", "type": "binary"},
+        {"id": "character-detail", "text": "Each key subject is introduced with at least one specific, concrete personal detail", "type": "binary"},
+        {"id": "hook-block", "text": "The first 150 words communicate premise, tone, and stakes without requiring further reading", "type": "binary"}
+      ]
+    },
+    "logline-creator": {
+      "assertions": [
+        {"id": "option-count", "text": "Output contains 4-6 numbered logline options", "type": "binary"},
+        {"id": "structural-labels", "text": "Each logline is labeled with its structural form and intended context (festival, broadcaster, press, social)", "type": "binary"},
+        {"id": "short-option", "text": "At least one option is under 25 words", "type": "binary"},
+        {"id": "distinct-emphasis", "text": "Each logline emphasizes a different aspect of the film, none are interchangeable", "type": "binary"},
+        {"id": "no-jargon", "text": "No logline contains production jargon or technical filmmaking language", "type": "binary"}
+      ]
+    }
+  }
+}

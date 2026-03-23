@@ -1,0 +1,14 @@
+{
+  "category": "data-journalism/analysis",
+  "skills": {
+    "dataset-summary-brief": {
+      "assertions": [
+        {"id": "four-sections", "text": "Output is structured under four headings: What This Dataset Is, What It Covers, Limitations and Caveats, and Potential Story Angles", "type": "binary"},
+        {"id": "time-geo-specified", "text": "The What It Covers section specifies the exact time range, geographic scope, and unit of analysis", "type": "binary"},
+        {"id": "limitations-genuine", "text": "At least two genuine, specific limitations are identified, not generic disclaimers", "type": "binary"},
+        {"id": "story-angles", "text": "Output includes 3-5 story angles grounded in the specific variables available in the dataset", "type": "binary"},
+        {"id": "plain-language", "text": "The brief is written in plain editorial language with no statistics formulae or data science jargon", "type": "binary"}
+      ]
+    }
+  }
+}

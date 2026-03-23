@@ -1,0 +1,23 @@
+{
+  "category": "social-media/content",
+  "skills": {
+    "caption-writer": {
+      "assertions": [
+        {"id": "platform-labeled", "text": "Each caption is clearly labeled with its target platform", "type": "binary"},
+        {"id": "platform-conventions", "text": "Each caption uses platform-specific conventions, not the same text reformatted", "type": "binary"},
+        {"id": "no-generic-filler", "text": "No caption contains generic filler phrases such as 'check this out', 'so excited to share', or 'this one really hits different'", "type": "binary"},
+        {"id": "hook-first-line", "text": "Opening line works as a standalone hook even in a truncated/preview view", "type": "binary"},
+        {"id": "hashtags-relevant", "text": "Hashtags (where used) are topically relevant, not purely reach-padding with unrelated tags", "type": "binary"}
+      ]
+    },
+    "thread-writer": {
+      "assertions": [
+        {"id": "numbered-tweets", "text": "Output is a numbered tweet list with each tweet clearly separated", "type": "binary"},
+        {"id": "tweet-1-standalone", "text": "Tweet 1 conveys the core claim and is understandable without reading the rest of the thread", "type": "binary"},
+        {"id": "char-limit", "text": "No tweet exceeds 280 characters", "type": "binary"},
+        {"id": "close-invites-response", "text": "The final tweet invites response via a question, provocative claim, or statement of consequence", "type": "binary"},
+        {"id": "no-verbal-filler", "text": "No tweet begins with 'So...' or 'I mean...' or other verbal filler", "type": "binary"}
+      ]
+    }
+  }
+}
