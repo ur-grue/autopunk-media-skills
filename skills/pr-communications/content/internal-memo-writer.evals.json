@@ -1,0 +1,46 @@
+{
+  "skill_name": "internal-memo-writer",
+  "status": "complete",
+  "overall_mean": 4.50,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "All-staff memo aligning messaging ahead of media coverage of office relocation",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.67
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Leadership memo recommending approval of a revised social media policy",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5
+      },
+      "mean": 4.50
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Urgent confidential memo to department heads about a data breach affecting client records",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
+}

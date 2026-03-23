@@ -1,0 +1,49 @@
+{
+  "skill_name": "scientific-consensus-brief",
+  "status": "stable",
+  "overall_score": 4.44,
+  "test_cases": [
+    {
+      "test_id": "SCB-001",
+      "input_summary": "Assessing the scientific consensus on whether e-cigarettes are effective as smoking cessation tools",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Excellent handling of a topic where institutional positions diverge. Correctly classified as 'active scientific debate' rather than established or fringe. Key evidence from major health bodies was accurately represented. Reporting pitfalls were specific and practical."
+    },
+    {
+      "test_id": "SCB-002",
+      "input_summary": "Assessing the consensus on whether artificial sweeteners cause weight gain",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good distinction between the established finding (no caloric effect) and the emerging research (potential metabolic effects). WHO position was correctly cited. The brief avoided both industry-friendly and alarmist framing."
+    },
+    {
+      "test_id": "SCB-003",
+      "input_summary": "Assessing the consensus on the effectiveness of universal basic income in reducing poverty",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Strong handling of a topic that crosses economics and social science. Correctly noted the limited number of large-scale RCTs. Appropriately cautious about generalising from pilot studies to national programmes."
+    }
+  ]
+}

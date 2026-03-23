@@ -1,0 +1,49 @@
+{
+  "skill_name": "press-roundup-writer",
+  "status": "stable",
+  "overall_score": 4.39,
+  "test_cases": [
+    {
+      "test_id": "PRW-001",
+      "input_summary": "Press roundup of coverage of a major tech company's mass layoffs, from 6 outlets across broadsheet, tabloid, business, and tech press",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Framing analysis was sharp — correctly identified the split between 'business strategy' and 'human impact' frames. Outlier identification was useful. The overview paragraph was a strong standalone summary."
+    },
+    {
+      "test_id": "PRW-002",
+      "input_summary": "Press roundup of coverage of a controversial planning decision to build a new airport runway, from 5 national and local outlets",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good identification of the environment-vs-economy frame split. Local outlet coverage was correctly highlighted as the outlier with community-level detail. Gaps section correctly noted the absence of freight industry perspective."
+    },
+    {
+      "test_id": "PRW-003",
+      "input_summary": "Press roundup of international coverage of a diplomatic incident between two countries, from 4 outlets in different countries",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Effective at comparing national perspectives on the same event. Attribution was specific throughout. The brief correctly noted how each country's media framed the same facts differently."
+    }
+  ]
+}

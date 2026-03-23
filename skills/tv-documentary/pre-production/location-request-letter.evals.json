@@ -1,0 +1,49 @@
+{
+  "skill_name": "location-request-letter",
+  "status": "complete",
+  "overall_mean": 4.47,
+  "test_cases": [
+    {
+      "test_id": "LRL-001",
+      "input_summary": "Museum location, small crew, half-day access, no broadcaster attached, full details provided",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 5.0,
+        "actionability": 4.5
+      },
+      "mean": 4.58,
+      "notes": "Professional tone throughout. Proactively addressed disruption concerns. Clear next step proposed. Correctly used UK letter conventions."
+    },
+    {
+      "test_id": "LRL-002",
+      "input_summary": "Hospital location request, sensitive environment, 6-person crew, multi-day access, safeguarding considerations",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42,
+      "notes": "Appropriately acknowledged sensitivity of hospital environment. Flagged that additional documentation (DBS checks, safeguarding protocols) would be needed. Tone respectful without being obsequious."
+    },
+    {
+      "test_id": "LRL-003",
+      "input_summary": "Minimal input: private residence, no contact name, no insurance details, no broadcaster",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Handled missing details gracefully with bracketed placeholders. Tone appropriate for private homeowner approach — less formal than institutional letter. Flagged insurance as something to confirm before sending."
+    }
+  ]
+}

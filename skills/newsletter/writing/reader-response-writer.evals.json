@@ -1,0 +1,46 @@
+{
+  "skill_name": "reader-response-writer",
+  "status": "passed",
+  "overall_mean": 4.50,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Long-time subscriber complaining about factual errors and declining quality, two confirmed errors, retention goal",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.83
+    },
+    {
+      "id": 2,
+      "input_summary": "Reader praising a specific episode and asking for more content on the same topic, warm informal voice",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Reader disagreeing with an editorial position and threatening to unsubscribe, journalistic direct voice, reader is factually wrong",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
+}

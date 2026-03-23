@@ -1,0 +1,46 @@
+{
+  "skill_name": "push-notification-writer",
+  "status": "passed",
+  "overall_mean": 4.44,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Breaking news story about a major bridge closure due to structural concerns, iOS platform, formal broadsheet voice",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.67
+    },
+    {
+      "id": 2,
+      "input_summary": "Feature podcast episode promotion about sleep science, Android platform, conversational digital-native tone",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Scheduled newsletter edition alert about quarterly earnings analysis, iOS platform, neutral news voice",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
+}

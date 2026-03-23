@@ -1,0 +1,46 @@
+{
+  "skill_name": "pull-quote-selector",
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "PQS-001",
+      "input_summary": "2,200-word investigative feature on hospital staffing shortages, 3 quotes needed, 100-char max",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "PQS-002",
+      "input_summary": "800-word opinion column on urban planning, 2 quotes needed for digital sidebar, no char limit",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "PQS-003",
+      "input_summary": "3,500-word travel feature, 5 quotes needed for print layout, 120-char max",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.44
+}

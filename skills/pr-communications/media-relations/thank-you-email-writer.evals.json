@@ -1,0 +1,46 @@
+{
+  "skill_name": "thank-you-email-writer",
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "TC-001",
+      "description": "Thank-you after a positive feature story from an established contact, with future value offer",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.50
+    },
+    {
+      "test_id": "TC-002",
+      "description": "Thank-you after mixed/critical coverage from a first-time contact, no future offer",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "TC-003",
+      "description": "Thank-you after a brief mention in a round-up from a long-standing contact",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean": 4.33
+    }
+  ]
+}

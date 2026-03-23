@@ -1,0 +1,46 @@
+{
+  "skill_name": "seo-meta-description-writer",
+  "status": "passed",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Evergreen how-to article on home composting for beginners, primary keyword 'composting for beginners'",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.50
+    },
+    {
+      "id": 2,
+      "input_summary": "Time-sensitive news article on new data privacy regulation, primary keyword 'data privacy law 2026'",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Landing page for a documentary film festival submission portal, primary keyword 'documentary film festival submission'",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "case_mean": 4.33
+    }
+  ]
+}

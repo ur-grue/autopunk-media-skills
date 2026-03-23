@@ -1,0 +1,46 @@
+{
+  "skill_name": "text-expander",
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "TE-001",
+      "input_summary": "Expand a 400-word news brief on water quality to 700 words, user supplied two unused expert quotes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "TE-002",
+      "input_summary": "Expand a 250-word sidebar on arts funding to 500 words, no additional material provided",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "TE-003",
+      "input_summary": "Expand a 900-word feature on rural broadband to 1,500 words, user supplied statistics and background notes",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.39
+}

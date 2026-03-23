@@ -1,5 +1,46 @@
 {
   "skill_name": "pdf-table-extractor-brief",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Municipal budget PDF with 35-row department expenditure table spanning 3 pages, recommending extraction tool",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.50
+    },
+    {
+      "id": 2,
+      "input_summary": "State environmental compliance report with chemical concentration data tables, Tabula extraction, merged cells",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "input_summary": "Court filing with financial disclosure tables, inconsistent formatting, manual copy-paste extraction planned",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "case_mean": 4.17
+    }
+  ]
 }

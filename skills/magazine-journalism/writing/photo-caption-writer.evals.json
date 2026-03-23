@@ -1,0 +1,46 @@
+{
+  "skill_name": "photo-caption-writer",
+  "status": "complete",
+  "overall_mean": 4.36,
+  "test_cases": [
+    {
+      "test_id": "caption-001",
+      "input_summary": "Two editorial photos for infrastructure feature; magazine format captions",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 3.5
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "caption-002",
+      "input_summary": "Five news wire photos from a flood disaster; AP wire caption format",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33
+    },
+    {
+      "test_id": "caption-003",
+      "input_summary": "Photo essay of eight images from a community arts festival; lifestyle magazine format",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42
+    }
+  ]
+}

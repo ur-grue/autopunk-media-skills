@@ -1,0 +1,49 @@
+{
+  "skill_name": "corporate-structure-brief",
+  "status": "stable",
+  "overall_score": 4.44,
+  "test_cases": [
+    {
+      "test_id": "CSB-001",
+      "input_summary": "Mapping the ownership structure of a media company suspected of receiving foreign government funding through intermediary entities",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.67,
+      "notes": "Ownership trace checklist was methodical and well-adapted to the media/foreign-funding angle. Red flags section correctly identified the most relevant opacity indicators. Registry sources were specific to the jurisdiction."
+    },
+    {
+      "test_id": "CSB-002",
+      "input_summary": "Research plan for investigating the corporate structure of a fast-growing food delivery company before an IPO",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good integration of pre-IPO disclosure requirements. Securities filing sources were correctly identified. The dual-class share structure angle was well-anticipated."
+    },
+    {
+      "test_id": "CSB-003",
+      "input_summary": "Mapping the corporate structure of a charity that appears to share directors with several for-profit entities",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Excellent handling of the charity/corporate overlap angle. Cross-referencing between charity commission and company registry records was clearly explained. Red flags about related-party transactions were well-targeted."
+    }
+  ]
+}

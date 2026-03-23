@@ -1,0 +1,49 @@
+{
+  "skill_name": "stand-up-script-writer",
+  "status": "complete",
+  "overall_mean": 4.42,
+  "test_cases": [
+    {
+      "test_id": "SUS-001",
+      "input_summary": "TV hard news bridge stand-up, reservoir location, 20 seconds, specific visual environment described",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.50,
+      "notes": "Script tightly written to word count. Strong location connection — would not work from a studio. Bridge function clear: picks up spokesperson's argument, lands on the critique. Production notes specific to the visual environment."
+    },
+    {
+      "test_id": "SUS-002",
+      "input_summary": "Radio sign-off, feature tone, 30 seconds, reporter at community event, closing a 3-minute package",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42,
+      "notes": "Feature tone well-judged — more reflective than hard news without becoming soft. Ambient sound recommendation appropriate. Sign-off clean with reporter name and outlet. Word count matched 30-second target."
+    },
+    {
+      "test_id": "SUS-003",
+      "input_summary": "TV opening stand-up, investigative tone, 15 seconds, outside corporate headquarters, minimal detail provided",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "15-second constraint handled well — tight, punchy opening. Investigative tone landed without overstatement. Noted limitation: with minimal location description, the script was competent but less visually anchored than the reservoir example."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "skill_name": "multi-author-harmonizer",
+  "status": "complete",
+  "test_cases": [
+    {
+      "test_id": "MAH-001",
+      "input_summary": "Three-author special report on education policy, 2,400 words, no target voice specified",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    },
+    {
+      "test_id": "MAH-002",
+      "input_summary": "Two-author feature on restaurant industry, 1,800 words, target voice: match Section 2's conversational tone",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "MAH-003",
+      "input_summary": "Four-author year-in-review compilation, 3,600 words, align to house style (formal analytical)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5
+    }
+  ],
+  "overall_mean": 4.44
+}

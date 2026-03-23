@@ -1,0 +1,46 @@
+{
+  "skill_name": "article-summary-writer",
+  "status": "complete",
+  "overall_mean": 4.42,
+  "test_cases": [
+    {
+      "test_id": "summary-001",
+      "input_summary": "School board universal meals feature; standfirst, newsletter teaser, and meta description formats",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42
+    },
+    {
+      "test_id": "summary-002",
+      "input_summary": "Investigative piece on municipal pension fund mismanagement; abstract format, 150 words",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.42
+    },
+    {
+      "test_id": "summary-003",
+      "input_summary": "Profile of retiring fire chief; general summary, 100 words, conversational tone",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.5,
+        "relevance": 4.0,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42
+    }
+  ]
+}

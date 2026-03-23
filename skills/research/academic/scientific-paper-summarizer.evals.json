@@ -1,0 +1,49 @@
+{
+  "skill_name": "scientific-paper-summarizer",
+  "status": "stable",
+  "overall_score": 4.56,
+  "test_cases": [
+    {
+      "test_id": "SPS-001",
+      "input_summary": "Summarising an epidemiological cohort study on the association between ultra-processed food consumption and cardiovascular disease risk",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.83,
+      "notes": "Methodology was accurately classified as observational with clear explanation of why causation cannot be inferred. Effect sizes were reported clearly. Bottom line was measured and accurate."
+    },
+    {
+      "test_id": "SPS-002",
+      "input_summary": "Summarising a meta-analysis of interventions to reduce plastic pollution in freshwater ecosystems",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Good explanation of what a meta-analysis is and its strengths. Heterogeneity between studies was correctly flagged as a limitation. Plain-language translations of statistical concepts were clear."
+    },
+    {
+      "test_id": "SPS-003",
+      "input_summary": "Summarising a randomised controlled trial of a new teaching method's effect on student reading scores",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "RCT design was correctly classified and explained. Effect size was contextualised for the education field. Limitations section correctly identified the short follow-up period and the Hawthorne effect risk."
+    }
+  ]
+}

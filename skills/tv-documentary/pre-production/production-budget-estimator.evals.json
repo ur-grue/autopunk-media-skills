@@ -1,0 +1,49 @@
+{
+  "skill_name": "production-budget-estimator",
+  "status": "complete",
+  "overall_mean": 4.39,
+  "test_cases": [
+    {
+      "test_id": "PBE-001",
+      "input_summary": "1x90 min independent UK documentary, 20 shoot days, domestic travel, archive, original score, motion graphics",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.5
+      },
+      "mean": 4.42,
+      "notes": "Comprehensive line-item structure. Rate ranges realistic for UK indie market. Budget notes correctly identified archive and score as key cost risks."
+    },
+    {
+      "test_id": "PBE-002",
+      "input_summary": "4x60 min observational series, US market, 40 shoot days, union crew, broadcaster attached",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Handled series multiplication well. Union rate acknowledgment present but flagged as needing verification against specific guild minimums. USD currency correctly applied."
+    },
+    {
+      "test_id": "PBE-003",
+      "input_summary": "Minimal input: 1x30 min short doc, 5 shoot days, no post details, no region specified",
+      "scores": {
+        "coherence": 4.5,
+        "consistency": 4.5,
+        "fluency": 4.0,
+        "relevance": 4.5,
+        "professionalism": 4.5,
+        "actionability": 4.0
+      },
+      "mean": 4.33,
+      "notes": "Applied reasonable defaults. Flagged missing region as affecting rate accuracy. Post-production section included standard items with a note that requirements should be confirmed."
+    }
+  ]
+}

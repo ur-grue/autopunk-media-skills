@@ -1,0 +1,46 @@
+{
+  "skill_name": "author-bio-writer",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "ABW-001",
+      "input_summary": "Medium bio (80-120 words) for a freelance investigative journalist, formal third-person, magazine publication",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "ABW-002",
+      "input_summary": "Short bio (30-50 words) for a podcast host, conversational third-person, show website contributor page",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "ABW-003",
+      "input_summary": "Long bio (150-250 words) for a documentary filmmaker, formal third-person, festival submission package",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    }
+  ],
+  "overall_mean": 4.33
+}

@@ -1,6 +1,6 @@
-![autopunk-media-skills](.github/banner.svg)
+![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Stable skills](https://img.shields.io/badge/skills-199_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-178-555555?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![Stable skills](https://img.shields.io/badge/skills-199_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-178-555555?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange?style=flat-square)
 
 **AI for media that matters.**
 
@@ -26,36 +26,24 @@ A free library of Claude skills for media professionals. Not a software product.
 
 Skills follow the open [Agent Skills standard](https://agentskills.io) — they work in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any compatible coding agent.
 
-Each skill covers one job: writing a pitch treatment, generating SEO titles for YouTube, cleaning an interview transcript, building a cinematic image prompt, drafting a press release. You paste the skill into Claude, give it your material, and get professional-grade output.
+**354 skills** for:
 
-No coding. No setup. No new system to learn.
+- **TV documentary producers** — development, pre-production, scripting, post-production, localization, business
+- **Magazine journalists** — story ideation, writing, editing, investigation, fact-checking, legal
+- **YouTube creators** — pre-production, scripting, post-production, channel strategy, business, analytics
+- **Podcast producers** — episode planning, scripting, show notes, sponsorship
+- **Visual content creators** — image prompts for Midjourney, Flux, and art direction workflows
+- **Media business** — pitching broadcasters, fundraising, distribution, rights clearance
+- **Social media managers** — captions, threads, carousels, platform strategy
+- **Radio journalists and producers** — bulletins, packages, two-ways, running orders, broadcaster pitches
+- **Newsletter writers** — editions, subject lines, subscriber growth, paid conversions, sponsorship
+- **PR and communications professionals** — press releases, crisis statements, spokesperson briefs, op-eds
+- **Screenwriters** — treatments, beat sheets, scene writing, script notes, coverage
+- **Data journalists** — dataset analysis, chart descriptions, FOI requests, methodology documentation
+- **Researchers** — scientific papers, policy analysis, source verification, competitive coverage review
+- **Editors and production teams** — translation, formatting, metadata, asset management, fact sheets
 
-There are currently **199 stable skills** across 21 categories — each tested against a six-dimension quality standard before reaching that status. Another 178 are in beta.
-
----
-
-## Who it's for
-
-**By what you make:**
-
-- TV documentary producers — development, scripting, pre-production, post, localization, business
-- Magazine and newspaper journalists — research, writing, editing, investigation, fact-checking, legal
-- YouTube creators — pre-production, scripting, post-production, channel strategy, analytics
-- Podcast producers — episode planning, scripting, show notes, sponsorship
-- Visual content creators — image prompts for Midjourney, Flux, and art direction workflows
-- Media business teams — pitching, fundraising, distribution, rights clearance
-- Social media managers — captions, threads, carousels, platform strategy
-
-**By what you're doing right now:**
-
-- Researching — find experts, verify claims, trace sources, scout locations, review papers
-- Pre-production — write pitches, call sheets, interview questions, release forms
-- Writing — articles, scripts, social posts, press releases, institutional documents
-- Editing — proofread, copy-edit, check tone, flag libel risk, harmonise multi-author copy
-- Translating — articles, quotes, subtitles, voice-over scripts, with cultural adaptation
-- Working with data — clean datasets, find the story, write chart text, explain methodology
-- Legal and compliance — rights clearance, GDPR notes, copyright checks, CMS metadata
-- Distribution — define audience, write A/B variants, schedule publication, respond to readers
+No coding. No setup. No new system to learn. There are currently **199 stable skills** across 21 categories — each tested against a six-dimension quality standard before reaching that status. Another 178 are in beta.
 
 ---
 
@@ -212,7 +200,35 @@ Input: Brief on the economic history of lithium mining in South America, for a 2
 
 ---
 
-## How to contribute
+## First Time Here?
+
+Not sure where to start? These guides will get you up and running fast.
+
+| Guide | What It Does |
+|-------|-------------|
+| [**Getting Started**](docs/getting-started.md) | Pick your role, get 3 starter skills, start producing |
+| [**Writing Better Inputs**](docs/writing-better-inputs.md) | How to brief Claude so output is usable on the first try |
+| [**Skill Index**](docs/skill-index.md) | Find any skill by what you need to do — not by category |
+| [**Troubleshooting**](docs/troubleshooting.md) | Output not right? Common fixes for common problems |
+
+---
+
+## Workflows
+
+Most real projects use multiple skills in sequence. These step-by-step workflows walk you through an entire project from start to finish.
+
+| Workflow | Skills | Who It's For |
+|----------|--------|-------------|
+| [YouTube Video Launch](docs/workflows/youtube-video-launch.md) | 8 skills | YouTube creators |
+| [Investigative Journalism Project](docs/workflows/investigative-journalism-project.md) | 10 skills | Investigative reporters |
+| [Podcast Season Launch](docs/workflows/podcast-season-launch.md) | 9 skills | Podcast producers |
+| [Documentary Pitch to Greenlight](docs/workflows/documentary-pitch-to-greenlight.md) | 8 skills | Documentary filmmakers |
+| [Newsletter From Scratch](docs/workflows/newsletter-from-scratch.md) | 8 skills | Newsletter writers |
+| [PR Crisis Response](docs/workflows/pr-crisis-response.md) | 6 skills | PR professionals |
+
+---
+
+## How To Contribute
 
 Got an idea for a skill that's missing? Found one that gave you bad output?
 

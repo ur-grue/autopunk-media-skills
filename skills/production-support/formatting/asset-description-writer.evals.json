@@ -1,0 +1,46 @@
+{
+  "skill_name": "asset-description-writer",
+  "status": "stable",
+  "test_cases": [
+    {
+      "test_id": "ADW-001",
+      "input_summary": "Video clip description for a documentary DAM system — 45-second drone shot of derelict factory, full technical specs provided",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "ADW-002",
+      "input_summary": "Batch descriptions for five stock photos of urban street scenes, generic DAM schema, minimal technical specs",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33
+    },
+    {
+      "test_id": "ADW-003",
+      "input_summary": "Audio file description for a podcast archive — 40-minute interview recording, Bynder DAM with custom metadata schema",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.50
+    }
+  ],
+  "overall_mean": 4.39
+}

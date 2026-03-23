@@ -1,0 +1,49 @@
+{
+  "skill_name": "jargon-translator",
+  "status": "stable",
+  "overall_score": 4.56,
+  "test_cases": [
+    {
+      "test_id": "JT-001",
+      "input_summary": "Translating a dense paragraph from a central bank monetary policy statement into plain language for a general news audience",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.83,
+      "notes": "Every piece of central banking jargon was identified and accurately translated. The rewrite preserved the policy implications without distortion. Trade-off notes were genuinely useful — flagged where simplification lost important nuance."
+    },
+    {
+      "test_id": "JT-002",
+      "input_summary": "Translating legal language from a court ruling on data privacy into plain English for a technology news article",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Legal Latin and procedural terms were well-handled. The distinction between the ruling's legal significance and its practical impact was preserved. One-sentence summary was usable as a headline."
+    },
+    {
+      "test_id": "JT-003",
+      "input_summary": "Translating a technical passage from a climate science report about carbon cycle feedback mechanisms for a documentary script",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Scientific concepts were translated without dumbing down. The feedback loop concept was explained with an effective analogy. Trade-off flag correctly noted where the simplified version lost quantitative precision."
+    }
+  ]
+}
