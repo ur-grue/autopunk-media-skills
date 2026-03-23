@@ -1,8 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Stable skills](https://img.shields.io/badge/skills-199_stable-E8000F?style=flat-square) ![Beta skills](https://img.shields.io/badge/beta-178-555555?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange?style=flat-square)
-
-**AI for media that matters.**
+![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
 ---
 
@@ -20,13 +18,19 @@ npx skills add ur-grue/autopunk-media-skills --skill hook-generator
 
 ---
 
-## What is this?
+## What Is This?
 
-A free library of Claude skills for media professionals. Not a software product. Not a subscription. A collection of ready-to-use instructions that turn Claude into a specialist for specific production tasks.
+This is a free collection of **Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for media production work.
 
 Skills follow the open [Agent Skills standard](https://agentskills.io) — they work in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any compatible coding agent.
 
-**354 skills** for:
+Think of each skill as hiring an expert collaborator for one specific task: writing a pitch treatment, generating SEO-optimized YouTube titles, cleaning up an interview transcript, or building a cinematic image prompt from scratch.
+
+**No coding required. No technical knowledge needed.** Pick a skill, give Claude what it needs, and get professional-grade output.
+
+---
+
+## Who Is This For?
 
 - **TV documentary producers** — development, pre-production, scripting, post-production, localization, business
 - **Magazine journalists** — story ideation, writing, editing, investigation, fact-checking, legal
@@ -43,25 +47,15 @@ Skills follow the open [Agent Skills standard](https://agentskills.io) — they 
 - **Researchers** — scientific papers, policy analysis, source verification, competitive coverage review
 - **Editors and production teams** — translation, formatting, metadata, asset management, fact sheets
 
-No coding. No setup. No new system to learn. There are currently **199 stable skills** across 21 categories — each tested against a six-dimension quality standard before reaching that status. Another 178 are in beta.
-
 ---
 
-## How to use a skill
+## Quick Start
 
-1. **Find the skill you need** in the `skills/` folder — browse by format and production stage, or use the directory table below
-2. **Open the skill file** and read the "What You Need To Provide" section — it tells you exactly what to bring
-3. **Paste the skill into Claude** along with your material, following the worked example at the bottom of each file
+**Copy this into Claude right now and see what you get.**
 
-That's it. Claude handles the rest.
+This example uses the `hook-generator` skill from `skills/youtube/pre-production/hook-generator.md`.
 
----
-
-## Try it now
-
-Here's a real example using `hook-generator` from `skills/youtube/pre-production/`. Copy this into Claude and see what comes back.
-
-**What you paste:**
+### What you paste into Claude:
 
 ```
 You are a YouTube hook specialist. Your job is to write the first 15–30 seconds
@@ -80,11 +74,11 @@ Write 3 alternative hooks. For each: write the full script, then a one-line note
 explaining the psychological mechanism it uses.
 ```
 
-**What Claude gives you:**
+### What Claude gives you:
 
 ---
 
-**Hook A — The broken promise**
+**Hook A — The Broken Promise**
 
 "Every language app, every tutor, every Reddit thread told you the same thing: immerse yourself. Surround yourself with the language. Just listen. Just watch. Just live it.
 
@@ -96,7 +90,7 @@ Here's what they didn't tell you — and what the research has known since 1985.
 
 ---
 
-**Hook B — The number**
+**Hook B — The Number**
 
 "94% of adult language learners plateau within six months. Not because they quit. Because they're doing the one thing every expert recommends — and it is actively working against how the adult brain acquires language.
 
@@ -106,7 +100,7 @@ The science on this is twenty years old. Nobody taught it to you."
 
 ---
 
-**Hook C — The confession**
+**Hook C — The Confession**
 
 "I spent three years living in a country where I didn't speak the language. By the end, I could order coffee and ask for directions. That's it. Three years.
 
@@ -116,73 +110,83 @@ Turns out, immersion without one specific ingredient is just expensive confusion
 
 ---
 
-That's the output level you get from every stable skill in this library.
+That's the quality level you get from every stable skill in this library.
 
 ---
 
-## The skill directory
+## What's In The Library
 
-| Category | Skills | What it covers |
+| Category | Skills | What It Covers |
 |----------|--------|----------------|
-| Research | 60 | People and contacts, facts and context, data and statistics, scientific and academic literature, locations and logistics, media and competitive analysis |
-| Writing | 68 | Articles (all formats), broadcast scripts, digital and social copy, institutional documents |
-| TV documentary | 21 | Development, scripting, pre-production, post-production, localization, business |
-| Magazine journalism | 21 | Ideation, writing, editing, investigation, fact-checking, legal, distribution |
-| YouTube | 18 | Pre-production, scripting, post-production, channel strategy, business, analytics |
-| Data journalism | 17 | Analysis, investigation, visualization, publishing, methodology |
-| Editing | 16 | Proofreading, copy editing, style checks, tone, multi-author harmonisation |
-| Pre-production | 14 | Pitches, call sheets, interview questions, rights checks, glossaries |
-| Media business | 13 | Pitching, distribution, funding, legal |
-| Podcast | 12 | Pre-production, scripting, show notes, sponsorship |
-| Radio / Audio | 11 | Bulletins, news packages, documentary narration, running orders, strategy |
-| Image prompting | 10 | Midjourney, Flux, art direction, image workflows |
-| Archive and legal | 10 | Rights clearance, GDPR, copyright, CMS metadata |
-| Newsletter | 10 | Edition writing, subject lines, growth, monetization, strategy |
-| PR / Communications | 10 | Press releases, crisis comms, media relations, speeches, op-eds |
-| Production support | 10 | Formatting, layout, transcripts, credits |
-| Audience and distribution | 9 | Audience targeting, A/B tests, reader engagement, scheduling |
-| Screenwriting | 9 | Loglines, treatments, beat sheets, scenes, coverage, script notes |
-| Translation and localization | 8 | Articles, quotes, subtitles, voice-over scripts |
-| Social media | 7 | Content creation, platform strategy |
+| TV Documentary | 28 skills | development · pre-production · scripting · post-production · localization · business |
+| Magazine Journalism | 39 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
+| Podcast | 12 skills | pre-production · scripting · post-production · business |
+| Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
+| Media Business | 19 skills | pitching · distribution · funding · legal |
+| Social Media | 11 skills | content · strategy |
+| Radio / Audio | 12 skills | scripting · news packages · production · strategy |
+| Newsletter | 13 skills | writing · strategy · growth · monetization |
+| PR / Communications | 13 skills | press office · crisis comms · media relations · content |
+| Screenwriting | 9 skills | development · scripting · revision · production |
+| Data Journalism | 15 skills | analysis · visualization · investigation · publishing |
+| Research | 18 skills | people · background · fact-checking · academic · media · logistics |
+| Translation | 7 skills | text · institutional · digital · reference · quality · localization |
+| Production Support | 7 skills | formatting · reference |
+| **Total** | **354 skills** | |
 
-Browse the full library in the `skills/` folder. Skills are organized by category, then by production stage.
+Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
 ---
 
-## What the quality badges mean
+## Quality Badges
 
-Every skill carries a status badge. Here's what each one means in practice.
+Every skill displays a status badge so you know exactly how production-ready it is.
 
-| Badge | Status | What it means |
+| Badge | Status | What It Means |
 |-------|--------|---------------|
-| 🔲 `planned` | On the roadmap | File exists as a placeholder — skill not yet written |
+| 🔲 `planned` | Coming soon | On the roadmap but not written yet |
 | 🟡 `draft` | Written, not tested | Do not use in production |
 | 🔵 `beta` | Tested at least once | Usable — may have rough edges |
-| ✅ `stable` | Passed quality evaluation | Safe to use without supervision |
+| ✅ `stable` | Scored ≥ 4.0/5 on quality eval | Safe to use without supervision |
 
-**How a skill earns `stable` status:** it's tested using a six-dimension quality evaluation — coherence, consistency, fluency, relevance, professionalism, and actionability — each scored 1 to 5. A skill needs a mean score of 4.0 or higher across all six dimensions to reach `stable`. In practical terms, that means the output is good enough to hand to an editor or a commissioner without apologizing for it.
+Only skills that pass a rigorous six-dimension quality evaluation earn `stable` status. The evaluation tests coherence, consistency, fluency, relevance, professionalism, and actionability — scored by Claude against a rubric aligned to real media industry standards.
 
-The full evaluation protocol is in `tests/EVAL_FRAMEWORK.md`. If you've used a skill and it gave you something below that standard, report it via a GitHub Issue — that's how the quality bar stays real.
-
----
-
-## More example outputs
-
-Three outputs across different categories, to give you a feel for the range.
+See `tests/EVAL_FRAMEWORK.md` for the full process.
 
 ---
 
-**Logline — `logline-creator` — TV documentary**
+## Example Outputs
 
-Input: Feature documentary about a team of forensic archivists recovering destroyed government records from degraded magnetic tape.
+Three short examples showing the quality standard across different categories. Each is a real output from the skill, generated with a generic input.
+
+---
+
+### Hook · `hook-generator` · YouTube
+
+**Input:** Video about why open-plan offices hurt deep work. Audience: knowledge workers. Tone: research-backed, not ranty.
+
+**Output:**
+
+> "Stanford published a study in 2023 that should have ended the open-plan office debate permanently. It didn't — because the real estate industry has a $2.3 trillion reason to ignore it. Here's what they found, and what it means for every hour you've spent trying to think in a glass box."
+
+---
+
+### Logline · `logline-creator` · TV Documentary
+
+**Input:** Feature documentary about a team of forensic archivists who recover destroyed government records from degraded magnetic tape.
+
+**Output:**
 
 > "In a basement lab outside Washington, three archivists race to recover government records that were officially destroyed — before the statute of limitations runs out on the people who ordered the erasure."
 
 ---
 
-**Press release opening — `press-kit-generator` — TV documentary**
+### Press Release Opening · `press-kit-generator` · TV Documentary
 
-Input: Nature documentary series, six parts, following migratory bird species across three continents. Tone: prestigious, PBS-adjacent.
+**Input:** Nature documentary series, six parts, following migrating bird species across three continents. Tone: prestigious, PBS-adjacent.
+
+**Output:**
 
 > "Seven years in production. Forty-two filming locations across three continents. One question that ornithologists have debated for a century: where do they actually go?
 >
@@ -190,13 +194,13 @@ Input: Nature documentary series, six parts, following migratory bird species ac
 
 ---
 
-**Research brief opening — `facts-context` category — journalism**
+## How To Use A Skill
 
-Input: Brief on the economic history of lithium mining in South America, for a 20-minute current affairs documentary.
+1. **Find the skill you need** in the `skills/` folder — browse by media format and production stage
+2. **Open the skill file** and read the "What You Need To Provide" section
+3. **Paste the skill into Claude** along with your material, following the example at the bottom of the file
 
-> "Lithium sits beneath the salt flats of Argentina, Bolivia, and Chile — a region now called the Lithium Triangle, holding an estimated 58% of the world's known lithium reserves. The mineral has been commercially extracted from the region since the early 1980s, initially for industrial ceramics and lubricants. Demand remained steady and unremarkable until approximately 2008, when the electric vehicle market began its first serious growth phase.
->
-> Three things changed simultaneously after 2015: EV manufacturing scaled faster than almost any analyst had forecast, battery chemistry standardized around lithium-ion, and the geopolitical value of controlling supply chains became obvious to governments that had previously ignored the sector entirely."
+That's it. Claude handles the rest.
 
 ---
 
@@ -230,18 +234,15 @@ Most real projects use multiple skills in sequence. These step-by-step workflows
 
 ## How To Contribute
 
-Got an idea for a skill that's missing? Found one that gave you bad output?
+Got an idea for a skill? Found one that gave bad output? Want to improve an existing skill?
 
-See `CONTRIBUTING.md` — it has a plain-English section at the top for non-developers.
+See `CONTRIBUTING.md` — there's a plain-English section at the top written for non-developers.
 
-The short version:
-
-1. Open a GitHub Issue describing the skill you want, or the problem you found
-2. The concept is discussed and confirmed
-3. The skill is written using the standard template in `SKILL_TEMPLATE.md`
+Short version:
+1. Open a GitHub Issue describing the skill you want
+2. The concept is reviewed and approved
+3. The skill is written using `SKILL_TEMPLATE.md`
 4. It goes through quality testing before it's marked `stable`
-
-The quality bar is real. A skill doesn't ship as stable until it passes. That's the point.
 
 ---
 

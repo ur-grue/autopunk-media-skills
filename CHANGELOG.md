@@ -22,10 +22,8 @@ All notable changes to autopunk-media-skills are documented here.
 ### Changed
 - Repo description updated for discovery
 - GitHub Topics added (20 topics)
-- README restructured: Install block first, Related Projects section, updated footer
-- ROADMAP.md updated with current status and plans
-- Skill directory table expanded to 21 categories with correct counts
-- Badge counts updated to reflect actual skill statuses (199 stable, 178 beta)
+- README restructured: Install block, Related Projects, updated footer
+- ROADMAP.md updated with current status and milestones
 
 ---
 
