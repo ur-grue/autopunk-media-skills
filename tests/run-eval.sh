@@ -76,7 +76,7 @@ check_deps() {
 find_skill_file() {
   local skill_name="$1"
   local found
-  found=$(find "$SKILLS_DIR" -name "${skill_name}.md" -type f 2>/dev/null | head -1)
+  found=$(find "$SKILLS_DIR" -name "${skill_name}.md" -type f -not -path "*/locales/*" 2>/dev/null | head -1)
   if [[ -z "$found" ]]; then
     echo ""
     return
