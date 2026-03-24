@@ -1,0 +1,46 @@
+{
+  "skill": "equipment-list-generator",
+  "test_cases": [
+    {
+      "id": "ELG-01",
+      "label": "standard",
+      "input": {
+        "production_format": "Observational documentary with some sit-down interviews",
+        "shoot_days": 12,
+        "environment": "Mixed interior/exterior, urban setting, temperate climate",
+        "crew": "Director (also self-shoots some days), Camera Operator, Sound Recordist",
+        "camera_preference": "Sony FX9 or equivalent cinema-style documentary camera",
+        "audio": "Observational sound with boom, plus 3 radio mics for multi-subject scenes",
+        "lighting": "Natural light for observational; portable interview kit",
+        "kit_ownership": "Hired",
+        "deliverable": "4K UHD, ProRes 422 HQ"
+      }
+    },
+    {
+      "id": "ELG-02",
+      "label": "minimal",
+      "input": {
+        "production_format": "Interview-based short documentary",
+        "shoot_days": 3,
+        "environment": "Interior only",
+        "crew": "Self-shooting director (one person)"
+      }
+    },
+    {
+      "id": "ELG-03",
+      "label": "european_context",
+      "input": {
+        "production_format": "Observational documentary following subjects across multiple European cities",
+        "shoot_days": 25,
+        "environment": "Mixed interior/exterior, multiple climates (Scandinavian winter, Mediterranean summer), urban and rural",
+        "crew": "Director, Camera Operator, Sound Recordist, Production Coordinator (4-person crew)",
+        "camera_preference": "ARRI AMIRA or Sony FX9 — broadcast/cinema hybrid",
+        "audio": "Observational boom work, 4 radio mics, ambience recording kit for location sound design",
+        "lighting": "Minimal — natural light preferred, small LED interview kit only",
+        "special_requirements": "Drone for establishing shots, lightweight gimbal for train/vehicle sequences",
+        "transport_constraints": "Flying between locations with checked and hand luggage — kit must be airline-transportable",
+        "deliverable": "4K UHD, 10-bit, EBU R128 audio standard"
+      }
+    }
+  ]
+}

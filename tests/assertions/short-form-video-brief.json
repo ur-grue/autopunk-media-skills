@@ -1,0 +1,20 @@
+{
+  "skill": "short-form-video-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes timestamped segments covering the full runtime (hook 0-3s, body, CTA in final 5s) with specific visual and audio direction",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A caption text section for accessibility is included with complete readable text",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A thumbnail/first frame recommendation is provided with specific visual guidance",
+      "type": "binary"
+    }
+  ]
+}

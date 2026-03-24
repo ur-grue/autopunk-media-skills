@@ -1,0 +1,35 @@
+{
+  "skill": "narrator-voice-adapter",
+  "test_cases": [
+    {
+      "id": "NVA-01",
+      "label": "standard",
+      "input": {
+        "original_narration": "The Amazon rainforest, covering approximately 5.5 million square kilometres, produces roughly 20 percent of the world's oxygen. Deforestation rates have accelerated since 2019, with satellite data showing an average annual loss of 10,000 square kilometres. Indigenous communities, who have managed these lands for millennia, are increasingly displaced by agricultural expansion and illegal mining operations.",
+        "target_voice": "Urgent, personal, journalistic. A reporter who has been on the ground and is telling the viewer what they witnessed. Uses short, punchy sentences. First person where it lands. Emotionally engaged but factually grounded. Feels like dispatches, not lectures.",
+        "documentary_subject": "Investigative documentary on Amazon deforestation and indigenous displacement",
+        "documentary_tone": "Investigative, urgent"
+      }
+    },
+    {
+      "id": "NVA-02",
+      "label": "minimal",
+      "input": {
+        "original_narration": "Water scarcity now affects more than two billion people globally. Climate change and population growth are projected to worsen access in the coming decades.",
+        "target_voice": "Warm, empathetic, accessible. A storyteller who cares.",
+        "documentary_subject": "Water crisis documentary"
+      }
+    },
+    {
+      "id": "NVA-03",
+      "label": "european_context",
+      "input": {
+        "original_narration": "The European Union's Common Agricultural Policy distributes approximately 58 billion euros annually to farmers across 27 member states. Critics argue that the subsidy structure disproportionately benefits large-scale industrial agriculture at the expense of small family farms, which have declined by 37 percent since 2005. In regions like Andalusia, Brittany, and the Mezzogiorno, the disappearance of smallholdings has reshaped rural communities beyond recognition.",
+        "target_voice": "Reflective, literary, with an essayistic quality. A narrator who pauses, who trusts the viewer to sit with complexity. Long sentences are acceptable if they have rhythm. European documentary register — closer to essay film than broadcast TV.",
+        "documentary_subject": "Essay film about the decline of small-scale European farming",
+        "documentary_tone": "Contemplative, essayistic",
+        "sample_voice": "Chris Marker's narration style — observational, intelligent, poetic without being decorative"
+      }
+    }
+  ]
+}

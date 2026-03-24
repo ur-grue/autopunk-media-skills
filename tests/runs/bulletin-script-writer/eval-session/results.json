@@ -1,0 +1,16 @@
+{
+  "skill": "bulletin-script-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "lead-most-newsworthy", "text": "Lead story is the most newsworthy item", "type": "binary"},
+    {"id": "no-subordinate-opening", "text": "No sentence opens with a subordinate clause or a name", "type": "binary"},
+    {"id": "standalone-stories", "text": "Each story can stand alone if the bulletin is cut short", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard 3-minute bulletin", "lead-most-newsworthy": {"pass": true, "note": "Hospital critical incident leads over education strike and football stadium"}, "no-subordinate-opening": {"pass": true, "note": "All sentences open with context before names"}, "standalone-stories": {"pass": true, "note": "Each cue is self-contained with its own slug and context"}},
+    "input-02": {"description": "Minimal input", "lead-most-newsworthy": {"pass": true, "note": "Tuition fee increase leads over student union elections"}, "no-subordinate-opening": {"pass": true, "note": "No subordinate clause openings"}, "standalone-stories": {"pass": true, "note": "Both stories stand alone"}},
+    "input-03": {"description": "European context", "lead-most-newsworthy": {"pass": true, "note": "Steel tariffs lead (widest impact), flooding second, ECB third"}, "no-subordinate-opening": {"pass": true, "note": "Context-first sentence construction throughout"}, "standalone-stories": {"pass": true, "note": "All three cues self-contained and independently broadcastable"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

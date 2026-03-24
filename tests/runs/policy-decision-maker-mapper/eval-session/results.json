@@ -1,0 +1,86 @@
+{
+  "skill": "policy-decision-maker-mapper",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Formal Decision Chain, Influence Ecosystem, Research Checklist, Interview Priorities"
+    },
+    {
+      "id": "A2",
+      "text": "Decision chain reflects specified jurisdiction"
+    },
+    {
+      "id": "A3",
+      "text": "Interview priorities justified"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All four sections present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Bicameral process mapped accurately"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "5 priorities with rationale for each"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All sections; scaled for local council"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "UK council process accurately reflected"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Priorities justified"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All sections with EU trilogue process"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "EP, Council, Commission roles mapped"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "5 priorities justified including rapporteur and Council presidency"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

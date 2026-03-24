@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output is Q/A format with editorial notes section at end","check":"binary_format"},{"id":"A2","description":"Subject vocabulary preserved — no words added that subject did not say","check":"binary_quality"},{"id":"A3","description":"Output meets requested word count within 10%","check":"binary_quality"}]

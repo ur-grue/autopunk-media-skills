@@ -1,0 +1,89 @@
+{
+  "skill": "cover-image-pipeline",
+  "category": "image-prompting/workflows",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes one prompt per requested format with aspect ratio, pixel dimensions, platform label, and composition note explaining how this version differs"
+    },
+    {
+      "id": "A2",
+      "description": "Text-safe zones are specified for every format"
+    },
+    {
+      "id": "A3",
+      "description": "A shared style anchor string is provided and a generation sequence recommendation explains the logic"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three format prompts each with ratio, dimensions, platform, and composition rationale"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Text-safe zones specified for all three formats"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Shared anchor and sequence: generate square first (most compositionally specific)"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two format prompts with proper specifications"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Text-safe zones for both header and social card"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Shared anchor and sequence recommendation"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Four format prompts including LinkedIn banner at 4:1"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Text-safe zones for all four formats"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Shared anchor; sequence starts with square for seed establishment"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

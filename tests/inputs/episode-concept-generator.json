@@ -1,0 +1,40 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — education reform podcast",
+    "input": {
+      "podcast_name": "Rethinking School",
+      "topic_focus": "K-12 education reform, teaching methods, and the future of learning",
+      "target_audience": "Teachers, school administrators, and parents interested in how education is changing",
+      "format": "Interview, 45 minutes",
+      "episode_length": "45 minutes",
+      "recent_episodes": ["Why Homework Doesn't Work (And What to Replace It With)", "The Teacher Shortage Nobody Talks About", "How Finland Redesigned Its Schools"],
+      "themes_to_explore": "The role of technology in classrooms, whether standardized testing should be abolished, alternative school models"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "podcast_name": "Plant Parent",
+      "topic_focus": "Houseplant care, indoor gardening, and plant-based home design",
+      "target_audience": "Urban adults in their 20s-30s who are new to houseplants",
+      "format": "Solo with occasional guests, 25 minutes",
+      "episode_length": "25 minutes"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European migration and identity podcast",
+    "input": {
+      "podcast_name": "Crossing Lines",
+      "topic_focus": "Migration, identity, and belonging in contemporary Europe — told through personal stories and expert analysis",
+      "target_audience": "Educated Europeans aged 25-45 interested in social policy, migration, and multicultural identity",
+      "format": "Hybrid — interviews with personal stories woven into analysis, 50 minutes",
+      "episode_length": "50 minutes",
+      "recent_episodes": ["The Syrian Barber of Berlin", "What 'Integration' Actually Means in the Netherlands", "The Children of EU Freedom of Movement"],
+      "themes_to_explore": "Second-generation identity crisis, the difference between asylum and economic migration in public perception, how European cities are being reshaped by migration",
+      "preference": "Guest-based episodes with strong personal narratives"
+    }
+  }
+]

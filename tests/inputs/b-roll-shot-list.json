@@ -1,0 +1,32 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — woodworking tutorial",
+    "input": {
+      "script_sections": "1. Hook (VO): 'This is a $30 cutting board that looks like it costs $200. Here's exactly how to make it.'\n2. Materials overview — selecting and buying hardwood at a lumber yard, what to look for\n3. Milling and squaring the boards — jointer, planer, table saw\n4. Glue-up — edge-grain glue-up with clamps, squeeze-out cleanup\n5. Shaping — trimming to final size, routing the edges, sanding progression\n6. Finishing — applying food-safe mineral oil, buffing, final product reveal\n7. Outro with finished board and tools on bench",
+      "topic": "Making a hardwood edge-grain cutting board from scratch",
+      "environment": "Home workshop with standard woodworking tools (table saw, jointer, planer, router, clamps)",
+      "style": "Clean, well-lit workshop aesthetic, warm tones"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "script_sections": "1. Intro: Why you should clean your laptop keyboard monthly\n2. What you need: compressed air, isopropyl alcohol, microfiber cloth, cotton swabs\n3. Step 1: Power down and disconnect\n4. Step 2: Use compressed air between keys\n5. Step 3: Clean key surfaces with alcohol and cloth\n6. Step 4: Clean edges with cotton swabs\n7. Before/after comparison and closing",
+      "topic": "How to properly clean a laptop keyboard",
+      "environment": "Desk in a home office"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Italian pasta making tutorial",
+    "input": {
+      "script_sections": "1. Hook (VO): 'In Bologna, grandmothers roll pasta sheets so thin you can read a newspaper through them. Today, we learn why.'\n2. Ingredients — tipo 00 flour, eggs, semolina for dusting, explanation of why Italian flour types matter\n3. Making the dough — well method on a wooden board, mixing by hand, kneading technique\n4. Resting the dough — wrapped in cling film, explanation of gluten relaxation\n5. Rolling by hand — using a mattarello (traditional Italian rolling pin), technique and body position\n6. Cutting tagliatelle — folding and cutting to uniform width, unfurling the ribbons\n7. Cooking — boiling in salted water, timing, serving with a simple butter and Parmigiano sauce\n8. Outro — finished plate of tagliatelle, host tasting",
+      "topic": "Traditional Bolognese hand-rolled tagliatelle from scratch",
+      "environment": "Traditional Italian kitchen with wooden worktop, natural light from a window, rustic aesthetic",
+      "style": "Warm, artisan, close attention to hand technique and texture",
+      "gear_available": "Macro lens available for close-up detail shots"
+    }
+  }
+]

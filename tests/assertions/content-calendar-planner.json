@@ -1,0 +1,17 @@
+{
+  "skill": "content-calendar-planner",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains a 4-week calendar table with columns for Week, Publish Date, Video Title (specific working titles, not just topics), Format, and Strategic Note"
+    },
+    {
+      "id": "A2",
+      "description": "Output includes a Production Schedule section that groups videos by filming order and accounts for lead times"
+    },
+    {
+      "id": "A3",
+      "description": "Calendar respects the stated frequency goal and includes a Next Step note identifying which video to produce first"
+    }
+  ]
+}

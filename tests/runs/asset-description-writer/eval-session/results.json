@@ -1,0 +1,86 @@
+{
+  "skill": "asset-description-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Structured fields: Title, Description, Keywords, Type, Collection, Creator, Date, Rights"
+    },
+    {
+      "id": "A2",
+      "text": "Description leads with most searchable feature"
+    },
+    {
+      "id": "A3",
+      "text": "Missing info marked Not provided"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All 8 standard fields present plus Location"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Title leads with subject (elderly man) and setting (apartment building); most searchable elements first"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Technical specs marked Not provided; all user-provided fields populated"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All fields present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Description leads with content type and subject"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Creator, Date, Location, Technical Specs, Rights all marked Not provided"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All fields present with rights information"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Title: Timelapse - EP hemicycle filling before plenary vote. Most searchable elements first."
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "All user-provided fields populated; no missing fields"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

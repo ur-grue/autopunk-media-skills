@@ -1,0 +1,16 @@
+{
+  "skill": "presenter-link-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "labelled-by-type", "text": "Each link is labelled by type and position", "type": "binary"},
+    {"id": "reads-naturally", "text": "Copy reads aloud naturally", "type": "binary"},
+    {"id": "register-consistent", "text": "Register is consistent with the stated programme tone", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard daytime radio links", "labelled-by-type": {"pass": true, "note": "All three links labelled: INTRO LINK, BRIDGE, BACK ANNO"}, "reads-naturally": {"pass": true, "note": "Natural spoken English, no tongue-twisters"}, "register-consistent": {"pass": true, "note": "Warm, engaged tone consistent throughout"}},
+    "input-02": {"description": "Minimal input", "labelled-by-type": {"pass": true, "note": "BRIDGE link correctly labelled"}, "reads-naturally": {"pass": true, "note": "Mellow, natural copy appropriate for late-night"}, "register-consistent": {"pass": true, "note": "Late-night mellow register maintained"}},
+    "input-03": {"description": "European context", "labelled-by-type": {"pass": true, "note": "INTRO LINK, BRIDGE, CLOSE all labelled with duration estimates"}, "reads-naturally": {"pass": true, "note": "Serious but accessible — no awkward phrasing"}, "register-consistent": {"pass": true, "note": "Pan-European morning news register consistent"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

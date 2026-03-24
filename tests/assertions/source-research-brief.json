@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output contains all required sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions","check":"binary_format"},
+  {"id":"A2","description":"Interview questions address both the story substance and the source's potential blind spots","check":"binary_quality"},
+  {"id":"A3","description":"Output ends with a Next Step note about conflicts, opening question, or foia-request-writer","check":"binary_presence"}
+]

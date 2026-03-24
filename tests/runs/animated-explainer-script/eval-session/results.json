@@ -1,0 +1,38 @@
+{
+  "skill": "animated-explainer-script",
+  "eval_date": "2026-03-24",
+  "assertions": ["AES-A1", "AES-A2", "AES-A3"],
+  "results": [
+    {
+      "test_case": "AES-01",
+      "label": "standard",
+      "assertion_results": {
+        "AES-A1": {"pass": true, "note": "Two-column table format with every narration beat paired with a visual direction cue; no orphaned text"},
+        "AES-A2": {"pass": true, "note": "2-minute target = ~300 words expected; output narration at approximately 285 words — within 15% tolerance"},
+        "AES-A3": {"pass": true, "note": "Two [PAUSE] markers and one [BEAT]; Production Notes with 3 bullets; opens referencing the engineer interview, closes with transition back to live-action"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "AES-02",
+      "label": "minimal",
+      "assertion_results": {
+        "AES-A1": {"pass": true, "note": "Two-column format maintained; visual cues present for each beat"},
+        "AES-A2": {"pass": true, "note": "90-second target = ~225 words expected; output at approximately 218 words — within tolerance"},
+        "AES-A3": {"pass": true, "note": "One pause marker present; Production Notes included though brief; opening and closing transitions somewhat generic due to minimal context"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "AES-03",
+      "label": "european_context",
+      "assertion_results": {
+        "AES-A1": {"pass": true, "note": "Two-column format with visual direction for every beat; visual cues describe abstract/conceptual imagery as requested"},
+        "AES-A2": {"pass": true, "note": "2.5-minute target = ~375 words expected; output at approximately 362 words — within tolerance"},
+        "AES-A3": {"pass": true, "note": "Multiple pauses; Production Notes addresses sardonic register and data verification; opens from Polish coal plant, closes toward Brussels economist interview"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

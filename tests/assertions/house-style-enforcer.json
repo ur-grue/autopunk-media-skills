@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output contains a Deviations list and a Consistency Check section, with each deviation citing the specific rule violated","check":"binary_format"},
+  {"id":"A2","description":"Every deviation from a stated rule is caught — no omissions of clearly applicable rules","check":"binary_completeness"},
+  {"id":"A3","description":"Ambiguous cases are flagged as questions rather than resolved arbitrarily","check":"binary_quality"}
+]

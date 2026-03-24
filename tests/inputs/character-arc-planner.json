@@ -1,0 +1,38 @@
+{
+  "skill": "character-arc-planner",
+  "test_cases": [
+    {
+      "id": "CAP-01",
+      "label": "standard",
+      "input": {
+        "documentary_subject": "A feature documentary about a rural hospital fighting to stay open despite chronic underfunding, staff shortages, and political indifference",
+        "subject_description": "Dr. Amina Osei, 45, the hospital's only remaining full-time surgeon. She has been at the hospital for 12 years and has turned down multiple offers from urban hospitals. Her mother was born in this community and her relationship to the hospital is both professional and personal.",
+        "film_central_subject": "The survival of rural healthcare in a system that rewards urban concentration",
+        "format": "Single 90-minute feature",
+        "film_tone": "Character-driven, observational, politically engaged"
+      }
+    },
+    {
+      "id": "CAP-02",
+      "label": "minimal",
+      "input": {
+        "documentary_subject": "A short documentary about a community garden in an underserved neighborhood",
+        "subject_description": "Marcus, 58, retired bus driver who started the garden five years ago",
+        "film_central_subject": "How small community projects change neighborhoods",
+        "format": "Single 30-minute film"
+      }
+    },
+    {
+      "id": "CAP-03",
+      "label": "european_context",
+      "input": {
+        "documentary_subject": "A documentary series about the refugee crisis in the Mediterranean, following individuals from arrival through the asylum process",
+        "subject_description": "Yara Khalil, 28, a Syrian civil engineer who arrived by boat in Lampedusa and is now navigating the Italian asylum system. She speaks four languages and has been helping other refugees with translation while awaiting her own hearing. Her father was a political prisoner; she left Syria after his death.",
+        "film_central_subject": "The human experience of Europe's asylum system — what happens between arrival and the decision",
+        "format": "4 x 50-minute series for European public broadcaster",
+        "film_tone": "Observational, intimate, structurally ambitious",
+        "known_events": "Yara's asylum hearing is scheduled for three months after filming begins; she has been offered informal translation work at the reception centre"
+      }
+    }
+  ]
+}

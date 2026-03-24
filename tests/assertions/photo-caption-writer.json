@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Each caption identifies who/what, where, when, plus credit line","check":"binary_format"},{"id":"A2","description":"Visible action in present tense, background in past tense","check":"binary_quality"},{"id":"A3","description":"No editorializing, no stating the obvious","check":"binary_quality"}]

@@ -1,0 +1,16 @@
+{
+  "skill": "speech-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "no-thanks-opening", "text": "Speech does not open with thanks or logistics", "type": "binary"},
+    {"id": "messages-embedded", "text": "Key messages embedded in the speech, not listed", "type": "binary"},
+    {"id": "strong-close", "text": "Closing is the strongest moment, not a summary", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard product launch speech", "no-thanks-opening": {"pass": true, "note": "Opens with a substantive statement about public finance, not Thank you"}, "messages-embedded": {"pass": true, "note": "Both messages woven into the narrative at natural points"}, "strong-close": {"pass": true, "note": "Closes with a challenge or vision statement, not a recap"}},
+    "input-02": {"description": "Minimal input", "no-thanks-opening": {"pass": true, "note": "Opens with the building or the community, not thanks"}, "messages-embedded": {"pass": true, "note": "Messages embedded in community narrative"}, "strong-close": {"pass": true, "note": "Closes with forward-looking community vision"}},
+    "input-03": {"description": "European context", "no-thanks-opening": {"pass": true, "note": "Opens with evidence or a patient story, not Thank you for having me"}, "messages-embedded": {"pass": true, "note": "Three messages embedded across 8-minute arc at natural turning points"}, "strong-close": {"pass": true, "note": "Closes with the strongest evidence point and a call to action on EU budget"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

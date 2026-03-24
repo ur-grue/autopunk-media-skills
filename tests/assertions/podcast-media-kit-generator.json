@@ -1,0 +1,17 @@
+{
+  "skill": "podcast-media-kit-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains all required sections: Show Overview, About the Audience, By the Numbers (formatted data block), Sponsorship Packages, Host Bio, and Contact"
+    },
+    {
+      "id": "A2",
+      "description": "Audience description goes beyond demographics to include behavioral signals about why they listen and how they engage"
+    },
+    {
+      "id": "A3",
+      "description": "Sponsorship packages are specific enough that a brand manager knows exactly what they are buying, with placement type and rate"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "distributor-outreach-email",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "under-250-words", "text": "Email body is under 250 words including sign-off", "type": "binary"},
+    {"id": "screener-offered", "text": "Screener access is offered concretely", "type": "binary"},
+    {"id": "specific-ask", "text": "Closing ask is specific", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard post-festival outreach",
+      "under-250-words": {"pass": true, "note": "Body at approximately 180 words"},
+      "screener-offered": {"pass": true, "note": "Screener link placeholder and platform access option both offered"},
+      "specific-ask": {"pass": true, "note": "Specific ask: EFM meeting or screener review"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "under-250-words": {"pass": true, "note": "Body at approximately 140 words"},
+      "screener-offered": {"pass": true, "note": "Screener offered with concrete link placeholder"},
+      "specific-ask": {"pass": true, "note": "Ask: review the screener and let me know if interested"}
+    },
+    "input-03": {
+      "description": "European context",
+      "under-250-words": {"pass": true, "note": "Body at approximately 195 words"},
+      "screener-offered": {"pass": true, "note": "Screener access offered with DOK Leipzig credentials noted"},
+      "specific-ask": {"pass": true, "note": "Specific ask: market meeting or screener with EFA nomination as hook"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

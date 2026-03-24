@@ -1,0 +1,31 @@
+{
+  "skill": "platform-strategy-brief",
+  "category": "social-media/strategy",
+  "inputs": [
+    {
+      "label": "standard",
+      "platform": "TikTok",
+      "brand": "An investigative journalism nonprofit",
+      "focus": "Long-form investigations into corporate accountability and environmental harm",
+      "audience": "18-35 year olds interested in social justice and investigative reporting",
+      "goal": "Audience growth and newsletter signups",
+      "resource": "One part-time social media coordinator"
+    },
+    {
+      "label": "minimal",
+      "platform": "LinkedIn",
+      "brand": "Independent podcast producer",
+      "focus": "True crime and criminal justice podcast"
+    },
+    {
+      "label": "european",
+      "platform": "Instagram",
+      "brand": "A Franco-German public broadcasting joint venture",
+      "focus": "Cross-border European news and culture coverage in English, French, and German",
+      "current": "4,500 followers, posting 2x per week with low engagement",
+      "audience": "Educated Europeans aged 25-45 interested in EU affairs",
+      "goal": "Grow to 15,000 followers and establish as the go-to English-language European news Instagram",
+      "resource": "Two-person social media team"
+    }
+  ]
+}

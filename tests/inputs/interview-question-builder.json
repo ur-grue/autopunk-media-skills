@@ -1,0 +1,37 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — memoir author on a writing podcast",
+    "input": {
+      "guest_name": "Angela Torres",
+      "guest_background": "A memoirist who published her first book about growing up in a family of competitive chess players. The book was a surprise bestseller. She previously worked as a journalist and has spoken about the ethical challenges of writing about living family members.",
+      "episode_focus": "The ethics and craft of writing about real people you love — when memoir becomes family exposure",
+      "show_tone": "Thoughtful literary audience, conversational but not casual, host asks substantive questions",
+      "episode_length": "50 minutes",
+      "specific_moments": "She has said in a prior interview that her mother didn't speak to her for three months after reading the manuscript"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "guest_name": "David Kim",
+      "guest_background": "A former professional chef who left restaurant work to become a food safety consultant. He now advises restaurants on health code compliance and has strong opinions about why restaurant kitchens are more dangerous than people realize.",
+      "episode_focus": "What really happens behind the kitchen door — food safety truths the industry doesn't advertise",
+      "show_tone": "Curious general audience, casual and conversational"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Dutch urban planner on a cities podcast",
+    "input": {
+      "guest_name": "Professor Jan de Vries",
+      "guest_background": "A Dutch urban planner and professor who has advised multiple European cities on car-free city center design. He led the planning team for a major Dutch city's car-free zone implementation and has written extensively about why the Dutch model of urban cycling infrastructure works and why it fails when exported to other countries without adaptation.",
+      "episode_focus": "Why copying Dutch cycling infrastructure doesn't work — and what cities should actually do instead",
+      "show_tone": "Smart general audience interested in cities and design, curious and evidence-based, no jargon",
+      "episode_length": "45 minutes",
+      "topics_to_avoid": "He has asked not to discuss the political controversy around one specific city's implementation",
+      "prior_work": "His book 'Beyond the Bike Lane: Why Urban Cycling Is About Cities, Not Bicycles' published last year"
+    }
+  }
+]

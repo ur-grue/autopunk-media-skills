@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output states original and final word counts plus condensed text and cut summary","check":"binary_format"},{"id":"A2","description":"Final word count is within 5% of stated target","check":"binary_quality"},{"id":"A3","description":"User-flagged passages are preserved verbatim","check":"binary_quality"}]

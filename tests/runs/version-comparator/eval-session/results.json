@@ -1,0 +1,93 @@
+{
+  "skill_name": "version-comparator",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.44,
+  "test_inputs": [],
+  "assertions": [
+    "Output is a structured change report grouped by change type with word counts stated",
+    "Changes are correctly classified \u2014 cosmetic not inflated to substantive",
+    "Summary honestly assesses whether the revision achieved its stated goal"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: two drafts of a news article",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a structured change report grouped by change type with word counts stated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Changes are correctly classified \u2014 cosmetic not inflated to substantive",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Summary honestly assesses whether the revision achieved its stated goal",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: minor edit",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a structured change report grouped by change type with word counts stated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Changes are correctly classified \u2014 cosmetic not inflated to substantive",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Summary honestly assesses whether the revision achieved its stated goal",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU policy article revision",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a structured change report grouped by change type with word counts stated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Changes are correctly classified \u2014 cosmetic not inflated to substantive",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Summary honestly assesses whether the revision achieved its stated goal",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

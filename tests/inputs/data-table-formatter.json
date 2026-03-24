@@ -1,0 +1,28 @@
+{
+  "skill": "data-table-formatter",
+  "category": "data-journalism/visualization",
+  "inputs": [
+    {
+      "label": "standard",
+      "data": "CITY,POP_2020,POP_2025,HOUSING_UNITS,VACANCY_PCT,MED_RENT\nRiverton,82000,91000,34200,3.2,1450\nLakewood,145000,138000,62100,8.7,1120\nHighfield,67000,74000,28900,2.1,1680\nMarshgate,112000,119000,47300,5.4,1310\nOakdale,53000,61000,22100,1.8,1790",
+      "purpose": "News article on housing affordability crisis",
+      "source": "National Census Bureau, 2025 Housing Survey",
+      "sort": "Median rent (highest first)",
+      "title": "Which cities are most expensive for renters?"
+    },
+    {
+      "label": "minimal",
+      "data": "dept,budget_2024,budget_2025\nPolice,4200000,4600000\nFire,3100000,3250000\nParks,1800000,1650000\nLibrary,950000,920000",
+      "purpose": "City council budget report",
+      "source": "City Finance Office, FY2025"
+    },
+    {
+      "label": "european",
+      "data": "COUNTRY,JOURNALISTS_DETAINED_2025,PRESS_FREEDOM_SCORE,CHANGE_YOY,LEGAL_FRAMEWORK_SCORE\nPoland,0,78.2,+3.1,82\nHungary,2,54.6,-2.8,48\nGermany,0,85.1,+0.4,91\nItaly,1,71.3,-1.2,74\nGreece,0,63.8,+4.7,68\nFrance,0,80.4,-0.9,85",
+      "purpose": "Annual press freedom report for EU member states",
+      "source": "European Press Freedom Index, 2025",
+      "sort": "Press freedom score (highest first)",
+      "title": "Press freedom across six EU member states, 2025"
+    }
+  ]
+}

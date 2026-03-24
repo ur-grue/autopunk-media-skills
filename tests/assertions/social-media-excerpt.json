@@ -1,0 +1,17 @@
+[
+  {
+    "id": "A1",
+    "description": "Output contains platform-by-platform blocks clearly labeled for each requested platform",
+    "check": "binary_format"
+  },
+  {
+    "id": "A2",
+    "description": "Every excerpt is drawn verbatim from the article — no paraphrase or editorial addition",
+    "check": "binary_quality"
+  },
+  {
+    "id": "A3",
+    "description": "X/Twitter post works as a standalone sentence and includes character count",
+    "check": "binary_quality"
+  }
+]

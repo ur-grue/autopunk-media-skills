@@ -1,0 +1,10 @@
+{
+  "skill":"legislative-history-brief","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Timeline Framework, Key Actors, Turning Points"},{"id":"A2","text":"Source documents specific and locatable"},{"id":"A3","text":"Turning points identify contested moments"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All three sections present with 8-step timeline"},{"id":"A2","pass":true,"note":"Parliamentary committee records, lobbying register, amendment tracker all named as specific sources"},{"id":"A3","pass":true,"note":"Turning points: shift from tech-neutral to tech-specific language; committee witness selection process"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present; scaled for local bylaw"},{"id":"A2","pass":true,"note":"Council meeting minutes, consultation portal named specifically"},{"id":"A3","pass":true,"note":"Turning point: consultation response that shifted the vote"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections present with EU trilogue process mapped"},{"id":"A2","pass":true,"note":"European Parliament committee reports, Council working group documents, lobby transparency register all named"},{"id":"A3","pass":true,"note":"Turning points: narrowing of high-risk definition during committee stage; specific industry actors lobbying for exemptions identified by category"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

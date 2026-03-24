@@ -1,0 +1,48 @@
+{
+  "skill": "youtube-media-kit-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/youtube-media-kit-generator.json",
+  "assertions_file": "tests/assertions/youtube-media-kit-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — personal finance channel",
+      "output_summary": "Full media kit with all six sections. Channel Identity leads with audience value ('125,000 millennial and Gen Z investors who have self-selected into financial education'). Audience Profile includes prose summary plus data table. Rate card in table format with three tiers plus a bundle option. Past Partners section included. Contact section with clear next steps.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All six sections present and clearly labeled." },
+        "A2": { "pass": true, "note": "Audience profile has both prose description and formatted metrics table." },
+        "A3": { "pass": true, "note": "Rate card is a clean table with specific prices for each format." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — small art channel",
+      "output_summary": "Media kit adapts to smaller channel. Channel Identity positions the audience as aspiring artists. No past partners section (correctly omitted since none provided). Rate card uses placeholder copy with instructions to fill in rates. Audience table uses available data. Shorter overall but complete structure.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All applicable sections present. Past Partners correctly omitted. Rate card section included with placeholder guidance." },
+        "A2": { "pass": true, "note": "Audience data presented in both formats despite limited demographic info." },
+        "A3": { "pass": false, "note": "Rate card includes placeholder instructions rather than specific prices — acceptable for minimal input but does not fully pass the specific-prices assertion." }
+      },
+      "pass": false
+    },
+    {
+      "input_id": "european",
+      "label": "European context — architecture and design channel",
+      "output_summary": "Full media kit with European context throughout. Audience table shows multi-country European market breakdown. Rate card in EUR with all four formats including sponsored site visit. Past Partners section references European software and furniture brands. Channel Identity positions the pan-European audience as a premium architectural media property.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All six sections present including Past Partners." },
+        "A2": { "pass": true, "note": "Both prose and table format for audience data. European geography breakdown well-presented." },
+        "A3": { "pass": true, "note": "Rate card in EUR with specific prices for all four integration types." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "2/3",
+    "assertion_pass_rate": "8/9",
+    "notes": "Minimal input case: when no rates are provided, the skill correctly notes placeholders rather than inventing rates — this is the right behavior, but the assertion is strict. The skill's own quality criteria note 'contact for pricing only as last resort' which is what happened here.",
+    "status": "PASS (with note)"
+  }
+}

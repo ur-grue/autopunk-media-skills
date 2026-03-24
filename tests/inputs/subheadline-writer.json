@@ -1,0 +1,29 @@
+{
+  "skill": "subheadline-writer",
+  "test_cases": [
+    {
+      "id": "standard",
+      "input": {
+        "headline": "Hospital Trust Suspends All Non-Emergency Surgery Until Further Notice",
+        "article_summary": "The regional hospital trust has suspended elective procedures across its four sites after a critical staffing shortage left two operating theatres without anaesthetists. The trust said 14 anaesthetists are currently unavailable due to a combination of illness, resignations, and unfilled vacancies. Patients with scheduled procedures are being contacted individually. Emergency and cancer surgery will continue. The local medical committee described the situation as foreseeable and preventable.",
+        "target_style": "Regional newspaper, web edition"
+      }
+    },
+    {
+      "id": "minimal",
+      "input": {
+        "headline": "Tech Giant Cuts 3,000 Jobs in Cloud Division",
+        "article_summary": "A major technology company is cutting 3,000 positions from its cloud computing division as part of a restructuring to prioritize AI-focused services."
+      }
+    },
+    {
+      "id": "european",
+      "input": {
+        "headline": "Brussels Proposes Mandatory Right to Repair for All Consumer Electronics",
+        "article_summary": "The European Commission has published a legislative proposal requiring manufacturers to provide spare parts, repair manuals, and diagnostic tools for all consumer electronics sold in the EU for a minimum of seven years after purchase. The proposal covers smartphones, laptops, tablets, headphones, and smart home devices. Industry groups representing major manufacturers have warned the requirements could increase retail prices by 8-15%. Consumer rights organisations say the law would save European households an average of 150 euros per year in replacement costs. The proposal must now pass through the European Parliament and Council of Ministers.",
+        "target_style": "Quality broadsheet, print edition",
+        "seo_keywords": "right to repair EU electronics"
+      }
+    }
+  ]
+}

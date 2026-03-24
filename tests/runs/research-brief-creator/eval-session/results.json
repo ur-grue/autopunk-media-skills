@@ -1,0 +1,93 @@
+{
+  "skill_name": "research-brief-creator",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.5,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains all five required sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, Reporting Order",
+    "Three angles are genuinely distinct with different primary questions, not rephrased versions of the same question",
+    "Output ends with a Next Step note specifying the single first action to take"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: assignment on algorithmic hiring discrimination",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all five required sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, Reporting Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Three angles are genuinely distinct with different primary questions, not rephrased versions of the same question",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note specifying the single first action to take",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: short news assignment",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all five required sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, Reporting Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Three angles are genuinely distinct with different primary questions, not rephrased versions of the same question",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note specifying the single first action to take",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: investigation into pesticide approvals",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all five required sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, Reporting Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Three angles are genuinely distinct with different primary questions, not rephrased versions of the same question",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note specifying the single first action to take",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

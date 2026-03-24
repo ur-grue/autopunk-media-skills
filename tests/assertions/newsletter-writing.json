@@ -1,0 +1,40 @@
+{
+  "category": "newsletter/writing",
+  "skills": {
+    "edition-writer": {
+      "assertions": [
+        {"id": "standalone-hook", "text": "Opening paragraph works as a standalone hook creating a reason to read without prior context", "type": "binary"},
+        {"id": "through-line", "text": "Main feature has a clear through-line building toward something, not a flat list of information", "type": "binary"},
+        {"id": "consistent-voice", "text": "Entire edition reads as one consistent voice with no section feeling like a different writer", "type": "binary"}
+      ]
+    },
+    "welcome-email-writer": {
+      "assertions": [
+        {"id": "specific-promise", "text": "Editorial promise is specific enough that a reader could predict the next edition's general shape", "type": "binary"},
+        {"id": "no-welcome-opener", "text": "Email does not begin with 'Welcome to [newsletter name]!' as its opening line", "type": "binary"},
+        {"id": "single-cta", "text": "There is exactly one call to action, not multiple", "type": "binary"}
+      ]
+    },
+    "subject-line-writer": {
+      "assertions": [
+        {"id": "five-options", "text": "Output contains exactly five distinct subject line options", "type": "binary"},
+        {"id": "different-approaches", "text": "Each option uses a genuinely different psychological approach", "type": "binary"},
+        {"id": "under-60-chars", "text": "All options are under 60 characters", "type": "binary"}
+      ]
+    },
+    "re-engagement-email-writer": {
+      "assertions": [
+        {"id": "no-we-miss-you", "text": "Email does not open with 'We miss you!' or any variation", "type": "binary"},
+        {"id": "specific-reason", "text": "A genuine, specific reason is offered for re-engagement, not a general appeal", "type": "binary"},
+        {"id": "single-cta", "text": "CTA is single and clear, not a menu of options", "type": "binary"}
+      ]
+    },
+    "reader-response-writer": {
+      "assertions": [
+        {"id": "references-specific-point", "text": "Response references the reader's specific point, not a generic acknowledgment", "type": "binary"},
+        {"id": "voice-maintained", "text": "Publication voice is maintained throughout regardless of the reader's tone", "type": "binary"},
+        {"id": "forward-looking-close", "text": "Closing line is forward-looking and genuine, not a canned sign-off", "type": "binary"}
+      ]
+    }
+  }
+}

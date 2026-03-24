@@ -1,0 +1,51 @@
+{
+  "skill": "archival-footage-brief",
+  "test_cases": [
+    {
+      "id": "AFB-01",
+      "label": "standard",
+      "input": {
+        "documentary_subject": "The rise and fall of a pioneering women's health clinic that operated from 1975 to 2005 in a major US city",
+        "period": "1975-2005",
+        "geographic_focus": "A specific US city (unnamed)",
+        "key_archive_sequences": [
+          "The clinic's founding in the 1970s — community organizing, early operations, protest context",
+          "National news coverage of the reproductive rights movement, 1980s-1990s",
+          "The clinic's community programs and daily operations across three decades",
+          "The political and funding changes that led to the closure in 2005"
+        ],
+        "format": "Single 80-minute feature",
+        "budget_tier": "Standard broadcast"
+      }
+    },
+    {
+      "id": "AFB-02",
+      "label": "minimal",
+      "input": {
+        "documentary_subject": "A short film about a neighborhood jazz club that closed in 2015",
+        "period": "1990-2015",
+        "geographic_focus": "US city",
+        "key_archive_sequences": ["Photos and video of performances over the years"],
+        "format": "30-minute short"
+      }
+    },
+    {
+      "id": "AFB-03",
+      "label": "european_context",
+      "input": {
+        "documentary_subject": "The construction and social legacy of post-war social housing in three European cities — Vienna, Marseille, and Birmingham — examining the utopian ambitions behind mass housing and what happened to those ambitions over five decades",
+        "period": "1950-2000, with contemporary footage filmed by production",
+        "geographic_focus": "Vienna (Austria), Marseille (France), Birmingham (UK)",
+        "key_archive_sequences": [
+          "Original architectural plans, construction footage, and promotional materials for social housing projects in each city, 1950s-1960s",
+          "Television news coverage of housing policy debates and resident protests in each country, 1970s-1990s",
+          "Home movie footage or community video from residents of these estates — the lived experience rather than the institutional record",
+          "Coverage of demolition or renovation decisions, 1990s-2000s"
+        ],
+        "format": "3 x 52-minute series for ARTE",
+        "budget_tier": "High-end broadcast co-production",
+        "editorial_function": "The archive is the narrative spine — the film is built around the contrast between what was promised and what was delivered"
+      }
+    }
+  ]
+}

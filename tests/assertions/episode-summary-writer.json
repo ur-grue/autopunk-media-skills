@@ -1,0 +1,17 @@
+{
+  "skill": "episode-summary-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains three clearly labeled summary blocks: PLATFORM SHORT (~100 words), DIRECTORY STANDARD (~150 words), and PROMOTIONAL (~250 words)"
+    },
+    {
+      "id": "A2",
+      "description": "Each length adds new information (the longer versions do not just pad the shorter ones) and none open with generic phrases like 'In this episode we discuss'"
+    },
+    {
+      "id": "A3",
+      "description": "Output ends with a Next Step note mapping each summary to its destination platform"
+    }
+  ]
+}

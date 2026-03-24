@@ -1,0 +1,48 @@
+{
+  "skill": "grant-proposal-writer",
+  "test_cases": [
+    {
+      "id": "GPW-01",
+      "label": "standard",
+      "input": {
+        "title": "Invisible Labor",
+        "description": "A documentary following three domestic workers in a major city over two years — a nanny, a home health aide, and a house cleaner — exploring the invisible economy of care work and the systematic exclusion of domestic workers from standard labor protections.",
+        "funder": "ITVS (Independent Television Service)",
+        "fund_priorities": "ITVS supports independent documentary films that illuminate the lives and experiences of underrepresented communities for public media audiences.",
+        "format": "Single film, 75 minutes",
+        "stage": "Production",
+        "production_company": "Clearview Documentary",
+        "in_place": "Director and producer attached, all three subjects confirmed with 6 months of footage already shot, fiscal sponsor confirmed",
+        "budget_requested": "$150,000 production grant"
+      }
+    },
+    {
+      "id": "GPW-02",
+      "label": "minimal",
+      "input": {
+        "title": "Night Shift",
+        "description": "A short documentary about overnight workers in a 24-hour city — who keeps things running while everyone sleeps.",
+        "funder": "Local arts council film fund",
+        "format": "Short film, 25 minutes",
+        "stage": "Development",
+        "production_company": "independent producer"
+      }
+    },
+    {
+      "id": "GPW-03",
+      "label": "european_context",
+      "input": {
+        "title": "Border Languages",
+        "description": "A documentary about the disappearing minority languages spoken in Europe's border regions — Alsatian in France, Sorbian in Germany, Aromanian in Greece — and the communities fighting to keep them alive. The film follows three families raising children in languages that schools no longer teach and governments no longer officially support.",
+        "funder": "Creative Europe MEDIA Programme",
+        "fund_priorities": "Creative Europe MEDIA supports projects that promote European cultural diversity, cross-border cooperation, and the circulation of European audiovisual works.",
+        "format": "Single film, 90 minutes",
+        "stage": "Development",
+        "production_company": "Mosaik Films (Germany)",
+        "in_place": "Director attached (French-German dual national), one family in each country confirmed for preliminary access, University of Strasbourg linguistic advisor as consultant",
+        "budget_requested": "EUR 50,000 development grant",
+        "social_case": "UNESCO classifies all three languages as endangered. The film directly addresses European cultural diversity and cross-border heritage — core Creative Europe priorities."
+      }
+    }
+  ]
+}

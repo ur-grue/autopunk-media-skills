@@ -1,0 +1,41 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — science podcast with guest",
+    "input": {
+      "show_name": "Curious Minds",
+      "episode_topic": "Why we dream — and whether dreams actually mean anything according to current neuroscience",
+      "guest": "A neuroscientist who studies sleep and dreaming, author of a recent book on dream research",
+      "host": "Maya",
+      "tone": "Warm, curious, accessible science communication",
+      "compelling_moment": "Guest said 'Your brain doesn't stop working when you sleep — it just stops pretending to be rational'",
+      "target_intro_length": "45 seconds",
+      "ctas": "Subscribe + leave a review + check show notes for the guest's book"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "show_name": "The Daily Grind",
+      "episode_topic": "How to build a morning routine that actually sticks",
+      "host": "Chris",
+      "tone": "Direct, practical, no-nonsense"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European wine podcast",
+    "input": {
+      "show_name": "Terroir Talk",
+      "episode_topic": "Why natural wine divides European winemakers — the philosophical and practical debate between traditional and natural winemaking in France and Italy",
+      "guest": "A fourth-generation Burgundy winemaker who is outspoken about what she sees as the natural wine movement overcorrecting against conventional winemaking",
+      "host": "Oliver",
+      "tone": "Knowledgeable, conversational, respects tradition but open to new ideas",
+      "compelling_moment": "Guest said 'My grandmother would have been horrified by what some people call natural wine — and she never used a single chemical in her vineyard'",
+      "target_intro_length": "45 seconds",
+      "ctas": "Subscribe + visit the show website for the wine list mentioned in this episode",
+      "music_bed": true
+    }
+  }
+]

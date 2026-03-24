@@ -1,0 +1,17 @@
+{
+  "skill": "audience-persona-builder",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains a named persona with all five distinct sections: who they are, what they're trying to do, how they watch, what they trust, and what they avoid"
+    },
+    {
+      "id": "A2",
+      "description": "Output ends with three numbered content strategy implications that are actionable decisions, not generic advice"
+    },
+    {
+      "id": "A3",
+      "description": "Persona is specific enough to describe to a collaborator (not generic like 'adults interested in topic') and is derived from the provided channel input"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "skill_name": "fact-check-prompt",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output is organized in three risk tiers: High Priority, Medium Priority, Low Priority, each with Claim/Check/Source type",
+    "Every numerical claim and every named source title/affiliation appears in the checklist",
+    "Output ends with a Summary and Next Step note identifying which item to verify first"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: feature on urban farming",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is organized in three risk tiers: High Priority, Medium Priority, Low Priority, each with Claim/Check/Source type",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every numerical claim and every named source title/affiliation appears in the checklist",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Summary and Next Step note identifying which item to verify first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single-claim brief",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is organized in three risk tiers: High Priority, Medium Priority, Low Priority, each with Claim/Check/Source type",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every numerical claim and every named source title/affiliation appears in the checklist",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Summary and Next Step note identifying which item to verify first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: article on European rail",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is organized in three risk tiers: High Priority, Medium Priority, Low Priority, each with Claim/Check/Source type",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every numerical claim and every named source title/affiliation appears in the checklist",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Summary and Next Step note identifying which item to verify first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

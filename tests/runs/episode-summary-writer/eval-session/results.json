@@ -1,0 +1,47 @@
+{
+  "skill": "episode-summary-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/episode-summary-writer.json",
+  "assertions_file": "tests/assertions/episode-summary-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — business strategy podcast episode",
+      "output_summary": "Three summary blocks generated. Platform Short (95 words): hooks with 'The most dangerous thing that can happen to a startup is a good year.' Directory Standard (148 words): adds the three patterns and guest context. Promotional (248 words): opens with the quote, builds the narrative around the second-year trap, closes with urgency. Each adds new information. Next Step maps each to its platform.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All three blocks labeled with word counts and usage context." },
+        "A2": { "pass": true, "note": "Each length adds new material. None open with 'In this episode.'" },
+        "A3": { "pass": true, "note": "Next Step maps: Platform Short to Spotify/Apple, Directory Standard to hosting platform, Promotional to newsletter." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Three blocks for a solo episode without a guest. Platform Short (92 words): hooks with the insight about easy pace. Directory Standard (145 words): adds the 80/20 rule and music comparison. Promotional (242 words): builds the case for why most people's running experience is based on running wrong. Handles missing guest and show name gracefully.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All three blocks with correct labeling." },
+        "A2": { "pass": true, "note": "Progressive information addition. No generic openings." },
+        "A3": { "pass": true, "note": "Next Step present with platform mapping." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European politics podcast",
+      "output_summary": "Three blocks with European political context preserved. Platform Short includes 'French election' keyword. Directory Standard adds the leading-indicator argument about Germany, Italy, Spain. Promotional opens with the analyst's framing about fragmentation and builds to the Macron legacy question. European policy terminology authentic throughout.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All three blocks correctly labeled with European context." },
+        "A2": { "pass": true, "note": "Each adds new analytical depth. No generic openings." },
+        "A3": { "pass": true, "note": "Next Step maps to platforms and recommends show-notes-generator." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

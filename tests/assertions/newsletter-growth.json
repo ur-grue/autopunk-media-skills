@@ -1,0 +1,19 @@
+{
+  "category": "newsletter/growth",
+  "skills": {
+    "landing-page-copy-writer": {
+      "assertions": [
+        {"id": "benefit-headline", "text": "Headline leads with reader benefit, not newsletter brand name or generic claim", "type": "binary"},
+        {"id": "specific-differentiator", "text": "Value proposition differentiator is specific to this newsletter and cannot be copy-pasted onto a competitor's page", "type": "binary"},
+        {"id": "cta-specific", "text": "CTA button text is more specific than just 'Subscribe'", "type": "binary"}
+      ]
+    },
+    "referral-copy-writer": {
+      "assertions": [
+        {"id": "specific-recipient", "text": "Ask names the specific type of person the subscriber should think of sharing with", "type": "binary"},
+        {"id": "human-share-copy", "text": "Pre-written share copy sounds like something a human would actually send", "type": "binary"},
+        {"id": "clear-mechanism", "text": "Section ends with a clear mechanism: a link placeholder, forward instruction, or both", "type": "binary"}
+      ]
+    }
+  }
+}

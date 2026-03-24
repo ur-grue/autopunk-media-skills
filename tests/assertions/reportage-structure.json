@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output contains Opening Scene Proposal, Section Map, Closing Strategy, and Editor Pitch Summary","check":"binary_format"},{"id":"A2","description":"Each section has clear purpose, assigned sources, and assigned findings","check":"binary_quality"},{"id":"A3","description":"Output ends with Next Step note","check":"binary_presence"}]

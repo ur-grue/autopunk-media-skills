@@ -1,0 +1,26 @@
+{
+  "category": "pr-communications/press-office",
+  "skills": {
+    "boilerplate-writer": {
+      "assertions": [
+        {"id": "org-name-first", "text": "Organisation name appears in full on first use with what it does clear in the first clause", "type": "binary"},
+        {"id": "scale-indicator", "text": "At least one concrete scale indicator (date, size, geography, or volume) is present", "type": "binary"},
+        {"id": "no-superlatives", "text": "No unsupported superlatives like world-leading or industry-leading", "type": "binary"}
+      ]
+    },
+    "pr-press-release-writer": {
+      "assertions": [
+        {"id": "headline-states-news", "text": "Headline states the news, not marketing spin", "type": "binary"},
+        {"id": "first-para-5ws", "text": "First paragraph contains who, what, when, where, and significance", "type": "binary"},
+        {"id": "ends-with-marks", "text": "Document ends with ### end mark and includes contact block", "type": "binary"}
+      ]
+    },
+    "media-alert-writer": {
+      "assertions": [
+        {"id": "media-alert-label", "text": "MEDIA ALERT label appears at the top of the document", "type": "binary"},
+        {"id": "five-fields", "text": "WHAT, WHEN, WHERE, WHO, WHY fields are all present and filled", "type": "binary"},
+        {"id": "under-250-words", "text": "Total length does not exceed 250 words", "type": "binary"}
+      ]
+    }
+  }
+}

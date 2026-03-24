@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output includes 3 subject line options, preview text, teaser body (70-120 words), and a link cue","check":"binary_format"},
+  {"id":"A2","description":"Subject lines are under 50 characters each and annotated with register","check":"binary_quality"},
+  {"id":"A3","description":"Teaser body creates curiosity without summarizing the article's core finding","check":"binary_quality"}
+]

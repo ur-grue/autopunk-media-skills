@@ -1,0 +1,33 @@
+{
+  "category": "newsletter/strategy",
+  "skills": {
+    "content-arc-planner": {
+      "assertions": [
+        {"id": "arc-logic", "text": "Arc has a discernible logic where the editor can understand why each edition follows the previous one", "type": "binary"},
+        {"id": "edition-specific", "text": "Each edition plan is specific enough to brief a writer from, not vague topic labels", "type": "binary"},
+        {"id": "entry-points-identified", "text": "At least one entry-point edition is identified for new subscribers and promotion", "type": "binary"}
+      ]
+    },
+    "niche-positioning-brief": {
+      "assertions": [
+        {"id": "one-sentence-promise", "text": "Editorial promise is one sentence that could be tested against any edition", "type": "binary"},
+        {"id": "reader-frustration", "text": "Target reader description includes at least one frustration or unmet need", "type": "binary"},
+        {"id": "restrictive-exclusions", "text": "What-we-don't-do section is genuinely restrictive, excluding things that might seem relevant", "type": "binary"}
+      ]
+    },
+    "audience-feedback-summarizer": {
+      "assertions": [
+        {"id": "themes-identified", "text": "Output identifies recurring themes with sentiment tags and frequency notes", "type": "binary"},
+        {"id": "representative-quotes", "text": "At least one representative direct quote is included per theme", "type": "binary"},
+        {"id": "actionable-takeaways", "text": "Output ends with 3-5 specific, concrete recommended actions", "type": "binary"}
+      ]
+    },
+    "newsletter-audience-segmenter": {
+      "assertions": [
+        {"id": "segment-count", "text": "Output defines 3-5 distinct audience segments with clear labels", "type": "binary"},
+        {"id": "content-recommendations", "text": "Each segment has specific content strategy recommendations", "type": "binary"},
+        {"id": "implementation-guidance", "text": "Output includes practical implementation steps for actually segmenting the list", "type": "binary"}
+      ]
+    }
+  }
+}

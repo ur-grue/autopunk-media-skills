@@ -1,0 +1,89 @@
+{
+  "skill": "data-table-formatter",
+  "category": "data-journalism/visualization",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is a clean Markdown table with a bold title, consistent number formatting within each column, and plain-language column headers"
+    },
+    {
+      "id": "A2",
+      "description": "A source note in italics appears beneath the table"
+    },
+    {
+      "id": "A3",
+      "description": "Rows are sorted intentionally (not alphabetically by default) to support the story"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Clean Markdown table with bold title, consistent number formatting (commas, % symbols)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Source note in italics: 'Source: National Census Bureau, 2025 Housing Survey'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Sorted by median rent highest first as specified"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Markdown table with title, consistent currency formatting"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Source note present"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Sorted by meaningful column (budget change or department name)"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Clean table with EU-specific terminology, consistent decimal formatting"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Source: European Press Freedom Index, 2025"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Sorted by press freedom score highest first"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

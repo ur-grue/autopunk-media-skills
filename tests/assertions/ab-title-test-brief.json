@@ -1,0 +1,17 @@
+{
+  "skill": "ab-title-test-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains a table with 4-5 title variants, each under 70 characters, with columns for Title, Principle Tested, Why It Should Work, and Likely Audience"
+    },
+    {
+      "id": "A2",
+      "description": "Each variant tests a clearly stated, different click psychology principle (no two variants test the same principle)"
+    },
+    {
+      "id": "A3",
+      "description": "Output ends with a Testing Hypothesis section that names a specific first variant to test and explains why"
+    }
+  ]
+}

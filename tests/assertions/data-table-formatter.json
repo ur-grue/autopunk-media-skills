@@ -1,0 +1,20 @@
+{
+  "skill": "data-table-formatter",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is a clean Markdown table with a bold title, consistent number formatting within each column, and plain-language column headers",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A source note in italics appears beneath the table",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Rows are sorted intentionally (not alphabetically by default) to support the story",
+      "type": "binary"
+    }
+  ]
+}

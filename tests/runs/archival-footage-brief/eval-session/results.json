@@ -1,0 +1,38 @@
+{
+  "skill": "archival-footage-brief",
+  "eval_date": "2026-03-24",
+  "assertions": ["AFB-A1", "AFB-A2", "AFB-A3"],
+  "results": [
+    {
+      "test_case": "AFB-01",
+      "label": "standard",
+      "assertion_results": {
+        "AFB-A1": {"pass": true, "note": "Research Overview present with complexity assessment; 4 numbered Archive Requests each with all 5 required subfields"},
+        "AFB-A2": {"pass": true, "note": "Sources name specific institutions: Schlesinger Library, National Archives, NOW Records, local newspaper of record, Planned Parenthood historical archive"},
+        "AFB-A3": {"pass": true, "note": "Availability for clinic daily operations honestly assessed as uncertain; Budget Tier Assessment provided with $15K-$30K range"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "AFB-02",
+      "label": "minimal",
+      "assertion_results": {
+        "AFB-A1": {"pass": true, "note": "Research Overview and Archive Requests present though brief; appropriate for a 30-minute short"},
+        "AFB-A2": {"pass": true, "note": "Sources recommend specific avenues: club's own social media archives, local music press, city cultural council photo archives"},
+        "AFB-A3": {"pass": true, "note": "Honestly notes that a neighborhood jazz club may have minimal archival coverage; Budget Tier at $2K-$5K for a short film"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "AFB-03",
+      "label": "european_context",
+      "assertion_results": {
+        "AFB-A1": {"pass": true, "note": "Research Overview addresses three-country complexity; Archive Requests numbered with all subfields for each country"},
+        "AFB-A2": {"pass": true, "note": "Names specific institutions: ORF archive (Vienna), INA (France), BBC Midlands (Birmingham), Wiener Stadt- und Landesarchiv, BFI National Archive"},
+        "AFB-A3": {"pass": true, "note": "Home movie footage flagged as difficult to find; community video from social housing estates may not exist in indexed form; Budget Tier at EUR 40K-80K for co-production"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "editorial-photo-prompt",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Flux prompt describing a specific, believable scene with natural light source and no stock-photo cliches",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A prompt breakdown table explains the key choices that produce the editorial quality",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A negative prompt excludes commercial/stock photo elements and output includes a Next Step note",
+      "type": "binary"
+    }
+  ]
+}

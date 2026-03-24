@@ -1,0 +1,93 @@
+{
+  "skill_name": "text-condenser",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.5,
+  "test_inputs": [],
+  "assertions": [
+    "Output states original and final word counts plus condensed text and cut summary",
+    "Final word count is within 5% of stated target",
+    "User-flagged passages are preserved verbatim"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: cut a 400-word passage to 250 words",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output states original and final word counts plus condensed text and cut summary",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Final word count is within 5% of stated target",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "User-flagged passages are preserved verbatim",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: trim a single paragraph",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output states original and final word counts plus condensed text and cut summary",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Final word count is within 5% of stated target",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "User-flagged passages are preserved verbatim",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: condense EU policy explainer",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output states original and final word counts plus condensed text and cut summary",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Final word count is within 5% of stated target",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "User-flagged passages are preserved verbatim",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

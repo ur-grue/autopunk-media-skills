@@ -1,0 +1,20 @@
+{
+  "skill": "visual-identity-prompt",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Visual Identity Statement, Six Dimensions, Reference Points, What This Identity Is Not, Master AI Prompt String, and Asset Application Guide",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Reference points include specific quality citations explaining what attribute is being borrowed, not just names",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Master AI prompt string is formatted as a ready-to-copy code block",
+      "type": "binary"
+    }
+  ]
+}

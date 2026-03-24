@@ -1,0 +1,36 @@
+{
+  "skill": "release-form-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "grant-of-rights", "text": "Grant of rights clause specifies what is licensed, purposes, platforms, territories, duration", "type": "binary"},
+    {"id": "compensation-stated", "text": "Compensation section is present even if zero", "type": "binary"},
+    {"id": "plain-language", "text": "Form is written in language a non-lawyer can understand", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard talent release",
+      "grant-of-rights": {"pass": true, "note": "Grant covers filming, editing, distribution across all platforms, global, in perpetuity"},
+      "compensation-stated": {"pass": true, "note": "Compensation stated as voluntary with no payment"},
+      "plain-language": {"pass": true, "note": "Plain English throughout with What This Form Does summary"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "grant-of-rights": {"pass": true, "note": "Location release covers filming rights, online and festival distribution"},
+      "compensation-stated": {"pass": true, "note": "Compensation section present stating no payment for location use"},
+      "plain-language": {"pass": true, "note": "Accessible language; guidance note included"}
+    },
+    "input-03": {
+      "description": "European context",
+      "grant-of-rights": {"pass": true, "note": "Grant covers European broadcast and streaming with 10-year term; sensitive subject provisions"},
+      "compensation-stated": {"pass": true, "note": "Travel expenses reimbursement clearly stated"},
+      "plain-language": {"pass": true, "note": "Plain language maintained; Arte requirements flagged in guidance note"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "subcategory": "pre-production",
+  "category": "tv-documentary",
+  "skills": {
+    "location-request-letter": {
+      "assertions": [
+        {
+          "id": "LRL-A1",
+          "type": "binary",
+          "description": "Letter is formatted as a formal business letter (Dear/Yours sincerely), 300-450 words, with production identified in the first paragraph",
+          "source": "Output Format"
+        },
+        {
+          "id": "LRL-A2",
+          "type": "binary",
+          "description": "Specific practical details (crew size, dates, duration, equipment) are included or flagged as placeholders in brackets",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "LRL-A3",
+          "type": "binary",
+          "description": "At least one likely concern is addressed proactively (disruption, insurance, public access) and the letter closes with a specific proposed next step",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "equipment-list-generator": {
+      "assertions": [
+        {
+          "id": "ELG-A1",
+          "type": "binary",
+          "description": "Output is organized into standard categories (Camera, Lenses, Camera Support, Lighting, Audio, Monitoring, Power/Media, Grip, Expendables) with quantities specified for each item",
+          "source": "Output Format"
+        },
+        {
+          "id": "ELG-A2",
+          "type": "binary",
+          "description": "Every item is appropriate for the stated production format and crew size — no contradictions (e.g., no heavy lighting rig for run-and-gun observational)",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "ELG-A3",
+          "type": "binary",
+          "description": "Output includes a Practical Notes section with at least one logistics tip specific to the shoot type, and expendables/commonly forgotten items are included",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "archival-footage-brief": {
+      "assertions": [
+        {
+          "id": "AFB-A1",
+          "type": "binary",
+          "description": "Output opens with a Research Overview section and contains numbered Archive Requests, each with Description, Editorial Function, Likely Sources, Availability Assessment, and Rights Note",
+          "source": "Output Format"
+        },
+        {
+          "id": "AFB-A2",
+          "type": "binary",
+          "description": "Source recommendations are specific — named institutions or collections, not generic categories like 'news archives'",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "AFB-A3",
+          "type": "binary",
+          "description": "Availability assessments are honest — at least one request acknowledges footage may not exist or may be cost-prohibitive, and a Budget Tier Assessment is provided",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "production-schedule-writer": {
+      "assertions": [
+        {
+          "id": "PSW-A1",
+          "type": "binary",
+          "description": "Output is organized as a day-by-day schedule with time blocks formatted as a table (Start Time, Duration, Sequence, Notes) for each day",
+          "source": "Output Format"
+        },
+        {
+          "id": "PSW-A2",
+          "type": "binary",
+          "description": "All scenes and subjects from the input are included — no omissions — and scenes are clustered by location to minimize travel",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "PSW-A3",
+          "type": "binary",
+          "description": "Each day includes a risk assessment and the schedule ends with a summary of shooting days, locations, and critical dependencies",
+          "source": "Output Format + Quality Criteria"
+        }
+      ]
+    },
+    "production-budget-estimator": {
+      "assertions": [
+        {
+          "id": "PBE-A1",
+          "type": "binary",
+          "description": "Budget is structured with standard categories (Development, Pre-Production, Production, Post-Production, Overheads/Contingency) and each line item has unit basis, quantity, and rate range",
+          "source": "Output Format + Quality Criteria"
+        },
+        {
+          "id": "PBE-A2",
+          "type": "binary",
+          "description": "A contingency line (typically 10%) is present, total range is clearly stated, and the currency matches the production region",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "PBE-A3",
+          "type": "binary",
+          "description": "Budget Notes section flags at least two specific cost risks relevant to this production type",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "call-sheet-writer": {
+      "assertions": [
+        {
+          "id": "CSW-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Header, Crew Calls (with individual times), Talent/Contributors, Location (with address and hospital), Schedule grid, Catering, Key Contacts, Notes",
+          "source": "Output Format"
+        },
+        {
+          "id": "CSW-A2",
+          "type": "binary",
+          "description": "All times are in a consistent format throughout and every crew member has a specific call time",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "CSW-A3",
+          "type": "binary",
+          "description": "Any safety-critical missing information is flagged as 'CONFIRM BEFORE DISTRIBUTION' in bold, and schedule includes setup time and a meal break",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "subject-research-brief": {
+      "assertions": [
+        {
+          "id": "SRB-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Subject Profile, Relevance to Film, On-Camera Assessment, Key Narrative Territory (3-5 areas), First Session Approach, and Sensitivities",
+          "source": "Output Format"
+        },
+        {
+          "id": "SRB-A2",
+          "type": "binary",
+          "description": "Key Narrative Territory identifies specific, filmable areas (not general themes) with at least 3 distinct territories",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "SRB-A3",
+          "type": "binary",
+          "description": "Sensitivities section names a specific concern (not generic) and output includes a concrete Next Step note",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "location-scout-brief": {
+      "assertions": [
+        {
+          "id": "LSB-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Location Function, Visual Requirements, Logistics and Access, Permissions and Clearances, Potential Problems and Contingencies",
+          "source": "Output Format"
+        },
+        {
+          "id": "LSB-A2",
+          "type": "binary",
+          "description": "Visual requirements are specific — mentioning light direction, background elements, or minimum clear space, not generic ('needs to look good')",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "LSB-A3",
+          "type": "binary",
+          "description": "Contingency section anticipates at least two specific failure modes with practical alternatives for each",
+          "source": "Quality Criteria"
+        }
+      ]
+    }
+  }
+}

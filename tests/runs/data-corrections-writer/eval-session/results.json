@@ -1,0 +1,89 @@
+{
+  "skill": "data-corrections-writer",
+  "category": "data-journalism/publishing",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "The original wrong figure and the correct figure are both stated exactly"
+    },
+    {
+      "id": "A2",
+      "description": "The location of the error in the article is specified"
+    },
+    {
+      "id": "A3",
+      "description": "The correction states whether the story's central conclusion is affected, with no defensive or minimising language"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Original '24%' and correct '18%' both stated"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Third paragraph and bar chart caption specified"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "States conclusion unaffected; no minimizing language"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "$14.2M and $12.4M both stated exactly"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Opening sentence specified"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Conclusion unaffected stated directly"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "12.4 points and 6.6 points both stated with source scores"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Fourth paragraph and data table specified"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Partial impact acknowledged honestly: lowest-scoring status holds but 'steepest decline' characterization needs verification"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

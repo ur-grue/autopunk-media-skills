@@ -1,0 +1,40 @@
+{
+  "category": "radio-audio/scripting",
+  "skills": {
+    "presenter-link-writer": {
+      "assertions": [
+        {"id": "labelled-by-type", "text": "Each link is labelled by type and position (INTRO LINK, BRIDGE, BACK ANNO, CLOSE)", "type": "binary"},
+        {"id": "reads-naturally", "text": "Copy reads aloud naturally with no tongue-twisters or awkward syntax", "type": "binary"},
+        {"id": "register-consistent", "text": "Register is consistent with the stated programme tone throughout", "type": "binary"}
+      ]
+    },
+    "interview-cue-sheet-writer": {
+      "assertions": [
+        {"id": "four-sections", "text": "Output contains four sections: SCRIPTED INTRO, FACTUAL REFERENCE CARD, QUESTIONS, and OUT-CUE", "type": "binary"},
+        {"id": "follow-ups-present", "text": "At least two questions have follow-up prompts that anticipate deflections", "type": "binary"},
+        {"id": "spoken-english", "text": "Questions are in spoken English with no legalese, compound questions, or double negatives", "type": "binary"}
+      ]
+    },
+    "documentary-narration-writer": {
+      "assertions": [
+        {"id": "script-format", "text": "Output uses industry-standard radio documentary format with NAR, CUT/CLIP, and ATMOS labels", "type": "binary"},
+        {"id": "narrative-arc", "text": "Documentary has a discernible narrative arc: opening hook, development, and close", "type": "binary"},
+        {"id": "no-pre-quoting", "text": "Narration blocks before clips do not pre-quote or tell the listener what they are about to hear", "type": "binary"}
+      ]
+    },
+    "bulletin-script-writer": {
+      "assertions": [
+        {"id": "lead-most-newsworthy", "text": "Lead story is the most newsworthy item, not the most recent or convenient", "type": "binary"},
+        {"id": "no-subordinate-opening", "text": "No sentence opens with a subordinate clause or a name without context first", "type": "binary"},
+        {"id": "standalone-stories", "text": "Each story can stand alone if the bulletin is cut short", "type": "binary"}
+      ]
+    },
+    "stand-up-script-writer": {
+      "assertions": [
+        {"id": "location-context", "text": "Script includes location-specific context or scene-setting", "type": "binary"},
+        {"id": "delivery-guidance", "text": "Output includes delivery or positioning notes for the reporter", "type": "binary"},
+        {"id": "integration-cues", "text": "Script includes cues for integration with the surrounding package", "type": "binary"}
+      ]
+    }
+  }
+}

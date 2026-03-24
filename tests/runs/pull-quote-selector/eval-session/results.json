@@ -1,0 +1,86 @@
+{
+  "skill": "pull-quote-selector",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Numbered entries with quote, attribution, rationale, and character count"
+    },
+    {
+      "id": "A2",
+      "text": "No two quotes make the same point"
+    },
+    {
+      "id": "A3",
+      "text": "Quotes drawn from different sections"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "3 numbered entries with full structure"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Different themes: emotional numbness, pipeline crisis, system critique"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "From early, middle, and late sections"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "2 entries as requested"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Different points covered"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "From different parts"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "4 entries with named speakers"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Covers family legacy, legal compliance, coercion, scale"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Three different speakers in different sections"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "call-to-action-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains 4-6 complete, word-for-word script options (no placeholders like 'insert your reason here')"
+    },
+    {
+      "id": "A2",
+      "description": "Each option uses a distinct engagement trigger and is labeled with the trigger name and ideal placement"
+    },
+    {
+      "id": "A3",
+      "description": "All options read naturally when spoken aloud (contractions, natural cadence) and match the specified channel tone"
+    }
+  ]
+}

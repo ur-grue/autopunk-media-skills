@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output has Voice Analysis bullet list and New Passage in adapted voice","check":"binary_format"},{"id":"A2","description":"Voice analysis identifies specific measurable patterns not generic adjectives","check":"binary_quality"},{"id":"A3","description":"New passage consistent in voice throughout","check":"binary_quality"}]

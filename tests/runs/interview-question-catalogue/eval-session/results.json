@@ -1,0 +1,27 @@
+{
+  "skill": "interview-question-catalogue",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "3-5 thematic blocks with 3-5 questions each, 15-25 total"},
+    {"id": "A2", "text": "At least one [MUST-ASK] addressing core angle"},
+    {"id": "A3", "text": "1-2 closing questions giving space for unrehearsed answers"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "4 thematic blocks with 18 questions total; blocks cover: role/context, the violation, the green brand contradiction, and future direction"},
+      {"id": "A2", "pass": true, "note": "3 MUST-ASK questions including one directly on the contradiction between green brand and environmental fine"},
+      {"id": "A3", "pass": true, "note": "2 closing questions: open-ended reflection and forward-looking question"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "3 blocks with 15 questions; scaled to 10-minute format"},
+      {"id": "A2", "pass": true, "note": "2 MUST-ASK questions on what the school does differently"},
+      {"id": "A3", "pass": true, "note": "1 closing question: anything else you want listeners to know"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "5 thematic blocks with 22 questions; scaled for 45-minute podcast format"},
+      {"id": "A2", "pass": true, "note": "4 MUST-ASK questions covering: service maintenance, honest admission of failures, productivity data, and scalability"},
+      {"id": "A3", "pass": true, "note": "2 closing questions; alternative phrasings provided for sensitive questions about failures"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

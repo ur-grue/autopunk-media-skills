@@ -1,0 +1,47 @@
+{
+  "skill": "transcript-cleanup",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/transcript-cleanup.json",
+  "assertions_file": "tests/assertions/transcript-cleanup.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — interview podcast heavy cleanup",
+      "output_summary": "Transcript cleaned with heavy mode. All SPEAKER labels replaced with bold names. Filler words (um, uh, you know, like) removed. False starts ('we're we're talking' -> 'we're talking') cleaned. Meaning preserved: climate policy vs. climate politics distinction intact, incentive structure argument unchanged. Header includes cleanup level note. Next Step: no [UNCLEAR] passages in this excerpt, run show-notes-generator using this transcript.",
+      "assertions": {
+        "A1": { "pass": true, "note": "SPEAKER 1 -> JAMIE PARK, SPEAKER 2 -> DR. NADIA OSMAN in bold." },
+        "A2": { "pass": true, "note": "No meaning altered. Filler removal produces natural-reading prose." },
+        "A3": { "pass": true, "note": "Header with cleanup level. Next Step about show-notes-generator." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields, light cleanup",
+      "output_summary": "Light cleanup: errors corrected, speakers labeled, but filler words preserved ('um', 'you know', 'like'). Speech patterns kept authentic. False starts preserved. Meaning fully intact. Header notes light cleanup mode.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Speaker names correctly assigned in bold." },
+        "A2": { "pass": true, "note": "Light cleanup preserves speech patterns. No meaning changes." },
+        "A3": { "pass": true, "note": "Header with light cleanup note. Next Step present." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — UK-EU trade discussion",
+      "output_summary": "Heavy cleanup with proper noun corrections. 'Larson' corrected to 'Larsen' throughout. TCA and SPS terms correctly handled. The name correction exchange preserved naturally (shows the correction happened, then continues). European trade terminology (sanitary and phytosanitary, TCA) kept accurate. The 6-8% food import cost figure preserved exactly. Header notes corrections applied.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Speakers correctly labeled. Larsen spelling corrected per known corrections." },
+        "A2": { "pass": true, "note": "Name correction exchange handled naturally. Trade policy meaning preserved exactly." },
+        "A3": { "pass": true, "note": "Header with corrections note. Next Step about resolving any future UNCLEAR passages." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

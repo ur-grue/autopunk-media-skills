@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output is a chronological table/list with Date, Event, Source, and Verification Status columns for each entry","check":"binary_format"},
+  {"id":"A2","description":"Gaps in the timeline are explicitly called out with reporting priorities","check":"binary_completeness"},
+  {"id":"A3","description":"Entries are tagged with verification status: CONFIRMED, SINGLE SOURCE, UNVERIFIED, or DATE APPROXIMATE","check":"binary_quality"}
+]

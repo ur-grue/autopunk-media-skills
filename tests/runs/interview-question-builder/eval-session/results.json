@@ -1,0 +1,47 @@
+{
+  "skill": "interview-question-builder",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/interview-question-builder.json",
+  "assertions_file": "tests/assertions/interview-question-builder.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — memoir author on a writing podcast",
+      "output_summary": "Three sections plus overflow. Opening: 3 warm-up questions about her path to memoir. Core: 8 questions with follow-up prompts, centered on the ethics of writing about family. Includes 'Your mother didn't speak to you for three months after reading the manuscript — what was the first conversation after that silence?' with NOTE about sensitivity and alternate framing. Closing: 3 questions. Overflow: 4 questions. No yes/no questions. Next Step: lead with question 1 about what memoir writing costs personally.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opening (3), Core (8 with follow-ups), Closing (3), Overflow (4). Correct structure." },
+        "A2": { "pass": true, "note": "No yes/no questions. Follow-ups are specific: 'If she says the relationship recovered, push on what was permanently changed.'" },
+        "A3": { "pass": true, "note": "Mother-silence question flagged with NOTE. Next Step identifies opening question." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Three sections plus overflow. Opening: 4 questions about his transition from cooking to consulting. Core: 7 questions about food safety truths. Closing: 3 questions. Overflow: 4. All open-ended. Tone matches casual conversational register. No sensitive topics flagged (none specified).",
+      "assertions": {
+        "A1": { "pass": true, "note": "Correct structure with all sections. Core has follow-up prompts." },
+        "A2": { "pass": true, "note": "No yes/no questions. Follow-ups specific to food safety topics." },
+        "A3": { "pass": true, "note": "No sensitive topics to flag. Next Step present with opening recommendation." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Dutch urban planner on a cities podcast",
+      "output_summary": "Three sections plus overflow. Opening: 3 questions about what drew him to urban planning. Core: 8 questions about why copying Dutch infrastructure fails, with European city examples (Copenhagen, Barcelona, Paris). NOTE on the political controversy topic-to-avoid. Follow-ups specific: 'If he says it's about political will, push on which European city has come closest and what they did differently.' Closing: 4 questions. Overflow: 5. Next Step: lead with question about what visitors to Dutch cities misunderstand about the infrastructure.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All sections present. Core has 8 questions with detailed follow-ups. Overflow section present." },
+        "A2": { "pass": true, "note": "No yes/no questions. Follow-ups reference specific European cities and policy contexts." },
+        "A3": { "pass": true, "note": "Political controversy NOTE flagged. Next Step recommends opening question and guest-research-brief." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

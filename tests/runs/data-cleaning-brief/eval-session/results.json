@@ -1,0 +1,89 @@
+{
+  "skill": "data-cleaning-brief",
+  "category": "data-journalism/investigation",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a numbered cleaning checklist in logical sequence (structural changes before value standardization)"
+    },
+    {
+      "id": "A2",
+      "description": "Editorial judgement calls are separated from mechanical cleaning steps in a distinct section"
+    },
+    {
+      "id": "A3",
+      "description": "At least one 'do not change' instruction is included for fields that should be left as-is"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Numbered steps: dedup first, then date standardization, then sentence_length normalization, then name standardization"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Editorial sign-off section separated: judge name merges, offense category consolidation"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Do not change: case_id and original_text fields preserved as-is"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Steps in order: dedup, date format, title case"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Editorial section notes title capitalization judgment"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Do not change: checkout counts and branch names left as-is"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Steps: dedup, country code standardization, date format, budget range parsing, category language normalization"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Editorial sign-off: multilingual organization name merges, budget range boundary decisions"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Do not change: registration_number and original language organization names preserved in separate column"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

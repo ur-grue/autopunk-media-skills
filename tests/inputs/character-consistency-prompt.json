@@ -1,0 +1,40 @@
+{
+  "skill": "character-consistency-prompt",
+  "category": "image-prompting/midjourney",
+  "inputs": [
+    {
+      "label": "standard",
+      "character": "A man in his early 30s, South Asian, close-cropped black hair, wire-rimmed glasses, lean build, always wears a dark green field jacket over a plain white t-shirt. Carries a small leather notebook. Expression: alert, curious, slightly skeptical.",
+      "style": "Photorealistic",
+      "scenes": [
+        "Podcast cover portrait",
+        "Interviewing someone at a cafe",
+        "Walking through a city street at night",
+        "Standing in front of a whiteboard covered in notes"
+      ],
+      "format": "1:1 for podcast, 16:9 for YouTube"
+    },
+    {
+      "label": "minimal",
+      "character": "A woman in her 50s, grey bob haircut, sharp cheekbones, black turtleneck",
+      "style": "Editorial illustration",
+      "scenes": [
+        "Portrait",
+        "At a desk writing",
+        "Speaking at a podium"
+      ]
+    },
+    {
+      "label": "european",
+      "character": "A non-binary person in their late 20s, pale complexion, short auburn hair with an undercut, visible small earring in left ear, slim build, consistently wears a charcoal wool overcoat over a dark roll-neck sweater. Expression: thoughtful, composed, slightly melancholic. Designed as the visual persona for a podcast about European art-house cinema.",
+      "style": "Illustrated, semi-realistic \u2014 European graphic novel aesthetic, Moebius influence",
+      "scenes": [
+        "Podcast cover art portrait",
+        "Sitting in a cinema watching a film",
+        "Walking along a canal in Amsterdam at dusk",
+        "Reading in a cafe with large windows"
+      ],
+      "format": "1:1 for podcast, 4:5 for Instagram"
+    }
+  ]
+}

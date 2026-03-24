@@ -1,0 +1,16 @@
+{
+  "skill": "interview-cue-sheet-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "four-sections", "text": "Output contains SCRIPTED INTRO, FACTUAL REFERENCE CARD, QUESTIONS, and OUT-CUE", "type": "binary"},
+    {"id": "follow-ups-present", "text": "At least two questions have follow-up prompts", "type": "binary"},
+    {"id": "spoken-english", "text": "Questions are in spoken English", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard news interview", "four-sections": {"pass": true, "note": "All four sections present with appropriate content"}, "follow-ups-present": {"pass": true, "note": "Three questions have follow-up prompts for likely deflections"}, "spoken-english": {"pass": true, "note": "All questions in plain spoken English, single-point focus"}},
+    "input-02": {"description": "Minimal input", "four-sections": {"pass": true, "note": "All four sections present; factual card thinner due to limited input"}, "follow-ups-present": {"pass": true, "note": "Two questions have follow-ups"}, "spoken-english": {"pass": true, "note": "Conversational spoken English appropriate for human interest"}},
+    "input-03": {"description": "European context", "four-sections": {"pass": true, "note": "All four sections present; sensitive area noted in header"}, "follow-ups-present": {"pass": true, "note": "Four questions have follow-ups including redirect for Commission departure topic"}, "spoken-english": {"pass": true, "note": "Spoken English, direct and probing; no compound questions"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

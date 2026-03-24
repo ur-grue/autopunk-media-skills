@@ -1,0 +1,20 @@
+{
+  "skill": "social-media-visual-batch",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a visual anchor string and one distinct prompt per image with no two images sharing the same composition type",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Each image has a content note specifying when/how to post it in a content calendar",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A Next Step note recommends which image to generate first and whether to check grid layout",
+      "type": "binary"
+    }
+  ]
+}

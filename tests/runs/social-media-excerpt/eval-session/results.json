@@ -1,0 +1,93 @@
+{
+  "skill_name": "social-media-excerpt",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains platform-by-platform blocks clearly labeled for each requested platform",
+    "Every excerpt is drawn verbatim from the article \u2014 no paraphrase or editorial addition",
+    "X/Twitter post works as a standalone sentence and includes character count"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: feature article on teacher shortages",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains platform-by-platform blocks clearly labeled for each requested platform",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every excerpt is drawn verbatim from the article \u2014 no paraphrase or editorial addition",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "X/Twitter post works as a standalone sentence and includes character count",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single platform, short article",
+      "assertions_passed": 2,
+      "assertions_total": 3,
+      "pass_rate": 66.7,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains platform-by-platform blocks clearly labeled for each requested platform",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every excerpt is drawn verbatim from the article \u2014 no paraphrase or editorial addition",
+          "pass": false,
+          "note": "Minor deviation noted \u2014 see details"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "X/Twitter post works as a standalone sentence and includes character count",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: article about Berlin housing crisis",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains platform-by-platform blocks clearly labeled for each requested platform",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every excerpt is drawn verbatim from the article \u2014 no paraphrase or editorial addition",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "X/Twitter post works as a standalone sentence and includes character count",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 88.9,
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — neuroscience guest on productivity podcast",
+    "input": {
+      "guest_name": "Dr. Marcus Webb",
+      "professional_role": "Cognitive neuroscientist who studies attention and focus in digital environments. He has a new book arguing that the human attention span hasn't shortened — the environment has become more demanding.",
+      "show_topic": "Productivity and work optimization podcast for knowledge workers",
+      "booking_reason": "His argument directly contradicts the most common claim in productivity content (that attention spans are shrinking), which makes for a compelling counter-narrative episode",
+      "recent_work": "His book 'The Attention Myth' published 3 months ago; a widely-shared article in a science magazine arguing against the 'goldfish attention span' claim",
+      "topics_to_avoid": "None specified"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "guest_name": "Priya Sharma",
+      "professional_role": "Veteran restaurant owner who has opened and closed four restaurants over 20 years and now consults other restaurateurs on sustainable business models",
+      "show_topic": "A podcast about small business and entrepreneurship",
+      "booking_reason": "Her experience with both success and failure makes her a more honest voice than the typical success-story guest"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — EU energy policy expert",
+    "input": {
+      "guest_name": "Dr. Friederike Braun",
+      "professional_role": "Energy policy researcher at a German think tank specializing in the European energy transition. She focuses on the political economy of renewable energy deployment across EU member states.",
+      "show_topic": "European affairs podcast covering policy, politics, and the future of the EU",
+      "booking_reason": "The EU is about to announce its updated 2035 energy targets, and she is one of the most cited researchers on whether those targets are achievable given current political constraints",
+      "recent_work": "A policy paper titled 'The 2035 Gap: Why Europe's Energy Targets Don't Match Its Political Reality', published by a major Berlin-based think tank; a panel appearance at the Brussels Energy Forum last month",
+      "topics_to_avoid": "She has requested not to discuss her previous role advising a specific national government"
+    }
+  }
+]

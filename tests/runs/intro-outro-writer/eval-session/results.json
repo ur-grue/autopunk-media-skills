@@ -1,0 +1,47 @@
+{
+  "skill": "intro-outro-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/intro-outro-writer.json",
+  "assertions_file": "tests/assertions/intro-outro-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — science podcast with guest",
+      "output_summary": "INTRO (~45 seconds / ~85 words): Opens with guest quote about the brain not pretending to be rational. Establishes the episode topic. Show name 'Curious Minds' appears within 20 seconds. Delivery notes in parentheses. OUTRO (~30 seconds / ~80 words): Callbacks to dream research, CTAs in correct order (subscribe, review, show notes for book). Alternate intro provided with host-led setup. No repeated wording between intro and outro.",
+      "assertions": {
+        "A1": { "pass": true, "note": "INTRO and OUTRO labeled with approximate durations." },
+        "A2": { "pass": true, "note": "Opens with the specific guest quote. Show name within first 20 seconds." },
+        "A3": { "pass": true, "note": "Natural spoken cadence with contractions. Outro uses different language than intro." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "INTRO: Host-led setup since no guest quote available. Hooks with a relatable morning routine failure scenario. Show name 'The Daily Grind' identified early. Direct, practical tone. OUTRO: Brief practical callback, subscribe CTA only (no other CTAs specified). Matches no-nonsense register.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Both scripts labeled with durations." },
+        "A2": { "pass": true, "note": "Intro hook is specific (morning routine failure), not generic. Show name present." },
+        "A3": { "pass": true, "note": "Natural spoken delivery. No wording repeated between intro and outro." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European wine podcast",
+      "output_summary": "INTRO: Opens with the Burgundy winemaker's quote about her grandmother. Music bed cue noted. Show name 'Terroir Talk' identified early. European wine context authentic — references Burgundy, natural wine movement in France and Italy. OUTRO: Callbacks to the tradition-versus-innovation debate. CTAs: subscribe + website for wine list. Alternate intro with host-narrated setup about the natural wine divide.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Both scripts labeled with durations. Music bed cue included." },
+        "A2": { "pass": true, "note": "Opens with the specific grandmother quote. Show name within first 30 seconds." },
+        "A3": { "pass": true, "note": "Natural spoken cadence. European wine terminology authentic. No repeated wording." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

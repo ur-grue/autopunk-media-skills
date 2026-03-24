@@ -1,0 +1,38 @@
+{
+  "skill": "festival-synopsis-writer",
+  "eval_date": "2026-03-24",
+  "assertions": ["FSW-A1", "FSW-A2", "FSW-A3"],
+  "results": [
+    {
+      "test_case": "FSW-01",
+      "label": "standard",
+      "assertion_results": {
+        "FSW-A1": {"pass": true, "note": "Three blocks present: SHORT (48 words), MEDIUM (98 words), LONG (247 words) — all within specification"},
+        "FSW-A2": {"pass": true, "note": "No production language found; describes waiting, decisions, and human situations — not filming or cameras"},
+        "FSW-A3": {"pass": true, "note": "All three in third person present tense; tonally consistent across lengths; Next Step included recommending word count verification in submission fields"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "FSW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "FSW-A1": {"pass": true, "note": "Three blocks: SHORT (46 words), MEDIUM (97 words), LONG (244 words) — within specification"},
+        "FSW-A2": {"pass": true, "note": "No production language; describes the keeper, the light, the automation, and the final weeks"},
+        "FSW-A3": {"pass": true, "note": "Third person present tense throughout; consistent contemplative tone; Next Step included"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "FSW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "FSW-A1": {"pass": true, "note": "Three blocks: SHORT (52 words), MEDIUM (102 words), LONG (248 words) — SHORT slightly over 50 but under 60-word limit"},
+        "FSW-A2": {"pass": true, "note": "No production language; describes the art, the cities, the political context, the legal consequences — all story-level description"},
+        "FSW-A3": {"pass": true, "note": "Third person present tense; politically engaged tone consistent across all three; Next Step recommends checking Cannes Directors' Fortnight specific requirements"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

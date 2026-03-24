@@ -1,0 +1,20 @@
+{
+  "skill": "chart-description-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Caption leads with the key finding, not 'this chart shows...' and includes exact figures",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Data source is named in or directly after the caption",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "If alt-text is requested, it includes chart type, both axes, data range, and key finding",
+      "type": "binary"
+    }
+  ]
+}

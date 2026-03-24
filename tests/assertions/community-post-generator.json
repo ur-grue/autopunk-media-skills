@@ -1,0 +1,17 @@
+{
+  "skill": "community-post-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains two structurally different post options (Option A narrative, Option B punchy) with meaningfully different structures"
+    },
+    {
+      "id": "A2",
+      "description": "Neither option contains YouTube boilerplate phrases like 'Hey everyone' or 'Don't forget to like and subscribe', and each leads with something interesting about the content"
+    },
+    {
+      "id": "A3",
+      "description": "Each post includes a specific engagement prompt tied to the topic (not generic 'let me know in the comments') and output includes a Next Step note"
+    }
+  ]
+}

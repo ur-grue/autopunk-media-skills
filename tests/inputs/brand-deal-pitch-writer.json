@@ -1,0 +1,46 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — cooking channel pitching kitchenware brand",
+    "input": {
+      "brand": "A premium Japanese knife brand known for handcrafted chef knives in the $120-$350 range",
+      "channel_niche": "Home cooking technique and knife skills for enthusiast home cooks",
+      "subscribers": 45000,
+      "monthly_views": 190000,
+      "avg_view_duration": "7.2 minutes on 12-minute videos",
+      "integration_format": "Dedicated review video of their flagship 8-inch chef knife with a 30-day daily-use testing period",
+      "rate": "$1,800 for the dedicated video including pinned affiliate link for 90 days",
+      "audience_demographics": "65% male, 28-45, top markets USA (38%), UK (18%), Australia (12%)",
+      "engagement_rate": "4.1%"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — small channel, no demographics",
+    "input": {
+      "brand": "A budget standing desk company selling adjustable desks in the $200-$400 range",
+      "channel_niche": "Remote work productivity tips",
+      "subscribers": 12000,
+      "monthly_views": 48000,
+      "avg_view_duration": "6.5 minutes on 10-minute videos",
+      "integration_format": "Dedicated review video",
+      "rate": "$800 flat"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Scandinavian outdoor channel",
+    "input": {
+      "brand": "A Norwegian outdoor clothing brand specializing in merino wool base layers for hiking and winter sports, priced at 80-200 EUR",
+      "channel_niche": "Hiking and outdoor adventure in Scandinavia and the Alps",
+      "subscribers": 62000,
+      "monthly_views": 240000,
+      "avg_view_duration": "9.1 minutes on 15-minute videos",
+      "integration_format": "Dedicated gear test video with a multi-day hiking trip wearing their base layer system in Norwegian winter conditions",
+      "rate": "2,200 EUR for the dedicated video, including affiliate link and one Instagram story",
+      "audience_demographics": "58% male, 25-40, top markets Germany (22%), Norway (15%), UK (14%), Sweden (11%), Netherlands (8%)",
+      "engagement_rate": "3.8%",
+      "previous_partnerships": "One European outdoor gear retailer (affiliate), one hiking app (sponsored integration)"
+    }
+  }
+]

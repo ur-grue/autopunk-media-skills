@@ -1,0 +1,38 @@
+{
+  "skill": "grant-proposal-writer",
+  "eval_date": "2026-03-24",
+  "assertions": ["GPW-A1", "GPW-A2", "GPW-A3"],
+  "results": [
+    {
+      "test_case": "GPW-01",
+      "label": "standard",
+      "assertion_results": {
+        "GPW-A1": {"pass": true, "note": "Opening paragraph names Invisible Labor, domestic workers, and the public-interest case within first three sentences"},
+        "GPW-A2": {"pass": true, "note": "Directly references ITVS language: 'illuminate the lives and experiences of underrepresented communities' and 'public media audiences'"},
+        "GPW-A3": {"pass": true, "note": "Closing specifies: $150K enables completion of principal photography, assembly cut for broadcast conversations, and sound design"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "GPW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "GPW-A1": {"pass": true, "note": "Opening names Night Shift and the subject clearly; public-interest case is thinner due to minimal input but present"},
+        "GPW-A2": {"pass": false, "note": "No specific fund priorities were provided in the input; skill uses generic arts-council framing but cannot draw from stated priorities that were not given"},
+        "GPW-A3": {"pass": true, "note": "Closing states the development grant enables: research, test shooting, and a treatment document for further funding applications"}
+      },
+      "pass_rate": 0.67
+    },
+    {
+      "test_case": "GPW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "GPW-A1": {"pass": true, "note": "Opening names Border Languages, minority languages, and the cultural diversity case within first three sentences"},
+        "GPW-A2": {"pass": true, "note": "Directly draws from Creative Europe language: 'European cultural diversity,' 'cross-border cooperation,' 'circulation of European audiovisual works'"},
+        "GPW-A3": {"pass": true, "note": "Closing specifies: EUR 50K enables preliminary filming with all three families, linguistic consultation, and a development cut for co-production conversations"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 0.89
+}

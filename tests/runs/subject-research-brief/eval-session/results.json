@@ -1,0 +1,38 @@
+{
+  "skill": "subject-research-brief",
+  "eval_date": "2026-03-24",
+  "assertions": ["SRB-A1", "SRB-A2", "SRB-A3"],
+  "results": [
+    {
+      "test_case": "SRB-01",
+      "label": "standard",
+      "assertion_results": {
+        "SRB-A1": {"pass": true, "note": "All six sections present: Subject Profile, Relevance, On-Camera Assessment, Key Narrative Territory (5 areas), First Session Approach, Sensitivities"},
+        "SRB-A2": {"pass": true, "note": "5 territories identified: the decision to blow the whistle, the aftermath at home, the legal process, her relationship to the industry, what she would do differently — all specific and filmable"},
+        "SRB-A3": {"pass": true, "note": "Sensitivities names the litigation constraint specifically; Next Step recommends reviewing C-SPAN testimony and coordinating with legal counsel before first session"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "SRB-02",
+      "label": "minimal",
+      "assertion_results": {
+        "SRB-A1": {"pass": true, "note": "All sections present; On-Camera Assessment appropriately notes no media history available"},
+        "SRB-A2": {"pass": true, "note": "3 territories identified: why he started the garden, what retirement meant to him, his relationship to the neighborhood — appropriately scaled for a short portrait"},
+        "SRB-A3": {"pass": true, "note": "Sensitivities notes that retirement may carry feelings of loss; Next Step recommends an informal pre-filming visit before cameras"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "SRB-03",
+      "label": "european_context",
+      "assertion_results": {
+        "SRB-A1": {"pass": true, "note": "All sections present; On-Camera Assessment draws from TEDx, Swedish TV, and social media presence analysis"},
+        "SRB-A2": {"pass": true, "note": "5 territories: the pivot from protest to policy, her relationship to the MEP, the 'captured' accusation, what Fit for 55 felt like from inside, whether she would go back to the streets"},
+        "SRB-A3": {"pass": true, "note": "Sensitivities names EU legislative embargoes and MEP messaging control specifically; Next Step recommends reviewing Swedish TV documentary footage and briefing crew on EU access protocols"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — gaming channel with full data",
+    "input": {
+      "period": "February 2026",
+      "channel": "Indie Game Spotlight (indie game reviews and developer interviews)",
+      "february_metrics": {
+        "total_views": 185000,
+        "watch_time_hours": 27200,
+        "subscribers_gained": 520,
+        "subscribers_lost": 130,
+        "net_subscriber_change": 390,
+        "top_5_videos": [
+          "Why This $5 Game Is Better Than Most AAA Titles (52K)",
+          "Developer Explains Why Their Game Flopped (41K)",
+          "5 Indie Games That Will Blow Up in 2026 (34K)",
+          "I Played 20 Hours of This Unknown RPG (28K)",
+          "Indie Dev Answers Hard Questions About Pricing (18K)"
+        ]
+      },
+      "january_metrics": {
+        "total_views": 162000,
+        "watch_time_hours": 23800,
+        "net_subscriber_change": 310
+      },
+      "notes": "Published 5 videos in February vs. 5 in January. One video (Developer Explains Why Their Game Flopped) was picked up by a gaming subreddit mid-month."
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — small fitness channel",
+    "input": {
+      "period": "March 2026",
+      "channel": "Home Gym Basics (bodyweight and minimal equipment fitness)",
+      "march_metrics": {
+        "total_views": 24000,
+        "watch_time_hours": 3100,
+        "net_subscriber_change": 85,
+        "top_5_videos": [
+          "Full Body Workout No Equipment 20 Min (8200)",
+          "Best Pull-Up Bar for Home Under $40 (6100)",
+          "Beginner Push-Up Progression (4300)",
+          "Morning Stretch Routine (3200)",
+          "Why Bodyweight Training Works (2200)"
+        ]
+      }
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Dutch cycling channel",
+    "input": {
+      "period": "January 2026",
+      "channel": "Cycling Europe (bike touring and cycling culture across Europe)",
+      "january_metrics": {
+        "total_views": 98000,
+        "watch_time_hours": 14200,
+        "subscribers_gained": 280,
+        "subscribers_lost": 65,
+        "net_subscriber_change": 215,
+        "top_5_videos": [
+          "Why the Netherlands Has the Best Cycling Infrastructure (31K)",
+          "I Cycled from Amsterdam to Paris in 5 Days (22K)",
+          "Winter Cycling in Copenhagen — How They Do It (18K)",
+          "Best Budget Touring Bike for Europe 2026 (14K)",
+          "The EuroVelo Route Nobody Talks About (13K)"
+        ]
+      },
+      "december_metrics": {
+        "total_views": 78000,
+        "watch_time_hours": 11400,
+        "net_subscriber_change": 175
+      },
+      "notes": "Published 4 videos in January vs. 3 in December. The Netherlands video was shared by a major European cycling advocacy organization on social media."
+    }
+  }
+]

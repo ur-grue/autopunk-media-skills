@@ -1,0 +1,57 @@
+{
+  "skill": "rough-cut-notes",
+  "test_cases": [
+    {
+      "id": "RCN-01",
+      "label": "standard",
+      "input": {
+        "rough_cut_description": "A 68-minute rough cut (target 52 minutes) of a documentary about a school music program in an underfunded district facing potential elimination. The film follows three students — Maria (trumpet, senior), DeShawn (drums, sophomore), and Lily (violin, freshman) — and the music teacher, Mr. Okonkwo, who has run the program for 20 years.",
+        "sequence_order": [
+          "0:00-8:00: Opening concert performance, introducing all three students and Mr. Okonkwo",
+          "8:00-18:00: Maria's story — her college audition preparation, family background, what music means to her",
+          "18:00-28:00: School board meeting about budget cuts; Mr. Okonkwo's interview about the program's history",
+          "28:00-38:00: DeShawn and Lily's stories in parallel — their daily lives and rehearsal footage",
+          "38:00-50:00: The crisis — budget cut announced; students and teacher react; fundraising campaign",
+          "50:00-60:00: Maria's audition and result",
+          "60:00-68:00: Resolution — final concert, program's fate, where each student is now"
+        ],
+        "target_runtime": "52 minutes",
+        "director_concern": "The middle section feels heavy and the ending feels rushed"
+      }
+    },
+    {
+      "id": "RCN-02",
+      "label": "minimal",
+      "input": {
+        "rough_cut_description": "A 20-minute rough cut (target 15 minutes) of a short portrait documentary about a retired lighthouse keeper.",
+        "sequence_order": [
+          "0:00-5:00: The lighthouse exterior and interior",
+          "5:00-12:00: Extended interview about his career",
+          "12:00-17:00: Observational footage of his daily routine",
+          "17:00-20:00: Final thoughts and closing shot"
+        ],
+        "target_runtime": "15 minutes"
+      }
+    },
+    {
+      "id": "RCN-03",
+      "label": "european_context",
+      "input": {
+        "rough_cut_description": "A 62-minute rough cut (target 52 minutes) of an episode of a documentary series about European night trains. This episode follows the Vienna-to-Rome overnight Nightjet service. The film is for ARTE and should be contemplative and visually led.",
+        "sequence_order": [
+          "0:00-6:00: Vienna Hauptbahnhof at night — passengers arriving, the train being prepared, departure",
+          "6:00-14:00: First hour on board — passengers settling in, the sleeping car attendant preparing beds, dinner in the dining car",
+          "14:00-22:00: Interview with the ÖBB operations manager about why night trains are returning; cut with footage of the train moving through the Austrian Alps at night",
+          "22:00-32:00: The deep night — observational footage of the sleeping car, passengers asleep, the train stopping at intermediate stations, the sound of the tracks",
+          "32:00-42:00: Interview with a regular passenger about why she takes the night train monthly instead of flying; her reading, her routine",
+          "42:00-50:00: Dawn approach to Rome — the landscape changing, passengers waking, the Italian countryside",
+          "50:00-56:00: Rome Termini arrival and dispersal",
+          "56:00-62:00: Interview with Italian railway historian about the cultural meaning of sleeper trains; closing montage"
+        ],
+        "target_runtime": "52 minutes",
+        "broadcaster_brief": "ARTE expects a contemplative register; the film should feel like being on the train",
+        "director_concern": "The two interview sequences feel too long and break the immersive rhythm"
+      }
+    }
+  ]
+}

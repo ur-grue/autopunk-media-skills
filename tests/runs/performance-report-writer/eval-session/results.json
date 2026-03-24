@@ -1,0 +1,47 @@
+{
+  "skill": "performance-report-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/performance-report-writer.json",
+  "assertions_file": "tests/assertions/performance-report-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — gaming channel with full data",
+      "output_summary": "Generated a full report with metrics table showing 14% view growth and 26% subscriber growth MoM. Performance Highlights identifies the Reddit pickup of the 'Developer Explains' video as a viral driver, notes that the 'shame/failure' narrative format outperforms standard reviews. Areas for Attention notes that removing the Reddit-driven outlier shows organic growth is more modest. Recommendations: (1) produce more developer story content monthly, (2) engage the subreddit community directly, (3) hold publishing at 5/month, (4) test a 'why X game failed' series, (5) monitor whether Reddit-driven viewers convert to subscribers.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All four sections present with correctly formatted metrics table." },
+        "A2": { "pass": true, "note": "All 5 recommendations are numbered and specific enough to schedule." },
+        "A3": { "pass": true, "note": "Identifies that 'failure/post-mortem' narrative format drives engagement beyond just view count." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — small fitness channel",
+      "output_summary": "Generated a proportionally shorter report for a small channel. Metrics table presents the data without comparison period (noted as unavailable). Highlights the strong performance of the no-equipment workout as the channel's discovery engine. Areas for Attention notes the small sample size limits trend analysis. Recommendations: (1) create more no-equipment full-body workouts, (2) begin tracking month-over-month to enable trend analysis, (3) test a pull-up bar affiliate since the review performed well.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All four sections present. Report is appropriately shorter due to limited data." },
+        "A2": { "pass": true, "note": "Recommendations are specific and actionable despite limited input data." },
+        "A3": { "pass": true, "note": "Identifies that the no-equipment format lowers the barrier to entry, explaining its overperformance relative to equipment-focused content." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Dutch cycling channel",
+      "output_summary": "Full report with MoM comparison showing 26% view growth and 23% subscriber growth. Highlights the Netherlands infrastructure video's viral spread via cycling advocacy organization. Notes that European cultural and infrastructure content outperforms pure gear content. Recommendations: (1) pitch more content to cycling advocacy organizations for amplification, (2) prioritize infrastructure and culture videos over gear reviews, (3) hold at 4 videos/month, (4) explore a EuroVelo series given the route video's performance, (5) test German and Dutch subtitles given audience geography.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All sections present with correct MoM comparison table." },
+        "A2": { "pass": true, "note": "Recommendations include European-specific actions like subtitles and cycling advocacy outreach." },
+        "A3": { "pass": true, "note": "Identifies that the Netherlands video succeeded because it framed infrastructure as a cultural identity story, not just a policy explainer." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

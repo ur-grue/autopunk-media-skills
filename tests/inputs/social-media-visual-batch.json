@@ -1,0 +1,34 @@
+{
+  "skill": "social-media-visual-batch",
+  "category": "image-prompting/workflows",
+  "inputs": [
+    {
+      "label": "standard",
+      "campaign": "Launch campaign for a true crime podcast called COLD TRAIL",
+      "goal": "Introduce the show's visual identity across 6 Instagram posts over the first week",
+      "style": "Dark editorial photography, noir influence, muted cold palette",
+      "format": "Instagram (4:5 and 1:1 alternated)",
+      "structure": "Thematic collection",
+      "images": 6,
+      "tool": "Flux"
+    },
+    {
+      "label": "minimal",
+      "campaign": "Weekly content for a journalism newsletter",
+      "goal": "5 images for social media promotion over one month",
+      "style": "Clean editorial, muted tones",
+      "format": "Twitter/X (16:9)",
+      "images": 5
+    },
+    {
+      "label": "european",
+      "campaign": "Launch campaign for TRANSIT \u2014 a podcast about European rail infrastructure and the politics of cross-border transport",
+      "goal": "7 LinkedIn posts over two weeks introducing the show's editorial perspective",
+      "style": "Documentary photography, industrial European landscapes, steel and concrete textures, overcast northern European light",
+      "format": "LinkedIn (1.91:1 landscape and 1:1 square alternated)",
+      "structure": "Sequential \u2014 from macro infrastructure to human-scale stories",
+      "images": 7,
+      "tool": "Midjourney"
+    }
+  ]
+}

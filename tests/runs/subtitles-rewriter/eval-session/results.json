@@ -1,0 +1,38 @@
+{
+  "skill": "subtitles-rewriter",
+  "eval_date": "2026-03-24",
+  "assertions": ["SRW-A1", "SRW-A2", "SRW-A3"],
+  "results": [
+    {
+      "test_case": "SRW-01",
+      "label": "standard",
+      "assertion_results": {
+        "SRW-A1": {"pass": true, "note": "All subtitle blocks reformatted to 42 chars/line maximum, 2 lines per block; over-long blocks split appropriately"},
+        "SRW-A2": {"pass": true, "note": "Line breaks at clause boundaries; capitalization and punctuation corrected; no mid-phrase breaks"},
+        "SRW-A3": {"pass": true, "note": "Changes Log present recording each correction: run-on splits, capitalization, register adjustments, with reasons"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "SRW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "SRW-A1": {"pass": true, "note": "Single block reformatted with proper capitalization and line break within streaming standard limits"},
+        "SRW-A2": {"pass": true, "note": "Line break at grammatical boundary; 'for' corrected to 'For' at sentence start"},
+        "SRW-A3": {"pass": true, "note": "Changes Log present though brief; notes capitalization correction"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "SRW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "SRW-A1": {"pass": true, "note": "All blocks reformatted to UK broadcast 42 chars/line; over-long blocks split with adjusted timecodes"},
+        "SRW-A2": {"pass": true, "note": "Line breaks at clause boundaries; 'deutsche bahn' corrected to 'Deutsche Bahn'; 'db' to 'DB'; 'nineteen ninety two' handled appropriately"},
+        "SRW-A3": {"pass": true, "note": "Changes Log records: proper noun corrections (Deutsche Bahn, DB), splits, capitalization, register adjustments for subtitle clarity"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

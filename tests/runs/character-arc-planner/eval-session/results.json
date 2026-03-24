@@ -1,0 +1,38 @@
+{
+  "skill": "character-arc-planner",
+  "eval_date": "2026-03-24",
+  "assertions": ["CAP-A1", "CAP-A2", "CAP-A3"],
+  "results": [
+    {
+      "test_case": "CAP-01",
+      "label": "standard",
+      "assertion_results": {
+        "CAP-A1": {"pass": true, "note": "All five sections present: Subject Profile, Entry State, Arc Structure (5 moments), Filming Requirements table, Dramatic Assessment"},
+        "CAP-A2": {"pass": true, "note": "Filming requirements specify: observational footage in hospital, interview after funding denial, filming the moment she considers leaving, community rally if it occurs"},
+        "CAP-A3": {"pass": true, "note": "Assessment honestly notes arc depends on whether the funding decision creates a genuine turning point; Next Step identifies confirming whether Dr. Osei will discuss personal cost on camera"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "CAP-02",
+      "label": "minimal",
+      "assertion_results": {
+        "CAP-A1": {"pass": true, "note": "All sections present; Arc Structure has 3 moments appropriate for 30-minute format"},
+        "CAP-A2": {"pass": true, "note": "Filming requirements are practical: garden work footage, interview at home, community event if one occurs"},
+        "CAP-A3": {"pass": true, "note": "Assessment notes the arc is thin for a 30-minute film without external pressure; recommends deepening through subject-research-brief"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "CAP-03",
+      "label": "european_context",
+      "assertion_results": {
+        "CAP-A1": {"pass": true, "note": "All sections present with 5 arc moments spanning the series; Subject Profile captures Yara's multilayered identity"},
+        "CAP-A2": {"pass": true, "note": "Filming requirements specify: reception centre observational, asylum hearing, translation work, interview before and after hearing, return to community if decision is positive"},
+        "CAP-A3": {"pass": true, "note": "Assessment honestly notes hearing outcome is unpredictable and the arc must work regardless; flags MEP employment sensitivity; Next Step identifies securing asylum hearing filming permission"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

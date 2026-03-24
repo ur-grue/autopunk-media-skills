@@ -1,0 +1,49 @@
+{
+  "skill": "series-bible-generator",
+  "test_cases": [
+    {
+      "id": "SBG-01",
+      "label": "standard",
+      "input": {
+        "series_concept": "A three-part documentary series about the hidden infrastructure of global food supply chains — how the food on a supermarket shelf traveled thousands of miles through warehouses, container ships, cold chains, and sorting facilities staffed by some of the lowest-paid workers in the economy.",
+        "episodes": "3 x 50 minutes",
+        "episode_focus": [
+          "Ep 1: The harvest — migrant farmworkers on industrial fruit farms, the first link in the chain",
+          "Ep 2: The journey — container shipping, cold chain logistics, warehouse workers, just-in-time systems",
+          "Ep 3: The shelf — supermarket economics, food waste, the gap between what consumers see and what the chain actually looks like"
+        ],
+        "target_broadcaster": "International streaming platform and European public broadcasters",
+        "comparable_series": "Rotten (Netflix), The True Cost (2015)"
+      }
+    },
+    {
+      "id": "SBG-02",
+      "label": "minimal",
+      "input": {
+        "series_concept": "A documentary series about people who build their own homes from scratch, with no prior construction experience",
+        "episodes": "6 x 30 minutes",
+        "episode_focus": [
+          "Ep 1-6: Each episode follows one self-builder from foundation to completion"
+        ]
+      }
+    },
+    {
+      "id": "SBG-03",
+      "label": "european_context",
+      "input": {
+        "series_concept": "A four-part documentary series about the four surviving national railways of Europe — France (SNCF), Germany (Deutsche Bahn), Italy (Trenitalia), and Spain (Renfe) — and how the privatisation, neglect, or investment decisions made over three decades have shaped the daily experience of hundreds of millions of passengers and the economic geography of the continent.",
+        "episodes": "4 x 52 minutes",
+        "episode_focus": [
+          "Ep 1: France — TGV and the two-speed railway: high-speed glamour vs. crumbling rural lines",
+          "Ep 2: Germany — Deutsche Bahn in crisis: delays, infrastructure debt, and the political failure to invest",
+          "Ep 3: Italy — Trenitalia and Italo: what happens when you introduce competition on the rails",
+          "Ep 4: Spain — Renfe and the AVE: the most ambitious railway expansion in Europe, built on EU structural funds"
+        ],
+        "target_broadcaster": "ARTE (Franco-German), with international co-production",
+        "comparable_series": "All Aboard! (Channel 4), The Railway: Keeping Britain on Track (BBC)",
+        "budget_tier": "Mid-to-high — requires filming across four countries with translation",
+        "intended_territory": "European co-production, international sales"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "transcript-cleanup",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Every speaker turn is correctly attributed with actual names (not SPEAKER 1/2) using bold labels"
+    },
+    {
+      "id": "A2",
+      "description": "No sentence has its meaning changed by the cleanup — filler removal does not create unnatural fragments"
+    },
+    {
+      "id": "A3",
+      "description": "Output includes a header with cleanup level noted and ends with a Next Step note about resolving any UNCLEAR passages"
+    }
+  ]
+}

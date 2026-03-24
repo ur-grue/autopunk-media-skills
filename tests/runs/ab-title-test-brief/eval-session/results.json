@@ -1,0 +1,47 @@
+{
+  "skill": "ab-title-test-brief",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/ab-title-test-brief.json",
+  "assertions_file": "tests/assertions/ab-title-test-brief.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — tech tutorial channel",
+      "output_summary": "Generated 5 title variants for standup automation video: (1) search-intent match with year token, (2) curiosity gap with 'the script engineers are using', (3) specific number '15 Minutes/Day Saved', (4) mistake/warning frame 'You're Wasting 15 Minutes Every Morning', (5) desire-led 'Never Write a Standup Message Again'. Each has distinct principle, rationale, and audience. Testing hypothesis recommends Variant 3 first due to specific quantified benefit matching channel's data-driven audience.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Table contains 5 variants with all required columns. All titles under 70 characters." },
+        "A2": { "pass": true, "note": "Five distinct principles: search-intent, curiosity gap, specificity/number, mistake frame, desire-led. No overlap." },
+        "A3": { "pass": true, "note": "Testing hypothesis names Variant 3 as first test, explains quantified benefit resonates with developer audience, and suggests Variant 5 as fallback." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Generated 5 variants for budget camera video with minimal input. Variants cover search-match, authority framing, specific price anchor ('Under $500'), fear-based ('The Camera Mistake Every New YouTuber Makes'), and desire-led ('Start Your YouTube Channel Today'). Testing hypothesis picks the $500-anchored variant for strongest search and purchase intent.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Table with 5 variants, all columns present, all under 70 characters." },
+        "A2": { "pass": true, "note": "Each variant tests a different principle despite minimal input context." },
+        "A3": { "pass": true, "note": "Testing hypothesis specifies first variant and reasoning." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — German travel vlog channel",
+      "output_summary": "Generated 5 variants for Berlin day trips. Variants: (1) search-match 'Day Trips from Berlin', (2) curiosity gap 'The Berlin Day Trips Tourists Never Find', (3) specific number 'Under 20 EUR' anchor, (4) local authority 'Where Berliners Actually Go on Weekends', (5) contrast frame 'Forget Museum Island — These Day Trips Are Better'. European pricing in EUR, regional train context preserved. Hypothesis recommends Variant 4 for browse traffic.",
+      "assertions": {
+        "A1": { "pass": true, "note": "5 variants with full table format, all under 70 characters, EUR pricing correctly used." },
+        "A2": { "pass": true, "note": "Distinct principles across all five variants. European context adds local-authority angle." },
+        "A3": { "pass": true, "note": "Testing hypothesis names Variant 4, explains local authority frame aligns with channel's budget/authentic angle, suggests Variant 1 as search fallback." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

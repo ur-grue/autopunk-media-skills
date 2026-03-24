@@ -1,0 +1,33 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — interview podcast heavy cleanup",
+    "input": {
+      "cleanup_level": "Heavy",
+      "host": "Jamie Park",
+      "guest": "Dr. Nadia Osman — climate policy researcher",
+      "raw_transcript": "SPEAKER 1: so um today we're we're talking about something that i think is is really important and uh not enough people understand which is um the difference between you know climate policy and climate politics\nSPEAKER 2: yeah so thats thats a great distinction to make and i think uh the the honest answer is that most people dont realize that the policy side has actually moved quite far forward its the politics that that thats stuck\nSPEAKER 1: and and and when you say stuck what do you mean specifically like is it is it that that politicians dont understand the science or\nSPEAKER 2: no no its not about understanding the science at all i mean most most senior policymakers they they get it they understand the the urgency the problem is incentive structures right so you have a situation where the the costs of climate action are immediate and visible but the benefits are are diffuse and and long term and that creates a a very specific political problem that is different from a policy problem\nSPEAKER 1: thats fascinating i hadnt thought about it that way before the the incentive piece"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields, light cleanup",
+    "input": {
+      "cleanup_level": "Light",
+      "host": "Alex Reed",
+      "guest": "Sam Torres — freelance illustrator",
+      "raw_transcript": "SPEAKER 1: welcome to the show sam so tell me about like how you got into freelance illustration\nSPEAKER 2: thanks alex yeah so um i started you know doing freelance work about 5 years ago i was working at a um a design agency and i just i just felt like i wasnt doing the the kind of work i wanted to do you know\nSPEAKER 1: yeah and and what was that transition like financially because i think thats what scares most people\nSPEAKER 2: oh it was terrifying honestly like i i had about 3 months of savings and um i just i just had to to make it work"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — UK-EU trade discussion",
+    "input": {
+      "cleanup_level": "Heavy",
+      "host": "Rachel Whitfield",
+      "guest": "Professor Henrik Larsen — EU trade policy analyst based in Brussels",
+      "raw_transcript": "SPEAKER 1: so professor larson um lets talk about the the new eu uk trade review thats thats coming up because i think a lot of people are confused about what what it actually means\nSPEAKER 2: yes so first of all its larsen not larson\nSPEAKER 1: oh im so sorry professor larsen\nSPEAKER 2: no no thats fine happens all the time so the the trade review is is essentially a a scheduled checkpoint in the trade and cooperation agreement the the tca um and what it means practically is that both sides have an opportunity to to renegotiate certain elements particularly around um sanitary and phytosanitary measures which is which is basically food safety standards and and veterinary checks at the border\nSPEAKER 1: and and why does that matter to to ordinary people\nSPEAKER 2: well because the the current arrangements are are adding approximately 6 to 8 percent to the cost of of food imports from the eu into the uk and and thats thats being passed directly to consumers in in supermarket prices",
+      "known_corrections": "Larsen (not Larson), TCA (Trade and Cooperation Agreement), SPS (sanitary and phytosanitary)"
+    }
+  }
+]

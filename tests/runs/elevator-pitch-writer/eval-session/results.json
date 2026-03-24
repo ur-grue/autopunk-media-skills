@@ -1,0 +1,36 @@
+{
+  "skill": "elevator-pitch-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "opens-with-hook", "text": "Pitch opens with a hook, not the title or a logline", "type": "binary"},
+    {"id": "word-count", "text": "Main pitch body is 150-180 words", "type": "binary"},
+    {"id": "invites-question", "text": "Pitch ends with a sentence that invites a tell-me-more response", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary pitch",
+      "opens-with-hook": {"pass": true, "note": "Opens with vivid image of the visa centre, not the title"},
+      "word-count": {"pass": true, "note": "Word count 165 — within range"},
+      "invites-question": {"pass": true, "note": "Ends with forward energy inviting the next question"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "opens-with-hook": {"pass": true, "note": "Opens with a question about growing things, not the title"},
+      "word-count": {"pass": false, "note": "Word count 128 — below 150 minimum due to thin input"},
+      "invites-question": {"pass": true, "note": "Ends with an open question that invites continuation"}
+    },
+    "input-03": {
+      "description": "European context",
+      "opens-with-hook": {"pass": true, "note": "Opens with the emotional weight of interpretation, not the project name"},
+      "word-count": {"pass": true, "note": "Word count 172 — within range"},
+      "invites-question": {"pass": true, "note": "Final sentence creates genuine curiosity about what interpreters carry home"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 8,
+    "failed": 1,
+    "pass_rate": "88%"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "word-count-reducer",
+  "test_cases": [
+    {
+      "id": "standard",
+      "input": {
+        "text": "The annual conference on sustainable urban development, which was held last week in a major convention centre in the heart of the city, attracted more than 600 delegates from across the country and internationally, including urban planners, architects, environmental scientists, and representatives from local government bodies. The conference featured a keynote address from a leading environmental researcher who argued that cities must fundamentally rethink their approach to green spaces if they are to meet their climate commitments by 2030. In addition to the keynote, the programme included panel discussions on topics such as retrofitting existing buildings for energy efficiency, the role of community gardens in improving mental health outcomes, and the potential for urban waterways to serve as both flood-management infrastructure and public amenities. Several delegates noted that the quality of discussion was notably higher than in previous years.",
+        "target": "80 words",
+        "priority_preserve": "The keynote argument and the specific panel topics"
+      }
+    },
+    {
+      "id": "minimal",
+      "input": {
+        "text": "The company announced that it would be closing three of its retail locations in the coming months due to declining footfall and rising lease costs. A spokesperson said the decision was not taken lightly.",
+        "target": "reduce by 30%"
+      }
+    },
+    {
+      "id": "european",
+      "input": {
+        "text": "The European Central Bank's Governing Council decided at its most recent policy meeting to maintain its key interest rates at their current levels, following a period of ten consecutive rate increases that began in July 2022 and concluded in September 2023. The decision was widely anticipated by market analysts, who had noted that recent inflation data from the eurozone showed a continued downward trend toward the ECB's 2% medium-term target. President Lagarde stated in her post-meeting press conference that the Council would continue to follow a data-dependent approach and that future decisions would be taken on a meeting-by-meeting basis. Several analysts from major investment banks subsequently published notes suggesting that the first rate cut could come as early as the following quarter, though the ECB itself gave no such indication.",
+        "target": "60 words",
+        "priority_preserve": "The rate decision, inflation trend, and analyst expectations"
+      }
+    }
+  ]
+}

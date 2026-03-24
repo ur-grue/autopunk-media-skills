@@ -1,0 +1,38 @@
+{
+  "skill": "broadcaster-pitch-writer",
+  "eval_date": "2026-03-24",
+  "assertions": ["BPW-A1", "BPW-A2", "BPW-A3"],
+  "results": [
+    {
+      "test_case": "BPW-01",
+      "label": "standard",
+      "assertion_results": {
+        "BPW-A1": {"pass": true, "note": "All sections present: Logline, Why Now, The Story, Approach, Comparable Titles, Production Status, Contact"},
+        "BPW-A2": {"pass": true, "note": "Logline contains subject (families suing), angle (algorithmic harm), and stakes (accountability) in one sentence"},
+        "BPW-A3": {"pass": true, "note": "Output approximately 520 words; written in third person; sells concept and team without scene-by-scene detail"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "BPW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "BPW-A1": {"pass": true, "note": "All sections present though Comparable Titles section is thin without user-provided comps"},
+        "BPW-A2": {"pass": true, "note": "Logline in one sentence with subject, angle, and stakes — effective for a portrait film"},
+        "BPW-A3": {"pass": true, "note": "Output approximately 410 words; third person; appropriate length for a 60-minute single film pitch"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "BPW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "BPW-A1": {"pass": true, "note": "All sections present; ARTE-specific editorial language used; Sunny Side Forum selection referenced in Production Status"},
+        "BPW-A2": {"pass": true, "note": "Logline captures the night train revival, the social portrait angle, and Europe's relationship to time and distance"},
+        "BPW-A3": {"pass": true, "note": "Output approximately 550 words; third person; no scene detail; ARTE-appropriate register throughout"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

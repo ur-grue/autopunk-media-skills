@@ -1,0 +1,89 @@
+{
+  "skill": "methodology-explainer",
+  "category": "data-journalism/publishing",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is structured under four headings: Data Sources, How We Analysed It, What We Found, and Caveats and Limitations"
+    },
+    {
+      "id": "A2",
+      "description": "Every data source is identified with institution name and time period"
+    },
+    {
+      "id": "A3",
+      "description": "At least one genuine, specific limitation is disclosed \u2014 not a generic disclaimer"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Four headings present: Data Sources, How We Analysed It, What We Found, Caveats"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Department of Education open data portal identified with FY2020-2025 period"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Specific limitation: salary data excludes benefits; transfers double-counted"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Four sections present"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Police department annual reports 2020-2025 identified"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Reported vs actual crime rates caveat disclosed"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Four sections present with EU-specific context"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "EJC and RSF identified with date ranges"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Specific limitation: different methodologies between perception-based index and factual detention counts"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "tag-keyword-generator",
+  "category": "social-media/strategy",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains three tiered keyword lists (Core, Niche, Long-Tail) with a total of 15-20 tags formatted for the stated platform"
+    },
+    {
+      "id": "A2",
+      "description": "No keyword is repeated across tiers"
+    },
+    {
+      "id": "A3",
+      "description": "A keyword gap insight is provided that is specific and actionable, not a vague suggestion"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "18 tags across three tiers formatted as YouTube comma-separated tags"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "No duplicates across tiers verified"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Gap insight suggests 'documentary ethics' or 'consent in documentary' as adjacent topic"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "16 tags formatted for WordPress/CMS taxonomy"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "No cross-tier repetition"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Specific gap: suggests 'freelance journalism tools' or 'journalism business templates' keyword"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "19 tags formatted for podcast directories"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "No duplicates; EU-specific terminology included"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Gap insight: suggests 'media literacy EU' as adjacent audience search term"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

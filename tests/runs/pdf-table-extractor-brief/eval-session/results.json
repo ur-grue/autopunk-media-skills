@@ -1,0 +1,89 @@
+{
+  "skill": "pdf-table-extractor-brief",
+  "category": "data-journalism/investigation",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a Table Overview, Column Definitions table with clean headers and data types, and at least 2 specific extraction pitfalls"
+    },
+    {
+      "id": "A2",
+      "description": "Step-by-step extraction instructions are written for a non-technical user with a recommended tool"
+    },
+    {
+      "id": "A3",
+      "description": "A template in markdown table format includes at least one correctly filled example row and a notes column"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview, column definitions with data types, 3+ extraction pitfalls specific to police data"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Instructions written for non-technical user; Tabula recommended"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Template with example row and notes column"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview, column definitions, 2 pitfalls (pagination, result interpretation)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Simple step-by-step for a 1-page table"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Template with example row"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview of 8-page table, column definitions with EUR formatting, 4+ pitfalls including footnote markers"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Tabula instructions with multi-page handling"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Template with example row showing EUR formatting and notes column"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

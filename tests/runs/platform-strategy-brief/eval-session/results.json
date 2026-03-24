@@ -1,0 +1,89 @@
+{
+  "skill": "platform-strategy-brief",
+  "category": "social-media/strategy",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Platform Fit Assessment, Content Approach, Distinctive Angle, 90-Day Targets, 12-Month Targets, and Key Risk"
+    },
+    {
+      "id": "A2",
+      "description": "The platform fit assessment honestly identifies at least one weakness, not just opportunities"
+    },
+    {
+      "id": "A3",
+      "description": "90-day targets are specific and measurable with realistic numbers for the stated resource level"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All six sections present with appropriate depth"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Notes TikTok's entertainment-first culture as challenge for serious investigative content"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "90-day targets realistic for one part-time coordinator: follower growth, posting rhythm, content type testing"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All sections present even with minimal input"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Identifies LinkedIn's professional register as potential mismatch for true crime content"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Targets scaled to individual creator resource level"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All sections present with multilingual considerations addressed"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Notes challenge of serving three language audiences on one account"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "90-day targets realistic for two-person team managing multilingual content"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

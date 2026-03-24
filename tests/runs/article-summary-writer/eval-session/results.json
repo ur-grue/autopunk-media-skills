@@ -1,0 +1,93 @@
+{
+  "skill_name": "article-summary-writer",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.42,
+  "test_inputs": [],
+  "assertions": [
+    "Output labeled with format type and meets format-specific length conventions",
+    "Every fact in summary present in original article",
+    "Standfirst does not repeat headline phrasing"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: three summary formats for a feature",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output labeled with format type and meets format-specific length conventions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every fact in summary present in original article",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Standfirst does not repeat headline phrasing",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single meta description",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output labeled with format type and meets format-specific length conventions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every fact in summary present in original article",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Standfirst does not repeat headline phrasing",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: standfirst for EU policy article",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output labeled with format type and meets format-specific length conventions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every fact in summary present in original article",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Standfirst does not repeat headline phrasing",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

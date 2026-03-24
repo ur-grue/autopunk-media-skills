@@ -1,0 +1,54 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — personal finance channel",
+    "input": {
+      "channel_name": "Money Minded",
+      "niche": "Personal finance and investing for millennials and Gen Z",
+      "description": "Practical financial education through case studies, market analysis, and step-by-step guides",
+      "subscribers": 125000,
+      "monthly_views": 520000,
+      "avg_view_duration": "9.2 min on 16-min videos (58% completion)",
+      "top_3_videos": ["How I Invest $500/Month in 2026 (410K views)", "The Truth About Index Funds (320K views)", "Why Renting Can Be Smarter Than Buying (275K views)"],
+      "demographics": "55% male / 45% female; Age 22-35 primary (71%); Top markets: USA (48%), UK (16%), Canada (10%), Australia (7%)",
+      "engagement_rate": "3.8%",
+      "growth": "15K to 125K in 20 months",
+      "past_partners": "Investment platform (affiliate), financial education app (dedicated video)",
+      "formats_offered": "Dedicated video, mid-roll integration, newsletter mention",
+      "rates": "Dedicated video $4,200 / Mid-roll $1,500 / Newsletter mention $600"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — small art channel",
+    "input": {
+      "channel_name": "Sketch Daily",
+      "niche": "Daily drawing challenges and sketching tutorials for beginners",
+      "description": "Quick, accessible drawing lessons for people who think they can't draw",
+      "subscribers": 18000,
+      "monthly_views": 72000,
+      "avg_view_duration": "5.8 min on 8-min videos (73% completion)",
+      "top_3_videos": ["Draw Any Face in 5 Steps (45K views)", "Beginner Mistakes That Ruin Your Sketches (32K views)", "30-Day Drawing Challenge Results (28K views)"],
+      "demographics": "62% female / 38% male; Age 18-30 primary (65%); Top markets: USA (35%), India (12%), UK (10%)"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — architecture and design channel based in the Netherlands",
+    "input": {
+      "channel_name": "Built Form",
+      "niche": "European architecture, urban design, and sustainable building practices",
+      "description": "Video essays and site visits exploring how cities are designed and why some buildings work better than others",
+      "subscribers": 89000,
+      "monthly_views": 380000,
+      "avg_view_duration": "11.4 min on 18-min videos (63% completion)",
+      "top_3_videos": ["Why Dutch Cities Feel Different (520K views)", "The Building That Changed How Europe Thinks About Housing (340K views)", "What Went Wrong With Brutalism (290K views)"],
+      "demographics": "64% male / 36% female; Age 25-40 primary (68%); Top markets: Netherlands (14%), Germany (13%), UK (12%), USA (11%), France (8%)",
+      "engagement_rate": "4.2%",
+      "growth": "8K to 89K in 18 months",
+      "past_partners": "Architecture visualization software (sponsored integration), European design furniture brand (product placement)",
+      "formats_offered": "Dedicated video essay, mid-roll integration, sponsored site visit, newsletter feature",
+      "rates": "Dedicated video 3,500 EUR / Mid-roll 1,200 EUR / Sponsored site visit 5,000 EUR / Newsletter 450 EUR"
+    }
+  }
+]

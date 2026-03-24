@@ -1,0 +1,23 @@
+{
+  "skill": "push-notification-writer",
+  "category": "social-media/content",
+  "inputs": [
+    {
+      "label": "standard",
+      "story": "A major technology company has announced it will lay off 12,000 employees, approximately 15% of its global workforce, citing a shift toward AI-driven operations.",
+      "platform": "iOS (110 chars)",
+      "tone": "Digital-native news voice"
+    },
+    {
+      "label": "minimal",
+      "story": "New report shows rental prices in the capital fell 3% in Q4 for the first time in six years.",
+      "platform": "Android (65 chars)"
+    },
+    {
+      "label": "european",
+      "story": "The European Commission has fined a major social media platform 1.3 billion euros for violating GDPR data transfer rules, the largest privacy fine ever imposed in the EU.",
+      "platform": "iOS (110 chars)",
+      "tone": "Formal broadsheet"
+    }
+  ]
+}

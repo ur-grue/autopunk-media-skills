@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output has sidebar title, items, and source attribution, under 200 words","check":"binary_format"},{"id":"A2","description":"Every item self-contained without needing main article","check":"binary_quality"},{"id":"A3","description":"Items parallel in structure","check":"binary_quality"}]

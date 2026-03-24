@@ -1,0 +1,36 @@
+{
+  "skill": "investor-brief-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "leads-with-financials", "text": "Executive summary leads with the financial structure and the investment ask", "type": "binary"},
+    {"id": "risk-factors", "text": "Risk factors section names at least two material risks", "type": "binary"},
+    {"id": "projections-labelled", "text": "Speculative financial projections are clearly labelled as projections", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard feature film investment",
+      "leads-with-financials": {"pass": true, "note": "Executive summary opens with budget, confirmed financing, and amount sought"},
+      "risk-factors": {"pass": true, "note": "Distribution risk and cast attachment risk identified"},
+      "projections-labelled": {"pass": true, "note": "Revenue projections clearly labelled as projections"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "leads-with-financials": {"pass": true, "note": "Opens with budget and equity ask despite minimal detail"},
+      "risk-factors": {"pass": true, "note": "Two risks named: no festival pedigree and limited distribution interest"},
+      "projections-labelled": {"pass": false, "note": "With minimal financial detail provided, some revenue estimates presented without sufficient labelling"}
+    },
+    "input-03": {
+      "description": "European context",
+      "leads-with-financials": {"pass": true, "note": "Leads with 12M budget, Eurimages, and 2M equity seek"},
+      "risk-factors": {"pass": true, "note": "Currency risk and multi-territory complexity both flagged"},
+      "projections-labelled": {"pass": true, "note": "Multi-territory projections appropriately caveated"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 8,
+    "failed": 1,
+    "pass_rate": "88%"
+  }
+}

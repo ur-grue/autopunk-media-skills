@@ -1,0 +1,36 @@
+{
+  "skill": "festival-synopsis-writer",
+  "test_cases": [
+    {
+      "id": "FSW-01",
+      "label": "standard",
+      "input": {
+        "title": "THE WAITING ROOM",
+        "description": "A documentary that spent two years in the waiting room of a free legal clinic, following five clients through the immigration system. The film never leaves the clinic. A Nigerian asylum seeker awaits her hearing while her lawyer fights bureaucratic delays. A Korean student navigates a visa appeal that could end his education. A longtime resident discovers her status is suddenly in question. The film ends with two clients receiving positive decisions and one being denied, but all three still sitting in the waiting room — because for immigration clients, one decision is never the end. Observational, no narrator. The waiting room itself becomes the film's central character.",
+        "runtime": "78 minutes",
+        "status": "Completed"
+      }
+    },
+    {
+      "id": "FSW-02",
+      "label": "minimal",
+      "input": {
+        "title": "FIRST LIGHT",
+        "description": "A short documentary portrait of the last lighthouse keeper on a remote Scottish island. He has maintained the light for thirty years and automation will replace him next month. The film observes his final weeks.",
+        "runtime": "42 minutes",
+        "status": "Completed"
+      }
+    },
+    {
+      "id": "FSW-03",
+      "label": "european_context",
+      "input": {
+        "title": "LES MURS PARLENT",
+        "description": "A documentary following three street artists working in Paris, Berlin, and Athens, exploring how political murals function as journalism in cities where walls carry more urgency than newspapers. In Paris, a muralist works only at night, painting images of police violence that are buffed within hours. In Berlin, an artist's housing crisis murals have become landmarks that the city government simultaneously celebrates and tries to remove. In Athens, a graffiti writer faces criminal charges for political murals that document the refugee crisis. Shot over 18 months, the film captures the creation and destruction of political art in real time. The film ends with all three artists beginning new works — a cycle that cannot be stopped.",
+        "runtime": "92 minutes",
+        "status": "Completed",
+        "tone": "Politically engaged, visually bold, European essay-film register"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "skill": "feature-article-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Five-part arc: hook, context, development, turn, resolution"},
+    {"id": "A2", "text": "Word count within 10% of target"},
+    {"id": "A3", "text": "Ends with Source Material Used note"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Hook: map detail scene; Context: 40-year walking career; Development: notebooks and accuracy; Turn: city no longer exists; Resolution: museum acquisition"},
+      {"id": "A2", "pass": true, "note": "Output: 580 words against 600-word target (3% under, within 10%)"},
+      {"id": "A3", "pass": true, "note": "Source Material Used note lists interview notes, quotes, museum curator details, wife estimate"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Arc present though compressed for 500-word target"},
+      {"id": "A2", "pass": true, "note": "490 words against 500 target (2% under)"},
+      {"id": "A3", "pass": true, "note": "Source Material Used note included"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Hook: village transformation scene; Context: depopulation crisis; Development: broadband investment and arrivals; Turn: exclusion incident and structural limits; Resolution: replicability question"},
+      {"id": "A2", "pass": true, "note": "720 words against 700-word target (3% over, within 10%)"},
+      {"id": "A3", "pass": true, "note": "Source Material Used note lists all interview quotes and data points"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

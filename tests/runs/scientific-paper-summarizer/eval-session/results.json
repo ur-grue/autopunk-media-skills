@@ -1,0 +1,10 @@
+{
+  "skill":"scientific-paper-summarizer","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Five sections: Research Question, What They Did, What They Found, Limitations, Bottom Line"},{"id":"A2","text":"Key findings include specific numbers"},{"id":"A3","text":"Bottom line accurately reflects paper"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All five sections present and labelled"},{"id":"A2","pass":true,"note":"Reports HR 0.60, 40% lower risk, dose-dependent relationship, specific step-count quartiles"},{"id":"A3","pass":true,"note":"Bottom line: moderate evidence of association, not causation; reverse causation acknowledged"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All five sections; appropriately brief for thin input"},{"id":"A2","pass":true,"note":"62%, 23%, p=0.02 all reported"},{"id":"A3","pass":true,"note":"Bottom line: weak evidence from cross-sectional self-report; not sufficient to claim standing desks reduce back pain"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All five sections with detailed methodology explanation"},{"id":"A2","pass":true,"note":"6.2 cents/kWh surcharge, 28% increase, 15% wholesale price fall, neutral net industrial effect all reported"},{"id":"A3","pass":true,"note":"Bottom line addresses story angle: answer is nuanced — household prices up but wholesale down; depends on what you measure"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

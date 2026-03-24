@@ -1,0 +1,86 @@
+{
+  "skill": "web-section-splitter",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Numbered sections with subheading, word count, reading time"
+    },
+    {
+      "id": "A2",
+      "text": "Subheadings specific and scannable"
+    },
+    {
+      "id": "A3",
+      "text": "Summary table at end"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "3 sections each with subheading, word count, and reading time"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Subheadings: content-specific, tell coherent story when read in sequence"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Summary table with total words, sections, reading time, pull quotes, image suggestions"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "2 sections with all required elements"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Subheadings specific to breakfast study content"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Summary table present"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "4 sections covering Vienna housing system arc"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Subheadings specific: references 220,000 units, Seestadt Aspern, waiting lists, 14,000 target"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Summary table with accurate counts; 3 pull quotes and 2 image suggestions noted"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

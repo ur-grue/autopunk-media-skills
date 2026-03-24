@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output is organized in three risk tiers: High Priority, Medium Priority, Low Priority, each with Claim/Check/Source type","check":"binary_format"},
+  {"id":"A2","description":"Every numerical claim and every named source title/affiliation appears in the checklist","check":"binary_completeness"},
+  {"id":"A3","description":"Output ends with a Summary and Next Step note identifying which item to verify first","check":"binary_presence"}
+]

@@ -1,0 +1,28 @@
+{
+  "skill": "tone-rewriter",
+  "test_cases": [
+    {
+      "id": "standard",
+      "input": {
+        "text": "The Metropolitan Transport Authority has announced a comprehensive review of its bus network following sustained criticism from commuter advocacy groups. The review, which will encompass route planning, frequency scheduling, and accessibility compliance, is expected to conclude in the fourth quarter of this year. Stakeholders are invited to submit written representations to the Authority's consultation portal.",
+        "target_tone": "Conversational newsletter for urban professionals",
+        "source_tone": "Institutional press release"
+      }
+    },
+    {
+      "id": "minimal",
+      "input": {
+        "text": "Sales fell 12% in the third quarter. Management attributed the decline to supply chain disruptions and reduced consumer confidence.",
+        "target_tone": "Urgent, direct"
+      }
+    },
+    {
+      "id": "european",
+      "input": {
+        "text": "The European Commission has adopted a delegated regulation amending Annex II of the Packaging and Packaging Waste Directive, establishing revised recyclability criteria for composite packaging materials. Member States shall transpose the updated provisions into national law within eighteen months of publication in the Official Journal. Non-compliance may result in infringement proceedings under Article 258 TFEU.",
+        "target_tone": "Plain-language explainer for a general audience",
+        "source_tone": "EU regulatory language"
+      }
+    }
+  ]
+}

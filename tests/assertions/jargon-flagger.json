@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output is a numbered list with term, category (Jargon/Acronym/Insider language), location, and plain-language alternative","check":"binary_format"},
+  {"id":"A2","description":"Plain-language alternatives are accurate and do not oversimplify to the point of changing meaning","check":"binary_quality"},
+  {"id":"A3","description":"Output includes an Accessibility Verdict assessing overall jargon density","check":"binary_presence"}
+]

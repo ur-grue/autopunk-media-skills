@@ -1,0 +1,16 @@
+{
+  "skill": "two-way-brief-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "story-context", "text": "Output includes story context explaining the background situation", "type": "binary"},
+    {"id": "likely-questions", "text": "Output includes likely presenter questions with answer frameworks", "type": "binary"},
+    {"id": "key-facts", "text": "Key facts section is present for the reporter", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard breaking news two-way", "story-context": {"pass": true, "note": "Context covers chemical spill, evacuation timeline, and emergency response"}, "likely-questions": {"pass": true, "note": "5-6 likely questions with answer frameworks for each"}, "key-facts": {"pass": true, "note": "Key facts card with evacuation numbers, timeline, and substance status"}},
+    "input-02": {"description": "Minimal input", "story-context": {"pass": true, "note": "Student protest context provided from available information"}, "likely-questions": {"pass": true, "note": "3-4 likely questions with suggested response frameworks"}, "key-facts": {"pass": true, "note": "Key facts section present though necessarily brief"}},
+    "input-03": {"description": "European context", "story-context": {"pass": true, "note": "EU investigation context with tariff background and political positions"}, "likely-questions": {"pass": true, "note": "6 questions with detailed answer frameworks including Chinese government response"}, "key-facts": {"pass": true, "note": "Key facts covering three manufacturers, tariff range, and timeline"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

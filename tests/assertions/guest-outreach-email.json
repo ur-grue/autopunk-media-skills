@@ -1,0 +1,17 @@
+{
+  "skill": "guest-outreach-email",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Opening sentence references something specific about the guest's work, not just their job title"
+    },
+    {
+      "id": "A2",
+      "description": "Total email body is under 300 words and includes a specific subject line that references the guest's work or the episode idea"
+    },
+    {
+      "id": "A3",
+      "description": "The ask is concrete (format, length, low preparation) and the output includes a Next Step note with follow-up timing"
+    }
+  ]
+}

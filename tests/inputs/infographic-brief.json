@@ -1,0 +1,23 @@
+{
+  "skill": "infographic-brief",
+  "category": "data-journalism/visualization",
+  "inputs": [
+    {
+      "label": "standard",
+      "story": "Analysis of teacher salaries across 12 school districts shows a 40% gap between the highest and lowest-paying districts, with the lowest-paying districts also having the highest teacher turnover rates. The three lowest-paying districts lost an average of 18% of their teaching staff last year.",
+      "format": "Digital article full-width and Instagram square social card",
+      "house_style": "White background, dark blue primary, orange accent, sans-serif"
+    },
+    {
+      "label": "minimal",
+      "story": "Local hospital emergency department wait times have doubled from an average of 2.5 hours in 2020 to 5.1 hours in 2025.",
+      "format": "Print newspaper, single column width"
+    },
+    {
+      "label": "european",
+      "story": "EU renewable energy data shows that Denmark generates 84% of its electricity from renewables, while Poland generates only 23%. Across all 27 member states, the average rose from 34% in 2020 to 47% in 2025. The five newest EU member states all fall below the average.",
+      "format": "Digital article full-width for desktop and mobile, plus a 1:1 social card for LinkedIn and Twitter/X",
+      "house_style": "Dark background (#1a1a2e), green accent (#2ecc71), white text, sans-serif"
+    }
+  ]
+}

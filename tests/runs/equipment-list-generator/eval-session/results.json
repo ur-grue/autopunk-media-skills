@@ -1,0 +1,38 @@
+{
+  "skill": "equipment-list-generator",
+  "eval_date": "2026-03-24",
+  "assertions": ["ELG-A1", "ELG-A2", "ELG-A3"],
+  "results": [
+    {
+      "test_case": "ELG-01",
+      "label": "standard",
+      "assertion_results": {
+        "ELG-A1": {"pass": true, "note": "All standard categories present with quantities specified; FX9-appropriate accessories and 3 radio mic kits listed"},
+        "ELG-A2": {"pass": true, "note": "Items appropriate for observational + interview format; lightweight kit for observational, controlled lighting for interviews; no contradictions"},
+        "ELG-A3": {"pass": true, "note": "Practical Notes with 4 tips including radio mic frequency scanning and daily backup protocol; expendables section comprehensive"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "ELG-02",
+      "label": "minimal",
+      "assertion_results": {
+        "ELG-A1": {"pass": true, "note": "Categories present but appropriately scaled for one-person crew; some categories combined"},
+        "ELG-A2": {"pass": true, "note": "Lean list appropriate for self-shooting: single camera, one radio mic, portable LED, minimal grip; no over-spec items"},
+        "ELG-A3": {"pass": true, "note": "Practical Notes present with tips for solo shooting; expendables included; audio monitoring flagged as critical for one-person operation"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "ELG-03",
+      "label": "european_context",
+      "assertion_results": {
+        "ELG-A1": {"pass": true, "note": "All categories present; drone and gimbal listed under Special; 4 radio mics specified; AMIRA or FX9 options noted"},
+        "ELG-A2": {"pass": true, "note": "Kit scaled for 4-person crew and multi-country travel; airline-transportable constraints addressed; no heavy rigs that contradict natural-light preference"},
+        "ELG-A3": {"pass": true, "note": "Practical Notes address airline lithium battery restrictions, EU drone regulations, and multi-climate battery performance; expendables comprehensive including cold-weather items"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

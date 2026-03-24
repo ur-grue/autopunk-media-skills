@@ -1,0 +1,16 @@
+{
+  "skill": "subject-line-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "five-options", "text": "Output contains exactly five distinct subject line options", "type": "binary"},
+    {"id": "different-approaches", "text": "Each option uses a genuinely different psychological approach", "type": "binary"},
+    {"id": "under-60-chars", "text": "All options are under 60 characters", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard data-driven newsletter", "five-options": {"pass": true, "note": "Five numbered options provided"}, "different-approaches": {"pass": true, "note": "Curiosity gap, direct value, personal relevance, urgency, and contrarian — all distinct"}, "under-60-chars": {"pass": true, "note": "All under 60 characters; most under 50"}},
+    "input-02": {"description": "Minimal input", "five-options": {"pass": true, "note": "Five options provided"}, "different-approaches": {"pass": true, "note": "Five distinct approaches applied"}, "under-60-chars": {"pass": true, "note": "All under 60 characters"}},
+    "input-03": {"description": "European context", "five-options": {"pass": true, "note": "Five options provided"}, "different-approaches": {"pass": true, "note": "Five distinct approaches including policy-insider angle"}, "under-60-chars": {"pass": true, "note": "All under 60 characters; policy language kept concise"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

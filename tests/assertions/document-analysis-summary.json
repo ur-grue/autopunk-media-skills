@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output contains all required sections: Document Overview, Key Findings, Notable Omissions, Internal Contradictions, Newsworthy Elements by Priority, and Suggested Follow-ups","check":"binary_format"},
+  {"id":"A2","description":"Newsworthy elements are ranked by journalistic significance, not chronological order","check":"binary_quality"},
+  {"id":"A3","description":"Output ends with a Next Step note recommending which follow-up to pursue first","check":"binary_presence"}
+]

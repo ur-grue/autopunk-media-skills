@@ -1,0 +1,20 @@
+{
+  "skill": "style-reference-prompt",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Midjourney prompt with specific style descriptors, technical references (film stock, lens, medium), and at least one lighting descriptor",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A breakdown section explains which prompt elements produce which visual characteristics",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Aspect ratio is set and a Next Step note provides concrete actions including generation count guidance",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "infographic-brief",
+  "category": "data-journalism/visualization",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a single specific headline message sentence, not a topic description"
+    },
+    {
+      "id": "A2",
+      "description": "Visual type recommendation includes a clear rationale explaining why this chart type over alternatives"
+    },
+    {
+      "id": "A3",
+      "description": "Format requirements specify exact dimensions, file format, and colour mode"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Headline: single sentence about 40% salary gap and 18% turnover rate"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Recommends scatter plot or bar chart with rationale against pie chart"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Specifies pixel dimensions, RGB, PNG/SVG"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Single sentence headline about wait time doubling"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Visual type with rationale (line chart for time trend)"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Print column width specifications"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Headline sentence about Denmark 84% vs Poland 23% renewable gap"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Bar chart or small multiples with rationale"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Specifies both full-width and 1:1 social card dimensions, dark background specs"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

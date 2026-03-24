@@ -1,0 +1,17 @@
+{
+  "skill": "description-seo-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Primary keyword appears naturally within the first 100 characters of the description"
+    },
+    {
+      "id": "A2",
+      "description": "Output is in plain text (no markdown headers), includes a links section with subscribe CTA, and ends with 3-5 relevant topic-specific hashtags"
+    },
+    {
+      "id": "A3",
+      "description": "Output includes a Next Step note specifying where to paste it and whether chapter-timestamps or community-post-generator should be run"
+    }
+  ]
+}

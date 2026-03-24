@@ -1,0 +1,20 @@
+{
+  "skill": "methodology-explainer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is structured under four headings: Data Sources, How We Analysed It, What We Found, and Caveats and Limitations",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Every data source is identified with institution name and time period",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "At least one genuine, specific limitation is disclosed \u2014 not a generic disclaimer",
+      "type": "binary"
+    }
+  ]
+}

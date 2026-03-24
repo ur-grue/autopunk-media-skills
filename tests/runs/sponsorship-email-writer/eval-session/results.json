@@ -1,0 +1,47 @@
+{
+  "skill": "sponsorship-email-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/sponsorship-email-writer.json",
+  "assertions_file": "tests/assertions/sponsorship-email-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — finance education channel",
+      "output_summary": "Email opens with the integration concept: a video on the 50/30/20 method where the spending tracker app fits naturally into the tracking segment. Rate ($1,100), timeline (4 weeks), and deliverables (60-sec mid-roll, description link, one revision round) all stated in body. Next step: reply and receive standard contract. 245 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "First paragraph describes the video concept and integration fit before any channel introduction." },
+        "A2": { "pass": true, "note": "Rate, timeline, and deliverables explicitly listed." },
+        "A3": { "pass": true, "note": "245 words, under 300. Next step: 'reply here and I'll send the contract.'" }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Email opens with the portfolio tutorial concept and how the course platform integrates. Rate ($2,000), timeline (within 6 weeks), and format (dedicated video) stated. Works well despite minimal input. 230 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with the video concept, not channel introduction." },
+        "A2": { "pass": true, "note": "All three elements stated clearly." },
+        "A3": { "pass": true, "note": "230 words. Specific next step provided." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Berlin-based language learning channel",
+      "output_summary": "Email opens with the German cases video concept and how the grammar module fits. Rate (750 EUR), timeline (3 weeks), deliverables stated. European context preserved with EUR pricing and expat audience framing. Previous textbook partnership cited for credibility. 265 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with integration concept about German cases video." },
+        "A2": { "pass": true, "note": "750 EUR rate, 3-week timeline, mid-roll deliverables all stated." },
+        "A3": { "pass": true, "note": "265 words. Specific next step with contract offer." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

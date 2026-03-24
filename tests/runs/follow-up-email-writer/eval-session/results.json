@@ -1,0 +1,16 @@
+{
+  "skill": "follow-up-email-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "under-120-words", "text": "Email body is under 120 words", "type": "binary"},
+    {"id": "no-dead-phrases", "text": "No just checking in or circling back", "type": "binary"},
+    {"id": "single-ask", "text": "Closing ask is a single specific action", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard first follow-up", "under-120-words": {"pass": true, "note": "Body approximately 85 words"}, "no-dead-phrases": {"pass": true, "note": "No dead phrases; leads with embargo timing as new value"}, "single-ask": {"pass": true, "note": "Single ask: reply to confirm interest before Monday embargo lift"}},
+    "input-02": {"description": "Minimal input", "under-120-words": {"pass": true, "note": "Body approximately 65 words"}, "no-dead-phrases": {"pass": true, "note": "No dead phrases"}, "single-ask": {"pass": true, "note": "Single ask: would this work for your weekend food round-up?"}},
+    "input-03": {"description": "European context", "under-120-words": {"pass": true, "note": "Body approximately 95 words"}, "no-dead-phrases": {"pass": true, "note": "No dead phrases; leads with Reuters pickup as urgency"}, "single-ask": {"pass": true, "note": "Single ask: reply by Thursday to secure the Nordic-angle exclusive"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

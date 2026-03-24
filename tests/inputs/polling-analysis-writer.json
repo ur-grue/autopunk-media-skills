@@ -1,0 +1,22 @@
+{
+  "skill": "polling-analysis-writer",
+  "category": "data-journalism/analysis",
+  "inputs": [
+    {
+      "label": "standard",
+      "results": "Survey of 2,100 likely voters conducted by phone and online, 18-20 March 2026, by National Polling Institute for a broadsheet newspaper. Question: 'Do you approve or disapprove of the government's handling of the economy?' Approve 42%, Disapprove 51%, Don't know 7%. Subgroups: Among 18-29 year olds (n=340): Approve 31%, Disapprove 58%. Among 65+ (n=420): Approve 54%, Disapprove 39%. Previous poll (same pollster, December 2025): Approve 47%, Disapprove 46%.",
+      "question_wording": "Do you approve or disapprove of the government's handling of the economy?"
+    },
+    {
+      "label": "minimal",
+      "results": "Online survey of 800 readers of a news website. Question: 'Would you pay for a news subscription?' Yes 34%, No 52%, Maybe 14%. No subgroups available.",
+      "question_wording": "Would you pay for a news subscription?"
+    },
+    {
+      "label": "european",
+      "results": "Eurobarometer survey of 26,500 respondents across all 27 EU member states, conducted face-to-face, January-February 2026. Question: 'Do you tend to trust or tend not to trust the news media in your country?' Trust 38%, Do not trust 52%, Don't know 10%. Subgroups by country: Denmark (n=1,012) Trust 62%, Do not trust 31%. France (n=1,008) Trust 29%, Do not trust 63%. Hungary (n=1,005) Trust 34%, Do not trust 58%. Germany (n=1,520) Trust 45%, Do not trust 47%. Among 15-24 year olds across all states (n=3,200): Trust 28%, Do not trust 59%. Previous Eurobarometer (Autumn 2024): Trust 41%, Do not trust 50%.",
+      "question_wording": "Do you tend to trust or tend not to trust the news media in your country?",
+      "commission": "European Commission"
+    }
+  ]
+}

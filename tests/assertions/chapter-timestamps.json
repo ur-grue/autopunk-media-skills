@@ -1,0 +1,17 @@
+{
+  "skill": "chapter-timestamps",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "First timestamp is exactly 0:00, every timestamp is on its own line in M:SS or H:MM:SS format, and output is paste-ready for YouTube"
+    },
+    {
+      "id": "A2",
+      "description": "Chapter names are viewer-facing descriptions (3-6 words), not internal script labels"
+    },
+    {
+      "id": "A3",
+      "description": "Output includes a note explaining whether timestamps are estimated or exact and flags any sections that may need adjustment"
+    }
+  ]
+}

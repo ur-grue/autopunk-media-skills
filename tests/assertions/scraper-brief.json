@@ -1,0 +1,20 @@
+{
+  "skill": "scraper-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all six sections: Data Source, Fields to Collect (with example values), Output Schema, Scope and Frequency, Technical Considerations, Legal and Ethical Notes",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Every field to be collected is named with a description and example value",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Legal and ethical notes address robots.txt status and terms of service",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "editorial-photo-prompt",
+  "category": "image-prompting/flux",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Flux prompt describing a specific, believable scene with natural light source and no stock-photo cliches"
+    },
+    {
+      "id": "A2",
+      "description": "A prompt breakdown table explains the key choices that produce the editorial quality"
+    },
+    {
+      "id": "A3",
+      "description": "A negative prompt excludes commercial/stock photo elements and output includes a Next Step note"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Scene describes specific factory interior with overhead fluorescent and window light"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown table explains each element's editorial contribution"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Negative prompt excludes stock-photo elements; Next Step recommends 4-6 generations"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Specific late-night desk scene with practical lamp light"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown explains editorial quality choices"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Negative and Next Step elements present"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Pre-dawn harbor scene with transitional light accurately described"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown addresses Mediterranean documentary photography conventions"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Next Step includes AI image policy consideration for journalism context"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,58 @@
+{
+  "skill": "one-sheet-writer",
+  "test_cases": [
+    {
+      "id": "OSW-01",
+      "label": "standard",
+      "input": {
+        "title": "The Longest Shift",
+        "runtime": "88 minutes",
+        "year": "2025",
+        "description": "A documentary following three emergency room nurses through one year of the pandemic's aftermath, revealing how a healthcare system pushed to breaking point changed the people who held it together.",
+        "director": "Sarah Chen",
+        "production_company": "Frontline Films",
+        "genre": "Feature documentary",
+        "target_audience": "Broad theatrical and SVOD audience",
+        "festival_selections": ["Tribeca 2025 — World Documentary Competition (World Premiere)", "Sheffield Doc/Fest 2025 — Special Screening", "IDFA 2025 — Best of Fests"],
+        "awards": "Tribeca — Best Documentary Feature",
+        "critical_quotes": ["'A devastating and essential portrait of what we asked of our healthcare workers.' — Variety", "'Chen's camera earns the kind of trust that most filmmakers never achieve.' — IndieWire"],
+        "contact": "press@frontlinefilms.com · www.frontlinefilms.com"
+      }
+    },
+    {
+      "id": "OSW-02",
+      "label": "minimal",
+      "input": {
+        "title": "Last Call",
+        "runtime": "62 minutes",
+        "year": "2026",
+        "description": "A documentary about a dive bar's final year before demolition.",
+        "director": "Tom Reeves",
+        "production_company": "Backroom Pictures",
+        "genre": "Feature documentary",
+        "target_audience": "Festival audience",
+        "contact": "tom@backroompictures.com"
+      }
+    },
+    {
+      "id": "OSW-03",
+      "label": "european_context",
+      "input": {
+        "title": "Concrete Playground",
+        "runtime": "95 minutes",
+        "year": "2025",
+        "description": "A documentary following three families living in the same brutalist housing estate on the outskirts of Marseille over two years, as the city government debates whether to demolish or renovate the complex. The film is an intimate portrait of community life in architecture the world considers ugly.",
+        "director": "Léa Moreau",
+        "production_company": "Quartier Films (France)",
+        "genre": "Feature documentary",
+        "target_audience": "Art-house theatrical, European festival circuit, public broadcaster",
+        "festival_selections": ["Cannes 2025 — ACID Selection", "Visions du Réel 2025 — International Competition", "DOK Leipzig 2025 — International Competition"],
+        "awards": "Visions du Réel — Grand Prix",
+        "critical_quotes": ["'An extraordinary act of architectural empathy.' — Cahiers du Cinéma", "'Moreau finds poetry in the places France would rather forget.' — Le Monde"],
+        "contact": "festivals@quartierfilms.fr · www.quartierfilms.fr",
+        "country": "France",
+        "language": "French"
+      }
+    }
+  ]
+}

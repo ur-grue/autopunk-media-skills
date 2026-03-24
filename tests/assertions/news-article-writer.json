@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Inverted pyramid structure — lede answers who/what/when/where in under 35 words","check":"binary_format"},{"id":"A2","description":"Quotes fully attributed with name/title/org; no consecutive quote paragraphs","check":"binary_quality"},{"id":"A3","description":"Final paragraph has forward-looking element","check":"binary_quality"}]

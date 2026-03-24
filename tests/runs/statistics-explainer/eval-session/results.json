@@ -1,0 +1,89 @@
+{
+  "skill": "statistics-explainer",
+  "category": "data-journalism/analysis",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output provides 2-3 factually equivalent rewrite options in plain language with no jargon"
+    },
+    {
+      "id": "A2",
+      "description": "At least one rewrite uses a concrete comparison or real-world anchor (e.g. '1 in X')"
+    },
+    {
+      "id": "A3",
+      "description": "A key misinterpretation risk is named specifically, not generically"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three rewrites converting odds ratio to plain language"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "At least one uses '1 in X' framing: roughly 1 in 7 vs 1 in 22"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Misinterpretation risk: odds ratio 3.2 does not mean '3.2 times as many people get diabetes'"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "2-3 rewrites explaining nominal vs real income change"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Concrete anchor: 'your salary went up on paper but buys less than last year'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Risk: conflating nominal and real; readers may cite the positive number"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "2-3 rewrites explaining Gini coefficient to general readers"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Concrete comparison: 'income gap widened to its largest in two decades'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Risk: Gini is abstract; small numerical changes represent meaningful shifts that readers may underestimate"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "cover-image-pipeline",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes one prompt per requested format with aspect ratio, pixel dimensions, platform label, and composition note explaining how this version differs",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Text-safe zones are specified for every format",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A shared style anchor string is provided and a generation sequence recommendation explains the logic",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "niche-video-idea-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains exactly 10 numbered video ideas, each with Title, Hook (one sentence), and Angle (one sentence)"
+    },
+    {
+      "id": "A2",
+      "description": "All 10 ideas are genuinely distinct (no two are variations of the same concept) and span at least three different content formats"
+    },
+    {
+      "id": "A3",
+      "description": "Output ends with a note flagging 2-3 ideas with strongest search demand and a Next Step recommending which idea to develop first"
+    }
+  ]
+}

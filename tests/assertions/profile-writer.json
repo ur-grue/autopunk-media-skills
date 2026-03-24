@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Profile opens with scene or detail not biographical summary","check":"binary_format"},{"id":"A2","description":"At least four direct quotes integrated revealing character","check":"binary_quality"},{"id":"A3","description":"Closing echoes or reframes the opening","check":"binary_quality"}]

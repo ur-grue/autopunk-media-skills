@@ -1,0 +1,20 @@
+{
+  "skill": "data-cleaning-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a numbered cleaning checklist in logical sequence (structural changes before value standardization)",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Editorial judgement calls are separated from mechanical cleaning steps in a distinct section",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "At least one 'do not change' instruction is included for fields that should be left as-is",
+      "type": "binary"
+    }
+  ]
+}

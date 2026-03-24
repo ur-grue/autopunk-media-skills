@@ -1,0 +1,32 @@
+[
+  {
+    "id": "standard",
+    "description": "Standard: tech industry source making claims about AI safety",
+    "input": {
+      "source_name": "Dr. Karen Whitfield",
+      "source_role": "Chief Ethics Officer at Meridian AI, a mid-size AI company",
+      "claims": ["Current AI safety testing protocols are inadequate and miss 30% of harmful outputs", "Our proprietary testing framework catches risks that industry-standard benchmarks do not"],
+      "story_context": "Feature on whether AI companies can be trusted to self-regulate safety"
+    }
+  },
+  {
+    "id": "minimal",
+    "description": "Minimal: single claim from a local official",
+    "input": {
+      "source_name": "Tom Rivera",
+      "source_role": "Deputy Planning Commissioner",
+      "claims": ["The rezoning will not displace current residents"],
+      "story_context": "News story on a controversial rezoning proposal"
+    }
+  },
+  {
+    "id": "european",
+    "description": "European: EU policy expert on agricultural subsidies",
+    "input": {
+      "source_name": "Professor Annelies van den Berg",
+      "source_role": "Chair of Agricultural Economics at Utrecht University and former adviser to the European Commission's DG AGRI",
+      "claims": ["The Common Agricultural Policy reform will reduce small farmer income by 18% in southern member states", "Large agribusiness groups captured the reform process through targeted lobbying in Brussels"],
+      "story_context": "Investigative feature on CAP reform winners and losers for a European policy magazine"
+    }
+  }
+]

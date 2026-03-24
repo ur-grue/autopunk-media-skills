@@ -1,0 +1,20 @@
+{
+  "skill": "character-consistency-prompt",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a labeled character anchor string covering at minimum: apparent age, gender, one distinctive facial feature, hair, and a consistent clothing item",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Every scene prompt uses the character anchor string verbatim with no variations in character description",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A consistency workflow section explains the --seed and --cref process in plain language",
+      "type": "binary"
+    }
+  ]
+}

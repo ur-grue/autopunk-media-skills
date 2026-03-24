@@ -1,0 +1,54 @@
+{
+  "skill": "location-request-letter",
+  "test_cases": [
+    {
+      "id": "LRL-01",
+      "label": "standard",
+      "input": {
+        "location": "Central City Public Library, 200 Main Street, Springfield, IL 62701",
+        "contact": "Mr. James Whitfield, Head Librarian",
+        "production_title": "The Quiet Room",
+        "description": "A documentary about the changing role of public libraries in American communities",
+        "production_company": "Civic Lens Productions",
+        "what_to_film": "Interior general views of the main reading room and children's section, observational footage of a community literacy program in session, and a 45-minute interview with a library volunteer",
+        "proposed_dates": "First two weeks of June 2026 (flexible on specific days)",
+        "crew_size": "4 (director, camera operator, sound recordist, production assistant)",
+        "duration": "Two half-days",
+        "insurance": "Full production insurance held — certificate available on request",
+        "broadcaster": "PBS is the intended broadcast partner (development stage)"
+      }
+    },
+    {
+      "id": "LRL-02",
+      "label": "minimal",
+      "input": {
+        "location": "Greenfield Community Pool",
+        "contact": "The Manager",
+        "production_title": "Summer Days",
+        "description": "A short documentary about a local swimming pool",
+        "production_company": "independent filmmaker",
+        "what_to_film": "General views and a short interview",
+        "proposed_dates": "July 2026",
+        "crew_size": "2"
+      }
+    },
+    {
+      "id": "LRL-03",
+      "label": "european_context",
+      "input": {
+        "location": "Chapelle Saint-Louis, 14 Rue de la Paix, Strasbourg, 67000, France",
+        "contact": "Père Michel Laurent, Parish Administrator",
+        "production_title": "Border Languages",
+        "description": "A documentary about disappearing minority languages in Europe's border regions, with a focus on Alsatian",
+        "production_company": "Mosaik Films (Berlin/Strasbourg)",
+        "what_to_film": "Interior filming of a Sunday service conducted partly in Alsatian dialect, and a 60-minute interview with a parishioner afterwards in the chapel",
+        "proposed_dates": "10-12 September 2026",
+        "crew_size": "3 (director, camera, sound)",
+        "duration": "One full day",
+        "insurance": "Full European production insurance (Responsabilité Civile Professionnelle) — attestation available on request",
+        "specific_concerns": "We understand the sensitivity of filming during a religious service and are prepared to discuss placement restrictions, silent equipment operation, and any areas that must remain off-camera",
+        "previous_correspondence": "Introductory email sent 15 July 2026; this letter follows up on that initial contact"
+      }
+    }
+  ]
+}

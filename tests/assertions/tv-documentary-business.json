@@ -1,0 +1,94 @@
+{
+  "subcategory": "business",
+  "category": "tv-documentary",
+  "skills": {
+    "grant-proposal-writer": {
+      "assertions": [
+        {
+          "id": "GPW-A1",
+          "type": "binary",
+          "description": "The opening paragraph names the project, the subject, and the public-interest case within the first three sentences",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "GPW-A2",
+          "type": "binary",
+          "description": "The proposal uses at least one phrase or framing directly drawn from the funder's stated priorities",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "GPW-A3",
+          "type": "binary",
+          "description": "The closing paragraph clearly states what the grant will make possible — specific deliverables or actions, not just a restatement of the project",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "one-sheet-writer": {
+      "assertions": [
+        {
+          "id": "OSW-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Title/Tagline/Specs, Film Description (2 paragraphs), Festival & Awards (if provided), Credits, and Contact",
+          "source": "Output Format"
+        },
+        {
+          "id": "OSW-A2",
+          "type": "binary",
+          "description": "The tagline is one sentence that captures the film's emotional or thematic core — distinct from the logline",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "OSW-A3",
+          "type": "binary",
+          "description": "Film description is specific enough to distinguish this film from any other documentary on a similar subject",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "co-production-brief": {
+      "assertions": [
+        {
+          "id": "CPB-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Project Overview, Why This Territory, Co-Production Proposal (with bullet-pointed terms), Financing Structure, International Potential, Next Steps",
+          "source": "Output Format"
+        },
+        {
+          "id": "CPB-A2",
+          "type": "binary",
+          "description": "The co-production offer is specific: percentage, rights bundle, editorial involvement, and credit are stated",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "CPB-A3",
+          "type": "binary",
+          "description": "The next step is concrete — a specific meeting, call, or market event — not generic interest language",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "broadcaster-pitch-writer": {
+      "assertions": [
+        {
+          "id": "BPW-A1",
+          "type": "binary",
+          "description": "Output contains Logline, Editorial Hook (why now), The Story, Approach, Comparable Titles, Production Status, and Contact/Call to Action sections",
+          "source": "Output Format"
+        },
+        {
+          "id": "BPW-A2",
+          "type": "binary",
+          "description": "The logline is one sentence containing the subject, the angle, and a sense of stakes",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "BPW-A3",
+          "type": "binary",
+          "description": "Output is 400-600 words total and written in third person with no scene-by-scene detail — sells concept and team, not sequences",
+          "source": "Output Format + Quality Criteria"
+        }
+      ]
+    }
+  }
+}

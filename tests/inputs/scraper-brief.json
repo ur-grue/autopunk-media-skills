@@ -1,0 +1,32 @@
+{
+  "skill": "scraper-brief",
+  "category": "data-journalism/investigation",
+  "inputs": [
+    {
+      "label": "standard",
+      "url": "A national court records portal listing all published court judgments",
+      "data_needed": "Case number, court name, judge name, case type (criminal/civil/family), filing date, judgment date, parties involved (anonymized), judgment summary, link to full judgment PDF",
+      "scope": "Approximately 85,000 published judgments from 2018 to present",
+      "reason": "Investigation into sentencing patterns across different courts and judges",
+      "output": "CSV",
+      "frequency": "Weekly updates"
+    },
+    {
+      "label": "minimal",
+      "url": "A city government website listing all public meeting agendas and minutes",
+      "data_needed": "Meeting date, committee name, agenda items, links to minutes PDF",
+      "scope": "All meetings from 2020 to present, approximately 1,200 records",
+      "reason": "Tracking which topics are discussed most frequently in city government",
+      "output": "CSV"
+    },
+    {
+      "label": "european",
+      "url": "The EU Transparency Register listing all registered lobbyists and their declared activities",
+      "data_needed": "Organization name, registration number, country of registration, lobbyist category (in-house, consultancy, NGO, trade association), declared budget range, number of persons involved, EU institutions targeted, legislative files declared, date of registration, date of last update",
+      "scope": "Approximately 12,500 registered entities. Full backfill plus monthly updates.",
+      "reason": "Investigation into which industries spend the most on EU lobbying and whether declared lobbying activity correlates with legislative outcomes",
+      "output": "CSV and JSON",
+      "frequency": "Monthly"
+    }
+  ]
+}

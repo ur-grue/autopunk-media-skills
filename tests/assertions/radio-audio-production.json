@@ -1,0 +1,19 @@
+{
+  "category": "radio-audio/production",
+  "skills": {
+    "running-order-builder": {
+      "assertions": [
+        {"id": "timed-segments", "text": "Output contains timed segments with durations for each item", "type": "binary"},
+        {"id": "item-slugs", "text": "Each item has a clear slug or label identifying the content", "type": "binary"},
+        {"id": "transition-notes", "text": "Output includes transition guidance or presenter notes between segments", "type": "binary"}
+      ]
+    },
+    "programme-brief-writer": {
+      "assertions": [
+        {"id": "format-described", "text": "Output describes the programme format including duration and structure", "type": "binary"},
+        {"id": "audience-defined", "text": "Target audience is defined with specifics, not just general demographics", "type": "binary"},
+        {"id": "editorial-aims", "text": "Editorial aims and tone are articulated clearly", "type": "binary"}
+      ]
+    }
+  }
+}

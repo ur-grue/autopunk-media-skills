@@ -1,0 +1,29 @@
+{
+  "skill": "dark-aesthetic-prompt",
+  "category": "image-prompting/flux",
+  "inputs": [
+    {
+      "label": "standard",
+      "subject": "An empty interrogation room with a single overhead lamp, one chair, and a two-way mirror",
+      "aesthetic": "Noir \u2014 1940s-50s crime film atmosphere",
+      "color": "Cold monochrome with single warm overhead light",
+      "use": "YouTube thumbnail for a true crime channel",
+      "emotion": "Dread, institutional coldness",
+      "format": "16:9"
+    },
+    {
+      "label": "minimal",
+      "subject": "A street at night with rain-slicked pavement",
+      "aesthetic": "Dark editorial \u2014 contemporary moody photography"
+    },
+    {
+      "label": "european",
+      "subject": "The interior of a decaying baroque theatre in Eastern Europe, seen from the stage looking out at empty seats covered in dust",
+      "aesthetic": "Gothic \u2014 architectural, atmospheric, romantic darkness",
+      "color": "Cold blue-silver moonlight filtering through broken windows",
+      "use": "Cover art for a podcast about forgotten European cultural heritage",
+      "emotion": "Melancholy, beauty in decay",
+      "format": "1:1 square"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output is a titled glossary with terms in bold followed by plain-language definitions","check":"binary_format"},{"id":"A2","description":"No circular definitions and no jargon in definitions","check":"binary_quality"},{"id":"A3","description":"Definitions accurate and appropriate for stated audience","check":"binary_quality"}]

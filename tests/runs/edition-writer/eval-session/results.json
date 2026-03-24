@@ -1,0 +1,16 @@
+{
+  "skill": "edition-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "standalone-hook", "text": "Opening paragraph works as a standalone hook", "type": "binary"},
+    {"id": "through-line", "text": "Main feature has a clear through-line", "type": "binary"},
+    {"id": "consistent-voice", "text": "Entire edition reads as one consistent voice", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard newsletter edition", "standalone-hook": {"pass": true, "note": "Opens with arresting observation about AI summaries being cited as sources"}, "through-line": {"pass": true, "note": "Through-line builds from symptom to diagnosis: attribution crisis not tech problem"}, "consistent-voice": {"pass": true, "note": "Direct, analytical, contrarian voice consistent throughout"}},
+    "input-02": {"description": "Minimal input", "standalone-hook": {"pass": true, "note": "Opens with engaging hook about the week's listening"}, "through-line": {"pass": true, "note": "Through-line connects three podcast recommendations thematically"}, "consistent-voice": {"pass": true, "note": "Friendly, casual voice maintained"}},
+    "input-03": {"description": "European context", "standalone-hook": {"pass": true, "note": "Opens with specific Commission clause that will surprise the reader"}, "through-line": {"pass": true, "note": "Builds from hidden clause to open-source implications to broader digital sovereignty argument"}, "consistent-voice": {"pass": true, "note": "Informed, measured, wry voice consistent throughout"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "platform-strategy-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Platform Fit Assessment, Content Approach, Distinctive Angle, 90-Day Targets, 12-Month Targets, and Key Risk",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "The platform fit assessment honestly identifies at least one weakness, not just opportunities",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "90-day targets are specific and measurable with realistic numbers for the stated resource level",
+      "type": "binary"
+    }
+  ]
+}

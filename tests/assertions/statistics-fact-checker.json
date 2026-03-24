@@ -1,0 +1,17 @@
+[
+  {
+    "id": "A1",
+    "description": "Every statistic in the input is individually assessed with an Issue Type label",
+    "check": "binary_presence"
+  },
+  {
+    "id": "A2",
+    "description": "Recommended fixes are specific and actionable (not generic like 'needs more context')",
+    "check": "binary_quality"
+  },
+  {
+    "id": "A3",
+    "description": "Output ends with a summary and a Next Step note",
+    "check": "binary_presence"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "skill": "data-footnote-writer",
+  "category": "data-journalism/publishing",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Every quantitative claim in the input has a corresponding numbered footnote in order of appearance"
+    },
+    {
+      "id": "A2",
+      "description": "Footnotes distinguish between direct citations and derived/calculated figures with appropriate language"
+    },
+    {
+      "id": "A3",
+      "description": "Source information includes institution name, publication name, date, and URL/file reference"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three numbered footnotes matching three claims in order"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Footnote 1 says 'as published'; Footnote 2 says 'Calculated by [publication] using regression analysis'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "All sources include institution, publication name, date, availability"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "One footnote for one claim"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Direct citation language used"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "City Budget Office, FY2025, page 34 cited"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three footnotes in order"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Footnotes 1 and 3 marked as derived/calculated; Footnote 2 as direct"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "European Journalism Centre with edition years and URL cited"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

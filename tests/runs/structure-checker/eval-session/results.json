@@ -1,0 +1,93 @@
+{
+  "skill_name": "structure-checker",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.5,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains three sections: Structural Map, Issues and Recommendations, and Suggested Paragraph Order",
+    "Each flagged issue includes a specific actionable recommendation with paragraph numbers",
+    "Overall Assessment is a single honest sentence about the draft structural health"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: feature with structural issues",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains three sections: Structural Map, Issues and Recommendations, and Suggested Paragraph Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Each flagged issue includes a specific actionable recommendation with paragraph numbers",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Overall Assessment is a single honest sentence about the draft structural health",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: very short piece",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains three sections: Structural Map, Issues and Recommendations, and Suggested Paragraph Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Each flagged issue includes a specific actionable recommendation with paragraph numbers",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Overall Assessment is a single honest sentence about the draft structural health",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: feature on Greek austerity",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains three sections: Structural Map, Issues and Recommendations, and Suggested Paragraph Order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Each flagged issue includes a specific actionable recommendation with paragraph numbers",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Overall Assessment is a single honest sentence about the draft structural health",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "media-business/pitching",
+  "skills": {
+    "series-pitch-deck-writer": {
+      "assertions": [
+        {"id": "logline-present", "text": "Output contains a one-sentence logline naming the subject, conflict or journey, and stakes", "type": "binary"},
+        {"id": "episode-structure", "text": "Episode structure section explains what changes across the series, not just topic lists", "type": "binary"},
+        {"id": "broadcaster-rationale", "text": "Broadcaster rationale references the named platform's actual programming priorities", "type": "binary"}
+      ]
+    },
+    "elevator-pitch-writer": {
+      "assertions": [
+        {"id": "opens-with-hook", "text": "Pitch opens with a hook, not the title or a logline", "type": "binary"},
+        {"id": "word-count", "text": "Main pitch body is 150-180 words (approximately 60 seconds at natural speaking pace)", "type": "binary"},
+        {"id": "invites-question", "text": "Pitch ends with a sentence that invites a 'tell me more' response", "type": "binary"}
+      ]
+    },
+    "cold-outreach-email-writer": {
+      "assertions": [
+        {"id": "under-250-words", "text": "Email body is under 250 words including sign-off", "type": "binary"},
+        {"id": "proposition-two-sentences", "text": "Project proposition is stated in two sentences or fewer", "type": "binary"},
+        {"id": "specific-ask", "text": "The ask is specific: one clear next step, not an open-ended invitation", "type": "binary"}
+      ]
+    },
+    "award-submission-writer": {
+      "assertions": [
+        {"id": "compelling-hook", "text": "Opens with a compelling hook, not 'This project is a...'", "type": "binary"},
+        {"id": "craft-described", "text": "Craft and methodology are described, not just outcomes", "type": "binary"},
+        {"id": "closing-significance", "text": "Closing paragraph adds meaning rather than repeating the opening", "type": "binary"}
+      ]
+    },
+    "collaboration-proposal-writer": {
+      "assertions": [
+        {"id": "strategic-opening", "text": "Opening paragraph frames the strategic opportunity, not the logistics", "type": "binary"},
+        {"id": "mutual-benefit", "text": "Mutual benefit is specific and concrete for both parties", "type": "binary"},
+        {"id": "actionable-next-step", "text": "Closes with one specific, actionable next step", "type": "binary"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "category": "media-business/legal",
+  "skills": {
+    "licensing-brief-writer": {
+      "assertions": [
+        {"id": "licence-types-correct", "text": "Correctly identifies all licence types needed for the content and use described", "type": "binary"},
+        {"id": "rights-holder-specific", "text": "Rights holder identification names the type of organisation to approach, not just 'the rights holder'", "type": "binary"},
+        {"id": "key-terms-covered", "text": "Key terms section covers territory, duration, platform, exclusivity, and fee basis", "type": "binary"}
+      ]
+    },
+    "release-form-writer": {
+      "assertions": [
+        {"id": "grant-of-rights", "text": "Grant of rights clause specifies what is licensed, for what purposes, on which platforms, in which territories, for what duration", "type": "binary"},
+        {"id": "compensation-stated", "text": "Compensation section is present even if compensation is zero", "type": "binary"},
+        {"id": "plain-language", "text": "Form is written in language a non-lawyer can understand", "type": "binary"}
+      ]
+    },
+    "rights-clearance-checklist": {
+      "assertions": [
+        {"id": "categories-identified", "text": "All relevant clearance categories are identified based on the content description", "type": "binary"},
+        {"id": "high-risk-flagged", "text": "High-risk items are flagged explicitly with a risk note", "type": "binary"},
+        {"id": "legal-vs-producer", "text": "Checklist distinguishes between clearances the producer can handle and those requiring legal counsel", "type": "binary"}
+      ]
+    },
+    "copyright-holder-finder": {
+      "assertions": [
+        {"id": "content-type-specific", "text": "Research steps are specific to the content type, not a generic search the internet list", "type": "binary"},
+        {"id": "ordered-fast-to-slow", "text": "Steps are ordered from fastest/cheapest to slowest/most resource-intensive", "type": "binary"},
+        {"id": "orphan-works", "text": "Orphan works possibility is addressed", "type": "binary"}
+      ]
+    },
+    "creative-commons-explainer": {
+      "assertions": [
+        {"id": "four-questions", "text": "All four key questions are answered: commercial use, modification, attribution, share-alike", "type": "binary"},
+        {"id": "model-attribution", "text": "A model attribution line is provided that meets the licence requirements", "type": "binary"},
+        {"id": "use-case-verdict", "text": "If a specific use case is described, a clear yes/no verdict is given", "type": "binary"}
+      ]
+    },
+    "gdpr-data-handling-note": {
+      "assertions": [
+        {"id": "six-requirements", "text": "All six GDPR transparency requirements are addressed: controller identity, purpose, legal basis, recipients, retention, rights", "type": "binary"},
+        {"id": "plain-language", "text": "Language is plain enough for a non-specialist participant to understand", "type": "binary"},
+        {"id": "legal-review-flag", "text": "The notice explicitly flags areas requiring legal review", "type": "binary"}
+      ]
+    },
+    "source-bibliography-compiler": {
+      "assertions": [
+        {"id": "all-sources-included", "text": "Every source from the raw notes appears in the compiled bibliography", "type": "binary"},
+        {"id": "consistent-format", "text": "Citation format is consistent across all entries with no mixing of styles", "type": "binary"},
+        {"id": "missing-flagged", "text": "Missing information is flagged with bracketed notes, not guessed or fabricated", "type": "binary"}
+      ]
+    }
+  }
+}

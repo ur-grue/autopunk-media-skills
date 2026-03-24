@@ -1,0 +1,20 @@
+{
+  "skill": "hashtag-strategy-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a tag bank of 20-30 tags organized into three tiers (Niche, Mid-Range, Broad) with clear tier labels",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Usage rules section contains 5-7 platform-specific guidelines, not generic social media advice",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "At least one honest caveat about hashtag effectiveness is included",
+      "type": "binary"
+    }
+  ]
+}

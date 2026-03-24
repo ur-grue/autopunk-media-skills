@@ -1,0 +1,89 @@
+{
+  "skill": "style-reference-prompt",
+  "category": "image-prompting/midjourney",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Midjourney prompt with specific style descriptors, technical references (film stock, lens, medium), and at least one lighting descriptor"
+    },
+    {
+      "id": "A2",
+      "description": "A breakdown section explains which prompt elements produce which visual characteristics"
+    },
+    {
+      "id": "A3",
+      "description": "Aspect ratio is set and a Next Step note provides concrete actions including generation count guidance"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Prompt includes high-contrast B&W, available light, Tri-X 400 film stock reference, close-up portrait"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown table explains each element's contribution to Nachtwey aesthetic"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "4:5 ratio set; Next Step: run 4 generations at --s 200"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Pastel palette, symmetrical composition, specific set-design language for Anderson aesthetic"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown explains symmetry and palette elements"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "16:9 set with generation guidance"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Geometric abstraction, concrete texture, dramatic natural light, Ilford HP5 film reference"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Breakdown explains Binet's specific approach to light and material"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "4:5 set; Next Step includes alternative prompt testing recommendation"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "ab-social-post-tester",
+  "category": "social-media/strategy",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains exactly two complete, ready-to-post variants with only one variable differing between them, plus a labeled variable being tested"
+    },
+    {
+      "id": "A2",
+      "description": "A hypothesis statement explains what it means if one variant outperforms the other, specific enough to inform future content decisions"
+    },
+    {
+      "id": "A3",
+      "description": "Measurement guidance specifies a concrete metric and minimum threshold for drawing conclusions"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two complete variants isolating hook style (provocative claim vs educational framing)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Hypothesis: 'If Variant A outperforms, this audience responds more to contrarian positions than educational content'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Measurement: compare click-through rate after 48 hours or 5,000 impressions"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two variants isolating CTA type (question vs direct ask)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Hypothesis specific to freelance journalism community engagement patterns"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Metric specified: comment count after 24 hours"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two variants isolating emotional register (architectural appreciation vs urban politics)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Hypothesis addresses European professional audience response to cultural vs analytical framing"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Measurement: CTR after 48 hours on LinkedIn with 5,000 impression minimum"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

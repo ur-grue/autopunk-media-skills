@@ -1,0 +1,89 @@
+{
+  "skill": "hashtag-strategy-writer",
+  "category": "social-media/strategy",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a tag bank of 20-30 tags organized into three tiers (Niche, Mid-Range, Broad) with clear tier labels"
+    },
+    {
+      "id": "A2",
+      "description": "Usage rules section contains 5-7 platform-specific guidelines, not generic social media advice"
+    },
+    {
+      "id": "A3",
+      "description": "At least one honest caveat about hashtag effectiveness is included"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "24 tags across three tiers with clear labels"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Usage rules address Instagram-specific mechanics including algorithm behavior"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caveat about declining hashtag effectiveness on Instagram included"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "22 tags across three tiers for TikTok"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Rules address TikTok's interest-based algorithm vs hashtag-driven discovery"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Honest note about TikTok hashtags being less important than content quality"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "26 tags including EU policy terminology across tiers"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "LinkedIn-specific guidance on 3-5 professional tags per post"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caveat about LinkedIn hashtag reach being less measurable than Instagram"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

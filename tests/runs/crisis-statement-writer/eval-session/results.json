@@ -1,0 +1,16 @@
+{
+  "skill": "crisis-statement-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "opens-with-empathy", "text": "Opens by naming the incident and acknowledging those affected", "type": "binary"},
+    {"id": "facts-separated", "text": "Confirmed facts clearly separated from what remains unknown", "type": "binary"},
+    {"id": "concrete-action", "text": "At least one concrete action named", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard safety incident", "opens-with-empathy": {"pass": true, "note": "Opens acknowledging the ceiling collapse and injury to two employees"}, "facts-separated": {"pass": true, "note": "Confirmed: collapse, injuries, discharge status. Unknown: cause (under investigation)"}, "concrete-action": {"pass": true, "note": "Actions: building evacuated, structural engineers assessing, investigation launched"}},
+    "input-02": {"description": "Minimal input", "opens-with-empathy": {"pass": true, "note": "Opens acknowledging data exposure affecting customers"}, "facts-separated": {"pass": true, "note": "Confirmed: 500 records, discovered internally, no malicious access. Unknown: root cause details"}, "concrete-action": {"pass": true, "note": "Action: software error patched, affected customers being notified"}},
+    "input-03": {"description": "European context", "opens-with-empathy": {"pass": true, "note": "Opens naming the adverse reaction and the participants condition"}, "facts-separated": {"pass": true, "note": "Confirmed: reaction, hospitalisation, stable condition. Unknown: cause of reaction"}, "concrete-action": {"pass": true, "note": "Actions: trial paused in three countries, agencies notified, independent review panel convened"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

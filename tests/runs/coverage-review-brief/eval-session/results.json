@@ -1,0 +1,10 @@
+{
+  "skill":"coverage-review-brief","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Search Strategy, Analysis Framework, Gap-Finding Questions, Coverage Density Assessment"},{"id":"A2","text":"Specific databases and search terms"},{"id":"A3","text":"Gap-finding questions topic-specific"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All four sections present"},{"id":"A2","pass":true,"note":"Factiva, LexisNexis, Google News with specific search terms including factory name variants and region"},{"id":"A3","pass":true,"note":"Questions specific: Are workers quoted directly? Is retraining coverage based on data or promises? Are family members of workers featured?"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present; scaled for simpler topic"},{"id":"A2","pass":true,"note":"Local outlets and transport publications named with search terms"},{"id":"A3","pass":true,"note":"Questions specific to bike-sharing: usage data, equity of station placement, comparison to other cities"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections present with international media scope"},{"id":"A2","pass":true,"note":"Portuguese and international property press named; specific search terms in Portuguese and English provided"},{"id":"A3","pass":true,"note":"Questions specific: Has anyone published housing price data post-programme end? Are investment displacement effects to Spain/Greece covered?"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

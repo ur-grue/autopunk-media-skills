@@ -1,0 +1,5 @@
+[
+  {"id":"standard","description":"Standard: pharma executive as potential whistleblower","input":{"source_name":"Dr. Sarah Chen","source_title":"Former Director of Clinical Trials, Vertex Therapeutics","topic":"Investigation into whether a widely marketed diabetes drug was approved based on incomplete trial data","intended_use":"Potential whistleblower — she left the company under disputed circumstances"}},
+  {"id":"minimal","description":"Minimal: local business owner as community source","input":{"source_name":"David Park","source_title":"Owner of Park's Hardware, downtown Main Street","topic":"Feature on downtown revitalization efforts","intended_use":"On-record community voice"}},
+  {"id":"european","description":"European: EU regulator as background source","input":{"source_name":"Dr. Hans-Peter Müller","source_title":"Former Head of Risk Assessment, European Chemicals Agency (ECHA)","topic":"Investigation into whether ECHA fast-tracked approval of a industrial chemical under pressure from member state governments","intended_use":"Background expert, potentially on-record if willing"}}
+]

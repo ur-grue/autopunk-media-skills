@@ -1,0 +1,20 @@
+{
+  "skill": "ab-social-post-tester",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains exactly two complete, ready-to-post variants with only one variable differing between them, plus a labeled variable being tested",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A hypothesis statement explains what it means if one variant outperforms the other, specific enough to inform future content decisions",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Measurement guidance specifies a concrete metric and minimum threshold for drawing conclusions",
+      "type": "binary"
+    }
+  ]
+}

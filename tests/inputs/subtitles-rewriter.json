@@ -1,0 +1,33 @@
+{
+  "skill": "subtitles-rewriter",
+  "test_cases": [
+    {
+      "id": "SRW-01",
+      "label": "standard",
+      "input": {
+        "platform": "Broadcast (US standard)",
+        "content_type": "Documentary interview — English dialogue",
+        "subtitle_text": "1\n00:05:22,100 --> 00:05:28,400\nwell the thing is nobody really understood what was happening until it was too late and by then the damage was already done and there was nothing anyone could do\n\n2\n00:05:28,800 --> 00:05:33,200\ni mean we tried we really tried but when you're dealing with a system that is fundamentally broken from the inside\n\n3\n00:05:33,500 --> 00:05:36,100\nthere's only so much one person can do you know\n\n4\n00:05:40,000 --> 00:05:46,500\nthe report said fifteen thousand people were affected fifteen thousand and that number keeps growing every year because nobody fixed the root cause"
+      }
+    },
+    {
+      "id": "SRW-02",
+      "label": "minimal",
+      "input": {
+        "platform": "Streaming",
+        "content_type": "Documentary narration",
+        "subtitle_text": "1\n00:00:05,000 --> 00:00:10,000\nfor forty years she worked the same land her father had worked before her"
+      }
+    },
+    {
+      "id": "SRW-03",
+      "label": "european_context",
+      "input": {
+        "platform": "Broadcast (UK/international standard)",
+        "content_type": "Documentary interview — foreign language dialogue (German), English subtitles",
+        "context": "Interview with a German railway engineer discussing infrastructure problems",
+        "subtitle_text": "1\n00:12:44,200 --> 00:12:50,800\nthe problem with the deutsche bahn is not the trains themselves the trains are fine the problem is thirty years of not investing in the infrastructure beneath them\n\n2\n00:12:51,100 --> 00:12:57,400\nwhen I started working for db in nineteen ninety two we had a maintenance schedule that was the envy of europe now we have bridges that should have been replaced ten years ago\n\n3\n00:12:57,800 --> 00:13:02,500\nand the federal government says oh we will invest we will invest but the money never comes or it comes too late\n\n4\n00:13:03,000 --> 00:13:08,200\nyou know what the real scandal is the real scandal is that everybody knows this every engineer every planner every politician and still nothing changes"
+      }
+    }
+  ]
+}

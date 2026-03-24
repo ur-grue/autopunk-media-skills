@@ -1,0 +1,20 @@
+{
+  "skill": "color-palette-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes 4-6 named colors each with a specific hex code, RGB value, and one-sentence usage note",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A palette rationale section explains the emotional logic of the color choices in 2-3 paragraphs",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "AI prompt color language section provides 3-5 specific phrase variations for different contexts",
+      "type": "binary"
+    }
+  ]
+}

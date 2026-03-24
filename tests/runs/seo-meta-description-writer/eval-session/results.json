@@ -1,0 +1,89 @@
+{
+  "skill": "seo-meta-description-writer",
+  "category": "social-media/content",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains two labeled variants (Keyword-Forward and Click-Through-Forward) each with character count in brackets, both at or under 155 characters"
+    },
+    {
+      "id": "A2",
+      "description": "The keyword-forward variant places the primary keyword within the first 60 characters"
+    },
+    {
+      "id": "A3",
+      "description": "A recommendation line explains which variant to deploy and why, specific to the input"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two variants with character counts, both under 155"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Keyword-Forward places 'documentary treatment' in first 52 chars"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Recommendation specific to documentary filmmaker audience"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Two variants under 155 chars with counts"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "'Podcast audience growth' within first 60 chars of Variant A"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Recommendation addresses ranking vs CTR tradeoff"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Both variants under 155 chars"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "'EU press freedom' in first 48 chars of Variant A"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Recommendation specific to policy audience and press freedom topic"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

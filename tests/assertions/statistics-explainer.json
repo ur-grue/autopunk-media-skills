@@ -1,0 +1,20 @@
+{
+  "skill": "statistics-explainer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output provides 2-3 factually equivalent rewrite options in plain language with no jargon",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "At least one rewrite uses a concrete comparison or real-world anchor (e.g. '1 in X')",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A key misinterpretation risk is named specifically, not generically",
+      "type": "binary"
+    }
+  ]
+}

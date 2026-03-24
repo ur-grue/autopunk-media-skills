@@ -1,0 +1,17 @@
+{
+  "skill": "show-notes-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains all labeled sections: Episode Description, Key Takeaways (4-6 bullet points), Episode Highlights, Guest Bio (if applicable), and Links & Resources"
+    },
+    {
+      "id": "A2",
+      "description": "Key takeaways are specific to this episode (not generic topic descriptions) and episode description contains the primary keyword in the first sentence"
+    },
+    {
+      "id": "A3",
+      "description": "Output includes a Next Step note specifying the immediate action (paste into platform, fill in links, or run related skills)"
+    }
+  ]
+}

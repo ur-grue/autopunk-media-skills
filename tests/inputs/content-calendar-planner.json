@@ -1,0 +1,35 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — personal development channel",
+    "input": {
+      "niche": "Evidence-based personal development and habit building",
+      "frequency": "Once a week (Tuesdays)",
+      "ideas": ["How to actually stick to a morning routine", "Why motivation is overrated (discipline vs. motivation debate)", "The science of breaking bad habits", "How to read 50 books a year without speed reading", "Productivity systems for people who hate productivity advice", "Monthly review system walkthrough"],
+      "fixed_dates": "Week 3 includes New Year resolution season follow-up timing",
+      "best_performers": "Tutorial and myth-busting videos",
+      "preferred_filming_days": "Weekends"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "niche": "Beginner guitar lessons and song tutorials",
+      "frequency": "Twice a week (Tuesday and Friday)",
+      "ideas": ["Easy 3-chord songs for absolute beginners", "How to read guitar tabs", "Common beginner strumming mistakes", "First barre chord tutorial", "Fingerpicking basics", "How to tune your guitar by ear"]
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Vienna-based classical music channel",
+    "input": {
+      "niche": "Classical music appreciation and concert culture in Europe for curious newcomers",
+      "frequency": "Once a week (Thursdays)",
+      "ideas": ["How to pick your first live classical concert", "Why Vienna is still the world capital of classical music", "The beginner's guide to understanding a symphony", "Opera versus concert — which should you attend first?", "5 pieces that will change how you hear classical music"],
+      "fixed_dates": "Week 2 coincides with the start of the Vienna Philharmonic's winter season",
+      "best_performers": "Beginner explainer videos and city-specific cultural guides",
+      "formats_to_test": "One YouTube Short this month"
+    }
+  }
+]

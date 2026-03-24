@@ -1,0 +1,19 @@
+{
+  "category": "newsletter/monetization",
+  "skills": {
+    "paid-tier-pitch-writer": {
+      "assertions": [
+        {"id": "specific-benefit", "text": "Paid benefit is described specifically enough that a free reader can picture exactly what they would gain", "type": "binary"},
+        {"id": "price-stated", "text": "Price is stated explicitly, not hidden until click-through", "type": "binary"},
+        {"id": "single-cta", "text": "CTA is one clear action, not a menu of options", "type": "binary"}
+      ]
+    },
+    "sponsorship-rate-card": {
+      "assertions": [
+        {"id": "specific-prices", "text": "Every placement option has a specific price", "type": "binary"},
+        {"id": "sponsor-language", "text": "Audience description uses sponsor-relevant language (professional titles, decision-making context)", "type": "binary"},
+        {"id": "terms-complete", "text": "Terms section is complete enough that a first-time sponsor knows what they are agreeing to", "type": "binary"}
+      ]
+    }
+  }
+}

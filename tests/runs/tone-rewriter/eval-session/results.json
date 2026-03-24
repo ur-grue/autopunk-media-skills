@@ -1,0 +1,36 @@
+{
+  "skill": "tone-rewriter",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Output contains the rewritten text followed by a tone shift note describing what changed"},
+    {"id": "A2", "text": "All facts, data, and figures from the original text are preserved exactly"},
+    {"id": "A3", "text": "Output includes a word count comparison line"}
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "Rewritten text followed by tone shift note identifying vocabulary, sentence structure, and voice changes"},
+        {"id": "A2", "pass": true, "note": "All facts preserved: bus network review, route planning, frequency scheduling, accessibility compliance, Q4 timeline"},
+        {"id": "A3", "pass": true, "note": "Word count comparison line present showing original and rewritten counts"}
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "Rewritten text with tone shift note present despite minimal input"},
+        {"id": "A2", "pass": true, "note": "12% decline and supply chain/consumer confidence causes preserved"},
+        {"id": "A3", "pass": true, "note": "Word count comparison included"}
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "Tone shift note describes conversion from EU regulatory language to plain-language explainer"},
+        {"id": "A2", "pass": true, "note": "All regulatory details preserved: Annex II, recyclability criteria, 18-month transposition, Article 258 TFEU"},
+        {"id": "A3", "pass": true, "note": "Word count comparison line present"}
+      ]
+    }
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

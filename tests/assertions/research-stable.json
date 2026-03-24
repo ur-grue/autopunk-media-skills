@@ -1,0 +1,110 @@
+{
+  "category": "research",
+  "skills": {
+    "expert-identifier": [
+      {"id": "A1", "assertion": "Output contains 3-5 expert categories, each tied to a specific story need with where-to-look suggestions"},
+      {"id": "A2", "assertion": "No named individuals appear in the output - only expert profiles and institutional categories"},
+      {"id": "A3", "assertion": "A diversity check section is included covering more than one dimension"}
+    ],
+    "biography-researcher": [
+      {"id": "A1", "assertion": "Output contains research categories with specific items to verify, suggested source types, pre-interview questions, and a red flags section"},
+      {"id": "A2", "assertion": "No fabricated biographical details - the template contains questions and categories, not invented facts"},
+      {"id": "A3", "assertion": "Pre-interview questions reference the research template and build on what research would establish"}
+    ],
+    "topic-background-brief": [
+      {"id": "A1", "assertion": "All content is traceable to the user's provided notes - nothing added from general knowledge"},
+      {"id": "A2", "assertion": "Contradictions in the notes are flagged explicitly rather than silently resolved"},
+      {"id": "A3", "assertion": "Open Questions are phrased as specific actionable research tasks, not vague observations"}
+    ],
+    "jargon-translator": [
+      {"id": "A1", "assertion": "Output contains three components: Glossary, Full Rewrite, and One-Sentence Summary"},
+      {"id": "A2", "assertion": "Every piece of jargon in the input is identified and translated in the glossary"},
+      {"id": "A3", "assertion": "Trade-offs between simplicity and precision are explicitly flagged in the rewrite"}
+    ],
+    "scientific-consensus-brief": [
+      {"id": "A1", "assertion": "Output contains four sections: Precise Question, Consensus Assessment, Key Evidence, and Reporting Pitfalls"},
+      {"id": "A2", "assertion": "Consensus is classified on the established spectrum: established, emerging, active debate, or fringe"},
+      {"id": "A3", "assertion": "Reporting pitfalls are specific to the topic, not generic science journalism warnings"}
+    ],
+    "scientific-paper-summarizer": [
+      {"id": "A1", "assertion": "Output contains five sections: Research Question, What They Did, What They Found, Limitations, and Bottom Line"},
+      {"id": "A2", "assertion": "Key findings include specific numbers or effect sizes, not just vague statements of association"},
+      {"id": "A3", "assertion": "Bottom line does not overstate or understate findings and reflects what the paper actually demonstrates"}
+    ],
+    "study-methodology-evaluator": [
+      {"id": "A1", "assertion": "Output contains five sections: Study Design, Sample Assessment, Measurement Assessment, Analytical Concerns, and Bottom Line"},
+      {"id": "A2", "assertion": "Study design is correctly classified with implications for causal inference clearly stated"},
+      {"id": "A3", "assertion": "Bottom line verdict rates methodological strength as strong, moderate, or weak with justification"}
+    ],
+    "corporate-structure-brief": [
+      {"id": "A1", "assertion": "Output contains Registry and Filing Sources, Ownership Trace Checklist, Governance and Personnel, and Red Flags sections"},
+      {"id": "A2", "assertion": "Registry sources are named specifically and are real accessible databases"},
+      {"id": "A3", "assertion": "Ownership trace provides a clear step-by-step process, not vague instructions"}
+    ],
+    "debate-state-summary": [
+      {"id": "A1", "assertion": "Output contains Core Question, Positions Map with 3-5 distinct positions, Points of Agreement, and Unresolved Questions"},
+      {"id": "A2", "assertion": "Each position includes argument, actors, and evidence - not straw men"},
+      {"id": "A3", "assertion": "Tone is neutral throughout - no position is described more sympathetically than another"}
+    ],
+    "funding-source-investigator": [
+      {"id": "A1", "assertion": "Output contains Mandatory Disclosures, Voluntary and Indirect Sources, Conflict-of-Interest Checklist, and Opacity Indicators"},
+      {"id": "A2", "assertion": "Database names are real and accessible, not generic references to public records"},
+      {"id": "A3", "assertion": "Output maintains journalistic neutrality - investigates funding without assuming wrongdoing"}
+    ],
+    "historical-precedent-finder": [
+      {"id": "A1", "assertion": "Output includes 2-4 precedents each with description, shared features, differences, analogy strength, and sources to consult"},
+      {"id": "A2", "assertion": "Each precedent includes both similarities AND differences - not just surface comparisons"},
+      {"id": "A3", "assertion": "A Misleading Analogies section identifies commonly cited comparisons that do not hold up"}
+    ],
+    "legislative-history-brief": [
+      {"id": "A1", "assertion": "Output contains Timeline Framework, Key Actors and Sources, and Turning Points sections"},
+      {"id": "A2", "assertion": "Source documents listed are specific and locatable, not generic references to government records"},
+      {"id": "A3", "assertion": "Turning points identify genuinely contested moments, not routine procedural steps"}
+    ],
+    "claim-origin-tracer": [
+      {"id": "A1", "assertion": "Output contains Claim Deconstruction, Citation Chain Trace, Distortion Detection, and Verification Steps"},
+      {"id": "A2", "assertion": "Claim is deconstructed into genuinely verifiable components with key questions for each"},
+      {"id": "A3", "assertion": "The plan maintains neutrality and does not assume the claim is true or false"}
+    ],
+    "legal-framework-brief": [
+      {"id": "A1", "assertion": "Output contains Legal Framework Overview, Grey Areas, Key Sources, and Common Reporting Mistakes"},
+      {"id": "A2", "assertion": "Key sources include specific statute names or section numbers where relevant"},
+      {"id": "A3", "assertion": "Output explicitly states it is not legal advice"}
+    ],
+    "coverage-review-brief": [
+      {"id": "A1", "assertion": "Output contains Search Strategy, Analysis Framework, Gap-Finding Questions, and Coverage Density Assessment"},
+      {"id": "A2", "assertion": "Search strategy includes specific databases and search terms, not just 'search for articles'"},
+      {"id": "A3", "assertion": "Gap-finding questions are specific to the topic, not a generic list"}
+    ],
+    "press-roundup-writer": [
+      {"id": "A1", "assertion": "Output opens with a one-paragraph overview followed by coverage organised by editorial frame"},
+      {"id": "A2", "assertion": "Coverage is organised by frame (how the story is told), not by outlet"},
+      {"id": "A3", "assertion": "Outlier coverage and gaps/absences are identified at the end"}
+    ],
+    "person-biography-brief": [
+      {"id": "A1", "assertion": "Output contains Source Checklist, Key Questions (10-15), and Verification Priorities (3-5)"},
+      {"id": "A2", "assertion": "Source checklist names specific databases and registries, not vague references"},
+      {"id": "A3", "assertion": "Output ends with Suggested Interview Angles derived from gaps in the public record"}
+    ],
+    "policy-decision-maker-mapper": [
+      {"id": "A1", "assertion": "Output contains Formal Decision Chain, Influence Ecosystem, Research Checklist, and Interview Priorities"},
+      {"id": "A2", "assertion": "Formal decision chain accurately reflects policy-making process for the specified jurisdiction"},
+      {"id": "A3", "assertion": "Interview priorities are justified with practical reasoning, not just 'interview the minister'"}
+    ],
+    "press-office-finder": [
+      {"id": "A1", "assertion": "Output contains Where to Look (numbered priority list), Outreach Template, and Pitfalls to Avoid"},
+      {"id": "A2", "assertion": "Contact sources are listed in order of reliability with specific instructions for each"},
+      {"id": "A3", "assertion": "Outreach template is professional, concise, and includes the journalist's key needs"}
+    ],
+    "publication-history-finder": [
+      {"id": "A1", "assertion": "Output contains Search Plan with specific databases, Tracking Framework template, and Red Flags section"},
+      {"id": "A2", "assertion": "Search tips include practical syntax advice for name variations and Boolean operators"},
+      {"id": "A3", "assertion": "Plan is tailored to the person's field and role, not a generic bibliography search"}
+    ],
+    "travel-logistics-brief": [
+      {"id": "A1", "assertion": "Output is a categorised checklist covering transport, accommodation, communications, equipment, safety, and local contacts"},
+      {"id": "A2", "assertion": "Items requiring long lead times are identified and marked"},
+      {"id": "A3", "assertion": "Output ends with a Pre-Departure Confirmation section listing 5-7 critical items"}
+    ]
+  }
+}

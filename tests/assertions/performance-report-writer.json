@@ -1,0 +1,17 @@
+{
+  "skill": "performance-report-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains four sections: Period Summary (with a metrics table), Performance Highlights, Areas for Attention, and Recommendations"
+    },
+    {
+      "id": "A2",
+      "description": "Recommendations are numbered and each is specific enough to become a calendar item (not generic advice like 'improve video quality')"
+    },
+    {
+      "id": "A3",
+      "description": "Standout video analysis identifies what made the top performer succeed beyond just restating its view count"
+    }
+  ]
+}

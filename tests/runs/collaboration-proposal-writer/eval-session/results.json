@@ -1,0 +1,36 @@
+{
+  "skill": "collaboration-proposal-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "strategic-opening", "text": "Opening paragraph frames the strategic opportunity, not logistics", "type": "binary"},
+    {"id": "mutual-benefit", "text": "Mutual benefit is specific and concrete for both parties", "type": "binary"},
+    {"id": "actionable-next-step", "text": "Closes with one specific actionable next step", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard cross-platform collaboration",
+      "strategic-opening": {"pass": true, "note": "Opens with the gap in investigative infrastructure journalism"},
+      "mutual-benefit": {"pass": true, "note": "Threadline: investigative capacity; City Journal: audio production — both named specifically"},
+      "actionable-next-step": {"pass": true, "note": "30-minute call proposed with specific week suggestion"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "strategic-opening": {"pass": true, "note": "Opens with opportunity for architecture content across formats"},
+      "mutual-benefit": {"pass": true, "note": "Video production vs expert writers and reach — specific"},
+      "actionable-next-step": {"pass": true, "note": "Specific ask: initial meeting or call"}
+    },
+    "input-03": {
+      "description": "European context",
+      "strategic-opening": {"pass": true, "note": "Opens with bilateral cultural storytelling opportunity between Vienna and Warsaw"},
+      "mutual-benefit": {"pass": true, "note": "Austrian music archives vs Polish national archives and broadcast — specific"},
+      "actionable-next-step": {"pass": true, "note": "Call proposed, referencing Prix Italia meeting"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

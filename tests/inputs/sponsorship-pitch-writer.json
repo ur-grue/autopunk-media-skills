@@ -1,0 +1,48 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — health and wellness podcast pitching supplement brand",
+    "input": {
+      "podcast_name": "Evidence Based",
+      "podcast_topic": "Health and nutrition science for people who want to separate evidence from marketing",
+      "audience_description": "Health-conscious adults 28-50 who are skeptical of wellness trends and want research-backed information",
+      "downloads_per_episode": 18000,
+      "monthly_downloads": 72000,
+      "brand": "A protein supplement company that uses third-party testing and publishes their lab results — positioned as the transparent alternative in a misleading market",
+      "offering": "Mid-roll host-read (60 sec), 4-episode minimum, host endorsement available (host has used the product for 8 months)",
+      "cpm_rate": "$45 CPM (~$810/episode)",
+      "audience_demographics": "62% 28-45, health-conscious professionals, 65% USA/Canada",
+      "email_list": "14,000 subscribers"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "podcast_name": "Maker's Corner",
+      "podcast_topic": "DIY crafts, woodworking, and handmade goods for hobby makers",
+      "audience_description": "Adults who enjoy making things by hand as a hobby, mostly weekend crafters",
+      "downloads_per_episode": 7500,
+      "monthly_downloads": 30000,
+      "brand": "An online craft supply store specializing in high-quality wood finishing products",
+      "offering": "Pre-roll (30 sec) host-read, 4-episode minimum"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European history podcast pitching travel company",
+    "input": {
+      "podcast_name": "Centuries",
+      "podcast_topic": "European history from the medieval period to the 20th century, told through specific places, events, and individuals",
+      "audience_description": "History enthusiasts and European travelers aged 30-55 who enjoy visiting the places they learn about. Many plan trips around historical sites.",
+      "downloads_per_episode": 25000,
+      "monthly_downloads": 100000,
+      "brand": "A European cultural tour company offering small-group guided tours of historical cities (Rome, Prague, Istanbul, Edinburgh, Vienna), priced at 1,500-3,500 EUR per tour",
+      "offering": "Mid-roll host-read (60 sec), 6-episode minimum across two months, with a dedicated 'History Travel Guide' bonus episode sponsored by the brand",
+      "cpm_rate": "50 EUR CPM (~1,250 EUR/episode for mid-roll)",
+      "audience_demographics": "55% 35-55, high education level, top markets UK (22%), USA (20%), Germany (12%), Netherlands (8%), France (7%)",
+      "notable_guests": "University historians, museum curators, heritage site directors",
+      "email_list": "21,000 subscribers"
+    }
+  }
+]

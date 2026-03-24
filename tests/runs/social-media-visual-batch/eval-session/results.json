@@ -1,0 +1,89 @@
+{
+  "skill": "social-media-visual-batch",
+  "category": "image-prompting/workflows",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a visual anchor string and one distinct prompt per image with no two images sharing the same composition type"
+    },
+    {
+      "id": "A2",
+      "description": "Each image has a content note specifying when/how to post it in a content calendar"
+    },
+    {
+      "id": "A3",
+      "description": "A Next Step note recommends which image to generate first and whether to check grid layout"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor string plus 6 prompts with varied compositions (close/medium/wide)"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Each image has specific posting day and caption direction"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Next Step recommends generating Image 3 first; notes Instagram grid check"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor string plus 5 prompts with composition variety"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Content notes suggest weekly posting schedule"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Next Step provides generation order recommendation"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor string for industrial European aesthetic plus 7 prompts"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Each image maps to specific day in two-week LinkedIn campaign"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Next Step addresses LinkedIn grid considerations and first-image recommendation"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

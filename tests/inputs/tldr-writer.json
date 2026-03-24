@@ -1,0 +1,23 @@
+{
+  "skill": "tldr-writer",
+  "test_cases": [
+    {
+      "id": "standard",
+      "input": {
+        "text": "A consortium of six universities has launched a three-year research programme to investigate the long-term cognitive effects of remote work on knowledge workers. The study will follow 4,000 participants across four countries, measuring attention span, decision-making quality, and creative problem-solving capacity at six-month intervals. Funding comes from a national research council grant worth approximately 8 million euros. The lead researcher said previous studies had focused on productivity metrics but ignored cognitive changes that only emerge over years. Early pilot data suggested that remote workers showed improved deep-focus performance but measurably reduced spontaneous idea generation compared to office-based counterparts."
+      }
+    },
+    {
+      "id": "minimal",
+      "input": {
+        "text": "A city council voted 7-2 to approve a new housing development on the former hospital site. Construction is expected to begin in spring and deliver 240 homes over three phases."
+      }
+    },
+    {
+      "id": "european",
+      "input": {
+        "text": "Germany's Federal Constitutional Court has ruled that the government's 2024 supplementary budget was unconstitutional, finding that the transfer of 60 billion euros in unused pandemic emergency funds to the Climate and Transformation Fund violated the constitutional debt brake. The ruling forces the government to find alternative financing for key climate and industrial policy programmes, including building insulation subsidies, electric vehicle incentives, and semiconductor factory investments. Coalition partners disagree on how to close the gap, with the Greens pushing for a reform of the debt brake itself and the FDP insisting on spending cuts. Opposition parties have called for a confidence vote. The ruling affects not only the federal budget but also several state-level programmes that relied on similar fund transfers."
+      }
+    }
+  ]
+}

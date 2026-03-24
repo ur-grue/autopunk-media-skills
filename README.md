@@ -1,6 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-95.6%25_pass_rate-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate_(226_skills)-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
 ---
 
@@ -258,9 +258,9 @@ Short version:
 
 ## Quality Testing
 
-The top 20 skills have been tested against binary assertions using 5 diverse inputs each (standard, niche, minimal, European, vague). **95.6% pass rate across 500 assertion checks.** 14 of 20 skills scored 100%.
+**226 skills tested** against binary assertions using diverse inputs (standard, minimal, European context). **2,354 / 2,390 checks passed (98.5%).** Radio/Audio and PR/Communications scored 100%.
 
-All failures occurred on deliberately vague inputs where the skill correctly refused to fabricate content from insufficient information — the desired professional behavior.
+All 36 failures occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
 
 Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [`tests/README.md`](tests/README.md)
 

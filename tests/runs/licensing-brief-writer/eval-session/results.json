@@ -1,0 +1,36 @@
+{
+  "skill": "licensing-brief-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "licence-types-correct", "text": "Correctly identifies all licence types needed", "type": "binary"},
+    {"id": "rights-holder-specific", "text": "Rights holder identification names the type of organisation to approach", "type": "binary"},
+    {"id": "key-terms-covered", "text": "Key terms section covers territory, duration, platform, exclusivity, and fee basis", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard music licensing",
+      "licence-types-correct": {"pass": true, "note": "Sync licence and master licence correctly identified as separate requirements"},
+      "rights-holder-specific": {"pass": true, "note": "Record label and music publisher identified as separate organisations to approach"},
+      "key-terms-covered": {"pass": true, "note": "All five key terms covered with specific recommendations"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "licence-types-correct": {"pass": true, "note": "Copyright holder research path identified for photograph"},
+      "rights-holder-specific": {"pass": true, "note": "Library, photographer registry, or photo agency identified"},
+      "key-terms-covered": {"pass": true, "note": "Territory, duration, and platform covered; exclusivity and fee basis addressed"}
+    },
+    "input-03": {
+      "description": "European context",
+      "licence-types-correct": {"pass": true, "note": "Archive footage licence correctly identified; INA as likely rights holder"},
+      "rights-holder-specific": {"pass": true, "note": "INA named specifically as the archive to approach"},
+      "key-terms-covered": {"pass": true, "note": "All five terms covered with European broadcast and Arte-specific context"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "A1",
+    "description": "Output is a numbered checklist with Claim, Claim Type, Required Evidence, and Risk Level for each item",
+    "check": "binary_format"
+  },
+  {
+    "id": "A2",
+    "description": "Every specific verifiable claim in the draft appears in the checklist — no omissions",
+    "check": "binary_completeness"
+  },
+  {
+    "id": "A3",
+    "description": "Output includes a Summary section and a Next Step note at the end",
+    "check": "binary_presence"
+  }
+]

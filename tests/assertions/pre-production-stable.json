@@ -1,0 +1,10 @@
+{
+  "category": "pre-production",
+  "skills": {
+    "interview-question-catalogue": [
+      {"id": "A1", "assertion": "Output contains 3-5 thematic blocks with 3-5 questions each, totalling 15-25 questions"},
+      {"id": "A2", "assertion": "At least one question is marked [MUST-ASK] and directly addresses the core angle"},
+      {"id": "A3", "assertion": "Output ends with 1-2 closing questions clearly labelled, giving the subject space for unrehearsed answers"}
+    ]
+  }
+}

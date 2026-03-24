@@ -1,0 +1,17 @@
+{
+  "skill": "guest-research-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains all five sections: Guest Overview, Key Work Summary, Most Interesting Angle, Ground Already Covered, and Suggested Questions (5-7)"
+    },
+    {
+      "id": "A2",
+      "description": "Most Interesting Angle identifies a specific tension or question, not a generic description of the guest's importance"
+    },
+    {
+      "id": "A3",
+      "description": "Suggested questions are open-ended (no yes/no) and go beyond standard interview territory, with a Next Step note"
+    }
+  ]
+}

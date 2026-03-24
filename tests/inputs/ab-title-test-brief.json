@@ -1,0 +1,37 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — tech tutorial channel",
+    "input": {
+      "video_topic": "How to automate your daily standup reports using Python scripts and Slack integrations",
+      "main_argument": "A 20-line Python script can save engineering teams 15 minutes per person per day by auto-generating standup summaries from Git commits and Jira tickets",
+      "target_viewer": "Software engineers tired of writing repetitive daily standup messages",
+      "current_title": "Automate Your Daily Standups with Python",
+      "channel_niche": "Developer automation and workflow tools",
+      "well_performing_titles": ["Why I Stopped Using Jira (And What I Use Instead)", "The Terminal Setup That 10x'd My Productivity"]
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "video_topic": "Best budget cameras for starting a YouTube channel in 2026",
+      "main_argument": "You can produce professional-looking YouTube content with a camera under $500 if you understand the three settings that matter most",
+      "target_viewer": "Aspiring YouTube creators who don't want to overspend on gear before proving the concept",
+      "current_title": "Best Budget Cameras for YouTube 2026"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — German travel vlog channel",
+    "input": {
+      "video_topic": "Hidden day trips from Berlin that most tourists miss — focusing on Brandenburg lakes and former East German towns",
+      "main_argument": "The best day trips from Berlin cost under 20 euros in transport and are within 90 minutes by regional train, but they never appear in standard tourist guides",
+      "target_viewer": "English-speaking expats and tourists in Berlin looking for authentic local experiences beyond the typical sightseeing",
+      "current_title": "Day Trips from Berlin You Haven't Heard Of",
+      "channel_niche": "Budget travel in Central Europe for English-speaking visitors",
+      "well_performing_titles": ["Why Prague Is NOT What You Expected", "I Spent 7 Days in Vienna on 50 Euros a Day"],
+      "competitor_titles": ["10 Best Day Trips from Berlin", "Berlin Day Trip Guide 2026"]
+    }
+  }
+]

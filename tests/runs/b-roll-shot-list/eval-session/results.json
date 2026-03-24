@@ -1,0 +1,47 @@
+{
+  "skill": "b-roll-shot-list",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/b-roll-shot-list.json",
+  "assertions_file": "tests/assertions/b-roll-shot-list.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — woodworking tutorial",
+      "output_summary": "Generated 26 shots organized by script section. Shot types varied: WIDE, CLOSE-UP, INSERT, MEDIUM, TIME-LAPSE SUGGESTION. Each shot specific: '[CLOSE-UP] Glue bead along board edge, slight squeeze-out visible as clamps tighten.' Shoot Day Notes group by setup: raw lumber shots first, process shots in order, hero/finished product shots last.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Numbered shots under bold section headers, shot type in brackets, subject description, purpose note." },
+        "A2": { "pass": true, "note": "Descriptions are filmable without interpretation. Shot types varied across WIDE, CLOSE-UP, INSERT, MEDIUM, TIME-LAPSE." },
+        "A3": { "pass": true, "note": "Shoot Day Notes section present with logical groupings." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Generated 16 shots for a shorter, simpler video. Shot types appropriately limited to what's achievable at a desk. Each shot specific to the keyboard cleaning process. Shoot Day Notes minimal but present.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Correct format throughout. Proportionally fewer shots for a simpler topic." },
+        "A2": { "pass": true, "note": "Specific descriptions. Shot types varied within the constraints of a desk setup." },
+        "A3": { "pass": true, "note": "Shoot Day Notes present, groups setup/before shots separately from process shots." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Italian pasta making tutorial",
+      "output_summary": "Generated 30 shots emphasizing hand technique and texture per the Italian kitchen aesthetic. Macro lens noted as available and incorporated for dough texture close-ups. Cultural details preserved: mattarello technique, tipo 00 flour, Parmigiano. Shoot Day Notes group by kitchen setup stages. Flags that natural light from the window should be checked before filming.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Full format with section headers matching the script. Purpose notes explain editorial intent." },
+        "A2": { "pass": true, "note": "Highly specific: '[MACRO] Flour dust rising as hands fold dough on wooden board — tactile texture detail.' Varied shot types including macro." },
+        "A3": { "pass": true, "note": "Shoot Day Notes group by setup stage and flag natural light timing." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

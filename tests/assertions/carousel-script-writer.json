@@ -1,0 +1,20 @@
+{
+  "skill": "carousel-script-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains numbered slides with headlines (max 8 words each) and body text (max 25 words per slide), each slide clearly separated and labeled",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Slide 1 is a hook (question, claim, or statistic) and the final slide contains a specific CTA beyond just 'follow for more'",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "An accompanying caption of 75-200 words is included that works as standalone text",
+      "type": "binary"
+    }
+  ]
+}

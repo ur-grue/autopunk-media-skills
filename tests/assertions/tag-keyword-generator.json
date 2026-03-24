@@ -1,0 +1,20 @@
+{
+  "skill": "tag-keyword-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains three tiered keyword lists (Core, Niche, Long-Tail) with a total of 15-20 tags formatted for the stated platform",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "No keyword is repeated across tiers",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A keyword gap insight is provided that is specific and actionable, not a vague suggestion",
+      "type": "binary"
+    }
+  ]
+}

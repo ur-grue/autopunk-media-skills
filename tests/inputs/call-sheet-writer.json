@@ -1,0 +1,68 @@
+{
+  "skill": "call-sheet-writer",
+  "test_cases": [
+    {
+      "id": "CSW-01",
+      "label": "standard",
+      "input": {
+        "production_title": "The Longest Shift",
+        "shoot_date": "22 April 2026",
+        "location": "Mercy General Hospital, 450 Oak Avenue, Portland, OR 97204. Enter through the administrative entrance on the south side. Visitor parking in Lot B.",
+        "nearest_hospital": "N/A — filming at the hospital itself",
+        "general_call_time": "06:00",
+        "crew": [
+          {"name": "Sarah Chen", "role": "Director"},
+          {"name": "David Okoro", "role": "Camera Operator"},
+          {"name": "Lin Park", "role": "Sound Recordist"},
+          {"name": "Mia Torres", "role": "Production Assistant"}
+        ],
+        "talent": [
+          {"name": "Nurse Rachel Adams", "call_time": "07:30", "notes": "Available until 14:00 only — starts her actual shift at 15:00"},
+          {"name": "Dr. Kenji Tanaka", "call_time": "09:00", "notes": "20-minute interview only — between surgeries"}
+        ],
+        "catering": "Coffee and pastries provided by production. Lunch in hospital cafeteria — production covers crew meals.",
+        "notes": "Hospital requires all crew to wear ID badges at all times. No filming in patient areas without written consent from patients visible on camera. Sound levels must be kept low in corridors."
+      }
+    },
+    {
+      "id": "CSW-02",
+      "label": "minimal",
+      "input": {
+        "production_title": "Summer Days",
+        "shoot_date": "15 July 2026",
+        "location": "Greenfield Park, Main Street, Greenfield",
+        "general_call_time": "09:00",
+        "crew": [
+          {"name": "Tom Reeves", "role": "Director / Camera"}
+        ],
+        "talent": [
+          {"name": "Local resident (TBC)", "call_time": "10:00", "notes": "Short interview"}
+        ]
+      }
+    },
+    {
+      "id": "CSW-03",
+      "label": "european_context",
+      "input": {
+        "production_title": "Border Languages",
+        "episode": "Episode 2 — Alsatian",
+        "shoot_date": "11 September 2026",
+        "location": "Chapelle Saint-Louis, 14 Rue de la Paix, Strasbourg, 67000, France. Enter through the main door. Street parking on Rue de la Paix — arrive early, limited spaces.",
+        "nearest_hospital": "Hôpitaux Universitaires de Strasbourg, 1 Place de l'Hôpital, 67000 Strasbourg (8 min drive)",
+        "general_call_time": "08:00",
+        "crew": [
+          {"name": "Katja Fischer", "role": "Director"},
+          {"name": "Antoine Morel", "role": "Camera Operator"},
+          {"name": "Sophia Brandt", "role": "Sound Recordist"}
+        ],
+        "talent": [
+          {"name": "Père Michel Laurent", "call_time": "08:30", "notes": "Brief pre-interview conversation; service begins at 10:00"},
+          {"name": "Hélène Zimmer", "call_time": "12:00", "notes": "60-minute interview after the service"}
+        ],
+        "catering": "Lunch at Brasserie du Coin, 5 min walk, booked for 13:30",
+        "weather": "Forecast: 18°C, partly cloudy, no rain expected",
+        "notes": "Filming during service: camera must be stationary at rear of chapel, no flash, no movement during prayers. Director has agreed placement with Père Laurent. All crew to dress respectfully. French language on set — Katja and Sophia speak French; Antoine is native."
+      }
+    }
+  ]
+}

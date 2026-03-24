@@ -1,0 +1,33 @@
+{
+  "category": "media-business/distribution",
+  "skills": {
+    "press-release-writer-mb": {
+      "assertions": [
+        {"id": "headline-under-12", "text": "Headline states the news in under 12 words with no superlatives", "type": "binary"},
+        {"id": "lead-5ws", "text": "Lead paragraph answers who, what, when, and where without requiring the reader to continue", "type": "binary"},
+        {"id": "no-marketing-language", "text": "No marketing language (groundbreaking, must-see, landmark, revolutionary) anywhere in the copy", "type": "binary"}
+      ]
+    },
+    "festival-strategy-brief": {
+      "assertions": [
+        {"id": "tiered-festivals", "text": "Output contains at least two tiers of named, specific festivals", "type": "binary"},
+        {"id": "premiere-status", "text": "Sequencing advice identifies which festivals require world premiere status", "type": "binary"},
+        {"id": "next-step", "text": "Output ends with a concrete Next Step note specifying an immediate action", "type": "binary"}
+      ]
+    },
+    "streaming-platform-pitch": {
+      "assertions": [
+        {"id": "platform-specific", "text": "Opening section names the target platform and makes a specific audience-fit case", "type": "binary"},
+        {"id": "comparable-on-platform", "text": "Comparable titles section includes at least one title already on the target platform", "type": "binary"},
+        {"id": "no-generic-pitch", "text": "No generic pitch language such as 'a story that needs to be told' or 'audiences will love'", "type": "binary"}
+      ]
+    },
+    "distributor-outreach-email": {
+      "assertions": [
+        {"id": "under-250-words", "text": "Email body is under 250 words including sign-off", "type": "binary"},
+        {"id": "screener-offered", "text": "Screener access is offered concretely, not vaguely", "type": "binary"},
+        {"id": "specific-ask", "text": "Closing ask is specific: a screener link, a market meeting, or a call", "type": "binary"}
+      ]
+    }
+  }
+}

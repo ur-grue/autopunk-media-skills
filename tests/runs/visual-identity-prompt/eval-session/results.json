@@ -1,0 +1,89 @@
+{
+  "skill": "visual-identity-prompt",
+  "category": "image-prompting/art-direction",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Visual Identity Statement, Six Dimensions, Reference Points, What This Identity Is Not, Master AI Prompt String, and Asset Application Guide"
+    },
+    {
+      "id": "A2",
+      "description": "Reference points include specific quality citations explaining what attribute is being borrowed, not just names"
+    },
+    {
+      "id": "A3",
+      "description": "Master AI prompt string is formatted as a ready-to-copy code block"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All six sections present: statement, dimensions, references, exclusions, prompt string, asset guide"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "CJR reference cites 'editorial authority without institutional weight'; Montgomery cites 'documentary portraiture of working journalists'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Master prompt string in code block"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All sections present with appropriate depth for minimal input"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "References cite specific visual qualities not just names"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Code block prompt string included"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All sections with Mediterranean-specific visual language"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Ceylan reference cites 'contemplative pace and landscape-as-character'; Magnum reference cites 'occupied Mediterranean spaces'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Prompt string formatted as code block"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,94 @@
+{
+  "subcategory": "post-production",
+  "category": "tv-documentary",
+  "skills": {
+    "press-kit-generator": {
+      "assertions": [
+        {
+          "id": "PKG-A1",
+          "type": "binary",
+          "description": "Output contains all required sections: Film Details, Logline, Short Synopsis (50 words), Medium Synopsis (150 words), Long Synopsis (400 words), Production Notes, Key Subjects, About the Director, Credits",
+          "source": "Output Format"
+        },
+        {
+          "id": "PKG-A2",
+          "type": "binary",
+          "description": "Three synopsis lengths are genuinely different in scope — not just truncated versions of each other",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "PKG-A3",
+          "type": "binary",
+          "description": "All sections are publication-ready with no placeholders or internal-document language, and output includes a Next Step note",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "transcript-timecoder": {
+      "assertions": [
+        {
+          "id": "TTC-A1",
+          "type": "binary",
+          "description": "Output includes a header block with source, start TC, frame rate, and an estimation disclaimer about accuracy",
+          "source": "Output Format"
+        },
+        {
+          "id": "TTC-A2",
+          "type": "binary",
+          "description": "Timecodes progress sequentially, are in correct format for the frame rate (FF values within valid range), and do not split mid-sentence",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "TTC-A3",
+          "type": "binary",
+          "description": "Speaker labels are consistent throughout and timecodes are placed at the intervals specified by the user (speaker changes, fixed intervals, or both)",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "rough-cut-notes": {
+      "assertions": [
+        {
+          "id": "RCN-A1",
+          "type": "binary",
+          "description": "Output contains tiered sections: Structural Notes, Sequence-Level Notes, Pacing Notes, Narrative/Character Notes, and Positive Observations",
+          "source": "Output Format"
+        },
+        {
+          "id": "RCN-A2",
+          "type": "binary",
+          "description": "Every note is paired with a specific suggested fix — not just identification of problems but actionable solutions",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "RCN-A3",
+          "type": "binary",
+          "description": "Notes are numbered for reference, in priority order, and output includes a Next Step note identifying the single highest-priority change",
+          "source": "Quality Criteria"
+        }
+      ]
+    },
+    "subtitles-rewriter": {
+      "assertions": [
+        {
+          "id": "SRW-A1",
+          "type": "binary",
+          "description": "Output subtitle blocks have maximum 42 characters per line and maximum 2 lines per block (for broadcast standard)",
+          "source": "Output Format"
+        },
+        {
+          "id": "SRW-A2",
+          "type": "binary",
+          "description": "Line breaks occur at grammatical boundaries — not mid-phrase — and proper nouns are corrected where auto-generation produced errors",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "SRW-A3",
+          "type": "binary",
+          "description": "Output includes a Changes Log that records every correction made with the reason for each change",
+          "source": "Output Format + Quality Criteria"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "brand-deal-pitch-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Opening paragraph demonstrates audience relevance to the brand and does NOT open with channel name or subscriber count"
+    },
+    {
+      "id": "A2",
+      "description": "Output is in professional email format with a subject line, and the total length is 250-350 words"
+    },
+    {
+      "id": "A3",
+      "description": "Rate or rate range is stated clearly and without apology, and a specific integration format is proposed"
+    }
+  ]
+}

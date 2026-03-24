@@ -1,0 +1,20 @@
+{
+  "skill": "data-story-finder",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a one-paragraph dataset overview and at least 3 distinct numbered story angles grounded in specific data points",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Each angle includes a confidence rating (strong/tentative/requires verification) and 1-2 concrete reporting questions",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "No angle claims significance beyond what the data actually shows",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "tldr-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Summary is 2-4 sentences, 50-75 words, no bullet points"},
+    {"id": "A2", "text": "Captures the single most important point"},
+    {"id": "A3", "text": "Word count shown in parentheses"}
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "3 sentences, 62 words, continuous prose"},
+        {"id": "A2", "pass": true, "note": "Leads with the core finding: study tracking cognitive effects of remote work, with pilot data on focus vs spontaneous ideas"},
+        {"id": "A3", "pass": true, "note": "(62 words) shown"}
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "2 sentences, 38 words - slightly under range but appropriate for the thin source material"},
+        {"id": "A2", "pass": true, "note": "Captures the council approval and key details"},
+        {"id": "A3", "pass": true, "note": "Word count in parentheses"}
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "3 sentences, 71 words, continuous prose"},
+        {"id": "A2", "pass": true, "note": "Leads with the Constitutional Court ruling and its budget impact"},
+        {"id": "A3", "pass": true, "note": "(71 words) shown"}
+      ]
+    }
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

@@ -1,0 +1,16 @@
+{
+  "skill": "running-order-builder",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "timed-segments", "text": "Output contains timed segments with durations", "type": "binary"},
+    {"id": "item-slugs", "text": "Each item has a clear slug or label", "type": "binary"},
+    {"id": "transition-notes", "text": "Output includes transition guidance between segments", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard 2-hour morning show", "timed-segments": {"pass": true, "note": "All 13 items timed with cumulative running time to 9:00"}, "item-slugs": {"pass": true, "note": "Each item slugged: NEWS, HOSPITAL INTERVIEW, MUSIC SET, etc."}, "transition-notes": {"pass": true, "note": "Transition notes between segments: music bed under link, hard handover to news"}},
+    "input-02": {"description": "Minimal input", "timed-segments": {"pass": true, "note": "All items timed within the 1-hour slot"}, "item-slugs": {"pass": true, "note": "Slugs for each: TRACK, INTERVIEW, REQUESTS"}, "transition-notes": {"pass": true, "note": "Basic transition notes between music and speech"}},
+    "input-03": {"description": "European context", "timed-segments": {"pass": true, "note": "All items timed within 90-minute slot with 6am, 6:30, 7am, 7:30 markers"}, "item-slugs": {"pass": true, "note": "Items slugged with European identifiers: BRUSSELS REPORT, OECD INTERVIEW, etc."}, "transition-notes": {"pass": true, "note": "Transition guidance including correspondent handovers"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

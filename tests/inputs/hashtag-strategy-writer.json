@@ -1,0 +1,29 @@
+{
+  "skill": "hashtag-strategy-writer",
+  "category": "social-media/strategy",
+  "inputs": [
+    {
+      "label": "standard",
+      "platform": "Instagram",
+      "subject": "A documentary photography account focused on urban decay and abandoned architecture",
+      "account_type": "Documentary photographer",
+      "followers": 3400,
+      "goal": "Reach new followers interested in architecture and photography"
+    },
+    {
+      "label": "minimal",
+      "platform": "TikTok",
+      "subject": "Data journalism tutorials",
+      "account_type": "Freelance journalist"
+    },
+    {
+      "label": "european",
+      "platform": "LinkedIn",
+      "subject": "European media policy and public broadcasting reform",
+      "account_type": "Media policy think tank based in Brussels",
+      "followers": 8200,
+      "geographic_focus": "EU member states",
+      "campaign": "New report on public media funding models"
+    }
+  ]
+}

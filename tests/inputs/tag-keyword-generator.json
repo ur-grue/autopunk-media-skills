@@ -1,0 +1,26 @@
+{
+  "skill": "tag-keyword-generator",
+  "category": "social-media/strategy",
+  "inputs": [
+    {
+      "label": "standard",
+      "title": "How to Conduct an Interview for Documentary Film",
+      "summary": "A YouTube tutorial covering preparation, question design, technical setup, and how to create a safe space for subjects to open up. Aimed at first-time documentary filmmakers.",
+      "platform": "YouTube",
+      "audience": "Beginner documentary filmmakers"
+    },
+    {
+      "label": "minimal",
+      "title": "Freelance Journalism Invoice Template",
+      "summary": "A blog post providing a free downloadable invoice template for freelance journalists.",
+      "platform": "WordPress/CMS"
+    },
+    {
+      "label": "european",
+      "title": "Understanding EU Media Regulation: A Guide for Journalists",
+      "summary": "A podcast episode explaining the European Media Freedom Act, the Digital Services Act, and GDPR as they affect working journalists. Covers practical implications for newsrooms in EU member states. Features interviews with media lawyers in Berlin and Brussels.",
+      "platform": "Podcast directories (Apple Podcasts, Spotify)",
+      "audience": "Working journalists in the EU"
+    }
+  ]
+}

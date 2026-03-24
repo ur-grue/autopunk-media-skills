@@ -1,0 +1,16 @@
+{
+  "skill": "programme-brief-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "format-described", "text": "Output describes the programme format including duration and structure", "type": "binary"},
+    {"id": "audience-defined", "text": "Target audience is defined with specifics", "type": "binary"},
+    {"id": "editorial-aims", "text": "Editorial aims and tone are articulated clearly", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard new show proposal", "format-described": {"pass": true, "note": "1 hour, weekly, features/interviews/listener interaction structure described"}, "audience-defined": {"pass": true, "note": "30-55, socially engaged, frustrated by negative news — specific psychographic"}, "editorial-aims": {"pass": true, "note": "Solutions journalism aims with optimistic-but-not-naive tone defined"}},
+    "input-02": {"description": "Minimal input", "format-described": {"pass": true, "note": "2 hours, weekday afternoons, music and talk format described"}, "audience-defined": {"pass": true, "note": "Community radio local audience defined"}, "editorial-aims": {"pass": true, "note": "Local arts and culture focus articulated"}},
+    "input-03": {"description": "European context", "format-described": {"pass": true, "note": "45 minutes, fortnightly, single-topic documentary format with on-demand and live"}, "audience-defined": {"pass": true, "note": "35+ European documentary listeners, cultural identity interest"}, "editorial-aims": {"pass": true, "note": "Intimate, journalistic aims for border region storytelling clearly stated"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

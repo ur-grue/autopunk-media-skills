@@ -1,0 +1,47 @@
+{
+  "skill": "chapter-timestamps",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/chapter-timestamps.json",
+  "assertions_file": "tests/assertions/chapter-timestamps.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — photography tutorial script",
+      "output_summary": "Generated 7 chapters from 0:00 to approximately 14:00. First timestamp 0:00. Chapter names viewer-facing: 'Why Light Is the Only Setting That Matters' (not 'Cold open'), 'Window Light Portrait Setup', 'One-Light Studio Technique', 'Golden Hour Outdoor Portraits', 'Editing Light in Post', 'Download the Lighting Cheat Sheet'. Note explains timestamps estimated at ~140 wpm with cold open/intro merged.",
+      "assertions": {
+        "A1": { "pass": true, "note": "First timestamp 0:00, all in M:SS format, one per line, paste-ready." },
+        "A2": { "pass": true, "note": "All chapter names are viewer-facing descriptions, not script labels." },
+        "A3": { "pass": true, "note": "Estimation note included. Flags that cold open timing may compress." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — short cooking video outline",
+      "output_summary": "Generated 5 chapters for an 8-minute video. Starts at 0:00. Chapter names: 'The Finished Dish', 'What You'll Need', 'Making the Dough', 'Building the Filling', 'Assemble, Bake, and Taste'. Note explains these are rough estimates from an outline.",
+      "assertions": {
+        "A1": { "pass": true, "note": "0:00 first, M:SS format, paste-ready." },
+        "A2": { "pass": true, "note": "Viewer-facing names. 'Building the Filling' not 'Step 2: Make the filling'." },
+        "A3": { "pass": true, "note": "Note explains estimates are rough due to outline-only input." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Berlin architecture walking tour",
+      "output_summary": "Generated 8 chapters for a 20-minute video. Location-focused names as requested: 'The Story of This Street', 'The Reichstag and Its Glass Dome', 'The Holocaust Memorial', 'Checkpoint Charlie — History vs. Tourism', 'East Side Gallery and the Wall', 'Fernsehturm: East Berlin's Tower', 'How Architecture Remembers'. Note explains location-based timing may vary with on-site delivery pace.",
+      "assertions": {
+        "A1": { "pass": true, "note": "0:00 first, all M:SS or MM:SS format, paste-ready." },
+        "A2": { "pass": true, "note": "Location-focused descriptive names matching the requested style. 3-6 words each." },
+        "A3": { "pass": true, "note": "Note explains estimation method and flags that walking-tour delivery is less predictable than studio content." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

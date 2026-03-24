@@ -1,0 +1,93 @@
+{
+  "skill_name": "statistics-fact-checker",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Every statistic in the input is individually assessed with an Issue Type label",
+    "Recommended fixes are specific and actionable (not generic like 'needs more context')",
+    "Output ends with a summary and a Next Step note"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard test: health policy article with mixed statistics",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Every statistic in the input is individually assessed with an Issue Type label",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Recommended fixes are specific and actionable (not generic like 'needs more context')",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a summary and a Next Step note",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal test: single statistic with limited context",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Every statistic in the input is individually assessed with an Issue Type label",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Recommended fixes are specific and actionable (not generic like 'needs more context')",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a summary and a Next Step note",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European context: EU migration statistics",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Every statistic in the input is individually assessed with an Issue Type label",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Recommended fixes are specific and actionable (not generic like 'needs more context')",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a summary and a Next Step note",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

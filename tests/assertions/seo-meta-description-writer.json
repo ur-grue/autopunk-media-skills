@@ -1,0 +1,20 @@
+{
+  "skill": "seo-meta-description-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains two labeled variants (Keyword-Forward and Click-Through-Forward) each with character count in brackets, both at or under 155 characters",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "The keyword-forward variant places the primary keyword within the first 60 characters",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A recommendation line explains which variant to deploy and why, specific to the input",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "skill": "cross-promotion-pitch",
+  "category": "social-media/strategy",
+  "inputs": [
+    {
+      "label": "standard",
+      "my_account": "DEEP CUTS \u2014 a podcast about the business of music journalism, 8,000 subscribers",
+      "target": "PRESS PLAY \u2014 a newsletter covering the intersection of technology and music, 15,000 subscribers. Recently published a well-researched piece on AI-generated music and copyright.",
+      "proposal": "Newsletter swap \u2014 I feature their newsletter, they feature mine",
+      "why_compatible": "Both audiences are music industry professionals who care about how journalism and media technology intersect",
+      "prior_connection": "I've shared their AI copyright piece in my newsletter"
+    },
+    {
+      "label": "minimal",
+      "my_account": "Local news podcast covering city politics, 2,000 listeners",
+      "target": "City council transparency blog with 5,000 readers",
+      "proposal": "Guest swap \u2014 I appear on their blog Q&A, they appear on my podcast",
+      "why_compatible": "Same city, same audience interested in local government accountability"
+    },
+    {
+      "label": "european",
+      "my_account": "THE CORRESPONDENT \u2014 an English-language newsletter about Dutch and EU media policy, 11,000 subscribers",
+      "target": "EURACTIV MEDIA \u2014 covering EU digital policy and media regulation, 28,000 subscribers. Just published a major analysis of the European Media Freedom Act.",
+      "proposal": "Co-authored analysis piece published in both newsletters simultaneously",
+      "why_compatible": "Both serve EU policy professionals but from different angles \u2014 mine is media-practitioner focused, theirs is policy-institution focused",
+      "prior_connection": "We've quoted each other's work multiple times over the past year"
+    }
+  ]
+}

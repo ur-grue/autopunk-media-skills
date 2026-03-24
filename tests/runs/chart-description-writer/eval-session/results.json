@@ -1,0 +1,89 @@
+{
+  "skill": "chart-description-writer",
+  "category": "data-journalism/visualization",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Caption leads with the key finding, not 'this chart shows...' and includes exact figures"
+    },
+    {
+      "id": "A2",
+      "description": "Data source is named in or directly after the caption"
+    },
+    {
+      "id": "A3",
+      "description": "If alt-text is requested, it includes chart type, both axes, data range, and key finding"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Caption leads with 'Technology sector leads...' not 'This chart shows'"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Source: National Labor Statistics Bureau named"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Alt-text includes chart type (horizontal bar), both axes, range, finding"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Leads with 'Health spending exceeds education and defence combined'"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Ministry of Finance source cited"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "No alt-text requested, not provided"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Leads with Romania's 38% rural vs 91% urban gap finding"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "European Commission source cited"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Alt-text includes grouped bar chart type, country axis, percentage axis, 2020-2025 range"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

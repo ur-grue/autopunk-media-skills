@@ -1,0 +1,89 @@
+{
+  "skill": "dark-aesthetic-prompt",
+  "category": "image-prompting/flux",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Flux prompt with specific lighting setup (where light comes from and what it reveals) and shadow-to-light ratio described"
+    },
+    {
+      "id": "A2",
+      "description": "A negative prompt is provided targeting the specific aesthetic's common failure modes"
+    },
+    {
+      "id": "A3",
+      "description": "An alternative prompt exploring a different register of the same aesthetic is included"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Primary prompt specifies single overhead light source, 80% shadow ratio"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Negative prompt excludes bright light, color, horror kitsch, HDR"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Alternative explores gothic register of same interrogation scene"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Prompt includes specific light sources (streetlamps, reflections) with shadow ratio"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Negative prompt targets common rain-scene failures"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Alternative shifts to warmer noir register"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Moonlight through broken windows specified as key source, 85% shadow"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Negative prompt excludes horror, oversaturation, modern elements"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Alternative explores industrial/brutalist register of same venue"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

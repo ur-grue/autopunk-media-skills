@@ -1,0 +1,38 @@
+{
+  "skill": "co-production-brief",
+  "eval_date": "2026-03-24",
+  "assertions": ["CPB-A1", "CPB-A2", "CPB-A3"],
+  "results": [
+    {
+      "test_case": "CPB-01",
+      "label": "standard",
+      "assertion_results": {
+        "CPB-A1": {"pass": true, "note": "All six sections present: Project Overview, Why Australia, Co-Production Proposal (bulleted), Financing Structure, International Potential, Next Steps"},
+        "CPB-A2": {"pass": true, "note": "Offer specifies: 20% ($640K), all Australasian rights, co-producer credit, editorial consultation on Australian storyline"},
+        "CPB-A3": {"pass": true, "note": "Next Step proposes a one-to-one meeting at a specific market or a pre-market video call with treatment and development cut"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "CPB-02",
+      "label": "minimal",
+      "assertion_results": {
+        "CPB-A1": {"pass": true, "note": "All sections present though necessarily thinner; Why This Territory section addresses US streaming audience for Japanese content"},
+        "CPB-A2": {"pass": false, "note": "Equal co-production was specified but no percentages, rights, or credit structure were provided; skill proposes reasonable defaults but the specificity requirement is borderline"},
+        "CPB-A3": {"pass": true, "note": "Next Step proposes sharing a treatment and a pilot scene for initial conversation"}
+      },
+      "pass_rate": 0.67
+    },
+    {
+      "test_case": "CPB-03",
+      "label": "european_context",
+      "assertion_results": {
+        "CPB-A1": {"pass": true, "note": "All sections present with treaty co-production framework referenced; RAI-specific editorial priorities addressed"},
+        "CPB-A2": {"pass": true, "note": "Offer specifies: 25% (EUR 450K), Italian and Swiss Italian rights, co-producer credit, editorial consultation on Lampedusa storyline"},
+        "CPB-A3": {"pass": true, "note": "Next Step names a specific market meeting opportunity and offers pre-market video call with materials"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 0.89
+}

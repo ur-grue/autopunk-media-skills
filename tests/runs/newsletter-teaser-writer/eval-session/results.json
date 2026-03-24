@@ -1,0 +1,93 @@
+{
+  "skill_name": "newsletter-teaser-writer",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.5,
+  "test_inputs": [],
+  "assertions": [
+    "Output includes 3 subject line options, preview text, teaser body (70-120 words), and a link cue",
+    "Subject lines are under 50 characters each and annotated with register",
+    "Teaser body creates curiosity without summarizing the article's core finding"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: longform investigative piece",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes 3 subject line options, preview text, teaser body (70-120 words), and a link cue",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Subject lines are under 50 characters each and annotated with register",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Teaser body creates curiosity without summarizing the article's core finding",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: short news article",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes 3 subject line options, preview text, teaser body (70-120 words), and a link cue",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Subject lines are under 50 characters each and annotated with register",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Teaser body creates curiosity without summarizing the article's core finding",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU tech regulation feature",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes 3 subject line options, preview text, teaser body (70-120 words), and a link cue",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Subject lines are under 50 characters each and annotated with register",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Teaser body creates curiosity without summarizing the article's core finding",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

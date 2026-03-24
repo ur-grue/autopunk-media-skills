@@ -1,0 +1,89 @@
+{
+  "skill": "data-story-finder",
+  "category": "data-journalism/analysis",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a one-paragraph dataset overview and at least 3 distinct numbered story angles grounded in specific data points"
+    },
+    {
+      "id": "A2",
+      "description": "Each angle includes a confidence rating (strong/tentative/requires verification) and 1-2 concrete reporting questions"
+    },
+    {
+      "id": "A3",
+      "description": "No angle claims significance beyond what the data actually shows"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview paragraph plus 4 distinct angles from building permits data"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Each angle has confidence rating; demolition patterns marked tentative"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Angles grounded in specific permit types and neighborhood patterns"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview plus 3 angles from library data"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Confidence ratings applied; digital shift angle strong, others tentative"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Reporting questions concrete: which branches, what services changed"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Overview plus 4 angles from EU farm subsidy data"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Corporate concentration angle strong; small-farm squeeze tentative"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "No angle overstates what a 4-row sample can prove; full dataset verification noted"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

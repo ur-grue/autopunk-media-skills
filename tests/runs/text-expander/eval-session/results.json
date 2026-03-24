@@ -1,0 +1,93 @@
+{
+  "skill_name": "text-expander",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.39,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains Gap Analysis and expanded text with new material in bold",
+    "No fabricated facts \u2014 all new content from user material or flagged as needs reporting",
+    "Word count target met or shortfall honestly reported"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: expand thin passage with supplied material",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Gap Analysis and expanded text with new material in bold",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No fabricated facts \u2014 all new content from user material or flagged as needs reporting",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Word count target met or shortfall honestly reported",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: expand a single sentence",
+      "assertions_passed": 2,
+      "assertions_total": 3,
+      "pass_rate": 66.7,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Gap Analysis and expanded text with new material in bold",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No fabricated facts \u2014 all new content from user material or flagged as needs reporting",
+          "pass": false,
+          "note": "Minor deviation noted \u2014 see details"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Word count target met or shortfall honestly reported",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: expand EU agriculture brief",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Gap Analysis and expanded text with new material in bold",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No fabricated facts \u2014 all new content from user material or flagged as needs reporting",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Word count target met or shortfall honestly reported",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 88.9,
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "skill": "carousel-script-writer",
+  "category": "social-media/content",
+  "inputs": [
+    {
+      "label": "standard",
+      "platform": "Instagram",
+      "topic": "Why most podcast interviews fail and three techniques to fix them",
+      "slides": 7,
+      "account": "Podcast production studio",
+      "voice": "Knowledgeable, slightly irreverent",
+      "audience": "Aspiring podcast creators",
+      "cta": "Link in bio for the full guide"
+    },
+    {
+      "label": "minimal",
+      "platform": "LinkedIn",
+      "topic": "The hidden cost of employee turnover in newsrooms",
+      "slides": 6,
+      "account": "Media industry consultancy"
+    },
+    {
+      "label": "european",
+      "platform": "Instagram",
+      "topic": "How Berlin's public broadcasting model funds investigative journalism differently from commercial networks",
+      "slides": 8,
+      "account": "European media policy researcher",
+      "voice": "Academic but accessible",
+      "audience": "Journalists and media students in the EU",
+      "cta": "Save this post for reference"
+    }
+  ]
+}

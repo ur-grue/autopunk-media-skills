@@ -1,0 +1,38 @@
+{
+  "skill": "one-sheet-writer",
+  "eval_date": "2026-03-24",
+  "assertions": ["OSW-A1", "OSW-A2", "OSW-A3"],
+  "results": [
+    {
+      "test_case": "OSW-01",
+      "label": "standard",
+      "assertion_results": {
+        "OSW-A1": {"pass": true, "note": "All sections present: Title/Tagline/Specs, Film Description (2 paragraphs), Festival & Awards, Critical Quotes, Credits, Contact"},
+        "OSW-A2": {"pass": true, "note": "Tagline captures emotional core without being a logline; distinct from the film description"},
+        "OSW-A3": {"pass": true, "note": "Description is specific to this film's approach — staying with nurses over a year, the aftermath focus — not generic healthcare documentary language"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "OSW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "OSW-A1": {"pass": true, "note": "All applicable sections present; Festival & Awards section omitted appropriately (none provided); Critical Quotes omitted appropriately"},
+        "OSW-A2": {"pass": true, "note": "Tagline generated from the minimal description; captures the finality/loss angle"},
+        "OSW-A3": {"pass": true, "note": "Description is specific despite minimal input — references the demolition timeline and community angle"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "OSW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "OSW-A1": {"pass": true, "note": "All sections present including French-language title handling, European festival formatting, and country/language fields"},
+        "OSW-A2": {"pass": true, "note": "Tagline captures the architectural empathy theme; works in both French and English register"},
+        "OSW-A3": {"pass": true, "note": "Description distinguishes this film through the brutalist architecture angle, the demolish-or-renovate question, and the Marseille specificity"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

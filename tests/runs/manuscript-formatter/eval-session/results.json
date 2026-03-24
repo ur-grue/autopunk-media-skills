@@ -1,0 +1,86 @@
+{
+  "skill": "manuscript-formatter",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Complete reformatted text with Formatting Notes"
+    },
+    {
+      "id": "A2",
+      "text": "No content altered except where flagged"
+    },
+    {
+      "id": "A3",
+      "text": "Formatting notes list significant changes"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Full reformatted text with 5-bullet formatting notes section"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Content unchanged; abstract removal and citation conversion flagged"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Notes list: abstract removed, section numbering removed, citations converted, footnote integrated, title reformatted"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Reformatted with word count header and subheading suggestions"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Content preserved; formatting additions noted"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Notes describe added header block and subheading structure"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Reformatted to APA 7th with numbered sections, reference format guidance"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Content unchanged; markdown headings converted to APA numbered sections flagged"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Notes list: heading conversion, citation format change needed, reference list format specified"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

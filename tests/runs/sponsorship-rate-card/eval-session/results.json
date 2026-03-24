@@ -1,0 +1,16 @@
+{
+  "skill": "sponsorship-rate-card",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "specific-prices", "text": "Every placement option has a specific price", "type": "binary"},
+    {"id": "sponsor-language", "text": "Audience description uses sponsor-relevant language", "type": "binary"},
+    {"id": "terms-complete", "text": "Terms section is complete enough for a first-time sponsor", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard newsletter rate card", "specific-prices": {"pass": true, "note": "All three placements priced with CPM calculations"}, "sponsor-language": {"pass": true, "note": "Audience described by profession, career stage, and purchasing context"}, "terms-complete": {"pass": true, "note": "Booking lead time, approval process, exclusivity, and cancellation covered"}},
+    "input-02": {"description": "Minimal input", "specific-prices": {"pass": true, "note": "Single placement priced"}, "sponsor-language": {"pass": true, "note": "Book lover audience described in sponsor terms: purchasing habits, reading volume"}, "terms-complete": {"pass": true, "note": "Basic terms present"}},
+    "input-03": {"description": "European context", "specific-prices": {"pass": true, "note": "All three placements priced with CPM; EUR pricing"}, "sponsor-language": {"pass": true, "note": "Policy professionals, housing researchers described by decision-making authority and institutional role"}, "terms-complete": {"pass": true, "note": "Terms include booking lead time, content approval, exclusivity in housing sector, cancellation"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

@@ -1,0 +1,38 @@
+{
+  "skill": "production-schedule-writer",
+  "eval_date": "2026-03-24",
+  "assertions": ["PSW-A1", "PSW-A2", "PSW-A3"],
+  "results": [
+    {
+      "test_case": "PSW-01",
+      "label": "standard",
+      "assertion_results": {
+        "PSW-A1": {"pass": true, "note": "5 days organized with time-block tables per day; Start Time, Duration, Sequence, Notes columns present"},
+        "PSW-A2": {"pass": true, "note": "All subjects and scenes accounted for; Elena's landlord meeting on Wednesday, James's event on Thursday evening; locations clustered logically"},
+        "PSW-A3": {"pass": true, "note": "Each day has a risk assessment; summary table at end with shooting days, subjects, locations, critical dependencies"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PSW-02",
+      "label": "minimal",
+      "assertion_results": {
+        "PSW-A1": {"pass": true, "note": "2 days structured with time blocks despite minimal detail; appropriate for self-shooting director"},
+        "PSW-A2": {"pass": true, "note": "All items from input included across the 2 days; single location so no travel clustering needed"},
+        "PSW-A3": {"pass": true, "note": "Risk assessment and summary present; notes that self-shooting requires more time per setup"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PSW-03",
+      "label": "european_context",
+      "assertion_results": {
+        "PSW-A1": {"pass": true, "note": "6 days organized across Vienna and Rome; time blocks include evening departure and morning arrival; overnight train journey addressed"},
+        "PSW-A2": {"pass": true, "note": "All subjects included; ÖBB manager on Monday/Tuesday, historian on Friday, two permitted nights accounted for; locations clustered Vienna-first, then Rome"},
+        "PSW-A3": {"pass": true, "note": "Risk assessment per day with train access permission as top dependency; summary includes cross-border logistics notes"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

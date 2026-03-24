@@ -1,0 +1,27 @@
+{
+  "skill": "foi-data-request",
+  "category": "data-journalism/investigation",
+  "inputs": [
+    {
+      "label": "standard",
+      "body": "Department of Education",
+      "data": "I believe they hold a database of teacher disciplinary records including the type of infraction, outcome (reprimand, suspension, termination), school district, and date. I have seen aggregate statistics in their annual report but not the underlying case-level data.",
+      "jurisdiction": "US state with state-level FOI legislation",
+      "name": "A journalist at a regional newspaper"
+    },
+    {
+      "label": "minimal",
+      "body": "City Transportation Department",
+      "data": "Traffic accident records for city intersections over the past five years, including location, date, severity, and whether a pedestrian was involved.",
+      "jurisdiction": "US municipality",
+      "name": "Freelance journalist"
+    },
+    {
+      "label": "european",
+      "body": "European Medicines Agency",
+      "data": "I believe the EMA holds a database of all clinical trial applications submitted for EU marketing authorization since 2018, including trial sponsor name, therapeutic area, trial phase, submission date, and approval/rejection status. Summary data appears in the EMA annual report but the underlying trial-level records have not been published.",
+      "jurisdiction": "EU institution \u2014 request under Regulation (EC) No 1049/2001 (access to EU institution documents)",
+      "name": "A journalist at a European health policy publication"
+    }
+  ]
+}

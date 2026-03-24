@@ -1,0 +1,44 @@
+{
+  "skill": "broadcaster-pitch-writer",
+  "test_cases": [
+    {
+      "id": "BPW-01",
+      "label": "standard",
+      "input": {
+        "title": "The Algorithm",
+        "description": "A documentary about three families suing a social media company after their children were harmed by algorithmically recommended content. Over 18 months, the film follows the lawsuit through depositions, expert testimony, and the families' daily lives — revealing how recommendation systems work and who is accountable when they fail.",
+        "target_broadcaster": "HBO Documentary Films",
+        "format": "Single film, 90 minutes",
+        "production_company": "Signal Fire Films",
+        "comps": "The Social Dilemma (Netflix, 2020), All the Beauty and the Bloodshed (HBO, 2022)",
+        "status": "In production. 8 months of footage shot. Two families confirmed; third in negotiation.",
+        "budget_range": "$1.2M–$1.5M"
+      }
+    },
+    {
+      "id": "BPW-02",
+      "label": "minimal",
+      "input": {
+        "title": "The Beekeeper",
+        "description": "A portrait of an 80-year-old beekeeper in rural Montana who has kept bees for sixty years and refuses to use modern chemicals.",
+        "target_broadcaster": "PBS",
+        "format": "Single film, 60 minutes",
+        "production_company": "independent producer"
+      }
+    },
+    {
+      "id": "BPW-03",
+      "label": "european_context",
+      "input": {
+        "title": "Night Train",
+        "description": "A documentary series following the overnight sleeper trains of Europe — Berlin to Paris, Vienna to Rome, Stockholm to Hamburg — and the people who ride and operate them. Part travel documentary, part social portrait, the series explores what happens when strangers share a confined space for twelve hours and what the revival of night trains says about Europe's relationship to time, distance, and sustainability.",
+        "target_broadcaster": "ARTE (Franco-German cultural broadcaster)",
+        "format": "3-part series, 52 minutes each",
+        "production_company": "Nachtlicht Produktion (Germany)",
+        "comps": "Slow Train Through Africa (Channel 4), The Trans-Siberian Railway (BBC)",
+        "status": "Development. Director attached. Test filming completed on Berlin-Paris route. No financing in place.",
+        "awards": "Project selected for Sunny Side of the Doc Forum 2026"
+      }
+    }
+  ]
+}

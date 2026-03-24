@@ -1,0 +1,17 @@
+{
+  "skill": "sponsorship-email-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Email opens with the integration concept/proposal, NOT with a channel introduction"
+    },
+    {
+      "id": "A2",
+      "description": "Rate, timeline, and deliverables are all stated explicitly in the email body"
+    },
+    {
+      "id": "A3",
+      "description": "Total email body is under 300 words and includes a specific next step (brand knows exactly what to do if they say yes)"
+    }
+  ]
+}

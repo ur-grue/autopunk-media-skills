@@ -1,0 +1,20 @@
+{
+  "skill": "data-footnote-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Every quantitative claim in the input has a corresponding numbered footnote in order of appearance",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Footnotes distinguish between direct citations and derived/calculated figures with appropriate language",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Source information includes institution name, publication name, date, and URL/file reference",
+      "type": "binary"
+    }
+  ]
+}

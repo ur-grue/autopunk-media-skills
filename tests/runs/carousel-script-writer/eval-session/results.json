@@ -1,0 +1,89 @@
+{
+  "skill": "carousel-script-writer",
+  "category": "social-media/content",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains numbered slides with headlines (max 8 words each) and body text (max 25 words per slide), each slide clearly separated and labeled"
+    },
+    {
+      "id": "A2",
+      "description": "Slide 1 is a hook (question, claim, or statistic) and the final slide contains a specific CTA beyond just 'follow for more'"
+    },
+    {
+      "id": "A3",
+      "description": "An accompanying caption of 75-200 words is included that works as standalone text"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "7 slides with clear headlines under 8 words, body text under 25 words each"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Slide 1 opens with provocative question; slide 7 has specific CTA linking to guide"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caption at 112 words works standalone"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "6 slides properly separated with headlines and body text within limits"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Slide 1 hooks with cost statistic; final slide directs to article/contact"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caption at 89 words for LinkedIn register"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "8 slides with clear structure, EU-specific terminology handled well"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Opens with comparison claim about funding models; closes with save CTA"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caption at 134 words provides standalone context about public broadcasting"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Alt text is 10-125 characters and does not begin with Image of or Photo of","check":"binary_format"},{"id":"A2","description":"Alt text conveys editorial purpose not just literal inventory","check":"binary_quality"},{"id":"A3","description":"Decorative images marked with empty alt text","check":"binary_quality"}]

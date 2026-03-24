@@ -1,0 +1,93 @@
+{
+  "skill_name": "passive-voice-checker",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.44,
+  "test_inputs": [],
+  "assertions": [
+    "Output includes total passive count, passive-voice ratio, and classified list (Weaken/Neutral/Justified)",
+    "Active-voice alternatives preserve the original meaning without distortion",
+    "Pattern Summary identifies where passives cluster and whether ratio is appropriate"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: news report heavy on passive voice",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes total passive count, passive-voice ratio, and classified list (Weaken/Neutral/Justified)",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Active-voice alternatives preserve the original meaning without distortion",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Pattern Summary identifies where passives cluster and whether ratio is appropriate",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single passive sentence",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes total passive count, passive-voice ratio, and classified list (Weaken/Neutral/Justified)",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Active-voice alternatives preserve the original meaning without distortion",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Pattern Summary identifies where passives cluster and whether ratio is appropriate",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: policy article with justified passives",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output includes total passive count, passive-voice ratio, and classified list (Weaken/Neutral/Justified)",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Active-voice alternatives preserve the original meaning without distortion",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Pattern Summary identifies where passives cluster and whether ratio is appropriate",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

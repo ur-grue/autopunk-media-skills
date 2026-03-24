@@ -1,0 +1,40 @@
+{
+  "skill": "cover-image-pipeline",
+  "category": "image-prompting/workflows",
+  "inputs": [
+    {
+      "label": "standard",
+      "concept": "A microphone on an empty stage in a dimly lit comedy club, seen from the back of the room",
+      "style": "Dark editorial photography, warm amber stage light, everything else in shadow",
+      "formats": [
+        "Podcast square (1:1)",
+        "YouTube thumbnail (16:9)",
+        "Instagram portrait (4:5)"
+      ],
+      "text": "Episode title in lower third of podcast art, upper-right of YouTube thumbnail",
+      "tool": "Flux"
+    },
+    {
+      "label": "minimal",
+      "concept": "Stack of newspapers on a desk with morning light",
+      "style": "Clean documentary photography",
+      "formats": [
+        "Newsletter header (3:1)",
+        "Social card (1:1)"
+      ]
+    },
+    {
+      "label": "european",
+      "concept": "A view from inside a high-speed train looking out at the European countryside blurring past, with a laptop and coffee cup on the fold-down table in the foreground",
+      "style": "Contemporary editorial photography, muted palette, sense of motion and modernity",
+      "formats": [
+        "Podcast square (1:1)",
+        "YouTube thumbnail (16:9)",
+        "Newsletter header (3:1)",
+        "LinkedIn banner (4:1)"
+      ],
+      "text": "Show title in upper-left of YouTube thumbnail, lower third of podcast art",
+      "tool": "Midjourney"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "skill": "scene-breakdown-writer",
+  "test_cases": [
+    {
+      "id": "SBW-01",
+      "label": "standard",
+      "input": {
+        "sequence_description": "The midpoint sequence of a documentary about a family-run bakery that has been in operation for 75 years, now facing closure due to rising costs and a changing neighborhood.",
+        "narrative_function": "Reveal the financial reality behind the emotional attachment — show the viewer the numbers that make the story's outcome inevitable, without losing the human center",
+        "position": "Mid-film, approx. 30 minutes into a 60-minute film",
+        "target_running_time": "4-5 minutes",
+        "available_material": "Interview with the owner Rosa about the financials; footage of the accountant visiting the bakery; old photographs of the bakery in the 1960s; observational footage of a slow morning with few customers; interview with Rosa's daughter about whether she wants to take over",
+        "tone": "Honest, unsentimental, warm"
+      }
+    },
+    {
+      "id": "SBW-02",
+      "label": "minimal",
+      "input": {
+        "sequence_description": "Closing sequence of a short documentary about a retired teacher",
+        "narrative_function": "Wrap up the story and leave the viewer with a final emotional impression",
+        "position": "Film closing",
+        "available_material": "Final interview with the teacher; footage of her in her garden"
+      }
+    },
+    {
+      "id": "SBW-03",
+      "label": "european_context",
+      "input": {
+        "sequence_description": "Opening sequence of a documentary about the closure of a steel works in the Ruhr Valley, Germany — the last heavy industry employer in a town of 40,000.",
+        "narrative_function": "Establish the scale of the place and the community before revealing it is about to end. The viewer should feel the industrial landscape as something permanent before being told it is not.",
+        "position": "Film opening, pre-title",
+        "target_running_time": "6-7 minutes",
+        "available_material": "Drone footage of the steelworks at dawn; observational footage of the night shift ending and day shift arriving; interview with a third-generation steelworker Dieter Hoffmann; archival footage of the works in the 1970s at full capacity; sound recordings of the furnace; a company newsletter announcing the planned closure",
+        "tone": "Contemplative, industrial, European observational register",
+        "preceding_sequence": "None — this is the opening",
+        "following_sequence": "Title card, then the announcement of the closure to the workforce"
+      }
+    }
+  ]
+}

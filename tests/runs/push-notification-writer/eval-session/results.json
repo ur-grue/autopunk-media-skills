@@ -1,0 +1,89 @@
+{
+  "skill": "push-notification-writer",
+  "category": "social-media/content",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains exactly three labeled variants (Breaking/Urgent, Informational, Curiosity-Driven) each with a character count in brackets"
+    },
+    {
+      "id": "A2",
+      "description": "All three variants fit within the stated character limit with no truncation"
+    },
+    {
+      "id": "A3",
+      "description": "A deployment guidance line specifies which variant to use for which audience segment"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three variants correctly labeled with character counts"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All three within 110-char iOS limit"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Deployment line specifies breaking-news subscribers vs general audience"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three variants with counts for 65-char Android limit"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All three fit within compressed Android display"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Guidance addresses the feature vs breaking distinction"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three variants labeled with counts, EU terminology preserved"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All within 110-char limit, euro symbol handled correctly"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Deployment addresses broadsheet readership segments"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

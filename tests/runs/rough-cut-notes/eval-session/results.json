@@ -1,0 +1,38 @@
+{
+  "skill": "rough-cut-notes",
+  "eval_date": "2026-03-24",
+  "assertions": ["RCN-A1", "RCN-A2", "RCN-A3"],
+  "results": [
+    {
+      "test_case": "RCN-01",
+      "label": "standard",
+      "assertion_results": {
+        "RCN-A1": {"pass": true, "note": "All five tiered sections present: Structural Notes, Sequence-Level Notes, Pacing Notes, Narrative/Character Notes, Positive Observations"},
+        "RCN-A2": {"pass": true, "note": "Every note paired with specific fix: e.g., 'Move Mr. Okonkwo interview to minute 12' not 'add more teacher content'; pacing notes specify trimmable sections with approximate minute savings"},
+        "RCN-A3": {"pass": true, "note": "Notes numbered (S1, S2, Seq1, etc.); priority order maintained; Next Step identifies restructuring the opening concert as highest-priority single change"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "RCN-02",
+      "label": "minimal",
+      "assertion_results": {
+        "RCN-A1": {"pass": true, "note": "All sections present though shorter; Positive Observations section identifies genuine strength"},
+        "RCN-A2": {"pass": true, "note": "Notes pair issues with fixes: interview can lose 2-3 minutes of repetition; daily routine section should open the film instead of the lighthouse exterior"},
+        "RCN-A3": {"pass": true, "note": "Numbered notes; Next Step identifies moving the routine footage to the opening as the single most impactful change"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "RCN-03",
+      "label": "european_context",
+      "assertion_results": {
+        "RCN-A1": {"pass": true, "note": "All sections present; notes respect ARTE's contemplative register in their recommendations"},
+        "RCN-A2": {"pass": true, "note": "Fixes are specific: reduce ÖBB manager interview to voice-over over train footage, integrate historian's audio over dawn approach instead of separate section; estimated 8-10 minute trim specified"},
+        "RCN-A3": {"pass": true, "note": "Numbered; priority order; Next Step identifies distributing interview material as voice-over across observational sequences as the key structural change to maintain immersion"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

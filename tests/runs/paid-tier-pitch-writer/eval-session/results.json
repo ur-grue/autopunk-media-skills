@@ -1,0 +1,16 @@
+{
+  "skill": "paid-tier-pitch-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "specific-benefit", "text": "Paid benefit described specifically enough to picture what you gain", "type": "binary"},
+    {"id": "price-stated", "text": "Price is stated explicitly", "type": "binary"},
+    {"id": "single-cta", "text": "CTA is one clear action", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard paid tier pitch", "specific-benefit": {"pass": true, "note": "Rate Sheet: 10-15 publications with actual fee ranges, plus monthly editor Q&A — specific"}, "price-stated": {"pass": true, "note": "Price stated: /month or /year"}, "single-cta": {"pass": true, "note": "Single CTA with three button text options"}},
+    "input-02": {"description": "Minimal input", "specific-benefit": {"pass": true, "note": "Weekend deep-dive and source library — specific enough"}, "price-stated": {"pass": true, "note": "/month stated"}, "single-cta": {"pass": true, "note": "Single CTA"}},
+    "input-03": {"description": "European context", "specific-benefit": {"pass": true, "note": "Quarterly Housing Affordability Index covering 30 cities with methodology — very specific"}, "price-stated": {"pass": true, "note": "Price stated: EUR10/month or EUR96/year"}, "single-cta": {"pass": true, "note": "Single CTA with three options"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

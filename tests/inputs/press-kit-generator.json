@@ -1,0 +1,61 @@
+{
+  "skill": "press-kit-generator",
+  "test_cases": [
+    {
+      "id": "PKG-01",
+      "label": "standard",
+      "input": {
+        "title": "The Waiting Room",
+        "runtime": "78 minutes",
+        "director": "Marcus Williams",
+        "production_company": "Open Door Films",
+        "year": "2025",
+        "broadcast_partner": "PBS (US), BBC Storyville (UK)",
+        "description": "A documentary that spent two years in the waiting room of a free legal clinic, following five clients through the immigration system. The film never leaves the clinic — everything is observed from the perspective of the waiting room, where hope, bureaucracy, and human complexity intersect daily.",
+        "key_subjects": [
+          {"name": "Miriam Adeyemi", "role": "Client from Nigeria, awaiting asylum decision"},
+          {"name": "Sandra Orozco", "role": "Lead attorney at the clinic"},
+          {"name": "Kwon Park", "role": "Client navigating a visa appeal"}
+        ],
+        "director_note": "I wanted to make a film about waiting — specifically about what waiting does to people when the thing they are waiting for is their entire future.",
+        "cinematographer": "Elena Vasquez",
+        "editor": "James Hartley"
+      }
+    },
+    {
+      "id": "PKG-02",
+      "label": "minimal",
+      "input": {
+        "title": "First Light",
+        "runtime": "42 minutes",
+        "director": "Anna Kim",
+        "production_company": "Daybreak Films",
+        "year": "2026",
+        "description": "A short documentary about lighthouse keepers on a remote island."
+      }
+    },
+    {
+      "id": "PKG-03",
+      "label": "european_context",
+      "input": {
+        "title": "Les Murs Parlent",
+        "runtime": "92 minutes",
+        "director": "Cédric Beaumont",
+        "production_company": "Regard Oblique (France)",
+        "year": "2025",
+        "broadcast_partner": "ARTE (France/Germany), SVT (Sweden)",
+        "description": "A documentary following three street artists working in Paris, Berlin, and Athens, exploring how political murals function as journalism in cities where walls carry more urgency than newspapers. Shot over 18 months, the film captures the creation and destruction of political art in real time — walls painted, buffed, repainted, and arrested for.",
+        "key_subjects": [
+          {"name": "Zara", "role": "Parisian muralist who works only at night, identity partially concealed"},
+          {"name": "Klaus Richter", "role": "Berlin-based artist whose work addresses the housing crisis"},
+          {"name": "Dimitra Papadopoulos", "role": "Athens graffiti writer whose political murals have been subject to police removal"}
+        ],
+        "director_note": "In Europe, the wall is the oldest newspaper. I wanted to ask who is writing on it now, and why the authorities keep trying to make them stop.",
+        "cinematographer": "Yuki Tanaka",
+        "editor": "Ingrid Solberg",
+        "festival_history": "Cannes Directors' Fortnight 2025 (World Premiere), DOK Leipzig 2025 (International Competition)",
+        "critical_quotes": ["'A thrilling act of cultural journalism disguised as an art documentary.' — Screen Daily", "'Beaumont's finest and most politically urgent work.' — Positif"]
+      }
+    }
+  ]
+}

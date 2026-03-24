@@ -1,0 +1,24 @@
+{
+  "skill": "basic-statistics-calculator",
+  "category": "data-journalism/analysis",
+  "inputs": [
+    {
+      "label": "standard",
+      "data": "In 2020, the region had 1,200 active journalists. In 2025, it had 890. The region's population was 3.2 million in 2020 and 3.4 million in 2025.",
+      "calculation": "Percentage change in journalist numbers, and journalists per 100,000 population for both years",
+      "context": "Writing a story about the decline of local journalism. An industry spokesperson said 'the decline is modest.'"
+    },
+    {
+      "label": "minimal",
+      "data": "Five school districts reported average class sizes of: 22, 28, 31, 19, 34.",
+      "calculation": "Mean and median class size",
+      "context": "Education story about class sizes."
+    },
+    {
+      "label": "european",
+      "data": "The EU's average press freedom score was 76.8 in 2020 and 73.1 in 2025. During the same period, the number of journalist detentions across the EU rose from 12 to 29.",
+      "calculation": "Percentage change in press freedom score, percentage change in detentions, and the ratio of detentions to press freedom score for both years",
+      "context": "Annual EU press freedom report. I want to show both the score decline and the detention increase to illustrate the trend."
+    }
+  ]
+}

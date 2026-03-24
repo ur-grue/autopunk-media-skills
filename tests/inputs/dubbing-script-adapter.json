@@ -1,0 +1,43 @@
+{
+  "skill": "dubbing-script-adapter",
+  "test_cases": [
+    {
+      "id": "DSA-01",
+      "label": "standard",
+      "input": {
+        "target_language": "Latin American Spanish",
+        "narrator_visibility": "Off-screen voice-over",
+        "script_excerpt": [
+          {"label": "NR_01", "timecode": "00:03:10", "duration": "5.0 sec", "original_english": "The factory closed on a Friday afternoon in March. By Monday morning, 2,400 people had lost their jobs.", "translation": "La fábrica cerró un viernes por la tarde en marzo. Para el lunes por la mañana, 2,400 personas habían perdido sus empleos."},
+          {"label": "NR_02", "timecode": "00:03:16", "duration": "4.0 sec", "original_english": "Nobody saw it coming. The company had posted record profits the year before.", "translation": "Nadie lo vio venir. La empresa había registrado ganancias récord el año anterior."},
+          {"label": "NR_03", "timecode": "00:03:21", "duration": "6.5 sec", "original_english": "What followed was not just unemployment. It was the collapse of a community that had been built, generation by generation, around a single employer.", "translation": "Lo que siguió no fue solo desempleo. Fue el colapso de una comunidad que se había construido, generación tras generación, alrededor de un solo empleador."}
+        ]
+      }
+    },
+    {
+      "id": "DSA-02",
+      "label": "minimal",
+      "input": {
+        "target_language": "French",
+        "narrator_visibility": "Off-screen voice-over",
+        "script_excerpt": [
+          {"label": "NR_01", "timecode": "00:01:00", "duration": "4.0 sec", "original_english": "She had been waiting for this moment her entire life.", "translation": "Elle avait attendu ce moment toute sa vie."}
+        ]
+      }
+    },
+    {
+      "id": "DSA-03",
+      "label": "european_context",
+      "input": {
+        "target_language": "German",
+        "narrator_visibility": "Off-screen voice-over",
+        "broadcast_standard": "EBU R 128 compliant, no faster than 16 syllables/second",
+        "script_excerpt": [
+          {"label": "NR_01", "timecode": "00:08:22", "duration": "5.5 sec", "original_english": "The European Union's carbon trading system was supposed to make pollution expensive. Instead, it created a market where the right to pollute could be bought and sold.", "translation": "Das Emissionshandelssystem der Europäischen Union sollte die Verschmutzung teuer machen. Stattdessen schuf es einen Markt, auf dem das Recht zu verschmutzen gekauft und verkauft werden konnte."},
+          {"label": "NR_02", "timecode": "00:08:28", "duration": "4.0 sec", "original_english": "By 2023, the price of carbon had peaked at one hundred euros per tonne.", "translation": "Bis 2023 hatte der Preis für Kohlenstoff einen Höchststand von hundert Euro pro Tonne erreicht."},
+          {"label": "NR_03", "timecode": "00:08:33", "duration": "7.0 sec", "original_english": "Critics called it a licence to pollute. Supporters called it the most ambitious climate instrument in history. The truth, as with most European compromises, was somewhere in between — and satisfying to nobody.", "translation": "Kritiker nannten es eine Lizenz zum Verschmutzen. Befürworter nannten es das ambitionierteste Klimainstrument der Geschichte. Die Wahrheit lag, wie bei den meisten europäischen Kompromissen, irgendwo dazwischen — und befriedigte niemanden."}
+        ]
+      }
+    }
+  ]
+}

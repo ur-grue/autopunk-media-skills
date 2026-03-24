@@ -1,0 +1,26 @@
+{
+  "category": "radio-audio/news-packages",
+  "skills": {
+    "package-script-writer": {
+      "assertions": [
+        {"id": "presenter-intro", "text": "Output includes a PRESENTER INTRO that names the story and reporter with a natural handover", "type": "binary"},
+        {"id": "clips-labelled", "text": "All clips are labelled with speaker name, in-cue, out-cue, and duration", "type": "binary"},
+        {"id": "clear-ending", "text": "Package has a clear ending with a reporter sign-off, not a clip followed by silence", "type": "binary"}
+      ]
+    },
+    "clip-selection-brief": {
+      "assertions": [
+        {"id": "clips-recommended", "text": "Output recommends specific clips with suggested in-points and out-points", "type": "binary"},
+        {"id": "editorial-justification", "text": "Each recommended clip has an editorial justification for its selection", "type": "binary"},
+        {"id": "ranked-or-ordered", "text": "Clips are ranked or ordered by editorial priority", "type": "binary"}
+      ]
+    },
+    "two-way-brief-writer": {
+      "assertions": [
+        {"id": "story-context", "text": "Output includes story context explaining the background situation", "type": "binary"},
+        {"id": "likely-questions", "text": "Output includes likely presenter questions with answer frameworks", "type": "binary"},
+        {"id": "key-facts", "text": "Key facts section is present for the reporter to reference during the live two-way", "type": "binary"}
+      ]
+    }
+  }
+}

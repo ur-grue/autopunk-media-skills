@@ -1,0 +1,10 @@
+{
+  "skill":"legal-framework-brief","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Legal Framework, Grey Areas, Key Sources, Common Mistakes"},{"id":"A2","text":"Specific statute names or section numbers"},{"id":"A3","text":"Explicitly not legal advice"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All four sections present"},{"id":"A2","pass":true,"note":"Contempt of Court Act 1981 s.10, Police and Criminal Evidence Act 1984, ECHR Article 10 all cited with section numbers"},{"id":"A3","pass":true,"note":"Explicit disclaimer that this is a research framework, not legal advice"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present"},{"id":"A2","pass":true,"note":"California Civil Code, relevant building codes, tenant protection statutes cited"},{"id":"A3","pass":true,"note":"Disclaimer present"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections with EU single market law detail"},{"id":"A2","pass":true,"note":"TFEU Articles 34, 36 cited; relevant case law (Cassis de Dijon, Commission v Germany) named"},{"id":"A3","pass":true,"note":"Explicit disclaimer present; notes that specific disputes require qualified legal analysis"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

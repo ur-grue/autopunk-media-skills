@@ -1,0 +1,16 @@
+{
+  "skill": "clip-selection-brief",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "clips-recommended", "text": "Output recommends specific clips with in-points and out-points", "type": "binary"},
+    {"id": "editorial-justification", "text": "Each recommended clip has an editorial justification", "type": "binary"},
+    {"id": "ranked-or-ordered", "text": "Clips are ranked or ordered by editorial priority", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard interview transcript analysis", "clips-recommended": {"pass": true, "note": "Three clips recommended with specific timestamp in/out points"}, "editorial-justification": {"pass": true, "note": "Each justified: emotional impact, accountability quote, and human moment"}, "ranked-or-ordered": {"pass": true, "note": "Ranked by editorial priority for the news package purpose"}},
+    "input-02": {"description": "Minimal input", "clips-recommended": {"pass": true, "note": "Key moments identified with approximate in/out guidance"}, "editorial-justification": {"pass": true, "note": "Each selection justified by editorial value"}, "ranked-or-ordered": {"pass": true, "note": "Ordered by news value: price data first, emotional moment second"}},
+    "input-03": {"description": "European context", "clips-recommended": {"pass": true, "note": "Three clips recommended with specific timestamps"}, "editorial-justification": {"pass": true, "note": "Enforcement failure quote justified as lead; lobbying anecdote as colour"}, "ranked-or-ordered": {"pass": true, "note": "Ranked: enforcement critique first, lobbying detail second, technical context third"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

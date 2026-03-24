@@ -1,0 +1,16 @@
+{
+  "skill": "content-arc-planner",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "arc-logic", "text": "Arc has a discernible logic", "type": "binary"},
+    {"id": "edition-specific", "text": "Each edition plan is specific enough to brief a writer", "type": "binary"},
+    {"id": "entry-points-identified", "text": "At least one entry-point edition identified for new subscribers", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard quarterly plan", "arc-logic": {"pass": true, "note": "8 editions build from individual economics to industry-wide analysis; thematic escalation clear"}, "edition-specific": {"pass": true, "note": "Each edition has a specific angle, not just a topic label"}, "entry-points-identified": {"pass": true, "note": "Edition 3 flagged as entry point: standalone analysis suitable for promotion"}},
+    "input-02": {"description": "Minimal input", "arc-logic": {"pass": true, "note": "6 editions have a readable through-line despite wide-ranging topic"}, "edition-specific": {"pass": true, "note": "Each edition has a hook and angle"}, "entry-points-identified": {"pass": true, "note": "Edition 1 identified as entry point"}},
+    "input-03": {"description": "European context", "arc-logic": {"pass": true, "note": "8 editions build toward Housing Affordability Index release before EU Summit — clear strategic arc"}, "edition-specific": {"pass": true, "note": "Each edition specific: e.g., Spain rent control implementation analysis, not just Spain"}, "entry-points-identified": {"pass": true, "note": "Eurostat data edition and Spain rent control edition both flagged as entry points"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

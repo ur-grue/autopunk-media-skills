@@ -1,0 +1,36 @@
+{
+  "skill": "copyright-holder-finder",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "content-type-specific", "text": "Research steps are specific to the content type", "type": "binary"},
+    {"id": "ordered-fast-to-slow", "text": "Steps ordered from fastest to slowest", "type": "binary"},
+    {"id": "orphan-works", "text": "Orphan works possibility is addressed", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard photograph tracing",
+      "content-type-specific": {"pass": true, "note": "Steps include defunct newspaper research, Companies House search, photographer registries (DACS)"},
+      "ordered-fast-to-slow": {"pass": true, "note": "Starts with metadata check, then publisher research, then registries, then formal enquiries"},
+      "orphan-works": {"pass": true, "note": "UK orphan works licensing scheme described with IPO reference"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "content-type-specific": {"pass": true, "note": "Steps include YouTube metadata extraction, reverse image search, and content ID research"},
+      "ordered-fast-to-slow": {"pass": true, "note": "Quick digital checks first, then platform enquiry, then broader research"},
+      "orphan-works": {"pass": true, "note": "Orphan works addressed with note about fair use considerations"}
+    },
+    "input-03": {
+      "description": "European context",
+      "content-type-specific": {"pass": true, "note": "Steps include SIAE (Italian collecting society), RAI archive department, and orchestra successor research"},
+      "ordered-fast-to-slow": {"pass": true, "note": "RAI archive search first, then SIAE, then broader Italian registry search"},
+      "orphan-works": {"pass": true, "note": "Italian orphan works provisions and EU directive referenced"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

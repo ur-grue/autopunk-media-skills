@@ -1,0 +1,26 @@
+{
+  "category": "media-business/funding",
+  "skills": {
+    "grant-narrative-writer": {
+      "assertions": [
+        {"id": "four-sections", "text": "Output contains four distinct sections: Project Description, Significance, Creative Approach, and Impact/Distribution", "type": "binary"},
+        {"id": "funder-priorities", "text": "The funder's stated priorities are addressed explicitly in the narrative", "type": "binary"},
+        {"id": "next-step", "text": "Output ends with a Next Step note identifying weakest section and what to prepare before submitting", "type": "binary"}
+      ]
+    },
+    "investor-brief-writer": {
+      "assertions": [
+        {"id": "leads-with-financials", "text": "Executive summary leads with the financial structure and the investment ask, not the creative premise", "type": "binary"},
+        {"id": "risk-factors", "text": "Risk factors section names at least two material risks", "type": "binary"},
+        {"id": "projections-labelled", "text": "Speculative financial projections are clearly labelled as projections, not stated as facts", "type": "binary"}
+      ]
+    },
+    "crowdfunding-campaign-writer": {
+      "assertions": [
+        {"id": "community-address", "text": "Opening paragraph addresses the project's core community or audience directly", "type": "binary"},
+        {"id": "reward-tiers-specific", "text": "Reward tier descriptions are specific about what the backer receives, not vague", "type": "binary"},
+        {"id": "no-hyperbole", "text": "No hyperbole such as revolutionary, life-changing, or groundbreaking anywhere in copy", "type": "binary"}
+      ]
+    }
+  }
+}

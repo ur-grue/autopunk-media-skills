@@ -1,0 +1,47 @@
+{
+  "skill": "niche-video-idea-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/niche-video-idea-generator.json",
+  "assertions_file": "tests/assertions/niche-video-idea-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — home coffee brewing channel",
+      "output_summary": "10 distinct ideas spanning tutorial, experiment, myth-busting, comparison, and troubleshooting formats. Examples: 'Why Your Coffee Tastes Different Every Morning (The Water Variable)', 'I Brewed the Same Bean 5 Ways — One Was Clearly Better', 'The Cheapest Espresso Setup That Actually Works'. None repeat topics already covered. Strongest search: ideas 1, 6, 8. Next Step: develop idea 1 with seo-title-optimizer.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Exactly 10 numbered ideas, each with Title, Hook, and Angle." },
+        "A2": { "pass": true, "note": "All distinct. Spans tutorial, experiment, myth-busting, comparison, troubleshooting (5+ formats)." },
+        "A3": { "pass": true, "note": "Notes 3 strongest search ideas and recommends first development with seo-title-optimizer." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "10 ideas for container gardening. Varied formats despite minimal input. Includes 'Why Your Windowsill Herbs Keep Dying' (troubleshooting), 'I Grew Strawberries in a Shoebox' (experiment), 'The One Plant Every Apartment Gardener Should Start With' (recommendation). All accessible to beginners with limited space.",
+      "assertions": {
+        "A1": { "pass": true, "note": "10 ideas with Title, Hook, Angle structure." },
+        "A2": { "pass": true, "note": "Distinct ideas spanning 4+ formats." },
+        "A3": { "pass": true, "note": "Search demand flagged and Next Step provided." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — football tactics channel",
+      "output_summary": "10 ideas rooted in European football culture. Examples: 'Why the False 9 Works at Barcelona But Fails Everywhere Else', 'The Pressing System That Broke the Bundesliga', 'What Happens When a Manager Changes Formation Mid-Match (Tactical Breakdown)'. European league specificity throughout — references La Liga, Bundesliga, Serie A, Premier League. Avoids topics already covered.",
+      "assertions": {
+        "A1": { "pass": true, "note": "10 ideas with all three components per idea." },
+        "A2": { "pass": true, "note": "All distinct. Formats: tactical breakdown, comparison, explainer, myth-busting, case study." },
+        "A3": { "pass": true, "note": "Search demand flagged for 3 ideas. Next Step recommends first development." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

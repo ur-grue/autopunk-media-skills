@@ -1,0 +1,17 @@
+[
+  {
+    "id": "A1",
+    "description": "Output contains all four required sections: Expertise Assessment, Track Record, Conflicts of Interest, Corroboration Recommendation, plus an Editorial Verdict",
+    "check": "binary_format"
+  },
+  {
+    "id": "A2",
+    "description": "Expertise assessment is specific to the claims being made, not to the source's general reputation",
+    "check": "binary_quality"
+  },
+  {
+    "id": "A3",
+    "description": "Output includes a Next Step note with a concrete corroboration action",
+    "check": "binary_presence"
+  }
+]

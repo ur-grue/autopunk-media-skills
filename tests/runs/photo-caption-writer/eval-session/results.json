@@ -1,0 +1,86 @@
+{
+  "skill": "photo-caption-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "1-2 sentences with present-tense first sentence"
+    },
+    {
+      "id": "A2",
+      "text": "No emotional assumptions"
+    },
+    {
+      "id": "A3",
+      "text": "Unconfirmed details flagged [VERIFY]"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Present-tense first; context second"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Actions described, not emotions"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Woman role flagged [VERIFY]"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Two-sentence caption"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "No emotional assumptions"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Location flagged"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Present/past tense format"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "No emotional language"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Identities flagged [VERIFY]"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

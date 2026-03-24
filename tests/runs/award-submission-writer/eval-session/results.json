@@ -1,0 +1,36 @@
+{
+  "skill": "award-submission-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "compelling-hook", "text": "Opens with a compelling hook, not This project is a...", "type": "binary"},
+    {"id": "craft-described", "text": "Craft and methodology are described, not just outcomes", "type": "binary"},
+    {"id": "closing-significance", "text": "Closing paragraph adds meaning rather than repeating the opening", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary award",
+      "compelling-hook": {"pass": true, "note": "Opens with the image of a town losing its newspaper, not a project description"},
+      "craft-described": {"pass": true, "note": "12-community shoot with crew of three described; original research methodology detailed"},
+      "closing-significance": {"pass": true, "note": "Closes with broader significance of news deserts for democracy"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "compelling-hook": {"pass": true, "note": "Opens with a question or surprising statistic about sleep, not project title"},
+      "craft-described": {"pass": true, "note": "Production methodology briefly described despite minimal input"},
+      "closing-significance": {"pass": true, "note": "Closing adds broader significance about science communication"}
+    },
+    "input-03": {
+      "description": "European context",
+      "compelling-hook": {"pass": true, "note": "Opens with the sound or experience of a phone recording, not the project title"},
+      "craft-described": {"pass": true, "note": "Ethical methodology for handling crisis recordings described in detail"},
+      "closing-significance": {"pass": true, "note": "Closes with significance for documentary as a human rights tool"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

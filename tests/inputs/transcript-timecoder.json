@@ -1,0 +1,35 @@
+{
+  "skill": "transcript-timecoder",
+  "test_cases": [
+    {
+      "id": "TTC-01",
+      "label": "standard",
+      "input": {
+        "transcript": "Dr. Sarah Mitchell: The problem with antibiotic resistance isn't that we didn't see it coming. We've known since the 1940s that bacteria adapt. What changed is the speed.\n\nInterviewer: How fast are we talking?\n\nDr. Sarah Mitchell: In the 1990s, a new resistant strain would emerge every few years. Now we're seeing new resistance patterns every few months. And we've essentially stopped developing new antibiotics because the economics don't work — it costs a billion dollars to develop a drug that doctors are told to use as little as possible.\n\nInterviewer: What does that mean practically for a patient walking into a hospital today?\n\nDr. Sarah Mitchell: It means that for some infections, we are already running out of options. Not in ten years. Now. There are patients in intensive care units right now being treated with drugs we stopped using decades ago because they were too toxic — and we've gone back to them because nothing else works.",
+        "start_timecode": "00:14:30:00",
+        "frame_rate": "25fps",
+        "interval": "At every speaker change"
+      }
+    },
+    {
+      "id": "TTC-02",
+      "label": "minimal",
+      "input": {
+        "transcript": "John: I've been coming to this park for forty years. It never changes. That's the point.\n\nJohn: My wife used to sit right here. Every Sunday.",
+        "start_timecode": "00:00:00:00",
+        "interval": "At every speaker change"
+      }
+    },
+    {
+      "id": "TTC-03",
+      "label": "european_context",
+      "input": {
+        "transcript": "Hanna Johansson: When I was on the streets with Extinction Rebellion, I believed that disruption was the only language power understood. I still believe that, in a way. But I also learned that disruption gets you attention — it doesn't get you policy.\n\nInterviewer: And now you work inside the European Parliament. How does that feel?\n\nHanna Johansson: Some days it feels like progress. We got language into the Fit for 55 package that would never have been there without the pressure from the streets. Other days... other days I sit in a committee room watching amendments get watered down by industry lobbyists and I think, what am I doing here?\n\nInterviewer: Do your former colleagues in the movement see you differently now?\n\nHanna Johansson: [pause] Yes. Some of them think I've been captured. That's the word they use — captured. And I understand why they think that. Because from the outside, it looks like I chose comfort over conviction. From the inside, it feels like I chose effectiveness over purity. But I'm not sure yet which of us is right.",
+        "start_timecode": "01:22:15:00",
+        "frame_rate": "25fps",
+        "interval": "At every speaker change",
+        "total_duration": "Approximately 2 minutes 30 seconds"
+      }
+    }
+  ]
+}

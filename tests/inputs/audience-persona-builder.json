@@ -1,0 +1,33 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — home renovation DIY channel",
+    "input": {
+      "channel_niche": "Budget home renovation and DIY projects for first-time homeowners",
+      "audience_description": "Mostly first-time homeowners in their late 20s to mid 30s who want to improve their homes but have limited budgets and no prior renovation experience. They are nervous about making expensive mistakes.",
+      "analytics_data": "72% male, 25-38 most common age bracket, top countries USA, Canada, UK. Average view duration 8.5 minutes (videos average 15 minutes). Comments frequently ask 'how much did this cost?' and 'can I do this without power tools?'",
+      "top_3_performers": "How I Renovated My Bathroom for $800, Beginner Mistakes That Cost Me $2,000, The Only 5 Tools You Actually Need",
+      "problem_solved": "Giving nervous first-time homeowners the confidence and knowledge to tackle renovations themselves instead of paying contractors"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "channel_niche": "Watercolor painting tutorials for complete beginners",
+      "audience_description": "Adults who always wanted to learn to paint but never started. Mostly people who think they have no artistic talent.",
+      "analytics_data": "58% female, 30-55 age range, primarily USA and UK. Comments often say 'I never thought I could do this' and 'this is my first painting ever.'"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — sustainable fashion channel based in Stockholm",
+    "input": {
+      "channel_niche": "Sustainable and secondhand fashion in European cities — thrift hauls, capsule wardrobes, and ethical brand reviews",
+      "audience_description": "Young professionals in European cities who care about sustainability but also want to look good. They have some disposable income but are skeptical of greenwashing. Many are in Scandinavia, Germany, and the Netherlands.",
+      "analytics_data": "78% female, 22-34 most common age bracket, top countries Sweden (18%), Germany (15%), Netherlands (10%), UK (9%), Denmark (7%). Average view duration 7.8 minutes (videos average 12 minutes). Comments frequently ask about specific thrift stores in European cities and whether brands are genuinely sustainable.",
+      "top_3_performers": "I Built a Full Wardrobe from Stockholm Thrift Stores for 200 EUR, The Brands That Are Actually Sustainable (And the Ones Lying to You), My 30-Piece Capsule Wardrobe for All 4 Seasons",
+      "problem_solved": "Helping style-conscious Europeans dress well without contributing to fast fashion, and cutting through greenwashing claims with honest reviews"
+    }
+  }
+]

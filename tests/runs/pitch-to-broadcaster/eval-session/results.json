@@ -1,0 +1,16 @@
+{
+  "skill": "pitch-to-broadcaster",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "format-specified", "text": "Output specifies programme format, duration, and audience", "type": "binary"},
+    {"id": "editorial-proposition", "text": "Editorial proposition explains why this fills a gap", "type": "binary"},
+    {"id": "production-credentials", "text": "Production credentials are included", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard radio pitch", "format-specified": {"pass": true, "note": "10 x 30 min, late-night, location-recorded format specified"}, "editorial-proposition": {"pass": true, "note": "Late-night slot gap identified; night workers as underserved subject"}, "production-credentials": {"pass": true, "note": "Nightjar Audio credentials: 5 years, previous Radio 4 commission"}},
+    "input-02": {"description": "Minimal input", "format-specified": {"pass": true, "note": "30 min weekly interview format specified"}, "editorial-proposition": {"pass": true, "note": "Entrepreneurship angle framed for local commercial audience"}, "production-credentials": {"pass": true, "note": "Credentials section present though necessarily brief"}},
+    "input-03": {"description": "European context", "format-specified": {"pass": true, "note": "6 x 45 min, European co-production format with climate adaptation focus"}, "editorial-proposition": {"pass": true, "note": "Gap in Dutch schedule for multi-city European environmental documentary identified"}, "production-credentials": {"pass": true, "note": "Klankwerk credentials with VPRO and NPO Doc commissions; co-production interest from ORF and DR"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

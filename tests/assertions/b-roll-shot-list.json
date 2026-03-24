@@ -1,0 +1,17 @@
+{
+  "skill": "b-roll-shot-list",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is a numbered shot list organized under bold section headers, with each entry including shot type in brackets, specific subject description, and one-line purpose note"
+    },
+    {
+      "id": "A2",
+      "description": "Shot descriptions are specific enough to film without interpretation (not vague like 'show cooking') and shot types are varied across the list"
+    },
+    {
+      "id": "A3",
+      "description": "Output ends with a Shoot Day Notes section grouping shots logically by setup or location for efficient filming"
+    }
+  ]
+}

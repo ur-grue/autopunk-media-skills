@@ -18,6 +18,27 @@
         {"id": "production-notes", "text": "Production notes appear on at least 3 questions throughout the set", "type": "binary"},
         {"id": "safe-to-sensitive", "text": "High-stakes or challenging questions appear only in the final section, not in the opening", "type": "binary"}
       ]
+    },
+    "narrator-voice-adapter": {
+      "assertions": [
+        {"id": "NVA-A1", "text": "Output contains both an Original and Adapted version clearly labeled, with approximate word counts for each", "type": "binary"},
+        {"id": "NVA-A2", "text": "All factual content from the original narration is preserved in the adapted version — no facts added or removed", "type": "binary"},
+        {"id": "NVA-A3", "text": "Output includes a Voice Notes section (100-150 words) describing specific changes made, not just generic descriptions", "type": "binary"}
+      ]
+    },
+    "scene-breakdown-writer": {
+      "assertions": [
+        {"id": "SBW-A1", "text": "Each scene is numbered and includes approximate running time, Action, Narration Cue, Interview Placement, and B-roll Required fields", "type": "binary"},
+        {"id": "SBW-A2", "text": "Scene running times sum approximately to the target sequence length specified in the input", "type": "binary"},
+        {"id": "SBW-A3", "text": "Output includes a Sequence Notes section that flags at least one missing material risk or structural problem, plus a Next Step note", "type": "binary"}
+      ]
+    },
+    "animated-explainer-script": {
+      "assertions": [
+        {"id": "AES-A1", "text": "Output uses two-column format with narration text and corresponding visual direction for every beat — no orphaned text without a visual cue", "type": "binary"},
+        {"id": "AES-A2", "text": "Narration word count is approximately 150 words per minute of target duration (within 15% tolerance)", "type": "binary"},
+        {"id": "AES-A3", "text": "Output includes deliberate pauses or beats, a Production Notes section, and the sequence opens/closes with connections to the documentary narrative", "type": "binary"}
+      ]
     }
   }
 }

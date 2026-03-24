@@ -1,0 +1,29 @@
+{
+  "skill": "editorial-photo-prompt",
+  "category": "image-prompting/flux",
+  "inputs": [
+    {
+      "label": "standard",
+      "subject": "A factory worker operating a large industrial press in a manufacturing plant",
+      "context": "Feature article about the decline of manufacturing jobs and the human cost of automation",
+      "register": "Serious, dignified, not pitying",
+      "lighting": "Industrial interior, overhead fluorescent and natural light from high windows",
+      "format": "16:9",
+      "style": "Documentary photography, slightly warm and desaturated"
+    },
+    {
+      "label": "minimal",
+      "subject": "A journalist working late at a desk covered in papers",
+      "context": "Newsletter header for a media industry publication"
+    },
+    {
+      "label": "european",
+      "subject": "A fisherman mending nets on a small boat in a Greek island harbour at dawn",
+      "context": "Long-form magazine article about the collapse of small-scale Mediterranean fishing communities under EU regulation",
+      "register": "Quiet, intimate, observational \u2014 the fisherman is unaware of the camera",
+      "lighting": "Pre-dawn blue light transitioning to early morning gold",
+      "format": "4:5 for Instagram",
+      "style": "Mediterranean documentary photography, slightly cool palette"
+    }
+  ]
+}

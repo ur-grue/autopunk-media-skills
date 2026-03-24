@@ -1,0 +1,26 @@
+{
+  "skill": "pdf-table-extractor-brief",
+  "category": "data-journalism/investigation",
+  "inputs": [
+    {
+      "label": "standard",
+      "document": "Annual police use-of-force report, 84 pages, published by the city police department",
+      "table": "Summary table on pages 22-24 showing use-of-force incidents by precinct. Approximately 25 rows (one per precinct) and 7 columns: Precinct, Total Incidents, Firearm Discharge, Taser Use, Physical Force, Complaints Filed, Officers Involved. Table spans three pages with header repeating.",
+      "use": "Compare precincts to identify which have disproportionately high use-of-force rates relative to calls for service",
+      "tool": "Not sure \u2014 recommend one"
+    },
+    {
+      "label": "minimal",
+      "document": "City council meeting minutes PDF, 12 pages",
+      "table": "Voting record table on page 8. 10 rows (one per agenda item), 5 columns: Item Number, Description, Yes Votes, No Votes, Result.",
+      "use": "Track council voting patterns"
+    },
+    {
+      "label": "european",
+      "document": "European Commission annual report on farm subsidy distribution, 120-page PDF in English",
+      "table": "Table on pages 45-52 showing subsidy payments by EU member state. 27 rows (one per state) and 8 columns: Member State, Direct Payments (EUR), Rural Development (EUR), Market Measures (EUR), Total (EUR), Share of EU Total (%), Per Hectare Rate (EUR), Year-on-Year Change (%). Table spans 8 pages with headers repeating on each page. Some cells contain footnote markers (superscript numbers).",
+      "use": "Analyse which member states receive the most per hectare and whether the distribution is becoming more or less equal over time",
+      "tool": "Tabula"
+    }
+  ]
+}

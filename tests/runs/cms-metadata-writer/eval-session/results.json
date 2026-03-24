@@ -1,0 +1,86 @@
+{
+  "skill": "cms-metadata-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "SEO Title, Meta Description, Slug, Tags, Category, OG Title, OG Description with counts"
+    },
+    {
+      "id": "A2",
+      "text": "SEO title within 60 chars with primary keyword"
+    },
+    {
+      "id": "A3",
+      "text": "OG fields distinct from SEO fields"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All 7 fields present with character counts"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "SEO title: 54 characters; includes 'teachers leaving profession'"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "OG title uses more provocative framing than SEO title; OG description punchier for social feeds"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All fields present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "SEO title within limit with keyword"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "OG distinct from SEO"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All fields present; tags drawn from provided taxonomy"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "SEO title: 58 characters; includes 'EU pesticide' keyword naturally"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "OG title: provocative question format for social; OG description focuses on farmer angle for emotional engagement"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

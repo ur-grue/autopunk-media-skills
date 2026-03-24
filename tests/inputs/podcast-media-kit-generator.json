@@ -1,0 +1,64 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — true crime podcast",
+    "input": {
+      "show_name": "Cold Trail",
+      "tagline": "Unsolved cases. New evidence. Real answers.",
+      "description": "A narrative true crime podcast that revisits cold cases with new forensic analysis, witness interviews, and investigative journalism. Each season covers one case across 8-10 episodes.",
+      "format": "Narrative investigative, single-host",
+      "episode_length": "35-45 minutes",
+      "frequency": "Weekly during season (3 seasons per year, 8-10 episodes each)",
+      "downloads_per_episode": 22000,
+      "monthly_downloads": 95000,
+      "total_episodes": 86,
+      "host_name": "Elena Vasquez",
+      "host_bio": "Elena Vasquez is an investigative journalist with 12 years of experience covering criminal justice. She previously reported for a major metropolitan newspaper before launching Cold Trail in 2022.",
+      "demographics": "52% female / 48% male; 25-45 primary (72%); USA 55%, UK 18%, Canada 10%, Australia 8%",
+      "notable_guests": "Forensic pathologists, retired cold case detectives, innocence project attorneys",
+      "social_following": "45,000 Instagram, 28,000 Twitter/X",
+      "email_list": 18000,
+      "current_sponsors": "A legal document platform and a home security company",
+      "packages": "Mid-roll ($45 CPM), pre-roll ($30 CPM), newsletter ($650 flat/week)"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "show_name": "Design Thinking Out Loud",
+      "description": "A podcast about product design, UX, and the creative process for working designers",
+      "format": "Interview, two hosts",
+      "episode_length": "40-50 minutes",
+      "frequency": "Bi-weekly",
+      "downloads_per_episode": 5500,
+      "monthly_downloads": 12000,
+      "total_episodes": 62,
+      "host_name": "Anika Patel and James Thornton",
+      "host_bio": "Anika Patel is a senior product designer at a technology company. James Thornton is a UX researcher and design educator."
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European football culture podcast",
+    "input": {
+      "show_name": "The Beautiful Game",
+      "tagline": "Football culture beyond the pitch",
+      "description": "A podcast exploring European football culture — fan movements, stadium architecture, club politics, and the stories behind the sport. Not match analysis; the human side of football.",
+      "format": "Mix of solo essays and guest interviews",
+      "episode_length": "30-40 minutes",
+      "frequency": "Weekly (Mondays)",
+      "downloads_per_episode": 14000,
+      "monthly_downloads": 58000,
+      "total_episodes": 145,
+      "host_name": "Tomasz Kowalski",
+      "host_bio": "Tomasz Kowalski is a Polish-British sports journalist and author who has covered European football for 15 years. He writes for a major UK sports publication and has reported from stadiums across 20 countries.",
+      "demographics": "74% male / 26% female; 22-40 primary (68%); UK 28%, Germany 14%, Netherlands 8%, Poland 7%, Spain 6%, USA 12%",
+      "notable_guests": "Club historians, fan group leaders, sports architects, retired players involved in community work",
+      "social_following": "32,000 Twitter/X, 18,000 Instagram",
+      "email_list": 9500,
+      "packages": "Mid-roll (40 EUR CPM), pre-roll (28 EUR CPM), newsletter (400 EUR flat/week)",
+      "awards": "Shortlisted for Best Sports Podcast, British Podcast Awards 2025"
+    }
+  }
+]

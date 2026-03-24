@@ -1,0 +1,26 @@
+{
+  "category": "pr-communications/crisis-comms",
+  "skills": {
+    "holding-statement-writer": {
+      "assertions": [
+        {"id": "acknowledges-subject", "text": "Statement directly acknowledges the subject of the media inquiry without topic-avoidance", "type": "binary"},
+        {"id": "timeframe-included", "text": "Includes a specific timeframe or commitment to update", "type": "binary"},
+        {"id": "under-120-words", "text": "Statement is under 120 words", "type": "binary"}
+      ]
+    },
+    "crisis-statement-writer": {
+      "assertions": [
+        {"id": "opens-with-empathy", "text": "Statement opens by naming the incident and acknowledging those affected, not with organisational positioning", "type": "binary"},
+        {"id": "facts-separated", "text": "Confirmed facts are clearly separated from what remains unknown", "type": "binary"},
+        {"id": "concrete-action", "text": "At least one concrete action is named (investigation launched, product recalled, service suspended)", "type": "binary"}
+      ]
+    },
+    "faq-document-writer": {
+      "assertions": [
+        {"id": "journalist-register", "text": "Questions are phrased as a journalist would ask them, not as internal talking points", "type": "binary"},
+        {"id": "dont-know-acknowledged", "text": "We-don't-know-yet and no-comment positions are acknowledged explicitly with bridging language", "type": "binary"},
+        {"id": "no-ungrounded-info", "text": "No answer contains information not grounded in the input briefing", "type": "binary"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "skill": "brand-deal-pitch-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/brand-deal-pitch-writer.json",
+  "assertions_file": "tests/assertions/brand-deal-pitch-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — cooking channel pitching kitchenware brand",
+      "output_summary": "Email opens with audience relevance: 'Your knives land in the hands of home cooks who take their tools seriously — and who ask in every comment section whether the investment is worth it.' Subject line names the brand and channel. Metrics contextualized (4.1% engagement, 60% completion). Integration proposed as 30-day daily-use dedicated review. Rate of $1,800 stated clearly. 295 words total.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with audience relevance to the knife brand, not channel name or subscriber count." },
+        "A2": { "pass": true, "note": "Professional email format with subject line. 295 words, within 250-350 range." },
+        "A3": { "pass": true, "note": "Rate of $1,800 stated without hedging. Dedicated 30-day review format specified clearly." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — small channel, no demographics",
+      "output_summary": "Email opens with the remote work audience's need for ergonomic equipment. Works around missing demographic data by focusing on behavioral signals. Rate of $800 stated directly. Proposes dedicated review format. Subject line is specific. 260 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with audience relevance despite minimal demographic data." },
+        "A2": { "pass": true, "note": "Professional email format, 260 words, within range." },
+        "A3": { "pass": true, "note": "Rate stated clearly, dedicated review proposed." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Scandinavian outdoor channel",
+      "output_summary": "Email opens with European outdoor audience overlap. References merino wool base layers as naturally fitting winter hiking content. Demographics presented with European market breakdown. Rate of 2,200 EUR stated in euros. Proposes multi-day hiking test in Norwegian winter. Previous partnerships cited for credibility. 320 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with the European outdoor audience's relationship to premium technical gear, not subscriber count." },
+        "A2": { "pass": true, "note": "Professional email with subject line. 320 words in range. EUR pricing correctly used." },
+        "A3": { "pass": true, "note": "Rate of 2,200 EUR stated without apology. Multi-day Norwegian winter test format specific and compelling." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

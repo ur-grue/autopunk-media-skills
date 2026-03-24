@@ -1,0 +1,47 @@
+{
+  "skill": "podcast-media-kit-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/podcast-media-kit-generator.json",
+  "assertions_file": "tests/assertions/podcast-media-kit-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — true crime podcast",
+      "output_summary": "Full media kit with all sections. Show Overview positions Cold Trail as an investigative journalism podcast, not a casual true crime show. Audience section includes behavioral signals: 'listeners who follow cases across seasons and share episode evidence with each other.' By the Numbers in clean formatted block. Sponsorship packages as table with CPM rates. Host bio and contact complete. Next Step: add real contact emails, have the kit designed as a branded PDF.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All required sections present and clearly labeled." },
+        "A2": { "pass": true, "note": "Behavioral signals include listener loyalty and engagement patterns beyond demographics." },
+        "A3": { "pass": true, "note": "Sponsorship packages table with mid-roll ($45 CPM), pre-roll ($30 CPM), newsletter ($650 flat/week)." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Shorter media kit proportional to available data. Show Overview positions the podcast clearly. Audience section uses available format/topic data to infer behavioral signals. No demographics table (none provided). Sponsorship section suggests industry-standard packages with pricing placeholders. Next Step: gather demographic data from podcast host analytics before sending.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All sections present. Sponsorship section uses suggested industry-standard structures." },
+        "A2": { "pass": true, "note": "Behavioral inference present: designers and UX professionals listen because the show speaks their language." },
+        "A3": { "pass": true, "note": "Packages described with standard formats. Pricing uses suggested ranges rather than blanks." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European football culture podcast",
+      "output_summary": "Full media kit with European context throughout. Audience section includes pan-European geographic breakdown. Sponsorship packages in EUR. Show Overview positions the podcast as a cultural property, not a sports commentary show. Awards shortlist included. Host bio references 20-country reporting. Next Step: run sponsorship-pitch-writer for outreach email.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All sections present with European cultural and pricing context." },
+        "A2": { "pass": true, "note": "Behavioral signals: fans who care about the stories behind the sport, not match results." },
+        "A3": { "pass": true, "note": "Packages in EUR CPM with specific rates for mid-roll, pre-roll, and newsletter." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

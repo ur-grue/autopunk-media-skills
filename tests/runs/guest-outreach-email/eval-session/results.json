@@ -1,0 +1,47 @@
+{
+  "skill": "guest-outreach-email",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/guest-outreach-email.json",
+  "assertions_file": "tests/assertions/guest-outreach-email.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — tech podcast inviting AI researcher",
+      "output_summary": "Email opens referencing the specific paper on benchmark methodology. Subject line: 'Benchmarking the Benchmarks — The Algorithm podcast.' Show description is one paragraph. Episode idea framed as a specific question about benchmark validity. Ask: 30-minute remote conversation, minimal prep. 270 words. Next Step: follow up in 7-10 days if no reply, run interview-question-builder in parallel.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with specific reference to the benchmarking paper, not job title." },
+        "A2": { "pass": true, "note": "270 words. Subject line references the paper and show name." },
+        "A3": { "pass": true, "note": "Format, length, and low prep explicitly stated. Next Step with follow-up timing." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Email opens referencing the guest's transition from shooting to teaching workshops. Episode framed around the sustainability question. Ask is concrete. 225 words. Next Step included.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with specific reference to the career pivot, not generic description." },
+        "A2": { "pass": true, "note": "225 words. Subject line specific." },
+        "A3": { "pass": true, "note": "Concrete ask with format and length. Next Step present." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — UK politics podcast inviting EU policy expert",
+      "output_summary": "Email opens referencing the specific policy brief on EU-UK trade review. Mentions the network connection. Episode framed around the gap between what the EU wants and what the UK thinks they want. Notable recent guests cited for credibility. EUR/UK policy context authentic. 285 words. Next Step with follow-up timing and guest-research-brief recommendation.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with specific reference to 'The Review That Could Reset EU-UK Relations' policy brief." },
+        "A2": { "pass": true, "note": "285 words. Subject line references the trade review topic and show name." },
+        "A3": { "pass": true, "note": "Concrete ask. Next Step recommends 7-10 day follow-up window." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

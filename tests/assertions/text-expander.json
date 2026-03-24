@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output contains Gap Analysis and expanded text with new material in bold","check":"binary_format"},{"id":"A2","description":"No fabricated facts — all new content from user material or flagged as needs reporting","check":"binary_quality"},{"id":"A3","description":"Word count target met or shortfall honestly reported","check":"binary_quality"}]

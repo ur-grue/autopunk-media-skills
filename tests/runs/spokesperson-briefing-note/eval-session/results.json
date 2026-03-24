@@ -1,0 +1,16 @@
+{
+  "skill": "spokesperson-briefing-note",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "key-messages-numbered", "text": "Key messages are numbered and stated in one sentence each", "type": "binary"},
+    {"id": "journalist-register-questions", "text": "Anticipated questions are in journalist register", "type": "binary"},
+    {"id": "bridging-language", "text": "Every topic-to-avoid has bridging language", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard media interview prep", "key-messages-numbered": {"pass": true, "note": "Three messages numbered: internal detection, no extraction evidence, independent audit"}, "journalist-register-questions": {"pass": true, "note": "Questions direct: How many authorities affected? Why didnt you tell clients sooner?"}, "bridging-language": {"pass": true, "note": "Cannot name authorities: bridge to we are notifying each individually and directly"}},
+    "input-02": {"description": "Minimal input", "key-messages-numbered": {"pass": true, "note": "Two messages numbered clearly"}, "journalist-register-questions": {"pass": true, "note": "Questions in natural spoken register"}, "bridging-language": {"pass": true, "note": "No off-limits topics; N/A but handled gracefully"}},
+    "input-03": {"description": "European context", "key-messages-numbered": {"pass": true, "note": "Three messages numbered: patient safety priority, independent review, full transparency"}, "journalist-register-questions": {"pass": true, "note": "Questions adversarial: Was the trial adequately supervised? Should NHI have caught this sooner?"}, "bridging-language": {"pass": true, "note": "Patient identity: bridge to independent review will publish findings. Treatment protocol: bridge to we cannot pre-judge the review"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

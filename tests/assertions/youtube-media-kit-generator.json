@@ -1,0 +1,17 @@
+{
+  "skill": "youtube-media-kit-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains all six labeled sections: Channel Identity, Audience Profile, Content Formats/Integration Options, Rate Card, Past Partners (or omitted if no data), and Contact/Next Steps"
+    },
+    {
+      "id": "A2",
+      "description": "Audience data is presented in BOTH summary prose AND a formatted data table — not just one or the other"
+    },
+    {
+      "id": "A3",
+      "description": "Rate card is in table format with specific prices for each integration type, not vague 'contact for pricing' language"
+    }
+  ]
+}

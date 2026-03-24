@@ -1,0 +1,29 @@
+{
+  "skill": "methodology-explainer",
+  "category": "data-journalism/publishing",
+  "inputs": [
+    {
+      "label": "standard",
+      "data": "Teacher salary data obtained from the Department of Education's open data portal. Covers all 12 school districts in the region for fiscal years 2020-2025. Includes base salary, years of experience, and qualification level for each teacher.",
+      "analysis": "Calculated median salary per district per year. Compared 2020 to 2025 to measure change. Cross-referenced with teacher turnover data from the same portal to test correlation between low pay and high attrition.",
+      "finding": "The three lowest-paying districts lost an average of 18% of their teaching staff per year, compared to 7% in the three highest-paying districts.",
+      "limitations": "Salary data does not include benefits, bonuses, or cost-of-living adjustments. Teachers who transferred between districts appear as both a departure and a hire.",
+      "tools": "Python (pandas), cross-checked in Google Sheets"
+    },
+    {
+      "label": "minimal",
+      "data": "City crime statistics for 2020-2025, obtained from police department annual reports.",
+      "analysis": "Calculated year-over-year change in reported burglaries and per-capita rates.",
+      "finding": "Reported burglaries fell 16% but per-capita rate fell 22% due to population growth.",
+      "limitations": "Figures are reported crimes only \u2014 actual rates may differ."
+    },
+    {
+      "label": "european",
+      "data": "Press freedom index scores for all 27 EU member states, obtained from the European Journalism Centre's annual reports for 2020, 2023, and 2025. Supplemented with data on journalist detentions from Reporters Without Borders' annual tracker.",
+      "analysis": "Calculated mean press freedom score across all 27 states for each year. Ranked states by change between 2020 and 2025. Grouped states by EU accession date (pre-2004, 2004-2013, post-2013) to test whether newer member states show different trends. Cross-referenced with journalist detention counts.",
+      "finding": "Press freedom scores declined in 14 of 27 member states. The average score fell from 76.8 to 73.1. States that joined the EU after 2004 showed larger average declines than founding members.",
+      "limitations": "The two data sources use different methodologies \u2014 the press freedom index is perception-based while detention counts are factual events. Combining them requires caution. Three states changed their media law frameworks during the period, which may affect comparability.",
+      "tools": "R (tidyverse), verified in Excel"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "sponsorship-pitch-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Opening sentence names the brand and states the audience fit specifically — not generic alignment language"
+    },
+    {
+      "id": "A2",
+      "description": "Sponsorship packages are described specifically with placement type, duration, and pricing, and the total pitch is under 400 words"
+    },
+    {
+      "id": "A3",
+      "description": "Call to action is one specific thing (not 'let me know if interested') and output includes a Next Step note"
+    }
+  ]
+}

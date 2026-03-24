@@ -1,0 +1,16 @@
+{
+  "skill": "landing-page-copy-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "benefit-headline", "text": "Headline leads with reader benefit, not newsletter brand name", "type": "binary"},
+    {"id": "specific-differentiator", "text": "Value proposition differentiator is specific to this newsletter", "type": "binary"},
+    {"id": "cta-specific", "text": "CTA button text is more specific than just Subscribe", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard newsletter landing page", "benefit-headline": {"pass": true, "note": "Headline leads with benefit: knowing rates, contracts, and who is hiring"}, "specific-differentiator": {"pass": true, "note": "Differentiator: business of writing not craft — specific and defensible"}, "cta-specific": {"pass": true, "note": "CTA options specific: Get the rates, Join The Craft, Start reading Tuesday"}},
+    "input-02": {"description": "Minimal input", "benefit-headline": {"pass": true, "note": "Headline leads with benefit of daily understanding"}, "specific-differentiator": {"pass": true, "note": "Differentiator: one story in under 500 words — specific"}, "cta-specific": {"pass": true, "note": "CTA more specific than Subscribe"}},
+    "input-03": {"description": "European context", "benefit-headline": {"pass": true, "note": "Headline leads with cross-border housing policy intelligence benefit"}, "specific-differentiator": {"pass": true, "note": "Pan-European perspective differentiator — no competitor does this"}, "cta-specific": {"pass": true, "note": "CTA options specific to housing policy audience"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

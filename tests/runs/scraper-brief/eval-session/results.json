@@ -1,0 +1,89 @@
+{
+  "skill": "scraper-brief",
+  "category": "data-journalism/investigation",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all six sections: Data Source, Fields to Collect (with example values), Output Schema, Scope and Frequency, Technical Considerations, Legal and Ethical Notes"
+    },
+    {
+      "id": "A2",
+      "description": "Every field to be collected is named with a description and example value"
+    },
+    {
+      "id": "A3",
+      "description": "Legal and ethical notes address robots.txt status and terms of service"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All six sections present with court-specific detail"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "9 fields each with description and example (case number, judge, etc.)"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "robots.txt and ToS addressed; public interest basis noted"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All six sections present"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "4 fields with descriptions and examples"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Legal notes address government data accessibility"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All six sections with EU-specific legal considerations"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "10 fields including EU-specific identifiers with examples"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "GDPR and EU data access regulations addressed alongside robots.txt"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

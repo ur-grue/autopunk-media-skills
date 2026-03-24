@@ -1,0 +1,47 @@
+{
+  "skill": "call-to-action-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/call-to-action-generator.json",
+  "assertions_file": "tests/assertions/call-to-action-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — education channel subscribe + comment CTAs",
+      "output_summary": "Generated 5 CTA options: 3 subscribe variants (value-promise, community frame, direct ask) and 2 comment CTAs. Each labeled with engagement trigger and ideal placement. Comment CTA ties to shadowing topic: 'Drop your language in the comments — I'm curious what accent you're working toward.' All match warm, teacher-like tone.",
+      "assertions": {
+        "A1": { "pass": true, "note": "5 complete word-for-word scripts. No placeholders." },
+        "A2": { "pass": true, "note": "Each labeled with distinct trigger and placement note." },
+        "A3": { "pass": true, "note": "Natural spoken cadence with contractions. Warm encouraging tone consistent." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Generated 4 subscribe CTA variants despite minimal input. Each uses a different trigger: value-promise, direct ask, anti-algorithm, efficiency. All match no-nonsense tone. Short and clean.",
+      "assertions": {
+        "A1": { "pass": true, "note": "4 complete scripts, no placeholders." },
+        "A2": { "pass": true, "note": "Distinct triggers labeled with placement notes." },
+        "A3": { "pass": true, "note": "Natural spoken cadence. Straightforward tone." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — travel channel with sponsor read",
+      "output_summary": "Generated 6 options: 3 subscribe CTAs and 1 sponsor read for the European adventure insurance brand, plus 2 comment engagement options. Sponsor read transitions naturally from the Scottish Highlands content. Insurance product framed around wild camping and outdoor adventure coverage across EU/UK — European context preserved. Placement notes specify mid-roll for sponsor, end for subscribe.",
+      "assertions": {
+        "A1": { "pass": true, "note": "6 complete scripts including sponsor read. No placeholders." },
+        "A2": { "pass": true, "note": "Distinct triggers for each option. Placement notes included." },
+        "A3": { "pass": true, "note": "Natural spoken cadence. Adventurous storytelling tone consistent." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

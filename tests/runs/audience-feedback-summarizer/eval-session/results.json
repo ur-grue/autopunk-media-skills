@@ -1,0 +1,16 @@
+{
+  "skill": "audience-feedback-summarizer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "themes-identified", "text": "Output identifies recurring themes with sentiment tags and frequency notes", "type": "binary"},
+    {"id": "representative-quotes", "text": "At least one representative direct quote per theme", "type": "binary"},
+    {"id": "actionable-takeaways", "text": "Output ends with 3-5 specific recommended actions", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard feedback batch", "themes-identified": {"pass": true, "note": "4-5 themes identified: rates content (positive), geographic bias (negative), ghostwriting gap, length concern"}, "representative-quotes": {"pass": true, "note": "Direct quotes included for each theme"}, "actionable-takeaways": {"pass": true, "note": "5 actions: add UK rates, cover ghostwriting, shorten links section, expand content-writer coverage, maintain contract features"}},
+    "input-02": {"description": "Minimal input", "themes-identified": {"pass": true, "note": "3-4 themes: episode length, ads, topic requests, platform issues"}, "representative-quotes": {"pass": true, "note": "Quotes included per theme"}, "actionable-takeaways": {"pass": true, "note": "3-4 specific actions recommended"}},
+    "input-03": {"description": "European context", "themes-identified": {"pass": true, "note": "5 themes: Western European bias, data visualization request, academic tone concern, co-operative coverage gap, schedule preference"}, "representative-quotes": {"pass": true, "note": "Direct quotes for each theme"}, "actionable-takeaways": {"pass": true, "note": "5 actions: expand Eastern European coverage, add data visualization, adjust tone for journalists, cover Vienna co-ops, maintain fortnightly schedule"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

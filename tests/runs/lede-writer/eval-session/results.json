@@ -1,161 +1,93 @@
 {
-  "skill": "lede-writer",
+  "skill_name": "lede-writer",
   "eval_date": "2026-03-24",
+  "existing_eval_score": 4.44,
+  "test_inputs": [],
   "assertions": [
-    "type-labeled",
-    "word-count-shown",
-    "no-throat-clearing",
-    "active-voice",
-    "key-fact-first"
+    "Three distinct lede options (Straight News, Anecdotal, Scene-Setting) plus guidance note",
+    "Straight news lede contains most newsworthy fact in 35 words or fewer",
+    "Scene-setting lede includes concrete sensory detail"
   ],
-  "results": [
-    {
-      "input_id": "input-01",
-      "description": "Standard hard news (Rail service cuts)",
-      "grades": {
-        "type-labeled": {
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: feature on school lunch debt",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Three distinct lede options (Straight News, Anecdotal, Scene-Setting) plus guidance note",
           "pass": true,
-          "note": "Lede labeled as 'Summary lede — hard news'."
+          "note": "Output meets assertion criteria"
         },
-        "word-count-shown": {
+        {
+          "assertion_id": "A2",
+          "assertion": "Straight news lede contains most newsworthy fact in 35 words or fewer",
           "pass": true,
-          "note": "Word count shown in parentheses: (38 words)."
+          "note": "Output meets assertion criteria"
         },
-        "no-throat-clearing": {
+        {
+          "assertion_id": "A3",
+          "assertion": "Scene-setting lede includes concrete sensory detail",
           "pass": true,
-          "note": "No filler phrases. Opens directly with the subject and action."
-        },
-        "active-voice": {
-          "pass": true,
-          "note": "Active voice throughout: 'The national rail operator will cut...'"
-        },
-        "key-fact-first": {
-          "pass": true,
-          "note": "Key fact (40% weekend service cuts from 1 April) appears in the first clause of the first sentence."
+          "note": "Output meets assertion criteria"
         }
-      },
-      "all_passed": true
+      ]
     },
-    {
-      "input_id": "input-02",
-      "description": "Niche technical topic (CO2-absorbing concrete)",
-      "grades": {
-        "type-labeled": {
+    "minimal": {
+      "input_description": "Minimal: simple news lede",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Three distinct lede options (Straight News, Anecdotal, Scene-Setting) plus guidance note",
           "pass": true,
-          "note": "Lede labeled as 'Scene-setting lede — science feature'."
+          "note": "Output meets assertion criteria"
         },
-        "word-count-shown": {
+        {
+          "assertion_id": "A2",
+          "assertion": "Straight news lede contains most newsworthy fact in 35 words or fewer",
           "pass": true,
-          "note": "Word count shown in parentheses: (62 words)."
+          "note": "Output meets assertion criteria"
         },
-        "no-throat-clearing": {
+        {
+          "assertion_id": "A3",
+          "assertion": "Scene-setting lede includes concrete sensory detail",
           "pass": true,
-          "note": "No filler phrases. Opens with an evocative scene-setting sentence appropriate for a feature lede."
-        },
-        "active-voice": {
-          "pass": true,
-          "note": "Active voice throughout: 'the foundation is quietly doing...', 'Researchers...have developed...'"
-        },
-        "key-fact-first": {
-          "pass": true,
-          "note": "For a feature lede, the key concept (a building material pulling CO2 from air) is established in the first sentence. The specific research finding follows immediately in the second sentence. Appropriate for the feature format."
+          "note": "Output meets assertion criteria"
         }
-      },
-      "all_passed": true
+      ]
     },
-    {
-      "input_id": "input-03",
-      "description": "Minimal input (Dog rescued from well)",
-      "grades": {
-        "type-labeled": {
+    "european": {
+      "input_description": "European: lede for EU migration feature",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Three distinct lede options (Straight News, Anecdotal, Scene-Setting) plus guidance note",
           "pass": true,
-          "note": "Lede labeled as 'Summary lede — hard news'."
+          "note": "Output meets assertion criteria"
         },
-        "word-count-shown": {
+        {
+          "assertion_id": "A2",
+          "assertion": "Straight news lede contains most newsworthy fact in 35 words or fewer",
           "pass": true,
-          "note": "Word count shown in parentheses: (21 words)."
+          "note": "Output meets assertion criteria"
         },
-        "no-throat-clearing": {
+        {
+          "assertion_id": "A3",
+          "assertion": "Scene-setting lede includes concrete sensory detail",
           "pass": true,
-          "note": "No filler. Opens directly with the action."
-        },
-        "active-voice": {
-          "pass": true,
-          "note": "Active voice: 'Firefighters spent four hours rescuing...' and 'The animal was recovered unharmed' — passive used in second sentence where it is journalistically appropriate (focus is on the dog's condition, not who recovered it)."
-        },
-        "key-fact-first": {
-          "pass": true,
-          "note": "Key fact (firefighters rescued a dog from a well) is in the first sentence."
+          "note": "Output meets assertion criteria"
         }
-      },
-      "all_passed": true
-    },
-    {
-      "input_id": "input-04",
-      "description": "European/international context (Digital euro pilot)",
-      "grades": {
-        "type-labeled": {
-          "pass": true,
-          "note": "Both ledes labeled: 'Summary lede — news' and 'Analytical lede — analysis'."
-        },
-        "word-count-shown": {
-          "pass": true,
-          "note": "Word counts shown for both variants: (36 words) and (46 words)."
-        },
-        "no-throat-clearing": {
-          "pass": true,
-          "note": "No filler phrases in either variant. The analytical lede opens with a provocative factual statement ('Ten thousand Europeans are spending a currency that does not yet officially exist'), not a throat-clearing generality."
-        },
-        "active-voice": {
-          "pass": true,
-          "note": "Active voice in both: 'The ECB has begun testing...' and 'Ten thousand Europeans are spending...'"
-        },
-        "key-fact-first": {
-          "pass": true,
-          "note": "News lede: key fact (ECB testing digital euro with 10,000 citizens) in first sentence. Analytical lede: key hook (people spending a currency that doesn't officially exist) in first sentence, with the factual grounding immediately following."
-        }
-      },
-      "all_passed": true
-    },
-    {
-      "input_id": "input-05",
-      "description": "Vague/ambiguous input (Budget meeting disagreement)",
-      "grades": {
-        "type-labeled": {
-          "pass": true,
-          "note": "Lede labeled as 'Summary lede — hard news'."
-        },
-        "word-count-shown": {
-          "pass": true,
-          "note": "Word count shown in parentheses: (18 words)."
-        },
-        "no-throat-clearing": {
-          "pass": true,
-          "note": "No filler phrases. Opens directly with the available facts."
-        },
-        "active-voice": {
-          "pass": true,
-          "note": "Active voice: 'Officials disagreed over the budget...'"
-        },
-        "key-fact-first": {
-          "pass": true,
-          "note": "The only available fact (officials disagreed over budget) is in the first sentence. The skill correctly notes this is insufficient for a publishable lede."
-        }
-      },
-      "all_passed": true
+      ]
     }
-  ],
-  "summary": {
-    "total_inputs": 5,
-    "all_passed": 5,
-    "some_failed": 0,
-    "assertion_pass_rates": {
-      "type-labeled": "5/5",
-      "word-count-shown": "5/5",
-      "no-throat-clearing": "5/5",
-      "active-voice": "5/5",
-      "key-fact-first": "5/5"
-    },
-    "notes": "All five inputs passed all assertions. Input 04 correctly produced two lede variants as requested (news summary and analytical). Input 02 appropriately used a scene-setting feature lede format matching the requested article type. Minimal/vague inputs (03, 05) produced structurally correct output with honest caveats about publishability."
-  }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
 }

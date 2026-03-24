@@ -1,0 +1,19 @@
+{
+  "category": "radio-audio/strategy",
+  "skills": {
+    "pitch-to-broadcaster": {
+      "assertions": [
+        {"id": "format-specified", "text": "Output specifies programme format, duration, and audience clearly", "type": "binary"},
+        {"id": "editorial-proposition", "text": "The editorial proposition explains why this programme fills a gap in the schedule", "type": "binary"},
+        {"id": "production-credentials", "text": "Production credentials or team experience are included", "type": "binary"}
+      ]
+    },
+    "podcast-to-radio-adapter": {
+      "assertions": [
+        {"id": "structural-diffs", "text": "Output identifies structural differences between podcast and radio formats", "type": "binary"},
+        {"id": "editorial-diffs", "text": "Editorial or regulatory differences (Ofcom, scheduling constraints) are addressed", "type": "binary"},
+        {"id": "specific-changes", "text": "Specific changes to the format are recommended, not just general observations", "type": "binary"}
+      ]
+    }
+  }
+}

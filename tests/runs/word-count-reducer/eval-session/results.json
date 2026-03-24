@@ -1,0 +1,36 @@
+{
+  "skill": "word-count-reducer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Final word count is within 5% of target or reduction note explains why"},
+    {"id": "A2", "text": "Output ends with word count note in the specified format"},
+    {"id": "A3", "text": "Reduced text reads naturally with no orphan references or choppy transitions"}
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "Reduced to 82 words against 80-word target (within 5%)"},
+        {"id": "A2", "pass": true, "note": "Format: Original: 132 words → Reduced: 82 words (38% reduction)"},
+        {"id": "A3", "pass": true, "note": "Flows naturally; keynote argument and panel topics preserved as requested"}
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {"id": "A1", "pass": true, "note": "Reduced by approximately 30% as specified"},
+        {"id": "A2", "pass": true, "note": "Word count note in correct format"},
+        {"id": "A3", "pass": true, "note": "Short input reduced cleanly; reads naturally"}
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {"id": "A1", "pass": false, "note": "Reduced to 68 words against 60-word target (13% over). Note explains that further cuts would lose essential content."},
+        {"id": "A2", "pass": true, "note": "Word count note present with explanation of why target was not fully met"},
+        {"id": "A3", "pass": true, "note": "ECB decision, inflation trend, and analyst expectations preserved; reads coherently"}
+      ]
+    }
+  ],
+  "summary": {"total_assertions": 9, "passed": 8, "failed": 1, "pass_rate": 0.89}
+}

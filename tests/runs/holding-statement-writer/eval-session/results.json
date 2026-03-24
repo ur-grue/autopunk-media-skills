@@ -1,0 +1,16 @@
+{
+  "skill": "holding-statement-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "acknowledges-subject", "text": "Statement directly acknowledges the subject of media inquiry", "type": "binary"},
+    {"id": "timeframe-included", "text": "Includes a specific timeframe or commitment to update", "type": "binary"},
+    {"id": "under-120-words", "text": "Statement is under 120 words", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard corporate incident", "acknowledges-subject": {"pass": true, "note": "Acknowledges the data breach inquiry directly"}, "timeframe-included": {"pass": true, "note": "Full statement expected by 6pm today"}, "under-120-words": {"pass": true, "note": "Under 120 words; approximately 85"}},
+    "input-02": {"description": "Minimal input", "acknowledges-subject": {"pass": true, "note": "Acknowledges workplace bullying allegations directly"}, "timeframe-included": {"pass": true, "note": "Full response by end of tomorrow"}, "under-120-words": {"pass": true, "note": "Under 120 words; approximately 70"}},
+    "input-03": {"description": "European context", "acknowledges-subject": {"pass": true, "note": "Acknowledges clinical trial data falsification allegations directly"}, "timeframe-included": {"pass": true, "note": "Full statement within 48 hours specified"}, "under-120-words": {"pass": true, "note": "Under 120 words; approximately 95"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

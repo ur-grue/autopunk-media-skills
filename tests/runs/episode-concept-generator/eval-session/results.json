@@ -1,0 +1,47 @@
+{
+  "skill": "episode-concept-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/episode-concept-generator.json",
+  "assertions_file": "tests/assertions/episode-concept-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — education reform podcast",
+      "output_summary": "Generated 7 episode concepts. Each has Title, Core Listener Question, Premise, Guest/Source Approach, and Hook Sentence. Examples: 'The School That Abolished Grades (And What Happened Next)' — contrarian angle on assessment; 'Why Your Kids' Teacher Is About to Quit' — systemic retention issue. At least 2 immediately executable. Concepts ordered by booking feasibility. Next Step: pursue concept 2 first (retired teacher is most accessible guest type), run guest-research-brief.",
+      "assertions": {
+        "A1": { "pass": true, "note": "7 concepts with all five required components." },
+        "A2": { "pass": true, "note": "All distinct angles. Grade abolition concept is counterintuitive." },
+        "A3": { "pass": true, "note": "Next Step names first concept and recommends guest-research-brief." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Generated 6 concepts for a solo-format houseplant podcast. Adapted to solo format — Guest/Source Approach suggests research references or community stories instead. Examples: 'The Plant That's Almost Impossible to Kill (And 3 Ways People Still Manage It)', 'Why Your Plant Is Dying Near the Window.' All accessible without specialist guests.",
+      "assertions": {
+        "A1": { "pass": true, "note": "6 concepts with all components. Guest approach adapted for solo format." },
+        "A2": { "pass": true, "note": "Distinct angles. 'Almost impossible to kill' is counterintuitive." },
+        "A3": { "pass": true, "note": "Next Step recommends first concept based on ease of production." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European migration and identity podcast",
+      "output_summary": "Generated 7 concepts rooted in European migration context. Examples: 'The Second Generation Who Don't Feel European or Their Parents' Nationality', 'What a Syrian Restaurant in Stockholm Tells You About Integration', 'The EU Freedom of Movement Children Who Are Now Adults'. European cities, policies, and cultural specifics throughout. Guest approaches suggest researchers, community organizations, and individuals with personal stories across multiple European countries.",
+      "assertions": {
+        "A1": { "pass": true, "note": "7 concepts with all required components. European migration context authentic." },
+        "A2": { "pass": true, "note": "Distinct angles spanning identity, policy, culture, and personal narrative." },
+        "A3": { "pass": true, "note": "Next Step recommends concept based on guest accessibility in European context." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

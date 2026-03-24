@@ -1,0 +1,93 @@
+{
+  "skill_name": "glossary-builder",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.36,
+  "test_inputs": [],
+  "assertions": [
+    "Output is a titled glossary with terms in bold followed by plain-language definitions",
+    "No circular definitions and no jargon in definitions",
+    "Definitions accurate and appropriate for stated audience"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: cybersecurity article glossary",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a titled glossary with terms in bold followed by plain-language definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No circular definitions and no jargon in definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Definitions accurate and appropriate for stated audience",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: three-term legal glossary",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a titled glossary with terms in bold followed by plain-language definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No circular definitions and no jargon in definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Definitions accurate and appropriate for stated audience",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU financial regulation glossary",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a titled glossary with terms in bold followed by plain-language definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "No circular definitions and no jargon in definitions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Definitions accurate and appropriate for stated audience",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

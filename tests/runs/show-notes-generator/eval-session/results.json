@@ -1,0 +1,47 @@
+{
+  "skill": "show-notes-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/show-notes-generator.json",
+  "assertions_file": "tests/assertions/show-notes-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — marketing podcast with full details",
+      "output_summary": "Complete show notes with all sections. Episode Description opens with 'email marketing strategy' keyword in the first sentence. Key Takeaways: 5 specific bullets including the 40% revenue growth case study and the owned vs. rented audience distinction. Guest Bio section includes social links. Links section formatted cleanly with book, tools, and show social. Next Step: paste into hosting platform, replace placeholder URLs.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections present and correctly structured." },
+        "A2": { "pass": true, "note": "Takeaways are episode-specific. Keyword in first sentence." },
+        "A3": { "pass": true, "note": "Next Step specifies platform paste and link replacement." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Show notes adapted for a solo episode with no guest. Episode Description covers the 5 books. Key Takeaways: 5 bullets, one per book with the specific teaching point. No Guest Bio section (correctly omitted). Links section has book placeholders. Shorter overall but complete.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Applicable sections present. Guest Bio correctly omitted for solo episode." },
+        "A2": { "pass": true, "note": "Takeaways are specific to each book. No keyword provided; description still opens with a clear value statement." },
+        "A3": { "pass": true, "note": "Next Step present." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European food culture podcast",
+      "output_summary": "Full show notes with European cultural context. Episode Description opens with 'traditional Italian pasta shapes' keyword. Key Takeaways include specific pasta names (su filindeu, corzetti) and the grassroots preservation movement. Guest Bio includes Italian academic context. Links section references Pasta Grannies and Italian Academy of Cuisine. European food terminology authentic.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All sections present with Italian cultural context." },
+        "A2": { "pass": true, "note": "Takeaways specific to endangered pasta shapes. Keyword in first sentence." },
+        "A3": { "pass": true, "note": "Next Step specifies platform paste and link completion." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

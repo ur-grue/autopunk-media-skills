@@ -1,0 +1,89 @@
+{
+  "skill": "short-form-video-brief",
+  "category": "social-media/content",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes timestamped segments covering the full runtime (hook 0-3s, body, CTA in final 5s) with specific visual and audio direction"
+    },
+    {
+      "id": "A2",
+      "description": "A caption text section for accessibility is included with complete readable text"
+    },
+    {
+      "id": "A3",
+      "description": "A thumbnail/first frame recommendation is provided with specific visual guidance"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Timestamps cover 0-30s with hook/body/CTA properly allocated"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Accessibility caption provides complete readable text"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "First frame recommendation specifies expression and framing"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "15-second runtime fully accounted for in timestamps"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Caption text included for accessibility"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Thumbnail note addresses YouTube Shorts conventions"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "60-second structure with B-roll integration timestamps"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Full caption covering Danish library content"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "First frame recommendation addresses Reels discovery"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

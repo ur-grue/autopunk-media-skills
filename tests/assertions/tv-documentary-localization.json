@@ -1,0 +1,50 @@
+{
+  "subcategory": "localization",
+  "category": "tv-documentary",
+  "skills": {
+    "dubbing-script-adapter": {
+      "assertions": [
+        {
+          "id": "DSA-A1",
+          "type": "binary",
+          "description": "Output uses two-column table format with source translation and adapted dubbing line, including duration target and estimated syllable count per row",
+          "source": "Output Format"
+        },
+        {
+          "id": "DSA-A2",
+          "type": "binary",
+          "description": "Every adapted line falls within approximately 10% of the stated duration target in syllable count, with no factual meaning changes",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "DSA-A3",
+          "type": "binary",
+          "description": "Output includes a prose summary noting lines processed, lines flagged, and any timing flags include specific reasons",
+          "source": "Output Format + Quality Criteria"
+        }
+      ]
+    },
+    "festival-synopsis-writer": {
+      "assertions": [
+        {
+          "id": "FSW-A1",
+          "type": "binary",
+          "description": "Output contains three clearly labeled synopsis blocks: SHORT (under 60 words), MEDIUM (~100 words), and LONG (~250 words), each with word count noted",
+          "source": "Output Format + Quality Criteria"
+        },
+        {
+          "id": "FSW-A2",
+          "type": "binary",
+          "description": "No synopsis uses production language ('the filmmakers show,' 'the camera follows') — all describe story, not production process",
+          "source": "Quality Criteria"
+        },
+        {
+          "id": "FSW-A3",
+          "type": "binary",
+          "description": "All three synopses are written in third person present tense and are tonally consistent with each other, plus a Next Step note is included",
+          "source": "Output Format + Quality Criteria"
+        }
+      ]
+    }
+  }
+}

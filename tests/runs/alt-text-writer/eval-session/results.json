@@ -1,0 +1,93 @@
+{
+  "skill_name": "alt-text-writer",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.39,
+  "test_inputs": [],
+  "assertions": [
+    "Alt text is 10-125 characters and does not begin with Image of or Photo of",
+    "Alt text conveys editorial purpose not just literal inventory",
+    "Decorative images marked with empty alt text"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: editorial images for housing article",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Alt text is 10-125 characters and does not begin with Image of or Photo of",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Alt text conveys editorial purpose not just literal inventory",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Decorative images marked with empty alt text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single decorative image",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Alt text is 10-125 characters and does not begin with Image of or Photo of",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Alt text conveys editorial purpose not just literal inventory",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Decorative images marked with empty alt text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: images for EU parliament article",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Alt text is 10-125 characters and does not begin with Image of or Photo of",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Alt text conveys editorial purpose not just literal inventory",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Decorative images marked with empty alt text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

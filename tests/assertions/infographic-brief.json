@@ -1,0 +1,20 @@
+{
+  "skill": "infographic-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a single specific headline message sentence, not a topic description",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Visual type recommendation includes a clear rationale explaining why this chart type over alternatives",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Format requirements specify exact dimensions, file format, and colour mode",
+      "type": "binary"
+    }
+  ]
+}

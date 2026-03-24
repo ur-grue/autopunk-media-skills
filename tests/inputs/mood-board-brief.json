@@ -1,0 +1,30 @@
+{
+  "skill": "mood-board-brief",
+  "category": "image-prompting/art-direction",
+  "inputs": [
+    {
+      "label": "standard",
+      "project": "BLACKOUT \u2014 a podcast about power grid failures, energy infrastructure, and the politics of electricity",
+      "tone": "Technical but human. The feeling of a well-reported piece in Wired or Bloomberg Businessweek.",
+      "color": "Industrial \u2014 steel grey, warning amber, electrical blue accent",
+      "audience": "Professionals in energy, policy, and journalism aged 30-55",
+      "references": "The visual language of Bloomberg Businessweek features, the photography of Edward Burtynsky, industrial infrastructure",
+      "avoid": "Stock photo power lines against sunset, green-energy marketing imagery"
+    },
+    {
+      "label": "minimal",
+      "project": "A literary fiction podcast",
+      "tone": "Intimate, quiet, slightly melancholic",
+      "audience": "Book readers aged 25-50"
+    },
+    {
+      "label": "european",
+      "project": "BORDER STORIES \u2014 a documentary series about life in European border towns, from the Finnish-Russian border to Gibraltar to the Polish-Ukrainian frontier",
+      "tone": "Observational, patient, respectful of the specific. Not dramatic \u2014 the everyday reality of people who live where countries meet.",
+      "color": "Muted, desaturated, season-specific \u2014 grey winter light in the north, dusty warm light in the south",
+      "audience": "Documentary and journalism audiences in Europe aged 25-50",
+      "references": "The photography of Josef Koudelka (specifically Exiles), the cinema of Aki Kaurism\u00e4ki, the visual register of ARTE documentaries",
+      "avoid": "Political map graphics, barbed-wire clich\u00e9s, passport/checkpoint stock imagery"
+    }
+  ]
+}

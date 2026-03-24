@@ -1,0 +1,16 @@
+{
+  "skill": "internal-memo-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "exec-summary", "text": "Executive summary conveys the essential point in under two sentences", "type": "binary"},
+    {"id": "memo-format", "text": "Output uses standard memo format with To/From/Date/Subject header", "type": "binary"},
+    {"id": "next-steps-clear", "text": "Memo ends with explicit next steps or No action required", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard leadership briefing", "exec-summary": {"pass": true, "note": "Executive summary: data breach detected, ICO notified, holding statement needs approval"}, "memo-format": {"pass": true, "note": "To/From/Date/Subject header present"}, "next-steps-clear": {"pass": true, "note": "Next steps: approve holding statement, designate spokesperson, schedule follow-up meeting"}},
+    "input-02": {"description": "Minimal input", "exec-summary": {"pass": true, "note": "Executive summary: office moving June 1, details to follow"}, "memo-format": {"pass": true, "note": "Standard memo format with header"}, "next-steps-clear": {"pass": true, "note": "Explicitly states: No action required at this time"}},
+    "input-03": {"description": "European context", "exec-summary": {"pass": true, "note": "Executive summary: clinical trial adverse reaction, trial paused, board approval needed for comms strategy"}, "memo-format": {"pass": true, "note": "To/From/Date/Subject header present"}, "next-steps-clear": {"pass": true, "note": "Next steps: approve communications strategy, approve review panel terms, schedule emergency board call"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

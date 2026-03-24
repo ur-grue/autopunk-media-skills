@@ -1,0 +1,10 @@
+{
+  "skill":"jargon-translator","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Three components: Glossary, Full Rewrite, One-Sentence Summary"},{"id":"A2","text":"Every jargon term identified and translated"},{"id":"A3","text":"Trade-offs flagged"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All three components present"},{"id":"A2","pass":true,"note":"Terms identified: summary judgment, counterclaim, res judicata, cause of action, adjudicated, prior proceeding"},{"id":"A3","pass":true,"note":"Trade-off flagged: res judicata simplified but legal precision lost"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All three components present"},{"id":"A2","pass":true,"note":"Yield curve, inverted, 2-year Treasury, 10-year, basis points all translated"},{"id":"A3","pass":true,"note":"Trade-off noted: inversion signal simplified from probabilistic to directional"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All three components; glossary includes EU-specific legal terms"},{"id":"A2","pass":true,"note":"All EU law jargon identified: ECJ, Article 34/36 TFEU, free movement, proportionality test, Cassis de Dijon"},{"id":"A3","pass":true,"note":"Trade-off flagged: proportionality test oversimplified for general reader; Cassis de Dijon significance reduced"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

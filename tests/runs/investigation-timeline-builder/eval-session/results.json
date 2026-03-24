@@ -1,0 +1,93 @@
+{
+  "skill_name": "investigation-timeline-builder",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output is a chronological table/list with Date, Event, Source, and Verification Status columns for each entry",
+    "Gaps in the timeline are explicitly called out with reporting priorities",
+    "Entries are tagged with verification status: CONFIRMED, SINGLE SOURCE, UNVERIFIED, or DATE APPROXIMATE"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: corporate fraud investigation",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a chronological table/list with Date, Event, Source, and Verification Status columns for each entry",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Gaps in the timeline are explicitly called out with reporting priorities",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Entries are tagged with verification status: CONFIRMED, SINGLE SOURCE, UNVERIFIED, or DATE APPROXIMATE",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: simple two-event sequence",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a chronological table/list with Date, Event, Source, and Verification Status columns for each entry",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Gaps in the timeline are explicitly called out with reporting priorities",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Entries are tagged with verification status: CONFIRMED, SINGLE SOURCE, UNVERIFIED, or DATE APPROXIMATE",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU lobbying scandal",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a chronological table/list with Date, Event, Source, and Verification Status columns for each entry",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Gaps in the timeline are explicitly called out with reporting priorities",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Entries are tagged with verification status: CONFIRMED, SINGLE SOURCE, UNVERIFIED, or DATE APPROXIMATE",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

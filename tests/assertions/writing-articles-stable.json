@@ -1,0 +1,50 @@
+{
+  "category": "writing/articles",
+  "skills": {
+    "tone-rewriter": [
+      {"id": "A1", "assertion": "Output contains the rewritten text followed by a tone shift note describing what changed in vocabulary, sentence structure, and voice"},
+      {"id": "A2", "assertion": "All facts, data, and figures from the original text are preserved exactly in the rewrite"},
+      {"id": "A3", "assertion": "Output includes a word count comparison line showing original and rewritten counts"}
+    ],
+    "word-count-reducer": [
+      {"id": "A1", "assertion": "Final word count is within 5% of the specified target or the reduction note explains why"},
+      {"id": "A2", "assertion": "Output ends with a word count note in the format 'Original: X words → Reduced: Y words (Z% reduction)'"},
+      {"id": "A3", "assertion": "The reduced text reads naturally with no orphan references or choppy transitions caused by cuts"}
+    ],
+    "tldr-writer": [
+      {"id": "A1", "assertion": "Summary is 2-4 sentences of continuous prose with no bullet points, between 50-75 words"},
+      {"id": "A2", "assertion": "Summary captures the single most important point, not a list of topics covered"},
+      {"id": "A3", "assertion": "Word count is shown in parentheses after the summary"}
+    ],
+    "subheadline-writer": [
+      {"id": "A1", "assertion": "Output provides 2 subheadline options, each labelled with format type"},
+      {"id": "A2", "assertion": "No words from the headline are repeated in either subheadline option"},
+      {"id": "A3", "assertion": "Word count and character count are shown for each option"}
+    ],
+    "pull-quote-selector": [
+      {"id": "A1", "assertion": "Output contains numbered entries with the quote in quotation marks, speaker attribution, a rationale note, and character count"},
+      {"id": "A2", "assertion": "No two selected quotes make the same point or cover overlapping ground"},
+      {"id": "A3", "assertion": "Quotes are drawn from different sections of the article, not clustered from a single passage"}
+    ],
+    "photo-caption-writer": [
+      {"id": "A1", "assertion": "Caption is 1-2 sentences with a present-tense first sentence describing what is visible in the image"},
+      {"id": "A2", "assertion": "No assumptions about emotional state or intentions of people pictured"},
+      {"id": "A3", "assertion": "Names, titles, or locations that cannot be confirmed from the description are flagged with [VERIFY]"}
+    ],
+    "paragraph-clarity-rewriter": [
+      {"id": "A1", "assertion": "Output contains the rewritten paragraph followed by a 2-3 sentence explanation of what was changed and why"},
+      {"id": "A2", "assertion": "Average sentence length in the rewrite is shorter than the original"},
+      {"id": "A3", "assertion": "Original and rewritten word counts are shown as a single line at the end"}
+    ],
+    "news-article-writer": [
+      {"id": "A1", "assertion": "Article begins with a summary lede of 25-35 words containing the most newsworthy fact"},
+      {"id": "A2", "assertion": "Article follows inverted pyramid structure and can be cut at any paragraph break"},
+      {"id": "A3", "assertion": "Every fact in the article was provided in the input - nothing invented or assumed"}
+    ],
+    "feature-article-writer": [
+      {"id": "A1", "assertion": "Article follows the five-part arc: hook, context, development, turn, resolution"},
+      {"id": "A2", "assertion": "Word count is within 10% of the target specified in the input"},
+      {"id": "A3", "assertion": "Output ends with a Source Material Used note listing which provided inputs were incorporated"}
+    ]
+  }
+}

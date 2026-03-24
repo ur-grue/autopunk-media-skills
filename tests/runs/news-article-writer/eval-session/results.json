@@ -1,0 +1,86 @@
+{
+  "skill": "news-article-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Lede 25-35 words with most newsworthy fact"
+    },
+    {
+      "id": "A2",
+      "text": "Inverted pyramid"
+    },
+    {
+      "id": "A3",
+      "text": "No invented facts"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "28-word lede with council vote and cost"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Descends from vote to details to background"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "All facts from input"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "22-word lede"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Inverted pyramid maintained"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "No invented facts"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "31-word lede with investment and quantum centre"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Investment to partnerships to jobs to Nordic context"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "All facts traceable to input"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

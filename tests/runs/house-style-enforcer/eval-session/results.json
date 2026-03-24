@@ -1,0 +1,93 @@
+{
+  "skill_name": "house-style-enforcer",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains a Deviations list and a Consistency Check section, with each deviation citing the specific rule violated",
+    "Every deviation from a stated rule is caught \u2014 no omissions of clearly applicable rules",
+    "Ambiguous cases are flagged as questions rather than resolved arbitrarily"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: draft checked against 6 house rules",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains a Deviations list and a Consistency Check section, with each deviation citing the specific rule violated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every deviation from a stated rule is caught \u2014 no omissions of clearly applicable rules",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Ambiguous cases are flagged as questions rather than resolved arbitrarily",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single rule check",
+      "assertions_passed": 2,
+      "assertions_total": 3,
+      "pass_rate": 66.7,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains a Deviations list and a Consistency Check section, with each deviation citing the specific rule violated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every deviation from a stated rule is caught \u2014 no omissions of clearly applicable rules",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Ambiguous cases are flagged as questions rather than resolved arbitrarily",
+          "pass": false,
+          "note": "Minor deviation noted \u2014 see details"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: UK broadsheet house style",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains a Deviations list and a Consistency Check section, with each deviation citing the specific rule violated",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Every deviation from a stated rule is caught \u2014 no omissions of clearly applicable rules",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Ambiguous cases are flagged as questions rather than resolved arbitrarily",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 88.9,
+  "overall_verdict": "PASS"
+}

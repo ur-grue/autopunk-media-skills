@@ -1,0 +1,10 @@
+{
+  "skill":"debate-state-summary","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Core Question, 3-5 Positions, Points of Agreement, Unresolved Questions"},{"id":"A2","text":"Each position includes argument, actors, evidence"},{"id":"A3","text":"Neutral tone throughout"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"Core question, 4 positions, 3 agreement points, 5 unresolved questions"},{"id":"A2","pass":true,"note":"Each position: full ban advocates, time-limited restriction supporters, enforcement sceptics, parental choice advocates"},{"id":"A3","pass":true,"note":"Neutral; no position favoured; safety and convenience arguments presented equally"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present"},{"id":"A2","pass":true,"note":"3 positions with actors and evidence for each"},{"id":"A3","pass":true,"note":"Neutral tone maintained"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections present; 5 distinct positions mapped"},{"id":"A2","pass":true,"note":"Positions include: full integration, enhanced cooperation, status quo NATO, flexible coalitions, and sovereignty-first. Each with actors and evidence."},{"id":"A3","pass":true,"note":"Neutral; French position not presented more favourably than sceptical positions despite media framing noted in input"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

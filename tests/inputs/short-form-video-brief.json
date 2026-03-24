@@ -1,0 +1,35 @@
+{
+  "skill": "short-form-video-brief",
+  "category": "social-media/content",
+  "inputs": [
+    {
+      "label": "standard",
+      "subject": "Three signs your documentary pitch deck needs a rewrite",
+      "platform": "TikTok",
+      "length": "30 seconds",
+      "account": "Documentary filmmaker",
+      "tone": "Educational, direct",
+      "footage": "Talking head, no existing footage",
+      "audio": "On-camera",
+      "cta": "Follow for more filmmaking tips"
+    },
+    {
+      "label": "minimal",
+      "subject": "Why vertical video matters for news organizations",
+      "platform": "YouTube Shorts",
+      "length": "15 seconds",
+      "account": "Digital journalism outlet"
+    },
+    {
+      "label": "european",
+      "subject": "How the Danish public library system became a model for community media hubs across Scandinavia",
+      "platform": "Instagram Reels",
+      "length": "60 seconds",
+      "account": "Nordic cultural policy channel",
+      "tone": "Warm, informative",
+      "footage": "B-roll of libraries and community spaces",
+      "audio": "Voiceover with ambient sound",
+      "cta": "Link in bio for the full article"
+    }
+  ]
+}

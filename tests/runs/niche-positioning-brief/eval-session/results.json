@@ -1,0 +1,16 @@
+{
+  "skill": "niche-positioning-brief",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "one-sentence-promise", "text": "Editorial promise is one sentence testable against any edition", "type": "binary"},
+    {"id": "reader-frustration", "text": "Target reader description includes at least one frustration", "type": "binary"},
+    {"id": "restrictive-exclusions", "text": "What-we-dont-do section is genuinely restrictive", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard positioning exercise", "one-sentence-promise": {"pass": true, "note": "Promise testable: every edition helps working freelancers make more money or avoid losing it"}, "reader-frustration": {"pass": true, "note": "Frustration: good at writing, bad at business; learns every lesson the hard way"}, "restrictive-exclusions": {"pass": true, "note": "Excludes: craft advice, fiction writing, academic publishing, motivational content"}},
+    "input-02": {"description": "Minimal input", "one-sentence-promise": {"pass": true, "note": "Promise in one testable sentence"}, "reader-frustration": {"pass": true, "note": "Frustration: overwhelmed by release lists, wants curation not volume"}, "restrictive-exclusions": {"pass": true, "note": "Exclusions present though slightly less sharp due to minimal input"}},
+    "input-03": {"description": "European context", "one-sentence-promise": {"pass": true, "note": "Promise: connect the dots across European housing policy borders"}, "reader-frustration": {"pass": true, "note": "Frustration: national media covers crisis in isolation; no cross-border view"}, "restrictive-exclusions": {"pass": true, "note": "Excludes: single-country analysis, real estate investment advice, construction industry news"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

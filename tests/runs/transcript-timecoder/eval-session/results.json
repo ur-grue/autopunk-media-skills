@@ -1,0 +1,38 @@
+{
+  "skill": "transcript-timecoder",
+  "eval_date": "2026-03-24",
+  "assertions": ["TTC-A1", "TTC-A2", "TTC-A3"],
+  "results": [
+    {
+      "test_case": "TTC-01",
+      "label": "standard",
+      "assertion_results": {
+        "TTC-A1": {"pass": true, "note": "Header block present with source, start TC (00:14:30:00), frame rate (25fps), and estimation disclaimer"},
+        "TTC-A2": {"pass": true, "note": "Timecodes progress sequentially from 00:14:30:00; FF values within 00-24 range; all breaks at sentence boundaries"},
+        "TTC-A3": {"pass": true, "note": "Speaker labels consistent (DR. SARAH MITCHELL / INTERVIEWER throughout); timecodes placed at every speaker change as requested"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "TTC-02",
+      "label": "minimal",
+      "assertion_results": {
+        "TTC-A1": {"pass": true, "note": "Header present with start TC and disclaimer; frame rate defaults to 25fps as specified in skill defaults"},
+        "TTC-A2": {"pass": true, "note": "Timecodes sequential; same-speaker continuation handled with new timecode at paragraph break"},
+        "TTC-A3": {"pass": true, "note": "JOHN label consistent; timecodes at speaker/paragraph changes"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "TTC-03",
+      "label": "european_context",
+      "assertion_results": {
+        "TTC-A1": {"pass": true, "note": "Header present with start TC (01:22:15:00), frame rate (25fps), and disclaimer; total duration context noted"},
+        "TTC-A2": {"pass": true, "note": "Timecodes sequential; [pause] marker from transcript handled with appropriate time gap; FF values valid"},
+        "TTC-A3": {"pass": true, "note": "HANNA JOHANSSON / INTERVIEWER labels consistent throughout; timecodes at every speaker change including after [pause]"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

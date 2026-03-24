@@ -1,0 +1,89 @@
+{
+  "skill": "character-consistency-prompt",
+  "category": "image-prompting/midjourney",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a labeled character anchor string covering at minimum: apparent age, gender, one distinctive facial feature, hair, and a consistent clothing item"
+    },
+    {
+      "id": "A2",
+      "description": "Every scene prompt uses the character anchor string verbatim with no variations in character description"
+    },
+    {
+      "id": "A3",
+      "description": "A consistency workflow section explains the --seed and --cref process in plain language"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor string includes: early 30s, South Asian, wire-rimmed glasses, close-cropped black hair, dark green field jacket"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All 4 scene prompts use identical anchor string verbatim"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Seed and cref workflow explained in numbered steps"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor covers: 50s, grey bob, sharp cheekbones, black turtleneck"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All 3 scenes use anchor verbatim"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Consistency workflow included"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Anchor includes: late 20s non-binary, auburn undercut, earring, charcoal overcoat, Moebius aesthetic"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "All 4 scene prompts use anchor verbatim"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Seed/cref workflow explained with v6 specifics"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

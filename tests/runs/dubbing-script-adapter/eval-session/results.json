@@ -1,0 +1,38 @@
+{
+  "skill": "dubbing-script-adapter",
+  "eval_date": "2026-03-24",
+  "assertions": ["DSA-A1", "DSA-A2", "DSA-A3"],
+  "results": [
+    {
+      "test_case": "DSA-01",
+      "label": "standard",
+      "assertion_results": {
+        "DSA-A1": {"pass": true, "note": "Two-column table with source translation and adapted line; duration target and syllable count per row included"},
+        "DSA-A2": {"pass": true, "note": "All three adapted lines within 10% syllable tolerance; factory closure, 2,400 jobs, record profits, community collapse — all facts preserved"},
+        "DSA-A3": {"pass": true, "note": "Summary present: 3 lines processed, flags noted with specific reasons for any contractions"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "DSA-02",
+      "label": "minimal",
+      "assertion_results": {
+        "DSA-A1": {"pass": true, "note": "Table format maintained for single line; duration and syllable count present"},
+        "DSA-A2": {"pass": true, "note": "French translation already fits timing well; minimal adaptation needed; fact preserved"},
+        "DSA-A3": {"pass": true, "note": "Summary present noting 1 line processed, 0 flagged"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "DSA-03",
+      "label": "european_context",
+      "assertion_results": {
+        "DSA-A1": {"pass": true, "note": "Table format with German adapted lines; EBU standard noted in header; syllable counts and duration targets per row"},
+        "DSA-A2": {"pass": true, "note": "German compound nouns create timing challenges; NR_01 and NR_03 adapted with contractions; all facts preserved including EUR 100/tonne figure"},
+        "DSA-A3": {"pass": true, "note": "Summary present: 3 lines processed, 1 flagged (NR_03 — German morphological density required content restructuring); specific reason provided"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

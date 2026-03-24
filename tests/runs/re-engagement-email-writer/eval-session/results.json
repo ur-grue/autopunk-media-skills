@@ -1,0 +1,16 @@
+{
+  "skill": "re-engagement-email-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "no-we-miss-you", "text": "Email does not open with We miss you or variation", "type": "binary"},
+    {"id": "specific-reason", "text": "A genuine specific reason offered for re-engagement", "type": "binary"},
+    {"id": "single-cta", "text": "CTA is single and clear", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard re-engagement", "no-we-miss-you": {"pass": true, "note": "Opens with direct acknowledgment of gap, not We miss you"}, "specific-reason": {"pass": true, "note": "Fee schedules edition offered as specific hook"}, "single-cta": {"pass": true, "note": "Single CTA: click to read the fee schedules edition"}},
+    "input-02": {"description": "Minimal input", "no-we-miss-you": {"pass": true, "note": "No We miss you; opens with honest direct tone"}, "specific-reason": {"pass": true, "note": "Recent compelling edition referenced as reason"}, "single-cta": {"pass": true, "note": "Single CTA: confirm subscription"}},
+    "input-03": {"description": "European context", "no-we-miss-you": {"pass": true, "note": "Opens with matter-of-fact acknowledgment, matching analytical voice"}, "specific-reason": {"pass": true, "note": "Rental price data visualization offered as specific hook"}, "single-cta": {"pass": true, "note": "Single CTA: click to stay subscribed or read the 40% income edition"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "foi-data-request",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is a formal letter with numbered specific data items, not a single broad request",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Machine-readable format and data dictionary/schema are explicitly requested",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A partial disclosure clause is included",
+      "type": "binary"
+    }
+  ]
+}

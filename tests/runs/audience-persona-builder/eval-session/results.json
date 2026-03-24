@@ -1,0 +1,47 @@
+{
+  "skill": "audience-persona-builder",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/audience-persona-builder.json",
+  "assertions_file": "tests/assertions/audience-persona-builder.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — home renovation DIY channel",
+      "output_summary": "Persona: 'Jake, the Cautious First-Timer.' Describes a late-20s first-time homeowner who researches extensively before starting any project because mistakes cost real money. All five dimensions present and distinct. Content implications: (1) always include a cost breakdown, (2) front-load the difficulty assessment so Jake can decide if this is a DIY or contractor job before investing 15 minutes, (3) create a 'before you start' checklist format — Jake will not begin a project without confirming he has everything.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Named persona with all five sections distinct and well-developed." },
+        "A2": { "pass": true, "note": "Three numbered implications, all actionable and specific to this channel." },
+        "A3": { "pass": true, "note": "Persona is specific ('researches for three days before buying a $40 tool') and clearly derived from the 'how much did this cost' comment pattern." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Persona: 'Sarah, the Late Bloomer.' A woman in her 40s who always wanted to paint but was told she wasn't artistic. All five dimensions present. Trust section: values when the host shows their own early bad work. Avoidance: disengages from content that assumes prior art education. Content implications specific to the channel despite minimal input.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections present and distinct." },
+        "A2": { "pass": true, "note": "Three specific implications derived from the persona." },
+        "A3": { "pass": true, "note": "Persona is specific to the channel input. 'Late Bloomer' archetype fits the comment patterns provided." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — sustainable fashion channel",
+      "output_summary": "Persona: 'Lena, the Conscious Curator.' A Stockholm-based professional in her late 20s who cycles to work and brings a tote bag to the thrift store. European context deeply integrated — references Scandinavian design sensibility, EUR pricing, European thrift store culture. Trust section: trusts channels that call out greenwashing by name. Avoidance: disengages from haul culture and overconsumption framing. Content implications include testing city-specific thrift guides for different European capitals.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections present. European cultural context woven throughout." },
+        "A2": { "pass": true, "note": "Implications include European-specific strategy like city-specific guides." },
+        "A3": { "pass": true, "note": "Persona is specific to Swedish/European sustainable fashion culture and derived from input." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

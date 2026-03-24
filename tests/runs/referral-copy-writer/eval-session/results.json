@@ -1,0 +1,16 @@
+{
+  "skill": "referral-copy-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "specific-recipient", "text": "Ask names the specific type of person to share with", "type": "binary"},
+    {"id": "human-share-copy", "text": "Pre-written share copy sounds like something a human would send", "type": "binary"},
+    {"id": "clear-mechanism", "text": "Section ends with a clear mechanism", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard referral with rewards", "specific-recipient": {"pass": true, "note": "Names: a freelancer who is undercharging or signing bad contracts"}, "human-share-copy": {"pass": true, "note": "Share copy reads as a casual personal recommendation"}, "clear-mechanism": {"pass": true, "note": "Referral link placeholder clearly placed with instructions"}},
+    "input-02": {"description": "Minimal input", "specific-recipient": {"pass": true, "note": "Names: a friend who always asks what to read next"}, "human-share-copy": {"pass": true, "note": "Natural, casual share text"}, "clear-mechanism": {"pass": true, "note": "Forward instruction provided"}},
+    "input-03": {"description": "European context", "specific-recipient": {"pass": true, "note": "Names: a colleague who works on housing policy and reads reports in isolation"}, "human-share-copy": {"pass": true, "note": "Professional but human share copy for policy audience"}, "clear-mechanism": {"pass": true, "note": "Referral link placeholder with tier rewards listed simply"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

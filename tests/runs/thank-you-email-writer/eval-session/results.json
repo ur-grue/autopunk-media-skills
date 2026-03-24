@@ -1,0 +1,16 @@
+{
+  "skill": "thank-you-email-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "specific-reference", "text": "First sentence references the specific thing being thanked for", "type": "binary"},
+    {"id": "under-90-words", "text": "Body is under 90 words", "type": "binary"},
+    {"id": "no-transactional", "text": "Email does not read as thanks plus next pitch", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard post-coverage thank you", "specific-reference": {"pass": true, "note": "First sentence references the published urban planning study piece"}, "under-90-words": {"pass": true, "note": "Body approximately 55 words"}, "no-transactional": {"pass": true, "note": "No next pitch; clean thank you"}},
+    "input-02": {"description": "Minimal input", "specific-reference": {"pass": true, "note": "References the weekend food round-up mention specifically"}, "under-90-words": {"pass": true, "note": "Body approximately 35 words"}, "no-transactional": {"pass": true, "note": "No transactional framing"}},
+    "input-03": {"description": "European context", "specific-reference": {"pass": true, "note": "References the NHI cancer study feature and the methodological critique inclusion"}, "under-90-words": {"pass": true, "note": "Body approximately 75 words"}, "no-transactional": {"pass": true, "note": "Future value offer (next data release) framed as genuinely useful to journalist, not transactional"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

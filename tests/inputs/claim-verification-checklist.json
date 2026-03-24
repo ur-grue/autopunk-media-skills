@@ -1,0 +1,26 @@
+[
+  {
+    "id": "standard",
+    "description": "Standard: investigative article about water contamination",
+    "input": {
+      "draft_text": "The city's water supply has been contaminated with lead levels exceeding 15 parts per billion since at least 2023, according to internal testing documents. City water director James Liu acknowledged the issue in a memo to staff dated June 2024. A whistleblower alleges that test results were systematically altered before being reported to state regulators. The EPA standard for lead in drinking water is 15 ppb, and the city exceeded this threshold in 22 of 36 test sites. Approximately 45,000 residents are affected.",
+      "publication_type": "investigative"
+    }
+  },
+  {
+    "id": "minimal",
+    "description": "Minimal: short news brief with few claims",
+    "input": {
+      "draft_text": "The mayor announced Tuesday that the city will invest $12 million in park renovations over the next three years.",
+      "publication_type": "news"
+    }
+  },
+  {
+    "id": "european",
+    "description": "European context: article about GDPR enforcement",
+    "input": {
+      "draft_text": "Since the GDPR took effect in May 2018, European data protection authorities have issued fines totalling more than €4.2 billion. The Irish Data Protection Commission, which oversees most major US tech companies operating in the EU, has been responsible for 60 percent of total fine value. Meta was fined €1.2 billion in May 2023, the largest GDPR penalty to date. Privacy advocate Max Schrems has filed 14 formal complaints against tech companies through his organization noyb. German regulators have been the most prolific enforcers by number of cases, with over 900 enforcement actions since 2018.",
+      "publication_type": "magazine feature"
+    }
+  }
+]

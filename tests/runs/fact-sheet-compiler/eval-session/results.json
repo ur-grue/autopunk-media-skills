@@ -1,0 +1,86 @@
+{
+  "skill": "fact-sheet-compiler",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Overview, Key Facts, and at least one of Timeline/Key Players/Glossary"
+    },
+    {
+      "id": "A2",
+      "text": "Facts attributed or flagged as unverified"
+    },
+    {
+      "id": "A3",
+      "text": "Missing info flagged explicitly"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Overview, Key Facts (8 items), Key Questions, and Glossary (5 terms) all present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Figures attributed to user-provided material; verification notes on specific stats"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Missing items flagged: manufacturer-specific data, country-by-country legislation status"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Overview, Key Facts, Key Players sections present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Facts from user input attributed"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Missing: candidate policy positions, polling data, campaign spending figures flagged"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Overview, Key Facts, Timeline, Key Players, Context, and Glossary all present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "EHDS dates and provisions attributed; German sensitivity claim noted as requiring verification"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Missing: implementation timeline by member state, specific patient group positions, budget allocation flagged"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

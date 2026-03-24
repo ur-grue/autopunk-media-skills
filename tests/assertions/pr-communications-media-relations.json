@@ -1,0 +1,33 @@
+{
+  "category": "pr-communications/media-relations",
+  "skills": {
+    "journalist-pitch-email": {
+      "assertions": [
+        {"id": "hook-first-sentence", "text": "First sentence is the news hook with no preamble", "type": "binary"},
+        {"id": "under-200-words", "text": "Email body is under 200 words", "type": "binary"},
+        {"id": "no-marketing-language", "text": "No marketing language such as revolutionary, game-changing, or exciting opportunity", "type": "binary"}
+      ]
+    },
+    "spokesperson-briefing-note": {
+      "assertions": [
+        {"id": "key-messages-numbered", "text": "Key messages are numbered and stated in one sentence each", "type": "binary"},
+        {"id": "journalist-register-questions", "text": "Anticipated questions are in journalist register, not internal language", "type": "binary"},
+        {"id": "bridging-language", "text": "Every topic-to-avoid has corresponding bridging language, not just a prohibition", "type": "binary"}
+      ]
+    },
+    "follow-up-email-writer": {
+      "assertions": [
+        {"id": "under-120-words", "text": "Email body is under 120 words", "type": "binary"},
+        {"id": "no-dead-phrases", "text": "No 'just checking in,' 'circling back,' 'touching base,' or similar dead phrases", "type": "binary"},
+        {"id": "single-ask", "text": "Closing ask is a single specific action", "type": "binary"}
+      ]
+    },
+    "thank-you-email-writer": {
+      "assertions": [
+        {"id": "specific-reference", "text": "First sentence references the specific thing being thanked for", "type": "binary"},
+        {"id": "under-90-words", "text": "Body is under 90 words", "type": "binary"},
+        {"id": "no-transactional", "text": "Email does not read as 'thanks for the coverage, here is my next pitch'", "type": "binary"}
+      ]
+    }
+  }
+}

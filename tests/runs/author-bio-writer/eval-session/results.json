@@ -1,0 +1,86 @@
+{
+  "skill": "author-bio-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Within 10% of word count with count noted"
+    },
+    {
+      "id": "A2",
+      "text": "Most relevant credential in first sentence"
+    },
+    {
+      "id": "A3",
+      "text": "No filler phrases"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Medium bio: 105 words (within 80-120 range); word count noted"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "First sentence leads with migration and refugee policy - directly relevant to article topic"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "No filler; every sentence conveys specific fact: years, locations, award, languages, book"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "One-line bio: 14 words; count noted"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "AI and automation coverage mentioned immediately"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "No filler in one-line format"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Medium bio: 98 words (within range); word count noted"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "First sentence leads with genetics and pharmaceutical regulation - directly relevant to gene therapy article"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "No filler; PhD, research career, journalism transition, specialisations all concrete"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "basic-statistics-calculator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output shows step-by-step calculation with formula explicitly stated, not just the result",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "An 'In Plain English' sentence is provided that is accurate and usable in a news article",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Caveats section identifies specific statistical warnings relevant to this calculation",
+      "type": "binary"
+    }
+  ]
+}

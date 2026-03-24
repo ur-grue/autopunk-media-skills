@@ -1,0 +1,26 @@
+{
+  "category": "pr-communications/content",
+  "skills": {
+    "op-ed-writer": {
+      "assertions": [
+        {"id": "concrete-hook", "text": "Piece opens with a concrete hook, not credentials or context-setting", "type": "binary"},
+        {"id": "thesis-by-para-2", "text": "Central argument is stated by the end of the second paragraph", "type": "binary"},
+        {"id": "counterargument", "text": "At least one counterargument is acknowledged and addressed", "type": "binary"}
+      ]
+    },
+    "speech-writer": {
+      "assertions": [
+        {"id": "no-thanks-opening", "text": "Speech does not open with thanks, logistics, or self-introduction unless essential", "type": "binary"},
+        {"id": "messages-embedded", "text": "Key messages are embedded in the speech, not listed as bullet points", "type": "binary"},
+        {"id": "strong-close", "text": "Closing paragraph or sentence is the strongest moment in the speech, not a summary", "type": "binary"}
+      ]
+    },
+    "internal-memo-writer": {
+      "assertions": [
+        {"id": "exec-summary", "text": "Executive summary conveys the essential point in under two sentences", "type": "binary"},
+        {"id": "memo-format", "text": "Output uses standard memo format with To/From/Date/Subject header", "type": "binary"},
+        {"id": "next-steps-clear", "text": "Memo ends with explicit next steps or 'No action required'", "type": "binary"}
+      ]
+    }
+  }
+}

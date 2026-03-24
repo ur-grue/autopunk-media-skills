@@ -1,0 +1,32 @@
+{
+  "skill": "color-palette-brief",
+  "category": "image-prompting/art-direction",
+  "inputs": [
+    {
+      "label": "standard",
+      "project": "SIGNAL \u2014 a podcast about whistleblowers and institutional accountability",
+      "tone": "Tense, serious, urgent but not sensationalist. The aesthetics of high-stakes journalism.",
+      "audience": "Educated adults 30-55 who read investigative journalism",
+      "platform": "Podcast platforms, newsletter, social media",
+      "reference_approach": "The visual identity of The Intercept, ProPublica",
+      "reference_avoid": "CNN red, Fox blue, any cable news palette",
+      "preference": "Dark backgrounds preferred"
+    },
+    {
+      "label": "minimal",
+      "project": "A food and culture YouTube channel",
+      "tone": "Warm, inviting, slightly rustic",
+      "audience": "Home cooks aged 25-45"
+    },
+    {
+      "label": "european",
+      "project": "ARCHIPELAGO \u2014 a magazine and podcast about island communities across Europe, from the Scottish Hebrides to Greek islands to Nordic archipelagos",
+      "tone": "Oceanic, contemplative, specific to place. Not tourist aesthetics \u2014 the working life of island people.",
+      "audience": "Culturally curious Europeans aged 28-50",
+      "platform": "Print magazine, podcast, Instagram, newsletter",
+      "reference_approach": "Kinfolk magazine's restraint, the photography of Ragnar Axelsson (RAX)",
+      "reference_avoid": "Travel magazine blue-and-white Mediterranean cliches, Santorini Instagram",
+      "preference": "A palette that shifts between cool oceanic tones and warm interior hearth tones depending on context"
+    }
+  ]
+}

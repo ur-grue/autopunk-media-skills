@@ -1,0 +1,16 @@
+{
+  "skill": "reader-response-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "references-specific-point", "text": "Response references the readers specific point", "type": "binary"},
+    {"id": "voice-maintained", "text": "Publication voice is maintained regardless of readers tone", "type": "binary"},
+    {"id": "forward-looking-close", "text": "Closing line is forward-looking and genuine", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard correction response", "references-specific-point": {"pass": true, "note": "References the specific salary figure and DfE statistics"}, "voice-maintained": {"pass": true, "note": "Direct, analytical voice maintained despite corrective context"}, "forward-looking-close": {"pass": true, "note": "Forward-looking: will correct in next edition and check other figures"}},
+    "input-02": {"description": "Minimal input", "references-specific-point": {"pass": true, "note": "References the specific podcast advertising piece they enjoyed"}, "voice-maintained": {"pass": true, "note": "Friendly professional voice maintained"}, "forward-looking-close": {"pass": true, "note": "Short, genuine forward note about upcoming content"}},
+    "input-03": {"description": "European context", "references-specific-point": {"pass": true, "note": "References Eastern European coverage gap specifically — Poland, Czech Republic, Romania named"}, "voice-maintained": {"pass": true, "note": "Analytical, evidence-based voice maintained; acknowledges valid criticism"}, "forward-looking-close": {"pass": true, "note": "Forward-looking: specific plan to expand Eastern European coverage"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

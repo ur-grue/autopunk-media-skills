@@ -1,0 +1,36 @@
+{
+  "skill": "chart-description-writer",
+  "category": "data-journalism/visualization",
+  "inputs": [
+    {
+      "label": "standard",
+      "chart_type": "Bar chart, horizontal",
+      "x_axis": "Percentage of workforce working remotely",
+      "y_axis": "Industry sector (10 sectors listed)",
+      "period": "2025",
+      "source": "National Labor Statistics Bureau, 2025 Annual Survey",
+      "finding": "Technology sector leads at 72% remote, while manufacturing is lowest at 8%. The median across all sectors is 34%.",
+      "publication": "Business news website",
+      "alt_text": true
+    },
+    {
+      "label": "minimal",
+      "chart_type": "Pie chart",
+      "categories": "Government spending by category: Health 31%, Education 22%, Defence 18%, Infrastructure 12%, Other 17%",
+      "source": "Ministry of Finance, FY2025 Budget",
+      "finding": "Health spending exceeds education and defence combined."
+    },
+    {
+      "label": "european",
+      "chart_type": "Grouped bar chart with two bars per country",
+      "x_axis": "EU member state (12 countries shown)",
+      "y_axis": "Percentage of population with broadband access",
+      "groups": "Urban vs Rural",
+      "period": "2020 and 2025",
+      "source": "European Commission Digital Economy Index, 2025",
+      "finding": "The urban-rural broadband gap has narrowed in Western Europe but widened in Eastern Europe. Romania's rural broadband access is 38%, compared to 91% urban \u2014 the widest gap in the EU.",
+      "publication": "European policy journal",
+      "alt_text": true
+    }
+  ]
+}

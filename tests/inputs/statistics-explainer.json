@@ -1,0 +1,26 @@
+{
+  "skill": "statistics-explainer",
+  "category": "data-journalism/analysis",
+  "inputs": [
+    {
+      "label": "standard",
+      "statistic": "The odds ratio for developing Type 2 diabetes among participants with a BMI over 30 was 3.2 (95% CI: 2.7-3.8, p < 0.001) compared to participants with a BMI under 25.",
+      "context": "A 10-year longitudinal study of 45,000 adults. Baseline diabetes prevalence in the normal-BMI group was 4.5% over the study period.",
+      "audience": "General news readers",
+      "publication": "National newspaper health section"
+    },
+    {
+      "label": "minimal",
+      "statistic": "Median household income rose 2.3% in nominal terms but fell 1.1% in real terms after adjusting for inflation.",
+      "context": "Annual economic report covering the past fiscal year.",
+      "audience": "General public"
+    },
+    {
+      "label": "european",
+      "statistic": "The Gini coefficient for income inequality in the EU rose from 0.297 in 2020 to 0.312 in 2025, with the largest increases in countries that experienced the highest post-pandemic inflation.",
+      "context": "Eurostat annual income distribution report covering all 27 EU member states. The EU's Gini coefficient has historically ranged between 0.28 and 0.31 over the past two decades.",
+      "audience": "General European news readers",
+      "publication": "European broadsheet"
+    }
+  ]
+}

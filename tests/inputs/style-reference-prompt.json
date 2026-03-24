@@ -1,0 +1,28 @@
+{
+  "skill": "style-reference-prompt",
+  "category": "image-prompting/midjourney",
+  "inputs": [
+    {
+      "label": "standard",
+      "style": "The photojournalism of James Nachtwey \u2014 stark, high-contrast black and white, unflinching close-up portraits, available light only, subjects in crisis or conflict contexts",
+      "subject": "A healthcare worker removing protective equipment after a long shift, exhausted, in a corridor",
+      "format": "4:5 (Instagram)",
+      "use": "Editorial illustration for a magazine article about healthcare worker burnout",
+      "variations": true
+    },
+    {
+      "label": "minimal",
+      "style": "Wes Anderson film aesthetic \u2014 symmetrical composition, pastel palette, whimsical precision",
+      "subject": "A librarian standing in the middle of a long corridor of bookshelves",
+      "format": "16:9"
+    },
+    {
+      "label": "european",
+      "style": "The architectural photography of H\u00e9l\u00e8ne Binet \u2014 stark geometric abstraction, concrete surfaces, dramatic natural light cutting through built spaces, black and white with extreme tonal range",
+      "subject": "The interior stairwell of a brutalist housing estate in London or Marseille",
+      "format": "4:5 (Instagram)",
+      "use": "Social media imagery for an architecture criticism newsletter",
+      "variations": true
+    }
+  ]
+}

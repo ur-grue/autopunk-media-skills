@@ -1,0 +1,93 @@
+{
+  "skill_name": "source-research-brief",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains all required sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions",
+    "Interview questions address both the story substance and the source's potential blind spots",
+    "Output ends with a Next Step note about conflicts, opening question, or foia-request-writer"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: pharma executive as potential whistleblower",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Interview questions address both the story substance and the source's potential blind spots",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note about conflicts, opening question, or foia-request-writer",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: local business owner as community source",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Interview questions address both the story substance and the source's potential blind spots",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note about conflicts, opening question, or foia-request-writer",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU regulator as background source",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Background Summary, Relevant Expertise, Known Public Positions, Potential Biases and Conflicts, Suggested Interview Questions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Interview questions address both the story substance and the source's potential blind spots",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note about conflicts, opening question, or foia-request-writer",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,56 @@
+{
+  "skill": "data-footnote-writer",
+  "category": "data-journalism/publishing",
+  "inputs": [
+    {
+      "label": "standard",
+      "claims": [
+        {
+          "text": "Remote workers reported 23% higher job satisfaction than office-based workers in the same roles.",
+          "source": "National Workplace Survey 2025, conducted by the Institute for Employment Research. Published June 2025. Available at institute-website.org/data.",
+          "derived": false
+        },
+        {
+          "text": "The productivity gap between remote and office workers was 4.2 percentage points \u2014 but this narrows to 1.1 points when controlling for job type.",
+          "source": "Same survey. The 4.2-point figure is from the dataset. The 1.1-point controlled figure was calculated by the journalist using regression analysis on the raw survey data.",
+          "derived": true
+        },
+        {
+          "text": "Companies with hybrid policies retained 91% of staff, compared to 84% for fully in-office companies.",
+          "source": "Corporate HR Analytics Report, published by Workforce Insights Ltd, March 2025. Figures taken directly from the executive summary.",
+          "derived": false
+        }
+      ]
+    },
+    {
+      "label": "minimal",
+      "claims": [
+        {
+          "text": "The city spent 12.4 million on road repairs in 2025.",
+          "source": "City Budget Office annual report, FY2025. Direct figure from page 34.",
+          "derived": false
+        }
+      ]
+    },
+    {
+      "label": "european",
+      "claims": [
+        {
+          "text": "Press freedom scores declined in 14 of 27 EU member states between 2023 and 2025.",
+          "source": "European Press Freedom Index, published annually by the European Journalism Centre. 2023 and 2025 editions. Available at ejc.net/index.",
+          "derived": true
+        },
+        {
+          "text": "Hungary's press freedom score of 54.6 is the lowest in the EU, down from 61.2 in 2020.",
+          "source": "Same index, 2020 and 2025 editions. Figures taken directly.",
+          "derived": false
+        },
+        {
+          "text": "The average EU press freedom score fell from 76.8 to 73.1 between 2020 and 2025 \u2014 a decline of 4.8%.",
+          "source": "Same index. The averages are calculated by the journalist as unweighted means of all 27 member state scores. Percentage decline calculated as ((73.1 - 76.8) / 76.8) x 100.",
+          "derived": true
+        }
+      ]
+    }
+  ]
+}

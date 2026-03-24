@@ -1,0 +1,47 @@
+{
+  "skill": "community-post-generator",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/community-post-generator.json",
+  "assertions_file": "tests/assertions/community-post-generator.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — tech review channel new upload",
+      "output_summary": "Option A (narrative): Builds from the Windows Update discovery to the Linux experiment, ends with 'What's one thing about your OS that quietly drives you crazy?' Option B (punchy): Short lines, leads with '30 days. One OS. No going back.' Ends with a poll question. Suggested poll included. Next Step recommends Option B for higher engagement rate, post within 30 min of upload.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Two options with meaningfully different structures — narrative paragraph vs. short punchy lines." },
+        "A2": { "pass": true, "note": "No boilerplate phrases. Both lead with the interesting finding about Windows Update time." },
+        "A3": { "pass": true, "note": "Both include topic-specific engagement prompts. Next Step note with timing and option recommendation." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Option A: Warm narrative about how desk workers' bodies feel different after a 10-minute morning routine. Option B: Punchy with 'Your neck is mad at you. These 5 stretches fix that.' Both match warm, encouraging tone. Engagement prompt asks about where viewers feel the most tension.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Two structurally distinct options." },
+        "A2": { "pass": true, "note": "No boilerplate. Both lead with relatable body awareness." },
+        "A3": { "pass": true, "note": "Topic-specific engagement prompts. Next Step included." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Italian food channel tease",
+      "output_summary": "Option A: Narrative building from the carbonari origin story to the cream debate. Option B: 'Cream in carbonara. Let's talk.' Punchy, provocative, matches passionate food tone. Both use the provided question about controversial ingredients. Suggested poll: 'Most controversial carbonara addition?' with options including cream, garlic, bacon, and mushrooms. European food culture context authentic throughout.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Two distinct options. Tease format (not new upload) correctly handled." },
+        "A2": { "pass": true, "note": "No boilerplate. Both lead with interesting carbonari history or the cream debate." },
+        "A3": { "pass": true, "note": "Engagement prompt uses the provided question. Next Step recommends posting 24-48 hours before upload for tease format." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

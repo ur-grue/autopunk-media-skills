@@ -1,0 +1,30 @@
+{
+  "skill": "visual-identity-prompt",
+  "category": "image-prompting/art-direction",
+  "inputs": [
+    {
+      "label": "standard",
+      "project": "DEADLINES \u2014 a podcast and newsletter about the working lives of journalists, covering the economics, psychology, and daily reality of newsroom work",
+      "personality": "Frank, sometimes funny, never cynical. Respects the work even while criticizing the industry.",
+      "audience": "Working journalists and media students aged 22-40",
+      "references_approach": "Columbia Journalism Review's editorial register, the photography of Philip Montgomery, the design sensibility of The Atavist",
+      "references_avoid": "Corporate media branding, LinkedIn thought-leader aesthetics, generic 'news' imagery",
+      "platforms": "Podcast, newsletter, Instagram, website"
+    },
+    {
+      "label": "minimal",
+      "project": "A YouTube channel about data visualization and information design",
+      "personality": "Precise, educational, visually obsessive",
+      "audience": "Designers and data journalists"
+    },
+    {
+      "label": "european",
+      "project": "MERIDIAN \u2014 a documentary series about the cultural and economic life of the Mediterranean coast, from Tangier to Istanbul. Not travel content \u2014 investigative and cultural journalism about a region in transition.",
+      "personality": "Intelligent, visually rich, politically aware without being polemical. Looks at the Mediterranean the way a resident does, not a tourist.",
+      "audience": "Culturally engaged Europeans aged 30-55",
+      "references_approach": "Magnum Photos' Mediterranean work, the editorial design of Monocle (early era), the cinematography of Nuri Bilge Ceylan",
+      "references_avoid": "Travel brochure imagery, Cond\u00e9 Nast Traveller aesthetics, blue-and-white generic Mediterranean",
+      "platforms": "Documentary (broadcast and streaming), podcast, newsletter, Instagram, festival materials"
+    }
+  ]
+}

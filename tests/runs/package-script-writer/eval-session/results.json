@@ -1,0 +1,16 @@
+{
+  "skill": "package-script-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "presenter-intro", "text": "Output includes a PRESENTER INTRO that names the story and reporter", "type": "binary"},
+    {"id": "clips-labelled", "text": "All clips labelled with speaker name, in-cue, out-cue, and duration", "type": "binary"},
+    {"id": "clear-ending", "text": "Package has a clear ending with a reporter sign-off", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard news package", "presenter-intro": {"pass": true, "note": "Presenter intro names school rating story and Sophie Ward"}, "clips-labelled": {"pass": true, "note": "Both clips fully labelled with all required fields"}, "clear-ending": {"pass": true, "note": "Reporter sign-off with location: Sophie Ward, Morning News"}},
+    "input-02": {"description": "Minimal input", "presenter-intro": {"pass": true, "note": "Intro names cycle lane story and Tom Harris"}, "clips-labelled": {"pass": true, "note": "Both clips fully labelled"}, "clear-ending": {"pass": true, "note": "Clear sign-off from Tom Harris"}},
+    "input-03": {"description": "European context", "presenter-intro": {"pass": true, "note": "Intro names Denmark four-day week pilot and Anna Larsen"}, "clips-labelled": {"pass": true, "note": "All three clips fully labelled with durations"}, "clear-ending": {"pass": true, "note": "Reporter sign-off: Anna Larsen, European Radio News, Copenhagen"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

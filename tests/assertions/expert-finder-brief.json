@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output contains Story Questions, Expert Types by Domain (2-4 domains each with expert roles + finding strategy + approach note), and Sourcing Risks","check":"binary_format"},
+  {"id":"A2","description":"Finding strategies are specific and actionable — named databases, directories, or institutions, not generic search advice","check":"binary_quality"},
+  {"id":"A3","description":"Brief distinguishes neutral experts from those likely to have advocacy positions","check":"binary_quality"}
+]

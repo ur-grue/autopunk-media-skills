@@ -1,0 +1,27 @@
+{
+  "skill": "biography-researcher",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Research categories, source types, pre-interview questions, and red flags"},
+    {"id": "A2", "text": "No fabricated biographical details"},
+    {"id": "A3", "text": "Pre-interview questions reference the research template"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "6 research categories with source types, 6 pre-interview questions, red flags section present"},
+      {"id": "A2", "pass": true, "note": "Template contains only verifiable categories and research questions; no invented facts about Dr. Chen"},
+      {"id": "A3", "pass": true, "note": "Questions reference research findings: publication record, advisory panel positions, agency priorities"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "All four sections present; scaled for lighter research depth"},
+      {"id": "A2", "pass": true, "note": "No invented facts"},
+      {"id": "A3", "pass": true, "note": "Questions reference startup background and funding round context"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "7 research categories including commission independence, consulting relationships; 8 pre-interview questions; detailed red flags"},
+      {"id": "A2", "pass": true, "note": "No invented facts; uses known facts from input as starting points for research framework"},
+      {"id": "A3", "pass": true, "note": "Questions directly reference commission member consulting relationships and independence assessment"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

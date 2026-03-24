@@ -1,0 +1,32 @@
+[
+  {
+    "id": "standard",
+    "description": "Standard: feature article on teacher shortages",
+    "input": {
+      "article_text": "Teacher shortages in the United States have reached crisis levels, with 36,000 vacant positions unfilled at the start of this school year — more than triple the number five years ago. In rural districts, the problem is most severe: some schools have consolidated entire grade levels because they cannot hire enough staff. 'We are not having a staffing challenge,' says one superintendent. 'We are watching the profession collapse in real time.' The causes are well-documented: stagnant pay, rising workloads, political hostility, and a generational shift away from careers that demand unpaid overtime as a condition of adequacy. What is less discussed is what happens to students when there is simply no one standing at the front of the room.",
+      "platforms": ["X/Twitter", "LinkedIn", "Instagram"],
+      "publication_handle": "@educationweekly",
+      "paywall": false
+    }
+  },
+  {
+    "id": "minimal",
+    "description": "Minimal: single platform, short article",
+    "input": {
+      "article_text": "A new city ordinance banning single-use plastic bags takes effect Monday. Retailers who fail to comply face fines of up to $500 per violation.",
+      "platforms": ["X/Twitter"],
+      "publication_handle": "@thecitynews",
+      "paywall": false
+    }
+  },
+  {
+    "id": "european",
+    "description": "European: article about Berlin housing crisis",
+    "input": {
+      "article_text": "Berlin's experiment with a rent cap, struck down by Germany's constitutional court in 2021, is back in a new form. The city-state government has proposed a 'social rent index' that would tie maximum allowable rents to median household income by district rather than to market rates. Under the proposal, rents in central Mitte could not exceed €12 per square metre for a standard apartment, compared to the current market average of €18.50. 'This is not a cap,' insists Housing Senator Clara Hoffmann. 'It is a recognition that housing is infrastructure, not a commodity.' Landlord associations have already filed objections with the Berlin Senate. The measure, if passed, would affect an estimated 340,000 rental contracts.",
+      "platforms": ["X/Twitter", "LinkedIn", "Instagram"],
+      "publication_handle": "@europehousing",
+      "paywall": true
+    }
+  }
+]

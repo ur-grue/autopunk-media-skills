@@ -1,0 +1,44 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — tech podcast inviting AI researcher",
+    "input": {
+      "guest_name": "Dr. Sarah Chen",
+      "guest_background": "AI safety researcher who recently published a paper on alignment benchmarks for large language models. She runs a research lab at a university and has been vocal about the gap between corporate AI safety claims and actual practice.",
+      "show_name": "The Algorithm",
+      "show_description": "A weekly podcast about AI and machine learning for technical professionals. Audience: software engineers, ML practitioners, and tech leaders.",
+      "downloads_per_episode": 15000,
+      "why_this_guest": "Her new paper directly challenges the methodology behind several prominent AI safety benchmarks, which our audience uses and trusts",
+      "specific_hook": "Whether the benchmarks the industry relies on are actually measuring what they claim to measure",
+      "reference_work": "Her paper 'Benchmarking the Benchmarks: A Critical Assessment of LLM Safety Evaluations'"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "guest_name": "Marcus Rivera",
+      "guest_background": "A veteran freelance photographer who has been shooting editorial assignments for 20 years and recently started teaching workshops on building a sustainable freelance career",
+      "show_name": "Creative Hustle",
+      "show_description": "A podcast about making a living in creative fields. Audience: freelance creatives and aspiring full-time artists.",
+      "downloads_per_episode": 6000,
+      "why_this_guest": "His experience bridging the gap between artistic ambition and financial sustainability is exactly what our listeners struggle with"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — UK politics podcast inviting EU policy expert",
+    "input": {
+      "guest_name": "Professor Katja Hartmann",
+      "guest_background": "German political scientist at a Brussels-based think tank specializing in EU-UK relations post-Brexit. She has published extensively on trade policy and regulatory divergence between the EU and UK.",
+      "show_name": "Westminster Watch",
+      "show_description": "A twice-weekly podcast analyzing UK politics and policy for an engaged, politically literate audience. 11,000 downloads per episode.",
+      "downloads_per_episode": 11000,
+      "why_this_guest": "The upcoming EU-UK trade review is the most significant policy moment in the relationship since the Trade and Cooperation Agreement, and she is one of the few analysts who understands both sides",
+      "specific_hook": "What the EU actually wants from the trade review versus what the UK government thinks they want — and why the gap matters",
+      "reference_work": "Her recent policy brief 'The Review That Could Reset EU-UK Relations' published by the European Policy Centre",
+      "connection": "She appeared on a sister podcast in the network last year and our producer has her contact details",
+      "notable_recent_guests": "Former UK trade negotiators, European Commission officials, senior Westminster journalists"
+    }
+  }
+]

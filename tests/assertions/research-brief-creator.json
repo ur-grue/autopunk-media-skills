@@ -1,0 +1,5 @@
+[
+  {"id":"A1","description":"Output contains all five required sections: Story Territory Map, Three Potential Angles, Source List, Documents to Seek, Reporting Order","check":"binary_format"},
+  {"id":"A2","description":"Three angles are genuinely distinct with different primary questions, not rephrased versions of the same question","check":"binary_quality"},
+  {"id":"A3","description":"Output ends with a Next Step note specifying the single first action to take","check":"binary_presence"}
+]

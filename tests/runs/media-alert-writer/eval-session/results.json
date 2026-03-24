@@ -1,0 +1,16 @@
+{
+  "skill": "media-alert-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "media-alert-label", "text": "MEDIA ALERT label appears at the top", "type": "binary"},
+    {"id": "five-fields", "text": "WHAT, WHEN, WHERE, WHO, WHY fields all present", "type": "binary"},
+    {"id": "under-250-words", "text": "Total length does not exceed 250 words", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard press conference", "media-alert-label": {"pass": true, "note": "MEDIA ALERT label at top"}, "five-fields": {"pass": true, "note": "All five fields present with complete information"}, "under-250-words": {"pass": true, "note": "Under 250 words; approximately 180"}},
+    "input-02": {"description": "Minimal input", "media-alert-label": {"pass": true, "note": "MEDIA ALERT label present"}, "five-fields": {"pass": true, "note": "All five fields filled; WHO is Local MP"}, "under-250-words": {"pass": true, "note": "Under 250 words; approximately 120"}},
+    "input-03": {"description": "European context", "media-alert-label": {"pass": true, "note": "MEDIA ALERT label at top"}, "five-fields": {"pass": true, "note": "All five fields present with Brussels address, three speakers, and EU4Health context"}, "under-250-words": {"pass": true, "note": "Under 250 words; approximately 220"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

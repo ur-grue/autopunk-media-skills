@@ -1,0 +1,38 @@
+{
+  "skill": "location-request-letter",
+  "eval_date": "2026-03-24",
+  "assertions": ["LRL-A1", "LRL-A2", "LRL-A3"],
+  "results": [
+    {
+      "test_case": "LRL-01",
+      "label": "standard",
+      "assertion_results": {
+        "LRL-A1": {"pass": true, "note": "Formal letter format with Dear/Sincerely, approximately 380 words, production identified in first paragraph"},
+        "LRL-A2": {"pass": true, "note": "Crew size (4), dates (first two weeks June), duration (two half-days), equipment details included; PBS mentioned as intended partner"},
+        "LRL-A3": {"pass": true, "note": "Proactively addresses disruption to library programs and patron access; insurance mentioned; closes with proposed site visit"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "LRL-02",
+      "label": "minimal",
+      "assertion_results": {
+        "LRL-A1": {"pass": true, "note": "Formal letter format maintained; approximately 310 words; missing details flagged with [BRACKETS]"},
+        "LRL-A2": {"pass": true, "note": "Crew size (2) and dates (July 2026) included; missing details (duration, equipment) flagged as placeholders"},
+        "LRL-A3": {"pass": true, "note": "Addresses likely disruption concern for a public pool; mentions insurance availability; proposes follow-up call"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "LRL-03",
+      "label": "european_context",
+      "assertion_results": {
+        "LRL-A1": {"pass": true, "note": "Formal letter format with European conventions; approximately 420 words; addresses Père Laurent appropriately"},
+        "LRL-A2": {"pass": true, "note": "Crew size (3), dates (10-12 September), duration (one full day), European insurance terminology used"},
+        "LRL-A3": {"pass": true, "note": "Proactively addresses sensitivity of filming during religious service with specific measures; references prior email correspondence; proposes meeting before filming day"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

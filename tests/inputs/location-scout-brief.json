@@ -1,0 +1,41 @@
+{
+  "skill": "location-scout-brief",
+  "test_cases": [
+    {
+      "id": "LSB-01",
+      "label": "standard",
+      "input": {
+        "location": "An abandoned textile mill on the outskirts of a mid-size Northeastern US city, now partially converted to artist studios",
+        "scenes": "Establishing shots of the exterior; a walk-through with a former mill worker (now 78) who worked there for 30 years; an interview with an artist who rents studio space in the converted section",
+        "film_context": "Feature documentary about post-industrial communities and the gap between decline and reinvention",
+        "crew_size": "4 — director, two camera operators, sound recordist",
+        "shooting_style": "Observational and interview",
+        "equipment": "No large lighting rigs; natural light preferred; one small LED panel for interview fill",
+        "time_of_day": "Morning light preferred for exterior establishing shots"
+      }
+    },
+    {
+      "id": "LSB-02",
+      "label": "minimal",
+      "input": {
+        "location": "A public park with a large pond, used for a short interview sequence",
+        "scenes": "One sit-down interview on a park bench",
+        "film_context": "Short documentary about urban wildlife"
+      }
+    },
+    {
+      "id": "LSB-03",
+      "label": "european_context",
+      "input": {
+        "location": "The interior of a decommissioned Berlin U-Bahn station (ghost station) that was sealed during the Cold War and has recently been opened for limited public tours",
+        "scenes": "Walk-through with a Cold War historian; establishing shots of the station's preserved Cold War-era condition; a sit-down interview on the platform; atmospheric shots for the film's opening sequence",
+        "film_context": "Documentary about the invisible traces of the Berlin Wall in the city's infrastructure — focusing on places where division is still physically present but hidden from daily life",
+        "crew_size": "3 — director, camera operator, sound recordist",
+        "shooting_style": "Observational, atmospheric, slow",
+        "equipment": "Portable LED lighting essential — no natural light underground. Tripod and gimbal. No drones (underground).",
+        "sensitivities": "Site is managed by Berliner Verkehrsbetriebe (BVG) and Berlin Unterwelten e.V.; access requires formal application. The station may have heritage protection status under Denkmalschutz. Some areas may be structurally restricted.",
+        "seasonal_requirements": "No seasonal constraint — underground location"
+      }
+    }
+  ]
+}

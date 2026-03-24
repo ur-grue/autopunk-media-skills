@@ -1,0 +1,53 @@
+{
+  "skill": "co-production-brief",
+  "test_cases": [
+    {
+      "id": "CPB-01",
+      "label": "standard",
+      "input": {
+        "title": "The Fire Line",
+        "description": "A documentary following three wildfire crews across the western United States, Australia, and Portugal during a single fire season, examining how climate change is creating a permanent fire economy and reshaping rural communities on three continents.",
+        "producing_country": "United States",
+        "production_company": "Ridgeline Documentary",
+        "target_partner": "Australian broadcaster (factual/documentary strand)",
+        "format": "3-part series, 50 minutes each",
+        "co_production_structure": "Majority US / minority Australian co-production",
+        "budget": "$3.2M total, Australian share: $640K (20%)",
+        "in_place": "US crew attached, National Geographic development funding, one US fire crew confirmed",
+        "australian_angle": "One of three storylines follows an Australian CFA crew in Victoria; Australia holds all Australasian rights in proposed structure",
+        "rights_offered": "All Australasian rights; shared credit as co-producer"
+      }
+    },
+    {
+      "id": "CPB-02",
+      "label": "minimal",
+      "input": {
+        "title": "Deep Water",
+        "description": "A documentary about free divers who train without equipment in open ocean.",
+        "producing_country": "Japan",
+        "production_company": "Pacific Wave Films",
+        "target_partner": "US streaming platform",
+        "format": "Single film, 85 minutes",
+        "co_production_structure": "Equal co-production"
+      }
+    },
+    {
+      "id": "CPB-03",
+      "label": "european_context",
+      "input": {
+        "title": "The Crossing",
+        "description": "A documentary following refugees and aid workers at three Mediterranean crossing points — the Strait of Gibraltar, the Lampedusa route, and the Aegean passage between Turkey and Greece — over one year. The film interweaves observational footage from rescue operations with intimate portraits of people waiting on both sides of the sea.",
+        "producing_country": "Germany",
+        "production_company": "Leuchtturm Dokumentarfilm",
+        "target_partner": "Italian public broadcaster (RAI)",
+        "format": "2-part film, 2 x 55 minutes",
+        "co_production_structure": "Majority German / minority Italian co-production under the German-Italian bilateral co-production treaty",
+        "budget": "EUR 1.8M total, Italian share: EUR 450K (25%)",
+        "in_place": "ZDF (Germany) as lead broadcaster, BKM (German Federal Film Fund) development support, director with prior Mediterranean access",
+        "italian_angle": "The Lampedusa storyline constitutes approximately 40% of the series; filming on Lampedusa and in Sicilian reception centres requires Italian co-production partner for access and credibility",
+        "rights_offered": "Italian and Swiss Italian-language rights; co-producer credit; editorial consultation on Lampedusa storyline",
+        "comparable_co_productions": "Human Flow (2017), Fire at Sea (2016)"
+      }
+    }
+  ]
+}

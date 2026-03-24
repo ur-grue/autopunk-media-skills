@@ -1,0 +1,16 @@
+{
+  "skill": "pr-press-release-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "headline-states-news", "text": "Headline states the news, not marketing spin", "type": "binary"},
+    {"id": "first-para-5ws", "text": "First paragraph contains who, what, when, where, and significance", "type": "binary"},
+    {"id": "ends-with-marks", "text": "Document ends with ### and includes contact block", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard product launch", "headline-states-news": {"pass": true, "note": "Headline: Clearwater Analytics Launches AI Budget Forecasting Tool for UK Local Government"}, "first-para-5ws": {"pass": true, "note": "Who (Clearwater), what (AI tool launch), when (April 15), where (Manchester), significance (first for public sector)"}, "ends-with-marks": {"pass": true, "note": "### end mark and contact block present"}},
+    "input-02": {"description": "Minimal input", "headline-states-news": {"pass": true, "note": "Headline states lottery grant for Riverside Arts Centre"}, "first-para-5ws": {"pass": true, "note": "Who, what, when, and where covered in lead"}, "ends-with-marks": {"pass": true, "note": "### and contact block present"}},
+    "input-03": {"description": "European context", "headline-states-news": {"pass": true, "note": "Headline states NHI-European Commission partnership for Baltic expansion"}, "first-para-5ws": {"pass": true, "note": "Who (NHI/EC), what (partnership for 50 research collaborations), when (June 3), where (Copenhagen), significance (EU4Health expansion)"}, "ends-with-marks": {"pass": true, "note": "### and contact block present; Commissioner quote placeholder noted"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

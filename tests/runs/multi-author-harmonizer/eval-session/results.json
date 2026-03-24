@@ -1,0 +1,93 @@
+{
+  "skill_name": "multi-author-harmonizer",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.44,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains Voice Profiles, Recommended Target Voice, Flagged Inconsistencies, and Overall Assessment",
+    "Harmonised alternatives change voice not meaning",
+    "Terminology mismatches and tone shifts correctly identified with before/after text"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: three-author report on housing",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Voice Profiles, Recommended Target Voice, Flagged Inconsistencies, and Overall Assessment",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Harmonised alternatives change voice not meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Terminology mismatches and tone shifts correctly identified with before/after text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: two short passages",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Voice Profiles, Recommended Target Voice, Flagged Inconsistencies, and Overall Assessment",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Harmonised alternatives change voice not meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Terminology mismatches and tone shifts correctly identified with before/after text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU affairs multi-author piece",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Voice Profiles, Recommended Target Voice, Flagged Inconsistencies, and Overall Assessment",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Harmonised alternatives change voice not meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Terminology mismatches and tone shifts correctly identified with before/after text",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "mood-board-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Visual Position Statement, Five Dimensions, Reference Points, What This Visual Language Is Not, and AI Prompt Anchor",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "The visual position statement creates a specific visual world \u2014 not just mood words but evocative, concrete descriptions",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "At least one reference point is unexpected or non-obvious for the genre",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "intro-outro-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains clearly labeled INTRO and OUTRO script blocks, each marked with approximate spoken duration"
+    },
+    {
+      "id": "A2",
+      "description": "Intro hook is specific to this episode (not generic 'today we're talking about X') and includes the show name within the first 30 seconds"
+    },
+    {
+      "id": "A3",
+      "description": "Both scripts read naturally at normal speech pace (contractions, spoken cadence) and the outro does not repeat the intro's exact wording"
+    }
+  ]
+}

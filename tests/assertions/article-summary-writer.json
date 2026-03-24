@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output labeled with format type and meets format-specific length conventions","check":"binary_format"},{"id":"A2","description":"Every fact in summary present in original article","check":"binary_quality"},{"id":"A3","description":"Standfirst does not repeat headline phrasing","check":"binary_quality"}]

@@ -1,0 +1,93 @@
+{
+  "skill_name": "expert-finder-brief",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.3,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains Story Questions, Expert Types by Domain (2-4 domains each with expert roles + finding strategy + approach note), and Sourcing Risks",
+    "Finding strategies are specific and actionable \u2014 named databases, directories, or institutions, not generic search advice",
+    "Brief distinguishes neutral experts from those likely to have advocacy positions"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: investigating algorithmic sentencing in courts",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Story Questions, Expert Types by Domain (2-4 domains each with expert roles + finding strategy + approach note), and Sourcing Risks",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Finding strategies are specific and actionable \u2014 named databases, directories, or institutions, not generic search advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Brief distinguishes neutral experts from those likely to have advocacy positions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: local flooding story",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Story Questions, Expert Types by Domain (2-4 domains each with expert roles + finding strategy + approach note), and Sourcing Risks",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Finding strategies are specific and actionable \u2014 named databases, directories, or institutions, not generic search advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Brief distinguishes neutral experts from those likely to have advocacy positions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: investigating EU carbon trading fraud",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains Story Questions, Expert Types by Domain (2-4 domains each with expert roles + finding strategy + approach note), and Sourcing Risks",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Finding strategies are specific and actionable \u2014 named databases, directories, or institutions, not generic search advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Brief distinguishes neutral experts from those likely to have advocacy positions",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

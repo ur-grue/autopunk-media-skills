@@ -1,0 +1,10 @@
+{
+  "skill":"press-roundup-writer","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"One-paragraph overview followed by coverage by frame"},{"id":"A2","text":"Organised by frame, not outlet"},{"id":"A3","text":"Outliers and gaps identified"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"Overview paragraph followed by 3 frame sections: infrastructure/economic, consumer impact, corporate/financial"},{"id":"A2","pass":true,"note":"Outlets grouped by how they framed the story, not listed sequentially"},{"id":"A3","pass":true,"note":"Outlier: regional newspaper unique local perspective. Gap: no airline workers quoted; no passenger rights angle."}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"Overview followed by frame-based organisation"},{"id":"A2","pass":true,"note":"Grouped by frame: celebration, criticism, comparison"},{"id":"A3","pass":true,"note":"Gaps noted: no accessibility data, no user feedback from residents"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"Overview paragraph captures full range across 5 outlets and 4 countries"},{"id":"A2","pass":true,"note":"Organised by: diplomatic realignment frame, bilateral relations frame, economic/trade frame, EU coordination frame, geopolitical decoupling frame"},{"id":"A3","pass":true,"note":"Outlier: Chinese state media perspective rarely included in Western roundups. Gap: Italian domestic politics barely covered; no Italian opposition party voice."}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

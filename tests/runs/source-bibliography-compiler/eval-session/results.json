@@ -1,0 +1,36 @@
+{
+  "skill": "source-bibliography-compiler",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "all-sources-included", "text": "Every source from the raw notes appears in the compiled bibliography", "type": "binary"},
+    {"id": "consistent-format", "text": "Citation format is consistent across all entries", "type": "binary"},
+    {"id": "missing-flagged", "text": "Missing information is flagged with bracketed notes", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard magazine feature sources",
+      "all-sources-included": {"pass": true, "note": "All 6 sources included: interview, paper, report, anonymous source, Guardian article"},
+      "consistent-format": {"pass": true, "note": "Consistent plain editorial format throughout"},
+      "missing-flagged": {"pass": true, "note": "No missing info to flag; all entries complete"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "all-sources-included": {"pass": true, "note": "All 3 sources included including the one with missing publication info"},
+      "consistent-format": {"pass": true, "note": "Consistent format despite incomplete data"},
+      "missing-flagged": {"pass": true, "note": "Unknown article flagged as [publication and date unknown — confirm source]"}
+    },
+    "input-03": {
+      "description": "European context",
+      "all-sources-included": {"pass": true, "note": "All 7 sources included: interview, Eurostat data, FES report, Spiegel article, Destatis data, anonymous source"},
+      "consistent-format": {"pass": true, "note": "Consistent plain editorial format; German-language sources handled correctly"},
+      "missing-flagged": {"pass": true, "note": "Eurostat table URL flagged for confirmation; anonymous source formatted per journalistic convention"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

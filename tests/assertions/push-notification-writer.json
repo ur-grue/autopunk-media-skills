@@ -1,0 +1,20 @@
+{
+  "skill": "push-notification-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains exactly three labeled variants (Breaking/Urgent, Informational, Curiosity-Driven) each with a character count in brackets",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "All three variants fit within the stated character limit with no truncation",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A deployment guidance line specifies which variant to use for which audience segment",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skill": "streaming-platform-pitch",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "platform-specific", "text": "Opening section names the target platform and makes a specific audience-fit case", "type": "binary"},
+    {"id": "comparable-on-platform", "text": "Comparable titles section includes at least one title already on the target platform", "type": "binary"},
+    {"id": "no-generic-pitch", "text": "No generic pitch language", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard Netflix pitch",
+      "platform-specific": {"pass": true, "note": "Names Netflix and identifies socially conscious documentary audience segment"},
+      "comparable-on-platform": {"pass": true, "note": "The Social Dilemma and Coded Bias both on Netflix referenced"},
+      "no-generic-pitch": {"pass": true, "note": "No generic language found"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "platform-specific": {"pass": true, "note": "Names Amazon Prime and sports documentary audience"},
+      "comparable-on-platform": {"pass": true, "note": "Identifies at least one comparable sports doc on Prime"},
+      "no-generic-pitch": {"pass": true, "note": "Clean, specific language throughout"}
+    },
+    "input-03": {
+      "description": "European context",
+      "platform-specific": {"pass": true, "note": "Names Canal+ and French-speaking social justice audience"},
+      "comparable-on-platform": {"pass": true, "note": "Au Bord du Monde referenced as Canal+ title"},
+      "no-generic-pitch": {"pass": true, "note": "No generic pitch language; specific to French market context"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

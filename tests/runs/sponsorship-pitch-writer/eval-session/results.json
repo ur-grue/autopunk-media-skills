@@ -1,0 +1,47 @@
+{
+  "skill": "sponsorship-pitch-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/sponsorship-pitch-writer.json",
+  "assertions_file": "tests/assertions/sponsorship-pitch-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — health and wellness podcast pitching supplement brand",
+      "output_summary": "Opens naming the brand and stating the fit: audience is health-conscious skeptics who trust evidence — the brand's third-party testing and published lab results are exactly what this audience demands. 8-month personal use mentioned. Packages: mid-roll at $45 CPM, 4-episode minimum, with newsletter bonus. CTA: schedule a 20-minute call next week. 365 words. Next Step: follow up in 7 days, have ad-read-script ready.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with brand name and specific audience fit statement." },
+        "A2": { "pass": true, "note": "Specific placement, rate, and minimum stated. 365 words, under 400." },
+        "A3": { "pass": true, "note": "CTA: '20-minute call next week.' Next Step with follow-up timing and ad-read-script prep." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Opens naming the craft supply store and the audience fit (weekend makers who buy finishing products). Offering stated clearly: pre-roll, 4-episode minimum. No CPM provided so pitch mentions 'rates in line with industry standard for this audience size' and invites discussion. CTA specific. 310 words.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with brand name and specific audience description." },
+        "A2": { "pass": true, "note": "Placement type and minimum stated. Pricing handled with industry benchmark reference. 310 words." },
+        "A3": { "pass": true, "note": "Specific CTA. Next Step included." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — European history podcast pitching tour company",
+      "output_summary": "Opens naming the tour company and the exceptional audience fit: history enthusiasts who travel to the places they learn about. Multi-tier offering: mid-roll at 50 EUR CPM plus dedicated bonus episode. European pricing in EUR. CTA: 20-minute call to discuss the dedicated episode format. 380 words. Next Step: follow up in 7 days, prepare podcast-media-kit-generator output for detail requests.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Opens with brand name and specific audience-travel behavior fit." },
+        "A2": { "pass": true, "note": "Multi-tier offering with EUR CPM rates. 380 words, under 400." },
+        "A3": { "pass": true, "note": "Specific CTA for a call. Next Step with follow-up timing." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

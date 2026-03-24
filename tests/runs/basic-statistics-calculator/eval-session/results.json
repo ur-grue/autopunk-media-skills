@@ -1,0 +1,89 @@
+{
+  "skill": "basic-statistics-calculator",
+  "category": "data-journalism/analysis",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output shows step-by-step calculation with formula explicitly stated, not just the result"
+    },
+    {
+      "id": "A2",
+      "description": "An 'In Plain English' sentence is provided that is accurate and usable in a news article"
+    },
+    {
+      "id": "A3",
+      "description": "Caveats section identifies specific statistical warnings relevant to this calculation"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Step-by-step with formula: ((890-1200)/1200)x100 = -25.8%"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Plain English: 'The region lost a quarter of its journalists in five years'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caveat: per-capita rate more meaningful; 'modest' claim should be tested against per-capita figure"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Mean formula shown: (22+28+31+19+34)/5 = 26.8; median = 28"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Usable sentence about median being 28 students per class"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caveat: mean is pulled up by the 34-student outlier; median better represents typical class"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three calculations with formulas shown for score change, detention change, and ratio"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Plain English sentence combining both trends"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Caveat: correlation between score and detentions does not imply causation; different measurement units"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

@@ -1,0 +1,27 @@
+{
+  "skill": "subheadline-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "2 subheadline options, each labelled with format type"},
+    {"id": "A2", "text": "No words from headline repeated in subheadline"},
+    {"id": "A3", "text": "Word count and character count shown for each"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Two options labelled Web standfirst and Print deck"},
+      {"id": "A2", "pass": true, "note": "No headline words repeated; subheadlines add anaesthetist shortage, staffing numbers, and cancer surgery continuity"},
+      {"id": "A3", "pass": true, "note": "Word and character counts shown for both options"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Two options provided with format labels"},
+      {"id": "A2", "pass": true, "note": "No overlap with headline words"},
+      {"id": "A3", "pass": true, "note": "Counts provided"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Two options: Print deck and Web standfirst, appropriate for broadsheet"},
+      {"id": "A2", "pass": true, "note": "No repeated words; subheadlines add price impact, savings figures, and legislative pathway"},
+      {"id": "A3", "pass": true, "note": "Word and character counts shown; SEO keywords incorporated where natural"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

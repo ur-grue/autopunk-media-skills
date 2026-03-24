@@ -1,0 +1,16 @@
+{
+  "skill": "podcast-to-radio-adapter",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "structural-diffs", "text": "Output identifies structural differences between podcast and radio", "type": "binary"},
+    {"id": "editorial-diffs", "text": "Editorial or regulatory differences addressed", "type": "binary"},
+    {"id": "specific-changes", "text": "Specific changes to format recommended", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard podcast-to-radio adaptation", "structural-diffs": {"pass": true, "note": "Episode length (55 vs 30 min), scheduling, and structural differences identified"}, "editorial-diffs": {"pass": true, "note": "Ofcom content standards for post-watershed noted; explicit language flagged"}, "specific-changes": {"pass": true, "note": "Specific: cut to 30 min, remove explicit language, add programme trail structure"}},
+    "input-02": {"description": "Minimal input", "structural-diffs": {"pass": true, "note": "Duration difference (40 min vs 1 hour) and pacing differences noted"}, "editorial-diffs": {"pass": true, "note": "Community radio broadcasting standards referenced"}, "specific-changes": {"pass": true, "note": "Specific: expand with additional segments to fill hour, add local relevance"}},
+    "input-03": {"description": "European context", "structural-diffs": {"pass": true, "note": "45-60 min vs 30 min, narrative pacing, and on-demand vs scheduled differences"}, "editorial-diffs": {"pass": true, "note": "Landesmedienanstalten requirements and balance obligations addressed"}, "specific-changes": {"pass": true, "note": "Specific: restructure for 30 min, add balance requirements, adjust for WDR editorial standards"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

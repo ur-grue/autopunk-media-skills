@@ -18,6 +18,20 @@
         {"id": "distinct-emphasis", "text": "Each logline emphasizes a different aspect of the film, none are interchangeable", "type": "binary"},
         {"id": "no-jargon", "text": "No logline contains production jargon or technical filmmaking language", "type": "binary"}
       ]
+    },
+    "character-arc-planner": {
+      "assertions": [
+        {"id": "CAP-A1", "text": "Output contains all required sections: Subject Profile, Entry State, Arc Structure (3-5 key moments), Filming Requirements, and Dramatic Assessment", "type": "binary"},
+        {"id": "CAP-A2", "text": "Filming requirements are specific and practical — they name concrete scenes, locations, or interview types needed per arc moment", "type": "binary"},
+        {"id": "CAP-A3", "text": "Dramatic Assessment is honest about viability, including any access dependencies, and output includes a concrete Next Step note", "type": "binary"}
+      ]
+    },
+    "series-bible-generator": {
+      "assertions": [
+        {"id": "SBG-A1", "text": "Output contains all required sections: Logline, Series Overview, Tone and Visual Approach, Episode Breakdowns, Key Subjects, Target Audience, and Commissioning Argument", "type": "binary"},
+        {"id": "SBG-A2", "text": "Episode breakdowns show a clear narrative arc across the series — not standalone episodes but a progression", "type": "binary"},
+        {"id": "SBG-A3", "text": "Output is within 1200-2000 words and includes a concrete Next Step note identifying weaknesses and recommending next actions", "type": "binary"}
+      ]
     }
   }
 }

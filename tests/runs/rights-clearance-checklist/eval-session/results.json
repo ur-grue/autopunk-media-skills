@@ -1,0 +1,36 @@
+{
+  "skill": "rights-clearance-checklist",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "categories-identified", "text": "All relevant clearance categories identified based on the content description", "type": "binary"},
+    {"id": "high-risk-flagged", "text": "High-risk items are flagged explicitly with a risk note", "type": "binary"},
+    {"id": "legal-vs-producer", "text": "Checklist distinguishes between clearances the producer can handle and those requiring legal counsel", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary with mixed content",
+      "categories-identified": {"pass": true, "note": "All categories identified: talent, archive, music (sync+master), photos, location, branded items"},
+      "high-risk-flagged": {"pass": true, "note": "Popular songs and 1970s TV archive footage flagged as HIGH RISK"},
+      "legal-vs-producer": {"pass": true, "note": "Music clearance and archive TV footage directed to legal; talent releases marked as producer-handleable"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "categories-identified": {"pass": true, "note": "Two categories identified: interview releases and royalty-free music licence verification"},
+      "high-risk-flagged": {"pass": true, "note": "No high-risk items — royalty-free library flagged as low risk but verify terms"},
+      "legal-vs-producer": {"pass": true, "note": "Both items marked as producer-handleable; no legal counsel needed"}
+    },
+    "input-03": {
+      "description": "European context",
+      "categories-identified": {"pass": true, "note": "All categories identified including post-reunification rights uncertainty and heritage building"},
+      "high-risk-flagged": {"pass": true, "note": "East German studio archive rights and deceased artist paintings flagged HIGH RISK"},
+      "legal-vs-producer": {"pass": true, "note": "Archive rights and artist estate directed to German entertainment lawyer; Bundesarchiv photos marked as producer-handleable"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

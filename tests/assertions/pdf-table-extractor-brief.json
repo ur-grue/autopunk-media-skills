@@ -1,0 +1,20 @@
+{
+  "skill": "pdf-table-extractor-brief",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a Table Overview, Column Definitions table with clean headers and data types, and at least 2 specific extraction pitfalls",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Step-by-step extraction instructions are written for a non-technical user with a recommended tool",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "A template in markdown table format includes at least one correctly filled example row and a notes column",
+      "type": "binary"
+    }
+  ]
+}

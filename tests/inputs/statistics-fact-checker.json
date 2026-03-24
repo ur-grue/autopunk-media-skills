@@ -1,0 +1,38 @@
+[
+  {
+    "id": "standard",
+    "description": "Standard test: health policy article with mixed statistics",
+    "input": {
+      "statistics": [
+        "\"Obesity rates among adults have risen 15 percent since 2010.\" (Source: National Health Survey)",
+        "\"People who exercise daily are 50% less likely to develop heart disease.\" (Source: a leading medical journal)",
+        "\"The government spends $190 billion annually on obesity-related healthcare.\" (Source: Health Policy Institute)",
+        "\"One in three children is now classified as overweight.\" (Source: World Health Organization)"
+      ],
+      "story_context": "Feature article on government inaction on obesity prevention policies"
+    }
+  },
+  {
+    "id": "minimal",
+    "description": "Minimal test: single statistic with limited context",
+    "input": {
+      "statistics": [
+        "\"Unemployment fell to 3.2 percent last quarter.\" (Source: not attributed)"
+      ],
+      "story_context": "Brief economic news update"
+    }
+  },
+  {
+    "id": "european",
+    "description": "European context: EU migration statistics",
+    "input": {
+      "statistics": [
+        "\"Net migration to the EU increased by 42 percent in 2025.\" (Source: Eurostat)",
+        "\"Germany alone accepted 1.2 million asylum applications last year.\" (Source: BAMF)",
+        "\"Migrants contribute €150 billion annually to the EU economy.\" (Source: a think tank report)",
+        "\"78 percent of irregular border crossings occur at the Mediterranean route.\" (Source: Frontex)"
+      ],
+      "story_context": "Investigative feature on EU migration policy reform"
+    }
+  }
+]

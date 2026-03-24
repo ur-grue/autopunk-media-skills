@@ -1,0 +1,93 @@
+{
+  "skill_name": "document-analysis-summary",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.5,
+  "test_inputs": [],
+  "assertions": [
+    "Output contains all required sections: Document Overview, Key Findings, Notable Omissions, Internal Contradictions, Newsworthy Elements by Priority, and Suggested Follow-ups",
+    "Newsworthy elements are ranked by journalistic significance, not chronological order",
+    "Output ends with a Next Step note recommending which follow-up to pursue first"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: leaked internal memo from a tech company",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Document Overview, Key Findings, Notable Omissions, Internal Contradictions, Newsworthy Elements by Priority, and Suggested Follow-ups",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Newsworthy elements are ranked by journalistic significance, not chronological order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note recommending which follow-up to pursue first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single-page contract",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Document Overview, Key Findings, Notable Omissions, Internal Contradictions, Newsworthy Elements by Priority, and Suggested Follow-ups",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Newsworthy elements are ranked by journalistic significance, not chronological order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note recommending which follow-up to pursue first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU regulatory inspection report",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output contains all required sections: Document Overview, Key Findings, Notable Omissions, Internal Contradictions, Newsworthy Elements by Priority, and Suggested Follow-ups",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Newsworthy elements are ranked by journalistic significance, not chronological order",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output ends with a Next Step note recommending which follow-up to pursue first",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

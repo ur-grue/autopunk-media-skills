@@ -1,0 +1,48 @@
+{
+  "skill": "production-budget-estimator",
+  "test_cases": [
+    {
+      "id": "PBE-01",
+      "label": "standard",
+      "input": {
+        "production_type": "Single documentary film",
+        "duration": "1 x 75 minutes",
+        "shooting_format": "Location (domestic, 2 regions)",
+        "shoot_days": 15,
+        "region": "United States",
+        "crew": "Director, Producer, DP, Sound Mixer, Production Coordinator",
+        "post_production": "Offline edit (8 weeks), online/color, sound mix, licensed music (no original score), basic graphics",
+        "archive": "Approximately 5 minutes of archive from news sources",
+        "travel": "Domestic — 2 regional trips of 4-5 days each with flights and accommodation"
+      }
+    },
+    {
+      "id": "PBE-02",
+      "label": "minimal",
+      "input": {
+        "production_type": "Short documentary",
+        "duration": "1 x 25 minutes",
+        "shooting_format": "Location, single city",
+        "shoot_days": 5,
+        "region": "United States"
+      }
+    },
+    {
+      "id": "PBE-03",
+      "label": "european_context",
+      "input": {
+        "production_type": "Documentary series",
+        "duration": "3 x 52 minutes",
+        "shooting_format": "International location — filming in Germany, France, Italy, and Spain",
+        "shoot_days": 40,
+        "region": "European Union (Germany as lead producing country)",
+        "crew": "Director, Producer, Line Producer, DP, Sound Recordist, Researcher, Local fixers in each country",
+        "post_production": "Offline edit (16 weeks), online/grade, sound design and mix, original score (solo composer), motion graphics for 8-10 sequences, subtitling in 4 languages",
+        "archive": "Approximately 15 minutes of archive from national broadcasters in 4 countries",
+        "travel": "International — crew based in Berlin, filming blocks of 8-10 days in each country",
+        "target_broadcaster": "ARTE",
+        "notes": "European co-production structure; budget should reflect German lead production with international shooting costs"
+      }
+    }
+  ]
+}

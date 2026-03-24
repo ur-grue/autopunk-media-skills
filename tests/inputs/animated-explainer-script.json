@@ -1,0 +1,42 @@
+{
+  "skill": "animated-explainer-script",
+  "test_cases": [
+    {
+      "id": "AES-01",
+      "label": "standard",
+      "input": {
+        "concept": "How algorithmic content recommendation systems create filter bubbles — the viewer should understand how recommendation engines work, why they narrow rather than broaden exposure, and what the measurable effects on news consumption have been.",
+        "target_duration": "2 minutes",
+        "audience_knowledge_level": "No prior knowledge assumed",
+        "documentary_tone": "Accessible/educational",
+        "visual_style": "Clean infographic with bold colour accents",
+        "specific_data": "A 2023 study found that users shown algorithmically curated news feeds were exposed to 67% fewer opposing viewpoints than users shown chronological feeds.",
+        "context_before_after": "This sequence follows an interview with a former social media engineer who said: 'The algorithm doesn't care what's true. It cares what keeps you scrolling.'"
+      }
+    },
+    {
+      "id": "AES-02",
+      "label": "minimal",
+      "input": {
+        "concept": "How antibiotics resistance develops in bacteria",
+        "target_duration": "90 seconds",
+        "audience_knowledge_level": "No prior knowledge",
+        "documentary_tone": "Serious/investigative"
+      }
+    },
+    {
+      "id": "AES-03",
+      "label": "european_context",
+      "input": {
+        "concept": "How the EU Emissions Trading System (ETS) works — the cap-and-trade mechanism, how carbon allowances are allocated and traded, and why the price of carbon fluctuates. The viewer should understand the basic economic logic and why some critics say it allows companies to buy the right to pollute.",
+        "target_duration": "2.5 minutes",
+        "audience_knowledge_level": "Basic familiarity with climate policy",
+        "documentary_tone": "Editorial/opinion — the film is critical of carbon trading",
+        "visual_style": "Abstract/conceptual — factory silhouettes, emission clouds as tradeable objects",
+        "specific_data": "EU ETS carbon price peaked at EUR 100/tonne in February 2023 before falling to EUR 55 by late 2024. Total EU emissions covered by the ETS fell 15.5% between 2013 and 2023.",
+        "narrator_voice": "Existing narrator — sardonic, questioning, European essay-film register",
+        "context_before_after": "Follows a sequence showing a Polish coal plant operating normally. Leads into an interview with a climate economist in Brussels."
+      }
+    }
+  ]
+}

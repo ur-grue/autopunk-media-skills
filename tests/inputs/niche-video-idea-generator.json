@@ -1,0 +1,35 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — home coffee brewing channel",
+    "input": {
+      "niche": "Specialty home coffee brewing — pour-over, espresso, and manual brewing methods for people who want better coffee at home without becoming baristas",
+      "audience": "Adults 25-45 who drink coffee daily and want to improve their home brewing but are overwhelmed by the hobby's complexity",
+      "example_videos": ["The $20 French Press That Changed My Morning", "Why Your Pour-Over Tastes Sour (3 Fixes)", "I Blind-Tested 6 Coffee Grinders Under $100"],
+      "already_covered": "French press basics, pour-over technique, grinder comparison, cold brew",
+      "preferred_formats": "Tutorial, comparison, experiment",
+      "upload_frequency": "Weekly"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "niche": "Urban container gardening for apartment dwellers with no outdoor space — vegetables, herbs, and small fruits grown on windowsills and balconies",
+      "audience": "City residents in their 20s-30s who want to grow their own food but have never gardened and have very limited space",
+      "example_videos": ["I Grew Tomatoes on My Windowsill for a Year", "The 5 Easiest Herbs to Grow Indoors", "Small Balcony Garden Tour (15 Plants in 3 Square Meters)"]
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European football tactics channel",
+    "input": {
+      "niche": "Football (soccer) tactical analysis for fans who want to understand the game at a deeper level — formations, pressing systems, and coaching philosophy in European leagues",
+      "audience": "Football fans aged 20-40 across Europe and globally who watch the Premier League, La Liga, Bundesliga, and Serie A and want to understand why teams play the way they do",
+      "example_videos": ["Why Guardiola's System Works (And Why It Fails)", "The Pressing Trap Explained in 5 Minutes", "How Ancelotti Changed Real Madrid's Shape This Season"],
+      "already_covered": "Basic formations (4-3-3, 4-2-3-1), pressing fundamentals, Guardiola tactical overview",
+      "preferred_formats": "Tactical breakdown with match footage analysis, comparison, explainer",
+      "audience_pain_points": "Comments frequently ask 'why did the manager make that substitution?' and 'what is a false 9 actually supposed to do?'"
+    }
+  }
+]

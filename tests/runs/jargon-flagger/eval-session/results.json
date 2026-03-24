@@ -1,0 +1,93 @@
+{
+  "skill_name": "jargon-flagger",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.44,
+  "test_inputs": [],
+  "assertions": [
+    "Output is a numbered list with term, category (Jargon/Acronym/Insider language), location, and plain-language alternative",
+    "Plain-language alternatives are accurate and do not oversimplify to the point of changing meaning",
+    "Output includes an Accessibility Verdict assessing overall jargon density"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: fintech article for general reader",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a numbered list with term, category (Jargon/Acronym/Insider language), location, and plain-language alternative",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Plain-language alternatives are accurate and do not oversimplify to the point of changing meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output includes an Accessibility Verdict assessing overall jargon density",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: short passage with one jargon term",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a numbered list with term, category (Jargon/Acronym/Insider language), location, and plain-language alternative",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Plain-language alternatives are accurate and do not oversimplify to the point of changing meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output includes an Accessibility Verdict assessing overall jargon density",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: EU policy article for general reader",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output is a numbered list with term, category (Jargon/Acronym/Insider language), location, and plain-language alternative",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Plain-language alternatives are accurate and do not oversimplify to the point of changing meaning",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Output includes an Accessibility Verdict assessing overall jargon density",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

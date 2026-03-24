@@ -1,0 +1,16 @@
+{
+  "skill": "stand-up-script-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "location-context", "text": "Script includes location-specific context", "type": "binary"},
+    {"id": "delivery-guidance", "text": "Output includes delivery or positioning notes", "type": "binary"},
+    {"id": "integration-cues", "text": "Script includes cues for integration with surrounding package", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard news stand-up", "location-context": {"pass": true, "note": "Community centre exterior referenced as location context"}, "delivery-guidance": {"pass": true, "note": "Positioning note: reporter in front of building"}, "integration-cues": {"pass": true, "note": "Integration cues: follows campaign leader clip, precedes council leader clip"}},
+    "input-02": {"description": "Minimal input", "location-context": {"pass": true, "note": "Construction site context with visual reference"}, "delivery-guidance": {"pass": true, "note": "Basic delivery guidance included"}, "integration-cues": {"pass": true, "note": "Integration cue for bulletin package placement"}},
+    "input-03": {"description": "European context", "location-context": {"pass": true, "note": "Lesbos reception centre entrance as specific location with EU funding context"}, "delivery-guidance": {"pass": true, "note": "Tone guidance: measured, empathetic, journalistic"}, "integration-cues": {"pass": true, "note": "Placed between UNHCR clip and resident clip; handover cues provided"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

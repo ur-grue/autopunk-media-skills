@@ -1,0 +1,38 @@
+{
+  "skill": "production-budget-estimator",
+  "eval_date": "2026-03-24",
+  "assertions": ["PBE-A1", "PBE-A2", "PBE-A3"],
+  "results": [
+    {
+      "test_case": "PBE-01",
+      "label": "standard",
+      "assertion_results": {
+        "PBE-A1": {"pass": true, "note": "All five standard categories present; line items have unit basis (day, week, flat), quantity, and low/high rate ranges"},
+        "PBE-A2": {"pass": true, "note": "10% contingency line present; total range clearly stated in USD; gap between low and high is plausible for US indie documentary"},
+        "PBE-A3": {"pass": true, "note": "Budget Notes flag archive licensing volatility and travel cost escalation as specific risks"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PBE-02",
+      "label": "minimal",
+      "assertion_results": {
+        "PBE-A1": {"pass": true, "note": "Standard categories present with appropriate scale for 25-minute short; crew rates estimated based on typical indie short production"},
+        "PBE-A2": {"pass": true, "note": "Contingency present; total in USD; range appropriate for a short documentary"},
+        "PBE-A3": {"pass": true, "note": "Notes flag that unspecified crew means rates are estimated broadly, and that post-production scope is assumed minimal"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PBE-03",
+      "label": "european_context",
+      "assertion_results": {
+        "PBE-A1": {"pass": true, "note": "All categories present with EUR currency; line items include local fixers, subtitling in 4 languages, international travel blocks; unit bases specified"},
+        "PBE-A2": {"pass": true, "note": "10% contingency present; total range in EUR; ARTE-appropriate budget level for 3x52 co-production"},
+        "PBE-A3": {"pass": true, "note": "Notes flag multi-country archive licensing complexity and currency fluctuation risk for international production; subtitling cost variability addressed"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

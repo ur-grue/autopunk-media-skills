@@ -1,0 +1,89 @@
+{
+  "skill": "foi-data-request",
+  "category": "data-journalism/investigation",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is a formal letter with numbered specific data items, not a single broad request"
+    },
+    {
+      "id": "A2",
+      "description": "Machine-readable format and data dictionary/schema are explicitly requested"
+    },
+    {
+      "id": "A3",
+      "description": "A partial disclosure clause is included"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Formal letter with 3 numbered specific requests"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Machine-readable format (CSV/XLSX) and data dictionary explicitly requested"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Partial disclosure clause included"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Letter with 2 numbered requests"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Machine-readable format requested"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Partial disclosure clause present"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Letter citing Regulation 1049/2001 with numbered requests"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Machine-readable format and schema/codebook requested"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Partial disclosure clause included with EU-specific language"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

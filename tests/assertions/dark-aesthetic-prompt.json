@@ -1,0 +1,20 @@
+{
+  "skill": "dark-aesthetic-prompt",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes a primary Flux prompt with specific lighting setup (where light comes from and what it reveals) and shadow-to-light ratio described",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "A negative prompt is provided targeting the specific aesthetic's common failure modes",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "An alternative prompt exploring a different register of the same aesthetic is included",
+      "type": "binary"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "episode-concept-generator",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains 6-8 numbered episode concepts, each with Episode Title, Core Listener Question, Premise, Guest/Source Approach, and Hook Sentence"
+    },
+    {
+      "id": "A2",
+      "description": "Each concept has a distinct angle (no two answer the same core listener question) and at least one takes a counterintuitive or under-explored angle"
+    },
+    {
+      "id": "A3",
+      "description": "Output ends with a Next Step note recommending which concept to pursue first and which skill to run next"
+    }
+  ]
+}

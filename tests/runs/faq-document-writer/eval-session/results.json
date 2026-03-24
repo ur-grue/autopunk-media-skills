@@ -1,0 +1,16 @@
+{
+  "skill": "faq-document-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "journalist-register", "text": "Questions phrased as a journalist would ask them", "type": "binary"},
+    {"id": "dont-know-acknowledged", "text": "Dont-know-yet positions acknowledged with bridging language", "type": "binary"},
+    {"id": "no-ungrounded-info", "text": "No answer contains information not grounded in the input", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard crisis FAQ", "journalist-register": {"pass": true, "note": "Questions blunt: Did any local authority lose data? How long before you noticed?"}, "dont-know-acknowledged": {"pass": true, "note": "Cannot name authorities answer has bridging: we are notifying each authority individually"}, "no-ungrounded-info": {"pass": true, "note": "All answers grounded in input facts only"}},
+    "input-02": {"description": "Minimal input", "journalist-register": {"pass": true, "note": "Direct journalist questions: How much money? What was the employees role?"}, "dont-know-acknowledged": {"pass": true, "note": "Specific allegations answer has bridging: cooperating with police, cannot comment on details"}, "no-ungrounded-info": {"pass": true, "note": "No information beyond what was provided"}},
+    "input-03": {"description": "European context", "journalist-register": {"pass": true, "note": "Questions in journalist register: Did you know about data quality before? Could patients have been harmed?"}, "dont-know-acknowledged": {"pass": true, "note": "Treatment protocol question has bridging: review must complete before we can comment on specifics"}, "no-ungrounded-info": {"pass": true, "note": "All answers grounded in the briefing input"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

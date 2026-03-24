@@ -1,0 +1,20 @@
+{
+  "skill": "cross-promotion-pitch",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is in email/DM format with a subject line, body under 200 words in three natural paragraphs",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Opening references something specific about the recipient's work, not generic praise",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Closing ask is a single, specific, low-friction next step",
+      "type": "binary"
+    }
+  ]
+}

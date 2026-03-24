@@ -1,0 +1,38 @@
+{
+  "skill": "location-scout-brief",
+  "eval_date": "2026-03-24",
+  "assertions": ["LSB-A1", "LSB-A2", "LSB-A3"],
+  "results": [
+    {
+      "test_case": "LSB-01",
+      "label": "standard",
+      "assertion_results": {
+        "LSB-A1": {"pass": true, "note": "All five sections present: Location Function, Visual Requirements, Logistics and Access, Permissions and Clearances, Potential Problems and Contingencies"},
+        "LSB-A2": {"pass": true, "note": "Visual requirements specify morning light for exterior texture, natural wear surfaces for walk-through, interview background with manageable clutter"},
+        "LSB-A3": {"pass": true, "note": "Two contingencies: access revoked (backup similar industrial location identified), insufficient interior light (relocate interview to exterior courtyard)"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "LSB-02",
+      "label": "minimal",
+      "assertion_results": {
+        "LSB-A1": {"pass": true, "note": "All sections present though brief; appropriate for a single interview at a public park"},
+        "LSB-A2": {"pass": true, "note": "Specifies: pond as background, bench positioning for light direction, wind considerations for sound"},
+        "LSB-A3": {"pass": true, "note": "Two contingencies: bad weather (reschedule or move to sheltered spot) and unwanted background noise (position away from paths/playground)"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "LSB-03",
+      "label": "european_context",
+      "assertion_results": {
+        "LSB-A1": {"pass": true, "note": "All sections present; BVG/Berlin Unterwelten access pathway identified; Denkmalschutz heritage protection addressed"},
+        "LSB-A2": {"pass": true, "note": "Specifies: portable LED essential for underground, Cold War-era preservation as visual asset, atmospheric shots require slow gimbal work; ambient sound assessment for underground acoustics"},
+        "LSB-A3": {"pass": true, "note": "Three contingencies: access restricted to certain areas (plan around confirmed zones), insufficient lighting for atmospheric shots (bring additional LED and reflectors), structural safety limits interview duration (prepare questions for shorter session)"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

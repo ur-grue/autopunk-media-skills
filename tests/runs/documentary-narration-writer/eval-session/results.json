@@ -1,0 +1,16 @@
+{
+  "skill": "documentary-narration-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "script-format", "text": "Output uses industry-standard radio documentary format with NAR, CUT/CLIP, and ATMOS labels", "type": "binary"},
+    {"id": "narrative-arc", "text": "Documentary has a discernible narrative arc", "type": "binary"},
+    {"id": "no-pre-quoting", "text": "Narration blocks before clips do not pre-quote what listener is about to hear", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard radio documentary", "script-format": {"pass": true, "note": "NAR, CLIP, and ATMOS labels used correctly throughout"}, "narrative-arc": {"pass": true, "note": "Opening hook, development through routine, and close with retirement question"}, "no-pre-quoting": {"pass": true, "note": "No narration pre-quotes any clip content"}},
+    "input-02": {"description": "Minimal input", "script-format": {"pass": true, "note": "Standard format maintained with NAR, CLIP, ATMOS labels"}, "narrative-arc": {"pass": true, "note": "Arc present: opening observation, two voices in tension, reflective close"}, "no-pre-quoting": {"pass": true, "note": "Narration sets up without pre-quoting"}},
+    "input-03": {"description": "European context", "script-format": {"pass": true, "note": "Full format with NAR, CLIP, and ATMOS labels; 20-minute structure mapped"}, "narrative-arc": {"pass": true, "note": "Strong arc: factory closure, three responses (loss, leadership, renewal), forward-looking close"}, "no-pre-quoting": {"pass": true, "note": "No pre-quoting; each narration earns its following clip"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

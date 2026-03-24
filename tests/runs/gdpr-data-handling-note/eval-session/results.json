@@ -1,0 +1,36 @@
+{
+  "skill": "gdpr-data-handling-note",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "six-requirements", "text": "All six GDPR transparency requirements addressed", "type": "binary"},
+    {"id": "plain-language", "text": "Language is plain enough for a non-specialist participant", "type": "binary"},
+    {"id": "legal-review-flag", "text": "Notice explicitly flags areas requiring legal review", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary production",
+      "six-requirements": {"pass": true, "note": "Controller identity, purpose, legal basis, recipients, retention (3 years), and rights all covered"},
+      "plain-language": {"pass": true, "note": "Written for interviewees; no jargon without explanation"},
+      "legal-review-flag": {"pass": true, "note": "Legal review note flags journalistic exemption verification and mental health data provisions"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "six-requirements": {"pass": true, "note": "All six requirements addressed for survey context"},
+      "plain-language": {"pass": true, "note": "Plain language appropriate for survey participants"},
+      "legal-review-flag": {"pass": true, "note": "Flags need to verify GDPR obligations for sole proprietors"}
+    },
+    "input-03": {
+      "description": "European context",
+      "six-requirements": {"pass": true, "note": "All six requirements addressed with multi-jurisdictional complexity noted"},
+      "plain-language": {"pass": true, "note": "Plain language maintained despite complex cross-border context"},
+      "legal-review-flag": {"pass": true, "note": "Flags: journalistic exemption varies by member state, cross-border transfer provisions, sensitive data for undocumented workers"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

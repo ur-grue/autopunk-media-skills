@@ -1,0 +1,86 @@
+{
+  "skill": "scientific-consensus-brief",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Four sections: Precise Question, Consensus Assessment, Key Evidence, Reporting Pitfalls"
+    },
+    {
+      "id": "A2",
+      "text": "Consensus classified on spectrum"
+    },
+    {
+      "id": "A3",
+      "text": "Reporting pitfalls topic-specific"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All four sections present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Classified as active scientific debate"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Pitfalls specific to IF coverage"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All sections present"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Classified as established - no causal link demonstrated"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Pitfalls: conflating RF with ionising radiation"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "All four sections with EU context"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Established consensus on association; emerging on mechanisms"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Lobby claim contradicts WHO/EEA positions noted"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "skill": "proofreader",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Two sections: corrected text and numbered change log"},
+    {"id": "A2", "text": "Every correction corresponds to an actual change"},
+    {"id": "A3", "text": "Corrections follow specified language variant"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Corrected text section followed by numbered change log with original, corrected, and reason"},
+      {"id": "A2", "pass": true, "note": "All change log entries correspond to actual corrections in the text: goverment, iniative, buisnesses, role/roll, assisstance, whos/whose, demostrate, there/their, atleast, compliment/complement"},
+      {"id": "A3", "pass": true, "note": "British English conventions applied; Oxford comma and number rules from house style followed"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Both sections present"},
+      {"id": "A2", "pass": true, "note": "Their/Theyre, wendsday/Wednesday, all ready/already, its/its all correctly logged"},
+      {"id": "A3", "pass": true, "note": "British English spelling applied"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Both sections present with comprehensive change log"},
+      {"id": "A2", "pass": true, "note": "All corrections logged: Europian, artifical, substancial, proccess, wich, Parliment, aproach, goverance, enforcment, desicions, requirments, conformaty, transparancy"},
+      {"id": "A3", "pass": true, "note": "British English with -ise endings applied; institution names capitalised per house style"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

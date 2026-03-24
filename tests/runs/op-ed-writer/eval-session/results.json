@@ -1,0 +1,16 @@
+{
+  "skill": "op-ed-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "concrete-hook", "text": "Opens with a concrete hook, not credentials", "type": "binary"},
+    {"id": "thesis-by-para-2", "text": "Central argument stated by end of second paragraph", "type": "binary"},
+    {"id": "counterargument", "text": "At least one counterargument acknowledged and addressed", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard thought leadership op-ed", "concrete-hook": {"pass": true, "note": "Opens with a concrete observation about council finance spreadsheets or budget forecast failures"}, "thesis-by-para-2": {"pass": true, "note": "Argument clear by paragraph 2: public money deserves AI forecasting tools"}, "counterargument": {"pass": true, "note": "Counterargument addressed: concerns about AI replacing human judgment in public finance"}},
+    "input-02": {"description": "Minimal input", "concrete-hook": {"pass": true, "note": "Opens with concrete image or anecdote about the arts centre"}, "thesis-by-para-2": {"pass": true, "note": "Argument: arts funding is economic infrastructure, not luxury — stated by paragraph 2"}, "counterargument": {"pass": true, "note": "Counterargument: other public services compete for the same money"}},
+    "input-03": {"description": "European context", "concrete-hook": {"pass": true, "note": "Opens with specific data point about cross-border research efficiency"}, "thesis-by-para-2": {"pass": true, "note": "Argument: EU must fund health research as infrastructure not project grants — by paragraph 2"}, "counterargument": {"pass": true, "note": "Counterargument: national sovereignty over healthcare systems"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

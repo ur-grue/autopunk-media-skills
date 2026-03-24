@@ -1,0 +1,26 @@
+{
+  "skill": "ab-social-post-tester",
+  "category": "social-media/strategy",
+  "inputs": [
+    {
+      "label": "standard",
+      "content": "'The Three-Act Structure Is Holding Your Documentary Back' \u2014 a YouTube video arguing that documentary filmmakers should abandon three-act structure in favor of observational approaches. 12 minutes.",
+      "platform": "Twitter/X",
+      "goal": "Click-throughs to the video",
+      "audience": "Documentary filmmakers and film students"
+    },
+    {
+      "label": "minimal",
+      "content": "New podcast episode about freelance journalism rates and how to negotiate them.",
+      "platform": "Instagram",
+      "goal": "Engagement/comments"
+    },
+    {
+      "label": "european",
+      "content": "'How Rotterdam Rebuilt Itself: A Visual History' \u2014 a long-form magazine article with original photography documenting Rotterdam's post-war architecture and urban planning from 1945 to present. Includes interviews with Dutch architects and city planners.",
+      "platform": "LinkedIn",
+      "goal": "Click-throughs to the article",
+      "audience": "Architecture and urban planning professionals in Europe"
+    }
+  ]
+}

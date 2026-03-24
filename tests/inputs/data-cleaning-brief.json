@@ -1,0 +1,24 @@
+{
+  "skill": "data-cleaning-brief",
+  "category": "data-journalism/investigation",
+  "inputs": [
+    {
+      "label": "standard",
+      "dataset": "Court sentencing records, 42,000 rows, obtained via FOI from the judicial administration.",
+      "problems": "The `judge_name` field has inconsistent formats: 'Judge Smith', 'SMITH, J.', 'Hon. Jane Smith', 'smith' all appear for the same judge. The `sentence_length` field mixes formats: '24 months', '2 years', '2y', '730 days'. The `offense_category` field has 340 unique values when there should be approximately 25 standard categories \u2014 many are misspellings or variant phrasings. There are 1,200 rows where `sentence_date` is blank. 156 apparent duplicate rows.",
+      "goal": "Analysis of sentencing patterns by judge and offense type"
+    },
+    {
+      "label": "minimal",
+      "dataset": "Library checkout records, 15,000 rows.",
+      "problems": "The `book_title` field has inconsistent capitalization. The `checkout_date` field has two date formats: MM/DD/YYYY and YYYY-MM-DD. 45 duplicate rows.",
+      "goal": "Monthly checkout trend analysis"
+    },
+    {
+      "label": "european",
+      "dataset": "EU lobbyist registration data, 12,500 rows, downloaded from the EU Transparency Register.",
+      "problems": "The `organization_name` field has entries in multiple languages (English, French, German) for the same organization. The `budget_range` field uses text ranges ('\u20ac100,000-\u20ac199,999') instead of numeric values. The `country` field mixes ISO codes ('DE') with full names ('Germany', 'Allemagne', 'Deutschland'). The `lobbyist_category` field uses both English and French category labels. 89 rows have no `budget_range` value. The `registration_date` field has dates in DD/MM/YYYY format (European) but some entries appear to use MM/DD/YYYY (ambiguous cases where day <= 12).",
+      "goal": "Analysis of lobbying spending by country and industry sector"
+    }
+  ]
+}

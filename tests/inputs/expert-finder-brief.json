@@ -1,0 +1,5 @@
+[
+  {"id":"standard","description":"Standard: investigating algorithmic sentencing in courts","input":{"story_topic":"Whether AI risk assessment tools used in criminal sentencing produce racially biased outcomes","publication":"National legal affairs magazine, sophisticated general audience","deadline":"8 weeks"}},
+  {"id":"minimal","description":"Minimal: local flooding story","input":{"story_topic":"Why a new housing development keeps flooding despite drainage approvals","publication":"Local newspaper","deadline":"1 week"}},
+  {"id":"european","description":"European: investigating EU carbon trading fraud","input":{"story_topic":"Organized fraud in the EU Emissions Trading System where criminal networks exploit loopholes to generate and sell fraudulent carbon credits","publication":"European investigative journalism consortium","deadline":"12 weeks"}}
+]

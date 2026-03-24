@@ -1,0 +1,38 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — productivity video",
+    "input": {
+      "video_title": "The Pomodoro Technique Is Broken — Here's What Works Better",
+      "summary": "The video explains why the standard 25-minute Pomodoro intervals don't work for deep creative work. It introduces a modified flow-state timer system that uses 52-minute work blocks with 17-minute breaks, based on productivity research. Includes a walkthrough of how to set this up with free tools and a comparison of results over 30 days.",
+      "target_audience": "Knowledge workers and creative professionals, 25-40",
+      "primary_keyword": "pomodoro technique alternative",
+      "secondary_keywords": ["focus technique", "deep work timer", "productivity method"],
+      "channel_links": "Subscribe: youtube.com/c/deepworklab | Website: deepworklab.co | Twitter: @deepworklab",
+      "tone": "Evidence-based, direct, conversational"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "video_title": "How to Repot a Houseplant Without Killing It",
+      "summary": "Step-by-step guide to repotting common houseplants. Covers when to repot, choosing the right pot size, soil mix basics, and the most common mistake beginners make (potting too deep). Shows the process with three different plants.",
+      "target_audience": "Beginner houseplant owners",
+      "primary_keyword": "how to repot a houseplant"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — public transport travel video",
+    "input": {
+      "video_title": "How to Travel Europe by Train for Half the Price",
+      "summary": "A complete guide to budget European train travel. Covers Interrail and Eurail pass strategies, when night trains save money versus budget airlines, booking tips for Deutsche Bahn, SNCF, and Trenitalia, and a real itinerary that visited 6 countries in 14 days for under 400 EUR in transport costs. Includes a comparison of seat61.com strategies versus standard booking.",
+      "target_audience": "Budget travelers planning a European trip, primarily English-speaking, 20-35",
+      "primary_keyword": "budget train travel Europe",
+      "secondary_keywords": ["Interrail tips", "cheap European trains", "Europe by train"],
+      "channel_links": "Subscribe: youtube.com/c/traineurope | Website: traineurope.co | Instagram: @traineuropechannel",
+      "tone": "Enthusiastic, practical, detail-oriented"
+    }
+  }
+]

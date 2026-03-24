@@ -1,0 +1,47 @@
+{
+  "skill": "content-calendar-planner",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/content-calendar-planner.json",
+  "assertions_file": "tests/assertions/content-calendar-planner.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — personal development channel",
+      "output_summary": "4-week calendar with 4 videos (weekly Tuesdays). Specific working titles for each: e.g., 'Why Motivation Is a Trap (And What Actually Works)' not just 'motivation vs discipline'. Strategic notes explain positioning. Production schedule groups filming by setup similarity and notes weekend filming preference. Next Step: film the morning routine video first, run seo-title-optimizer on it.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Table has all required columns with specific working titles, varied formats, and strategic notes." },
+        "A2": { "pass": true, "note": "Production schedule present, groups by filming order, accounts for research-heavy topics." },
+        "A3": { "pass": true, "note": "4 videos over 4 weeks matches weekly frequency. Next Step identifies first video and recommends seo-title-optimizer." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "4-week calendar with 8 videos (twice weekly). All slots have specific titles. Formats varied: tutorial, common-mistakes, basics explainer. Production schedule groups videos by complexity. Calendar sequences beginner content early in the month.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Full table with specific titles and strategic notes for all 8 slots." },
+        "A2": { "pass": true, "note": "Production schedule present with filming groupings." },
+        "A3": { "pass": true, "note": "8 videos matches twice-weekly frequency. Next Step included." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — Vienna classical music channel",
+      "output_summary": "4-week calendar with 4 videos plus 1 Short. Vienna Philharmonic winter season incorporated in Week 2. Short placed strategically as a teaser for a full tutorial. European cultural context throughout — references Vienna concert halls, EUR ticket pricing. Production schedule notes that the concert video needs to be filmed at or near a Vienna venue.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Table with specific titles, formats, strategic notes. Fixed date (Philharmonic season) incorporated." },
+        "A2": { "pass": true, "note": "Production schedule accounts for venue access and the Short's relationship to the full tutorial." },
+        "A3": { "pass": true, "note": "5 uploads (4 weekly + 1 Short) matches the frequency goal. Next Step included." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

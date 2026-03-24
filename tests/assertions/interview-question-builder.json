@@ -1,0 +1,17 @@
+{
+  "skill": "interview-question-builder",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output contains three sections (Opening 3-5 questions, Core 6-10 questions with follow-up prompts, Closing 3-4 questions) plus an Overflow section"
+    },
+    {
+      "id": "A2",
+      "description": "No question anywhere in the set is answerable with yes or no, and core questions include specific follow-up prompts (not generic 'tell me more')"
+    },
+    {
+      "id": "A3",
+      "description": "Sensitive topics are flagged with NOTE tags and the output ends with a Next Step note about which opening question to lead with"
+    }
+  ]
+}

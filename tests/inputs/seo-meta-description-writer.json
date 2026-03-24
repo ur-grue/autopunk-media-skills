@@ -1,0 +1,34 @@
+{
+  "skill": "seo-meta-description-writer",
+  "category": "social-media/content",
+  "inputs": [
+    {
+      "label": "standard",
+      "title": "How to Write a Documentary Treatment That Gets Funded",
+      "summary": "A step-by-step guide to writing a documentary treatment, covering structure, tone, and the common mistakes that lose funding. Includes a downloadable template.",
+      "keyword": "documentary treatment",
+      "secondary": [
+        "documentary funding",
+        "film treatment template"
+      ],
+      "audience": "Independent documentary filmmakers"
+    },
+    {
+      "label": "minimal",
+      "title": "Podcast Audience Growth in 2026",
+      "summary": "Analysis of podcast listener trends and what is driving growth this year.",
+      "keyword": "podcast audience growth"
+    },
+    {
+      "label": "european",
+      "title": "Press Freedom in the EU: 2025 Annual Report",
+      "summary": "A comprehensive analysis of press freedom conditions across all 27 EU member states, with country-by-country rankings, notable legal cases, and policy recommendations from the European press freedom index.",
+      "keyword": "EU press freedom",
+      "secondary": [
+        "press freedom index",
+        "media freedom Europe"
+      ],
+      "audience": "Journalists, policymakers, and press freedom advocates"
+    }
+  ]
+}

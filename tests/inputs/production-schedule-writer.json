@@ -1,0 +1,54 @@
+{
+  "skill": "production-schedule-writer",
+  "test_cases": [
+    {
+      "id": "PSW-01",
+      "label": "standard",
+      "input": {
+        "documentary_description": "A 60-minute documentary about three independent bookshop owners fighting to keep their stores open in a city where rents have tripled in a decade.",
+        "shoot_days": 5,
+        "subjects_and_scenes": [
+          "Elena Park: bookshop owner, downtown. Interview + filming in her shop + her landlord negotiation meeting",
+          "James Obi: bookshop owner, university district. Interview + shop footage + community reading event he hosts",
+          "Margaret Liu: bookshop owner, waterfront. Interview + shop footage + her packing up unsold stock",
+          "City council representative: 20-minute interview at city hall about commercial rent policy",
+          "B-roll: city streets showing chain stores replacing independents, empty storefronts, gentrification context shots",
+          "Opening sequence: time-lapse of a book being printed, shipped, shelved, and sold (requires setup)"
+        ],
+        "constraints": "Elena's landlord meeting is only on Wednesday; James's reading event is Thursday evening",
+        "crew": "Director, Camera Operator, Sound Recordist. Single camera.",
+        "notes": "All locations in the same city, no overnight stays needed"
+      }
+    },
+    {
+      "id": "PSW-02",
+      "label": "minimal",
+      "input": {
+        "documentary_description": "A short documentary about a pottery workshop",
+        "shoot_days": 2,
+        "subjects_and_scenes": ["Interview with the potter; footage of the workshop; finished pieces"],
+        "crew": "Self-shooting director"
+      }
+    },
+    {
+      "id": "PSW-03",
+      "label": "european_context",
+      "input": {
+        "documentary_description": "A 52-minute documentary about the revival of night trains in Europe, following passengers and staff on the Vienna-to-Rome overnight service.",
+        "shoot_days": 6,
+        "subjects_and_scenes": [
+          "Vienna Hauptbahnhof: establishing shots of the station, boarding sequence, departure (must be filmed in the evening, train departs at 19:40)",
+          "On-board filming: overnight sequences with passengers and crew in sleeping cars (requires special access from ÖBB/Nightjet)",
+          "Arrival in Rome Termini: morning arrival, passengers disembarking, station atmosphere",
+          "Interview with ÖBB Nightjet operations manager — Vienna office, 45-minute sit-down",
+          "Interview with a regular passenger (commutes monthly) — on-board or at their Vienna home",
+          "Interview with Italian railway historian — Rome, discussing the history of European sleeper services",
+          "B-roll: Vienna and Rome cityscapes for context, train details (livery, beds, dining car)"
+        ],
+        "constraints": "Train runs nightly but access permission from ÖBB is confirmed for two specific nights only; Rome historian available only on Friday; ÖBB manager available Monday or Tuesday",
+        "crew": "Director, Camera Operator, Sound Recordist, Production Coordinator (4-person crew)",
+        "notes": "Crew flies Vienna to Rome on the train itself (one of the two permitted nights); second permitted night is backup"
+      }
+    }
+  ]
+}

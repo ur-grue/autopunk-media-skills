@@ -1,0 +1,37 @@
+{
+  "skill": "series-pitch-deck-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "logline-present", "text": "Output contains a one-sentence logline naming the subject, conflict or journey, and stakes", "type": "binary"},
+    {"id": "episode-structure", "text": "Episode structure section explains what changes across the series, not just topic lists", "type": "binary"},
+    {"id": "broadcaster-rationale", "text": "Broadcaster rationale references the named platform's actual programming priorities", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary series pitch",
+      "logline-present": {"pass": true, "note": "Logline names repair cooperative, rural technology access tension, and community self-sufficiency stakes"},
+      "episode-structure": {"pass": true, "note": "Episodes structured around different towns with escalating stakes; describes what changes across the arc"},
+      "broadcaster-rationale": {"pass": true, "note": "BBC Three positioning references its young audience, digital-first strategy, and social purpose programming"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "logline-present": {"pass": true, "note": "Logline captures hospital ED subject with human stakes despite minimal input"},
+      "episode-structure": {"pass": true, "note": "Episodes structured chronologically; describes escalation and what shifts across the series"},
+      "broadcaster-rationale": {"pass": false, "note": "No specific broadcaster named in input; skill produces generic 'suitable for documentary commissioners' language as documented in limitations"}
+    },
+    "input-03": {
+      "description": "European context",
+      "logline-present": {"pass": true, "note": "Logline captures five Danube families, national relationships with the river, and stakes of environmental and political change"},
+      "episode-structure": {"pass": true, "note": "Five episodes structured by country with clear thematic progression from industry to displacement"},
+      "broadcaster-rationale": {"pass": true, "note": "Arte rationale references European cultural documentary strand, bilingual programming, and cross-border storytelling mandate"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 8,
+    "failed": 1,
+    "pass_rate": "89%",
+    "notes": "8 of 9 passed. One failure on minimal input: no broadcaster named, so rationale is generic. Documented in skill limitations."
+  }
+}

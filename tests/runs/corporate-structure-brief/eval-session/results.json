@@ -1,0 +1,10 @@
+{
+  "skill":"corporate-structure-brief","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Four sections: Registry Sources, Ownership Trace, Governance, Red Flags"},{"id":"A2","text":"Registry sources named specifically"},{"id":"A3","text":"Step-by-step ownership trace"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All four sections present"},{"id":"A2","pass":true,"note":"Companies House, Land Registry, council procurement portals, PSC register all named specifically"},{"id":"A3","pass":true,"note":"Clear 6-step trace from company to shareholders to beneficial owners to connected entities"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present; scaled for basic profile"},{"id":"A2","pass":true,"note":"State Secretary of State, Delaware Division of Corporations named specifically"},{"id":"A3","pass":true,"note":"Simple 3-step trace appropriate for basic profile request"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections present with multi-jurisdictional coverage"},{"id":"A2","pass":true,"note":"Luxembourg RCS, French RCS, German Handelsregister, Belgian BCE all named; EU beneficial ownership directive referenced"},{"id":"A3","pass":true,"note":"8-step multi-jurisdictional trace covering holding company through to care home operating entities"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

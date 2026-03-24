@@ -1,0 +1,16 @@
+{
+  "skill": "newsletter-audience-segmenter",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "segment-count", "text": "Output defines 3-5 distinct audience segments with clear labels", "type": "binary"},
+    {"id": "content-recommendations", "text": "Each segment has specific content strategy recommendations", "type": "binary"},
+    {"id": "implementation-guidance", "text": "Output includes practical implementation steps", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard segmentation exercise", "segment-count": {"pass": true, "note": "4 segments: Active Freelancers, Aspiring Freelancers, Staff Considering Transition, Editors"}, "content-recommendations": {"pass": true, "note": "Each segment has content preferences and churn risks"}, "implementation-guidance": {"pass": true, "note": "Implementation: signup form question, engagement-based tagging, platform tag setup"}},
+    "input-02": {"description": "Minimal input", "segment-count": {"pass": true, "note": "3 segments identified from limited data"}, "content-recommendations": {"pass": true, "note": "Content recommendations present for each"}, "implementation-guidance": {"pass": true, "note": "Basic implementation steps provided"}},
+    "input-03": {"description": "European context", "segment-count": {"pass": true, "note": "4 segments: Policy Professionals, Researchers, Journalists, Advocates"}, "content-recommendations": {"pass": true, "note": "Each segment has specific content, format, and risk-of-churn notes"}, "implementation-guidance": {"pass": true, "note": "Implementation: add role question to signup, survey existing subscribers, set up Beehiiv/Substack tags"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

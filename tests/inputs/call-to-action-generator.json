@@ -1,0 +1,33 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — education channel subscribe + comment CTAs",
+    "input": {
+      "cta_type": "Mixed — subscribe CTA + comment engagement CTA",
+      "channel_tone": "Warm, encouraging, teacher-like without being condescending",
+      "video_topic": "Language learning — the video just explained the shadowing technique for improving pronunciation",
+      "position": "End of video",
+      "specific_action": "Comment about which language they are currently learning"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "cta_type": "Subscribe",
+      "channel_tone": "Straightforward, no-nonsense, minimalist"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — travel channel with sponsor read",
+    "input": {
+      "cta_type": "Mixed — subscribe CTA + sponsor read",
+      "channel_tone": "Adventurous, storytelling-driven, personal but not oversharing",
+      "video_topic": "Travel — the video just showed a 5-day hiking trip across the Scottish Highlands, focusing on wild camping and bothies",
+      "sponsor_product": "A European travel insurance company that covers outdoor adventure activities including hiking, climbing, and wild camping across EU and UK destinations",
+      "position": "Mid-roll for sponsor, end for subscribe",
+      "specific_action": "Subscribe for weekly European adventure content"
+    }
+  }
+]

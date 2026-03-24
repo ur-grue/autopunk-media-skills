@@ -1,0 +1,40 @@
+{
+  "category": "production-support",
+  "skills": {
+    "manuscript-formatter": [
+      {"id": "A1", "assertion": "Output contains the complete reformatted text followed by a Formatting Notes section listing significant changes"},
+      {"id": "A2", "assertion": "No content has been altered, added, or removed except where flagged in the notes"},
+      {"id": "A3", "assertion": "Formatting notes list every significant structural change for editorial review"}
+    ],
+    "web-section-splitter": [
+      {"id": "A1", "assertion": "Output divides the article into numbered sections each with a subheading, word count, and reading time"},
+      {"id": "A2", "assertion": "Subheadings are specific and scannable - reading them in order tells a coherent story"},
+      {"id": "A3", "assertion": "Output ends with a summary table showing total word count, sections, reading time, and pull quote count"}
+    ],
+    "fact-sheet-compiler": [
+      {"id": "A1", "assertion": "Output contains clearly labelled sections including Overview, Key Facts, and at least one of Timeline/Key Players/Glossary"},
+      {"id": "A2", "assertion": "Every fact is attributed to a source or flagged as unverified"},
+      {"id": "A3", "assertion": "Missing information is flagged explicitly rather than silently omitted"}
+    ],
+    "teaser-block-writer": [
+      {"id": "A1", "assertion": "Each teaser contains a headline, 1-2 summary sentences, and requested metadata fields"},
+      {"id": "A2", "assertion": "Hook structures vary across the block - no two teasers open the same way"},
+      {"id": "A3", "assertion": "Teasers are self-contained and comprehensible without reading the source article"}
+    ],
+    "asset-description-writer": [
+      {"id": "A1", "assertion": "Output contains structured metadata fields: Asset Title, Description, Keywords, Asset Type, Collection, Creator, Date, Rights"},
+      {"id": "A2", "assertion": "Description leads with the most searchable and distinguishing feature of the asset"},
+      {"id": "A3", "assertion": "Missing information is explicitly marked as 'Not provided' rather than omitted"}
+    ],
+    "author-bio-writer": [
+      {"id": "A1", "assertion": "Bio is within 10% of the requested word count with word count noted after the text"},
+      {"id": "A2", "assertion": "The most relevant credential for the article topic appears in the first sentence"},
+      {"id": "A3", "assertion": "No filler phrases or vague superlatives - every sentence conveys specific information"}
+    ],
+    "cms-metadata-writer": [
+      {"id": "A1", "assertion": "Output contains SEO Title, Meta Description, URL Slug, Tags, Category, OG Title, and OG Description with character counts"},
+      {"id": "A2", "assertion": "SEO title is within 60 characters and includes the primary keyword"},
+      {"id": "A3", "assertion": "OG title and description are distinct from SEO fields - optimised for social, not search"}
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "skill": "guest-research-brief",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/guest-research-brief.json",
+  "assertions_file": "tests/assertions/guest-research-brief.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — neuroscience guest on productivity podcast",
+      "output_summary": "Brief with all five sections. Guest Overview: 3 sentences on Dr. Webb and the attention myth argument. Key Work Summary explains the core claim — environment changed, not attention spans — and the evidence structure. Most Interesting Angle: the tension between his data and the 'goldfish attention span' claim that the entire productivity content industry relies on. Ground Already Covered: 4 points from written interviews. Suggested Questions: 6 open-ended questions including 'Where is the goldfish statistic actually from, and why won't it die?' Next Step: lead with question 3, run interview-question-builder to expand.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections present and well-developed." },
+        "A2": { "pass": true, "note": "Angle identifies the specific tension: his work undermines the productivity content industry's foundational claim." },
+        "A3": { "pass": true, "note": "6 open-ended questions. Next Step recommends opening question and interview-question-builder." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Brief adapted for a practitioner rather than an academic. Guest Overview frames Priya Sharma's 20-year restaurant experience. Key Work Summary focuses on the failure-and-recovery narrative arc. Most Interesting Angle: she has closed restaurants, which makes her more credible than the success-only guests. Ground Already Covered: noted as limited (no prior appearances specified). Suggested Questions: 5 questions focused on failure patterns.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections present. Ground Already Covered honestly notes limited data." },
+        "A2": { "pass": true, "note": "Angle: her failure experience is her most valuable differentiator as a guest." },
+        "A3": { "pass": true, "note": "5 open-ended questions. Next Step present." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — EU energy policy expert",
+      "output_summary": "Brief with EU policy context throughout. Guest Overview frames Dr. Braun's think tank role and energy transition focus. Key Work Summary explains the '2035 Gap' paper argument. Most Interesting Angle: the tension between technically achievable targets and politically impossible pathways. Topics-to-avoid respected (no mention of previous government advisory role). Suggested Questions: 7 questions including 'Which EU member state is most likely to break ranks on the 2035 targets, and what happens then?' Next Step: lead with question 1, run interview-question-builder.",
+      "assertions": {
+        "A1": { "pass": true, "note": "All five sections with European policy depth." },
+        "A2": { "pass": true, "note": "Angle: the gap between technical feasibility and political will, which is the paper's core argument." },
+        "A3": { "pass": true, "note": "7 open-ended questions. Topics-to-avoid respected. Next Step present." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}

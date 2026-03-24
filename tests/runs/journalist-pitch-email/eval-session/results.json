@@ -1,0 +1,16 @@
+{
+  "skill": "journalist-pitch-email",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "hook-first-sentence", "text": "First sentence is the news hook with no preamble", "type": "binary"},
+    {"id": "under-200-words", "text": "Email body is under 200 words", "type": "binary"},
+    {"id": "no-marketing-language", "text": "No marketing language", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard exclusive pitch", "hook-first-sentence": {"pass": true, "note": "Opens with the 22% car trip reduction finding immediately"}, "under-200-words": {"pass": true, "note": "Body approximately 155 words"}, "no-marketing-language": {"pass": true, "note": "No marketing language; factual throughout"}},
+    "input-02": {"description": "Minimal input", "hook-first-sentence": {"pass": true, "note": "Opens with the bakery's top-50 recognition"}, "under-200-words": {"pass": true, "note": "Body approximately 90 words"}, "no-marketing-language": {"pass": true, "note": "No marketing language"}},
+    "input-03": {"description": "European context", "hook-first-sentence": {"pass": true, "note": "Opens with cross-border cancer treatment disparities finding"}, "under-200-words": {"pass": true, "note": "Body approximately 175 words"}, "no-marketing-language": {"pass": true, "note": "No marketing language; offer of embargoed briefing and dataset access stated factually"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — finance education channel",
+    "input": {
+      "brand": "A personal finance app that helps users track spending and set savings goals",
+      "integration_type": "Mid-roll mention (60 seconds)",
+      "video_concept": "An upcoming video on the 50/30/20 budgeting method and why most people fail at it — the app is a natural fit for the tracking segment",
+      "rate": "$1,100 for the mid-roll placement",
+      "timeline": "Video publishes in 4 weeks",
+      "channel_metrics": "52,000 subscribers, 210,000 monthly views, audience is 68% 22-35-year-old professionals"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "brand": "An online course platform for creative professionals",
+      "integration_type": "Dedicated video",
+      "video_concept": "A tutorial on building a freelance portfolio website, where the platform would be featured as the recommended hosting option",
+      "rate": "$2,000 flat",
+      "timeline": "Flexible, within the next 6 weeks"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Berlin-based language learning channel",
+    "input": {
+      "brand": "A European language learning app focused on conversational fluency in German, French, and Spanish, priced at 9.99 EUR/month",
+      "integration_type": "Mid-roll mention (60 seconds) in a standard lesson video",
+      "video_concept": "A video on common mistakes English speakers make when learning German cases — the app has a specific German grammar module",
+      "rate": "750 EUR for the mid-roll placement",
+      "timeline": "Video publishes in 3 weeks",
+      "channel_metrics": "38,000 subscribers, 145,000 monthly views, audience is primarily English-speaking expats in Germany and German language learners across Europe",
+      "previous_partnerships": "One language textbook publisher (affiliate)"
+    }
+  }
+]

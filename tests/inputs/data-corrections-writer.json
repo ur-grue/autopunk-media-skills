@@ -1,0 +1,36 @@
+{
+  "skill": "data-corrections-writer",
+  "category": "data-journalism/publishing",
+  "inputs": [
+    {
+      "label": "standard",
+      "original": "The district's teacher turnover rate was 24% in 2025",
+      "correct": "18%",
+      "article": "Low pay, high turnover: the districts losing their teachers",
+      "date": "10 March 2026",
+      "where": "Third paragraph and in the caption of the accompanying bar chart",
+      "how": "The analyst inadvertently used the 2024 figure instead of 2025",
+      "affects_conclusion": "No \u2014 the corrected figure (18%) still makes this the highest-turnover district in the region"
+    },
+    {
+      "label": "minimal",
+      "original": "The city spent $14.2 million on road repairs",
+      "correct": "$12.4 million",
+      "article": "Where your tax dollars go",
+      "date": "5 March 2026",
+      "where": "Opening sentence",
+      "how": "Unknown",
+      "affects_conclusion": "No"
+    },
+    {
+      "label": "european",
+      "original": "Hungary's press freedom score declined by 12.4 points between 2020 and 2025",
+      "correct": "6.6 points (from 61.2 to 54.6)",
+      "article": "Press freedom in the EU: the 2025 scorecard",
+      "date": "18 March 2026",
+      "where": "Fourth paragraph and in the data table row for Hungary",
+      "how": "The 2020 score used in the calculation was for a different index year (2018) due to a mislabeled column in the source spreadsheet",
+      "affects_conclusion": "Partially \u2014 Hungary remains the lowest-scoring EU member state, but the magnitude of decline is smaller than originally reported. The article's characterization of Hungary's trajectory as 'the steepest decline in the EU' needs to be verified against other countries' actual declines."
+    }
+  ]
+}

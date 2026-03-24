@@ -1,0 +1,10 @@
+{
+  "skill":"claim-origin-tracer","eval_date":"2026-03-24",
+  "assertions":[{"id":"A1","text":"Claim Deconstruction, Citation Chain, Distortion Detection, Verification Steps"},{"id":"A2","text":"Claim deconstructed into verifiable components"},{"id":"A3","text":"Neutrality maintained"}],
+  "results":[
+    {"input_id":"standard","assertion_results":[{"id":"A1","pass":true,"note":"All four sections present"},{"id":"A2","pass":true,"note":"Components: 43% figure, definition of teaching time, OECD attribution, teacher population scope. Each with key question."},{"id":"A3","pass":true,"note":"Plan does not assume claim is true or false; provides method to find out"}]},
+    {"input_id":"minimal","assertion_results":[{"id":"A1","pass":true,"note":"All sections present"},{"id":"A2","pass":true,"note":"Components: 25% figure, definition of slower, screen vs paper comparison methodology"},{"id":"A3","pass":true,"note":"Neutral; notes claim could be valid but needs primary source"}]},
+    {"input_id":"european","assertion_results":[{"id":"A1","pass":true,"note":"All sections present with EU-specific search databases"},{"id":"A2","pass":true,"note":"Components: 200 billion figure, compliance cost definition, time period, attribution to industry estimates. Eurostat, EC impact assessments identified."},{"id":"A3","pass":true,"note":"Neutral; notes that industry estimates and independent estimates often diverge significantly on compliance costs"}]}
+  ],
+  "summary":{"total_assertions":9,"passed":9,"failed":0,"pass_rate":1.0}
+}

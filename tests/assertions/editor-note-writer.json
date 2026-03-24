@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Output opens with bold label and date","check":"binary_format"},{"id":"A2","description":"Note states what was published and what the correct information is","check":"binary_completeness"},{"id":"A3","description":"Language is neutral and non-defensive","check":"binary_quality"}]

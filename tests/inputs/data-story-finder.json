@@ -1,0 +1,21 @@
+{
+  "skill": "data-story-finder",
+  "category": "data-journalism/analysis",
+  "inputs": [
+    {
+      "label": "standard",
+      "dataset": "Municipal building permit records, 2019-2025, covering all permits issued by the city planning department. Columns: permit_id, address, permit_type (new construction, renovation, demolition), property_type (residential, commercial, industrial), applicant_name, estimated_cost, date_issued, date_completed, neighborhood. 12,400 records. Source: City Planning Department open data portal.",
+      "sample": "P-2024-0891, 45 Elm St, renovation, residential, Smith Holdings LLC, $340000, 2024-03-15, 2024-09-20, Westside\nP-2024-1203, 800 Industrial Ave, new construction, commercial, Metro Development Group, $4200000, 2024-06-01, null, Eastport\nP-2025-0102, 12 Oak Lane, demolition, residential, City Housing Authority, $85000, 2025-01-10, 2025-02-28, Northgate"
+    },
+    {
+      "label": "minimal",
+      "dataset": "Public library lending records by branch, 2020-2025. Columns: branch_name, month, total_checkouts, digital_checkouts, physical_checkouts, new_memberships. 8 branches, 72 months each. Source: City Library System.",
+      "sample": "Central Branch, 2025-01, 14200, 8900, 5300, 340\nEastside Branch, 2025-01, 3100, 1200, 1900, 85\nCentral Branch, 2020-01, 18500, 3200, 15300, 520"
+    },
+    {
+      "label": "european",
+      "dataset": "EU farm subsidy payments database, 2020-2025. Columns: recipient_name, country, region, payment_amount_eur, subsidy_type (direct_payment, rural_development, market_measures), farm_size_hectares, year. Approximately 2.1 million records across all 27 member states. Source: European Commission DG Agriculture open data.",
+      "sample": "Agri-Corp Holdings BV, Netherlands, Noord-Holland, 2340000, direct_payment, 4200, 2024\nJean Dupont, France, Provence, 18500, direct_payment, 45, 2024\nMagyar Farming Cooperative, Hungary, Pest, 890000, rural_development, 1800, 2024\nSchmidt Family Farm, Germany, Bavaria, 42000, direct_payment, 120, 2024"
+    }
+  ]
+}

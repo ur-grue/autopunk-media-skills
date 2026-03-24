@@ -1,0 +1,32 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — business strategy podcast episode",
+    "input": {
+      "episode_title": "Why Most Startups Die After Their First Successful Year",
+      "episode_content": "The episode features a venture capital advisor who explains the 'second-year trap' — when startups that survive year one scale too fast, hire poorly, and lose the thing that made them work. She covers three patterns she sees repeatedly: founders who stop doing the work that got them traction, premature hiring that dilutes culture, and mistaking revenue growth for product-market fit. The most memorable moment: 'The most dangerous thing that can happen to a startup is a good year.'",
+      "guest": "Dr. Lisa Okonkwo (fictional), venture capital advisor and startup mentor",
+      "show_name": "Founder Frequency",
+      "keyword": "startup second-year trap"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "episode_title": "How to Actually Enjoy Running (If You Currently Hate It)",
+      "episode_content": "Solo episode about the common reasons people hate running and how to fix each one. Covers pacing (most beginners run too fast), shoe selection, the 80/20 rule for easy versus hard runs, and why running with music versus without changes the experience. The key insight is that most people who hate running have never actually run at an easy pace."
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European politics podcast",
+    "input": {
+      "episode_title": "What the French Election Tells Us About Europe's Political Future",
+      "episode_content": "Interview with a French political analyst about the recent French presidential election results and what they signal for European politics broadly. Covers the fragmentation of the traditional left-right axis, the rise of protest voting across EU member states, how Macron's legacy shapes the new political landscape, and why the European Parliament elections are more connected to national politics than voters realize. The analyst argues that France is a leading indicator for political shifts that will reach Germany, Italy, and Spain within 2-3 years.",
+      "guest": "Dr. Claire Beaumont (fictional), political analyst at a Paris-based European affairs institute",
+      "show_name": "Continental Shift — a podcast about European politics and policy",
+      "keyword": "French election European politics"
+    }
+  }
+]

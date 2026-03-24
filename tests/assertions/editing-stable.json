@@ -1,0 +1,15 @@
+{
+  "category": "editing",
+  "skills": {
+    "proofreader": [
+      {"id": "A1", "assertion": "Output contains two sections: corrected text and a numbered change log"},
+      {"id": "A2", "assertion": "Every correction in the change log corresponds to an actual change in the corrected text"},
+      {"id": "A3", "assertion": "Corrections follow the specified language variant (British English spelling and conventions)"}
+    ],
+    "copy-editor": [
+      {"id": "A1", "assertion": "Output contains two sections: edited text and an editorial note with 3-5 bullet points"},
+      {"id": "A2", "assertion": "Editorial note identifies patterns and recurring issues, not just individual fixes"},
+      {"id": "A3", "assertion": "Substantive issues are flagged in the editorial note rather than silently rewritten"}
+    ]
+  }
+}

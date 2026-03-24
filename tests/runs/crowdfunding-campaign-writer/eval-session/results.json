@@ -1,0 +1,36 @@
+{
+  "skill": "crowdfunding-campaign-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "community-address", "text": "Opening paragraph addresses the projects core community or audience directly", "type": "binary"},
+    {"id": "reward-tiers-specific", "text": "Reward tier descriptions are specific about what the backer receives", "type": "binary"},
+    {"id": "no-hyperbole", "text": "No hyperbole such as revolutionary, life-changing, or groundbreaking", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard documentary crowdfund",
+      "community-address": {"pass": true, "note": "Opens addressing environmental/beekeeping community directly"},
+      "reward-tiers-specific": {"pass": true, "note": "All four tiers specific: credits, digital copy, directors notes on 5 scenes, private Q&A"},
+      "no-hyperbole": {"pass": true, "note": "No hyperbole found"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "community-address": {"pass": true, "note": "Addresses design professionals directly"},
+      "reward-tiers-specific": {"pass": true, "note": "Tiers specific despite minimal input: credit, early episodes, behind-scenes content"},
+      "no-hyperbole": {"pass": true, "note": "Clean professional copy, no hyperbole"}
+    },
+    "input-03": {
+      "description": "European context",
+      "community-address": {"pass": true, "note": "Addresses maritime history and heritage community across three countries"},
+      "reward-tiers-specific": {"pass": true, "note": "Tiers describe specific deliverables tied to the 3-country scope"},
+      "no-hyperbole": {"pass": true, "note": "No hyperbole; appropriate register for European heritage audience"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

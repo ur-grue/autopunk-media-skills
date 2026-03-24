@@ -1,0 +1,86 @@
+{
+  "skill": "copy-editor",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {
+      "id": "A1",
+      "text": "Edited text and editorial note with 3-5 bullet points"
+    },
+    {
+      "id": "A2",
+      "text": "Editorial note identifies patterns"
+    },
+    {
+      "id": "A3",
+      "text": "Substantive issues flagged"
+    }
+  ],
+  "results": [
+    {
+      "input_id": "standard",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Edited text with 4-bullet editorial note"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Tense inconsistency, passive voice, wordiness patterns identified"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "12 billion figure source flagged for verification"
+        }
+      ]
+    },
+    {
+      "input_id": "minimal",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Both sections; 3 bullets"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Grammar patterns identified"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Communication delay flagged for author"
+        }
+      ]
+    },
+    {
+      "input_id": "european",
+      "assertion_results": [
+        {
+          "id": "A1",
+          "pass": true,
+          "note": "Edited text with 5-bullet note"
+        },
+        {
+          "id": "A2",
+          "pass": true,
+          "note": "Tense mixing, would of pattern, comma inconsistency identified"
+        },
+        {
+          "id": "A3",
+          "pass": true,
+          "note": "Referendum specifics flagged for verification"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  }
+}

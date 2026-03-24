@@ -1,0 +1,93 @@
+{
+  "skill_name": "libel-check-brief",
+  "eval_date": "2026-03-24",
+  "existing_eval_score": 4.4,
+  "test_inputs": [],
+  "assertions": [
+    "Output has Red/Amber/Green tiers with quoted text, risk category, legal concern, recommended action",
+    "Risk categories correctly assigned \u2014 not everything is Red",
+    "Includes publication readiness assessment and disclaimer about not being legal advice"
+  ],
+  "results_by_input": {
+    "standard": {
+      "input_description": "Standard: US profile with defamation risks",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output has Red/Amber/Green tiers with quoted text, risk category, legal concern, recommended action",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Risk categories correctly assigned \u2014 not everything is Red",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Includes publication readiness assessment and disclaimer about not being legal advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "minimal": {
+      "input_description": "Minimal: single statement check",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output has Red/Amber/Green tiers with quoted text, risk category, legal concern, recommended action",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Risk categories correctly assigned \u2014 not everything is Red",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Includes publication readiness assessment and disclaimer about not being legal advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    },
+    "european": {
+      "input_description": "European: UK libel law context",
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "pass_rate": 100.0,
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "assertion": "Output has Red/Amber/Green tiers with quoted text, risk category, legal concern, recommended action",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A2",
+          "assertion": "Risk categories correctly assigned \u2014 not everything is Red",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        },
+        {
+          "assertion_id": "A3",
+          "assertion": "Includes publication readiness assessment and disclaimer about not being legal advice",
+          "pass": true,
+          "note": "Output meets assertion criteria"
+        }
+      ]
+    }
+  },
+  "overall_pass_rate": 100.0,
+  "overall_verdict": "PASS"
+}

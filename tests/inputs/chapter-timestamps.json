@@ -1,0 +1,29 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — photography tutorial script",
+    "input": {
+      "script": "Cold open (~100 words): 'You don't need a $3,000 camera to take professional portraits. You need to understand light.' Sets up the promise.\n\nIntro (~60 words): Channel intro, what the viewer will learn, mention of 3 lighting setups.\n\nPart 1: Natural Window Light (~400 words): How to position a subject near a window, time of day matters, using a reflector for fill.\n\nPart 2: One-Light Studio Setup (~450 words): Single softbox positioning, power settings, background considerations, common mistakes.\n\nPart 3: Outdoor Golden Hour (~350 words): Finding the right angle with the sun, backlighting technique, why overcast is better than direct sun.\n\nPart 4: Editing the Light (~300 words): Quick editing walkthrough showing how to enhance each lighting setup in post.\n\nOutro (~120 words): Recap, CTA to download the lighting cheat sheet, mention next week's video on posing.",
+      "total_length": "~15 minutes",
+      "has_cold_open": true
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — short cooking video outline",
+    "input": {
+      "script": "Intro: Quick hook showing finished dish.\nIngredients overview: List what you need.\nStep 1: Prepare the dough (mixing, kneading).\nStep 2: Make the filling (sauteing vegetables and cheese).\nStep 3: Assemble and bake.\nFinal reveal and tasting.",
+      "total_length": "~8 minutes"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Berlin architecture walking tour",
+    "input": {
+      "script": "Cold open (~80 words): Drone shot of Berlin skyline transitioning to street level. 'This street tells the entire story of 20th century Europe in 800 meters.'\n\nIntro (~60 words): Host introduces the walking tour concept and what buildings they will visit.\n\nStop 1: The Reichstag (~350 words): History, Norman Foster's dome renovation, what the transparency symbolizes in post-reunification Germany.\n\nStop 2: The Holocaust Memorial (~300 words): Peter Eisenman's design philosophy, visitor experience, controversy over its construction.\n\nStop 3: Checkpoint Charlie (~250 words): Cold War history, current state as tourist trap versus historical site, what remains authentic.\n\nStop 4: East Side Gallery (~400 words): The longest surviving section of the Berlin Wall, key murals and their meaning, gentrification debate.\n\nStop 5: Fernsehturm (~200 words): East German engineering showcase, views from the top, its role in the Berlin skyline.\n\nOutro (~100 words): Reflection on how architecture preserves memory, CTA for Berlin travel guide playlist.",
+      "total_length": "~20 minutes",
+      "has_cold_open": true,
+      "chapter_naming_style": "Location-focused, descriptive"
+    }
+  }
+]

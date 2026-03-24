@@ -1,0 +1,38 @@
+{
+  "skill": "press-kit-generator",
+  "eval_date": "2026-03-24",
+  "assertions": ["PKG-A1", "PKG-A2", "PKG-A3"],
+  "results": [
+    {
+      "test_case": "PKG-01",
+      "label": "standard",
+      "assertion_results": {
+        "PKG-A1": {"pass": true, "note": "All sections present: Film Details, Logline, Short Synopsis (~50 words), Medium Synopsis (~150 words), Long Synopsis (~400 words), Production Notes, Key Subjects, About the Director, Credits"},
+        "PKG-A2": {"pass": true, "note": "Three synopses are genuinely different: short captures the spatial concept, medium adds the five clients, long develops the bureaucracy-and-hope argument"},
+        "PKG-A3": {"pass": true, "note": "All sections publication-ready; no placeholders except contact (flagged appropriately); Next Step included recommending 50-word for festival databases, 150-word for press releases"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PKG-02",
+      "label": "minimal",
+      "assertion_results": {
+        "PKG-A1": {"pass": true, "note": "All sections present; Key Subjects section omitted appropriately (none provided); About the Director section thin but present"},
+        "PKG-A2": {"pass": true, "note": "Three synopses differ in scope: short is the island isolation, medium adds the automation threat, long develops the man's relationship to the lighthouse over decades"},
+        "PKG-A3": {"pass": true, "note": "Publication-ready; Next Step recommends attaching stills before distributing and running press-release-writer for announcement"}
+      },
+      "pass_rate": 1.0
+    },
+    {
+      "test_case": "PKG-03",
+      "label": "european_context",
+      "assertion_results": {
+        "PKG-A1": {"pass": true, "note": "All sections present with French title preserved; festival history formatted; critical quotes from European publications included with attribution"},
+        "PKG-A2": {"pass": true, "note": "Three synopses genuinely different: short captures political art as journalism, medium develops three cities, long explores creation-destruction cycle and legal consequences"},
+        "PKG-A3": {"pass": true, "note": "Publication-ready for European press; ARTE and SVT credited; Next Step recommends 50-word for festival databases, full kit with stills for press"}
+      },
+      "pass_rate": 1.0
+    }
+  ],
+  "overall_pass_rate": 1.0
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — tech review channel new upload",
+    "input": {
+      "video_title": "I Used Linux as My Only OS for 30 Days — Here's What Happened",
+      "what_it_covers": "A daily-driver test of Linux Mint for productivity work, covering app compatibility, gaming, workflow changes, and whether it can genuinely replace Windows for a non-developer.",
+      "surprising_detail": "The biggest productivity gain wasn't from the OS itself — it was from removing the constant Windows Update interruptions that the tester hadn't realized were costing nearly 45 minutes per week.",
+      "channel_tone": "Curious, honest, slightly nerdy but accessible to non-technical viewers",
+      "post_type": "New upload"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "video_title": "5 Stretches You Should Do Every Morning",
+      "what_it_covers": "Five simple stretches that take under 10 minutes and target the areas most affected by desk work — neck, shoulders, hip flexors, lower back, and hamstrings.",
+      "channel_tone": "Warm, encouraging, no-pressure wellness"
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — Italian food channel, upcoming tease",
+    "input": {
+      "video_title": "Why Real Carbonara Has No Cream (And What Romans Actually Use)",
+      "what_it_covers": "The authentic Roman carbonara recipe using guanciale and pecorino, the history of how cream entered non-Italian versions, and a side-by-side taste comparison.",
+      "surprising_detail": "The dish was likely invented by Italian charcoal workers (carbonari) as a calorie-dense field meal, not in a Roman restaurant as most food histories suggest.",
+      "channel_tone": "Passionate about Italian food traditions, opinionated but friendly, respects both tradition and experimentation",
+      "post_type": "Tease before upload",
+      "specific_question": "What's the most controversial carbonara ingredient you've seen someone use?"
+    }
+  }
+]

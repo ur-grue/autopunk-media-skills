@@ -1,0 +1,36 @@
+[
+  {
+    "id": "standard",
+    "label": "Standard — marketing podcast with full details",
+    "input": {
+      "episode_title": "Why Email Marketing Still Outperforms Social Media (And How to Do It Right)",
+      "episode_summary": "The episode covers why email marketing has a higher ROI than social media for most businesses. The guest explains the economics: owned audience versus rented audience, deliverability basics, and the three email sequences every business should have (welcome, nurture, re-engagement). She also addresses the myth that email is dead and provides data showing open rates have actually increased since 2020. Finally, she walks through a real case study of a small business that grew revenue 40% by fixing their email strategy.",
+      "guest_name": "Maria Santos",
+      "guest_bio": "Maria Santos is a digital marketing strategist specializing in email and retention marketing. She runs a consultancy that works with small and mid-size businesses. Author of 'The Inbox Advantage.' Twitter: @mariasantos. Website: mariasantos.co.",
+      "links_mentioned": "Her book 'The Inbox Advantage', Mailchimp, ConvertKit, the case study business website",
+      "keyword": "email marketing strategy",
+      "show_social": "@marketingpod on all platforms"
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal — only required fields",
+    "input": {
+      "episode_title": "The 5 Books That Changed How I Think About Money",
+      "episode_summary": "Solo episode recommending five personal finance books with specific explanations of what each one teaches and who it's best for. Books covered: a classic on investing basics, a behavioral economics book on spending habits, a guide to financial independence, a book on negotiation and earning more, and a contrarian take on why budgeting doesn't work for everyone."
+    }
+  },
+  {
+    "id": "european",
+    "label": "European context — European food culture podcast",
+    "input": {
+      "episode_title": "How Italian Nonnas Are Saving Traditional Pasta Shapes From Extinction",
+      "episode_summary": "Interview with an Italian food anthropologist about the hundreds of traditional pasta shapes that exist only in specific villages and are at risk of disappearing as older generations pass. The conversation covers the cultural significance of regional pasta traditions, the difference between industrial and artisanal pasta production, specific endangered shapes like su filindeu from Sardinia and corzetti from Liguria, and a grassroots movement of Italian grandmothers teaching pasta-making workshops to preserve the knowledge. The guest also discusses how the global obsession with a handful of pasta shapes (spaghetti, penne, fusilli) has eroded awareness of Italy's actual pasta diversity.",
+      "guest_name": "Professor Giulia Ferretti",
+      "guest_bio": "Professor Giulia Ferretti is a food anthropologist at a university in Bologna who has spent 15 years documenting endangered culinary traditions across Italian regions. She is the author of 'Pasta Perduta: The Shapes We're Losing.' Instagram: @giuliaferretti_food. Website: giuliaferretti.it.",
+      "links_mentioned": "Her book 'Pasta Perduta', the Pasta Grannies YouTube channel, the Italian Academy of Cuisine",
+      "keyword": "traditional Italian pasta shapes",
+      "show_social": "@foodculturepod on Instagram and Twitter"
+    }
+  }
+]

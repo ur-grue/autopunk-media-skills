@@ -1,0 +1,16 @@
+{
+  "skill": "welcome-email-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "specific-promise", "text": "Editorial promise is specific enough to predict next edition", "type": "binary"},
+    {"id": "no-welcome-opener", "text": "Email does not begin with Welcome to [newsletter name]", "type": "binary"},
+    {"id": "single-cta", "text": "There is exactly one call to action", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {"description": "Standard newsletter welcome", "specific-promise": {"pass": true, "note": "Promise: freelance rates, contract red flags, negotiation tactics — specific and predictable"}, "no-welcome-opener": {"pass": true, "note": "Opens with acknowledgment of the choice to subscribe, not Welcome to"}, "single-cta": {"pass": true, "note": "Single CTA: reply with what you write and charge"}},
+    "input-02": {"description": "Minimal input", "specific-promise": {"pass": true, "note": "Promise: one science story per day in under 500 words — specific"}, "no-welcome-opener": {"pass": true, "note": "Does not open with Welcome to"}, "single-cta": {"pass": true, "note": "Single CTA present"}},
+    "input-03": {"description": "European context", "specific-promise": {"pass": true, "note": "Promise: fortnightly EU housing policy analysis — specific and predictable"}, "no-welcome-opener": {"pass": true, "note": "Opens with substantive note, not Welcome to"}, "single-cta": {"pass": true, "note": "Single CTA: reply with housing policy question"}}
+  },
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": "100%"}
+}

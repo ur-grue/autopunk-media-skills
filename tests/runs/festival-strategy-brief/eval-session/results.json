@@ -1,0 +1,36 @@
+{
+  "skill": "festival-strategy-brief",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "tiered-festivals", "text": "Output contains at least two tiers of named specific festivals", "type": "binary"},
+    {"id": "premiere-status", "text": "Sequencing advice identifies which festivals require world premiere status", "type": "binary"},
+    {"id": "next-step", "text": "Output ends with a concrete Next Step note specifying an immediate action", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard feature documentary",
+      "tiered-festivals": {"pass": true, "note": "Three tiers with 3-4 named festivals each including IDFA, Sundance, CPH:DOX"},
+      "premiere-status": {"pass": true, "note": "IDFA and Sundance correctly identified as requiring world premiere"},
+      "next-step": {"pass": true, "note": "Next Step: verify IDFA deadline and choose world premiere festival"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "tiered-festivals": {"pass": true, "note": "Two tiers with appropriate short film festivals named"},
+      "premiere-status": {"pass": true, "note": "Clermont-Ferrand and Sundance Shorts correctly flagged for premiere requirements"},
+      "next-step": {"pass": true, "note": "Next Step: check Clermont-Ferrand submission deadline"}
+    },
+    "input-03": {
+      "description": "European context",
+      "tiered-festivals": {"pass": true, "note": "Three tiers with Berlinale, IDFA, Visions du Reel, and regional festivals"},
+      "premiere-status": {"pass": true, "note": "Berlinale encouragement noted; premiere strategy adjusted for existing interest"},
+      "next-step": {"pass": true, "note": "Next Step: respond to Berlinale contact and confirm submission timeline"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

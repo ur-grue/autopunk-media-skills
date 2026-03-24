@@ -1,0 +1,39 @@
+{
+  "skill": "subject-research-brief",
+  "test_cases": [
+    {
+      "id": "SRB-01",
+      "label": "standard",
+      "input": {
+        "subject_name": "Patricia Delgado",
+        "role": "58, former pharmaceutical sales representative turned whistleblower who exposed pricing fraud at her company",
+        "relevance": "She is the central subject of a documentary about corporate whistleblowing — the personal cost and the systemic mechanisms that punish people who report wrongdoing",
+        "prior_media": "One newspaper feature interview (2022), testimony before a congressional subcommittee (available on C-SPAN), a brief appearance in a local TV news segment",
+        "film_tone": "Investigative but empathetic — the film is not about the corporation, it is about what happens to the person who speaks",
+        "sensitivities": "She has ongoing litigation; production must coordinate with her legal counsel on what can and cannot be discussed on camera"
+      }
+    },
+    {
+      "id": "SRB-02",
+      "label": "minimal",
+      "input": {
+        "subject_name": "Ray Chen",
+        "role": "72, retired schoolteacher who volunteers at a community garden",
+        "relevance": "Subject of a short portrait documentary about retirement and purpose"
+      }
+    },
+    {
+      "id": "SRB-03",
+      "label": "european_context",
+      "input": {
+        "subject_name": "Hanna Johansson",
+        "role": "34, Swedish climate activist who has transitioned from street protest to working within the EU policy system as an advisor to a Green MEP in Brussels",
+        "relevance": "She represents the film's central tension: can activists change the system from inside without being changed by it? The documentary follows several climate activists who have moved from protest to institutional politics across Europe.",
+        "prior_media": "Multiple Swedish newspaper interviews (2019-2022), a TEDx talk, appearances in a Swedish TV documentary about Fridays for Future, active social media presence",
+        "film_tone": "Observational, politically engaged, European public broadcaster register",
+        "sensitivities": "Her work involves EU legislative processes that may be under embargo; she reports to an MEP who may wish to control messaging",
+        "biographical_details": "Grew up in Gothenburg, studied political science, arrested twice during Extinction Rebellion actions before pivoting to institutional work in 2022"
+      }
+    }
+  ]
+}

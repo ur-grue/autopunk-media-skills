@@ -1,0 +1,20 @@
+{
+  "skill": "polling-analysis-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output has three parts: Headline Summary (2-4 sentences), Key Findings (3-6 bullets with figures), and Methodology and Caveats",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "Margin of error is stated and applied to at least the headline figure",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "Any subgroup finding below n=100 is flagged as unreliable",
+      "type": "binary"
+    }
+  ]
+}

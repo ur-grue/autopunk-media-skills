@@ -1,0 +1,89 @@
+{
+  "skill": "cross-promotion-pitch",
+  "category": "social-media/strategy",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output is in email/DM format with a subject line, body under 200 words in three natural paragraphs"
+    },
+    {
+      "id": "A2",
+      "description": "Opening references something specific about the recipient's work, not generic praise"
+    },
+    {
+      "id": "A3",
+      "description": "Closing ask is a single, specific, low-friction next step"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Email format with subject line, body at 178 words in three paragraphs"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Opens referencing the AI copyright piece specifically"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Closes with 15-minute call ask"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "DM format appropriate for local pitch, body at 142 words"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "References specific transparency coverage"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Single ask: guest swap dates"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Email format at 188 words for professional EU context"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "References their European Media Freedom Act analysis specifically"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Asks for a call to discuss the co-authored piece scope"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

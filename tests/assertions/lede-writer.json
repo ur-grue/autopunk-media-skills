@@ -1,0 +1,1 @@
+[{"id":"A1","description":"Three distinct lede options (Straight News, Anecdotal, Scene-Setting) plus guidance note","check":"binary_format"},{"id":"A2","description":"Straight news lede contains most newsworthy fact in 35 words or fewer","check":"binary_quality"},{"id":"A3","description":"Scene-setting lede includes concrete sensory detail","check":"binary_quality"}]

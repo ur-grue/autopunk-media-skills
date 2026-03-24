@@ -1,0 +1,36 @@
+{
+  "skill": "creative-commons-explainer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "four-questions", "text": "All four key questions answered: commercial use, modification, attribution, share-alike", "type": "binary"},
+    {"id": "model-attribution", "text": "A model attribution line is provided", "type": "binary"},
+    {"id": "use-case-verdict", "text": "If a specific use case is described, a clear yes/no verdict is given", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard CC BY-SA use case",
+      "four-questions": {"pass": true, "note": "All four questions answered: commercial yes, modification yes, attribution required, share-alike required"},
+      "model-attribution": {"pass": true, "note": "Model attribution line provided for magazine print context"},
+      "use-case-verdict": {"pass": true, "note": "Clear yes verdict with note about share-alike obligation for redrawn diagram"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "four-questions": {"pass": true, "note": "All four answered for CC0: no restrictions on any of the four"},
+      "model-attribution": {"pass": true, "note": "Attribution line noted as not required but good practice"},
+      "use-case-verdict": {"pass": true, "note": "Clear yes verdict for commercial use without attribution"}
+    },
+    "input-03": {
+      "description": "European context",
+      "four-questions": {"pass": true, "note": "All four answered: commercial restricted (NC), modification allowed, attribution required, no share-alike"},
+      "model-attribution": {"pass": true, "note": "Model attribution line provided for broadcast documentary context"},
+      "use-case-verdict": {"pass": true, "note": "Clear no verdict: ZDF broadcast is commercial use, NC licence restricts this"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "polling-analysis-writer",
+  "category": "data-journalism/analysis",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output has three parts: Headline Summary (2-4 sentences), Key Findings (3-6 bullets with figures), and Methodology and Caveats"
+    },
+    {
+      "id": "A2",
+      "description": "Margin of error is stated and applied to at least the headline figure"
+    },
+    {
+      "id": "A3",
+      "description": "Any subgroup finding below n=100 is flagged as unreliable"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three-part structure with headline (2 sentences), 5 findings with figures, methodology section"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Margin of error ~2% stated; 5-point approval drop noted as exceeding MoE"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "18-29 subgroup (n=340) noted; no subgroups below n=100 in this dataset"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three parts present"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "MoE ~3.5% for n=800 stated and applied"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": false,
+          "note": "No subgroups provided so no flagging needed \u2014 but assertion about n<100 is not applicable; skill handles this correctly by noting no subgroup data available"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "Three parts with EU-specific framing"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "MoE calculated per country (~3% for n=1000); applied to headline 3-point trust decline"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "15-24 age subgroup (n=3,200) is robust and reported as such; no subgroups below n=100"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 8,
+    "failed": 1,
+    "pass_rate": 0.8889
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

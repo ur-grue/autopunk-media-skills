@@ -1,0 +1,36 @@
+{
+  "skill": "cold-outreach-email-writer",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "under-250-words", "text": "Email body is under 250 words including sign-off", "type": "binary"},
+    {"id": "proposition-two-sentences", "text": "Project proposition is stated in two sentences or fewer", "type": "binary"},
+    {"id": "specific-ask", "text": "The ask is specific: one clear next step", "type": "binary"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard commissioner approach",
+      "under-250-words": {"pass": true, "note": "Body at approximately 175 words"},
+      "proposition-two-sentences": {"pass": true, "note": "After Hours concept delivered in two sentences"},
+      "specific-ask": {"pass": true, "note": "Specific ask: 20-minute introductory call"}
+    },
+    "input-02": {
+      "description": "Minimal input",
+      "under-250-words": {"pass": true, "note": "Body at approximately 120 words"},
+      "proposition-two-sentences": {"pass": true, "note": "Podcast concept in one sentence"},
+      "specific-ask": {"pass": true, "note": "Specific ask: read the proposal"}
+    },
+    "input-03": {
+      "description": "European context",
+      "under-250-words": {"pass": true, "note": "Body at approximately 185 words"},
+      "proposition-two-sentences": {"pass": true, "note": "The Ferry concept in two sentences"},
+      "specific-ask": {"pass": true, "note": "Specific ask: formal pitch meeting, referencing Nordisk Forum connection"}
+    }
+  },
+  "summary": {
+    "total_assertions": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": "100%"
+  }
+}

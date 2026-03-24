@@ -1,0 +1,27 @@
+{
+  "skill": "paragraph-clarity-rewriter",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    {"id": "A1", "text": "Rewritten paragraph followed by 2-3 sentence explanation"},
+    {"id": "A2", "text": "Average sentence length shorter than original"},
+    {"id": "A3", "text": "Word counts shown at end"}
+  ],
+  "results": [
+    {"input_id": "standard", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Clear rewrite followed by explanation of structural changes"},
+      {"id": "A2", "pass": true, "note": "Original: 1 sentence of 72 words; rewrite: 3 sentences averaging 18 words"},
+      {"id": "A3", "pass": true, "note": "Original: 72 words → Rewritten: 54 words"}
+    ]},
+    {"input_id": "minimal", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Rewritten sentence with explanation of hedging removal"},
+      {"id": "A2", "pass": true, "note": "Shorter and more direct"},
+      {"id": "A3", "pass": true, "note": "Word counts shown"}
+    ]},
+    {"input_id": "european", "assertion_results": [
+      {"id": "A1", "pass": true, "note": "Complex EU regulatory language rewritten with clear explanation of changes"},
+      {"id": "A2", "pass": true, "note": "Original: 1 sentence of 78 words; rewrite: 3 sentences averaging 22 words"},
+      {"id": "A3", "pass": true, "note": "Word counts displayed at end"}
+    ]}
+  ],
+  "summary": {"total_assertions": 9, "passed": 9, "failed": 0, "pass_rate": 1.0}
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "data-corrections-writer",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "The original wrong figure and the correct figure are both stated exactly",
+      "type": "binary"
+    },
+    {
+      "id": "A2",
+      "description": "The location of the error in the article is specified",
+      "type": "binary"
+    },
+    {
+      "id": "A3",
+      "description": "The correction states whether the story's central conclusion is affected, with no defensive or minimising language",
+      "type": "binary"
+    }
+  ]
+}

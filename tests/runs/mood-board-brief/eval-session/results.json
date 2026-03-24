@@ -1,0 +1,89 @@
+{
+  "skill": "mood-board-brief",
+  "category": "image-prompting/art-direction",
+  "eval_date": "2026-03-24T11:58:00",
+  "evaluator": "claude-opus-4-6",
+  "assertions": [
+    {
+      "id": "A1",
+      "description": "Output includes all required sections: Visual Position Statement, Five Dimensions, Reference Points, What This Visual Language Is Not, and AI Prompt Anchor"
+    },
+    {
+      "id": "A2",
+      "description": "The visual position statement creates a specific visual world \u2014 not just mood words but evocative, concrete descriptions"
+    },
+    {
+      "id": "A3",
+      "description": "At least one reference point is unexpected or non-obvious for the genre"
+    }
+  ],
+  "runs": [
+    {
+      "input_label": "standard",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All five sections plus AI Prompt Anchor present"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Position statement describes 'the visual world of infrastructure journalism \u2014 steel, concrete, amber warning light'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Burtynsky is expected for industrial; surprise reference could be a graphic designer or typographer"
+        }
+      ]
+    },
+    {
+      "input_label": "minimal",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All sections present"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Position creates specific literary-fiction visual world beyond 'intimate'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "At least one non-obvious reference for literary fiction podcast"
+        }
+      ]
+    },
+    {
+      "input_label": "european",
+      "assertion_results": [
+        {
+          "assertion_id": "A1",
+          "passed": true,
+          "note": "All five sections plus anchor"
+        },
+        {
+          "assertion_id": "A2",
+          "passed": true,
+          "note": "Describes 'the specific light of European border regions \u2014 grey winter in Finland, dusty warmth in Gibraltar'"
+        },
+        {
+          "assertion_id": "A3",
+          "passed": true,
+          "note": "Koudelka expected; Kaurism\u00e4ki provides non-obvious angle for border documentary"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_assertions_checked": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "methodology": "Binary assertion testing: 3 inputs (standard, minimal, European context) x 3 assertions per skill. Each assertion graded pass/fail based on whether generated output satisfies the requirement."
+}

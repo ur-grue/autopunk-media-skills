@@ -1,0 +1,47 @@
+{
+  "skill": "description-seo-writer",
+  "eval_date": "2026-03-24",
+  "evaluator": "claude-opus-4-6",
+  "inputs_file": "tests/inputs/description-seo-writer.json",
+  "assertions_file": "tests/assertions/description-seo-writer.json",
+  "results": [
+    {
+      "input_id": "standard",
+      "label": "Standard — productivity video",
+      "output_summary": "Description opens with 'Looking for a pomodoro technique alternative that actually works for deep creative work?' — primary keyword in first 80 characters. Body elaborates on the 52/17 system without keyword stuffing. Links section includes subscribe CTA, social links, affiliate disclosure. Hashtags: #pomodorotechnique #deepwork #focustechnique #productivitymethod #timermethod. Next Step: paste into YouTube Studio Details tab, run chapter-timestamps.",
+      "assertions": {
+        "A1": { "pass": true, "note": "'pomodoro technique alternative' appears in first sentence, well within 100 characters." },
+        "A2": { "pass": true, "note": "Plain text format, links section with subscribe CTA, 5 relevant hashtags at end." },
+        "A3": { "pass": true, "note": "Next Step specifies YouTube Studio paste and recommends chapter-timestamps." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "minimal",
+      "label": "Minimal — only required fields",
+      "output_summary": "Opens with 'Learn how to repot a houseplant the right way' — keyword in first line. Body covers pot selection, soil, and the too-deep mistake. Links section has subscribe placeholder. Hashtags relevant to houseplants. Next Step included.",
+      "assertions": {
+        "A1": { "pass": true, "note": "Primary keyword in first sentence." },
+        "A2": { "pass": true, "note": "Plain text, subscribe CTA, 4 relevant hashtags." },
+        "A3": { "pass": true, "note": "Next Step present." }
+      },
+      "pass": true
+    },
+    {
+      "input_id": "european",
+      "label": "European context — public transport travel video",
+      "output_summary": "Opens with 'Budget train travel Europe doesn't have to mean discomfort' — keyword in first line. Body covers Interrail, Deutsche Bahn, SNCF, Trenitalia tips with EUR pricing. Links section includes channel links. Hashtags: #budgettraintravel #interrail #europebytrail #eurailpass #traintravel. European context preserved throughout with correct terminology and pricing.",
+      "assertions": {
+        "A1": { "pass": true, "note": "'Budget train travel Europe' in opening sentence." },
+        "A2": { "pass": true, "note": "Plain text, links with subscribe CTA, 5 topic-specific hashtags." },
+        "A3": { "pass": true, "note": "Next Step specifies YouTube Studio paste and community-post-generator recommendation." }
+      },
+      "pass": true
+    }
+  ],
+  "overall": {
+    "pass_rate": "3/3",
+    "assertion_pass_rate": "9/9",
+    "status": "PASS"
+  }
+}
