@@ -1,0 +1,69 @@
+{
+  "skill": "foia-request-writer",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "statutory-citation": {
+      "description": "Cites 5 U.S.C. section 552 explicitly",
+      "results": {
+        "input-01": { "pass": true, "note": "Cites 5 U.S.C. § 552 in opening paragraph and fee waiver section" },
+        "input-02": { "pass": true, "note": "Cites 5 U.S.C. § 552 in opening paragraph, fee waiver, and appeal statement" },
+        "input-03": { "pass": true, "note": "Cites 5 U.S.C. § 552 in opening paragraph and fee waiver section" },
+        "input-04": { "pass": true, "note": "Cites 5 U.S.C. § 552 in opening paragraph, fee waiver, and appeal statement" },
+        "input-05": { "pass": true, "note": "Cites 5 U.S.C. § 552 in opening paragraph and fee waiver section" }
+      },
+      "pass_rate": "5/5"
+    },
+    "fee-waiver": {
+      "description": "Includes journalist fee waiver request",
+      "results": {
+        "input-01": { "pass": true, "note": "Full fee waiver section citing representative of the news media under 5 U.S.C. § 552(a)(4)(A)(ii)(II)" },
+        "input-02": { "pass": true, "note": "Fee waiver section with statutory citation and journalist credentials" },
+        "input-03": { "pass": true, "note": "Fee waiver section present with statutory language" },
+        "input-04": { "pass": true, "note": "Fee waiver section with statutory citation and journalist credentials" },
+        "input-05": { "pass": true, "note": "Fee waiver section present despite vague input" }
+      },
+      "pass_rate": "5/5"
+    },
+    "deadline-reminder": {
+      "description": "20-business-day response deadline",
+      "results": {
+        "input-01": { "pass": true, "note": "Response Timeline section states 20 business days" },
+        "input-02": { "pass": true, "note": "Response Timeline section states 20 business days" },
+        "input-03": { "pass": true, "note": "Response Timeline section states 20 business days" },
+        "input-04": { "pass": true, "note": "Response Timeline section states 20 business days" },
+        "input-05": { "pass": true, "note": "Response Timeline section states 20 business days" }
+      },
+      "pass_rate": "5/5"
+    },
+    "appeal-statement": {
+      "description": "Statement of intent to appeal improper denial",
+      "results": {
+        "input-01": { "pass": true, "note": "States 'I will consider a response that withholds records without adequate justification to be a denial and will appeal accordingly'" },
+        "input-02": { "pass": true, "note": "Explicit appeal statement with statutory citation 5 U.S.C. § 552(a)(6)(A)" },
+        "input-03": { "pass": true, "note": "Appeal statement present after records description" },
+        "input-04": { "pass": true, "note": "Appeal statement with statutory citation" },
+        "input-05": { "pass": true, "note": "Appeal statement present despite vague input" }
+      },
+      "pass_rate": "5/5"
+    },
+    "formal-letter": {
+      "description": "Formatted as formal business letter",
+      "results": {
+        "input-01": { "pass": true, "note": "Full business letter format: sender block, date, agency addressee, subject line, body sections, sign-off" },
+        "input-02": { "pass": true, "note": "Full business letter format with all required elements" },
+        "input-03": { "pass": true, "note": "Full business letter format maintained despite minimal input" },
+        "input-04": { "pass": true, "note": "Full business letter format with all required elements" },
+        "input-05": { "pass": true, "note": "Full business letter format with placeholder for agency name, acknowledging ambiguity" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_inputs": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "25/25 (100%)"
+  }
+}

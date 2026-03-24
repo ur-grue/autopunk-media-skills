@@ -1,0 +1,154 @@
+{
+  "skill": "interview-question-generator",
+  "eval_date": "2026-03-24",
+  "inputs_file": "tests/inputs/interview-question-generator.json",
+  "results": [
+    {
+      "input_id": "input-01",
+      "description": "Standard documentary interview — Pharmaceutical whistleblower",
+      "assertions": {
+        "three-sections": {
+          "result": "PASS",
+          "note": "Output organized into Opening (4 questions), Substantive (12 questions), and High-Stakes (5 questions), each with a labeled section header and director's note."
+        },
+        "question-count": {
+          "result": "PASS",
+          "note": "21 questions total. Within the 20-25 range."
+        },
+        "no-yes-no": {
+          "result": "PASS",
+          "note": "All 21 questions are open-ended. No question can be answered with yes or no. Questions use 'what,' 'how,' 'walk me through,' 'describe' constructions throughout."
+        },
+        "production-notes": {
+          "result": "PASS",
+          "note": "Production notes on questions 4, 15, and 19/21 (final cluster). Three distinct production note blocks covering at least 3 questions."
+        },
+        "safe-to-sensitive": {
+          "result": "PASS",
+          "note": "Opening section contains rapport-building biographical questions. Substantive section builds chronologically. High-Stakes section (questions 17-21) contains the most challenging questions about regret, personal cost, and reckoning. No challenging questions appear in the Opening."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-02",
+      "description": "Niche technical subject — Volcanologist",
+      "assertions": {
+        "three-sections": {
+          "result": "PASS",
+          "note": "Output organized into Opening (4 questions), Substantive (12 questions), and High-Stakes (4 questions), each with labeled section header and director's note."
+        },
+        "question-count": {
+          "result": "PASS",
+          "note": "20 questions total. Within the 20-25 range."
+        },
+        "no-yes-no": {
+          "result": "PASS",
+          "note": "All 20 questions are open-ended. Questions use 'what,' 'describe,' 'how,' 'walk me through' constructions. No binary questions present."
+        },
+        "production-notes": {
+          "result": "PASS",
+          "note": "Production notes on questions 4, 13, and 18. Three production notes across the output."
+        },
+        "safe-to-sensitive": {
+          "result": "PASS",
+          "note": "Opening covers daily work and background. Substantive builds toward the false alarm through scientific context (questions 11-16). High-Stakes (questions 17-20) address the reckoning about the false alarm and future risk. The false alarm is not raised until question 11 in the Substantive section, well after trust is established."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-03",
+      "description": "Minimal input — A teacher",
+      "assertions": {
+        "three-sections": {
+          "result": "PASS",
+          "note": "Output organized into Opening (3 questions), Substantive (10 questions), and High-Stakes (4 questions), each with labeled section header and director's note."
+        },
+        "question-count": {
+          "result": "FAIL",
+          "note": "17 questions total. Below the 20-25 range. The minimal input resulted in a shorter question set, with a note acknowledging the limitation."
+        },
+        "no-yes-no": {
+          "result": "PASS",
+          "note": "All 17 questions are open-ended. Questions use 'describe,' 'what,' 'how,' 'take me' constructions. No binary questions present."
+        },
+        "production-notes": {
+          "result": "PASS",
+          "note": "Production notes on questions 3, 11/13, and 14. Three production note blocks present."
+        },
+        "safe-to-sensitive": {
+          "result": "PASS",
+          "note": "Opening covers background and daily life. Substantive builds from factual to reflective. High-Stakes (questions 14-17) contain the most challenging questions about recommending the profession and personal reckoning. No challenging material in the Opening."
+        }
+      },
+      "all_passed": false
+    },
+    {
+      "input_id": "input-04",
+      "description": "European/international context — Italian mayor and migration",
+      "assertions": {
+        "three-sections": {
+          "result": "PASS",
+          "note": "Output organized into Opening (4 questions), Substantive (11 questions), and High-Stakes (5 questions), each with labeled section header and director's note."
+        },
+        "question-count": {
+          "result": "PASS",
+          "note": "20 questions total. Within the 20-25 range."
+        },
+        "no-yes-no": {
+          "result": "PASS",
+          "note": "All 20 questions are open-ended. Questions use 'describe,' 'what,' 'how,' 'walk me through,' 'take me to' constructions throughout. No binary questions."
+        },
+        "production-notes": {
+          "result": "PASS",
+          "note": "Production notes on questions 2, 12/14, and 17. Three production note blocks present."
+        },
+        "safe-to-sensitive": {
+          "result": "PASS",
+          "note": "Opening covers the town and its decline. Substantive builds chronologically through the policy and its effects, approaching guarded territory (tensions) indirectly in question 12. High-Stakes (questions 16-20) address possible failure and legacy. No challenging questions in the Opening."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-05",
+      "description": "Vague/ambiguous input — 'Someone important'",
+      "assertions": {
+        "three-sections": {
+          "result": "PASS",
+          "note": "Output organized into Opening (3 questions), Substantive (10 questions), and High-Stakes (4 questions), each with labeled section header and director's note."
+        },
+        "question-count": {
+          "result": "FAIL",
+          "note": "17 questions total. Below the 20-25 range. The vague input resulted in a shorter question set, with an explicit note acknowledging the limitation."
+        },
+        "no-yes-no": {
+          "result": "PASS",
+          "note": "All 17 questions are open-ended. Questions use 'tell me,' 'describe,' 'what,' 'how,' 'walk me through' constructions. No binary questions."
+        },
+        "production-notes": {
+          "result": "PASS",
+          "note": "Production notes on questions 3, 9/13, and the final cluster (14-17). Three production note blocks present."
+        },
+        "safe-to-sensitive": {
+          "result": "PASS",
+          "note": "Opening is biographical and rapport-building. Substantive moves from narrative to reflective. High-Stakes (questions 14-17) contain the challenging personal questions. No sensitive material in the Opening."
+        }
+      },
+      "all_passed": false
+    }
+  ],
+  "summary": {
+    "total_inputs": 5,
+    "fully_passing": 3,
+    "assertion_pass_rates": {
+      "three-sections": "5/5",
+      "question-count": "3/5",
+      "no-yes-no": "5/5",
+      "production-notes": "5/5",
+      "safe-to-sensitive": "5/5"
+    },
+    "notes": "The question-count assertion failed on inputs 3 and 5, both of which provided minimal/vague information. The skill produced 17 questions for each, below the 20-25 target. All other assertions passed across all 5 inputs."
+  }
+}

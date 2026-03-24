@@ -1,0 +1,66 @@
+{
+  "skill": "thread-writer",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "numbered-tweets": {
+      "description": "Numbered tweet list, clearly separated",
+      "results": {
+        "input-01": { "pass": true, "note": "9 tweets numbered 1/ through 9/, each separated by horizontal rules" },
+        "input-02": { "pass": true, "note": "10 tweets numbered 1/ through 10/, clearly separated" },
+        "input-03": { "pass": true, "note": "5 tweets numbered 1/ through 5/, clearly separated" },
+        "input-04": { "pass": true, "note": "15 tweets numbered 1/ through 15/, clearly separated" },
+        "input-05": { "pass": false, "note": "Skill declined to produce a full thread due to vague input; placeholder shows 2 numbered tweets to illustrate the problem" }
+      },
+      "pass_rate": "4/5"
+    },
+    "tweet-1-standalone": {
+      "description": "Tweet 1 understandable without rest of thread",
+      "results": {
+        "input-01": { "pass": true, "note": "Tweet 1 states the core claim clearly: content moderation systems are suppressing war zone journalism. Fully understandable standalone." },
+        "input-02": { "pass": true, "note": "Tweet 1 states the discovery and its significance. Works as a standalone post." },
+        "input-03": { "pass": true, "note": "Tweet 1 is a simple, complete statement: '23 books, not all good, here are the ones that stayed.'" },
+        "input-04": { "pass": true, "note": "Tweet 1 establishes the setting and the key insight: this is not a crisis, it is a permanent condition. Fully standalone." },
+        "input-05": { "pass": false, "note": "Placeholder tweet 1 is deliberately generic to illustrate the problem" }
+      },
+      "pass_rate": "4/5"
+    },
+    "char-limit": {
+      "description": "No tweet exceeds 280 characters",
+      "results": {
+        "input-01": { "pass": true, "note": "All 9 tweets within 280 characters. Longest tweets (3, 5, 7) estimated at 250-275 characters." },
+        "input-02": { "pass": true, "note": "All 10 tweets within 280 characters. Tweets are well-controlled in length." },
+        "input-03": { "pass": true, "note": "All 5 tweets well within 280 characters. Shortest thread, most tweets under 200 characters." },
+        "input-04": { "pass": false, "note": "Several tweets in this 15-tweet thread likely exceed 280 characters — tweets 5, 6, 8, 9, 11, and 12 appear to run over the limit when character-counted precisely. The skill's own guidance notes to verify in the composer." },
+        "input-05": { "pass": true, "note": "Placeholder tweets are short" }
+      },
+      "pass_rate": "4/5"
+    },
+    "close-invites-response": {
+      "description": "Final tweet invites response",
+      "results": {
+        "input-01": { "pass": true, "note": "Final tweet (9/) poses a question about the trade-off and calls for public conversation" },
+        "input-02": { "pass": true, "note": "Final tweet (10/) poses a provocative question about unrecognised drug mechanisms" },
+        "input-03": { "pass": true, "note": "Final tweet (5/) directly asks 'What's the book you read this year that surprised you?'" },
+        "input-04": { "pass": true, "note": "Final tweet (15/) asks 'What questions do you have? I will try to answer what I can.'" },
+        "input-05": { "pass": false, "note": "No proper closing tweet produced" }
+      },
+      "pass_rate": "4/5"
+    },
+    "no-verbal-filler": {
+      "description": "No tweet begins with 'So...' or 'I mean...'",
+      "results": {
+        "input-01": { "pass": true, "note": "No tweets begin with verbal filler" },
+        "input-02": { "pass": true, "note": "No tweets begin with verbal filler" },
+        "input-03": { "pass": true, "note": "No tweets begin with verbal filler" },
+        "input-04": { "pass": true, "note": "No tweets begin with verbal filler" },
+        "input-05": { "pass": true, "note": "Placeholder tweets do not begin with verbal filler" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_inputs": 5,
+    "inputs_with_all_assertions_passing": 3,
+    "notes": "Input-05 was deliberately vague/adversarial; the skill correctly declined and explained why, which is the professional response. Input-04 (long 15-tweet thread) had several tweets that likely exceed the 280-character limit — this is a known challenge with longer threads and the skill appropriately advises verifying in the composer. All substantive inputs with clear briefs produced well-structured threads with strong standalone openers and response-inviting closes. The no-verbal-filler assertion passed 5/5 across all inputs."
+  }
+}

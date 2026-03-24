@@ -1,0 +1,161 @@
+{
+  "skill": "pitch-treatment-writer",
+  "eval_date": "2026-03-24",
+  "total_inputs": 5,
+  "assertions": [
+    "sections-present",
+    "word-count",
+    "present-tense",
+    "character-detail",
+    "hook-block"
+  ],
+  "results": [
+    {
+      "input_id": "input-01",
+      "input_description": "Standard documentary pitch",
+      "assertions": {
+        "sections-present": {
+          "result": "PASS",
+          "note": "All required sections present: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context."
+        },
+        "word-count": {
+          "result": "PASS",
+          "note": "Total word count approximately 810 words, within the 600-900 range."
+        },
+        "present-tense": {
+          "result": "PASS",
+          "note": "Narrative arc written in present tense throughout ('We open,' 'The film turns,' 'Margaret visits,' 'The film does not present')."
+        },
+        "character-detail": {
+          "result": "PASS",
+          "note": "Margaret has multiple concrete details: 72 years old, 28 years teaching, drives a pickup truck with 200,000 miles, files every photograph by hand, describes her project as 'accounting.' Community residents have specific details: a custodian who still mows the lawn, a clerk who recites enrollment numbers."
+        },
+        "hook-block": {
+          "result": "PASS",
+          "note": "First 150 words (Logline + Overview opening) communicate premise (retired teacher documenting abandoned schools), tone (quiet, observational), and stakes (community collapse following school closures)."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-02",
+      "input_description": "Niche technical subject",
+      "assertions": {
+        "sections-present": {
+          "result": "PASS",
+          "note": "All required sections present: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context."
+        },
+        "word-count": {
+          "result": "PASS",
+          "note": "Total word count approximately 790 words, within 600-900 range."
+        },
+        "present-tense": {
+          "result": "PASS",
+          "note": "Narrative arc in present tense ('We open,' 'the captain briefs,' 'the repair begins,' 'the cable is tested')."
+        },
+        "character-detail": {
+          "result": "PASS",
+          "note": "Captain: twenty years in cable ship operations, keeps a personal log of every mission. Lead cable engineer: over forty deep-water splices, methodical, exacting, visibly focused during splice sequence."
+        },
+        "hook-block": {
+          "result": "PASS",
+          "note": "First 150 words establish premise (99% of data travels through undersea cables; when one breaks, a ship must fix it), tone (contained, technical, human-scale), and stakes (global connectivity depends on a small crew)."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-03",
+      "input_description": "Minimal input",
+      "assertions": {
+        "sections-present": {
+          "result": "PASS",
+          "note": "All required sections present: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context. Note appended that specifics are invented."
+        },
+        "word-count": {
+          "result": "PASS",
+          "note": "Total word count approximately 650 words, within 600-900 range."
+        },
+        "present-tense": {
+          "result": "PASS",
+          "note": "Narrative arc in present tense ('We open,' 'the film tracks,' 'the season ends')."
+        },
+        "character-detail": {
+          "result": "PASS",
+          "note": "Three beekeepers each have concrete detail: retired environmental scientist who keeps data on every inspection, restaurant owner who uses honey in his kitchen, community organizer who started beekeeping as neighborhood project."
+        },
+        "hook-block": {
+          "result": "PASS",
+          "note": "First 150 words establish premise (urban beekeeping as environmental sensing), tone (observational, scientific), and stakes (what hives reveal about neighborhoods). Includes honest caveat about invented specifics."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-04",
+      "input_description": "European/international context",
+      "assertions": {
+        "sections-present": {
+          "result": "PASS",
+          "note": "All required sections present: Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now / Production Context."
+        },
+        "word-count": {
+          "result": "PASS",
+          "note": "Total word count approximately 870 words, within 600-900 range."
+        },
+        "present-tense": {
+          "result": "PASS",
+          "note": "Narrative arc in present tense throughout ('We open,' 'A family is getting children ready,' 'Letters are delivered,' 'the first demolition date arrives')."
+        },
+        "character-detail": {
+          "result": "PASS",
+          "note": "Each family has concrete personal detail. Karadimou: Maria works part-time cleaning offices, youngest child born in the building, children have never lived anywhere else. Petridis: Yiannis is a former construction worker who lost job and apartment in the same year, attends housing meetings. Osman: Fatima is of refugee background, quiet, guarded with camera, focused on stable housing for two daughters."
+        },
+        "hook-block": {
+          "result": "PASS",
+          "note": "First 150 words establish premise (families squatting since crisis now face eviction as property market recovers), tone (intimate, observational, structural), and stakes (displacement during so-called recovery)."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-05",
+      "input_description": "Vague/ambiguous input",
+      "assertions": {
+        "sections-present": {
+          "result": "PASS",
+          "note": "All section headers present (Logline, Overview, Narrative Arc, Key Subjects, Visual Approach, Why Now). Content honestly states that sections cannot be meaningfully completed without specifics."
+        },
+        "word-count": {
+          "result": "FAIL",
+          "note": "Total word count approximately 300 words of actual content. The output correctly refuses to generate a full treatment from an unusable input, but the 600-900 word target is not met. This is an appropriate failure mode — generating 600 words of fiction for a nonexistent project would be worse."
+        },
+        "present-tense": {
+          "result": "FAIL",
+          "note": "No narrative arc to evaluate. The skill correctly declined to write one."
+        },
+        "character-detail": {
+          "result": "FAIL",
+          "note": "No subjects provided in input; no character detail possible. Skill correctly flags this."
+        },
+        "hook-block": {
+          "result": "FAIL",
+          "note": "No hook block possible. The logline explicitly states it cannot be written. This is the correct response to an unusable input."
+        }
+      },
+      "pass_count": 1,
+      "fail_count": 4
+    }
+  ],
+  "summary": {
+    "total_assertions": 25,
+    "total_pass": 21,
+    "total_fail": 4,
+    "pass_rate": "84%",
+    "notes": "All 4 failures are on input-05 (vague/ambiguous input: 'A film about the environment'). The skill correctly identifies the input as unusable and declines to generate a fictional treatment. These are appropriate failure modes — the skill's behavior (flagging the problem and requesting specifics) is the correct response. On well-formed inputs (01-04), the skill achieves 100% pass rate."
+  }
+}

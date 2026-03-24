@@ -1,0 +1,66 @@
+{
+  "skill": "caption-writer",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "platform-labeled": {
+      "description": "Each caption labeled with target platform",
+      "results": {
+        "input-01": { "pass": true, "note": "Clearly labeled INSTAGRAM and LINKEDIN in bold" },
+        "input-02": { "pass": true, "note": "Clearly labeled LINKEDIN and TWITTER/X in bold" },
+        "input-03": { "pass": true, "note": "Labeled INSTAGRAM in bold" },
+        "input-04": { "pass": true, "note": "Clearly labeled INSTAGRAM, LINKEDIN, and TWITTER/X in bold" },
+        "input-05": { "pass": false, "note": "Vague input; skill correctly declined to produce full output but placeholder caption is labeled Instagram" }
+      },
+      "pass_rate": "4/5"
+    },
+    "platform-conventions": {
+      "description": "Platform-specific conventions, not same text reformatted",
+      "results": {
+        "input-01": { "pass": true, "note": "Instagram uses hook + narrative + link in bio + hashtags; LinkedIn uses professional framing, no hashtags, formal CTA" },
+        "input-02": { "pass": true, "note": "LinkedIn leads with the technical case study angle; Twitter/X is compressed to key stats and a link" },
+        "input-03": { "pass": true, "note": "Single platform, appropriately minimal for Instagram sunset content" },
+        "input-04": { "pass": true, "note": "Instagram uses emotional hook and hashtags; LinkedIn targets policy professionals; Twitter/X is compressed and urgent" },
+        "input-05": { "pass": false, "note": "Skill declined due to insufficient input; no platform-specific output to evaluate" }
+      },
+      "pass_rate": "4/5"
+    },
+    "no-generic-filler": {
+      "description": "No 'check this out', 'so excited to share', etc.",
+      "results": {
+        "input-01": { "pass": true, "note": "No filler phrases detected" },
+        "input-02": { "pass": true, "note": "No filler phrases detected" },
+        "input-03": { "pass": true, "note": "Minimal but no filler" },
+        "input-04": { "pass": true, "note": "No filler phrases detected" },
+        "input-05": { "pass": true, "note": "Placeholder deliberately demonstrates the problem of generic output; skill flags it as inadequate" }
+      },
+      "pass_rate": "5/5"
+    },
+    "hook-first-line": {
+      "description": "Opening line works as standalone hook",
+      "results": {
+        "input-01": { "pass": true, "note": "Instagram: 'Delivery riders in three cities are earning below minimum wage.' — clear, specific, stops scrolling. LinkedIn: leads with investigation framing." },
+        "input-02": { "pass": true, "note": "LinkedIn: 'A 2,000-year-old ceramic vessel — too fragile to handle, too important to leave undocumented.' — strong contrast hook. Twitter/X: same vessel hook compressed." },
+        "input-03": { "pass": true, "note": "'End of the day. No filter needed.' — minimal but functional for sunset content" },
+        "input-04": { "pass": true, "note": "Instagram: 'Three families. Two years in hotel rooms. No end date.' — strong rhythmic hook with specifics" },
+        "input-05": { "pass": false, "note": "Placeholder hook is deliberately generic to illustrate the problem" }
+      },
+      "pass_rate": "4/5"
+    },
+    "hashtags-relevant": {
+      "description": "Hashtags topically relevant",
+      "results": {
+        "input-01": { "pass": true, "note": "All 8 hashtags directly related to gig economy, labor rights, investigative journalism — no reach-padding" },
+        "input-02": { "pass": true, "note": "No hashtags used (LinkedIn and Twitter/X) — appropriate platform convention" },
+        "input-03": { "pass": true, "note": "5 hashtags all directly related to sunset/nature photography — minimal and relevant" },
+        "input-04": { "pass": true, "note": "9 hashtags covering housing, Dublin, documentary podcast — all topically relevant" },
+        "input-05": { "pass": false, "note": "No hashtags produced due to insufficient input" }
+      },
+      "pass_rate": "4/5"
+    }
+  },
+  "summary": {
+    "total_inputs": 5,
+    "inputs_with_all_assertions_passing": 4,
+    "notes": "Input-05 was deliberately vague/adversarial. The skill correctly identified insufficient input and declined to produce full output, which is the appropriate professional response. All 4 substantive inputs passed all 5 assertions. The skill handles multi-platform, single-platform, minimal-but-valid, and international contexts effectively."
+  }
+}

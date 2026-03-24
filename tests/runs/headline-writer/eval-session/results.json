@@ -1,0 +1,161 @@
+{
+  "skill": "headline-writer",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    "variant-count",
+    "char-counts",
+    "distinct-purpose",
+    "editorial-first",
+    "accuracy"
+  ],
+  "results": [
+    {
+      "input_id": "input-01",
+      "description": "Standard news story (Semiconductor plant closure)",
+      "grades": {
+        "variant-count": {
+          "pass": true,
+          "note": "Exactly 5 headline variants provided."
+        },
+        "char-counts": {
+          "pass": true,
+          "note": "Character count shown in parentheses after each headline. Counts verified as accurate."
+        },
+        "distinct-purpose": {
+          "pass": true,
+          "note": "Five distinct purposes: news/print precise, SEO web, context/cause, feature/impact, social/emotional. Each serves a clearly different editorial function."
+        },
+        "editorial-first": {
+          "pass": true,
+          "note": "Most editorially rigorous (news print, factual precision) listed first. Engagement-optimised (mayor's quote, social hook) listed last."
+        },
+        "accuracy": {
+          "pass": true,
+          "note": "All five headlines accurately reflect the story. Job count (2,300), plant age (28 years), mayor's quote, and energy cost cause are all correctly represented."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-02",
+      "description": "Niche technical topic (AI genetic diagnosis)",
+      "grades": {
+        "variant-count": {
+          "pass": true,
+          "note": "Exactly 5 headline variants provided."
+        },
+        "char-counts": {
+          "pass": true,
+          "note": "Character count shown in parentheses after each headline."
+        },
+        "distinct-purpose": {
+          "pass": true,
+          "note": "Five distinct purposes: trade press precision, SEO (outperform angle), nuanced comparison, feature/implication, social provocation. Each addresses a different editorial need."
+        },
+        "editorial-first": {
+          "pass": true,
+          "note": "Most editorially precise (accuracy figure with attribution) listed first. Social/provocative listed last."
+        },
+        "accuracy": {
+          "pass": true,
+          "note": "All headlines accurately reflect the study findings. The 87% figure, the comparison to non-specialist physicians, and the caveat about specialists (94%) are correctly represented where included."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-03",
+      "description": "Minimal input (Park renovation)",
+      "grades": {
+        "variant-count": {
+          "pass": true,
+          "note": "Exactly 5 headline variants provided."
+        },
+        "char-counts": {
+          "pass": true,
+          "note": "Character count shown in parentheses after each headline."
+        },
+        "distinct-purpose": {
+          "pass": true,
+          "note": "Five purposes attempted: news precise, SEO, resident-focused, feature forward-looking, social conversational. Differentiation is limited by sparse input but each variant takes a distinct approach."
+        },
+        "editorial-first": {
+          "pass": true,
+          "note": "Most editorially precise (simple factual statement) listed first. Social/conversational listed last."
+        },
+        "accuracy": {
+          "pass": true,
+          "note": "All headlines accurately reflect the (limited) story. None overstate the facts or add information not in the input. The skill appropriately flags that all are generic due to insufficient input."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-04",
+      "description": "European/international context (Sweden screen time)",
+      "grades": {
+        "variant-count": {
+          "pass": true,
+          "note": "Exactly 5 headline variants provided."
+        },
+        "char-counts": {
+          "pass": true,
+          "note": "Character count shown in parentheses after each headline."
+        },
+        "distinct-purpose": {
+          "pass": true,
+          "note": "Five distinct purposes: broadsheet news, SEO web, evidence-based detail, feature/wider trend, social/shareable list format. Clear differentiation across all five."
+        },
+        "editorial-first": {
+          "pass": true,
+          "note": "Most editorially precise (broadsheet, factual, 'world first') listed first. Social/list format listed last."
+        },
+        "accuracy": {
+          "pass": true,
+          "note": "All headlines accurately reflect the story. 'World first' claim, age thresholds, study of 15,000 children, and European follow-on are all correctly represented."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-05",
+      "description": "Vague/ambiguous input (Something happened at a meeting)",
+      "grades": {
+        "variant-count": {
+          "pass": true,
+          "note": "Exactly 5 headline variants provided."
+        },
+        "char-counts": {
+          "pass": true,
+          "note": "Character count shown in parentheses after each headline."
+        },
+        "distinct-purpose": {
+          "pass": true,
+          "note": "Five attempts at distinct purposes despite near-zero input. The skill correctly flags that none are publishable."
+        },
+        "editorial-first": {
+          "pass": true,
+          "note": "Most editorially precise (bare factual statement) listed first."
+        },
+        "accuracy": {
+          "pass": true,
+          "note": "No headline overstates or fabricates facts. The skill refuses to invent information not in the input, which is the correct editorial response."
+        }
+      },
+      "all_passed": true
+    }
+  ],
+  "summary": {
+    "total_inputs": 5,
+    "all_passed": 5,
+    "some_failed": 0,
+    "assertion_pass_rates": {
+      "variant-count": "5/5",
+      "char-counts": "5/5",
+      "distinct-purpose": "5/5",
+      "editorial-first": "5/5",
+      "accuracy": "5/5"
+    },
+    "notes": "All five inputs passed all assertions. The skill handled minimal and vague inputs (03, 05) by producing structurally correct output while honestly flagging that the results are not publishable without additional facts."
+  }
+}

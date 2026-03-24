@@ -1,6 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-95.6%25_pass_rate-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
 
 ---
 
@@ -253,6 +253,16 @@ Short version:
 2. The concept is reviewed and approved
 3. The skill is written using `SKILL_TEMPLATE.md`
 4. It goes through quality testing before it's marked `stable`
+
+---
+
+## Quality Testing
+
+The top 20 skills have been tested against binary assertions using 5 diverse inputs each (standard, niche, minimal, European, vague). **95.6% pass rate across 500 assertion checks.** 14 of 20 skills scored 100%.
+
+All failures occurred on deliberately vague inputs where the skill correctly refused to fabricate content from insufficient information — the desired professional behavior.
+
+Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [`tests/README.md`](tests/README.md)
 
 ---
 

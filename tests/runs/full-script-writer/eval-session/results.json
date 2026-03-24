@@ -1,0 +1,69 @@
+{
+  "skill": "full-script-writer",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "word-count-header": {
+      "description": "Begins with word count and estimated runtime",
+      "results": {
+        "input-01": { "pass": true, "note": "Opens with '*Approximate word count: 1,500 words / estimated runtime: 11 minutes*'" },
+        "input-02": { "pass": true, "note": "Opens with '*Approximate word count: 2,050 words / estimated runtime: 15 minutes*'" },
+        "input-03": { "pass": true, "note": "Opens with '*Approximate word count: 1,100 words / estimated runtime: 8 minutes*'" },
+        "input-04": { "pass": true, "note": "Opens with '*Approximate word count: 1,650 words / estimated runtime: 12 minutes*'" },
+        "input-05": { "pass": true, "note": "Opens with '*Approximate word count: 1,350 words / estimated runtime: 10 minutes*'" }
+      },
+      "pass_rate": "5/5"
+    },
+    "hook-present": {
+      "description": "Opens with labeled hook section (first 30s)",
+      "results": {
+        "input-01": { "pass": true, "note": "Labeled '**[HOOK — first 30 seconds]**' — self-contained opening hook about diet failure cycle" },
+        "input-02": { "pass": true, "note": "Labeled '**[HOOK — first 30 seconds]**' — opens with misleading headline angle" },
+        "input-03": { "pass": true, "note": "Labeled '**[HOOK — first 30 seconds]**' — casual, direct opening addressing the real problem" },
+        "input-04": { "pass": true, "note": "Labeled '**[HOOK — first 30 seconds]**' — sets up Portugal's 2012 economic context" },
+        "input-05": { "pass": true, "note": "Labeled '**[HOOK — first 30 seconds]**' — reflective, personal opening about lessons learned late" }
+      },
+      "pass_rate": "5/5"
+    },
+    "sections-labeled": {
+      "description": "Bold headers matching input talking points",
+      "results": {
+        "input-01": { "pass": true, "note": "Headers: 'The Willpower Myth', 'What Metabolic Adaptation Actually Is', 'Why Your Body Fights Weight Loss', 'Three Evidence-Based Strategies That Work With Your Metabolism', 'Why Consistency Matters More Than Perfection' — all match input talking points" },
+        "input-02": { "pass": true, "note": "Headers match all 5 talking points: microplastics origins, blood-brain barrier study, what we know vs don't, misleading media coverage, what you can do" },
+        "input-03": { "pass": true, "note": "Headers: 'Why People Don't Read', 'Simple Habits That Actually Work', 'What to Read' — match all 3 input talking points" },
+        "input-04": { "pass": true, "note": "Headers match all 5 talking points: Golden Visa programme, Lisbon property prices, displacement of renters, 2023 policy reversal, lessons for Europe" },
+        "input-05": { "pass": true, "note": "Headers for each life lesson section: 'Most Opinions Do Not Matter', 'Your Energy Is More Valuable Than Your Time', etc. — expands vague 'life lessons' input into specific sections" }
+      },
+      "pass_rate": "5/5"
+    },
+    "direction-cues": {
+      "description": "[square bracket] direction notes at least twice",
+      "results": {
+        "input-01": { "pass": true, "note": "Direction cues: [cut to study graphic or text on screen], [beat — let the audience absorb], [on screen: graphic showing diet break cycle], [look directly at camera] — 4 cues" },
+        "input-02": { "pass": true, "note": "Direction cues: [cut to b-roll], [beat], [on screen: two-column comparison], [look at camera], [cut to simple graphic] — 5 cues" },
+        "input-03": { "pass": true, "note": "Direction cues: [look at camera, casual], [on screen: '15 min/day = ~20 books/year'], [beat] — 3 cues" },
+        "input-04": { "pass": true, "note": "Direction cues: [cut to archival], [on screen: graph], [beat], [cut to news footage], [on screen: text] — 5 cues" },
+        "input-05": { "pass": true, "note": "Direction cues: [beat], [look at camera], [on screen: 'Everyone is making it up.'], [beat], [look at camera], [beat] — 6 cues" }
+      },
+      "pass_rate": "5/5"
+    },
+    "cta-included": {
+      "description": "Ends with specific CTA in outro",
+      "results": {
+        "input-01": { "pass": true, "note": "CTA: 'share this video with them' — matches requested CTA 'Share this with someone who needs to hear it'" },
+        "input-02": { "pass": true, "note": "CTA: 'drop them in the comments. I will read everything and use them to shape the next video' — matches requested CTA about comment questions for follow-up" },
+        "input-03": { "pass": true, "note": "CTA: 'let me know what you are reading right now in the comments' — specific comment prompt (no explicit CTA was requested, skill generated an appropriate one)" },
+        "input-04": { "pass": true, "note": "CTA: 'subscribe. I cover these stories because the patterns repeat across borders' — matches requested CTA 'Subscribe for more European housing stories'" },
+        "input-05": { "pass": true, "note": "CTA: 'let me know in the comments which one you needed to hear today' — specific comment prompt (no explicit CTA was requested, skill generated an appropriate one)" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "100%",
+    "notes": "All 5 outputs demonstrate consistent structure: word count header, labeled hook, bold section headers matching talking points, multiple direction cues in square brackets, and specific CTAs in the outro. Vague inputs (03, 05) were handled well — the skill expanded minimal talking points into full sections and generated appropriate CTAs when none were specified."
+  }
+}

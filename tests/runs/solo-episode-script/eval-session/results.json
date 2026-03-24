@@ -1,0 +1,69 @@
+{
+  "skill": "solo-episode-script",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "time-labels": {
+      "description": "Sections labeled with time estimates",
+      "results": {
+        "input-01": { "pass": true, "note": "All sections labeled: [00:00-01:30] HOOK, [01:30-04:30] CONTEXT, [04:30-08:00] SEGMENT ONE, [08:00-11:30] SEGMENT TWO, [11:30-13:30] SEGMENT THREE, [13:30-15:00] CLOSE" },
+        "input-02": { "pass": true, "note": "All sections labeled with time estimates: [00:00-02:00] through [23:30-25:00]" },
+        "input-03": { "pass": true, "note": "All sections labeled: [00:00-01:00] through [08:30-10:00]" },
+        "input-04": { "pass": true, "note": "All sections labeled: [00:00-01:45] through [17:30-20:00]" },
+        "input-05": { "pass": true, "note": "All sections labeled: [00:00-01:15] through [10:30-12:00]" }
+      },
+      "pass_rate": "5/5"
+    },
+    "hook-opening": {
+      "description": "Opens with curiosity/emotional hook in first 3 sentences",
+      "results": {
+        "input-01": { "pass": true, "note": "Opens with relatable personal anecdote about gym membership — creates immediate recognition and emotional hook" },
+        "input-02": { "pass": true, "note": "Opens with 'Pull up a world map' direct engagement, then reveals Greenland vs Africa distortion — striking factual hook" },
+        "input-03": { "pass": true, "note": "Opens with 'Right now, there is something you're supposed to be doing that you're not doing' — directly addresses listener, creates guilty recognition" },
+        "input-04": { "pass": true, "note": "Opens with the paradox that Finnish people say they're not that happy despite ranking #1 — curiosity-driven hook" },
+        "input-05": { "pass": true, "note": "Opens with the two-trillion-dollar industry figure, then pivots to 'what does wellness actually mean?' — curiosity hook" }
+      },
+      "pass_rate": "5/5"
+    },
+    "production-notes": {
+      "description": "[square bracket] notes throughout",
+      "results": {
+        "input-01": { "pass": true, "note": "Multiple production notes: [PAUSE], [SLOW DOWN HERE], [THIS IS YOUR BEAT], [INSERT EPISODE NOTES LINK], [PAUSE — let that land]" },
+        "input-02": { "pass": true, "note": "Multiple notes: [PAUSE], [SLOW DOWN HERE], [SLIGHT SMILE IN VOICE HERE], [PAUSE — let them feel caught]" },
+        "input-03": { "pass": true, "note": "Multiple notes: [PAUSE — let them feel caught], [PAUSE], [SLOW DOWN]" },
+        "input-04": { "pass": true, "note": "Multiple notes: [PAUSE], [SLOW DOWN], [SLOW DOWN — this is the key point]" },
+        "input-05": { "pass": true, "note": "Multiple notes: [PAUSE], [SLOW DOWN], [SLOW DOWN — this is the core point]" }
+      },
+      "pass_rate": "5/5"
+    },
+    "spoken-prose": {
+      "description": "Continuous spoken prose, no bullet points in body",
+      "results": {
+        "input-01": { "pass": true, "note": "Entire body is continuous spoken prose; numbered points in segment two are spoken naturally ('Number one... Number two... Number three'), not formatted as bullet lists" },
+        "input-02": { "pass": true, "note": "Full continuous prose throughout, no bullet points" },
+        "input-03": { "pass": true, "note": "Full continuous prose, practical advice woven into spoken paragraphs" },
+        "input-04": { "pass": true, "note": "Full continuous prose throughout, no bullet points" },
+        "input-05": { "pass": true, "note": "Full continuous prose, evidence-based points delivered as spoken text" }
+      },
+      "pass_rate": "5/5"
+    },
+    "word-count-calibrated": {
+      "description": "Calibrated to duration at 130-150 wpm",
+      "results": {
+        "input-01": { "pass": true, "note": "~2,080 words for 15 minutes = ~139 wpm, within 130-150 range" },
+        "input-02": { "pass": true, "note": "~3,480 words for 25 minutes = ~139 wpm, within 130-150 range" },
+        "input-03": { "pass": true, "note": "~1,380 words for 10 minutes = ~138 wpm, within 130-150 range" },
+        "input-04": { "pass": true, "note": "~2,820 words for 20 minutes = ~141 wpm, within 130-150 range" },
+        "input-05": { "pass": true, "note": "~1,690 words for 12 minutes = ~141 wpm, within 130-150 range" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_inputs": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "25/25 (100%)"
+  }
+}

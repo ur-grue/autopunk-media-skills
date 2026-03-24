@@ -1,0 +1,66 @@
+{
+  "skill": "cinematic-shot-prompt",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "copy-paste-ready": {
+      "description": "Complete Midjourney prompt as single paragraph",
+      "results": {
+        "input-01": { "pass": true, "note": "Single paragraph prompt ending with --ar 2.39:1 --v 6 --s 300 --c 5. Copy-paste ready." },
+        "input-02": { "pass": true, "note": "Single paragraph prompt ending with --ar 16:9 --v 6 --s 350 --c 10. Copy-paste ready." },
+        "input-03": { "pass": true, "note": "Single paragraph prompt ending with --ar 3:2 --v 6 --s 200 --c 5. Copy-paste ready." },
+        "input-04": { "pass": true, "note": "Single paragraph prompt ending with --ar 2.39:1 --v 6 --s 250 --c 5. Copy-paste ready." },
+        "input-05": { "pass": true, "note": "Single paragraph prompt ending with --ar 16:9 --v 6 --s 300 --c 15. Copy-paste ready." }
+      },
+      "pass_rate": "5/5"
+    },
+    "technical-params": {
+      "description": "Includes --ar, --v, --s, --c or similar",
+      "results": {
+        "input-01": { "pass": true, "note": "Includes --ar 2.39:1 --v 6 --s 300 --c 5" },
+        "input-02": { "pass": true, "note": "Includes --ar 16:9 --v 6 --s 350 --c 10" },
+        "input-03": { "pass": true, "note": "Includes --ar 3:2 --v 6 --s 200 --c 5" },
+        "input-04": { "pass": true, "note": "Includes --ar 2.39:1 --v 6 --s 250 --c 5" },
+        "input-05": { "pass": true, "note": "Includes --ar 16:9 --v 6 --s 300 --c 15" }
+      },
+      "pass_rate": "5/5"
+    },
+    "cinematographic-lighting": {
+      "description": "Lighting in cinematographic terms",
+      "results": {
+        "input-01": { "pass": true, "note": "Uses 'warm amber practical light from fluorescent tubes', 'cold blue-green neon glow', 'Robby Muller naturalistic lighting' — specific film industry terms" },
+        "input-02": { "pass": true, "note": "Uses 'golden hour side-light raking across the terraces', 'long angular shadows' — directional lighting described in cinematographic terms" },
+        "input-03": { "pass": true, "note": "Uses 'soft overcast light diffused through the canopy', 'volumetric god rays', 'Emmanuel Lubezki natural light cinematography'" },
+        "input-04": { "pass": true, "note": "Uses 'pre-dawn diffused light', 'cold grey-blue ambient', 'faintest warm tone where the eastern horizon bleeds through the fog' — precise atmospheric lighting" },
+        "input-05": { "pass": true, "note": "Uses 'neon signage in cyan and magenta', 'sodium vapour streetlights casting amber pools', 'cold blue LED', 'Dion Beebe digital night cinematography'" }
+      },
+      "pass_rate": "5/5"
+    },
+    "prompt-breakdown": {
+      "description": "3-5 bullet breakdown after prompt",
+      "results": {
+        "input-01": { "pass": true, "note": "5 bullet breakdown covering shot type, lighting, colour grade, film grain, and stylisation parameter" },
+        "input-02": { "pass": true, "note": "5 bullet breakdown covering shot type, lighting, colour grade, tone, and Midjourney parameters" },
+        "input-03": { "pass": true, "note": "4 bullet breakdown covering shot type, lighting, colour grade, and reference" },
+        "input-04": { "pass": true, "note": "5 bullet breakdown covering shot type, lighting, colour, atmospheric haze, and mood" },
+        "input-05": { "pass": true, "note": "5 bullet breakdown covering shot type, lighting, colour grade, wet streets technique, and chaos parameter" }
+      },
+      "pass_rate": "5/5"
+    },
+    "no-generic-descriptors": {
+      "description": "No 'beautiful', 'stunning', 'amazing'",
+      "results": {
+        "input-01": { "pass": true, "note": "No generic descriptors found. All descriptors are specific: 'worn formica', 'cold blue-green', 'faded warm highlights'" },
+        "input-02": { "pass": true, "note": "No generic descriptors found. Uses 'rust-red and ochre rock', 'pale mineral deposits', 'low-contrast colour grade'" },
+        "input-03": { "pass": true, "note": "No generic descriptors found. Uses 'diffused morning light', 'cool green-dominated palette', 'meditative stillness'" },
+        "input-04": { "pass": true, "note": "No generic descriptors found. Uses 'cold grey-blue ambient', 'muted greens, stone greys', 'quiet endurance'" },
+        "input-05": { "pass": true, "note": "No generic descriptors found. Uses 'crushed blacks', 'saturated neon reflections on wet asphalt', 'nocturnal detachment'" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_inputs": 5,
+    "inputs_with_all_assertions_passing": 5,
+    "notes": "All 5 inputs — including the minimal ('a forest, peaceful') and vague ('a city at night, cool') inputs — passed all 5 assertions. The skill successfully translates even sparse descriptions into fully specified cinematographic prompts with appropriate references, technical parameters, and detailed breakdowns. Every prompt includes variant options and actionable next steps. The cinematic-shot-prompt skill demonstrates the strongest performance of the three skills evaluated in this session, with 25/25 assertion passes."
+  }
+}

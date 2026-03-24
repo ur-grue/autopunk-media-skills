@@ -1,0 +1,70 @@
+{
+  "skill": "ad-read-script",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "placement-versions": {
+      "description": "Up to 3 versions by placement (pre/mid/post-roll)",
+      "results": {
+        "input-01": { "pass": true, "note": "Mid-roll version as requested by input" },
+        "input-02": { "pass": true, "note": "Pre-roll and mid-roll versions as requested by input" },
+        "input-03": { "pass": true, "note": "Pre-roll version as requested by input" },
+        "input-04": { "pass": true, "note": "Mid-roll version as requested by input" },
+        "input-05": { "pass": true, "note": "Mid-roll version as requested by input; noted insufficient detail for additional versions" }
+      },
+      "pass_rate": "5/5"
+    },
+    "word-count-labeled": {
+      "description": "Each version shows word count and duration",
+      "results": {
+        "input-01": { "pass": true, "note": "Labeled: MID-ROLL VERSION (~60 sec / ~145 words)" },
+        "input-02": { "pass": true, "note": "Labeled: PRE-ROLL VERSION (~30 sec / ~80 words) and MID-ROLL VERSION (~60 sec / ~150 words)" },
+        "input-03": { "pass": true, "note": "Labeled: PRE-ROLL VERSION (~30 sec / ~75 words)" },
+        "input-04": { "pass": true, "note": "Labeled: MID-ROLL VERSION (~60 sec / ~150 words)" },
+        "input-05": { "pass": true, "note": "Labeled: MID-ROLL VERSION (~60 sec / ~140 words)" }
+      },
+      "pass_rate": "5/5"
+    },
+    "promo-code": {
+      "description": "Promo code/CTA from input appears clearly",
+      "results": {
+        "input-01": { "pass": true, "note": "Code DEEPWORK and URL fieldnote.app/podcast appear clearly, repeated once at end" },
+        "input-02": { "pass": true, "note": "Code FIELDWORK and URL spectralab.com appear clearly in both versions" },
+        "input-03": { "pass": true, "note": "Code MORNING appears clearly" },
+        "input-04": { "pass": true, "note": "Code CONTINENT and URL babbel.com/continent appear clearly" },
+        "input-05": { "pass": false, "note": "Input only said 'Try it free' with no specific code or URL; output uses placeholders [URL] — appropriate given vague input but technically no promo code appears" }
+      },
+      "pass_rate": "4/5"
+    },
+    "host-voice": {
+      "description": "Sounds like host speaking naturally",
+      "results": {
+        "input-01": { "pass": true, "note": "Direct, practical, no-hype tone matches 'direct, practical, no hype' brief; natural sentence rhythm throughout" },
+        "input-02": { "pass": true, "note": "Enthusiastic but technically credible tone; uses field geology language naturally" },
+        "input-03": { "pass": true, "note": "Warm morning energy; conversational despite minimal input — defaults to friendly morning tone" },
+        "input-04": { "pass": true, "note": "Journalistic, slightly wry tone; 'full disclosure' and 'Not perfectly. But usably.' match the brief" },
+        "input-05": { "pass": false, "note": "Insufficient input to establish host voice; output is generic placeholder — appropriately so, but cannot be evaluated as matching host voice" }
+      },
+      "pass_rate": "4/5"
+    },
+    "transition-written": {
+      "description": "Transition in/out written explicitly",
+      "results": {
+        "input-01": { "pass": true, "note": "Transition in: 'Let me take a quick break to talk about Fieldnote'; Transition out: 'Okay — back to it.'" },
+        "input-02": { "pass": true, "note": "Pre-roll: 'Before we get into it'; Mid-roll transition in: 'Quick pause to tell you about SpectraLab'; transition out: 'Alright — let's get back to the outcrop.'" },
+        "input-03": { "pass": true, "note": "Pre-roll transition: 'Good morning — before we get started, a quick word about today's sponsor'" },
+        "input-04": { "pass": true, "note": "Transition in: 'We'll get back to that. First — a word from Babbel'; Transition out: 'Right — back to Brussels.'" },
+        "input-05": { "pass": true, "note": "Transition in: 'Quick break to tell you about [Brand Name]'; Transition out: 'Okay — back to the show.'" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_inputs": 5,
+    "total_checks": 25,
+    "total_passed": 23,
+    "total_failed": 2,
+    "overall_pass_rate": "23/25 (92%)",
+    "notes": "Two failures on input-05 (vague/ambiguous input) are expected: the input provided no brand name, no product details, no promo code, and no show description. The skill correctly responded with a structural template and flagged the missing information. The failures reflect input insufficiency rather than skill deficiency."
+  }
+}

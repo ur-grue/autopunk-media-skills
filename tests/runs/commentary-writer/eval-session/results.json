@@ -1,0 +1,160 @@
+{
+  "skill": "commentary-writer",
+  "eval_date": "2026-03-24",
+  "total_inputs": 5,
+  "assertions": [
+    "no-picture-description",
+    "blocks-labeled",
+    "word-count-per-block",
+    "commentary-notes",
+    "sentence-rhythm"
+  ],
+  "results": [
+    {
+      "input_id": "input-01",
+      "input_description": "Standard documentary sequence",
+      "assertions": {
+        "no-picture-description": {
+          "result": "PASS",
+          "note": "Narration adds context not visible in the picture: shop's 34-year history, last independent in county, chain closures. Does not describe the facade, shelving, or reading — all visible on screen."
+        },
+        "blocks-labeled": {
+          "result": "PASS",
+          "note": "Each block labeled with screen position: 'Over the high street wide shot,' 'Over the customer interaction,' 'Over the closing shot.'"
+        },
+        "word-count-per-block": {
+          "result": "PASS",
+          "note": "Word count noted per block: ~38, ~23, ~36 words. Total noted at top: 97 words."
+        },
+        "commentary-notes": {
+          "result": "PASS",
+          "note": "Commentary Notes section present with three specific observations: hands close-up works better without narration, customer interaction has natural sound considerations, final shot can carry more or less narration."
+        },
+        "sentence-rhythm": {
+          "result": "PASS",
+          "note": "All sentences are short and suitable for spoken delivery. Longest sentence is approximately 23 words ('The shop is the last independent bookshop in the county — the three chain stores in nearby towns all closed between 2018 and 2022') with a natural break at the dash."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-02",
+      "input_description": "Niche technical topic",
+      "assertions": {
+        "no-picture-description": {
+          "result": "PASS",
+          "note": "Narration adds factual context: what nodules contain, formation time, ISA contract data, sediment travel distance, remoteness of operations. Does not describe the visual content (nodule field appearance, arm movement, plume rising, operators watching screens)."
+        },
+        "blocks-labeled": {
+          "result": "PASS",
+          "note": "Each block labeled: 'Over the nodule field,' 'Over the collector arm descent,' 'Over the sediment plume,' 'Over the control room.'"
+        },
+        "word-count-per-block": {
+          "result": "PASS",
+          "note": "Word count noted per block: ~27, ~27, ~37, ~27 words. Total noted at top: 118 words."
+        },
+        "commentary-notes": {
+          "result": "PASS",
+          "note": "Commentary Notes section with three specific observations: slow pan should be held for silence, sediment plume narration includes one editorial sentence that could be cut, control room block may overlap with operator dialogue."
+        },
+        "sentence-rhythm": {
+          "result": "PASS",
+          "note": "All sentences within 25-word limit or have natural internal breaks. Longest sentence ('Environmental assessments show that the sediment disturbed during collection can travel four to five kilometers from the site') is 19 words."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-03",
+      "input_description": "Minimal input",
+      "assertions": {
+        "no-picture-description": {
+          "result": "PASS",
+          "note": "Narration does not describe people buying vegetables or the market scene. Adds context about routines, seasons, and transactions — though this is generic due to lack of research notes."
+        },
+        "blocks-labeled": {
+          "result": "PASS",
+          "note": "Block labeled: 'Over the market activity.'"
+        },
+        "word-count-per-block": {
+          "result": "PASS",
+          "note": "Word count noted: ~48 words. Total noted at top: 48 words."
+        },
+        "commentary-notes": {
+          "result": "PASS",
+          "note": "Commentary Notes section present with two observations: narration is placeholder without research context, natural sound may work better than commentary."
+        },
+        "sentence-rhythm": {
+          "result": "PASS",
+          "note": "All sentences short and deliverable. Longest sentence is approximately 22 words with a natural break at the dash."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-04",
+      "input_description": "European/international context",
+      "assertions": {
+        "no-picture-description": {
+          "result": "PASS",
+          "note": "Narration adds historical and statistical context: mine name, closure date, 1950s peak employment, decline timeline, unemployment rates, wage replacement failure. Does not describe the aerial view, workers emerging, the face, locker room activity, or conveyor belt appearance."
+        },
+        "blocks-labeled": {
+          "result": "PASS",
+          "note": "Each block labeled: 'Over the aerial shot,' 'Over the shift change,' 'Over the locker room,' 'Over the conveyor belt.'"
+        },
+        "word-count-per-block": {
+          "result": "PASS",
+          "note": "Word count noted per block: ~35, ~32, ~29, ~22 words. Total noted at top: 128 words."
+        },
+        "commentary-notes": {
+          "result": "PASS",
+          "note": "Commentary Notes section with four detailed observations: miner's face should be held in silence, locker room has natural sound potential, conveyor belt image could work without narration, voice register avoids nostalgia deliberately with guidance on where warmth could be added."
+        },
+        "sentence-rhythm": {
+          "result": "PASS",
+          "note": "All sentences within limits. Longest sentence ('The decline was not sudden — it took decades, managed through retraining programs, early retirements, and a regional transition strategy that lasted thirty years') has a natural break at the dash. No run-on sentences."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-05",
+      "input_description": "Vague/ambiguous input",
+      "assertions": {
+        "no-picture-description": {
+          "result": "PASS",
+          "note": "Narration deliberately does not describe trees or a river. Instead, it meta-comments on the absence of factual context — an appropriate response to an unusable input."
+        },
+        "blocks-labeled": {
+          "result": "PASS",
+          "note": "Blocks labeled: 'Over the trees,' 'Over the river.'"
+        },
+        "word-count-per-block": {
+          "result": "PASS",
+          "note": "Word count noted per block: ~37, ~35 words. Total noted at top: 72 words."
+        },
+        "commentary-notes": {
+          "result": "PASS",
+          "note": "Commentary Notes present with two observations: entire sequence is a silence candidate, narration over nature footage only works when it introduces information needed for the next scene."
+        },
+        "sentence-rhythm": {
+          "result": "PASS",
+          "note": "All sentences within 25-word limit. Longest is approximately 23 words with a natural break at the dash."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    }
+  ],
+  "summary": {
+    "total_assertions": 25,
+    "total_pass": 25,
+    "total_fail": 0,
+    "pass_rate": "100%"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "skill": "story-angle-finder",
+  "eval_date": "2026-03-24",
+  "inputs_file": "tests/inputs/story-angle-finder.json",
+  "results": [
+    {
+      "input_id": "input-01",
+      "description": "Standard broad topic — Four-day work week",
+      "assertions": {
+        "angle-count": {
+          "result": "PASS",
+          "note": "7 numbered angle briefs. Within the 6-8 range."
+        },
+        "pitch-line": {
+          "result": "PASS",
+          "note": "All 7 angles include a one-sentence Pitch Line, formatted consistently and specific enough to stand alone in a pitch email."
+        },
+        "reporting-approach": {
+          "result": "PASS",
+          "note": "All 7 angles include concrete reporting approaches: identifying companies that reversed course, labour market data, time-diary methodology, client retention scores, longitudinal Icelandic data, childcare demand patterns, methodology analysis. None default to 'interview experts.'"
+        },
+        "counterintuitive": {
+          "result": "PASS",
+          "note": "Angles 2 (inequality engine) and 7 (measurement trap) are explicitly counterintuitive. Angle 2 challenges the assumption that the four-day week is universally beneficial. Angle 7 challenges the positive trial results themselves."
+        },
+        "time-sensitivity": {
+          "result": "PASS",
+          "note": "All 7 angles are marked either Evergreen or Time-sensitive. Angle 5 is marked time-sensitive with conditions; all others are marked evergreen."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-02",
+      "description": "Niche technical topic — AI synthetic data in clinical trials",
+      "assertions": {
+        "angle-count": {
+          "result": "PASS",
+          "note": "7 numbered angle briefs. Within the 6-8 range."
+        },
+        "pitch-line": {
+          "result": "PASS",
+          "note": "All 7 angles include a one-sentence Pitch Line, each specific and publication-ready."
+        },
+        "reporting-approach": {
+          "result": "PASS",
+          "note": "All 7 angles include concrete reporting approaches: obtaining published trial data, FOI requests for regulatory meeting minutes, demographic analysis of synthetic datasets, bioethics expert interviews, investor/funding data tracking. No generic 'interview experts' approaches."
+        },
+        "counterintuitive": {
+          "result": "PASS",
+          "note": "Angle 4 (bias machine) is explicitly counterintuitive — it challenges the assumption that synthetic data improves diversity. Angle 7 (statistician's revolt) is contrarian."
+        },
+        "time-sensitivity": {
+          "result": "PASS",
+          "note": "All 7 angles marked with timeframe. Angles 1, 3, and 6 are time-sensitive; angles 2, 4, 5, and 7 are evergreen."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-03",
+      "description": "Minimal input — Housing",
+      "assertions": {
+        "angle-count": {
+          "result": "PASS",
+          "note": "6 numbered angle briefs. Within the 6-8 range."
+        },
+        "pitch-line": {
+          "result": "PASS",
+          "note": "All 6 angles include a one-sentence Pitch Line."
+        },
+        "reporting-approach": {
+          "result": "PASS",
+          "note": "All 6 angles include concrete reporting approaches: identifying dominant rental pricing platforms, zoning data from metro areas, mortgage affordability data over 30 years, demographic data on over-65 homeowners, insurance non-renewal data, attending zoning meetings. All are specific and actionable."
+        },
+        "counterintuitive": {
+          "result": "PASS",
+          "note": "Angle 4 (retirement trap) is explicitly marked as counterintuitive — equity-rich homeowners who cannot afford to move."
+        },
+        "time-sensitivity": {
+          "result": "PASS",
+          "note": "All 6 angles marked with timeframe. Angles 1 and 5 are time-sensitive; angles 2, 3, 4, and 6 are evergreen."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-04",
+      "description": "European/international context — Padel tennis",
+      "assertions": {
+        "angle-count": {
+          "result": "PASS",
+          "note": "7 numbered angle briefs. Within the 6-8 range."
+        },
+        "pitch-line": {
+          "result": "PASS",
+          "note": "All 7 angles include a one-sentence Pitch Line, each specific and calibrated for a European business magazine audience."
+        },
+        "reporting-approach": {
+          "result": "PASS",
+          "note": "All 7 angles include concrete reporting approaches: tracking facility construction data, participation data from national federations, historical narrative tracing, membership demographic data, facility construction pipeline analysis, municipal planning applications, court filings and governance negotiations. All are specific to the European context."
+        },
+        "counterintuitive": {
+          "result": "PASS",
+          "note": "Angle 4 (inclusion illusion) is explicitly counterintuitive — it challenges padel's accessibility marketing with membership and pricing data."
+        },
+        "time-sensitivity": {
+          "result": "PASS",
+          "note": "All 7 angles marked with timeframe. Angles 1, 5, and 7 are time-sensitive; angles 2, 3, 4, and 6 are evergreen."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-05",
+      "description": "Vague/ambiguous input — Youth mental health",
+      "assertions": {
+        "angle-count": {
+          "result": "PASS",
+          "note": "6 numbered angle briefs. Within the 6-8 range."
+        },
+        "pitch-line": {
+          "result": "PASS",
+          "note": "All 6 angles include a one-sentence Pitch Line."
+        },
+        "reporting-approach": {
+          "result": "PASS",
+          "note": "All 6 angles include concrete reporting approaches: longitudinal diagnostic data, single-subject profile with caseload documentation, court filings and expert testimony, wait-time data and family interviews, peer support programme visits, interviews with opposing parents and school administrators. None default to 'interview experts.'"
+        },
+        "counterintuitive": {
+          "result": "PASS",
+          "note": "Angle 1 (diagnosis surge) is explicitly counterintuitive — questioning whether the rise reflects more illness or more diagnosis. Angle 6 (parental backlash) challenges the assumption that school mental health programmes are uncontroversial."
+        },
+        "time-sensitivity": {
+          "result": "PASS",
+          "note": "All 6 angles marked with timeframe. Angle 3 is time-sensitive; angles 1, 2, 4, 5, and 6 are evergreen."
+        }
+      },
+      "all_passed": true
+    }
+  ],
+  "summary": {
+    "total_inputs": 5,
+    "fully_passing": 5,
+    "assertion_pass_rates": {
+      "angle-count": "5/5",
+      "pitch-line": "5/5",
+      "reporting-approach": "5/5",
+      "counterintuitive": "5/5",
+      "time-sensitivity": "5/5"
+    },
+    "notes": "All 5 inputs passed all 5 assertions. The skill performed well even on minimal and vague inputs, producing appropriately broad angles with notes acknowledging the limitation of the input."
+  }
+}

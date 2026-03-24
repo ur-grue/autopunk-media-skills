@@ -1,0 +1,154 @@
+{
+  "skill": "headline-generator",
+  "eval_date": "2026-03-24",
+  "inputs_file": "tests/inputs/headline-generator.json",
+  "results": [
+    {
+      "input_id": "input-01",
+      "description": "Standard feature article — Retirement home algorithmic scheduling",
+      "assertions": {
+        "headline-count": {
+          "result": "PASS",
+          "note": "8 headline options. Within the 6-10 range."
+        },
+        "dek-present": {
+          "result": "PASS",
+          "note": "All 8 headlines have a matching subheadline (dek) immediately following."
+        },
+        "format-variety": {
+          "result": "PASS",
+          "note": "At least 5 structural formats present: declarative statement (1, 2), ironic/borrowed language (3), evocative noun phrase (4, 8), imperative/punchy declaration (5), personification (6), and ultra-short noun phrase (7). Well exceeds the 4-format minimum."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 8 ('The Gap') is 2 words. Option 7 ('Alone by Algorithm') is 3 words. Option 5 ('They Programmed the Gaps') is 4 words. Multiple options under 6 words."
+        },
+        "register-clusters": {
+          "result": "PASS",
+          "note": "Organized into 4 labeled clusters: Direct/News Register (2 headlines), Analytical/Literary Register (2 headlines), Provocative/Punchy Register (2 headlines), Cover/Short Form (2 headlines)."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-02",
+      "description": "Niche technical topic — Forensic linguistics and AI authorship",
+      "assertions": {
+        "headline-count": {
+          "result": "PASS",
+          "note": "8 headline options. Within the 6-10 range."
+        },
+        "dek-present": {
+          "result": "PASS",
+          "note": "All 8 headlines have a matching subheadline (dek)."
+        },
+        "format-variety": {
+          "result": "PASS",
+          "note": "At least 4 structural formats: declarative statement with challenge (1, 2), clean noun phrase (3, 8), question (4, 7), narrative/provocative (5, 6). Multiple formats present."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 7 ('Who Wrote This?') is 3 words. Option 8 ('The Authorship Test') is 3 words. Both under 6 words."
+        },
+        "register-clusters": {
+          "result": "PASS",
+          "note": "Organized into 4 labeled clusters: Direct/News Register, Analytical/Literary Register, Provocative/Punchy Register, Cover/Short Form."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-03",
+      "description": "Minimal input — Library closure",
+      "assertions": {
+        "headline-count": {
+          "result": "PASS",
+          "note": "8 headline options. Within the 6-10 range."
+        },
+        "dek-present": {
+          "result": "PASS",
+          "note": "All 8 headlines have a matching subheadline (dek)."
+        },
+        "format-variety": {
+          "result": "PASS",
+          "note": "At least 4 structural formats: declarative (1), explanatory/list (2), literary/reflective (3, 4), provocative/accusatory (5), ironic (6), single-word (7), evocative noun phrase (8)."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 7 ('Closed') is 1 word. Option 8 ('The Last Shelf') is 3 words. Both well under 6 words."
+        },
+        "register-clusters": {
+          "result": "PASS",
+          "note": "Organized into 4 labeled clusters: Direct/News Register, Analytical/Literary Register, Provocative/Punchy Register, Cover/Short Form."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-04",
+      "description": "European/international context — EU agricultural subsidies investigation",
+      "assertions": {
+        "headline-count": {
+          "result": "PASS",
+          "note": "8 headline options. Within the 6-10 range."
+        },
+        "dek-present": {
+          "result": "PASS",
+          "note": "All 8 headlines have a matching subheadline (dek)."
+        },
+        "format-variety": {
+          "result": "PASS",
+          "note": "At least 5 structural formats: declarative/investigative (1), accusatory statement (2), literary noun phrase (3), compound declarative with contrast (4), ultra-short noun phrase (5, 7), narrative (6), ironic (8)."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Options 5 and 7 ('Shell Farms') are 2 words. Option 8 ('The Subsidy Harvest') is 3 words. Multiple options under 6 words."
+        },
+        "register-clusters": {
+          "result": "PASS",
+          "note": "Organized into 4 labeled clusters: Direct/News Register, Analytical/Literary Register, Provocative/Punchy Register, Cover/Short Form."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-05",
+      "description": "Vague/ambiguous input — Schools and technology",
+      "assertions": {
+        "headline-count": {
+          "result": "PASS",
+          "note": "8 headline options. Within the 6-10 range."
+        },
+        "dek-present": {
+          "result": "PASS",
+          "note": "All 8 headlines have a matching subheadline (dek)."
+        },
+        "format-variety": {
+          "result": "PASS",
+          "note": "At least 4 structural formats: question (1), declarative with metaphor (2), literary/evocative (3), ironic contrast (4), punchy noun phrase (5), accusatory/provocative (6), ultra-short (7), compound noun phrase (8)."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 7 ('Screen Time') is 2 words. Option 8 ('The EdTech Reckoning') is 3 words. Both under 6 words."
+        },
+        "register-clusters": {
+          "result": "PASS",
+          "note": "Organized into 4 labeled clusters: Direct/News Register, Analytical/Literary Register, Provocative/Punchy Register, Cover/Short Form."
+        }
+      },
+      "all_passed": true
+    }
+  ],
+  "summary": {
+    "total_inputs": 5,
+    "fully_passing": 5,
+    "assertion_pass_rates": {
+      "headline-count": "5/5",
+      "dek-present": "5/5",
+      "format-variety": "5/5",
+      "short-option": "5/5",
+      "register-clusters": "5/5"
+    },
+    "notes": "All 5 inputs passed all 5 assertions. The skill consistently produced 8 headlines per output, organized into 4 register clusters, with matching deks, structural variety, and short-form options. Performance was strong even on minimal and vague inputs, with appropriate notes acknowledging the limitation."
+  }
+}

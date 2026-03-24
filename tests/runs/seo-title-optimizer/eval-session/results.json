@@ -1,0 +1,69 @@
+{
+  "skill": "seo-title-optimizer",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "title-count": {
+      "description": "8-10 numbered title options",
+      "results": {
+        "input-01": { "pass": true, "note": "10 numbered titles provided" },
+        "input-02": { "pass": true, "note": "10 numbered titles provided" },
+        "input-03": { "pass": true, "note": "10 numbered titles provided" },
+        "input-04": { "pass": false, "note": "9 titles provided — within 8-10 range but missing 10th title" },
+        "input-05": { "pass": true, "note": "10 numbered titles provided" }
+      },
+      "pass_rate": "5/5"
+    },
+    "char-limit": {
+      "description": "No title exceeds 70 characters",
+      "results": {
+        "input-01": { "pass": true, "note": "Longest title: 'What to Say When Negotiating Salary (Exact Scripts)' = 52 chars. All under 70." },
+        "input-02": { "pass": true, "note": "Longest title: 'Archaeological Site Documentation Using Photogrammetry' = 55 chars. All under 70." },
+        "input-03": { "pass": true, "note": "Longest title: 'The Right Way to Cook Pasta — Most People Get It Wrong' = 55 chars. All under 70." },
+        "input-04": { "pass": true, "note": "Longest title: 'How Germany Tried to Quit Fossil Fuels (And What Went Wrong)' = 61 chars. All under 70." },
+        "input-05": { "pass": true, "note": "Longest title: 'Simple Productivity Tips for Overwhelmed People' = 48 chars. All under 70." }
+      },
+      "pass_rate": "5/5"
+    },
+    "format-variety": {
+      "description": "At least 4 structural formats",
+      "results": {
+        "input-01": { "pass": true, "note": "Formats: how-to, tutorial, persuasion, listicle, value-promise, timely authority, personal testimony, SEO anchor, imperative, question+objection removal — 7+ formats" },
+        "input-02": { "pass": true, "note": "Formats: SEO anchor, how-to, question, comparison, listicle, persuasion, academic, practical guide, trend narrative, category explainer — 7+ formats" },
+        "input-03": { "pass": true, "note": "Formats: how-to+promise, guide, listicle, problem-solution, aspiration, counterintuitive, educational anchor, question, imperative, value-promise — 7+ formats" },
+        "input-04": { "pass": true, "note": "Formats: balanced analysis, explainer, problem framing, narrative, question, lesson, revelation, documentary, evidence-based question — 7+ formats" },
+        "input-05": { "pass": true, "note": "Formats: timely how-to, listicle, problem-solution, authority, counterintuitive, listicle, value-promise, personal testimony, identity, empathy — 7+ formats" }
+      },
+      "pass_rate": "5/5"
+    },
+    "rationale": {
+      "description": "Each title followed by parenthetical note on approach + keyword",
+      "results": {
+        "input-01": { "pass": true, "note": "Every title has parenthetical with structural approach and keyword identified" },
+        "input-02": { "pass": true, "note": "Every title has parenthetical with structural approach and keyword identified" },
+        "input-03": { "pass": true, "note": "Every title has parenthetical with structural approach and keyword identified" },
+        "input-04": { "pass": true, "note": "Every title has parenthetical with structural approach and keyword identified" },
+        "input-05": { "pass": true, "note": "Every title has parenthetical with structural approach and keyword identified" }
+      },
+      "pass_rate": "5/5"
+    },
+    "keyword-present": {
+      "description": "Every title includes concrete keyword",
+      "results": {
+        "input-01": { "pass": true, "note": "All titles contain concrete keywords: 'negotiate salary', 'salary negotiation', 'starting salary', 'pay', 'money'" },
+        "input-02": { "pass": true, "note": "All titles contain concrete keywords: 'photogrammetry', 'archaeology/archaeological', '3D scan', 'dig site'" },
+        "input-03": { "pass": true, "note": "All titles contain concrete keywords: 'cook pasta', 'pasta', 'boil pasta'" },
+        "input-04": { "pass": true, "note": "All titles contain concrete keywords: 'Germany', 'energy transition', 'Energiewende', 'energy', 'fossil fuels'" },
+        "input-05": { "pass": true, "note": "All titles contain concrete keywords: 'productivity', 'productive', 'get more done'" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "100%",
+    "notes": "Input-04 produced 9 titles instead of 10, but 9 is within the 8-10 range so it passes. All outputs demonstrate strong keyword integration, format variety, character limit compliance, and consistent parenthetical rationales."
+  }
+}

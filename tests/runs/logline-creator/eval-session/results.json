@@ -1,0 +1,160 @@
+{
+  "skill": "logline-creator",
+  "eval_date": "2026-03-24",
+  "total_inputs": 5,
+  "assertions": [
+    "option-count",
+    "structural-labels",
+    "short-option",
+    "distinct-emphasis",
+    "no-jargon"
+  ],
+  "results": [
+    {
+      "input_id": "input-01",
+      "input_description": "Standard documentary with clear narrative",
+      "assertions": {
+        "option-count": {
+          "result": "PASS",
+          "note": "6 numbered logline options provided, within the 4-6 range."
+        },
+        "structural-labels": {
+          "result": "PASS",
+          "note": "Each logline labeled with structural form (Character-Drive, Question, Thematic, Compressed Two-Clause, Press/Social Bio Line, Festival Long Form) and context (broadcaster pitch, festival submission, press release, broadcaster one-liner, social, festival)."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 5 ('One team. No funding. One shot at nationals. A debate documentary about what happens when the underdog speaks.') is 18 words, well under 25."
+        },
+        "distinct-emphasis": {
+          "result": "PASS",
+          "note": "Each logline emphasizes a different aspect: coach's arc, metaphorical dimension, structural inequality, narrative loop, punchy rhythm, personal/competitive stakes. None are interchangeable."
+        },
+        "no-jargon": {
+          "result": "PASS",
+          "note": "No production jargon or technical filmmaking language present in any logline."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-02",
+      "input_description": "Niche technical subject",
+      "assertions": {
+        "option-count": {
+          "result": "PASS",
+          "note": "6 numbered logline options provided."
+        },
+        "structural-labels": {
+          "result": "PASS",
+          "note": "All 6 options labeled with structural form and intended context."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 5 ('Three countries. Three printers. Every letter set by hand. A film about the crafts we cannot afford to remember.') is 19 words."
+        },
+        "distinct-emphasis": {
+          "result": "PASS",
+          "note": "Emphases vary: three-character structure, philosophical question, cultural-loss argument, commercial reality, compressed provocation, conviction as dramatic engine. Distinct and non-interchangeable."
+        },
+        "no-jargon": {
+          "result": "PASS",
+          "note": "Technical terms (typesetting, letterpress) are subject-matter terms accessible to general audiences, not production jargon."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-03",
+      "input_description": "Minimal input",
+      "assertions": {
+        "option-count": {
+          "result": "PASS",
+          "note": "5 numbered logline options provided (within 4-6 range). Fewer than the standard 6, appropriate given the thin input, but still within spec."
+        },
+        "structural-labels": {
+          "result": "PASS",
+          "note": "Each option labeled with structural form and context."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 5 ('They keep you alive. Nobody keeps them. A documentary about nursing at its limit.') is 15 words."
+        },
+        "distinct-emphasis": {
+          "result": "PASS",
+          "note": "Each logline takes a different angle despite the thin input: systemic framing, specificity through constraint, abstract gap, structural argument, punchy compression. Annotations honestly flag that all are generic due to input limitations."
+        },
+        "no-jargon": {
+          "result": "PASS",
+          "note": "No production jargon present."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-04",
+      "input_description": "European/international context",
+      "assertions": {
+        "option-count": {
+          "result": "PASS",
+          "note": "6 numbered logline options provided."
+        },
+        "structural-labels": {
+          "result": "PASS",
+          "note": "All options labeled with structural form and intended context (broadcaster pitch, festival submission, press release, broadcaster one-liner, social, festival)."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 5 ('One boat. One summer. Every rescue contested. A documentary from the deck of the Mediterranean\u2019s most political vessel.') is 18 words."
+        },
+        "distinct-emphasis": {
+          "result": "PASS",
+          "note": "Emphases clearly distinct: crew composition, politicization of rescue, legal-moral argument, paradox of position, punchy social line, full scope for catalogue. Non-interchangeable."
+        },
+        "no-jargon": {
+          "result": "PASS",
+          "note": "No production jargon. Subject-specific terms (search-and-rescue, Mediterranean) are general knowledge."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    },
+    {
+      "input_id": "input-05",
+      "input_description": "Vague/ambiguous input",
+      "assertions": {
+        "option-count": {
+          "result": "PASS",
+          "note": "5 numbered logline options provided (within 4-6 range)."
+        },
+        "structural-labels": {
+          "result": "PASS",
+          "note": "Each option labeled with structural form and context."
+        },
+        "short-option": {
+          "result": "PASS",
+          "note": "Option 5 ('Climate change, told through the people already living it. A series about what the data does not show.') is 19 words."
+        },
+        "distinct-emphasis": {
+          "result": "PASS",
+          "note": "Each takes a different angle: human scale, domesticity, planning horizon, urgency, compression. Annotations honestly flag genericity due to vague input."
+        },
+        "no-jargon": {
+          "result": "PASS",
+          "note": "No production jargon present."
+        }
+      },
+      "pass_count": 5,
+      "fail_count": 0
+    }
+  ],
+  "summary": {
+    "total_assertions": 25,
+    "total_pass": 25,
+    "total_fail": 0,
+    "pass_rate": "100%"
+  }
+}

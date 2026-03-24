@@ -1,0 +1,69 @@
+{
+  "skill": "shorts-script-adapter",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "runtime-limit": {
+      "description": "Estimated runtime 60 seconds or less",
+      "results": {
+        "input-01": { "pass": true, "note": "Estimated runtime: 50 seconds" },
+        "input-02": { "pass": true, "note": "Estimated runtime: 48 seconds" },
+        "input-03": { "pass": true, "note": "Estimated runtime: 28 seconds" },
+        "input-04": { "pass": true, "note": "Estimated runtime: 53 seconds" },
+        "input-05": { "pass": true, "note": "Estimated runtime: 42 seconds" }
+      },
+      "pass_rate": "5/5"
+    },
+    "two-parts": {
+      "description": "Two parts: Shorts Script and On-Screen Text Suggestions",
+      "results": {
+        "input-01": { "pass": true, "note": "Contains labeled '**Shorts Script**' and '**On-Screen Text Suggestions**' sections" },
+        "input-02": { "pass": true, "note": "Contains labeled '**Shorts Script**' and '**On-Screen Text Suggestions**' sections" },
+        "input-03": { "pass": true, "note": "Contains labeled '**Shorts Script**' and '**On-Screen Text Suggestions**' sections" },
+        "input-04": { "pass": true, "note": "Contains labeled '**Shorts Script**' and '**On-Screen Text Suggestions**' sections" },
+        "input-05": { "pass": true, "note": "Contains labeled '**Shorts Script**' and '**On-Screen Text Suggestions**' sections" }
+      },
+      "pass_rate": "5/5"
+    },
+    "text-suggestions": {
+      "description": "3-5 text overlays with timestamps",
+      "results": {
+        "input-01": { "pass": true, "note": "5 text overlays with timestamps (0:00-0:03, 0:06-0:08, 0:12-0:14, 0:22-0:26, 0:38-0:42)" },
+        "input-02": { "pass": true, "note": "5 text overlays with timestamps (0:00-0:03, 0:08-0:10, 0:18-0:20, 0:30-0:34, 0:40-0:44)" },
+        "input-03": { "pass": true, "note": "3 text overlays with timestamps (0:00-0:02, 0:06-0:09, 0:16-0:19)" },
+        "input-04": { "pass": true, "note": "5 text overlays with timestamps (0:00-0:03, 0:10-0:13, 0:22-0:26, 0:32-0:35, 0:45-0:48)" },
+        "input-05": { "pass": true, "note": "4 text overlays with timestamps (0:00-0:03, 0:10-0:13, 0:20-0:24, 0:34-0:38)" }
+      },
+      "pass_rate": "5/5"
+    },
+    "self-contained": {
+      "description": "Understandable without source video",
+      "results": {
+        "input-01": { "pass": true, "note": "Fully self-contained — explains the cooking principle without referencing a longer video. No context required." },
+        "input-02": { "pass": true, "note": "Fully self-contained — explains the satellite/deforestation paradox as a standalone insight. No prior context needed." },
+        "input-03": { "pass": true, "note": "Fully self-contained — delivers the cortisol/coffee timing advice as complete standalone information." },
+        "input-04": { "pass": true, "note": "Fully self-contained — explains Denmark's elderly care model with the key stat. The 'full video' link is additive, not required for comprehension." },
+        "input-05": { "pass": true, "note": "Fully self-contained — delivers the habit-scaling principle as a complete, standalone argument despite vague source material." }
+      },
+      "pass_rate": "5/5"
+    },
+    "no-longform-language": {
+      "description": "No 'as I mentioned earlier' etc.",
+      "results": {
+        "input-01": { "pass": true, "note": "No transitional long-form language detected. No references to previous sections or future content within the script." },
+        "input-02": { "pass": true, "note": "No transitional long-form language detected. Clean, direct Shorts-appropriate prose." },
+        "input-03": { "pass": true, "note": "No transitional long-form language detected. Extremely concise — appropriate for 30-second target." },
+        "input-04": { "pass": true, "note": "No transitional long-form language detected. The full-video reference at the end is a CTA, not a transition." },
+        "input-05": { "pass": true, "note": "No transitional long-form language detected. Clean rewrite from vague source material." }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "100%",
+    "notes": "All 5 outputs are well under the 60-second limit, properly structured in two parts, include timestamped text overlays (3-5 per output), are fully self-contained, and contain no long-form transitional language. The skill handled the minimal input (03) and vague input (05) well — producing tight, focused scripts despite limited source material."
+  }
+}

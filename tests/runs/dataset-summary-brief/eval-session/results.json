@@ -1,0 +1,161 @@
+{
+  "skill": "dataset-summary-brief",
+  "eval_date": "2026-03-24",
+  "assertions": [
+    "four-sections",
+    "time-geo-specified",
+    "limitations-genuine",
+    "story-angles",
+    "plain-language"
+  ],
+  "results": [
+    {
+      "input_id": "input-01",
+      "description": "Standard dataset assessment (Hospital Waiting Times)",
+      "grades": {
+        "four-sections": {
+          "pass": true,
+          "note": "All four sections present: What This Dataset Is, What It Covers, Limitations and Caveats, Potential Story Angles."
+        },
+        "time-geo-specified": {
+          "pass": true,
+          "note": "Time range (January 2020 to December 2025), geographic scope (national), and unit of analysis (individual patient referral-to-treatment episodes) all explicitly stated."
+        },
+        "limitations-genuine": {
+          "pass": true,
+          "note": "Four genuine, specific limitations identified: negative wait times data quality issue, hospital code changes during restructuring, no clinical outcome data, age bands limiting granularity."
+        },
+        "story-angles": {
+          "pass": true,
+          "note": "Five story angles provided, all grounded in specific dataset variables (priority_level, outcome, wait_days, region, gender)."
+        },
+        "plain-language": {
+          "pass": true,
+          "note": "Written in editorial language throughout. No statistical jargon, formulae, or technical methodology language."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-02",
+      "description": "Niche technical dataset (European Air Quality PM2.5)",
+      "grades": {
+        "four-sections": {
+          "pass": true,
+          "note": "All four sections present with correct headings."
+        },
+        "time-geo-specified": {
+          "pass": true,
+          "note": "Time range (January 2019 to December 2025), geographic scope (39 European countries, ~4,000 stations), and unit of analysis (one hourly PM2.5 reading per station) all specified."
+        },
+        "limitations-genuine": {
+          "pass": true,
+          "note": "Four genuine limitations: uneven station density across countries, rural station bias, volume requiring aggregation, data quality flag variability."
+        },
+        "story-angles": {
+          "pass": true,
+          "note": "Five story angles provided, all grounded in dataset variables (pm25_ug_m3, datetime_utc, country_code, station coordinates)."
+        },
+        "plain-language": {
+          "pass": true,
+          "note": "Plain editorial language. PM2.5 concentration explained in accessible terms. No statistical jargon."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-03",
+      "description": "Minimal input (Crime Statistics)",
+      "grades": {
+        "four-sections": {
+          "pass": true,
+          "note": "All four sections present. Content appropriately flags unknowns rather than inventing details."
+        },
+        "time-geo-specified": {
+          "pass": true,
+          "note": "Time range and geography explicitly stated as unknown, with clear note that they must be established. Unit of analysis identified as presumably individual crime reports. Honest handling of missing metadata."
+        },
+        "limitations-genuine": {
+          "pass": true,
+          "note": "Four genuine limitations: missing critical metadata, ambiguous row count meaning, no severity/outcome/demographic data, police-recorded vs actual crime gap."
+        },
+        "story-angles": {
+          "pass": true,
+          "note": "Three story angles provided (fewer than standard due to limited input), appropriately caveated and grounded in the three available columns."
+        },
+        "plain-language": {
+          "pass": true,
+          "note": "Plain language throughout. Written for a journalist who might receive such a dataset."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-04",
+      "description": "European/international context (EU Farm Subsidies)",
+      "grades": {
+        "four-sections": {
+          "pass": true,
+          "note": "All four sections present with correct headings."
+        },
+        "time-geo-specified": {
+          "pass": true,
+          "note": "Time range (2018 to 2025), geography (all 27 EU member states, municipality level), and unit of analysis (individual subsidy payments per beneficiary per year per scheme) all specified."
+        },
+        "limitations-genuine": {
+          "pass": true,
+          "note": "Four genuine, dataset-specific limitations: name standardisation across countries, entity vs holding level inconsistency, currency conversion artefacts, scheme name harmonisation."
+        },
+        "story-angles": {
+          "pass": true,
+          "note": "Five story angles, all grounded in specific variables (beneficiary_name, legal_form, payment_amount_eur, beneficiary_country, scheme_name)."
+        },
+        "plain-language": {
+          "pass": true,
+          "note": "Written for a journalist covering EU agricultural policy. No statistical or technical jargon."
+        }
+      },
+      "all_passed": true
+    },
+    {
+      "input_id": "input-05",
+      "description": "Vague/ambiguous input (Schools data)",
+      "grades": {
+        "four-sections": {
+          "pass": true,
+          "note": "All four sections present. Story angles section responsibly declines to speculate and recommends next steps."
+        },
+        "time-geo-specified": {
+          "pass": true,
+          "note": "All three dimensions explicitly flagged as unknown. This is the correct response to vague input — stating unknowns rather than guessing."
+        },
+        "limitations-genuine": {
+          "pass": true,
+          "note": "Two genuine limitations: cannot assess without basic metadata, insufficient source attribution. Both are specific to this input's deficiencies."
+        },
+        "story-angles": {
+          "pass": false,
+          "note": "Story angles are not provided (correctly, given the input), but the assertion requires 3-5 grounded angles. The skill made the right editorial call but does not meet the literal assertion."
+        },
+        "plain-language": {
+          "pass": true,
+          "note": "Plain language throughout. Practical recommendation for next steps."
+        }
+      },
+      "all_passed": false
+    }
+  ],
+  "summary": {
+    "total_inputs": 5,
+    "all_passed": 4,
+    "some_failed": 1,
+    "assertion_pass_rates": {
+      "four-sections": "5/5",
+      "time-geo-specified": "5/5",
+      "limitations-genuine": "5/5",
+      "story-angles": "4/5",
+      "plain-language": "5/5"
+    },
+    "notes": "Input 05 (vague/ambiguous) correctly declined to provide story angles due to insufficient data — an editorially responsible choice, but one that does not satisfy the literal assertion requirement. All other inputs passed all assertions cleanly."
+  }
+}

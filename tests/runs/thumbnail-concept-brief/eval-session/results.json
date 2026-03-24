@@ -1,0 +1,69 @@
+{
+  "skill": "thumbnail-concept-brief",
+  "eval_date": "2026-03-24",
+  "assertions": {
+    "concept-count": {
+      "description": "2-3 distinct thumbnail concepts",
+      "results": {
+        "input-01": { "pass": true, "note": "3 concepts: The Overwhelmed Screen, The Split Brain, Text-Only (Mobile-First)" },
+        "input-02": { "pass": true, "note": "3 concepts: The Reveal, The Data Landscape, The Comparison (Mobile-First)" },
+        "input-03": { "pass": true, "note": "3 concepts: The Golden Loaf, The Hands-In-Dough, The Starter Close-Up (Mobile-First)" },
+        "input-04": { "pass": true, "note": "3 concepts: The Crowd vs. The Local, The Protest, The Split City (Mobile-First)" },
+        "input-05": { "pass": true, "note": "3 concepts: The Direct Address, The List Tease, Bold Text (Mobile-First)" }
+      },
+      "pass_rate": "5/5"
+    },
+    "text-overlay-specific": {
+      "description": "Text overlay in exact words",
+      "results": {
+        "input-01": { "pass": true, "note": "Exact text specified: 'WHY YOU / CAN'T FOCUS', 'YOUR BRAIN / IS BROKEN', 'YOU / CAN'T / FOCUS'" },
+        "input-02": { "pass": true, "note": "Exact text specified: 'HIDDEN FOR / 1,000 YEARS', 'LIDAR / CHANGED EVERYTHING', 'WHAT WE MISSED'" },
+        "input-03": { "pass": true, "note": "Exact text specified: 'MAKING / SOURDOUGH', 'SOURDOUGH / from scratch', 'IT'S ALIVE'" },
+        "input-04": { "pass": true, "note": "Exact text specified: 'BARCELONA'S / BREAKING POINT', 'TOURISTS / NOT WELCOME', 'TWO BARCELONAS'" },
+        "input-05": { "pass": true, "note": "Exact text specified: 'LIFE ADVICE / nobody tells you', list item '1. Nobody has it figured out', 'LIFE / ADVICE'" }
+      },
+      "pass_rate": "5/5"
+    },
+    "color-specific": {
+      "description": "Specific colors with hex or named values",
+      "results": {
+        "input-01": { "pass": true, "note": "Hex values: #FFFFFF (white bg), #CC0000 (red text), #333333 (charcoal). Named colors also used consistently." },
+        "input-02": { "pass": true, "note": "Hex values: #00CED1 (cyan), #000000 (black), #39FF14 (neon green), #1E90FF (electric blue). Rich color specification." },
+        "input-03": { "pass": true, "note": "Hex values: #FFF8DC (cream), #D4A574 (amber), #36454F (charcoal), #DAA520 (honey). Named values: golden-brown, warm white." },
+        "input-04": { "pass": true, "note": "Hex values: #E50000 (red), #FFD700 (yellow), #C2B280 (sandstone), #808080 (grey). Named: Mediterranean blue." },
+        "input-05": { "pass": true, "note": "Hex values: #FFDAB9 (peach), #333333 (charcoal), #666666 (grey), #1B2A4A (ink blue), #000000 (black), #FFB347 (gold)." }
+      },
+      "pass_rate": "5/5"
+    },
+    "emotional-distinct": {
+      "description": "Each concept has distinct emotional approach",
+      "results": {
+        "input-01": { "pass": true, "note": "Concept 1: Recognition ('that's me'), Concept 2: Curiosity (something is wrong), Concept 3: Direct confrontation. Three distinct emotional registers." },
+        "input-02": { "pass": true, "note": "Concept 1: Wonder/discovery, Concept 2: Awe at scale, Concept 3: Surprise (same place, different views). Distinct approaches." },
+        "input-03": { "pass": true, "note": "Concept 1: Satisfaction (result), Concept 2: Tactile connection (process), Concept 3: Curiosity (the living starter). Three different entry points." },
+        "input-04": { "pass": true, "note": "Concept 1: Tension (crowd pressure), Concept 2: Conflict (protest), Concept 3: Contradiction (split city). Three facets of the same tension." },
+        "input-05": { "pass": true, "note": "Concept 1: Trust/relatability, Concept 2: Curiosity (list tease), Concept 3: Urgency (bold text). Distinct emotional triggers." }
+      },
+      "pass_rate": "5/5"
+    },
+    "mobile-optimized": {
+      "description": "At least one concept optimized for mobile",
+      "results": {
+        "input-01": { "pass": true, "note": "Concept 3 explicitly labeled 'Text-Only (Mobile-First)' with 120x68px test note and maximum contrast design" },
+        "input-02": { "pass": true, "note": "Concept 3 explicitly labeled 'The Comparison (Mobile-First)' with 120x68px test note" },
+        "input-03": { "pass": true, "note": "Concept 3 explicitly labeled 'The Starter Close-Up (Mobile-First)' with mobile readability note" },
+        "input-04": { "pass": true, "note": "Concept 3 explicitly labeled 'The Split City (Mobile-First)' with mobile thumbnail size test note" },
+        "input-05": { "pass": true, "note": "Concept 3 explicitly labeled 'Bold Text (Mobile-First)' with 120x68px test note" }
+      },
+      "pass_rate": "5/5"
+    }
+  },
+  "summary": {
+    "total_assertions": 5,
+    "total_checks": 25,
+    "total_passed": 25,
+    "total_failed": 0,
+    "overall_pass_rate": "100%",
+    "notes": "All 5 outputs consistently deliver 3 concepts with distinct emotional hooks, specific text overlay copy (exact words, not descriptions), hex color values throughout, and a dedicated mobile-first concept as the third option. The skill handled minimal input (03: 'Making Sourdough') and vague input (05: 'Life Advice') well, producing specific and actionable briefs despite limited direction."
+  }
+}
