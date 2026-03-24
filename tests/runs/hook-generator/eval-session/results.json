@@ -1,0 +1,61 @@
+{
+  "skill": "hook-generator",
+  "eval_date": "2026-03-24",
+  "eval_model": "claude-opus-4-6 (in-session)",
+  "assertions": [
+    {"id": "three-options", "text": "Output contains exactly 3 hook options labeled Option 1, Option 2, and Option 3"},
+    {"id": "distinct-styles", "text": "The three hooks use three different styles: provocative question, surprising statistic, and bold claim"},
+    {"id": "sentence-limit", "text": "Each hook is 1-3 sentences long, no more"},
+    {"id": "no-meta", "text": "No hook uses the phrase 'in this video' or announces what the content will cover"},
+    {"id": "guidance-line", "text": "Output ends with a Guidance line recommending which option fits best and a Next Step specifying which hook to use and which skill to run next"}
+  ],
+  "results": {
+    "input-01": {
+      "description": "Standard YouTube explainer",
+      "three-options": {"pass": true, "note": "3 options labeled correctly: Option 1, Option 2, Option 3"},
+      "distinct-styles": {"pass": true, "note": "Provocative Question, Surprising Statistic, Bold Claim — all distinct"},
+      "sentence-limit": {"pass": true, "note": "Option 1: 2 sentences, Option 2: 3 sentences, Option 3: 2 sentences"},
+      "no-meta": {"pass": true, "note": "No 'in this video' or content announcements"},
+      "guidance-line": {"pass": true, "note": "Guidance recommends Option 2 with rationale. Next Step specifies lead with Option 2 + run seo-title-optimizer"}
+    },
+    "input-02": {
+      "description": "Niche technical topic",
+      "three-options": {"pass": true, "note": "3 options labeled correctly"},
+      "distinct-styles": {"pass": true, "note": "Question, Statistic (104 cities, 13%), Bold Claim — all distinct"},
+      "sentence-limit": {"pass": true, "note": "Option 1: 1 sentence, Option 2: 2 sentences, Option 3: 2 sentences"},
+      "no-meta": {"pass": true, "note": "No meta-language"},
+      "guidance-line": {"pass": true, "note": "Guidance recommends Option 1 with rationale. Next Step specifies lead + run full-script-writer"}
+    },
+    "input-03": {
+      "description": "Minimal input",
+      "three-options": {"pass": true, "note": "3 options labeled correctly"},
+      "distinct-styles": {"pass": true, "note": "Question, Statistic (6hrs/2wks = 48hrs), Bold Claim — distinct angles"},
+      "sentence-limit": {"pass": true, "note": "Option 1: 1 sentence, Option 2: 2 sentences, Option 3: 2 sentences"},
+      "no-meta": {"pass": true, "note": "No meta-language"},
+      "guidance-line": {"pass": true, "note": "Guidance recommends Option 3 for YouTube. Next Step specifies seo-title-optimizer"}
+    },
+    "input-04": {
+      "description": "European/international context",
+      "three-options": {"pass": true, "note": "3 options labeled correctly"},
+      "distinct-styles": {"pass": true, "note": "Question (40% income), Statistic (top-5 GDP, 13yr/16yr waitlist), Bold Claim (system by design)"},
+      "sentence-limit": {"pass": true, "note": "Option 1: 1 sentence, Option 2: 3 sentences, Option 3: 2 sentences"},
+      "no-meta": {"pass": true, "note": "No meta-language"},
+      "guidance-line": {"pass": true, "note": "Guidance recommends Option 2 for documentary journalism. Next Step specifies full-script-writer"}
+    },
+    "input-05": {
+      "description": "Vague/ambiguous input",
+      "three-options": {"pass": true, "note": "3 options labeled correctly"},
+      "distinct-styles": {"pass": true, "note": "Question (used you vs you used it), Statistic (35K vs 5K decisions), Bold Claim (noticing)"},
+      "sentence-limit": {"pass": true, "note": "Option 1: 1 sentence, Option 2: 3 sentences, Option 3: 2 sentences"},
+      "no-meta": {"pass": true, "note": "No meta-language"},
+      "guidance-line": {"pass": true, "note": "Guidance recommends Option 1 for podcast. Next Step specifies intro-outro-writer"}
+    }
+  },
+  "summary": {
+    "total_assertions": 25,
+    "passed": 25,
+    "failed": 0,
+    "pass_rate": "100%",
+    "notes": "All 5 inputs passed all 5 assertions. Even the edge cases (minimal input 'Sleep', vague input 'technology changing things') produced spec-compliant output with specific statistics, distinct styles, and actionable guidance."
+  }
+}
