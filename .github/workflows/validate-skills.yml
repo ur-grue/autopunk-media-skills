@@ -1,0 +1,70 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**/*.md'
+      - 'scripts/generate-marketplace.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate frontmatter in changed skills
+        run: |
+          python3 -c "
+          import re, sys, os
+
+          errors = []
+          required = ['name', 'status', 'category', 'subcategory', 'version', 'tags']
+          valid_statuses = ['planned', 'draft', 'beta', 'stable']
+
+          for root, dirs, files in os.walk('skills'):
+              if '/locales/' in root:
+                  continue
+              for f in files:
+                  if not f.endswith('.md'):
+                      continue
+                  path = os.path.join(root, f)
+                  with open(path) as fh:
+                      text = fh.read()
+                  m = re.match(r'^---\s*\n(.*?\n)---\s*\n', text, re.DOTALL)
+                  if not m:
+                      errors.append(f'{path}: missing frontmatter')
+                      continue
+                  fm = {}
+                  for line in m.group(1).strip().split('\n'):
+                      if ':' in line:
+                          k, v = line.split(':', 1)
+                          fm[k.strip()] = v.strip()
+                  for key in required:
+                      if key not in fm:
+                          errors.append(f'{path}: missing field \"{key}\"')
+                  if 'status' in fm and fm['status'] not in valid_statuses:
+                      errors.append(f\"{path}: invalid status '{fm['status']}'\")
+
+          if errors:
+              print(f'Found {len(errors)} validation errors:')
+              for e in errors:
+                  print(f'  ❌ {e}')
+              sys.exit(1)
+          else:
+              print('✅ All skill files have valid frontmatter')
+          "
+
+      - name: Regenerate marketplace.json and check for drift
+        run: |
+          python3 scripts/generate-marketplace.py
+          if git diff --quiet .claude-plugin/marketplace.json; then
+            echo "✅ marketplace.json is in sync"
+          else
+            echo "⚠️  marketplace.json is out of sync — run: python3 scripts/generate-marketplace.py"
+            git diff .claude-plugin/marketplace.json | head -20
+            exit 1
+          fi
