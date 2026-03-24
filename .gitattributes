@@ -1,0 +1,3 @@
+*.evals.json linguist-generated=true
+*.evals*.json linguist-generated=true
+.claude-plugin/marketplace.json linguist-generated=true
