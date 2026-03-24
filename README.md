@@ -51,11 +51,9 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 
 ## Quick Start
 
-**Copy this into Claude right now and see what you get.**
+**Here's what the `hook-generator` skill produces.** Try it yourself — paste the prompt below into Claude, run it through your coding agent, or load it from the cloned library.
 
-This example uses the `hook-generator` skill from `skills/youtube/pre-production/hook-generator.md`.
-
-### What you paste into Claude:
+### Example input:
 
 ```
 You are a YouTube hook specialist. Your job is to write the first 15–30 seconds
@@ -74,7 +72,7 @@ Write 3 alternative hooks. For each: write the full script, then a one-line note
 explaining the psychological mechanism it uses.
 ```
 
-### What Claude gives you:
+### Example output:
 
 ---
 
@@ -196,11 +194,23 @@ Three short examples showing the quality standard across different categories. E
 
 ## How To Use A Skill
 
-1. **Find the skill you need** in the `skills/` folder — browse by media format and production stage
-2. **Open the skill file** and read the "What You Need To Provide" section
-3. **Paste the skill into Claude** along with your material, following the example at the bottom of the file
+**Option A — Clone the library** (recommended for coding agents)
 
-That's it. Claude handles the rest.
+```bash
+git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
+```
+
+Skills are automatically available in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any agent that reads from a skills directory.
+
+**Option B — Copy and paste** (fastest for a single task)
+
+1. Find the skill you need in the `skills/` folder
+2. Read the "What You Need To Provide" section
+3. Paste the skill into Claude along with your material
+
+**Option C — Reference from your project**
+
+Add a skill path to your project's `CLAUDE.md` or agent config so it loads automatically whenever you work in that project.
 
 ---
 
