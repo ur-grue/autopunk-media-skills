@@ -1,6 +1,6 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate_(226_skills)-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange)
+![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate_(226_skills)-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange) ![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills) ![Agents](https://img.shields.io/badge/agents-Claude_Code_·_Cursor_·_Codex_·_Gemini-blueviolet)
 
 ---
 
@@ -15,6 +15,8 @@ npx skills add ur-grue/autopunk-media-skills --skill hook-generator
 ```
 
 **Compatible with:** Claude Code · Cursor · Codex CLI · Gemini CLI · OpenCode · any agent supporting the [Agent Skills standard](https://agentskills.io).
+
+> ⭐ If this saves you time, star the repo — it helps other media professionals find it.
 
 ---
 
@@ -32,20 +34,7 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 
 ## Who Is This For?
 
-- **TV documentary producers** — development, pre-production, scripting, post-production, localization, business
-- **Magazine journalists** — story ideation, writing, editing, investigation, fact-checking, legal
-- **YouTube creators** — pre-production, scripting, post-production, channel strategy, business, analytics
-- **Podcast producers** — episode planning, scripting, show notes, sponsorship
-- **Visual content creators** — image prompts for Midjourney, Flux, and art direction workflows
-- **Media business** — pitching broadcasters, fundraising, distribution, rights clearance
-- **Social media managers** — captions, threads, carousels, platform strategy
-- **Radio journalists and producers** — bulletins, packages, two-ways, running orders, broadcaster pitches
-- **Newsletter writers** — editions, subject lines, subscriber growth, paid conversions, sponsorship
-- **PR and communications professionals** — press releases, crisis statements, spokesperson briefs, op-eds
-- **Screenwriters** — treatments, beat sheets, scene writing, script notes, coverage
-- **Data journalists** — dataset analysis, chart descriptions, FOI requests, methodology documentation
-- **Researchers** — scientific papers, policy analysis, source verification, competitive coverage review
-- **Editors and production teams** — translation, formatting, metadata, asset management, fact sheets
+TV documentary producers · magazine journalists · YouTube creators · podcast producers · screenwriters · data journalists · radio producers · newsletter writers · PR professionals · researchers · social media managers · visual content creators · editors and production teams.
 
 ---
 
@@ -156,17 +145,7 @@ See `tests/EVAL_FRAMEWORK.md` for the full process.
 
 ## Example Outputs
 
-Three short examples showing the quality standard across different categories. Each is a real output from the skill, generated with a generic input.
-
----
-
-### Hook · `hook-generator` · YouTube
-
-**Input:** Video about why open-plan offices hurt deep work. Audience: knowledge workers. Tone: research-backed, not ranty.
-
-**Output:**
-
-> "Stanford published a study in 2023 that should have ended the open-plan office debate permanently. It didn't — because the real estate industry has a $2.3 trillion reason to ignore it. Here's what they found, and what it means for every hour you've spent trying to think in a glass box."
+Two short examples showing the quality standard across different categories. Each is a real output from the skill, generated with a generic input.
 
 ---
 
@@ -224,6 +203,7 @@ Not sure where to start? These guides will get you up and running fast.
 | [**Writing Better Inputs**](docs/writing-better-inputs.md) | How to brief Claude so output is usable on the first try |
 | [**Skill Index**](docs/skill-index.md) | Find any skill by what you need to do — not by category |
 | [**Troubleshooting**](docs/troubleshooting.md) | Output not right? Common fixes for common problems |
+| [**Roadmap**](ROADMAP.md) | What's done, in progress, and planned next |
 
 ---
 
@@ -268,81 +248,9 @@ Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [
 
 ## Related Projects
 
-The agent skills ecosystem is growing fast. These are the projects we consider peers, infrastructure, or inspiration — and where Autopunk fits among them.
+This repo exists within a growing ecosystem of agent skills for media, journalism, writing, and marketing. We maintain a curated list of 25+ related projects — peers, infrastructure, and inspiration.
 
-### Journalism & Media Skills
-
-We're not the only ones building skills for newsrooms. But we're the only ones focused on **production and broadcast**. The repos below cover the investigative and fact-checking side of the stack — together, they form a complete editorial toolkit.
-
-- **[jamditis/claude-skills-journalism](https://github.com/jamditis/claude-skills-journalism)** — Joe Amditis' skills for investigative journalists and academics. 14 skills covering FOIA request drafting, source verification (SIFT method), data journalism, digital archive building with entity extraction, plus dev tooling for newsroom apps (Electron, web scraping, Python pipelines). US-focused (FOIA is federal law), strong on verification workflows. Where Autopunk covers pitch-to-publish production, jamditis covers the research-to-verification layer. If you're doing investigative work, start here.
-
-- **[fdaudens/ai-journalism-skills](https://huggingface.co/spaces/fdaudens/ai-journalism-skills)** — Frédéric Daudens' fact-checking and OSINT skills, hosted on Hugging Face. Includes scrollytelling (SvelteKit) and open-source intelligence workflows. Narrower scope than jamditis but sharper on verification. Complements Autopunk's production focus — we make the show, they verify the claims in it.
-
-### Video & Film Production
-
-Skills for people who make moving pictures. This is where Autopunk overlaps most directly — our TV/documentary/YouTube skills sit alongside these tools.
-
-- **[digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit)** — AI-native video production workspace built around Remotion, ElevenLabs, FFmpeg, and Playwright. Full lifecycle from planning through rendering, with brand profiles, scene status tracking, and multi-session project management. The most complete code-first video production toolkit in the ecosystem. Where Autopunk provides editorial skills (scripting, rundowns, hooks), this toolkit provides the rendering and compositing layer.
-
-- **[SamurAIGPT/Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills)** — Multimodal generative media skills with a Cinema Director skill for technical film direction and cinematography, plus image generation (Flux), text-to-speech, video generation (Seedance 2), and audio tools. MCP server support. Focused on generative AI media creation rather than editorial workflows — complementary to Autopunk's scripting and production planning skills.
-
-- **[video-prompting-skill](https://github.com/BehiSecc/awesome-claude-skills)** *(listed in awesome-claude-skills)* — Draft and refine prompts for video generation models (LTX-2, Sora, Veo 3). Narrow but useful if you're generating footage rather than editing it.
-
-- **[VideoDB Skills](https://github.com/BehiSecc/awesome-claude-skills)** *(listed in awesome-claude-skills)* — Ingest, search, edit, generate, and stream media via VideoDB. Think of it as the MAM (media asset management) layer that Autopunk's archive-research skills can feed into.
-
-### Creative Writing & Book Publishing
-
-Skills for long-form writing, fiction, and publishing pipelines. Relevant if you're using Autopunk's magazine journalism or screenwriting skills and want to extend into book-length projects.
-
-- **[haowjy/creative-writing-skills](https://github.com/haowjy/creative-writing-skills)** — Six specialized skills for the full creative writing process: prose writing in your personal style, brainstorming, story critique, style guide creation, and story documentation. Learns your voice from examples. The most thoughtful fiction-writing skill set available — pairs well with Autopunk's screenwriting skills if you're adapting scripts to prose or vice versa.
-
-- **[ThomasHoussin/Claude-Book](https://github.com/ThomasHoussin/Claude-Book)** — Multi-agent framework for writing novels with Claude Code. Skills for source book analysis, bible merging (style, structure, characters, universe), story ideation, and a perplexity improver to reduce AI-detectable patterns. Includes EPUB/MOBI/AZW3 export. Serious infrastructure for long-form fiction production.
-
-- **[robertguss/claude-skills (Book Factory)](https://github.com/robertguss/claude-skills)** — A comprehensive pipeline replicating traditional publishing infrastructure for nonfiction book creation. Covers ideation through publication. Listed in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code). If you're turning documentary research into a book, this is the pipeline.
-
-- **[JJenglert1/remotion-claude-video](https://github.com/JJenglert1/remotion-claude-video)** — Remotion video creation with pre-installed skills for video best practices, UI/UX design (50+ styles, 97 color palettes, 57 font pairings), and conversion-focused copywriting. Good starter template for marketing video production.
-
-### Copywriting & Marketing
-
-Skills for the commercial writing side of media. These repos cover landing pages, email sequences, and ad creative — the distribution and monetization layer that sits downstream of Autopunk's editorial production.
-
-- **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)** — 25+ marketing skills for CRO, copywriting, SEO, analytics, and growth engineering by Corey Haines (Conversion Factory / Swipe Files). The best example of the skills-repo-as-funnel model: free skills drive awareness, consulting and SaaS monetize expertise. Different domain, same playbook. Includes deep copywriting and copy-editing skills with voice-of-customer methodology.
-
-- **[wondelai/skills](https://github.com/wondelai/skills)** — 25 agent skills grounded in specific books: StoryBrand (messaging), Contagious (virality), $100M Offers (Hormozi), Influence (Cialdini), Made to Stick, Refactoring UI, and more. Each skill encodes a published methodology rather than generic advice. The StoryBrand and Made to Stick skills are particularly relevant for media producers crafting pitches and trailers.
-
-- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** — 192 skills across engineering, marketing, product, compliance, and C-level advisory. 5.2K stars. Includes content-creator, copywriting, growth-marketer, and launch-strategy skills. The broadest general-purpose skill collection — useful as a reference for skill structure and marketplace format, even if most skills don't overlap with media production.
-
-- **[@clawfu/mcp-skills](https://github.com/BehiSecc/awesome-claude-skills)** *(listed in awesome-claude-skills)* — 169 expert-sourced marketing skills (Dunford, Schwartz, Ogilvy, Cialdini) as MCP server with brand memory. Strongest theoretical foundation of any marketing skill set.
-
-### Skill Ecosystem
-
-The broader skills landscape we build on and contribute to.
-
-- **[anthropics/skills](https://github.com/anthropics/skills)** — Anthropic's official skill collection. Ships with Claude Code out of the box: document creation (docx, pptx, xlsx, pdf), frontend design, and the `skill-creator` — a full eval framework with binary assertions, benchmark aggregation, and an HTML viewer. We use the skill-creator's eval runner internally to test and improve Autopunk skills. If you're building your own skills, read this repo first.
-
-- **[Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** — 83 skills across 20 categories for AI research engineering: model architecture, fine-tuning, distributed training, inference, safety, RAG, multimodal, and more. 3.3K stars, npm installer (`npx @orchestra-research/ai-research-skills`), Claude Plugin Marketplace support. The gold standard for how a large skill collection should be structured and distributed. Our marketplace format and npm packaging roadmap are directly inspired by their approach.
-
-### Skill Directories
-
-Where skills get discovered. If your repo isn't indexed here, it doesn't exist for most users.
-
-- **[SkillsMP](https://skillsmp.com/)** — The largest agent skills marketplace. Aggregates 500K+ skills from public GitHub repos, filterable by category, popularity, and quality indicators. Auto-indexes repos with ≥2 stars and a valid SKILL.md. Compatible with Claude Code, Codex CLI, and ChatGPT. This is where most developers discover skills — getting listed here is table stakes.
-
-- **[SkillHub](https://www.skillhub.club)** — 7K+ skills evaluated by AI across five dimensions: Practicality, Clarity, Automation, Quality, and Impact. Offers a desktop app for one-click install and a Playground for trying skills before committing. Smaller than SkillsMP but higher signal-to-noise — the quality scoring surfaces well-built skills over keyword-stuffed ones.
-
-- **[Awesome Claude Skills](https://awesomeclaude.ai/awesome-claude-skills)** — Visual directory of curated Claude skills. Less comprehensive than SkillsMP/SkillHub but editorially curated, which means a listing here carries more weight per impression. Good for browsing by use case rather than keyword search.
-
-- **[travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** — The original awesome-list for Claude skills. ~1.4K stars. Curated with categories, FAQs, and a timeline of the skills ecosystem. Our top target for a cross-listing PR.
-
-- **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** — 1000+ agent skills from official dev teams and community, organized by author. Cross-agent compatible (Codex, Antigravity, Gemini CLI, Cursor). Includes official Google, DuckDB, GSAP, and Figma skills alongside community repos.
-
-- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** — Curated list of skills, hooks, slash-commands, agent orchestrators, and plugins for Claude Code. Goes beyond skills into the full Claude Code ecosystem — workflows, sub-agents, and orchestration patterns.
-
-### Quality & Testing
-
-How we validate that skills actually work.
-
-- **[Anthropic skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** — The eval framework we use internally. Includes `run_eval.py` (binary assertion runner), `run_loop.py` (iterative improvement loop), `aggregate_benchmark.py` (variance analysis across runs), a Grader Agent, an Analyzer Agent, and an HTML benchmark viewer. Think of it as the Karpathy pattern applied to prompt engineering: write assertions, run them blind, iterate on the skill until they pass. Our G-Eval quality framework sits on top of this as the public-facing quality gate.
+→ **[Full list with annotations](docs/related-projects.md)**
 
 ---
 
