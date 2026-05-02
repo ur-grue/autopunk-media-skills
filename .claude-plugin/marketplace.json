@@ -1,7 +1,7 @@
 {
   "name": "autopunk-media-skills",
   "display_name": "Autopunk Media Skills",
-  "description": "354 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
+  "description": "427 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
   "version": "1.0.0",
   "author": "ur-grue",
   "homepage": "https://github.com/ur-grue/autopunk-media-skills",
@@ -301,20 +301,30 @@
       ]
     },
     {
-      "name": "data-outlier-finder",
-      "path": "skills/data-journalism/analysis/data-outlier-finder.md",
-      "description": "Guides you through identifying outliers and anomalies in a dataset — spotting the data points that stand apart from the pattern, and helping you decide whether each one is a story, a data error, or expected variation.",
+      "name": "basic-statistics-calculator",
+      "path": "skills/data-journalism/analysis/basic-statistics-calculator.md",
+      "description": "Performs and explains basic statistical calculations — percentages, percentage changes, per-capita rates, averages, medians, and ratios — from data you provide, showing the working so you can verify it and use the figures confidently in a story.",
       "category": "data-journalism",
       "subcategory": "analysis",
       "status": "stable",
       "tags": [
         "data-journalism",
+        "statistics",
+        "calculations",
         "analysis",
-        "outliers",
-        "anomalies",
-        "investigation",
-        "data-literacy"
+        "numbers",
+        "percentages",
+        "averages"
       ]
+    },
+    {
+      "name": "data-outlier-finder",
+      "path": "skills/data-journalism/analysis/data-outlier-finder.md",
+      "description": "Identify outliers and anomalies in a data set.",
+      "category": "data-journalism",
+      "subcategory": "analysis",
+      "status": "planned",
+      "tags": []
     },
     {
       "name": "data-story-finder",
@@ -405,17 +415,17 @@
     {
       "name": "pdf-table-extractor-brief",
       "path": "skills/data-journalism/investigation/pdf-table-extractor-brief.md",
-      "description": "Writes a clear, step-by-step brief for extracting structured data from a PDF table — specifying what to capture, how to handle formatting problems, and how to verify the extracted data is complete and accurate.",
+      "description": "Produces a structured extraction plan and clean spreadsheet template for pulling tabular data out of a PDF document — identifying the table structure, defining column headers, flagging extraction pitfalls, and providing a ready-to-use template that ensures the data lands in a consistent, analysable format.",
       "category": "data-journalism",
       "subcategory": "investigation",
       "status": "stable",
       "tags": [
         "data-journalism",
+        "PDF",
+        "tables",
+        "data-extraction",
         "investigation",
-        "pdf",
-        "extraction",
-        "structured-data",
-        "foia",
+        "spreadsheet",
         "public-records"
       ]
     },
@@ -496,34 +506,20 @@
     {
       "name": "chart-labels-writer",
       "path": "skills/data-journalism/visualization/chart-labels-writer.md",
-      "description": "Writes all the text elements of a chart — title, subtitle, axis labels, legend entries, data annotations, and source line — so the visual communicates clearly without requiring the reader to read the accompanying article first.",
+      "description": "Write axis labels, legends, and annotations for a chart.",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "stable",
-      "tags": [
-        "data-journalism",
-        "visualization",
-        "labels",
-        "annotations",
-        "chart-copy",
-        "accessibility"
-      ]
+      "status": "planned",
+      "tags": []
     },
     {
       "name": "chart-type-advisor",
       "path": "skills/data-journalism/visualization/chart-type-advisor.md",
-      "description": "Recommends the best chart type for a given dataset and editorial question, with a clear rationale and a note on what to avoid.",
+      "description": "Suggest the appropriate chart type for a given data set.",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "stable",
-      "tags": [
-        "data-journalism",
-        "visualization",
-        "charts",
-        "graphs",
-        "data-literacy",
-        "editorial"
-      ]
+      "status": "planned",
+      "tags": []
     },
     {
       "name": "data-table-formatter",
@@ -1003,6 +999,22 @@
       ]
     },
     {
+      "name": "editor-note-writer",
+      "path": "skills/magazine-journalism/editing/editor-note-writer.md",
+      "description": "Drafts a publication-ready editor's note — correction, clarification, update, or disclosure — from the facts you provide, following standard editorial transparency conventions.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "corrections",
+        "editorial",
+        "transparency",
+        "ethics"
+      ]
+    },
+    {
       "name": "fact-check-prompt",
       "path": "skills/magazine-journalism/editing/fact-check-prompt.md",
       "description": "Generates a systematic fact-checking checklist from a draft article, categorizing every verifiable claim by type and priority, with the specific verification question and recommended source type for each.",
@@ -1031,6 +1043,135 @@
         "house-style",
         "consistency",
         "standardization"
+      ]
+    },
+    {
+      "name": "jargon-flagger",
+      "path": "skills/magazine-journalism/editing/jargon-flagger.md",
+      "description": "Scans a draft and flags every instance of technical jargon, unexplained acronyms, and insider language that a general-audience reader would not understand — with a plain-language alternative for each.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "jargon",
+        "accessibility",
+        "plain-language",
+        "clarity"
+      ]
+    },
+    {
+      "name": "multi-author-harmonizer",
+      "path": "skills/magazine-journalism/editing/multi-author-harmonizer.md",
+      "description": "Reviews a text written or assembled by multiple authors and produces a detailed inconsistency report — flagging voice shifts, terminology mismatches, tonal clashes, and formatting discrepancies — with specific harmonisation recommendations for each.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "harmonization",
+        "multi-author",
+        "consistency",
+        "voice",
+        "tone"
+      ]
+    },
+    {
+      "name": "passive-voice-checker",
+      "path": "skills/magazine-journalism/editing/passive-voice-checker.md",
+      "description": "Identifies every passive-voice construction in a draft, assesses whether each weakens or serves the prose, and offers active-voice alternatives for those that should be changed — while leaving justified passives alone.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "passive-voice",
+        "active-voice",
+        "style",
+        "clarity"
+      ]
+    },
+    {
+      "name": "pull-quote-selector",
+      "path": "skills/magazine-journalism/editing/pull-quote-selector.md",
+      "description": "Reads a completed article and identifies the three to five strongest pull-quote candidates, ranked by visual impact and reader-stopping power, with trim suggestions for layout.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "pull-quotes",
+        "layout",
+        "design",
+        "magazine"
+      ]
+    },
+    {
+      "name": "structure-checker",
+      "path": "skills/magazine-journalism/editing/structure-checker.md",
+      "description": "Analyses a draft article's structural architecture — paragraph order, logical flow, redundancies, and pacing — and returns a diagnostic report with specific reordering, cutting, or restructuring recommendations.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "structure",
+        "flow",
+        "organization",
+        "architecture"
+      ]
+    },
+    {
+      "name": "text-condenser",
+      "path": "skills/magazine-journalism/editing/text-condenser.md",
+      "description": "Cuts an article or passage to a target word count by removing redundancies, tightening prose, and eliminating low-value sentences — while preserving the piece's key information, structure, and voice.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "cutting",
+        "word-count",
+        "condensing",
+        "tight-writing"
+      ]
+    },
+    {
+      "name": "text-expander",
+      "path": "skills/magazine-journalism/editing/text-expander.md",
+      "description": "Identifies where a short article or passage is thin on detail, context, or evidence, and flags specific expansion opportunities with suggested additions — without fabricating information the writer did not provide.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "expanding",
+        "detail",
+        "development",
+        "word-count"
+      ]
+    },
+    {
+      "name": "version-comparator",
+      "path": "skills/magazine-journalism/editing/version-comparator.md",
+      "description": "Compares two versions of an article and produces a structured change report — highlighting substantive edits, additions, deletions, and tone shifts — so the editor or writer can quickly understand what changed and assess whether the revisions improved the piece.",
+      "category": "magazine-journalism",
+      "subcategory": "editing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "editing",
+        "comparison",
+        "versions",
+        "tracking",
+        "revisions"
       ]
     },
     {
@@ -1216,6 +1357,40 @@
       ]
     },
     {
+      "name": "alt-text-writer",
+      "path": "skills/magazine-journalism/writing/alt-text-writer.md",
+      "description": "Writes descriptive alt text for editorial images following WCAG accessibility guidelines — concise enough for screen readers, specific enough to convey the image's editorial purpose.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "alt-text",
+        "accessibility",
+        "images",
+        "web",
+        "WCAG"
+      ]
+    },
+    {
+      "name": "article-summary-writer",
+      "path": "skills/magazine-journalism/writing/article-summary-writer.md",
+      "description": "Writes a concise summary, standfirst, abstract, or deck for a completed article at a specified length and format — capturing the essential argument and news value without spoiling the reading experience.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "summary",
+        "abstract",
+        "TLDR",
+        "standfirst",
+        "deck"
+      ]
+    },
+    {
       "name": "column-voice-adapter",
       "path": "skills/magazine-journalism/writing/column-voice-adapter.md",
       "description": "Rewrites or drafts a column passage in a defined author's established voice and style, given a description of that voice and a sample of existing writing.",
@@ -1229,6 +1404,23 @@
         "column",
         "style",
         "tone"
+      ]
+    },
+    {
+      "name": "glossary-builder",
+      "path": "skills/magazine-journalism/writing/glossary-builder.md",
+      "description": "Creates a glossary of key terms for a specific topic or article, with concise plain-language definitions formatted for publication as a sidebar, companion box, or standalone reference.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "glossary",
+        "terminology",
+        "reference",
+        "explainer",
+        "jargon"
       ]
     },
     {
@@ -1248,6 +1440,72 @@
       ]
     },
     {
+      "name": "lede-writer",
+      "path": "skills/magazine-journalism/writing/lede-writer.md",
+      "description": "Writes three opening paragraph options for a news or feature article, each using a different lede style — straight news, anecdotal, and scene-setting — so the writer can choose the strongest entry point for the piece.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "lede",
+        "opening",
+        "article",
+        "news",
+        "feature"
+      ]
+    },
+    {
+      "name": "news-article-writer",
+      "path": "skills/magazine-journalism/writing/news-article-writer.md",
+      "description": "Writes a complete news article in inverted-pyramid structure from a set of facts, quotes, and context provided by the journalist — ready for editing and publication.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "news",
+        "inverted-pyramid",
+        "article",
+        "reporting"
+      ]
+    },
+    {
+      "name": "photo-caption-writer",
+      "path": "skills/magazine-journalism/writing/photo-caption-writer.md",
+      "description": "Writes publication-standard photo captions that identify subjects, provide context, and include a credit line — formatted for print or digital editorial use.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "captions",
+        "photography",
+        "publishing",
+        "editorial"
+      ]
+    },
+    {
+      "name": "profile-writer",
+      "path": "skills/magazine-journalism/writing/profile-writer.md",
+      "description": "Writes a magazine-style profile piece on a person from interview notes, biographical background, and a stated editorial angle — delivering a polished draft that balances character, narrative, and context.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "profile",
+        "feature",
+        "portrait",
+        "interview",
+        "magazine"
+      ]
+    },
+    {
       "name": "reportage-structure",
       "path": "skills/magazine-journalism/writing/reportage-structure.md",
       "description": "Builds a complete narrative structure for a long-form reported piece — including opening scene, sourcing map, section-by-section arc, and closing — given the story's central argument, key findings, and available sources.",
@@ -1261,6 +1519,24 @@
         "long-form",
         "narrative",
         "reportage"
+      ]
+    },
+    {
+      "name": "review-writer",
+      "path": "skills/magazine-journalism/writing/review-writer.md",
+      "description": "Writes a critical review of a book, film, exhibition, album, restaurant, or performance from the reviewer's notes and a stated critical perspective — delivering a publishable draft that balances description, analysis, and judgment.",
+      "category": "magazine-journalism",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "writing",
+        "review",
+        "criticism",
+        "culture",
+        "arts",
+        "books",
+        "film"
       ]
     },
     {
@@ -1389,6 +1665,57 @@
       ]
     },
     {
+      "name": "copyright-holder-finder",
+      "path": "skills/media-business/legal/copyright-holder-finder.md",
+      "description": "Produces a step-by-step research plan for identifying the copyright holder of a specific piece of content — image, footage, text, music, or other media — tailored to the content type and jurisdiction.",
+      "category": "media-business",
+      "subcategory": "legal",
+      "status": "stable",
+      "tags": [
+        "business",
+        "legal",
+        "copyright",
+        "rights",
+        "research",
+        "clearance",
+        "licensing"
+      ]
+    },
+    {
+      "name": "creative-commons-explainer",
+      "path": "skills/media-business/legal/creative-commons-explainer.md",
+      "description": "Explains a specific Creative Commons licence in plain language, telling a media professional exactly what they can and cannot do with the licensed content — including attribution requirements, commercial use rules, and derivative work restrictions.",
+      "category": "media-business",
+      "subcategory": "legal",
+      "status": "stable",
+      "tags": [
+        "business",
+        "legal",
+        "creative-commons",
+        "licensing",
+        "rights",
+        "open-access",
+        "attribution"
+      ]
+    },
+    {
+      "name": "gdpr-data-handling-note",
+      "path": "skills/media-business/legal/gdpr-data-handling-note.md",
+      "description": "Drafts a plain-language data handling notice for a journalistic or media production project that involves collecting, storing, or processing personal data — structured to meet GDPR transparency requirements while remaining understandable to non-lawyers.",
+      "category": "media-business",
+      "subcategory": "legal",
+      "status": "stable",
+      "tags": [
+        "business",
+        "legal",
+        "GDPR",
+        "privacy",
+        "compliance",
+        "data-protection",
+        "journalism"
+      ]
+    },
+    {
       "name": "licensing-brief-writer",
       "path": "skills/media-business/legal/licensing-brief-writer.md",
       "description": "Writes a brief summarising the licensing requirements for using a specific piece of music, archive footage, photograph, or other third-party content in a media project — including what licences are needed, who to approach, and what terms to request.",
@@ -1439,6 +1766,40 @@
       ]
     },
     {
+      "name": "source-bibliography-compiler",
+      "path": "skills/media-business/legal/source-bibliography-compiler.md",
+      "description": "Compiles a formatted source list or bibliography from raw research notes, organising and standardising entries for publication, editorial records, or compliance documentation.",
+      "category": "media-business",
+      "subcategory": "legal",
+      "status": "stable",
+      "tags": [
+        "business",
+        "legal",
+        "bibliography",
+        "sources",
+        "documentation",
+        "fact-checking",
+        "editorial-records"
+      ]
+    },
+    {
+      "name": "award-submission-writer",
+      "path": "skills/media-business/pitching/award-submission-writer.md",
+      "description": "Writes a compelling award or competition submission that frames a media project's significance, craft, and impact for a judging panel — structured to score well against standard evaluation criteria.",
+      "category": "media-business",
+      "subcategory": "pitching",
+      "status": "stable",
+      "tags": [
+        "business",
+        "awards",
+        "submissions",
+        "pitching",
+        "recognition",
+        "festival",
+        "competition"
+      ]
+    },
+    {
       "name": "cold-outreach-email-writer",
       "path": "skills/media-business/pitching/cold-outreach-email-writer.md",
       "description": "Writes a cold outreach email to a broadcaster, distributor, or platform executive introducing a project for the first time and requesting a meeting or a read of supporting materials.",
@@ -1451,6 +1812,22 @@
         "outreach",
         "email",
         "commissioning"
+      ]
+    },
+    {
+      "name": "collaboration-proposal-writer",
+      "path": "skills/media-business/pitching/collaboration-proposal-writer.md",
+      "description": "Writes a structured proposal for a co-production, editorial partnership, or cross-platform collaboration between two or more media organisations, clearly articulating the mutual benefit and division of responsibilities.",
+      "category": "media-business",
+      "subcategory": "pitching",
+      "status": "stable",
+      "tags": [
+        "business",
+        "collaboration",
+        "partnerships",
+        "proposals",
+        "co-production",
+        "cross-platform"
       ]
     },
     {
@@ -1548,6 +1925,22 @@
       ]
     },
     {
+      "name": "audience-feedback-summarizer",
+      "path": "skills/newsletter/strategy/audience-feedback-summarizer.md",
+      "description": "Takes a batch of reader comments, survey responses, or audience messages and returns a structured summary organized by theme, sentiment, and actionable takeaways — turning scattered feedback into a clear editorial brief.",
+      "category": "newsletter",
+      "subcategory": "strategy",
+      "status": "stable",
+      "tags": [
+        "newsletter",
+        "feedback",
+        "audience",
+        "analysis",
+        "insights",
+        "reader-research"
+      ]
+    },
+    {
       "name": "content-arc-planner",
       "path": "skills/newsletter/strategy/content-arc-planner.md",
       "description": "Plans a multi-edition content arc for a newsletter — mapping themes, topics, and recurring formats across a defined publishing period to give the publication editorial coherence and reader momentum rather than a disconnected series of standalone editions.",
@@ -1561,6 +1954,22 @@
         "content-arc",
         "editorial-calendar",
         "themes"
+      ]
+    },
+    {
+      "name": "newsletter-audience-segmenter",
+      "path": "skills/newsletter/strategy/newsletter-audience-segmenter.md",
+      "description": "Produces a practical audience segmentation brief for a newsletter, identifying 3-5 distinct subscriber groups with tailored content recommendations and messaging strategies for each segment.",
+      "category": "newsletter",
+      "subcategory": "strategy",
+      "status": "stable",
+      "tags": [
+        "newsletter",
+        "segmentation",
+        "audience",
+        "strategy",
+        "targeting",
+        "email-marketing"
       ]
     },
     {
@@ -1609,6 +2018,22 @@
         "churn",
         "retention",
         "inactive-subscribers"
+      ]
+    },
+    {
+      "name": "reader-response-writer",
+      "path": "skills/newsletter/writing/reader-response-writer.md",
+      "description": "Drafts a thoughtful, on-brand response to a reader letter, subscriber email, or audience complaint — matching the publication's voice while addressing the reader's specific concern or question.",
+      "category": "newsletter",
+      "subcategory": "writing",
+      "status": "stable",
+      "tags": [
+        "newsletter",
+        "reader-response",
+        "audience",
+        "communication",
+        "writing",
+        "community"
       ]
     },
     {
@@ -1824,6 +2249,22 @@
       ]
     },
     {
+      "name": "internal-memo-writer",
+      "path": "skills/pr-communications/content/internal-memo-writer.md",
+      "description": "Writes a clear, structured internal memo for staff or leadership, translating a communications situation into a concise document with context, key messages, and recommended actions.",
+      "category": "pr-communications",
+      "subcategory": "content",
+      "status": "stable",
+      "tags": [
+        "pr",
+        "internal-communications",
+        "memo",
+        "briefing",
+        "staff-update",
+        "corporate-comms"
+      ]
+    },
+    {
       "name": "op-ed-writer",
       "path": "skills/pr-communications/content/op-ed-writer.md",
       "description": "Writes a bylined opinion article for placement in a newspaper or trade publication, building a thought-leadership argument from a briefing and key messages into a piece that reads as the spokesperson's genuine voice, not a press release in disguise.",
@@ -1899,6 +2340,22 @@
       ]
     },
     {
+      "name": "follow-up-email-writer",
+      "path": "skills/pr-communications/media-relations/follow-up-email-writer.md",
+      "description": "Writes a professional follow-up email to a journalist, editor, or media contact who has not responded to a previous pitch or request, calibrated to the relationship stage, urgency, and number of prior attempts.",
+      "category": "pr-communications",
+      "subcategory": "media-relations",
+      "status": "stable",
+      "tags": [
+        "pr",
+        "email",
+        "follow-up",
+        "media-relations",
+        "outreach",
+        "journalist"
+      ]
+    },
+    {
       "name": "journalist-pitch-email",
       "path": "skills/pr-communications/media-relations/journalist-pitch-email.md",
       "description": "Writes a targeted pitch email to a specific journalist offering an exclusive, interview, or story angle, matched to their known beat and written in the brief, direct register that working journalists respond to.",
@@ -1926,6 +2383,22 @@
         "spokesperson",
         "briefing",
         "interview-prep"
+      ]
+    },
+    {
+      "name": "thank-you-email-writer",
+      "path": "skills/pr-communications/media-relations/thank-you-email-writer.md",
+      "description": "Writes a brief, genuine thank-you email to a journalist or media contact after coverage, an interview, or a professional favour, reinforcing the relationship without being transactional.",
+      "category": "pr-communications",
+      "subcategory": "media-relations",
+      "status": "stable",
+      "tags": [
+        "pr",
+        "email",
+        "thank-you",
+        "media-relations",
+        "relationship-building",
+        "journalist"
       ]
     },
     {
@@ -1974,6 +2447,15 @@
       ]
     },
     {
+      "name": "budget-estimator",
+      "path": "skills/pre-production/budget-estimator.md",
+      "description": "Estimate the budget for a specific production element.",
+      "category": "pre-production",
+      "subcategory": "",
+      "status": "planned",
+      "tags": []
+    },
+    {
       "name": "interview-question-catalogue",
       "path": "skills/pre-production/interview-question-catalogue.md",
       "description": "Generate a structured catalogue of interview questions for a specific subject and topic — organised by theme and sequenced from rapport-building openers to probing follow-ups.",
@@ -1987,22 +2469,6 @@
         "podcast",
         "documentary",
         "questions"
-      ]
-    },
-    {
-      "name": "budget-estimator",
-      "path": "skills/pre-production/budget-estimator.md",
-      "description": "Generates a structured, line-item budget estimate template for a media production based on the parameters you provide — so you have a realistic planning document to share with commissioners, co-producers, or financiers before quotes are confirmed.",
-      "category": "pre-production",
-      "subcategory": "pre-production",
-      "status": "beta",
-      "tags": [
-        "budget",
-        "pre-production",
-        "planning",
-        "documentary",
-        "tv",
-        "journalism"
       ]
     },
     {
@@ -2197,6 +2663,86 @@
       ]
     },
     {
+      "name": "asset-description-writer",
+      "path": "skills/production-support/formatting/asset-description-writer.md",
+      "description": "Writes structured, searchable descriptions for digital assets — photos, videos, audio files, graphics, and documents — enabling accurate retrieval from a digital asset management (DAM) system or media archive.",
+      "category": "production-support",
+      "subcategory": "formatting",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "DAM",
+        "metadata",
+        "assets",
+        "archiving",
+        "search"
+      ]
+    },
+    {
+      "name": "author-bio-writer",
+      "path": "skills/production-support/formatting/author-bio-writer.md",
+      "description": "Writes a concise, publication-ready author bio in the appropriate register and length for the target outlet — from a one-line byline tag to a full contributor page paragraph.",
+      "category": "production-support",
+      "subcategory": "formatting",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "bio",
+        "author",
+        "publishing",
+        "formatting",
+        "byline"
+      ]
+    },
+    {
+      "name": "cms-metadata-writer",
+      "path": "skills/production-support/formatting/cms-metadata-writer.md",
+      "description": "Writes structured metadata fields — title tag, meta description, tags, category, slug, and Open Graph text — for a CMS entry, optimized for search discoverability and social sharing.",
+      "category": "production-support",
+      "subcategory": "formatting",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "CMS",
+        "metadata",
+        "publishing",
+        "web",
+        "SEO"
+      ]
+    },
+    {
+      "name": "manuscript-formatter",
+      "path": "skills/production-support/formatting/manuscript-formatter.md",
+      "description": "Reformats a manuscript, article, or long-form text to match a specific publication's structural and style requirements — adjusting headings, paragraph spacing, citation format, pull-quote placement, and front matter without altering the content itself.",
+      "category": "production-support",
+      "subcategory": "formatting",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "formatting",
+        "manuscript",
+        "style-guide",
+        "publishing",
+        "submission"
+      ]
+    },
+    {
+      "name": "web-section-splitter",
+      "path": "skills/production-support/formatting/web-section-splitter.md",
+      "description": "Breaks a long-form article into web-optimized sections with subheadings, pull-quote suggestions, image placement markers, and reading-time estimates — ready for a web editor to drop into a CMS.",
+      "category": "production-support",
+      "subcategory": "formatting",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "web",
+        "formatting",
+        "sections",
+        "layout",
+        "readability"
+      ]
+    },
+    {
       "name": "author-bio-writer",
       "path": "skills/production-support/author-bio-writer.md",
       "description": "Writes a polished, publication-ready author bio in the correct length and tone for the outlet, based on a few facts you provide about the journalist or contributor.",
@@ -2358,6 +2904,38 @@
       ]
     },
     {
+      "name": "fact-sheet-compiler",
+      "path": "skills/production-support/reference/fact-sheet-compiler.md",
+      "description": "Compiles a structured, scannable fact sheet on a topic — organizing key data, definitions, timelines, and context into a single reference document for editorial teams, producers, or journalists working on a story.",
+      "category": "production-support",
+      "subcategory": "reference",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "fact-sheet",
+        "reference",
+        "research",
+        "editorial",
+        "briefing"
+      ]
+    },
+    {
+      "name": "teaser-block-writer",
+      "path": "skills/production-support/reference/teaser-block-writer.md",
+      "description": "Writes \"read next,\" \"related articles,\" or \"previously on\" teaser blocks for web pages, newsletters, or app interfaces — short, click-worthy summaries that drive readers from one piece of content to another.",
+      "category": "production-support",
+      "subcategory": "reference",
+      "status": "stable",
+      "tags": [
+        "production-support",
+        "teasers",
+        "web",
+        "layout",
+        "navigation",
+        "newsletters"
+      ]
+    },
+    {
       "name": "clip-selection-brief",
       "path": "skills/radio-audio/news-packages/clip-selection-brief.md",
       "description": "Analyses an interview transcript and recommends the best actuality clips to use in a radio news package, with suggested in-points, out-points, and editorial justification for each selection.",
@@ -2504,6 +3082,24 @@
       ]
     },
     {
+      "name": "stand-up-script-writer",
+      "path": "skills/radio-audio/scripting/stand-up-script-writer.md",
+      "description": "Writes a reporter stand-up script — a piece to camera or piece to microphone delivered on location — with positioning notes, delivery guidance, and integration cues for the surrounding package, ready for a broadcast journalist to rehearse and record.",
+      "category": "radio-audio",
+      "subcategory": "scripting",
+      "status": "stable",
+      "tags": [
+        "broadcast",
+        "scripting",
+        "stand-up",
+        "reporter",
+        "news",
+        "piece-to-camera",
+        "radio",
+        "field-reporting"
+      ]
+    },
+    {
       "name": "pitch-to-broadcaster",
       "path": "skills/radio-audio/strategy/pitch-to-broadcaster.md",
       "description": "Writes a radio programme pitch document for submission to a network or station commissioner, covering format, audience, editorial proposition, and production credentials.",
@@ -2533,6 +3129,150 @@
         "adaptation",
         "format",
         "broadcast-standards"
+      ]
+    },
+    {
+      "name": "jargon-translator",
+      "path": "skills/research/academic/jargon-translator.md",
+      "description": "Rewrites scientific, legal, financial, or technical jargon into plain language suitable for a general news audience — preserving accuracy while making the meaning immediately clear to a non-specialist reader.",
+      "category": "research",
+      "subcategory": "academic",
+      "status": "stable",
+      "tags": [
+        "research",
+        "jargon",
+        "plain-language",
+        "translation",
+        "accessibility",
+        "academic"
+      ]
+    },
+    {
+      "name": "scientific-consensus-brief",
+      "path": "skills/research/academic/scientific-consensus-brief.md",
+      "description": "Produces a structured assessment of the current scientific consensus on a specific topic — distinguishing between what is well-established, what is actively debated, and what is fringe — so a journalist can report on the science accurately without false balance or overstatement.",
+      "category": "research",
+      "subcategory": "academic",
+      "status": "stable",
+      "tags": [
+        "research",
+        "science",
+        "consensus",
+        "evidence",
+        "analysis",
+        "academic"
+      ]
+    },
+    {
+      "name": "scientific-paper-summarizer",
+      "path": "skills/research/academic/scientific-paper-summarizer.md",
+      "description": "Summarises a scientific paper in plain language — covering the research question, methodology, key findings, limitations, and implications — so a journalist can accurately report on the study without misrepresenting it or overstating its conclusions.",
+      "category": "research",
+      "subcategory": "academic",
+      "status": "stable",
+      "tags": [
+        "research",
+        "science",
+        "academic",
+        "papers",
+        "plain-language",
+        "summary"
+      ]
+    },
+    {
+      "name": "study-methodology-evaluator",
+      "path": "skills/research/academic/study-methodology-evaluator.md",
+      "description": "Evaluates the methodology of a published study in plain language — identifying its strengths, weaknesses, and the specific claims the study design can and cannot support — so a journalist can report on the research without overstating or understating its significance.",
+      "category": "research",
+      "subcategory": "academic",
+      "status": "stable",
+      "tags": [
+        "research",
+        "science",
+        "methodology",
+        "evaluation",
+        "critical-analysis",
+        "academic"
+      ]
+    },
+    {
+      "name": "corporate-structure-brief",
+      "path": "skills/research/background/corporate-structure-brief.md",
+      "description": "Produces a structured research plan for mapping the ownership, governance, and organisational structure of a company or corporate group — identifying the public registries, filings, and databases to consult and the specific questions to answer about who controls the entity and how money flows through it.",
+      "category": "research",
+      "subcategory": "background",
+      "status": "stable",
+      "tags": [
+        "research",
+        "corporate",
+        "ownership",
+        "structure",
+        "investigation",
+        "background"
+      ]
+    },
+    {
+      "name": "debate-state-summary",
+      "path": "skills/research/background/debate-state-summary.md",
+      "description": "Produces a structured, neutral summary of the current state of a public debate or controversy — mapping the main positions, the actors behind them, the evidence each side cites, and the unresolved questions — so a journalist can get up to speed quickly and identify the underreported angles.",
+      "category": "research",
+      "subcategory": "background",
+      "status": "stable",
+      "tags": [
+        "research",
+        "debate",
+        "controversy",
+        "positions",
+        "analysis",
+        "background"
+      ]
+    },
+    {
+      "name": "funding-source-investigator",
+      "path": "skills/research/background/funding-source-investigator.md",
+      "description": "Produces a structured research plan for tracing the funding sources of an organisation — NGO, think tank, campaign group, political organisation, or research institution — identifying the public databases, disclosure requirements, and investigative techniques needed to determine who is paying for the organisation's work and whether that creates conflicts of interest.",
+      "category": "research",
+      "subcategory": "background",
+      "status": "stable",
+      "tags": [
+        "research",
+        "funding",
+        "transparency",
+        "NGO",
+        "investigation",
+        "background"
+      ]
+    },
+    {
+      "name": "historical-precedent-finder",
+      "path": "skills/research/background/historical-precedent-finder.md",
+      "description": "Identifies historical precedents relevant to a current news event or policy debate, provides a structured comparison showing why each precedent is or is not analogous, and lists the sources a journalist should consult to verify and deepen each comparison.",
+      "category": "research",
+      "subcategory": "background",
+      "status": "stable",
+      "tags": [
+        "research",
+        "history",
+        "precedent",
+        "context",
+        "analysis",
+        "background"
+      ]
+    },
+    {
+      "name": "legislative-history-brief",
+      "path": "skills/research/background/legislative-history-brief.md",
+      "description": "Produces a structured research framework for tracing the full legislative or regulatory history of a specific law, bill, or regulation — identifying the key milestones, political dynamics, and source documents a journalist needs to understand how the policy reached its current state.",
+      "category": "research",
+      "subcategory": "background",
+      "status": "stable",
+      "tags": [
+        "research",
+        "legislation",
+        "policy",
+        "regulation",
+        "history",
+        "background"
       ]
     },
     {
@@ -2654,6 +3394,38 @@
         "journalism",
         "statistics",
         "reporting"
+      ]
+    },
+    {
+      "name": "claim-origin-tracer",
+      "path": "skills/research/fact-checking/claim-origin-tracer.md",
+      "description": "Produces a structured research plan for tracing a widely circulated claim back to its original source — mapping the citation chain, identifying where distortion may have occurred, and listing the databases and techniques needed to find the primary source and assess its reliability.",
+      "category": "research",
+      "subcategory": "fact-checking",
+      "status": "stable",
+      "tags": [
+        "research",
+        "fact-checking",
+        "claims",
+        "misinformation",
+        "sourcing",
+        "verification"
+      ]
+    },
+    {
+      "name": "legal-framework-brief",
+      "path": "skills/research/fact-checking/legal-framework-brief.md",
+      "description": "Produces a plain-language summary of the legal framework applicable to a story — identifying the relevant statutes, regulations, regulatory bodies, and legal principles — so a journalist can report accurately on legal issues without misrepresenting the law or missing key distinctions.",
+      "category": "research",
+      "subcategory": "fact-checking",
+      "status": "stable",
+      "tags": [
+        "research",
+        "legal",
+        "law",
+        "regulation",
+        "framework",
+        "fact-checking"
       ]
     },
     {
@@ -3080,6 +3852,54 @@
       ]
     },
     {
+      "name": "travel-logistics-brief",
+      "path": "skills/research/logistics/travel-logistics-brief.md",
+      "description": "Produces a structured logistics checklist for a reporting trip — covering the research categories a journalist needs to investigate before travel, including transport, accommodation, credentials, safety considerations, communications, and local contacts — so nothing critical is overlooked in trip planning.",
+      "category": "research",
+      "subcategory": "logistics",
+      "status": "stable",
+      "tags": [
+        "research",
+        "logistics",
+        "travel",
+        "reporting-trip",
+        "planning",
+        "safety"
+      ]
+    },
+    {
+      "name": "coverage-review-brief",
+      "path": "skills/research/media/coverage-review-brief.md",
+      "description": "Produces a structured framework for reviewing how a topic has been covered by other media outlets — identifying the dominant narrative frames, the sources quoted, the angles explored, and the gaps in coverage — so a journalist can find the untold story and avoid repeating what has already been reported.",
+      "category": "research",
+      "subcategory": "media",
+      "status": "stable",
+      "tags": [
+        "research",
+        "media",
+        "coverage",
+        "analysis",
+        "competitive",
+        "framing"
+      ]
+    },
+    {
+      "name": "press-roundup-writer",
+      "path": "skills/research/media/press-roundup-writer.md",
+      "description": "Produces a structured press roundup that summarises how multiple outlets covered a single event or topic — organised by editorial angle rather than by outlet — so a reader can quickly understand the full range of media response without reading every article.",
+      "category": "research",
+      "subcategory": "media",
+      "status": "stable",
+      "tags": [
+        "research",
+        "media",
+        "press-review",
+        "roundup",
+        "analysis",
+        "summary"
+      ]
+    },
+    {
       "name": "competitor-coverage-brief",
       "path": "skills/research/media-competitive/competitor-coverage-brief.md",
       "description": "Produces a structured summary of how other outlets have already covered a given topic, so you can enter any story with a clear picture of the existing media landscape.",
@@ -3172,6 +3992,67 @@
         "beat-reporting",
         "story-discovery",
         "audience-signals"
+      ]
+    },
+    {
+      "name": "person-biography-brief",
+      "path": "skills/research/people/person-biography-brief.md",
+      "description": "Generates a structured biographical research plan for a specific person, listing the public-record sources to check, the biographical questions to answer, and the verification steps to confirm key claims — so the journalist walks into an interview or writes a profile with no blind spots.",
+      "category": "research",
+      "subcategory": "people",
+      "status": "stable",
+      "tags": [
+        "research",
+        "biography",
+        "profiling",
+        "people",
+        "investigation"
+      ]
+    },
+    {
+      "name": "policy-decision-maker-mapper",
+      "path": "skills/research/people/policy-decision-maker-mapper.md",
+      "description": "Produces a structured map of the key individuals and institutions with decision-making power over a specific policy issue — identifying who holds formal authority, who influences the process, and where the pressure points are for journalists covering the story.",
+      "category": "research",
+      "subcategory": "people",
+      "status": "stable",
+      "tags": [
+        "research",
+        "policy",
+        "decision-makers",
+        "stakeholders",
+        "government",
+        "mapping"
+      ]
+    },
+    {
+      "name": "press-office-finder",
+      "path": "skills/research/people/press-office-finder.md",
+      "description": "Produces a step-by-step guide for locating the correct press office, media contact, or spokesperson for a specific organisation, institution, or public figure — so the journalist sends their request to the right person on the first attempt.",
+      "category": "research",
+      "subcategory": "people",
+      "status": "stable",
+      "tags": [
+        "research",
+        "press-office",
+        "media-relations",
+        "contacts",
+        "people"
+      ]
+    },
+    {
+      "name": "publication-history-finder",
+      "path": "skills/research/people/publication-history-finder.md",
+      "description": "Produces a structured research plan for systematically locating everything a specific person has published, said on the record, or appeared in — across academic journals, news media, social media, podcasts, conferences, and official documents.",
+      "category": "research",
+      "subcategory": "people",
+      "status": "stable",
+      "tags": [
+        "research",
+        "publications",
+        "media-appearances",
+        "people",
+        "bibliography"
       ]
     },
     {
@@ -3624,6 +4505,39 @@
       ]
     },
     {
+      "name": "push-notification-writer",
+      "path": "skills/social-media/content/push-notification-writer.md",
+      "description": "Writes three push notification variants for a news story or content update, each optimized for different urgency levels and character limits, ready to paste directly into a CMS or notification platform.",
+      "category": "social-media",
+      "subcategory": "content",
+      "status": "stable",
+      "tags": [
+        "social-media",
+        "push-notifications",
+        "mobile",
+        "news-apps",
+        "engagement",
+        "breaking-news"
+      ]
+    },
+    {
+      "name": "seo-meta-description-writer",
+      "path": "skills/social-media/content/seo-meta-description-writer.md",
+      "description": "Writes two SEO-optimized meta descriptions for an article, landing page, or content piece — one maximized for keyword relevance, one maximized for click-through appeal — both within the 155-character display limit.",
+      "category": "social-media",
+      "subcategory": "content",
+      "status": "stable",
+      "tags": [
+        "social-media",
+        "SEO",
+        "meta-descriptions",
+        "web",
+        "search",
+        "SERP",
+        "click-through"
+      ]
+    },
+    {
       "name": "short-form-video-brief",
       "path": "skills/social-media/content/short-form-video-brief.md",
       "description": "Writes a brief for a 15–60 second short-form video for TikTok, Instagram Reels, or YouTube Shorts — including hook, body structure, visual direction, and call to action, ready to hand to a creator or editor.",
@@ -3655,6 +4569,22 @@
         "x",
         "long-form",
         "journalism"
+      ]
+    },
+    {
+      "name": "ab-social-post-tester",
+      "path": "skills/social-media/strategy/ab-social-post-tester.md",
+      "description": "Generates two distinct social media post variants for the same content — each using a different hook strategy, tone, or call to action — with a clear hypothesis for what each variant tests, ready for split-testing on any platform.",
+      "category": "social-media",
+      "subcategory": "strategy",
+      "status": "stable",
+      "tags": [
+        "social-media",
+        "A/B-testing",
+        "optimization",
+        "engagement",
+        "strategy",
+        "copywriting"
       ]
     },
     {
@@ -3702,6 +4632,136 @@
         "planning",
         "platforms",
         "media-brand"
+      ]
+    },
+    {
+      "name": "tag-keyword-generator",
+      "path": "skills/social-media/strategy/tag-keyword-generator.md",
+      "description": "Generates a structured set of tags and keywords for an article, video, or podcast episode — organized by priority tier and optimized for the target platform's discovery algorithm.",
+      "category": "social-media",
+      "subcategory": "strategy",
+      "status": "stable",
+      "tags": [
+        "social-media",
+        "tags",
+        "keywords",
+        "SEO",
+        "discoverability",
+        "YouTube",
+        "podcast",
+        "CMS"
+      ]
+    },
+    {
+      "name": "social-post-translator",
+      "path": "skills/translation/digital/social-post-translator.md",
+      "description": "Translates social media posts from one language to another, adapting tone, character limits, hashtags, and cultural references for the target audience while preserving the post's intent and engagement mechanics.",
+      "category": "translation",
+      "subcategory": "digital",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "social-media",
+        "digital",
+        "adaptation",
+        "platforms",
+        "localization"
+      ]
+    },
+    {
+      "name": "press-release-translator",
+      "path": "skills/translation/institutional/press-release-translator.md",
+      "description": "Translates a complete press release from one language to another, preserving corporate terminology, regulatory phrasing, and newswire formatting conventions appropriate to the target market.",
+      "category": "translation",
+      "subcategory": "institutional",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "press-release",
+        "institutional",
+        "corporate",
+        "multilingual",
+        "localization"
+      ]
+    },
+    {
+      "name": "regional-variant-adapter",
+      "path": "skills/translation/localization/regional-variant-adapter.md",
+      "description": "Adapts text from one regional variant of a language to another — such as British English to American English, European Portuguese to Brazilian Portuguese, or Castilian Spanish to Mexican Spanish — adjusting vocabulary, spelling, idioms, and cultural references while preserving meaning and tone.",
+      "category": "translation",
+      "subcategory": "localization",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "localization",
+        "regional",
+        "adaptation",
+        "variants",
+        "dialect"
+      ]
+    },
+    {
+      "name": "translation-reviewer",
+      "path": "skills/translation/quality/translation-reviewer.md",
+      "description": "Reviews a translated text against its source original, producing a structured quality report that flags accuracy errors, fluency issues, and cultural mismatches — each with a specific correction and rationale.",
+      "category": "translation",
+      "subcategory": "quality",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "quality",
+        "review",
+        "accuracy",
+        "editing",
+        "proofreading"
+      ]
+    },
+    {
+      "name": "translation-glossary-builder",
+      "path": "skills/translation/reference/translation-glossary-builder.md",
+      "description": "Creates a structured bilingual or multilingual glossary of key terms for a project, organization, or subject area, ensuring consistent translation across all deliverables.",
+      "category": "translation",
+      "subcategory": "reference",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "glossary",
+        "terminology",
+        "consistency",
+        "reference",
+        "localization"
+      ]
+    },
+    {
+      "name": "article-translator",
+      "path": "skills/translation/text/article-translator.md",
+      "description": "Translates a news or feature article from one language to another, preserving journalistic register, factual precision, and the editorial voice of the original.",
+      "category": "translation",
+      "subcategory": "text",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "article",
+        "journalism",
+        "languages",
+        "precision",
+        "register"
+      ]
+    },
+    {
+      "name": "quote-translator",
+      "path": "skills/translation/text/quote-translator.md",
+      "description": "Translates individual quotes or quoted passages from one language to another, preserving the speaker's voice, intent, and attribution context while following target-language journalistic conventions.",
+      "category": "translation",
+      "subcategory": "text",
+      "status": "stable",
+      "tags": [
+        "translation",
+        "quotes",
+        "interviews",
+        "tone",
+        "nuance",
+        "attribution"
       ]
     },
     {
@@ -4024,6 +5084,22 @@
       ]
     },
     {
+      "name": "transcript-timecoder",
+      "path": "skills/tv-documentary/post-production/transcript-timecoder.md",
+      "description": "Adds broadcast-standard timecodes to a plain transcript at regular intervals or at speaker changes, producing a timecoded transcript formatted for use in documentary editing, paper edits, and compliance delivery.",
+      "category": "tv-documentary",
+      "subcategory": "post-production",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "post-production",
+        "transcript",
+        "timecodes",
+        "editing",
+        "logging"
+      ]
+    },
+    {
       "name": "archival-footage-brief",
       "path": "skills/tv-documentary/pre-production/archival-footage-brief.md",
       "description": "Produces a detailed brief for archive research, specifying the historical footage, photographs, documents, or audio needed for a documentary and identifying the most likely sources to find them.",
@@ -4039,6 +5115,56 @@
       ]
     },
     {
+      "name": "call-sheet-writer",
+      "path": "skills/tv-documentary/pre-production/call-sheet-writer.md",
+      "description": "Drafts a complete production call sheet for a documentary shoot day, with crew calls, talent schedules, location details, parking, weather notes, and emergency contacts — formatted for immediate distribution.",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "pre-production",
+        "call-sheet",
+        "scheduling",
+        "logistics",
+        "crew"
+      ]
+    },
+    {
+      "name": "equipment-list-generator",
+      "path": "skills/tv-documentary/pre-production/equipment-list-generator.md",
+      "description": "Generates a categorised equipment packing list for a documentary shoot, tailored to the production format, shooting conditions, and crew size — ready to use as a hire order, packing checklist, or kit manifest.",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "pre-production",
+        "equipment",
+        "kit",
+        "logistics",
+        "camera",
+        "sound",
+        "lighting"
+      ]
+    },
+    {
+      "name": "location-request-letter",
+      "path": "skills/tv-documentary/pre-production/location-request-letter.md",
+      "description": "Writes a formal, professional letter requesting permission to film at a specific location, covering the production's purpose, proposed dates, crew size, insurance, and any measures to minimise disruption.",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "pre-production",
+        "location",
+        "permissions",
+        "correspondence",
+        "filming"
+      ]
+    },
+    {
       "name": "location-scout-brief",
       "path": "skills/tv-documentary/pre-production/location-scout-brief.md",
       "description": "Writes a structured brief for filming a specific location, covering visual and narrative requirements, logistics, permissions, and contingency planning.",
@@ -4051,6 +5177,22 @@
         "locations",
         "production",
         "scouting"
+      ]
+    },
+    {
+      "name": "production-budget-estimator",
+      "path": "skills/tv-documentary/pre-production/production-budget-estimator.md",
+      "description": "Produces a structured line-item budget estimate for a documentary production or a specific production phase, using standard industry rate ranges and the project specification you provide.",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "pre-production",
+        "budget",
+        "finance",
+        "planning",
+        "costing"
       ]
     },
     {
@@ -4081,6 +5223,23 @@
         "research",
         "subjects",
         "interview-prep"
+      ]
+    },
+    {
+      "name": "animated-explainer-script",
+      "path": "skills/tv-documentary/scripting/animated-explainer-script.md",
+      "description": "Writes a complete narration script for an animated explainer sequence within a documentary, with visual direction cues synced to each beat — ready to hand to a narrator and an animation team simultaneously.",
+      "category": "tv-documentary",
+      "subcategory": "scripting",
+      "status": "stable",
+      "tags": [
+        "documentary",
+        "scripting",
+        "animation",
+        "explainer",
+        "narration",
+        "graphics",
+        "data-visualisation"
       ]
     },
     {
