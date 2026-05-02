@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 199 stable · 178 beta · 0 draft · 0 planned · 377 total (354 + 23 locale variants)
+**Summary:** 199 stable · 178 beta · 0 draft · 10 planned · 387 total (364 + 23 locale variants)
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -28,6 +28,59 @@ All skills are listed by category and subcategory. Update this file every sessio
 - [ ] Expanded test inputs for top 50 skills
 - [ ] Community skill submissions (first external PRs)
 - [ ] Localized skill variants (DE, FR, ES) for European broadcasters
+- [ ] Peer-library additions (see *Peer-Library Learnings* below): 4 new skills + 2 new subcategories (10 planned skills)
+- [ ] Refactor: deepen `magazine-journalism/investigation/foia-request-writer` to procedural depth (50-state statute table, federal template, appeal template)
+- [ ] Editorial voice-and-style guide derived from `ai-writing-detox` banned list
+- [ ] Spike: runtime quality hooks system ([AUT-19](https://github.com/ur-grue/autopunk-media-skills/issues), owned by FoundingEngineer)
+
+---
+
+## Peer-Library Learnings
+
+Source: [AUT-17](https://github.com/ur-grue/autopunk-media-skills/issues) — read of `jamditis/claude-skills-journalism` end-to-end. Translated into roadmap directives below. Per-skill tasks fan out from this section; the doctrine and anti-recommendations apply to *all* skill work going forward.
+
+### Refactor Targets
+
+| Skill | Current state | Target state | Why |
+|-------|---------------|--------------|-----|
+| `magazine-journalism/investigation/foia-request-writer` | ✅ stable (4.5/5), but underweight | Add 50-state public-records statute table with citations · full federal request template with segregability/exemptions/fee-waiver boilerplate · appeal template · redaction-analysis section · keep the Input/Output block on top of a richer body | Peer's `foia-requests` reads as a working professional toolkit a journalist could file from. Ours teaches the form but doesn't carry the templates. *Reader respect* lens — assume the reader is a working journalist and give them the artefacts. |
+
+When refactor lands, keep `eval_score` and re-run G-Eval before re-stamping `stable`. Status badge stays `stable` during the refactor — the existing skill works; this is a depth upgrade, not a regression.
+
+### Editorial Discipline (governs every skill example)
+
+These are doctrine, not new skills. Every Input/Output block, README section, and tutorial we write from now on is held to these rules. Source: peer's `ai-writing-detox`, distilled.
+
+**Banned words / phrases** (cull on sight):
+
+- `delve`, `utilize`, `leverage`, `robust`, `seamless`, `cutting-edge`, `unleash`, `harness`, `streamline`, `holistic`, `synergy`
+- `not just X — Y` and `it's not about X, it's about Y` constructions
+- "In this section, we will discuss…" / "It is worth noting that…" / "It's important to remember that…" — throat-clearing intros
+- "Whether you're a journalist or a producer…" — false-inclusive openers
+- Marketing intensifiers when no claim is being made: `truly`, `actually`, `simply`, `essentially`
+
+**Style rules:**
+
+- **Sentence-case headings.** Not Title Case. Not ALL CAPS.
+- **One idea per sentence.** Short Anglo-Saxon verbs over Latinate ones (`use` not `utilize`, `help` not `facilitate`, `show` not `demonstrate`).
+- **Active voice by default.** Passive only when the actor is genuinely unknown or irrelevant.
+- **Cut the meta.** Don't explain that you're about to do something. Just do it.
+- **Honest hedging.** "We don't know yet" beats "may potentially help with…". If something is uncertain, say so plainly.
+- **No padding for length.** Long because it has to be, never long because it looks more impressive long.
+
+**Procedural-skill body convention:** for skills where the deliverable IS a template (FOIA request, source-verification trail, fact-check workflow), the body should carry the working template the user can copy and file. Keep the standard Input/Output block — but let the body do more craft heavy-lifting. Optional `templates/` subdirectory under those skill files when the template warrants its own artefact.
+
+**Lens citations:** *Plain-language default* (banned words), *Cut the meta* (throat-clearing ban), *Show the example* (procedural body convention), *Honest hedging* (no fake certainty), *Concrete over abstract* (Anglo-Saxon verbs).
+
+### Anti-Recommendations
+
+The peer library is a useful mirror. These are the things we deliberately did NOT borrow from it, and the reasons — captured here so future contributors don't re-litigate.
+
+- **Don't downgrade frontmatter to the peer's minimalist `name` + `description` only.** Our `status` / `category` / `subcategory` / `version` / `eval_score` / `tags` block is the public quality signal. A reader can tell at a glance which skills are stable and how they scored. Remove that and we're indistinguishable from any unscored skill repo.
+- **Don't reorganise to one-folder-per-skill at root.** Production-stage taxonomy (development → pre-production → scripting → post-production → distribution → analytics) is a discoverability win. Peer's flat `skill-name/SKILL.md` layout works at 37 skills; it would collapse at 354.
+- **Don't ship dev / security / programming skills.** Wrong audience. Skills like `test-first-bugs`, `vibe-coding`, `secure-auth`, `electron-dev`, `mobile-debugging` belong in a developer skill library. Adding them here dilutes the editorial focus and confuses the target user (working journalists, producers, podcasters).
+- **Don't replace G-Eval with a lint-only check.** Peer's `skill-lint.yml` validates that frontmatter exists and the file is listed in their README. Useful, but not a quality bar. Our G-Eval (6 dimensions × 4.0/5 threshold) is what makes `stable` mean something.
+
 ---
 
 ## TV Documentary
@@ -129,11 +182,13 @@ All skills are listed by category and subcategory. Update this file every sessio
 ### investigation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | ✅ stable (4.5/5) |
+| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | ✅ stable (4.5/5) ↻ refactor planned (see *Refactor Targets*) |
 | source-research-brief | Produce a structured research brief on a potential source before an interview | ✅ stable (4.4/5) |
 | expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | ✅ stable (4.3/5) |
 | document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | ✅ stable (4.5/5) |
 | investigation-timeline-builder | Build a chronological timeline of events from raw notes and documents | ✅ stable (4.4/5) |
+| source-verification | Verify a source's claims, images, video, or documents using the SIFT framework, reverse-image search, EXIF inspection, and a verification-trail template | 🔲 planned |
+| social-media-intelligence | Open-source intelligence workflow for social accounts: account analysis, narrative tracking, and coordination-detection patterns | 🔲 planned |
 
 ### fact-checking
 | Skill | Description | Status |
@@ -141,6 +196,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 | claim-verification-checklist | Generate a point-by-point checklist of verifiable claims in a draft article | ✅ stable (4.5/5) |
 | source-credibility-brief | Produce a structured credibility assessment of a source | ✅ stable (4.3/5) |
 | statistics-fact-checker | Analyse statistics in a draft and flag any that are misrepresented or lack context | ✅ stable (4.4/5) |
+| fact-check-workflow | End-to-end fact-check orchestration: claim extraction → evidence gathering → rating scale → correction protocol. Composes the atomised fact-check skills above into one workflow | 🔲 planned |
 
 ### legal
 | Skill | Description | Status |
@@ -531,6 +587,13 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | travel-logistics-brief | Produce a logistics brief for a reporting trip | ✅ stable (4.39/5) |
 
+### preservation
+| Skill | Description | Status |
+|-------|-------------|--------|
+| web-archiving | Capture and preserve a live web page using Wayback Machine and Archive.today, returning a verifiable archive URL set | 🔲 planned |
+| page-monitoring | Set up periodic monitoring of a target page for content changes — for retraction tracking, narrative drift, deletion alerts | 🔲 planned |
+| content-access | Locate accessible copies of paywalled or removed material via Unpaywall, CORE, Semantic Scholar, and equivalent open-access routes | 🔲 planned |
+
 ---
 
 ## Translation
@@ -584,3 +647,27 @@ All skills are listed by category and subcategory. Update this file every sessio
 |-------|-------------|--------|
 | fact-sheet-compiler | Compile a structured fact sheet or glossary on a topic for editorial reference | ✅ stable (4.44/5) |
 | teaser-block-writer | Write "related articles," "previously on," or "read next" teaser blocks | ✅ stable (4.33/5) |
+
+---
+
+## Editing
+
+Cross-cutting editorial meta-skills. Lives at the top level (not under any single format) because these skills raise the floor on the output of every other skill in the library.
+
+### voice
+| Skill | Description | Status |
+|-------|-------------|--------|
+| ai-writing-detox | Rewrite AI-flavoured copy to a publishable register: cull banned words and phrases, fix throat-clearing intros and "not just X — Y" patterns, supply before/after examples. Also exposes the canonical banned-list referenced by the editorial discipline section above | 🔲 planned |
+
+---
+
+## Workflows
+
+Meta-layer skills for using a skill library on a real project — scaffolding, retrospection, template selection. Not tied to any single media format.
+
+### scaffolding
+| Skill | Description | Status |
+|-------|-------------|--------|
+| project-memory | Generate a project-specific `CLAUDE.md` (or equivalent agent context file) from a short project brief, preserving voice, audience, and editorial constraints across sessions | 🔲 planned |
+| project-retrospective | Generate a `LESSONS.md` from a finished project: what worked, what didn't, what to reuse, what to retire — formatted for next-project carry-over | 🔲 planned |
+| template-selector | Recommend the right skill bundle and project-memory template for a new project type (publication / event / pipeline / archive / research) | 🔲 planned |
