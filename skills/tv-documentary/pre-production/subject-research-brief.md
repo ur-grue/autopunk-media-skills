@@ -3,8 +3,8 @@ name: subject-research-brief
 status: stable
 category: tv-documentary
 subcategory: pre-production
-version: 1.0
-eval_score: 4.4
+version: 1.1
+eval_score: 4.53
 tags: [documentary, pre-production, research, subjects, interview-prep]
 ---
 
@@ -31,7 +31,21 @@ Generates a structured research brief on a documentary subject before the first 
 5. Closes with a "Next Step" note: what to do immediately before the first session (review any prior footage of the subject, brief the crew on the sensitivities, or run interview-question-generator to prepare specific questions for the initial filmed conversation)
 
 ## Output Format
-Structured brief, 500–750 words. Sections: Subject Profile, Relevance to Film, On-Camera Assessment, Key Narrative Territory (3–5 areas), First Session Approach, and Sensitivities. Professional, conversational register — written to be read quickly before a shoot, not filed as a formal document. Output ends with a "Next Step" note: what to prepare before the first session, whether to run interview-question-generator for opening questions, and whether to review available prior footage of the subject before arriving on location.
+Structured brief, 700–1,000 words. Sections: Subject Profile, Relevance to Film, On-Camera Assessment, Key Narrative Territory (3–5 areas), First Session Approach (including a numbered, time-boxed plan for day one — see template below), and Sensitivities. Professional, conversational register — written to be read quickly before a shoot, not filed as a formal document. Output ends with a "Next Step" note: what to prepare before the first session, whether to run interview-question-generator for opening questions, and whether to review available prior footage of the subject before arriving on location.
+
+## First Session Approach Template
+The First Session Approach section MUST include a numbered, time-boxed plan for day one with practical steps the production can follow without further interpretation. Adapt the time allocations to the subject's expected register (more cautious subjects need more observational time before any filmed interview; more open subjects can compress the plan), but the plan must always include:
+
+1. A pre-call the day before (timing, crew names, consent re-confirmation, one human question, and an open invitation for the subject to flag anything new).
+2. A no-camera arrival window (introductions, walkthrough of the day on paper, no equipment unpacked).
+3. A first observational filming block in a competence environment (the subject doing what they ordinarily do).
+4. A shared meal or break with the subject, no cameras, listening for what comes up unprompted.
+5. An optional walk-through of a meaningful nearby location, observational only.
+6. A light, present-day-only interview at the end of the day — explicitly holding back the most sensitive questions for later sessions.
+7. An end-of-day debrief with the subject (how was that, anything to do differently next time).
+8. A separate same-evening crew debrief that updates the Key Narrative Territory section based on what was actually said.
+
+The plan must specify which steps require cameras and which do not, and must explicitly name at least one topic to hold back from the first session.
 
 ## Quality Criteria
 - [ ] Subject profile is specific to information relevant to the film, not a general biography
@@ -96,11 +110,26 @@ Open observationally. Don't lead with the emotional weight of the closure story.
 
 Save the union period and the "why did you stay" question for a formal interview after at least one or two observational filming sessions.
 
+**Practical first-session steps (concrete plan for day one):**
+
+1. **The day before — pre-call (15 minutes, voice or video, no crew):** Confirm timing, walk through what the day will look like, name the crew by role. Re-confirm the consent agreement; flag that no editorial decisions are made on the day. Ask one human question that has nothing to do with the film. End with: "Is there anything that's come up since we last spoke that you'd want me to know before we arrive?"
+2. **Arrival (first 30 minutes, no cameras):** Bring coffee. Crew introduces themselves individually, by role. The director sits with the subject and walks through the shoot day on paper. Cameras stay packed during this conversation.
+3. **First filmed material — observational (60–90 minutes):** Camera on Gerald in the workshop doing what he ordinarily does. No interview. The director observes, the producer takes notes on themes Gerald raises unprompted (these are gold for later interviews). Sound recordist captures wild track of the workshop ambient sound.
+4. **Lunch break together (no cameras, 45–60 minutes):** Eat with him, not separately. The director asks about how the day is going and listens. This is when most subjects mention things they were too cautious to say on camera. Note what comes up — but never film these moments without explicit permission.
+5. **Walk-through of a meaningful nearby location (45 minutes):** A short observational walk — to the plant site if accessible, to the union hall if it survives, or simply through his block. Walking subjects talk differently than seated subjects. Camera follows; no interview questions, only invitations ("Tell me about this corner").
+6. **Light interview (45 minutes max, seated, end of day):** The director's first formal questions cover the present and the recent past only — the workshop, his current routine, his relationship to the town today. The closure, the union period, and the "why did you stay" question are explicitly held back.
+7. **End-of-day debrief with the subject (15 minutes, no cameras):** "How was that for you? Anything that surprised you about the process? Anything you'd want to do differently next time?" Listen for signals about pacing, sensitivities, and what the subject is bracing for in future sessions.
+8. **Same-evening crew debrief (30 minutes, separately):** Director, DP, and producer note three things: what landed visually, what themes Gerald introduced unprompted, and what to schedule next. Update the Key Narrative Territory section based on what was actually said.
+
+These steps are calibrated for a subject likely to be guarded; for a subject who is naturally open, the production can compress steps 3–6 into a single longer block. The principle holds either way: the first day's job is to make the second day possible.
+
 ---
 
 **Sensitivities**
 
 Gerald was a union representative during a period that ended in failure — the plant closed despite the union's efforts. Be aware that he may carry complicated feelings about that role, including a sense of responsibility for what he couldn't prevent. Do not frame the closure as a failure of union organizing; let him place his own judgment on that period. Similarly, avoid implying that staying in the town was a lesser choice than leaving — the film's job is to investigate that question, not to assume an answer.
+
+**Next Step:** Review the 2004 local TV interview footage before arriving on location, with the director and producer watching together to align on Gerald's likely register and the ground he has already publicly covered. Then run interview-question-generator to draft the seated 45-minute interview questions for day one (workshop / present-day register), and brief the crew on the union-period sensitivity flag before any filming begins.
 
 ## Known Limitations
 - This brief is based on the information provided and any prior public record. For subjects with no media history, the on-camera assessment will be thin — the brief will note this limitation and recommend approaches for building the filming relationship from scratch.

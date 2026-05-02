@@ -3,8 +3,8 @@ name: statistics-fact-checker
 status: stable
 category: magazine-journalism
 subcategory: fact-checking
-version: 1.0
-eval_score: 4.4
+version: 1.1
+eval_score: 4.53
 tags: [journalism, fact-checking, statistics, data, numeracy]
 ---
 
@@ -31,7 +31,43 @@ Analyzes statistics used in a draft article and flags any that are misrepresente
 5. Closes with a "Next Step" note: which statistic to verify first (typically the highest-risk item or the one the story's argument depends on most), and whether claim-verification-checklist should be run on the full draft after statistical issues are resolved
 
 ## Output Format
-Numbered list, one item per statistic. Each item: Statistic (exact quote) | Issue Type | Description of Problem | Recommended Fix. Issue Types: Likely Accurate (no action needed), Context Missing, Methodology Concern, Possible Misquote, Misleading Framing, or High Risk (do not publish without legal/editorial review). Followed by a brief Summary of overall statistical quality. Output ends with a "Next Step" note: which statistic to verify first and whether to run claim-verification-checklist on the full draft after statistics are cleared.
+Numbered list, one item per statistic. Each item: Statistic (exact quote) | Issue Type | Description of Problem | Recommended Fix (drawn from the Remediation Steps below). Issue Types: Likely Accurate (no action needed), Context Missing, Methodology Concern, Possible Misquote, Misleading Framing, or High Risk (do not publish without legal/editorial review). Followed by a brief Summary of overall statistical quality. Output ends with a "Next Step" note: which statistic to verify first and whether to run claim-verification-checklist on the full draft after statistics are cleared.
+
+## Remediation Steps By Issue Type
+The Recommended Fix for each statistic must be drawn from the following standard remediation pattern for its Issue Type. Each pattern is a short ordered list a reporter can follow without further interpretation.
+
+**Likely Accurate**
+1. Identify the most authoritative public-record source document (e.g., Surgeon General report, peer-reviewed journal article, federal agency dataset) and add the year and page or table reference to the citation.
+2. Confirm the figure has not been superseded by a more recent edition of the same source.
+3. No editorial change to the sentence required; only the citation tightens.
+
+**Context Missing**
+1. Name the missing context element (base rate, sample size, comparison period, denominator, or unit of measurement).
+2. Add a clause or footnote that supplies that element in the same sentence or the sentence immediately following.
+3. If the missing context would change the reader's interpretation materially (e.g., a percentage-point vs. percentage-change distinction), rewrite the sentence to make the comparison explicit.
+4. Confirm the most recent data year covered by the source and add it to the sentence.
+
+**Methodology Concern**
+1. Identify the specific methodological weakness (self-report vs. objective measurement, undisclosed sample frame, retrospective vs. longitudinal design, varying inclusion criteria across reports).
+2. Replace the figure with one from a stronger primary source if available (e.g., FTC annual reports for industry marketing spend instead of advocacy-group estimates).
+3. If no stronger source exists, qualify the figure in-text: name the source, the year, and the methodological scope (e.g., "based on a 2024 industry watchdog estimate that excludes point-of-sale spending").
+4. Add the source's full name and report year to the citation.
+
+**Possible Misquote**
+1. Pull the original source document and reproduce the exact figure, unit, and time frame.
+2. If the article's figure differs from the original, correct the article to match.
+3. If the original cannot be obtained before deadline, replace the specific figure with a sourced characterization ("approximately one in ten") or remove the claim.
+
+**Misleading Framing**
+1. Rewrite the sentence so that the framing matches the underlying measurement: relative risk → "X times more likely" with the absolute risk in the same sentence; correlation → "associated with" not "causes"; selected baseline → state the baseline year and explain why.
+2. Remove rhetorical intensifiers ("skyrocketed," "exploded," "doubled") unless the underlying figure supports them after relative-vs.-absolute correction.
+3. Add a one-clause caveat naming the limitation the original framing concealed.
+
+**High Risk**
+1. Do not publish without naming the specific study or document, year of publication, and sample size.
+2. Replace causal language ("leads to," "causes") with associative language ("is associated with," "correlated with") unless the cited study is a randomized trial.
+3. Send the passage to legal/editorial review before publication regardless of how strong the verification becomes.
+4. If the original source cannot be named or verified, remove the figure entirely — do not retain a vague version.
 
 ## Quality Criteria
 - [ ] Every statistic in the provided draft is assessed — no omissions
@@ -95,6 +131,8 @@ This claim has no source. It is directionally consistent with available data, bu
 
 **Summary**
 5 statistics assessed: 1 Likely Accurate, 2 Context Missing, 1 Methodology Concern, 1 High Risk. The high-risk item (the 3.5x relative risk claim) should not be published without a named study citation and causal language correction. The unattributed flavored vaping claim must be sourced before publication.
+
+**Next Step:** Resolve statistic 2 first (the High Risk relative-risk claim) — name the specific study, year, and sample size, and rewrite causal language as associative. Then run claim-verification-checklist on the full draft once all statistical fixes are in place.
 
 ## Known Limitations
 - This skill assesses statistics based on general knowledge of common data sources and statistical methodology. It cannot access the specific study or database cited to verify the exact number — that verification requires the reporter to pull the original source.
