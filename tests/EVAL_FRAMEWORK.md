@@ -200,16 +200,16 @@ Actionable output is immediately useful. It's the difference between "here's a f
 A score of 5 means: plug it directly into your workflow.
 A score of 2 means: this is a starting point at best.
 
-**Editorial Naturalness — Does it read like a human professional wrote it, or like AI?**
+**Editorial Naturalness — Does it read like a human professional wrote it, or like AI did?**
 Fluency asks whether the prose reads smoothly. Editorial Naturalness asks something tougher: does it sound like a working professional in the medium, or like a chatbot doing a passable impression of one? Generic AI output can be perfectly fluent and still announce itself as AI by the third sentence. This dimension catches that.
 
-A score of 5 means: a working editor could file the output as-is. The phrasing, structure, and register sound like a human professional in the medium. None of the AI tells readers learn to spot are there — no "delve into," no "in today's fast-paced world," no opener that just restates what the rest of the document will say, no closing paragraph that summarises what you just read.
+A score of 5 means: a working editor could file it as-is. The phrasing, structure, and register sound like a human professional in the medium — none of the AI tells are there. No "delve into," no "in today's fast-paced world," no opener that just restates what the rest of the document will say, no closing paragraph that summarises what you just read.
 
 A score of 3 means: competent but recognisable. The reader pauses and wonders "did a bot write this?" — usually because of a few telltale phrases, a forced three-bullet structure, or a register that doesn't quite fit the format (show notes that read like LinkedIn posts, a treatment that reads like a blog post).
 
 A score of 2 or below means: the output reads like generic AI content. A media professional would not file it under their name.
 
-**Why this dimension is a hard floor.** Ask any editor or producer about AI-generated work and a version of *"it reads like AI wrote it"* comes up first. Editorial Naturalness is the dimension we built to catch that before they have to. So it doesn't just count toward the average score: a skill has to clear 4 out of 5 here on its own before we mark it `stable`. A skill can score five out of five on every other dimension and still miss `stable` because its output sounds like ChatGPT. That is the exact failure this dimension exists to surface.
+**Why this dimension is a hard floor.** Ask any editor or producer about AI-generated work and some version of *"it reads like AI wrote it"* comes up first. Editorial Naturalness is the dimension we built to catch that before they have to. So it doesn't just contribute to the average — a skill has to clear 4 out of 5 here on its own before we mark it `stable`. A skill can score 5 out of 5 on every other dimension and still miss `stable` because its output sounds like ChatGPT. That is the exact failure this dimension exists to surface.
 
 ### What Does 4.0/5 Actually Look Like?
 
