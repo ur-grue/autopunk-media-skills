@@ -4,7 +4,7 @@ status: stable
 category: magazine-journalism
 subcategory: fact-checking
 version: 1.1
-eval_score: 4.53
+eval_score: 4.60
 tags: [journalism, fact-checking, statistics, data, numeracy]
 ---
 

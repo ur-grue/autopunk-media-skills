@@ -51,5 +51,18 @@
       },
       "notes": "Domains covered technical forensics, state IT policy, and legal liability. Sourcing risks section correctly warned about vendor NDAs restricting forensics firms. Actionability was slightly lower — some finding strategies were generic."
     }
-  ]
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "None. Imperative voice is direct and operational ('Come with data,' 'Lead with the systemic question, not the specific hospital, to lower defensiveness').",
+    "strongest_genre_craft": "Working editor's voice — short sentences, named platforms, specific search filters. The Sourcing Risks section names real failure modes ('advocacy capture,' 'overreliance on government sources') without abstracting them. Reads like a memo from a senior investigations editor briefing a junior reporter.",
+    "new_overall_mean_7dim": 4.54,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
 }

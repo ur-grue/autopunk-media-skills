@@ -51,5 +51,18 @@
       },
       "notes": "Correctly addressed the public filming permissions context and the distinction between filming in a public space and filming participants without consent. Noted police presence protocols for production safety."
     }
-  ]
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "None. The Location Function paragraph uses vivid, specific imagery ('a working environment that no longer works,' 'the physical argument for the community's sense of displacement') without crossing into purple prose.",
+    "strongest_genre_craft": "Site Visit Checklist items are physically verifiable on location ('Time it carrying a 60-pound case,' 'Sit silently in the turbine hall for 5 minutes') rather than abstract ('assess accessibility'). That move from abstraction to verifiable action is the genre craft of a line producer's brief.",
+    "new_overall_mean_7dim": 4.54,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
 }

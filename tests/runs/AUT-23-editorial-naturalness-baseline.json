@@ -1,0 +1,148 @@
+{
+  "issue": "AUT-23",
+  "title": "Add 'editorial naturalness' dimension to G-Eval framework — baseline pass on the 10 AUT-7 lifted skills",
+  "eval_date": "2026-05-03",
+  "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+  "evaluator": "Claude (EditorialLead agent, AUT-23 heartbeat) under CEO direction recorded in AUT-23 comment 12196048.",
+  "calibration_methodology": "Each skill was scored against its in-skill canonical example output. SKILL_TEMPLATE.md (post-AUT-23) explicitly designates the example as the dimension reviewer's primary calibration target — if the example reads like AI, every output the skill produces will too. This is a single-output baseline pass: a full 3-input re-eval against varied inputs is a follow-up that should be triggered for any skill scoring 3 or below on this dimension. None of the ten skills triggered that follow-up: all scored 5/5.",
+  "scope_note_aut7_sync": "The pre-existing .evals.json files for these 10 skills were never updated by the AUT-7 actionability relift (commit 040690a) — they still reflect the original pre-AUT-7 dimension means and per-test-case scores, even though the public eval_score in the skill frontmatter and the EVAL_SUMMARY.md table both reflect post-AUT-7 values. AUT-23 does NOT rewrite the per-test-case scoring history (which is a record of the original eval session and should stay). Instead, AUT-23 adds an editorial_naturalness_baseline top-level block to each .evals.json containing the AUT-23 scoring evidence, and updates the frontmatter eval_score to the new 7-dimension mean computed from the AUT-7 after numbers (recorded in tests/runs/AUT-7-actionability-relift.json) plus the new Editorial Naturalness score. EVAL_SUMMARY.md is the public truth of record and is updated in this commit to match.",
+  "threshold_rule": "Per CEO direction (AUT-23 comment 12196048): stable now requires (overall mean ≥ 4.0 across 7 dimensions) AND (Editorial Naturalness ≥ 4.0 individually as a hard floor). Demotion policy if > 5 fall below the floor: pause and escalate. ≤ 5: demote and open per-skill lift-editorial-naturalness child issues without further check-in. Outcome: zero demotions — all 10 skills cleared the hard floor at 5/5.",
+  "skills": [
+    {
+      "skill": "statistics-fact-checker",
+      "category": "magazine-journalism",
+      "subcategory": "fact-checking",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Verbs are direct ('flag,' 'verify,' 'pull'). Hedge language is technical and earned ('confidence interval,' 'requires verification'). 'Skyrocketed' / 'exploded' appear only in quoted source material being checked, not in the output's own voice.",
+      "strongest_genre_craft": "The Issue Type taxonomy (Likely Accurate / Context Missing / Methodology Concern / Possible Misquote / Misleading Framing / High Risk) is exactly the working vocabulary a magazine fact-checking desk uses. The Next Step note ('resolve statistic 2 first ... then run claim-verification-checklist') is a real working handoff, not a boilerplate close.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars: overall mean 4.60 ≥ 4.0 AND editorial_naturalness 5.0 ≥ 4.0 hard floor)"
+    },
+    {
+      "skill": "investigation-timeline-builder",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Status labels (CONFIRMED / SINGLE SOURCE / UNVERIFIED / DATE APPROXIMATE) are domain jargon, not filler. Em-dash use is functional, not parenthetical-in-every-sentence.",
+      "strongest_genre_craft": "The 'Internal Working Version — Not for Publication' subtitle is exactly the register marker a working investigations editor uses. Each gap entry is a populated remediation template with concrete custodians ('city clerk's office,' 'state corporation registry') and named owners — directly assignable as reporting tasks.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "libel-check-brief",
+      "category": "magazine-journalism",
+      "subcategory": "legal",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Latinate verbs that appear ('substantiate,' 'corroborate,' 'adjudicate') are legal terms of art, correctly used. 'Significantly' appears in legal-register technical context ('substantially more plaintiff-friendly').",
+      "strongest_genre_craft": "The Red/Amber/Green tiering with per-passage Legal Concern + Recommended Action + Suggested Rewrite is the standard structure of an in-house counsel pre-publication note. The closing disclaimer ('This brief is an editorial pre-screening tool. It is not a substitute for review by a qualified media attorney.') is the kind of italicised note a real media lawyer would write.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "character-arc-planner",
+      "category": "tv-documentary",
+      "subcategory": "development",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Phrasing is vivid and specific ('a woman who has made her peace — or believes she has,' 'the dam is her work problem, not yet her emotional problem'). No restate-the-question intro, no boilerplate close.",
+      "strongest_genre_craft": "The film's central question is articulated in a single line that earns its place: 'can you repair something if you are partly made of the forces that broke it?' That is genuine documentary thinking, not AI summarising. The translation rules ('one arc moment ≠ one shoot day,' 'reactive blocks need standby crew, not scheduled crew') are real working principles a producer would internalise.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "series-bible-generator",
+      "category": "tv-documentary",
+      "subcategory": "development",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "Borderline only: 'The tone is neither elegiac nor polemical' is a controlled antithesis but earns its place by rejecting two specific common documentary modes the bible is positioning against. Not counted as a tell.",
+      "strongest_genre_craft": "The bible shifts register accurately between sections — punchy logline, substantive overview, broadcaster-specific commissioning vocabulary that uses each broadcaster culture's actual editorial language (PBS public-interest mandate, Channel 4 distinctive-voice register, ARTE in French). That register agility is the genre craft commissioning editors look for.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "subject-research-brief",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. The colloquial parenthetical '(these are gold for later interviews)' is appropriate to the 'professional, conversational register' the spec calls for, not a sycophantic break.",
+      "strongest_genre_craft": "Doc director's working voice is correctly inhabited — observational and specific ('His working life was built entirely within a single institution before it disappeared beneath him at 42,' 'the first day's job is to make the second day possible'). The 8-step first-session plan distinguishes camera and no-camera moments correctly, which is the practical knowledge a working director carries.",
+      "previous_dimensions_post_aut7": {"overall": 4.53, "coherence": 4.7, "consistency": 4.3, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.60,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "source-credibility-brief",
+      "category": "magazine-journalism",
+      "subcategory": "fact-checking",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. The Editorial Verdict line ('an advocate first and a researcher second') is a real, specific judgment, not hedge fog.",
+      "strongest_genre_craft": "Neutral analytical voice held throughout — no editorialising about the source's character, but a clear weight assignment based on observable factors (institutional mission, funding, methodology). The Follow-Up Questions are tailored with the source's actual claims and organization name, which is the operational standard fact-checking desks expect.",
+      "previous_dimensions_post_aut7": {"overall": 4.47, "coherence": 4.7, "consistency": 4.3, "fluency": 4.3, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.54,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "expert-finder-brief",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Imperative voice is direct and operational ('Come with data,' 'Lead with the systemic question, not the specific hospital, to lower defensiveness').",
+      "strongest_genre_craft": "Working editor's voice — short sentences, named platforms, specific search filters. The Sourcing Risks section names real failure modes ('advocacy capture,' 'overreliance on government sources') without abstracting them. Reads like a memo from a senior investigations editor briefing a junior reporter.",
+      "previous_dimensions_post_aut7": {"overall": 4.47, "coherence": 4.7, "consistency": 4.3, "fluency": 4.3, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.54,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "archival-footage-brief",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. Cost-range qualification is technical and quantitative without being padded — every figure carries per-unit basis, rights window, territory, and year as the spec requires.",
+      "strongest_genre_craft": "The 'Archive availability for marginalized communities is systematically worse than for mainstream or institutional subjects' line is a real, concrete editorial observation — a working archive researcher's earned knowledge, not AI generality. The category-3 fallback plan ('if no moving-image footage is locatable, shift to stills + audio reconstruction') is the kind of contingency thinking that separates a brief from a wish list.",
+      "previous_dimensions_post_aut7": {"overall": 4.55, "coherence": 4.7, "consistency": 4.7, "fluency": 4.7, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.66,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    },
+    {
+      "skill": "location-scout-brief",
+      "category": "tv-documentary",
+      "subcategory": "pre-production",
+      "editorial_naturalness_score": 5,
+      "tells_observed": "None. The Location Function paragraph uses vivid, specific imagery ('a working environment that no longer works,' 'the physical argument for the community's sense of displacement') without crossing into purple prose.",
+      "strongest_genre_craft": "Site Visit Checklist items are physically verifiable on location ('Time it carrying a 60-pound case,' 'Sit silently in the turbine hall for 5 minutes') rather than abstract ('assess accessibility'). That move from abstraction to verifiable action is the genre craft of a line producer's brief.",
+      "previous_dimensions_post_aut7": {"overall": 4.47, "coherence": 4.7, "consistency": 4.3, "fluency": 4.3, "relevance": 4.3, "professionalism": 4.5, "actionability": 4.7},
+      "new_overall_mean_7dim": 4.54,
+      "new_editorial_naturalness_mean": 5.0,
+      "status_decision": "stable (passes both bars)"
+    }
+  ],
+  "summary": {
+    "skills_evaluated": 10,
+    "skills_passing_hard_floor": 10,
+    "skills_demoted": 0,
+    "demotion_list": [],
+    "escalation_triggered": false,
+    "escalation_threshold": "> 5 demotions",
+    "library_editorial_naturalness_average": 5.0,
+    "library_overall_mean_7dim_for_these_10": 4.59,
+    "next_actions": [
+      "Post the demotion list (in this case: empty) on AUT-23 for CEO record before AUT-23 is closed.",
+      "Hand off Section B prose review to BrandCopywriter as a follow-up child issue (non-blocking — the framework commit landed, BrandCopywriter reviews the public-facing prose after).",
+      "Future full-library Editorial Naturalness pass should evaluate the remaining 219 stable skills. That is a separate scope decision for the next eval round, not in AUT-23."
+    ],
+    "calibration_observation": "The 10 AUT-7 lifted skills were already constructed with editorial care — examples are vivid, registers inhabit the genre, no AI-template phrasing. This is partly a selection effect (AUT-7 was a careful relift round on already-stable skills), so a 10/10 pass is not evidence the wider library will perform identically. The next round's signal will come from category breadth, not from these 10."
+  }
+}

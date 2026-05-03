@@ -4,7 +4,7 @@ status: stable
 category: tv-documentary
 subcategory: development
 version: 1.1
-eval_score: 4.53
+eval_score: 4.60
 tags: [documentary, development, character, narrative, structure]
 ---
 

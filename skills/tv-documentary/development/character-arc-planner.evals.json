@@ -51,5 +51,18 @@
       },
       "notes": "Dramatic assessment was appropriately cautious about the legal restrictions. Arc was structured around what could be filmed (behavior, reactions) rather than statements that may be legally prohibited."
     }
-  ]
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "None. Phrasing is vivid and specific ('a woman who has made her peace — or believes she has,' 'the dam is her work problem, not yet her emotional problem'). No restate-the-question intro, no boilerplate close.",
+    "strongest_genre_craft": "The film's central question is articulated in a single line that earns its place: 'can you repair something if you are partly made of the forces that broke it?' That is genuine documentary thinking, not AI summarising. The translation rules ('one arc moment ≠ one shoot day,' 'reactive blocks need standby crew, not scheduled crew') are real working principles a producer would internalise.",
+    "new_overall_mean_7dim": 4.60,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
 }

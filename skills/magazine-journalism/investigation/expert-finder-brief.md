@@ -4,7 +4,7 @@ status: stable
 category: magazine-journalism
 subcategory: investigation
 version: 1.1
-eval_score: 4.47
+eval_score: 4.54
 tags: [journalism, investigation, experts, sourcing, research]
 ---
 

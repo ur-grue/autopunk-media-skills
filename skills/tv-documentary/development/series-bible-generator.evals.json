@@ -51,5 +51,18 @@
       },
       "notes": "Handled thin input gracefully — proposed a logical two-episode structure from the concept rather than failing on missing episode breakdowns. Tone section correctly avoided taking sides while acknowledging the series' structural point of view."
     }
-  ]
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "Borderline only: 'The tone is neither elegiac nor polemical' is a controlled antithesis but earns its place by rejecting two specific common documentary modes the bible is positioning against. Not counted as a tell.",
+    "strongest_genre_craft": "The bible shifts register accurately between sections — punchy logline, substantive overview, broadcaster-specific commissioning vocabulary that uses each broadcaster culture's actual editorial language (PBS public-interest mandate, Channel 4 distinctive-voice register, ARTE in French). That register agility is the genre craft commissioning editors look for.",
+    "new_overall_mean_7dim": 4.60,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
 }

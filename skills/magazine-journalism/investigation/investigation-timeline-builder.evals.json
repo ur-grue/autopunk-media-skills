@@ -51,5 +51,18 @@
       },
       "notes": "Handled contradictory dates correctly by presenting both accounts and flagging the discrepancy. Did not pick a side. Minor coherence issue: one entry description was longer than others without clear reason."
     }
-  ]
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "None. Status labels (CONFIRMED / SINGLE SOURCE / UNVERIFIED / DATE APPROXIMATE) are domain jargon, not filler. Em-dash use is functional, not parenthetical-in-every-sentence.",
+    "strongest_genre_craft": "The 'Internal Working Version — Not for Publication' subtitle is exactly the register marker a working investigations editor uses. Each gap entry is a populated remediation template with concrete custodians ('city clerk's office,' 'state corporation registry') and named owners — directly assignable as reporting tasks.",
+    "new_overall_mean_7dim": 4.60,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
 }

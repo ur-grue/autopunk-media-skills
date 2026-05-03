@@ -284,7 +284,7 @@ Length, structure, tone, language register, formatting.
 Full protocol in `tests/EVAL_FRAMEWORK.md`.
 
 **Standard:** G-Eval (NLG Evaluation using GPT-4 with Better Human Alignment)  
-**Threshold for `stable`:** Mean score ≥ 4.0/5 across all six dimensions
+**Threshold for `stable`:** (Overall mean ≥ 4.0/5 across all seven dimensions) AND (Editorial Naturalness ≥ 4.0/5 individually as a hard floor)
 
 | Dimension | What It Measures |
 |-----------|-----------------|
@@ -294,14 +294,18 @@ Full protocol in `tests/EVAL_FRAMEWORK.md`.
 | Relevance | Addresses exactly what was asked — no more, no less? |
 | Professionalism | Acceptable to an experienced media professional as-is? |
 | Actionability | Usable directly in production without major revision? |
+| Editorial Naturalness | Reads like a human professional in the medium, not generic AI output? *(hard floor — see EVAL_FRAMEWORK.md for the rubric anchored on observable lexical, structural, tonal, and genre tells)* |
 
 **To run an eval in Claude Code:**
 ```
 Run G-Eval for [skill-name].
 Read the skill file. Generate 3 test outputs using varied inputs.
-Score each output on all 6 dimensions (1-5 scale).
+Score each output on all 7 dimensions (1-5 scale), including Editorial Naturalness.
+For Editorial Naturalness, count tells against the four lists (lexical, structural, tonal, genre)
+and add a one-line note naming the strongest tell or the strongest piece of genre craft.
 Report mean per dimension and overall average.
-If overall mean ≥ 4.0, set status to stable and update eval_score in frontmatter.
+If overall mean ≥ 4.0 AND editorial_naturalness mean ≥ 4.0, set status to stable
+and update eval_score in frontmatter. Otherwise keep status as beta.
 ```
 
 **Important:** Raw eval data stays internal. The public sees only the badge and score in the skill frontmatter. Detailed quality evidence is published as readable PDF reports — not code or JSON — so any media professional can understand the quality standard without technical knowledge.
