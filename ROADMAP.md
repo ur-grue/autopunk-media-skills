@@ -657,7 +657,7 @@ Cross-cutting editorial meta-skills. Lives at the top level (not under any singl
 ### voice
 | Skill | Description | Status |
 |-------|-------------|--------|
-| ai-writing-detox | Rewrite AI-flavoured copy to a publishable register: cull banned words and phrases, fix throat-clearing intros and "not just X — Y" patterns, supply before/after examples. Also exposes the canonical banned-list referenced by the editorial discipline section above | 🔲 planned |
+| ai-writing-detox | Rewrite AI-flavoured copy to a publishable register: cull banned words and phrases, fix throat-clearing intros and "not just X — Y" patterns, supply before/after examples. Also exposes the canonical banned-list referenced by the editorial discipline section above | 🟡 draft |
 
 ---
 
