@@ -11,7 +11,7 @@ tags: [journalism, fact-checking, sources, credibility, verification]
 # Source Credibility Brief
 
 ## What This Skill Does
-Produces a structured credibility assessment of a source whose claims appear in a draft article, covering expertise, track record, potential conflicts of interest, and what corroboration is needed before publication.
+Assesses the credibility of a source whose claims appear in a draft — expertise, track record, conflicts of interest, and the corroboration needed before publication.
 
 ## When To Use This Skill
 - A source is making significant claims in a story and you want a systematic assessment before deciding how prominently to feature them

@@ -11,7 +11,7 @@ tags: [youtube, scripting, cta, subscribe, engagement]
 # Call To Action Generator
 
 ## What This Skill Does
-Writes multiple ready-to-record CTA script options for subscribe, like, comment, sponsor read, or channel promotion — matched to a channel's tone and placed at the right moment in a video.
+Writes ready-to-record CTA scripts — subscribe, like, comment, sponsor read, channel promotion — matched to the channel's tone and timed to the right moment.
 
 ## When To Use This Skill
 - You are scripting a new video and need a CTA that doesn't sound like every other channel's CTA

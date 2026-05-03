@@ -11,7 +11,7 @@ tags: [documentary, scripting, animation, explainer, narration, graphics, data-v
 # Animated Explainer Script
 
 ## What This Skill Does
-Writes a complete narration script for an animated explainer sequence within a documentary, with visual direction cues synced to each beat — ready to hand to a narrator and an animation team simultaneously.
+Writes a narration script for a documentary's animated explainer sequence — visual direction cues on each beat, ready to hand to the narrator and animation team.
 
 ## When To Use This Skill
 - Your documentary needs to explain a complex process, system, or dataset that cannot be shown with live-action footage

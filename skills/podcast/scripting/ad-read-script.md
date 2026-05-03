@@ -11,7 +11,7 @@ tags: [podcast, scripting, ads, sponsorship, host-read, monetization]
 # Ad Read Script
 
 ## What This Skill Does
-Writes a natural-sounding host-read ad script from a brand brief that fits the show's tone, meets typical sponsor requirements, and sounds like the host is speaking — not reading copy.
+Turns a brand brief into a host-read ad script that fits the show's tone, meets sponsor requirements, and sounds spoken — not read.
 
 ## When To Use This Skill
 - You have a new sponsor and need to write an ad read from their brief before your next recording session

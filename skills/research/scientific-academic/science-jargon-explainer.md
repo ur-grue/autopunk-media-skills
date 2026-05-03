@@ -11,7 +11,7 @@ tags: [science, jargon, translation, explainer, accessibility, journalism]
 # Science Jargon Explainer
 
 ## What This Skill Does
-Translates dense scientific terminology and technical language from academic papers, press releases, or expert interviews into plain English that a general-audience journalist can quote, paraphrase, or explain in a news story.
+Translates dense scientific terminology from academic papers, press releases, or expert interviews into plain English a journalist can quote or paraphrase.
 
 ## When To Use This Skill
 - You have a passage from a journal abstract or study methodology and need to understand what it actually says
