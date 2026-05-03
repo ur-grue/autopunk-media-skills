@@ -11,7 +11,7 @@ tags: [youtube, analytics, testing, titles, seo, optimization, click-through-rat
 # A/B Title Test Brief
 
 ## What This Skill Does
-Generates 4–5 distinct title variants for A/B testing on a YouTube video, each testing a different click psychology principle, with a rationale for each variant and a recommended testing hypothesis.
+Generates 4–5 title variants for A/B testing — each on a different click-psychology principle, with a rationale and a test hypothesis.
 
 ## When To Use This Skill
 - A published video has lower-than-expected click-through rate (CTR) and you want to test whether a title change improves performance

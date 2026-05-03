@@ -11,7 +11,7 @@ tags: [youtube, strategy, audience, persona, demographics, channel-growth]
 # Audience Persona Builder
 
 ## What This Skill Does
-Generates a detailed, practical audience persona profile for a YouTube channel — covering who the viewer is, what they need, why they watch, and what content decisions follow from understanding them.
+Generates an audience persona for the channel — who the viewer is, what they need, why they watch, and what content decisions follow.
 
 ## When To Use This Skill
 - You're starting a channel and want to define who you're making content for before you start publishing

@@ -11,7 +11,7 @@ tags: [youtube, pre-production, ideas, niche, ideation]
 # Niche Video Idea Generator
 
 ## What This Skill Does
-Generates 10 targeted video ideas for a specific YouTube niche, each with a working title, one-sentence hook, and content angle suited to the channel's style and audience.
+Generates 10 video ideas for the channel's niche — each with a working title, one-sentence hook, and content angle suited to the channel's voice.
 
 ## When To Use This Skill
 - You need a batch of fresh video ideas and your usual brainstorm isn't producing anything new

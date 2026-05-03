@@ -11,7 +11,7 @@ tags: [youtube, business, sponsorship, email, outreach, monetization]
 # Sponsorship Email Writer
 
 ## What This Skill Does
-Writes a professional, specific sponsorship proposal email for a defined YouTube integration type — dedicated video, mid-roll mention, or product placement — addressed to a brand's marketing or partnerships contact.
+Writes a sponsorship proposal email — dedicated video, mid-roll mention, or product placement — addressed to a brand's marketing or partnerships contact.
 
 ## When To Use This Skill
 - A brand has inquired about working together and you need a formal proposal email

@@ -11,7 +11,7 @@ tags: [youtube, business, media-kit, monetization, sponsorship, brand-partnershi
 # YouTube Media Kit Generator
 
 ## What This Skill Does
-Generates the complete text content for a YouTube channel media kit — the document brands use to evaluate a creator before committing to a partnership — structured as a ready-to-design one or two-page document.
+Writes a YouTube channel media kit — the text a brand reviews before committing to a partnership — sized for a one or two-page layout.
 
 ## When To Use This Skill
 - A brand has asked for a media kit and you don't have one

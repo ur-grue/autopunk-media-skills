@@ -11,7 +11,7 @@ tags: [youtube, post-production, community, engagement, social]
 # Community Post Generator
 
 ## What This Skill Does
-Writes an engaging YouTube Community tab post to promote a new video upload, tease upcoming content, or spark audience conversation — matched to the channel's voice.
+Writes a YouTube Community tab post to promote a new upload, tease upcoming content, or spark conversation — matched to the channel's voice.
 
 ## When To Use This Skill
 - You've just published a video and want a Community post that does more than just say "new video out"

@@ -11,7 +11,7 @@ tags: [youtube, business, brand-deals, sponsorship, outreach, monetization]
 # Brand Deal Pitch Writer
 
 ## What This Skill Does
-Writes a professional brand partnership pitch email to a prospective sponsor, presenting the channel's audience, relevant metrics, and specific integration options in a format that a marketing or partnerships team will take seriously.
+Writes a brand-partnership pitch email — channel audience, metrics, and integration options — in a format a marketing or partnerships team will take seriously.
 
 ## When To Use This Skill
 - You're approaching a brand for the first time and want a pitch that doesn't sound like a form letter

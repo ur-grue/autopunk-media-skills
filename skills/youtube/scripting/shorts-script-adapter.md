@@ -11,7 +11,7 @@ tags: [youtube, scripting, shorts, vertical-video, short-form, adaptation]
 # Shorts Script Adapter
 
 ## What This Skill Does
-Adapts a section of a long-form YouTube video script into a punchy, self-contained YouTube Shorts script under 60 seconds, optimized for vertical format and the Shorts feed.
+Adapts a section of a long-form YouTube script into a self-contained Shorts script under 60 seconds — optimized for vertical format and the Shorts feed.
 
 ## When To Use This Skill
 - You've published a long-form video and want to drive discovery by clipping one strong moment as a Short
