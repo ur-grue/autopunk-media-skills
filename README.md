@@ -2,6 +2,8 @@
 
 ![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate_(226_skills)-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange) ![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills) ![Agents](https://img.shields.io/badge/agents-Claude_Code_·_Cursor_·_Codex_·_Gemini-blueviolet)
 
+> *Built by a commissioning editor with 15+ years in public broadcasting.*
+
 ---
 
 ## Install
@@ -262,6 +264,6 @@ MIT — free to use, fork, and adapt. See `LICENSE`.
 
 Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers.
 
-Built by a commissioning editor with 15+ years in European public broadcasting. These skills encode real production knowledge from documentary development, magazine journalism, broadcast scripting, and international co-productions.
+These skills encode real production knowledge from documentary development, magazine journalism, broadcast scripting, and international co-productions.
 
 Want to contribute? See [CONTRIBUTING.md](CONTRIBUTING.md). Found a bug? [Open an issue](https://github.com/ur-grue/autopunk-media-skills/issues).
