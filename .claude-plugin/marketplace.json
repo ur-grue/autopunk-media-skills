@@ -1,7 +1,7 @@
 {
   "name": "autopunk-media-skills",
   "display_name": "Autopunk Media Skills",
-  "description": "427 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
+  "description": "428 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
   "version": "1.0.0",
   "author": "ur-grue",
   "homepage": "https://github.com/ur-grue/autopunk-media-skills",
@@ -581,6 +581,22 @@
         "punctuation",
         "journalism",
         "quality"
+      ]
+    },
+    {
+      "name": "ai-writing-detox",
+      "path": "skills/editing/ai-writing-detox.md",
+      "description": "Rewrites AI-flavoured copy into a publishable register by stripping the language tells of an LLM draft — buzzwords, throat-clearing, false-inclusive openers, and the \"not just X — Y\" rhetorical tic — and supplies the canonical banned-list that runtime hooks read to flag drafts before they ship.",
+      "category": "editing",
+      "subcategory": "editing",
+      "status": "draft",
+      "tags": [
+        "editing",
+        "voice",
+        "ai-slop",
+        "plain-language",
+        "copy-editing",
+        "house-style"
       ]
     },
     {
