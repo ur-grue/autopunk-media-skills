@@ -20,6 +20,8 @@ If you can't answer all three clearly, narrow the scope before writing.
 
 A placeholder example ("Your topic here", "Insert interview subject") is grounds for rejection.
 
+The example output is also the eval reviewer's primary calibration target for **Editorial Naturalness** — the dimension that scores how editorial vs how AI-template-y an output reads. If your example reads like AI, every output the skill produces will too. Write the example as if filing it to an editor: no "delve into," no "navigate the complexities of," no opener that restates what comes next, no closing paragraph that summarises what you just wrote, no Latinate filler verbs ("utilize," "facilitate," "leverage" where a plainer verb fits), no parenthetical em-dashes in every other sentence. See `tests/EVAL_FRAMEWORK.md` for the full tells reference and the 1–5 anchor rubric.
+
 **On limitations:** Every skill has at least one real limitation. Be honest. "May not work well for highly technical subjects" is useful. "Results may vary" is not.
 
 ---
@@ -62,6 +64,7 @@ Describe length, structure, tone, language register, and formatting conventions.
 - [ ] Specific, checkable criterion 1
 - [ ] Specific, checkable criterion 2
 - [ ] Specific, checkable criterion 3
+- [ ] Output is free of generic AI-template phrasing — no "delve into," "navigate the complexities of," Latinate filler verbs ("utilize," "facilitate," "leverage" where a plainer verb fits), restate-the-question intros, summary-of-the-summary closes, or em-dash overuse. (Required for `stable` — see Editorial Naturalness in `tests/EVAL_FRAMEWORK.md`.)
 
 ## Example
 
