@@ -1,0 +1,59 @@
+{
+  "skill_name": "page-monitoring",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.90,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 5.0,
+    "fluency": 5.0,
+    "relevance": 5.0,
+    "professionalism": 5.0,
+    "actionability": 5.0,
+    "editorial_naturalness": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "URL: https://www.city-planning-dept.example.gov/zoning/proposed-amendments. Context: City planning department posts proposed zoning amendments. A developer has applied to rezone agricultural land for a warehouse complex. Need to know immediately when the amendment language changes or new documents are added. Basic tech skills — comfortable with browser extensions but not scripts. Six-week monitoring period until council vote.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "No AI tells. Strongest craft: practical reasoning woven into setup instructions ('even a one-word change to amendment language matters here')."
+    },
+    {
+      "id": "tc2",
+      "input": "URLs: 14 pharmaceutical company pages publishing clinical trial results. Context: Health reporter tracking whether drug companies retroactively amend reported outcomes. Need continuous monitoring for six months. Newsroom has a developer for technical setup. Hourly checks preferred.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "No lexical tells. Appropriate technical register for newsroom developer audience. Strongest craft: monitoring log adapted with Company/URL column for multi-page scenario."
+    },
+    {
+      "id": "tc3",
+      "input": "URL: https://regional-water-authority.example.org/compliance/violations. Context: Water-quality violations page where authority posts violations briefly then removes them. Freelance reporter, no tech support, no budget. Weekly checks fine — building a long-term database.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: proactive advice to manually archive weekly even without alerts, and monitoring log adapted with 'Still on page?' column reflecting the removal pattern. No tells."
+    }
+  ]
+}

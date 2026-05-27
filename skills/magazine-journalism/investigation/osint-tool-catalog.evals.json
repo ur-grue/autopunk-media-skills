@@ -1,0 +1,59 @@
+{
+  "skill_name": "osint-tool-catalog",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.76,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 4.3,
+    "fluency": 5.0,
+    "relevance": 5.0,
+    "professionalism": 5.0,
+    "actionability": 4.3,
+    "editorial_naturalness": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "I'm a freelance journalist investigating illegal sand mining along rivers in Southeast Asia. I need OSINT tools for satellite imagery, transport tracking, and corporate ownership research. Intermediate level. Free tools preferred.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "No AI tells; reads like a reference note from an experienced investigator; strongest craft: the practical note on AIS gaps being themselves significant"
+    },
+    {
+      "id": "tc2",
+      "input": "I'm training our newsroom interns on OSINT basics. Can you give me a beginner-friendly catalog focused on social media monitoring and account analysis? Free tools only.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: the CrowdTangle entry explicitly noting it is dead and included only so interns stop looking for it — practical judgment a human trainer would include"
+    },
+    {
+      "id": "tc3",
+      "input": "We are investigating a network of front companies used for sanctions evasion. Focus on corporate records, financial research, and network analysis tools. We have budget for paid tools. Advanced level.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Clean and human-sounding throughout; one minor tell: the Legal and ethical notes section is slightly more structured than a working investigator would write; strongest craft: the honest note that US BOI data is not accessible to journalists despite the new law"
+    }
+  ]
+}

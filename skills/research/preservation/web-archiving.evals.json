@@ -1,0 +1,59 @@
+{
+  "skill_name": "web-archiving",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.96,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 5.0,
+    "fluency": 4.7,
+    "relevance": 5.0,
+    "professionalism": 5.0,
+    "actionability": 5.0,
+    "editorial_naturalness": 5.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "URL: https://ministry-of-health.example.gov/press-releases/pandemic-response-update-may-2026. Context: Government press release with case fatality rate statistics contradicting earlier statements. Minister's office has a history of quietly revising press releases. Filing story Thursday. No legal evidence needed — editorial preservation only.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: step 8's advice to screenshot the last-modified date stamp specifically, and step 9's re-archiving timeline — practical judgment, not template output"
+    },
+    {
+      "id": "tc2",
+      "input": "Two URLs: (1) CEO tweet with forward-looking revenue claim, (2) corporate earnings call transcript contradicting the tweet. Potential securities fraud case. Both need legal evidence preservation. Tweet could be deleted at any moment.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: priority reordering — archiving the tweet first because it is the deletion risk; the note about capturing deletion time itself if the tweet disappears mid-process"
+    },
+    {
+      "id": "tc3",
+      "input": "URL: Municipal planning portal with JavaScript-rendered interactive map for controversial housing development environmental impact assessment. Developer has political connections to council. Preserve before publication. Not legal evidence now, but want to keep option open.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: framing 'keeping the legal option open' as a five-minute insurance policy rather than a formal section; advice to re-archive after publication to create comparison record"
+    }
+  ]
+}

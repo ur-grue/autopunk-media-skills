@@ -1,0 +1,59 @@
+{
+  "skill_name": "content-access",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.96,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 5.0,
+    "fluency": 5.0,
+    "relevance": 5.0,
+    "professionalism": 5.0,
+    "actionability": 5.0,
+    "editorial_naturalness": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Looking for: WHO technical report 'Guidelines for drinking-water quality: Fourth edition incorporating the first and second addenda,' published 2022. WHO link returns 404. Need full PDF for a feature on drinking-water standards in developing countries. No institutional library access. One week available.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "No tells. Strongest craft: opens with most obvious source (WHO IRIS) rather than following generic template. Tone of a helpful colleague, not a tutorial."
+    },
+    {
+      "id": "tc2",
+      "input": "Looking for: 'Long-term cognitive outcomes following childhood lead exposure: a 30-year longitudinal cohort study' by Nakamura, Silva, and Okonkwo in The Lancet Neurology, 2025. DOI: 10.1016/S1474-4422(25)00123-4. Radio journalist producing documentary on childhood lead poisoning. Need full text today. Public library card but no university affiliation.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "No lexical or structural tells. Strongest craft: paper's likely funding source reasoned through rather than assumed; email advice ('do not use a subject line that looks like spam') reads as insider knowledge."
+    },
+    {
+      "id": "tc3",
+      "input": "Looking for: Corporate sustainability report by Consolidated Mining Group, published on investor-relations page in 2024, now removed (URL redirects to generic page). Report contained specific emissions figures for three mine sites cited in a published article. Industry PR person claims the report never existed. Need original document to defend published reporting.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: 'The removal itself is evidence' — observation a senior investigative editor would make. Output thinks like a journalist, not an information-retrieval system. No tells."
+    }
+  ]
+}

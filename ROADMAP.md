@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 454 stable skills · 5 stable hooks · 1 stable agent · 0 beta · 0 draft · 9 planned skills · 5 planned agents · 475 total
+**Summary:** 454 stable skills · 5 stable hooks · 1 stable agent · 0 beta · 0 draft · 9 planned skills · 5 planned agents · 477 total
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -26,7 +26,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [ ] Agents layer foundation — folder, template, README, conventions ([AUT-21](/AUT/issues/AUT-21))
 - [x] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22)) — stable, eval 4.81/5
 - [x] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23))
-- [ ] OSINT and verification category — 5 planned skills + 2 new ([AUT-24](/AUT/issues/AUT-24))
+- [x] OSINT and verification category — 7 skills shipped, all stable ([AUT-24](/AUT/issues/AUT-24))
 - [x] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
 
 ### Planned
@@ -601,9 +601,9 @@ The peer library is a useful mirror. These are the things we deliberately did NO
 ### preservation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| web-archiving | Capture and preserve a live web page using Wayback Machine and Archive.today, returning a verifiable archive URL set | 🔲 planned |
-| page-monitoring | Set up periodic monitoring of a target page for content changes — for retraction tracking, narrative drift, deletion alerts | 🔲 planned |
-| content-access | Locate accessible copies of paywalled or removed material via Unpaywall, CORE, Semantic Scholar, and equivalent open-access routes | 🔲 planned |
+| web-archiving | Capture and preserve a live web page using Wayback Machine and Archive.today, returning a verifiable archive URL set | ✅ stable (4.96/5) |
+| page-monitoring | Set up periodic monitoring of a target page for content changes — for retraction tracking, narrative drift, deletion alerts | ✅ stable (4.90/5) |
+| content-access | Locate accessible copies of paywalled or removed material via Unpaywall, CORE, Semantic Scholar, and equivalent open-access routes | ✅ stable (4.96/5) |
 
 ---
 

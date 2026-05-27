@@ -1,0 +1,59 @@
+{
+  "skill_name": "eu-document-access-builder",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.67,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 4.7,
+    "fluency": 4.3,
+    "relevance": 5.0,
+    "professionalism": 5.0,
+    "actionability": 4.7,
+    "editorial_naturalness": 4.0
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Target institution: Bundesministerium fuer Gesundheit (Federal Ministry of Health), Berlin. Jurisdiction: Germany (federal). Documents sought: Logs of all meetings between ministry officials and pharmaceutical industry representatives regarding the reform of the Arzneimittelpreisverordnung (pharmaceutical pricing regulation), from January 2025 to the present, including attendee lists, agendas, and any written summaries. Affiliation: Journalist at a German investigative news outlet. Language: German.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Correctly cites paragraph 1 IFG, paragraph 7(5) for the one-month deadline, paragraph 10 for fee waiver. German formal register is accurate ('Sehr geehrte Damen und Herren,' correct closing). Fee-waiver argument cites public interest specifically rather than relying on boilerplate. The genre is inherently formulaic, which caps naturalness — but within formal legal correspondence, the output hits the correct register precisely."
+    },
+    {
+      "id": "tc2",
+      "input": "Target institution: Bundesamt fuer Umwelt (Federal Office for the Environment, BAFU), Bern. Jurisdiction: Switzerland. Documents sought: All internal evaluations, risk assessments, and review correspondence related to the re-approval of chlorpyrifos-based pesticides conducted between January 2024 and the present. Affiliation: Freelance journalist. Language: German.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Correctly notes that no reason for the request is required under Art. 6 BGOG. Appeal pathway through EDOB mediation is accurate. Slight gap: the mediator route has its own response timelines that could be stated more explicitly. Swiss formal German register is handled correctly."
+    },
+    {
+      "id": "tc3",
+      "input": "Target institution: Ministere de l'Interieur, Direction generale de la Police nationale. Jurisdiction: France. Documents sought: All internal policy directives, evaluation reports, and pilot-programme documentation related to the deployment of facial recognition technology by French police forces, from January 2023 to the present. Affiliation: Journalist at a French digital investigative outlet. Language: French.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "French administrative register is correct ('Madame, Monsieur' salutation, 'Veuillez agreer' closing). Silence-constitutes-refusal rule and CADA referral pathway are accurately stated. The output reads like a request a French media lawyer would draft. Genre ceiling: formal FOI correspondence leaves limited room for distinctive voice, but the output is precisely correct for the form."
+    }
+  ]
+}

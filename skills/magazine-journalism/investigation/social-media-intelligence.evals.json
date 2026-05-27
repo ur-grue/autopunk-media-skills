@@ -1,0 +1,59 @@
+{
+  "skill_name": "social-media-intelligence",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.57,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 5.0,
+    "professionalism": 4.7,
+    "actionability": 4.3,
+    "editorial_naturalness": 4.3
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Platform: LinkedIn. Account: a profile claiming to be a senior engineer at a major European tech company, posting detailed allegations about systematic unpaid overtime and falsified working-time records. The account has been active for three weeks and has accumulated 12,000 followers. A labour-rights organisation forwarded the posts to our newsroom. Question: Is this account authentic — is it actually operated by a current employee of the company? Timeframe: last 30 days.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "LinkedIn-specific indicators (endorsement network, connection overlap with verified employees, employment-history consistency, profile-photo corporate headshot check) are handled well. Attribution boundaries are honest. No AI tells; reads like an analyst brief."
+    },
+    {
+      "id": "tc2",
+      "input": "Platform: Instagram. Accounts: a cluster of five accounts (@pure.wellness.hub, @vitaboost_daily, @realhealth.facts, @dr.natur.well, @supplement.truth99) all promoting the same unregulated dietary supplement and tagging a person who claims to be a doctor but has no verifiable medical licence. Question: Are these accounts coordinated, and is the 'doctor' persona authentic? Timeframe: last 60 days.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: the coordination-detection section draws a clear line between 'accounts that all promote the same product' (which could be organic enthusiasm or affiliate marketing) and 'accounts that exhibit identical creation windows, shared visual templates, and synchronised posting schedules' (which indicate single-operator coordination). Specificity over abstraction."
+    },
+    {
+      "id": "tc3",
+      "input": "Platform: TikTok. Account: @tapwater_truth, which posted a video claiming that tap water in a mid-sized Central European city contains unsafe levels of lead, citing an unnamed 'leaked government report.' The video has 2.1 million views. Local authorities deny the claim. Question: Where did this claim originate, how did it spread, and is the account part of a broader pattern? Timeframe: last 14 days.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Slight weakness: the skill's coordination-detection framework is optimised for cross-posting and hashtag-cluster analysis, which maps less naturally to TikTok's algorithm-driven amplification model. The narrative-tracking section compensates well, tracing the claim from TikTok to Telegram to X. No lexical tells, but the platform adaptation is thinner than for X/Twitter scenarios."
+    }
+  ]
+}

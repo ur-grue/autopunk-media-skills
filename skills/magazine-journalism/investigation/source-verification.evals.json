@@ -1,0 +1,59 @@
+{
+  "skill_name": "source-verification",
+  "status": "passed",
+  "eval_date": "2026-05-27",
+  "overall_mean": 4.73,
+  "dimension_means": {
+    "coherence": 5.0,
+    "consistency": 4.7,
+    "fluency": 4.7,
+    "relevance": 5.0,
+    "professionalism": 4.7,
+    "actionability": 4.3,
+    "editorial_naturalness": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Material: A 47-second video clip showing flames and thick black smoke rising from a large industrial building. Source says this is a fire at a pharmaceutical manufacturing plant in the Rhenish industrial corridor, filmed from a car park across the road at approximately 14:30 today. Source is anonymous, contacted the newsroom via Signal, no prior relationship. The source claims toxic chemicals are stored in the burning section. Deadline: tonight's online edition.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: the video-specific verification steps (keyframe extraction, lip-sync N/A for non-speech, temporal artefact checks at cut points, audio-visual sync analysis) are concrete and reporter-actionable. No AI tells detected."
+    },
+    {
+      "id": "tc2",
+      "input": "Material: A PDF scan of what appears to be an internal memo from a national health department, marked 'RESTRICTED — INTERNAL USE ONLY,' discussing the decision to delay publication of safety data on a widely used food colouring additive. Source is a current department employee who provided the document via a USB drive handed to the reporter at a meeting. Source has been a reliable contact on two previous stories. Publication deadline: end of week.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "No lexical or tonal tells. Slight structural density in the document-metadata section where PDF-specific forensic steps (revision count, embedded fonts, authoring-tool field) are listed sequentially without enough explanatory context for a reporter unfamiliar with PDF internals. Still within professional register."
+    },
+    {
+      "id": "tc3",
+      "input": "Material: A high-resolution aerial photograph showing heavy earthmoving equipment and fresh concrete foundations on what appears to be marshland. Source is a regional environmental NGO that says it found the image in a private Facebook group for local construction workers. The NGO claims the construction is inside a protected Natura 2000 wetland site and is being carried out without an environmental impact assessment. No direct contact with the photographer. Deadline: next issue, ten days away.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Strongest craft: the confidence-level justification ties GPS match to Natura 2000 boundary data and distinguishes between 'location confirmed' and 'legal status of construction unverified' — specific rather than hedged. C2PA section correctly flags absence as expected for consumer drone."
+    }
+  ]
+}
