@@ -3,28 +3,33 @@
 Actions that require human intervention — cannot be automated by CI/CD.
 
 ## GitHub Profile
-- [ ] Pin `autopunk-media-skills` on your GitHub profile (Settings > Pinned repositories)
-- [ ] Update ur-grue/ur-grue README.md with repo link (see `docs/marketing/profile-readme.md`)
+- [X] Pin `autopunk-media-skills` on your GitHub profile (Settings > Pinned repositories)
+- [X] Update ur-grue/ur-grue README.md with repo link (already present in profile README)
 
 ## Social Preview
-- [ ] Set `.github/banner.svg` as social preview: repo Settings > Social preview > Upload
+- [X] Set `.github/banner.svg` as social preview: repo Settings > Social preview > Upload
 
 ## Community Engagement
 - [ ] Star competing repos from ur-grue account:
-  - [ ] `jamditis/claude-skills-journalism`
-  - [ ] `fdaudens/ai-journalism-skills`
-  - [ ] `anthropics/skills`
-  - [ ] `Orchestra-Research/AI-Research-SKILLs`
-- [ ] Open friendly cross-link issue on `jamditis/claude-skills-journalism`:
-  - Title: "Cross-link: autopunk-media-skills (354 broadcast/TV/podcast skills)"
-  - Body: "Hey! Great collection for investigative journalism. We've built a complementary library focused on broadcast, TV documentary, podcast, and radio production (354 skills). Would you be open to a mutual cross-link in our READMEs? We already link to your repo in our Related Projects section. Happy to discuss."
-- [ ] Submit awesome-list PRs (see `docs/marketing/awesome-list-prs.md`)
+  - [X] `jamditis/claude-skills-journalism`
+  - [X] `fdaudens/ai-journalism-skills` — repo not found (404), skipped
+  - [X] `anthropics/skills`
+  - [X] `Orchestra-Research/AI-Research-SKILLs`
+- [X] Open friendly cross-link issue on `jamditis/claude-skills-journalism`:
+  - https://github.com/jamditis/claude-skills-journalism/issues/90
+- [X] Submit awesome-list PRs (see `docs/marketing/awesome-list-prs.md`):
+  - https://github.com/travisvn/awesome-claude-skills/pull/776
+  - https://github.com/ComposioHQ/awesome-claude-skills/pull/931
+  - https://github.com/BehiSecc/awesome-claude-skills/pull/323
 - [ ] Submit to directories (see `docs/marketing/directory-submissions.md`)
 
 ## Content Marketing
-- [ ] Write dev.to post: "354 Free Claude Skills for Media Professionals"
-- [ ] Post to r/ClaudeAI with 2-3 example outputs
-- [ ] LinkedIn post (EN) from maintainer profile
+- [X] Write dev.to post: "354 Free Claude Skills for Media Professionals" — draft at `docs/marketing/drafts/devto-post.md`
+- [X] Write r/ClaudeAI post with 2-3 example outputs — draft at `docs/marketing/drafts/reddit-r-claudeai.md`
+- [X] Write LinkedIn post (EN) — draft at `docs/marketing/drafts/linkedin-post.md`
+- [ ] **HUMAN ACTION:** Post dev.to article from draft
+- [ ] **HUMAN ACTION:** Post to r/ClaudeAI from draft
+- [ ] **HUMAN ACTION:** Post LinkedIn update from draft
 
 ## Eval Pipeline
 - [ ] Run eval pipeline with API key:

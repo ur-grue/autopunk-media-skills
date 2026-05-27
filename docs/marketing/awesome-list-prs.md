@@ -164,8 +164,8 @@ License: MIT
 
 ## Submission Checklist
 
-- [ ] travisvn/awesome-claude-skills — PR submitted
-- [ ] ComposioHQ/awesome-claude-skills — PR submitted
-- [ ] BehiSecc/awesome-claude-skills — PR submitted
-- [ ] VoltAgent/awesome-agent-skills — PR submitted
+- [X] travisvn/awesome-claude-skills — https://github.com/travisvn/awesome-claude-skills/pull/776
+- [X] ComposioHQ/awesome-claude-skills — https://github.com/ComposioHQ/awesome-claude-skills/pull/931
+- [X] BehiSecc/awesome-claude-skills — https://github.com/BehiSecc/awesome-claude-skills/pull/323
+- [ ] VoltAgent/awesome-agent-skills — PR pending
 - [ ] sickn33/antigravity-awesome-skills — checked if auto-crawled; PR submitted if needed
