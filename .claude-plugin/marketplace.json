@@ -12,7 +12,7 @@
       "description": "Produces a structured rights-tracing framework for a specific piece of content — identifying who is likely to hold copyright, where to look, and what to ask — so a journalist or producer can pursue formal clearance through the correct channels.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "copyright",
         "rights",
@@ -27,7 +27,7 @@
       "description": "Translates a specific Creative Commons licence into plain language — explaining exactly what you can and cannot do with a piece of content, and what you must do to stay compliant.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "creative-commons",
         "licensing",
@@ -42,7 +42,7 @@
       "description": "Drafts a GDPR compliance note for a specific piece of journalistic content or data collection activity — documenting the lawful basis for processing personal data, what data is held, how long it is retained, and who has access.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "gdpr",
         "data-protection",
@@ -57,7 +57,7 @@
       "description": "Reviews the details of a specific image and flags potential rights clearance issues before publication, identifying which permissions you likely need and which questions to bring to your legal or picture desk.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "rights",
         "licensing",
@@ -73,7 +73,7 @@
       "description": "Reviews a story brief, draft article, or broadcast script and flags potential legal risks — including defamation, privacy, contempt of court, and data protection — so you know what to check before publication.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "legal",
         "defamation",
@@ -90,7 +90,7 @@
       "description": "Drafts a formal, professional request letter to a music rights holder asking for permission to use a track in a specific media production under defined terms.",
       "category": "archive-legal",
       "subcategory": "legal",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "music-licensing",
         "sync-rights",
@@ -105,7 +105,7 @@
       "description": "Writes a clear, searchable content description for a media asset — video clip, audio file, photograph, or document — suitable for entry into an asset management system or media library.",
       "category": "archive-legal",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "archive",
         "asset management",
@@ -120,7 +120,7 @@
       "description": "Generates the complete set of metadata fields — tags, categories, keywords, slug, and summary — needed to publish a piece of content in a content management system, ready to copy and paste into each field.",
       "category": "archive-legal",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "cms",
         "metadata",
@@ -137,7 +137,7 @@
       "description": "Takes a finished piece of content and produces a complete, archive-ready metadata record — including descriptive tags, subject classifications, rights notes, and an archival summary — for entry into a content management or digital archive system.",
       "category": "archive-legal",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "cms",
         "metadata",
@@ -154,7 +154,7 @@
       "description": "Produces a correctly formatted bibliography or source list from details you provide, supporting AP, Chicago (Notes-Bibliography), and APA citation styles.",
       "category": "archive-legal",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "bibliography",
         "citations",
@@ -171,7 +171,7 @@
       "description": "Reads a batch of raw audience comments, emails, or survey responses about a piece of content and produces a structured summary of what readers valued, what confused them, and what they want more of.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "feedback",
         "audience",
@@ -186,7 +186,7 @@
       "description": "Takes one original headline and produces five distinct tested variants, each using a different proven approach to drive clicks, shares, or engagement — ready to load directly into a CMS or A/B testing tool.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "headlines",
         "a/b-testing",
@@ -201,7 +201,7 @@
       "description": "Takes a description of a newsletter's subscriber base and an upcoming issue's content, then produces a practical segmentation plan — which segments to target, what angle to lead with for each, and how to adapt the subject line per segment.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "newsletter",
         "segmentation",
@@ -216,7 +216,7 @@
       "description": "Drafts a professional, on-brand response to a reader letter or online comment — acknowledging the reader's point, representing the publication's position, and preserving the relationship.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "reader-engagement",
         "correspondence",
@@ -231,7 +231,7 @@
       "description": "Generates two or three distinct social media post variants for the same article or piece of content, each testing a different angle, hook, or emotional register, so you can run a controlled comparison and learn what resonates with your audience.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "social-media",
         "a/b-testing",
@@ -246,7 +246,7 @@
       "description": "Produces a clear, specific description of who a piece of content is written for — including what that audience already knows, what they care about, and what they will do with the information — so editors, writers, and distributors can make better decisions at every stage of production.",
       "category": "audience-distribution",
       "subcategory": "audience-distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "audience-research",
         "editorial-strategy",
@@ -261,7 +261,7 @@
       "description": "Recommends the best platforms for distributing a finished piece of content, with a ranked list and a brief rationale for each recommendation based on the content type, format, length, and intended audience.",
       "category": "audience-distribution",
       "subcategory": "distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "distribution",
         "platforms",
@@ -276,7 +276,7 @@
       "description": "Recommends the best day and time to publish a piece of content based on the content type, platform, and intended audience — without requiring access to live analytics data.",
       "category": "audience-distribution",
       "subcategory": "distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "timing",
         "publishing",
@@ -291,7 +291,7 @@
       "description": "Reads a batch of reader comments and produces a structured summary of recurring themes, unanswered questions, emotional tone, and actionable editorial signals — so editors and journalists can understand what their audience actually took from a piece.",
       "category": "audience-distribution",
       "subcategory": "distribution",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "comments",
         "audience-feedback",
@@ -323,7 +323,7 @@
       "description": "Data outlier finder",
       "category": "data-journalism",
       "subcategory": "analysis",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data-journalism",
         "analysis",
@@ -515,7 +515,7 @@
       "description": "Chart labels writer",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data-journalism",
         "visualization",
@@ -530,7 +530,7 @@
       "description": "Chart type advisor",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data-journalism",
         "visualization",
@@ -623,7 +623,7 @@
       "description": "Scans a draft article, script, or report for technical, insider, or specialist language that a general audience is unlikely to understand, and suggests plain-language replacements.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "accessibility",
@@ -638,7 +638,7 @@
       "description": "Reviews a draft for statements that carry a credible risk of defamation, producing a flagged checklist of red-flag passages with a plain-language explanation of why each is potentially problematic.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "legal",
@@ -653,7 +653,7 @@
       "description": "Takes a draft written by two or more contributors and rewrites it as a single, consistent voice — smoothing over clashing tones, register shifts, and stylistic inconsistencies while preserving every author's factual content and reported material.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "style",
@@ -668,7 +668,7 @@
       "description": "Scans a draft article, script, or report for passive-voice constructions, explains why each weakens the prose, and rewrites every flagged sentence in active voice.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "writing",
@@ -683,7 +683,7 @@
       "description": "Scans a draft for repeated ideas, redundant phrases, and unnecessary word clusters, then delivers a flagged report and a tightened version of the text without altering meaning or voice.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "clarity",
@@ -698,7 +698,7 @@
       "description": "Converts a piece of text from one regional variety of English — or another language with regional variants — into another, covering spelling, vocabulary, idiom, punctuation conventions, and register differences between regional standards.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "localization",
@@ -714,7 +714,7 @@
       "description": "Checks a script against a specified style guide and returns a prioritised list of violations with corrections.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "style-guide",
         "script",
@@ -729,7 +729,7 @@
       "description": "Analyses a draft for logical sequence, narrative coherence, and transitions, then reports exactly where the structure breaks down and why.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "structure",
         "narrative-flow",
@@ -744,7 +744,7 @@
       "description": "Takes a draft with identified or suspected structural weaknesses and produces a concrete restructuring plan — including a recommended section order and the reasoning behind each change.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "structure",
         "rewriting",
@@ -759,7 +759,7 @@
       "description": "Scans a text for inconsistent use of key terms, names, titles, and technical vocabulary, then produces a flagged report with recommended corrections.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "consistency",
@@ -774,7 +774,7 @@
       "description": "Identifies passages where the tone or register shifts unexpectedly within a piece of writing, and explains how to bring the text back to a consistent voice.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "tone",
@@ -790,7 +790,7 @@
       "description": "Compares a source text against its translation, flags potential inaccuracies and mistranslations, and explains each issue so an editor can make an informed correction.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "translation",
@@ -806,7 +806,7 @@
       "description": "Reads a draft article or script and flags every assertion of fact that lacks a named source, adding an inline `[NEEDS SOURCE]` marker so editors can see exactly where attribution is missing.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "attribution",
         "fact-checking",
@@ -821,7 +821,7 @@
       "description": "Takes two versions of the same text — a before and an after — and produces a plain-English summary of every meaningful change: what was added, cut, reworded, restructured, and why each change is likely to matter editorially.",
       "category": "editing",
       "subcategory": "editing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editing",
         "revision",
@@ -2486,7 +2486,7 @@
       "description": "Budget estimator",
       "category": "pre-production",
       "subcategory": "",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "budget",
         "pre-production",
@@ -2517,7 +2517,7 @@
       "description": "Generates a complete, formatted production call sheet for a single shoot day, including crew call times, location details, schedule, and key contacts.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "call-sheet",
         "logistics",
@@ -2532,7 +2532,7 @@
       "description": "Produces a concise, structured fact sheet on any topic for production teams — covering key facts, essential terminology, background context, and common misconceptions — so crew and contributors arrive on set informed.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "fact-sheet",
         "research",
@@ -2547,7 +2547,7 @@
       "description": "Drafts a professional, ready-to-send letter requesting permission to film or photograph at a specific location, addressed to the relevant property owner or authority.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "location",
         "permissions",
@@ -2563,7 +2563,7 @@
       "description": "Drafts a concise, production-ready briefing document that gives a presenter or on-screen moderator everything they need to walk into a shoot or live recording fully prepared.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "presenter",
         "briefing",
@@ -2579,7 +2579,7 @@
       "description": "Generates a structured production schedule with phased milestones and deadlines, tailored to the format, team size, and delivery date of a specific media project.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "schedule",
         "milestones",
@@ -2595,7 +2595,7 @@
       "description": "Generates a complete, professionally worded contributor or talent release form that grants the production company the rights to use a participant's image, voice, name, and testimony in a specified project.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "release-form",
         "consent",
@@ -2612,7 +2612,7 @@
       "description": "Drafts a formal letter requesting permission to use a specific piece of third-party content — archive footage, a photograph, a piece of music, a written extract, or any other copyright-protected material — in a named production.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "rights",
         "clearance",
@@ -2629,7 +2629,7 @@
       "description": "Generates a structured shooting outline — organised by scene or sequence — listing locations, interviewees, interview topic areas, and B-roll requirements, so the director and crew know exactly what needs to be captured on each shoot day.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "shoot-outline",
         "shooting-script",
@@ -2647,7 +2647,7 @@
       "description": "Drafts a concise, editor-ready story pitch that captures the angle, news hook, key sources, and proposed format so you can walk into an editorial meeting with a compelling one-page proposal.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "pitch",
         "editorial",
@@ -2662,7 +2662,7 @@
       "description": "Generates a set of interview questions precisely matched to a named subject's known background, public record, and the specific story angle — so every question earns its place and no time is wasted on answers the journalist already has.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "interview",
         "questions",
@@ -2677,7 +2677,7 @@
       "description": "Produces a plain-language glossary of essential terms for a complex or specialist topic, written so that a journalist, presenter, or producer with no prior expertise can understand and use the terms correctly before entering an interview or writing a script.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "glossary",
         "terminology",
@@ -2692,7 +2692,7 @@
       "description": "Writes a short-form production treatment (2–4 pages) for pitching a documentary or news feature — a narrative document that tells the story of the film before a frame is shot, giving commissioners and executives enough to say yes.",
       "category": "pre-production",
       "subcategory": "pre-production",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "treatment",
         "documentary",
@@ -2788,7 +2788,7 @@
       "description": "Writes a polished, publication-ready author bio in the correct length and tone for the outlet, based on a few facts you provide about the journalist or contributor.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "bio",
         "author",
@@ -2803,7 +2803,7 @@
       "description": "Drafts the contributor credits block for a multi-author piece, giving each person the correct role label, consistent formatting, and publication-appropriate length.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "credits",
         "contributors",
@@ -2818,7 +2818,7 @@
       "description": "Takes a list of messy, inconsistent, or unnumbered notes and references and returns them correctly numbered, consistently formatted, and matched to your chosen citation style.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "footnotes",
         "endnotes",
@@ -2833,7 +2833,7 @@
       "description": "Produces a clear, step-by-step brief explaining exactly how to convert a finished article or document from one format (Word, plain text, InDesign export) into a specified target format (Markdown, HTML, or structured plain text), preserving all editorial elements correctly.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "formatting",
         "markdown",
@@ -2849,7 +2849,7 @@
       "description": "Recommends where to place visual elements — images, pull quotes, infographics, and sidebars — within a specific article, based on the article's structure, pacing, and editorial logic.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "layout",
         "design",
@@ -2866,7 +2866,7 @@
       "description": "Adapts print-formatted article text — including column breaks, orphaned lines, print-specific conventions, and layout-dependent phrasing — for clean web publication, producing copy that reads naturally in a single-column digital environment.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "print",
         "web",
@@ -2883,7 +2883,7 @@
       "description": "Applies a named style guide — AP, Chicago, or a custom house style — to a manuscript, flagging and correcting capitalisation, punctuation, number formatting, abbreviations, and usage inconsistencies throughout.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "style-guide",
         "copy-editing",
@@ -2899,7 +2899,7 @@
       "description": "Reads a long-form piece and generates a publication-ready table of contents with section titles, descriptive sub-entries, and accurate page or anchor references.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "table-of-contents",
         "long-form",
@@ -2914,7 +2914,7 @@
       "description": "Cleans a raw interview transcript into a polished Q&A — removing filler words, fixing speaker labels, standardising punctuation, and optionally inserting timestamps — ready to publish or hand to a copy editor.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "transcript",
         "interview",
@@ -2931,7 +2931,7 @@
       "description": "Splits a long article or draft into web-optimised sections by inserting clear subheadings and natural break points — without rewriting the text — so readers can scan, navigate, and stay engaged on screen.",
       "category": "production-support",
       "subcategory": "publishing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "web",
         "subheadings",
@@ -3321,7 +3321,7 @@
       "description": "Takes a specific indicator or metric and produces a structured, journalist-ready comparison of how multiple countries perform on that measure, including context on what the differences mean.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "comparative",
         "international",
@@ -3336,7 +3336,7 @@
       "description": "Produces a concise, journalist-ready profile of the population structure, trends, and key demographic characteristics of a specified region, city, country, or community — ready to use as background for a story or segment.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "demographics",
         "population",
@@ -3351,7 +3351,7 @@
       "description": "Takes raw numbers you provide and calculates derived figures — percentage changes, per-capita rates, index values, or ratios — with plain-language explanations ready to drop into a story.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data",
         "statistics",
@@ -3367,7 +3367,7 @@
       "description": "Identifies the most authoritative official source for a given statistical indicator and tells you exactly where to find the most recent figures, what the data covers, and what to watch out for when using it.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data",
         "official-sources",
@@ -3382,7 +3382,7 @@
       "description": "Produces a step-by-step guide — tailored to a journalist's specific story angle — for finding, filtering, and downloading the right data from a named public database.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data",
         "databases",
@@ -3397,7 +3397,7 @@
       "description": "Translates the key findings of a statistical report into plain, journalist-ready language — pulling out the numbers that matter, explaining what they mean, and flagging anything that needs verification before publication.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "statistics",
         "summarising",
@@ -3412,7 +3412,7 @@
       "description": "Compiles a structured set of credible, ready-to-cite statistics on a specific topic, sourced from recognised institutions, government databases, and peer-reviewed research.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "statistics",
         "research",
@@ -3427,7 +3427,7 @@
       "description": "Reads a set of data points or a described data series and identifies the meaningful trends within it, expressed in plain, publication-ready language.",
       "category": "research",
       "subcategory": "data-statistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "trends",
         "data analysis",
@@ -3474,7 +3474,7 @@
       "description": "Produces a structured verification brief for a specific claim — listing the key questions to investigate, the source types to consult, the red flags to watch for, and a framework for reaching a defensible editorial judgment.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "fact-checking",
         "verification",
@@ -3489,7 +3489,7 @@
       "description": "Maps the likely provenance path of a widely circulated claim or statistic — identifying where it probably originated, how it may have mutated as it passed through media chains, and what questions to ask to locate the primary source.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "fact-checking",
         "sourcing",
@@ -3504,7 +3504,7 @@
       "description": "Produces a structured brief identifying the potential financial, professional, and relational conflicts of interest a source or stakeholder may have — and recommending what to disclose, what to investigate further, and how to handle the source editorially.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "sourcing",
         "conflicts-of-interest",
@@ -3519,7 +3519,7 @@
       "description": "Produces a concise, reporter-ready briefing note explaining the cultural, religious, or social context a journalist needs before covering a community, practice, or event they are not already familiar with.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "culture",
         "religion",
@@ -3534,7 +3534,7 @@
       "description": "Produces a structured, neutral summary of an ongoing public debate or controversy — mapping the major positions, the evidence each side draws on, and the key points of genuine disagreement — so a journalist can cover the story without inadvertently taking a side.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "controversy",
         "debate",
@@ -3549,7 +3549,7 @@
       "description": "Generates a structured red-flag checklist for a specific document or quote a journalist has received, identifying the observable indicators that commonly appear in fabricated, altered, or misattributed materials — so a reporter knows exactly what to look for before treating the document as verified.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "verification",
         "documents",
@@ -3564,7 +3564,7 @@
       "description": "Builds a detailed, prose-style chronology of events for a given story — ordered by date, written in clear narrative language, and structured so a journalist can use it directly as a research backbone or hand it to an editor for fact-checking.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "chronology",
         "research",
@@ -3579,7 +3579,7 @@
       "description": "Compiles key events into a structured, scannable timeline — formatted as a table or numbered list — designed for use in graphic production, digital interactives, sidebar fact boxes, and editorial planning documents.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "timeline",
         "research",
@@ -3594,7 +3594,7 @@
       "description": "Produces a structured research brief on the known and probable funding sources of an NGO, think tank, advocacy group, or foundation — including disclosed donors, funding structures, potential conflicts of interest, and the key questions a journalist should pursue.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "funding",
         "NGO",
@@ -3610,7 +3610,7 @@
       "description": "Given a current event or situation, surfaces the most relevant historical precedents — past episodes that parallel it in cause, mechanism, or consequence — and explains what those parallels mean for your reporting.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "history",
         "context",
@@ -3625,7 +3625,7 @@
       "description": "Produces a plain-language orientation brief explaining the laws, regulations, and legal concepts most relevant to a story — so a journalist knows what framework governs the situation, what questions to ask lawyers and officials, and what legal terms mean before interviews begin.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "legal",
         "regulation",
@@ -3641,7 +3641,7 @@
       "description": "Produces a chronological brief tracing how a law or regulation came to be — the political context, the key amendments and turning points, and what the original intent was compared to how it is applied today — so a journalist understands the story behind the rule they are reporting on.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "legislation",
         "policy",
@@ -3657,7 +3657,7 @@
       "description": "Produces a structured research framework mapping the internal hierarchy, key decision-makers, departments, and reporting lines of any company, institution, or organisation — so journalists can understand who holds power and how decisions get made before conducting interviews or publishing a story.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "organisations",
@@ -3673,7 +3673,7 @@
       "description": "Produces a structured research framework for tracing who ultimately owns and controls a company or media outlet — including parent companies, holding structures, investors, and beneficial owners — so journalists can identify conflicts of interest, editorial dependencies, or undisclosed relationships before publishing.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "ownership",
@@ -3689,7 +3689,7 @@
       "description": "Produces a structured research framework that maps the key political actors, power dynamics, fault lines, and contextual background a journalist needs to understand before reporting on a region or country — without making factual assertions about current events that require live verification.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "politics",
@@ -3706,7 +3706,7 @@
       "description": "Takes a specific claim and a list of sources you have gathered, then maps which sources support, contradict, or are silent on the claim — so you can see at a glance whether your sourcing is solid before publication.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "fact-checking",
         "sourcing",
@@ -3721,7 +3721,7 @@
       "description": "Runs a structured checklist over every statistic in your draft — flagging figures that look wrong, comparisons that may mislead, and numbers that need a primary source before they are safe to publish.",
       "category": "research",
       "subcategory": "facts-context",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "statistics",
         "fact-checking",
@@ -3752,7 +3752,7 @@
       "description": "Identifies which museums, national archives, libraries, film institutes, or specialist collections are most likely to hold historical material relevant to your story or documentary subject.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "archive",
         "research",
@@ -3769,7 +3769,7 @@
       "description": "Produces a practical brief covering the best time of day, season, and weather window for filming at a specific location, including light conditions, crowd patterns, access restrictions, and known logistical challenges a crew should anticipate.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "locations",
         "pre-production",
@@ -3786,7 +3786,7 @@
       "description": "Researches and compares potential locations for a filmed or recorded interview, evaluating each against practical criteria — visual suitability, acoustic quality, access, and narrative fit — and producing a ranked shortlist with a recommendation.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "interview",
         "location",
@@ -3803,7 +3803,7 @@
       "description": "Produces a structured brief summarising the permit requirements, access restrictions, and key contacts needed to film or photograph at a specific location.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "location",
         "permits",
@@ -3819,7 +3819,7 @@
       "description": "Produces a written visual brief describing the architectural character, light conditions, landscape qualities, and cinematic potential of a specific location — giving a director, cinematographer, or art director a working picture of a place before a recce.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "location",
         "visual",
@@ -3836,7 +3836,7 @@
       "description": "Identifies the most relevant photo archives, picture libraries, and institutional collections likely to hold historical images for a specific story, topic, or time period — and provides a prioritised research plan for approaching them.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "archive",
         "photography",
@@ -3852,7 +3852,7 @@
       "description": "Generates a complete, shoot-specific packing and equipment checklist organized by category, crew role, and travel constraints.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "equipment",
         "logistics",
@@ -3867,7 +3867,7 @@
       "description": "Produces a structured brief for a researcher or footage coordinator to use when sourcing stock or archive footage from libraries, broadcasters, or specialist archives.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "stock footage",
         "archive",
@@ -3882,7 +3882,7 @@
       "description": "Produces a structured travel logistics brief covering routes, transit times, accommodation considerations, and crew movement planning for a reporting or production trip.",
       "category": "research",
       "subcategory": "locations-logistics",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "travel",
         "logistics",
@@ -3945,7 +3945,7 @@
       "description": "Produces a structured summary of how other outlets have already covered a given topic, so you can enter any story with a clear picture of the existing media landscape.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "competitive-research",
         "editorial-planning",
@@ -3958,7 +3958,7 @@
       "description": "Interprets audience engagement signals from a competitor's published piece — comments, shares, reader responses, social traction — to identify what resonated with the audience and why.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "competitive-research",
         "audience-analysis",
@@ -3971,7 +3971,7 @@
       "description": "Identifies the editorial angle, narrative frame, and implicit assumptions a competitor has used on a story, so you can make a deliberate choice about how to frame your own coverage differently or more effectively.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "competitive-research",
         "editorial-strategy",
@@ -3984,7 +3984,7 @@
       "description": "Analyses existing coverage on a topic to identify the specific angles, voices, and questions that no outlet has meaningfully addressed — producing a prioritised list of story opportunities your outlet can own.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "competitive-research",
         "story-development",
@@ -3997,7 +3997,7 @@
       "description": "Produces a structured monitoring brief that tells a reporter or editor exactly what to watch, where to watch it, and how often — so a developing story never slips through unnoticed.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "monitoring",
         "news-tracking",
@@ -4011,7 +4011,7 @@
       "description": "Transforms a set of article summaries or headlines into a structured, ready-to-share press roundup that tells an editorial team what the competition has covered, how they framed it, and what angles are still open.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "press-review",
         "media-monitoring",
@@ -4025,7 +4025,7 @@
       "description": "Produces a short editorial brief that maps the trending conversations on a beat — identifying which topics are gaining public attention, why, and whether any of them represent a genuine news opportunity for your outlet.",
       "category": "research",
       "subcategory": "media-competitive",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "trending",
         "editorial-planning",
@@ -4117,7 +4117,7 @@
       "description": "Builds a structured research framework for locating publicly available contact routes for a named person — including institutional channels, public profiles, press offices, and professional directories — so you know exactly where to look and in what order.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "contacts",
@@ -4148,7 +4148,7 @@
       "description": "Produces a structured shortlist of potential interview partners for a given story or topic — with role descriptions, the angle each person would best serve, and a priority ranking — so you can walk into pre-production with a clear sourcing plan.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "sourcing",
@@ -4165,7 +4165,7 @@
       "description": "Maps the roles, institutions, and access channels a journalist needs to identify who actually controls a given policy area — from elected officials to unelected technocrats to influential advisers.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "policy",
@@ -4180,7 +4180,7 @@
       "description": "Identifies the most likely press office route, media contact structure, and approach strategy for any organisation a journalist needs to reach — based on the organisation type, sector, and story context.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "contacts",
@@ -4196,7 +4196,7 @@
       "description": "Produces a structured research framework for finding, organising, and verifying a named person's previous public statements on a specific topic, so a journalist can enter an interview or write a story with full command of the subject's record.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "fact-checking",
@@ -4211,7 +4211,7 @@
       "description": "Produces a structured research framework for building a verified publication history for a named author, journalist, scientist, or academic — listing where to look, what to record, and how to assess the significance and credibility of their output.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "source-research",
@@ -4227,7 +4227,7 @@
       "description": "Produces a structured checklist of verification steps and questions a journalist should work through to confirm that a source's claimed professional credentials are genuine before quoting them.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "source-verification",
         "credentials",
@@ -4242,7 +4242,7 @@
       "description": "Produces a focused verification plan — specific sources to consult and direct questions to ask — to confirm that a quoted person currently holds the exact job title or position you plan to attribute to them in print or broadcast.",
       "category": "research",
       "subcategory": "people-contacts",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "title-verification",
         "job-title",
@@ -4257,7 +4257,7 @@
       "description": "Maps the academic publishing landscape for a given field — explaining which journals matter, what they signal about credibility, and where preprints fit — so journalists can navigate scientific literature without prior academic training.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "science",
@@ -4273,7 +4273,7 @@
       "description": "Explains what meta-analyses and systematic reviews are, how to locate them for a given topic, and how to read them critically — giving journalists a reliable route to the strongest available evidence without relying on individual studies.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "science",
@@ -4289,7 +4289,7 @@
       "description": "Translates the key findings of a scientific paper — abstract, methods, and conclusions — into clear, accurate plain English that any reader can understand without specialist knowledge.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "science",
         "research",
@@ -4304,7 +4304,7 @@
       "description": "Produces a structured verification checklist for any scientific paper or research claim you plan to cite, covering every step a journalist should take to confirm the paper is valid, current, and not disputed or retracted.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "fact-checking",
         "retraction",
@@ -4319,7 +4319,7 @@
       "description": "Translates dense scientific terminology from academic papers, press releases, or expert interviews into plain English a journalist can quote or paraphrase.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "science",
         "jargon",
@@ -4335,7 +4335,7 @@
       "description": "Produces a structured, journalist-ready summary of where the mainstream scientific community currently stands on a specific question — distinguishing settled consensus from active debate, and flagging where minority or fringe positions exist.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "science",
         "consensus",
@@ -4351,7 +4351,7 @@
       "description": "Produces a structured, plain-language briefing on the state of scientific research for a given topic — summarising what is established, what is contested, and what remains unknown.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "science",
@@ -4366,7 +4366,7 @@
       "description": "Takes the details of a scientific study and returns a structured set of methodological questions a journalist should ask before reporting on it — identifying weaknesses in study design, sample quality, funding, and claimed conclusions.",
       "category": "research",
       "subcategory": "scientific-academic",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "research",
         "science",
@@ -4810,7 +4810,7 @@
       "description": "Translates a full journalistic article from one language to another while preserving the original tone, structure, and editorial voice.",
       "category": "translation-localization",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "journalism",
@@ -4825,7 +4825,7 @@
       "description": "Translates a social media post into a target language and adapts it for the cultural expectations and platform conventions of that market — not just word-for-word, but audience-ready.",
       "category": "translation-localization",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "social-media",
@@ -4840,7 +4840,7 @@
       "description": "Translates a press release from one language to another while preserving its formal institutional register, standard PR structure, and the precise wording of quotes and official claims.",
       "category": "translation-localization",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "press-release",
@@ -4856,7 +4856,7 @@
       "description": "Produces a structured editorial brief that identifies every element in a translated article or script that needs cultural adaptation — and recommends exactly how to adapt each one — before it is published for a new audience.",
       "category": "translation-localization",
       "subcategory": "localization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "localization",
         "cultural-adaptation",
@@ -4871,7 +4871,7 @@
       "description": "Translates subtitle blocks from one language to another while respecting broadcast subtitle constraints: a maximum of 42 characters per line, no more than two lines per block, and a reading speed that allows viewers to watch the screen at the same time.",
       "category": "translation-localization",
       "subcategory": "localization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "subtitles",
@@ -4887,7 +4887,7 @@
       "description": "Produces a structured source-language to target-language glossary of domain-specific terms, names, and recurring phrases to ensure consistent translation across an entire project.",
       "category": "translation-localization",
       "subcategory": "translation-localization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "glossary",
@@ -4902,7 +4902,7 @@
       "description": "Translates a voice-over script into a target language while preserving the approximate speech duration and natural delivery rhythm of the original, so the translated audio fits the existing picture edit without re-cutting.",
       "category": "translation-localization",
       "subcategory": "translation-localization",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "voice-over",
@@ -4918,7 +4918,7 @@
       "description": "Translates interview quotes from one language to another while preserving the speaker's register, emotional tone, and rhetorical character — not just the literal meaning.",
       "category": "translation-localization",
       "subcategory": "writing",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "translation",
         "quotes",
@@ -5348,7 +5348,7 @@
       "description": "Writes accurate, concise alt text for editorial images — photographs, graphics, and illustrations — so that visually impaired readers using screen readers receive the same informational value as sighted readers.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "accessibility",
         "alt-text",
@@ -5365,7 +5365,7 @@
       "description": "Writes a concise, publication-ready summary of a finished article — suitable for use as a standfirst, a search engine meta description, a newsletter teaser, an abstract, or an internal briefing note.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "summary",
         "abstract",
@@ -5382,7 +5382,7 @@
       "description": "Writes the annotation text for a data chart — axis labels, callout boxes, trend labels, source lines, and explanatory notes — so that a reader can understand the chart's key finding without reading the surrounding article.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data",
         "charts",
@@ -5399,7 +5399,7 @@
       "description": "Drafts a formal, publication-ready correction notice for a previously published article, following accepted journalistic standards for transparency, precision, and tone.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "corrections",
         "accuracy",
@@ -5413,7 +5413,7 @@
       "description": "Writes the explanatory text that accompanies a data visualization — the headline, the introductory sentence, and the annotation or caption that tells readers what to look for and why it matters.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "data",
         "visualization",
@@ -5428,7 +5428,7 @@
       "description": "Drafts a publication editorial — a structured opinion piece written in the collective institutional voice of a publication's editorial board, arguing a clear position on a specific issue of public concern.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editorial",
         "opinion",
@@ -5443,7 +5443,7 @@
       "description": "Writes a clear, credible editor's note that explains to readers why an article has been updated, corrected, retracted, or needs a disclosure — in plain language and a professional tone.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editor's note",
         "transparency",
@@ -5491,7 +5491,7 @@
       "description": "Writes a concise, informative caption for a published infographic that tells readers what the visual shows, highlights the most important finding, and cites the data source — without simply repeating what is already visible on the graphic itself.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "caption",
         "infographic",
@@ -5522,7 +5522,7 @@
       "description": "Writes a precise, context-rich caption for a published map that tells readers what geographic area is shown, what the map is measuring or illustrating, and why it matters to the story.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "caption",
         "map",
@@ -5554,7 +5554,7 @@
       "description": "Transforms a set of facts about a deceased person into a structured, dignified obituary suitable for publication in a newspaper, magazine, or website.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "obituary",
         "death-notices",
@@ -5569,7 +5569,7 @@
       "description": "Constructs a structured, argumentatively coherent opinion article or op-ed from a journalist's or contributor's position, evidence, and intended audience.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "opinion",
         "op-ed",
@@ -5618,7 +5618,7 @@
       "description": "Transforms reported notes, quotes, and biographical facts about a living person into a structured profile feature ready for a magazine, newspaper, or long-form website.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "profile",
         "feature",
@@ -5650,7 +5650,7 @@
       "description": "Writes a short, compelling \"Related Articles\" or \"Read Next\" teaser block — two to five items — that matches the tone of a parent article and gives readers a clear reason to click each linked piece.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "related-content",
         "internal-linking",
@@ -5665,7 +5665,7 @@
       "description": "Drafts a structured, publication-ready critical review of a book, film, documentary, album, exhibition, or live performance — with a clear verdict, specific evidence, and a voice calibrated to the publication's register.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "reviews",
         "criticism",
@@ -5682,7 +5682,7 @@
       "description": "Writes a concise \"previously on\" or \"catch-up\" block that brings new readers up to speed on a running story — summarising key developments in chronological order and framing what is at stake as the story continues.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "recap",
         "running-story",
@@ -5698,7 +5698,7 @@
       "description": "Writes a focused sidebar or infobox that packages key facts, context, or supporting detail alongside a main article, without repeating the article's primary narrative.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "sidebar",
         "infobox",
@@ -5731,7 +5731,7 @@
       "description": "Expands a short passage — a note, a bullet point, a compressed draft paragraph, or a single-sentence summary — into fully developed prose at a specified length and tone, adding context, detail, and flow without fabricating facts.",
       "category": "writing",
       "subcategory": "articles",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "expansion",
         "drafting",
@@ -5796,7 +5796,7 @@
       "description": "Writes a timed, scene-by-scene narration script for an animated explainer video, matched to a specified duration and keyed to on-screen visual cues.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "animation",
         "explainer",
@@ -5811,7 +5811,7 @@
       "description": "Writes a short, high-impact cold open or teaser script that hooks a broadcast audience before the title sequence or first act begins.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "cold open",
         "teaser",
@@ -5828,7 +5828,7 @@
       "description": "Produces a formatted broadcast cue sheet — including item numbers, in-cues, out-cues, durations, and technical instructions — from a programme rundown or description of planned content.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "cue sheet",
         "broadcast",
@@ -5845,7 +5845,7 @@
       "description": "Writes a complete, ready-to-record podcast episode script — including intro, segmented body content, transitions, and outro — matched to the host's voice and episode topic.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "podcast",
         "scripting",
@@ -5860,7 +5860,7 @@
       "description": "Writes complete, publication-ready podcast show notes — including episode summary, timestamped chapter markers, key takeaways, guest bio, and relevant links — formatted for podcast hosting platforms and listener discovery.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "podcast",
         "show-notes",
@@ -5875,7 +5875,7 @@
       "description": "Writes a polished, broadcast-ready closing script for a presenter, reporter, or podcast host — matched to the show's tone and the specific episode content — that ends the programme with authority and purpose.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "broadcast",
         "sign-off",
@@ -5892,7 +5892,7 @@
       "description": "Writes a tightly worded, broadcast-ready stand-up script for a reporter to deliver on camera in the field, tailored to a specific location, story angle, and desired position in the package.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "broadcast",
         "reporter",
@@ -5908,7 +5908,7 @@
       "description": "Writes a presenter-delivered studio introduction that sets up a field report or pre-recorded package, giving viewers the context and stakes they need before the package begins.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "broadcast",
         "presenter",
@@ -5925,7 +5925,7 @@
       "description": "Writes a full presenter script formatted for teleprompter delivery — short spoken sentences, natural breath points marked, and pacing tuned for on-camera reading without the script sounding read.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "broadcast",
         "presenter",
@@ -5942,7 +5942,7 @@
       "description": "Inserts [HH:MM:SS] timecodes into a raw transcript at user-specified intervals or cue points, so editors and producers can locate any line of dialogue instantly in the timeline.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "transcript",
         "timecode",
@@ -5957,7 +5957,7 @@
       "description": "Writes short presenter or narrator lines that bridge two programme segments smoothly, carrying the audience from one topic, location, or interview to the next without jarring cuts.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "narration",
         "transitions",
@@ -5973,7 +5973,7 @@
       "description": "Turns research notes, interview transcripts, or article text into a broadcast-ready voice-over script — short sentences, active voice, written for the ear, timed to picture.",
       "category": "writing",
       "subcategory": "broadcast",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "voice-over",
         "narration",
@@ -5990,7 +5990,7 @@
       "description": "Generates a complete, platform-appropriate set of tags and keywords for a video or article, optimised for discoverability without keyword stuffing.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "tags",
         "keywords",
@@ -6007,7 +6007,7 @@
       "description": "Writes a ready-to-publish Facebook post that drives clicks and shares for a news story, documentary, podcast episode, or video — matched to how Facebook audiences actually read and engage.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "facebook",
         "social media",
@@ -6023,7 +6023,7 @@
       "description": "Writes a complete Instagram caption — including hook, body, call to action, and hashtag set — for a news story, documentary, video, or editorial project, formatted for how Instagram audiences read and discover content.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "instagram",
         "social media",
@@ -6040,7 +6040,7 @@
       "description": "Writes a professional LinkedIn post that frames a published article, investigation, or media project as a thought-leadership moment — driving clicks while positioning the author as a credible voice in their field.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "linkedin",
         "social-media",
@@ -6055,7 +6055,7 @@
       "description": "Writes a short, punchy newsletter blurb — the 60–120-word teaser entry that introduces one story inside a curated email digest, giving subscribers just enough to decide whether to click through.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "newsletter",
         "email",
@@ -6071,7 +6071,7 @@
       "description": "Writes five subject line options for a newsletter edition — each using a different opening strategy — so you can choose the one that fits your audience, tone, and what the edition actually delivers.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "newsletter",
         "email",
@@ -6087,7 +6087,7 @@
       "description": "Writes concise, high-urgency push notification text for a news story — optimised for mobile lock screens where readers decide in under two seconds whether to tap or dismiss.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "push notifications",
         "breaking news",
@@ -6102,7 +6102,7 @@
       "description": "Produces five headline variants for a single article, each optimised for a different reader search intent — so editors can choose the version that best matches how their target audience actually searches for this topic.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "SEO",
         "headlines",
@@ -6118,7 +6118,7 @@
       "description": "Writes a 150–160 character meta description for a web article, placing the primary keyword naturally within the first half of the sentence and ending with a clear reason to click.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "SEO",
         "meta description",
@@ -6134,7 +6134,7 @@
       "description": "Generates a short, compelling teaser line — one or two sentences — that earns a click through genuine story value, not misleading hype.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "teaser",
         "social-media",
@@ -6150,7 +6150,7 @@
       "description": "Generates short, bold text overlays — five words or fewer — for YouTube and social media video thumbnails that are readable at small sizes and convey the video's core hook at a glance.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "thumbnail",
         "youtube",
@@ -6166,7 +6166,7 @@
       "description": "Writes a single, publication-ready post for X/Twitter — 280 characters maximum — in a clear journalistic voice that reports or contextualises a story without hollow engagement hooks.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "twitter",
         "x",
@@ -6183,7 +6183,7 @@
       "description": "Converts a video outline or rough transcript into a properly formatted YouTube chapter list with [HH:MM:SS] timestamps and punchy, click-navigable chapter titles.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "youtube",
         "chapters",
@@ -6198,7 +6198,7 @@
       "description": "Writes a complete YouTube video description with the first two lines optimized for the search preview, followed by a structured body that serves both the algorithm and the viewer.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "youtube",
         "description",
@@ -6214,7 +6214,7 @@
       "description": "Generates 5 YouTube title options for a single video, each 60–70 characters long, front-loading the hook word or primary keyword so it is visible before the title is cut off in search results.",
       "category": "writing",
       "subcategory": "digital-social",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "youtube",
         "title",
@@ -6230,7 +6230,7 @@
       "description": "Writes a compelling award submission entry that frames a piece of journalism or media work within a specific award category's criteria, highlighting impact, craft, and originality.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "awards",
         "submission",
@@ -6245,7 +6245,7 @@
       "description": "Writes a formal collaboration proposal addressed to another media outlet, broadcaster, production company, or independent producer, making the case for a specific joint project and structuring a clear offer of terms.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "collaboration",
         "proposal",
@@ -6260,7 +6260,7 @@
       "description": "Writes a clear internal memo that documents an editorial decision — why a story was published, held, killed, or significantly changed — so that the reasoning is on record for editors, legal teams, and senior leadership.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "editorial",
         "memo",
@@ -6276,7 +6276,7 @@
       "description": "Writes a polished, submission-ready synopsis for a film, documentary, or media project entered into a festival or competition.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "festival",
         "synopsis",
@@ -6292,7 +6292,7 @@
       "description": "Writes a compelling grant application narrative for a journalism project, covering project description, public interest justification, methodology, and reporter credentials.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "grant",
         "funding",
@@ -6308,7 +6308,7 @@
       "description": "Writes a clear, structured briefing note for editorial managers, department heads, or senior leadership on a specific editorial, operational, or strategic issue.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "briefing",
         "management",
@@ -6324,7 +6324,7 @@
       "description": "Drafts a concise, correctly formatted media advisory that gives journalists everything they need to decide whether to cover an event, with all logistical details in a scannable layout.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "media advisory",
         "press",
@@ -6339,7 +6339,7 @@
       "description": "Drafts a brief, professionally warm thank-you email to send to an interview subject after a recorded or on-the-record conversation, keeping the relationship open for future contact.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "email",
         "thank-you",
@@ -6354,7 +6354,7 @@
       "description": "Drafts a complete, wire-ready press release in standard inverted-pyramid format — headline, dateline, body copy, boilerplate, and media contact block — based on the key facts you provide.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "press release",
         "pr",
@@ -6369,7 +6369,7 @@
       "description": "Writes a clear, professional status update on a media production for commissioners, editors, funders, or executive stakeholders who need to know where a project stands without reading through internal working documents.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "production",
         "stakeholder-communication",
@@ -6384,7 +6384,7 @@
       "description": "Writes a professional, strategically crafted follow-up email to a source or interview subject who has not responded to an initial outreach, calibrated to the relationship, the urgency, and how many times you have already followed up.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "journalism",
         "source-management",
@@ -6399,7 +6399,7 @@
       "description": "Drafts a professional, personalised pitch email to a potential interviewee or expert source, clearly explaining why you are reaching out, what the story is about, and what you are asking them to do.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "email",
         "sourcing",
@@ -6414,7 +6414,7 @@
       "description": "Writes full speaker notes for each slide in a conference or panel presentation, giving the speaker natural, spoken-word language that expands on the slide content without simply reading it aloud.",
       "category": "writing",
       "subcategory": "institutional",
-      "status": "beta",
+      "status": "stable",
       "tags": [
         "presentation",
         "public-speaking",
