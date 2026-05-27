@@ -13,6 +13,8 @@ Use this file as the starting point for every new skill. Copy it, rename the fil
 
 If you can't answer all three clearly, narrow the scope before writing.
 
+**On the user-facing boundary:** Non-technical users copy-paste skills into Claude. They copy from the `# Skill Title` heading down to `Known Limitations`. The YAML frontmatter, `Quality Criteria` checkboxes, and `Related Skills` section are contributor metadata — users skip these. Write the skill so that everything between the title and Known Limitations reads as a clear, self-contained prompt.
+
 **On examples:** The example is the most important part of the skill file. It must be:
 - Real: complete enough to use in actual production
 - Generic: not traceable to any real project, publication, or person

@@ -8,6 +8,8 @@
 
 ## Install
 
+> **Not a developer?** You don't need to install anything. Jump straight to [Quick Start](#quick-start) to copy your first skill into Claude in under two minutes.
+
 ```bash
 # Clone the full library
 git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
@@ -38,11 +40,17 @@ Think of each skill as hiring an expert collaborator for one specific task: writ
 
 TV documentary producers · magazine journalists · YouTube creators · podcast producers · screenwriters · data journalists · radio producers · newsletter writers · PR professionals · researchers · social media managers · visual content creators · editors and production teams.
 
+**Pick your role** for a tailored starting point:
+
+[Documentary Producer](docs/for/documentary-producer.md) · [Magazine Journalist](docs/for/magazine-journalist.md) · [YouTube Creator](docs/for/youtuber.md) · [Podcaster](docs/for/podcaster.md) · [Newsletter Writer](docs/for/newsletter-writer.md)
+
 ---
 
 ## Quick Start
 
-**Here's what the `hook-generator` skill produces.** Try it yourself — paste the prompt below into Claude, run it through your coding agent, or load it from the cloned library.
+**New to Claude?** Claude is a free AI assistant made by Anthropic. Go to [claude.ai](https://claude.ai), create a free account, and you're ready. That's all you need to use any skill in this library.
+
+**Here's what the `hook-generator` skill produces.** Try it yourself — paste the prompt below into Claude and add your own topic.
 
 ### Example input:
 
@@ -175,19 +183,20 @@ Two short examples showing the quality standard across different categories. Eac
 
 ## How To Use A Skill
 
-**Option A — Clone the library** (recommended for coding agents)
+**Option A — Copy and paste** (no technical setup needed)
+
+1. Browse the [`skills/`](skills/) folder on this page — click any folder to open it, then click the skill file you want
+2. Read the **"What You Need To Provide"** section so you know what info to include
+3. Copy everything from the **"# Skill Title"** heading down to **"Known Limitations"** — skip the grey metadata block at the very top of the file
+4. Paste it into [Claude](https://claude.ai) along with your own material
+
+**Option B — Clone the library** (for coding agents like Claude Code, Cursor, Codex CLI)
 
 ```bash
 git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
 ```
 
 Skills are automatically available in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any agent that reads from a skills directory.
-
-**Option B — Copy and paste** (fastest for a single task)
-
-1. Find the skill you need in the `skills/` folder
-2. Read the "What You Need To Provide" section
-3. Paste the skill into Claude along with your material
 
 **Option C — Reference from your project**
 
