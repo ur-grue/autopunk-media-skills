@@ -320,11 +320,17 @@
     {
       "name": "data-outlier-finder",
       "path": "skills/data-journalism/analysis/data-outlier-finder.md",
-      "description": "Identify outliers and anomalies in a data set.",
+      "description": "Data outlier finder",
       "category": "data-journalism",
       "subcategory": "analysis",
-      "status": "planned",
-      "tags": []
+      "status": "beta",
+      "tags": [
+        "data-journalism",
+        "analysis",
+        "outliers",
+        "anomalies",
+        "investigation"
+      ]
     },
     {
       "name": "data-story-finder",
@@ -506,20 +512,32 @@
     {
       "name": "chart-labels-writer",
       "path": "skills/data-journalism/visualization/chart-labels-writer.md",
-      "description": "Write axis labels, legends, and annotations for a chart.",
+      "description": "Chart labels writer",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "planned",
-      "tags": []
+      "status": "beta",
+      "tags": [
+        "data-journalism",
+        "visualization",
+        "charts",
+        "labels",
+        "annotations"
+      ]
     },
     {
       "name": "chart-type-advisor",
       "path": "skills/data-journalism/visualization/chart-type-advisor.md",
-      "description": "Suggest the appropriate chart type for a given data set.",
+      "description": "Chart type advisor",
       "category": "data-journalism",
       "subcategory": "visualization",
-      "status": "planned",
-      "tags": []
+      "status": "beta",
+      "tags": [
+        "data-journalism",
+        "visualization",
+        "charts",
+        "data",
+        "graphics"
+      ]
     },
     {
       "name": "data-table-formatter",
@@ -2465,11 +2483,17 @@
     {
       "name": "budget-estimator",
       "path": "skills/pre-production/budget-estimator.md",
-      "description": "Estimate the budget for a specific production element.",
+      "description": "Budget estimator",
       "category": "pre-production",
       "subcategory": "",
-      "status": "planned",
-      "tags": []
+      "status": "beta",
+      "tags": [
+        "budget",
+        "pre-production",
+        "planning",
+        "finance",
+        "production"
+      ]
     },
     {
       "name": "interview-question-catalogue",
