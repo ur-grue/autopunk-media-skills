@@ -10,7 +10,7 @@
 
 | Day | Date | Stars | +Delta | Cumul. | Top Referrer | Notes |
 |-----|------|-------|--------|--------|-------------|-------|
-| D1  | 5/27 | 5     | —      | 0      | —           | Heartbeats fired; drafts committed; child issues created |
+| D1  | 5/27 | 5     | 0      | 0      | github.com (31v/7u) | Baseline set. 36 views, 17 clones (14d). chatgpt.com appeared (1v). No external channels active yet. |
 | D2  | 5/28 | —     | —      | —      | —           | |
 | D3  | 5/29 | —     | —      | —      | —           | HN target day |
 | D4  | 5/30 | —     | —      | —      | —           | |
@@ -46,6 +46,7 @@
 
 | Date | Observation | Decision |
 |------|-------------|----------|
+| 5/27 | github.com=97% traffic; chatgpt.com=1 ref | Organic discovery has ceiling; recommend HN/Reddit first |
 | 5/27 | Paperclip API unreachable in 2nd heartbeat | CEO doing repo work directly; child issues pre-created; will resume delegation when API recovers |
 
 ---
