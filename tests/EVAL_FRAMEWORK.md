@@ -227,3 +227,133 @@ The 4.0 threshold is set deliberately high. It means the skill works reliably fo
 ### What Happens To Skills That Don't Pass?
 
 They stay at `beta` status. The evaluation identifies which dimension scored lowest — that tells the maintainer exactly what to fix. Failed evaluations are kept internal; only the badge and score are public.
+
+---
+
+## Section C — Workflow-Level Agent Evaluation
+
+Agents compose multiple skills into a single deliverable. Per-skill G-Eval verifies that each component works in isolation. Workflow-level evaluation verifies that the assembled output works as a package.
+
+### Why a separate eval layer
+
+A documentary development agent might invoke five skills that each score 4.5/5 individually. But if the logline contradicts the treatment, the series bible ignores the logline's angle, and the broadcaster pitch repeats the synopsis verbatim, the package fails as a deliverable. Workflow-level eval catches integration failures that per-skill eval cannot see.
+
+### Threshold
+
+An agent is promoted to `stable` when **both** of the following hold:
+
+1. **Workflow overall mean ≥ 4.0/5** across all nine dimensions, AND
+2. **Workflow Editorial Naturalness ≥ 4.0/5** (same hard floor as per-skill eval).
+
+### Additional dimensions for workflow eval
+
+Workflow eval uses the same seven per-skill dimensions (Coherence, Consistency, Fluency, Relevance, Professionalism, Actionability, Editorial Naturalness) plus two workflow-specific dimensions:
+
+| Dimension | Scoring criteria |
+|-----------|-----------------|
+| **Cross-Step Consistency** | 1 = later steps contradict or ignore earlier steps · 3 = mostly aligned, minor drift in terminology or framing · 5 = each step builds on prior outputs, facts and framing are consistent throughout |
+| **Deliverable Completeness** | 1 = major sections missing or placeholder-quality · 3 = all sections present, some underdeveloped · 5 = the package is complete enough to hand to a colleague or client without adding missing pieces |
+
+### Step 1 — Prepare three test briefs
+
+Generate three briefs for the agent. Each must:
+- Be realistic and professional-quality
+- Represent a genuinely different scenario (different topic, genre, or complexity)
+- Not reuse the agent's own example brief
+
+### Step 2 — Run the agent end-to-end
+
+For each brief:
+1. Run the agent in PLANNING mode. Record the plan.
+2. Approve the plan and run EXECUTION mode. Record the assembled deliverable.
+
+### Step 3 — Score each deliverable
+
+Score all nine dimensions on a 1-5 integer scale. Use the per-skill anchor tables for the original seven dimensions. Use these anchors for the two workflow dimensions:
+
+**Cross-Step Consistency anchors:**
+
+| Score | Description |
+|-------|-------------|
+| **5** | Every section references and builds on prior sections. Terminology, tone, and facts are aligned. A reader cannot tell different skills produced different sections. |
+| **4** | Minor inconsistencies (a name spelled differently, a date repeated rather than referenced). No factual contradictions. |
+| **3** | One factual drift (e.g., the pitch emphasizes a different angle than the logline established). Terminology shifts between sections. |
+| **2** | Multiple sections appear to have been written independently. Key facts from early steps are ignored or contradicted later. |
+| **1** | Sections actively contradict each other. The package reads like five unrelated documents stapled together. |
+
+**Deliverable Completeness anchors:**
+
+| Score | Description |
+|-------|-------------|
+| **5** | Every section the deliverable promises is present, fully developed, and usable. Nothing needs to be added before handoff. |
+| **4** | All sections present. One section is thinner than expected but still functional. |
+| **3** | All sections present but one or two are underdeveloped — a colleague would ask "can you flesh this out?" |
+| **2** | A section is missing or is placeholder-quality ("TBD", "add details here"). |
+| **1** | The deliverable is fragmentary. Multiple sections are missing or skeletal. |
+
+### Step 4 — Calculate and record
+
+Calculate the mean across all nine dimensions for each test case.
+Overall mean = average of all three test case means.
+Record the per-dimension mean for Editorial Naturalness separately (hard floor check).
+
+Update the agent's `.evals.json`:
+
+```json
+{
+  "agent_name": "agent-name",
+  "eval_type": "workflow",
+  "status": "passed | failed",
+  "overall_mean": 4.3,
+  "editorial_naturalness_mean": 4.2,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "One-sentence description of the test brief",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Clean throughout; grant narrative section picks up the logline's framing without restating it.",
+      "case_mean": 4.22
+    }
+  ]
+}
+```
+
+### Step 5 — Update agent status
+
+Same rules as per-skill eval:
+- If `overall_mean ≥ 4.0` AND `editorial_naturalness_mean ≥ 4.0`: set `status: stable`, record `eval_score`.
+- Otherwise: keep `status: beta`, note the weakest dimension.
+
+### Running a workflow eval in Claude Code
+
+```
+Run workflow G-Eval for [agent-name].
+Read the agent file and all skills it declares.
+Generate 3 test briefs with varied topics and complexity.
+For each brief: run PLANNING mode, approve, run EXECUTION mode.
+Score each deliverable on all 9 dimensions (1-5 scale).
+For Editorial Naturalness, count tells and add a one-line note.
+Report mean per dimension and overall average.
+If overall mean >= 4.0 AND editorial_naturalness mean >= 4.0, set status to stable.
+Otherwise keep status as beta and note the weakest dimension.
+```
+
+### Plain-language summary for human reviewers
+
+When reviewing an agent's output, ask yourself these questions:
+
+1. **Does the package hold together?** Read the deliverable start to finish. Do the sections feel like parts of the same project, or like separate documents pasted together?
+2. **Does each section build on the last?** The logline should set the angle that the treatment develops. The pitch should reflect the treatment's structure. If section 3 ignores what section 1 established, that's a failure.
+3. **Is anything missing?** If the agent promised a five-part package, are all five parts present and complete? Could you hand this to a colleague without needing to add missing pieces?
+4. **Does it sound like one voice?** Tone, vocabulary, and register should be consistent throughout. A package that shifts from formal grant-proposal language to casual blog-post tone between sections is jarring.
+5. **Would you use this?** The ultimate test. If someone handed you this package for a real project, would you use it as-is, edit it lightly, or start over?

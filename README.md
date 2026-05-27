@@ -181,6 +181,25 @@ Two short examples showing the quality standard across different categories. Eac
 
 ---
 
+## Agents
+
+Agents compose multiple skills into multi-step workflows that produce complete deliverables. Where a skill handles one task, an agent orchestrates a full pipeline — from brief to finished package.
+
+| Agent | What it produces | Skills composed | Status |
+|-------|-----------------|----------------|--------|
+| Documentary Development Agent | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | 🔲 planned |
+| Investigative Reporter Agent | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | 🔲 planned |
+| Magazine Editor Agent | End-to-end editing pass on a submitted draft | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | 🔲 planned |
+| YouTube Channel Operator Agent | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | 🔲 planned |
+| Podcast Producer Agent | Episode end-to-end | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | 🔲 planned |
+| PR Crisis Response Agent | Crisis response package | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | 🔲 planned |
+
+Each agent operates in two modes: **PLANNING** (reads your brief, presents a step-by-step plan for approval) and **EXECUTION** (runs the approved plan, assembles the outputs into a single deliverable). You can interrupt between steps to adjust direction.
+
+Agents follow the same quality badge system as skills. See `agents/AGENT_TEMPLATE.md` for the full specification.
+
+---
+
 ## How To Use A Skill
 
 **Option A — Copy and paste** (no technical setup needed)
