@@ -102,3 +102,9 @@ Feed in your script or final edit timeline. Get back formatted chapter timestamp
 - **Run Steps 1–4 in one session** — the context carries forward and Claude's suggestions get sharper.
 - **Save your best outputs** as reference examples for future sessions.
 - **Iterate on the hook** — it's the highest-leverage part of any video. Try multiple rounds before moving to the full script.
+
+---
+
+## Pitching the channel, not the video
+
+This workflow makes individual videos. If you are pitching the channel as a property — to sponsors, networks, or production partners — the document is only half the job. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for creators who need strategic packaging, not just copy.

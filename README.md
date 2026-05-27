@@ -256,13 +256,23 @@ This repo exists within a growing ecosystem of agent skills for media, journalis
 
 ---
 
+## Need help with your specific project?
+
+These skills produce strong drafts. But if you're pitching to a broadcaster, applying for production funding, or trying to get a project greenlit — the document is only half the job. Knowing what commissioners respond to, how to position your project, and when to push back on notes is the other half.
+
+**[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals. The skills handle the writing. The Pitch Doctor handles the strategy.
+
+→ [Learn more](docs/go-deeper.md)
+
+---
+
 ## License
 
 MIT — free to use, fork, and adapt. See `LICENSE`.
 
 ---
 
-Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers.
+Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers, from the team behind [thepitchdoctor.io](https://thepitchdoctor.io).
 
 These skills encode real production knowledge from documentary development, magazine journalism, broadcast scripting, and international co-productions.
 

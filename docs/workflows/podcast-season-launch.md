@@ -108,3 +108,9 @@ Feed in the transcript and show notes. Get back a compelling episode summary opt
 - **Run Step 1 for the full season before recording anything.** Having all episode concepts mapped out helps you sequence topics and avoid repetition.
 - **Save your guest research briefs.** If a guest appears on multiple episodes or you reference them later, the dossier saves hours.
 - **Batch Steps 7–9 for efficiency.** Once you have the recording, the post-production skills chain together quickly.
+
+---
+
+## Pitching the show itself
+
+This workflow handles the season. If you are pitching the show to a network, sponsor, or production company — that is a separate craft. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for podcast producers who need strategic positioning, not just a document.

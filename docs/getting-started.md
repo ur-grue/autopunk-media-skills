@@ -173,6 +173,16 @@ Pick your role below. Each one links to three skills that are immediately useful
 
 See the [Troubleshooting Guide](troubleshooting.md) — it covers the most common reasons output misses the mark and how to fix them.
 
+---
+
+## Need personalized help?
+
+These skills give you strong drafts for specific tasks. If you need strategic guidance — which commissioner to approach, how to position your project, whether your treatment will actually land — that's a different kind of help.
+
+**[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals who have a project worth making and need expert guidance to get it funded.
+
+The skills are free. The strategic advice is not. → [Learn more](go-deeper.md)
+
 ## Want To Chain Skills Together?
 
 Most real projects use multiple skills in sequence. See the [Workflows](workflows/) folder for step-by-step guides that walk you through an entire project — from concept to delivery.

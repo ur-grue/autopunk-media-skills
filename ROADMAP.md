@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 199 stable · 178 beta · 0 draft · 10 planned · 387 total (364 + 23 locale variants)
+**Summary:** 199 stable · 182 beta · 0 draft · 6 planned · 387 total (364 + 23 locale variants)
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -15,11 +15,14 @@ All skills are listed by category and subcategory. Update this file every sessio
 - [x] CONTRIBUTING.md (non-technical + technical sections)
 - [x] Claude Plugin Marketplace format (`.claude-plugin/marketplace.json`)
 - [x] AutoResearch binary eval loop (complementing G-Eval)
+- [x] thepitchdoctor.io funnel integration (README, getting-started, workflows, go-deeper page)
+- [x] Developed 4 planned skills to beta: budget-estimator, chart-type-advisor, chart-labels-writer, data-outlier-finder
 
 ### In Progress
 - [ ] npm package for one-command installation
 - [ ] Awesome-list submissions (travisvn, ComposioHQ, VoltAgent)
 - [ ] Skill directory listings (SkillsMP, SkillHub)
+- [ ] Promote 177 beta skills to stable (run G-Eval on each)
 
 ### Planned
 - [ ] GitHub Actions: auto-validate new skills on PR

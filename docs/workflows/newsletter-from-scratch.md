@@ -102,3 +102,9 @@ When you're ready to monetize, give Claude your free vs. paid content split and 
 - **Step 1 (positioning) is the most important step.** If your niche is fuzzy, every edition will feel unfocused. Spend time here.
 - **Write 3–5 editions before launching publicly.** You need to find your voice before you start growing an audience.
 - **Don't launch the paid tier (Step 8) until you have consistent open rates above 40%.** That means your free content is good enough to earn trust.
+
+---
+
+## When you outgrow the templates
+
+These skills get you from zero to a launched newsletter. If you are turning the newsletter into a media business — pitching brand partners, building a paid product, or repositioning for scale — that is strategic work. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one consulting for media operators ready to take the next commercial step.

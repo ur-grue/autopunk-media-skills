@@ -120,3 +120,9 @@ Give Claude the final piece with its angle and audience. Get back headline optio
 - **Never publish Claude's output as fact without independent verification.** Claude can structure your evidence, but it cannot verify claims. Every factual assertion needs human confirmation.
 - **Run Step 8 (fact-check) even if you think the piece is clean.** It catches things you've gone blind to.
 - **Save your document analysis outputs** — they become the backbone of your reporting file.
+
+---
+
+## Pitching the investigation as a documentary
+
+If the investigation is strong enough to become a documentary, podcast series, or long-form feature for a different outlet — that is a different pitch entirely. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers pitch consulting for journalists turning investigations into broadcast or streaming projects.

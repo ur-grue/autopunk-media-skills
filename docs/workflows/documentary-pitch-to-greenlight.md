@@ -102,3 +102,9 @@ Give Claude the fund's criteria, your project details, and the budget range. Get
 - **Write the logline first. Always.** If you can't say it in one sentence, the treatment will ramble.
 - **Tailor Step 5 (one-pager) for each broadcaster.** Different networks have different priorities — adapt the emphasis, don't send the same one-pager everywhere.
 - **Run Step 4 (character arcs) even for single-character films.** It forces you to think about narrative development, not just topic coverage.
+
+---
+
+## Beyond the documents
+
+This workflow gives you professional-grade pitch documents. But documents alone rarely greenlight a project. If you need strategic advice — which commissioners to approach, how to position your project in the current market, or feedback from someone who has sat on both sides of the table — **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers.
