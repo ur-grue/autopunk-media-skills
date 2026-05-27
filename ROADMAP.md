@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 447 stable skills · 5 stable hooks · 0 beta · 1 draft · 16 planned skills · 6 planned agents · 475 total
+**Summary:** 454 stable skills · 5 stable hooks · 1 stable agent · 0 beta · 0 draft · 9 planned skills · 5 planned agents · 475 total
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -24,7 +24,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [ ] Skill directory listings (SkillsMP, SkillHub)
 - [x] Promote 181 beta skills to stable (batch G-Eval structural eval, all 181 passed at ≥ 4.2/5)
 - [ ] Agents layer foundation — folder, template, README, conventions ([AUT-21](/AUT/issues/AUT-21))
-- [ ] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22), blocked on AUT-21)
+- [x] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22)) — stable, eval 4.81/5
 - [x] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23))
 - [ ] OSINT and verification category — 5 planned skills + 2 new ([AUT-24](/AUT/issues/AUT-24))
 - [x] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
@@ -196,8 +196,10 @@ The peer library is a useful mirror. These are the things we deliberately did NO
 | expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | ✅ stable (4.3/5) |
 | document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | ✅ stable (4.5/5) |
 | investigation-timeline-builder | Build a chronological timeline of events from raw notes and documents | ✅ stable (4.4/5) |
-| source-verification | Verify a source's claims, images, video, or documents using the SIFT framework, reverse-image search, EXIF inspection, and a verification-trail template | 🔲 planned |
-| social-media-intelligence | Open-source intelligence workflow for social accounts: account analysis, narrative tracking, and coordination-detection patterns | 🔲 planned |
+| source-verification | Verify a source's claims, images, video, or documents using the SIFT framework, reverse-image search, EXIF inspection, and a verification-trail template | ✅ stable (4.73/5) |
+| social-media-intelligence | Open-source intelligence workflow for social accounts: account analysis, narrative tracking, and coordination-detection patterns | ✅ stable (4.57/5) |
+| osint-tool-catalog | Categorised catalog of OSINT tools (geolocation, account analysis, satellite imagery, transport tracking, corporate research, archiving) with practical guidance and operational-security notes | ✅ stable (4.76/5) |
+| eu-document-access-builder | Draft access-to-documents requests under EU Regulation 1049/2001, German IFG, Swiss BGÖG, and French CADA with correct legal basis, deadlines, and appeal pathways | ✅ stable (4.67/5) |
 
 ### fact-checking
 | Skill | Description | Status |
@@ -691,7 +693,7 @@ Specialist orchestrators that compose multiple skills into multi-step deliverabl
 
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
-| documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | 🔲 planned ([AUT-22](/AUT/issues/AUT-22)) |
+| documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | ✅ stable (4.81/5) ([AUT-22](/AUT/issues/AUT-22)) |
 | investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔵 beta ([AUT-23](/AUT/issues/AUT-23)) |
 
 ### planned (held until pilots prove the pattern)

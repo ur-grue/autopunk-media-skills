@@ -246,7 +246,7 @@ Agents compose multiple skills into multi-step workflows that produce complete d
 
 | Agent | What it produces | Skills composed | Status |
 |-------|-----------------|----------------|--------|
-| Documentary Development Agent | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | 🔲 planned |
+| Documentary Development Agent | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | ✅ stable (4.81/5) |
 | Investigative Reporter Agent | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | 🔵 beta |
 | Magazine Editor Agent | End-to-end editing pass on a submitted draft | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | 🔲 planned |
 | YouTube Channel Operator Agent | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | 🔲 planned |
