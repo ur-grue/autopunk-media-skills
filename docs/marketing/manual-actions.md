@@ -21,15 +21,17 @@ Actions that require human intervention — cannot be automated by CI/CD.
   - https://github.com/travisvn/awesome-claude-skills/pull/776
   - https://github.com/ComposioHQ/awesome-claude-skills/pull/931
   - https://github.com/BehiSecc/awesome-claude-skills/pull/323
+  - https://github.com/VoltAgent/awesome-agent-skills/pull/616
+  - https://github.com/sickn33/antigravity-awesome-skills/pull/624
 - [ ] Submit to directories (see `docs/marketing/directory-submissions.md`)
 
 ## Content Marketing
 - [X] Write dev.to post: "354 Free Claude Skills for Media Professionals" — draft at `docs/marketing/drafts/devto-post.md`
 - [X] Write r/ClaudeAI post with 2-3 example outputs — draft at `docs/marketing/drafts/reddit-r-claudeai.md`
 - [X] Write LinkedIn post (EN) — draft at `docs/marketing/drafts/linkedin-post.md`
-- [ ] **HUMAN ACTION:** Post dev.to article from draft
-- [ ] **HUMAN ACTION:** Post to r/ClaudeAI from draft
-- [ ] **HUMAN ACTION:** Post LinkedIn update from draft
+- [ ] **HUMAN ACTION:** Post dev.to article from draft — see `docs/marketing/drafts/PUBLISH-NOW.md` for 30-second paste instructions
+- [ ] **HUMAN ACTION:** Post to r/ClaudeAI from draft — see `docs/marketing/drafts/PUBLISH-NOW.md` for 30-second paste instructions
+- [ ] **HUMAN ACTION:** Post LinkedIn update from draft — see `docs/marketing/drafts/PUBLISH-NOW.md` for 30-second paste instructions
 
 ## Eval Pipeline
 - [ ] Run eval pipeline with API key:
