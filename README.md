@@ -1,17 +1,76 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-![Skills](https://img.shields.io/badge/skills-354_total-brightgreen) ![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate_(226_skills)-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![G-Eval](https://img.shields.io/badge/quality-G--Eval_tested-orange) ![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills) ![Agents](https://img.shields.io/badge/agents-Claude_Code_·_Cursor_·_Codex_·_Gemini-blueviolet)
+[![Skills](https://img.shields.io/badge/skills-354_total-brightgreen)](skills/) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-> *Built by a commissioning editor with 15+ years in public broadcasting.*
+**354 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — built by a commissioning editor with 15+ years in public broadcasting. No coding required.
+
+> ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
+
+**Jump to your role:** [Documentary Producer](#-for-documentary-producers) · [Journalist](#-for-journalists) · [YouTube Creator](#-for-youtube-creators) · [Podcaster](#-for-podcasters) · [Newsletter Writer](#-for-newsletter-writers)
+
+---
+
+## What Does It Produce?
+
+Three real outputs, unedited, from stable skills in the library:
+
+**YouTube hook** — `hook-generator` — Input: video about why immersion fails for adult language learners
+
+> "94% of adult language learners plateau within six months. Not because they quit. Because they're doing the one thing every expert recommends — and it is actively working against how the adult brain acquires language. The science on this is twenty years old. Nobody taught it to you."
+
+**Documentary logline** — `logline-creator` — Input: feature doc about forensic archivists recovering destroyed government records
+
+> "In a basement lab outside Washington, three archivists race to recover government records that were officially destroyed — before the statute of limitations runs out on the people who ordered the erasure."
+
+**Press release opening** — `press-kit-generator` — Input: 6-part nature doc series, three continents, PBS-adjacent tone
+
+> "Seven years in production. Forty-two filming locations across three continents. One question that ornithologists have debated for a century: where do they actually go?"
+
+That is the quality level across the library. Production-ready. Usable without editing.
+
+---
+
+## Start In 60 Seconds
+
+**No technical setup. No account. No install.**
+
+1. Open [claude.ai](https://claude.ai) (free account — takes 30 seconds)
+2. Browse [`skills/`](skills/) on this page and click the skill you want
+3. Read the **"What You Need To Provide"** section
+4. Copy the skill text and paste it into Claude with your own material
+
+That's it. You're using a production-grade skill.
+
+**Pick your role** for a curated starting point:
+
+| I work in… | Start here |
+|---|---|
+| 📺 TV Documentary | [Documentary Producer guide](docs/for/documentary-producer.md) |
+| 📰 Journalism | [Magazine Journalist guide](docs/for/magazine-journalist.md) |
+| 📹 YouTube | [YouTube Creator guide](docs/for/youtuber.md) |
+| 🎙️ Podcasting | [Podcaster guide](docs/for/podcaster.md) |
+| ✉️ Newsletters | [Newsletter Writer guide](docs/for/newsletter-writer.md) |
+
+---
+
+## What Is This?
+
+This is a free collection of **354 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
+
+Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
+
+**354 skills across 15 categories.** 176 stable (quality-evaluated at ≥ 4.0/5), 178 beta. MIT licensed.
+
+Skills work as copy-paste prompts in [Claude](https://claude.ai), or as installable skills in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the [Agent Skills standard](https://agentskills.io).
 
 ---
 
 ## Install
 
-> **Not a developer?** You don't need to install anything. Jump straight to [Quick Start](#quick-start) to copy your first skill into Claude in under two minutes.
+> **Using Claude on the web?** No install needed — see [Start In 60 Seconds](#start-in-60-seconds) above.
 
 ```bash
-# Clone the full library
+# Clone the full library (for Claude Code, Cursor, Codex CLI, Gemini CLI)
 git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
 
 # Or install individual skills
@@ -20,29 +79,11 @@ npx skills add ur-grue/autopunk-media-skills --skill hook-generator
 
 **Compatible with:** Claude Code · Cursor · Codex CLI · Gemini CLI · OpenCode · any agent supporting the [Agent Skills standard](https://agentskills.io).
 
-> ⭐ If this saves you time, star the repo — it helps other media professionals find it.
-
----
-
-## What Is This?
-
-This is a free collection of **Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for media production work.
-
-Skills follow the open [Agent Skills standard](https://agentskills.io) — they work in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any compatible coding agent.
-
-Think of each skill as hiring an expert collaborator for one specific task: writing a pitch treatment, generating SEO-optimized YouTube titles, cleaning up an interview transcript, or building a cinematic image prompt from scratch.
-
-**No coding required. No technical knowledge needed.** Pick a skill, give Claude what it needs, and get professional-grade output.
-
 ---
 
 ## Who Is This For?
 
 TV documentary producers · magazine journalists · YouTube creators · podcast producers · screenwriters · data journalists · radio producers · newsletter writers · PR professionals · researchers · social media managers · visual content creators · editors and production teams.
-
-**Pick your role** for a tailored starting point:
-
-[Documentary Producer](docs/for/documentary-producer.md) · [Magazine Journalist](docs/for/magazine-journalist.md) · [YouTube Creator](docs/for/youtuber.md) · [Podcaster](docs/for/podcaster.md) · [Newsletter Writer](docs/for/newsletter-writer.md)
 
 ---
 
@@ -206,7 +247,7 @@ Agents compose multiple skills into multi-step workflows that produce complete d
 | Agent | What it produces | Skills composed | Status |
 |-------|-----------------|----------------|--------|
 | Documentary Development Agent | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | 🔲 planned |
-| Investigative Reporter Agent | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | 🔲 planned |
+| Investigative Reporter Agent | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | 🟡 draft |
 | Magazine Editor Agent | End-to-end editing pass on a submitted draft | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | 🔲 planned |
 | YouTube Channel Operator Agent | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | 🔲 planned |
 | Podcast Producer Agent | Episode end-to-end | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | 🔲 planned |

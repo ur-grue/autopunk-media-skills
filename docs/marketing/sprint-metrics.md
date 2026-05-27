@@ -1,69 +1,68 @@
-# AUT-20 Launch Sprint — Daily Metrics Dashboard
+# AUT-20 Sprint Metrics — 10-Day Star Push
 
-**Sprint window:** 2026-05-27 through 2026-06-05 (10 days)
-**Repo:** [ur-grue/autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills)
-**Tracking issue:** AUT-31
-
----
-
-## Cumulative Snapshot
-
-| Metric | Baseline (5/27) | Current | Delta |
-|--------|-----------------|---------|-------|
-| Stars | 5 | 5 | — |
-| Forks | 0 | 0 | — |
-| Watchers | 5 | 5 | — |
-| Views (14d) | 36 (10 unique) | 36 (10 unique) | — |
-| Clones (14d) | 17 (15 unique) | 17 (15 unique) | — |
-
----
-
-## Top Referrers (current)
-
-| Referrer | Views | Unique Visitors |
-|----------|-------|-----------------|
-| github.com | 31 | 7 |
-| chatgpt.com | 1 | 1 |
-
----
-
-## Top Pages (current)
-
-| Path | Views | Unique |
-|------|-------|--------|
-| Overview (root) | 16 | 10 |
-| /tree/main/.claude/skills | 2 | 2 |
-| /tree/main/skills | 2 | 2 |
-| /tree/main/skills/tv-documentary/business | 2 | 1 |
+**Goal:** 1000 stars by 2026-06-05  
+**Start date:** 2026-05-27  
+**Start stars:** 5
 
 ---
 
 ## Daily Log
 
-### Day 1 — 2026-05-27
+| Day | Date | Stars | +Delta | Cumul. | Top Referrer | Notes |
+|-----|------|-------|--------|--------|-------------|-------|
+| D1  | 5/27 | 5     | —      | 0      | —           | Heartbeats fired; drafts committed; child issues created |
+| D2  | 5/28 | —     | —      | —      | —           | |
+| D3  | 5/29 | —     | —      | —      | —           | HN target day |
+| D4  | 5/30 | —     | —      | —      | —           | |
+| D5  | 5/31 | —     | —      | —      | —           | If <100 cumul: reassess |
+| D6  | 6/01 | —     | —      | —      | —           | |
+| D7  | 6/02 | —     | —      | —      | —           | PH launch target (Tue) |
+| D8  | 6/03 | —     | —      | —      | —           | |
+| D9  | 6/04 | —     | —      | —      | —           | |
+| D10 | 6/05 | —     | —      | —      | —           | Final |
 
-**Snapshot:**
-- Stars: 5 | Forks: 0 | Watchers: 5
-- Views (14d rolling): 36 total, 10 unique
-- Clones (14d rolling): 17 total, 15 unique
+---
 
-**Previous day traffic (5/26):**
-- Views: 3 (2 unique)
-- Clones: 1 (1 unique)
+## Channel Tracking
 
-**Top referrer:** github.com (31 views, 7 unique — 97% of traffic)
-
-**Channel analysis:**
-- github.com dominates at 97% of all views. This is organic GitHub discovery (search, explore, profile).
-- chatgpt.com appeared as a referrer (1 view) — indicates at least one user found the repo via ChatGPT.
-- No external launch channels active yet (HN, Reddit, Twitter posts not reflected in referrers).
-
-**Recommended channel for Day 2:** Begin Show HN submission or Reddit r/ClaudeAI post — organic GitHub traffic has a ceiling without external amplification.
+| Channel | Status | Stars attributed | Notes |
+|---------|--------|-----------------|-------|
+| r/ClaudeAI | Draft ready (AUT-26) | — | |
+| dev.to | Draft ready (AUT-26) | — | |
+| LinkedIn | Draft ready (AUT-26) | — | |
+| X/Twitter | Draft ready (AUT-28) | — | |
+| HN Show HN | Draft ready (docs/marketing/drafts/hn-show-hn.md) | — | Fire Tue/Wed 8-10am EST |
+| Product Hunt | Kit needed (AUT-27) | — | Target Tue 6/2 |
+| Reddit multi-sub | AUT-29 | — | |
+| Awesome-list PRs | 3 filed, 2 pending | — | |
+| Newsletter wave 1 | Draft ready (newsletter-outreach.md) | — | |
+| Newsletter wave 2 | Draft ready | — | |
+| Directories | AUT-33 | — | |
+| Influencer outreach | AUT-30 | — | |
 
 ---
 
 ## Decision Log
 
-| Day | Decision | Rationale |
-|-----|----------|-----------|
-| 1 | Establish baseline; no channel pivot needed | All traffic is organic GitHub. External channels not yet activated. |
+| Date | Observation | Decision |
+|------|-------------|----------|
+| 5/27 | Paperclip API unreachable in 2nd heartbeat | CEO doing repo work directly; child issues pre-created; will resume delegation when API recovers |
+
+---
+
+## Catalyst Decision Rules
+
+- **By D5 (5/31):** If cumulative delta < 100, escalate to CEO for plan revision.
+- **By D7 (6/2):** If delta < 300, skip Product Hunt and concentrate on newsletter follow-ups.
+- **If HN front-pages:** Fire X thread + LinkedIn post + Anthropic Discord within 1 hour.
+- **If newsletter feature confirmed:** Post quote/screenshot as social proof on X + LinkedIn immediately.
+
+---
+
+## Referrer Data (run daily)
+
+```bash
+gh api repos/ur-grue/autopunk-media-skills/traffic/referrers
+gh api repos/ur-grue/autopunk-media-skills/traffic/popular/paths
+gh api repos/ur-grue/autopunk-media-skills --jq .stargazers_count
+```
