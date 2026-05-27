@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 447 stable · 0 beta · 1 draft · 16 planned skills · 6 planned agents · 5 planned hooks · 474 total
+**Summary:** 447 stable skills · 5 stable hooks · 0 beta · 1 draft · 16 planned skills · 6 planned agents · 475 total
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -27,7 +27,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [ ] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22), blocked on AUT-21)
 - [ ] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23), blocked on AUT-21)
 - [ ] OSINT and verification category — 5 planned skills + 2 new ([AUT-24](/AUT/issues/AUT-24))
-- [ ] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
+- [x] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
 
 ### Planned
 - [ ] GitHub Actions: auto-validate new skills on PR
@@ -713,8 +713,8 @@ Write-time enforcement layer for the editorial discipline doctrine. All hooks ar
 
 | Hook | Event | Description | Status |
 |------|-------|-------------|--------|
-| ai-slop-detector | PostToolUse | Flag banned words and `not just X — Y` constructions from the editorial discipline doctrine | 🔲 planned |
-| attribution-check | PostToolUse | Flag quoted material without source attribution | 🔲 planned |
-| archive-on-cite-reminder | PostToolUse | Remind to archive any URL cited in an edit (composes with `web-archiving` once shipped) | 🔲 planned |
-| passive-voice-warning | PostToolUse | Flag passive voice above a configurable threshold (composes with `passive-voice-checker` skill) | 🔲 planned |
-| pre-publish-checklist | Stop | Surface a 6-item editorial checklist before finishing a writing task | 🔲 planned |
+| ai-slop-detector | PostToolUse | Flag banned words and `not just X — Y` constructions from the editorial discipline doctrine | ✅ stable |
+| attribution-check | PostToolUse | Flag quoted material without source attribution | ✅ stable |
+| archive-on-cite-reminder | PostToolUse | Remind to archive any URL cited in an edit (composes with `web-archiving` once shipped) | ✅ stable |
+| passive-voice-warning | PostToolUse | Flag passive voice above a configurable threshold (composes with `passive-voice-checker` skill) | ✅ stable |
+| pre-publish-checklist | Stop | Surface a 6-item editorial checklist before finishing a writing task | ✅ stable |

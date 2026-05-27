@@ -136,6 +136,24 @@ Browse the full library in the `skills/` folder. Skills are organized by media f
 
 ---
 
+## Hooks
+
+Hooks are write-time editorial guardrails. They run automatically while you work and surface non-blocking warnings when your text has common quality gaps — AI-flavoured language, missing attribution, unarchived URLs, or excessive passive voice.
+
+Hooks advise. They never block your work or revert your edits.
+
+| Hook | Fires on | What it catches |
+|------|----------|-----------------|
+| [ai-slop-detector](hooks/ai-slop-detector.md) | Every edit | Banned words, throat-clearing intros, "not just X — Y" constructions |
+| [attribution-check](hooks/attribution-check.md) | Every edit | Quotes, statistics, or claims without a named source |
+| [archive-on-cite-reminder](hooks/archive-on-cite-reminder.md) | Every edit | URLs added without an archive confirmation |
+| [passive-voice-warning](hooks/passive-voice-warning.md) | Every edit | Passive voice frequency above 25% (configurable) |
+| [pre-publish-checklist](hooks/pre-publish-checklist.md) | Session end | 6-item editorial checklist before you push |
+
+Hooks compose with skills. The `ai-slop-detector` reads its word lists from the `ai-writing-detox` skill. The `passive-voice-warning` points you to the `passive-voice-checker` for a full audit with rewrites. The `pre-publish-checklist` ties them all together at session end.
+
+---
+
 ## Quality Badges
 
 Every skill displays a status badge so you know exactly how production-ready it is.
