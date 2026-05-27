@@ -1,8 +1,8 @@
 # Roadmap
 
-**Summary:** 447 stable · 0 beta · 1 draft · 9 planned · 457 total (428 skills + 20 locale variants + 9 planned)
+**Summary:** 447 stable · 0 beta · 1 draft · 16 planned skills · 6 planned agents · 5 planned hooks · 474 total
 
-All skills are listed by category and subcategory. Update this file every session as statuses change.
+All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
 ---
 
@@ -23,24 +23,30 @@ All skills are listed by category and subcategory. Update this file every sessio
 - [ ] Awesome-list submissions (travisvn, ComposioHQ, VoltAgent)
 - [ ] Skill directory listings (SkillsMP, SkillHub)
 - [x] Promote 181 beta skills to stable (batch G-Eval structural eval, all 181 passed at ≥ 4.2/5)
+- [ ] Agents layer foundation — folder, template, README, conventions ([AUT-21](/AUT/issues/AUT-21))
+- [ ] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22), blocked on AUT-21)
+- [ ] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23), blocked on AUT-21)
+- [ ] OSINT and verification category — 5 planned skills + 2 new ([AUT-24](/AUT/issues/AUT-24))
+- [ ] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
 
 ### Planned
 - [ ] GitHub Actions: auto-validate new skills on PR
 - [ ] GitHub Actions: auto-sync marketplace.json on merge
-- [ ] Docs site (GitHub Pages) with interactive skill browser
+- [ ] Docs site (GitHub Pages) with interactive skill browser — per-skill pages with quality badges, modeled on jamditis's skills.amditis.tech
+- [ ] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed (depends on docs site)
+- [ ] Audience-aligned plugin profiles — `documentary` / `journalism` / `youtube` / `podcast` / `newsletter` / `pr` (depends on docs site)
+- [ ] Remaining 4 pilot agents — magazine-editor / youtube-channel-operator / podcast-producer / pr-crisis-response (held until AUT-22 and AUT-23 prove the pattern)
 - [ ] Expanded test inputs for top 50 skills
 - [ ] Community skill submissions (first external PRs)
 - [ ] Localized skill variants (DE, FR, ES) for European broadcasters
-- [ ] Peer-library additions (see *Peer-Library Learnings* below): 4 new skills + 2 new subcategories (10 planned skills)
 - [ ] Refactor: deepen `magazine-journalism/investigation/foia-request-writer` to procedural depth (50-state statute table, federal template, appeal template)
 - [ ] Editorial voice-and-style guide derived from `ai-writing-detox` banned list
-- [ ] Spike: runtime quality hooks system ([AUT-19](https://github.com/ur-grue/autopunk-media-skills/issues), owned by FoundingEngineer)
 
 ---
 
 ## Peer-Library Learnings
 
-Source: [AUT-17](https://github.com/ur-grue/autopunk-media-skills/issues) — read of `jamditis/claude-skills-journalism` end-to-end. Translated into roadmap directives below. Per-skill tasks fan out from this section; the doctrine and anti-recommendations apply to *all* skill work going forward.
+Source: prior `jamditis/claude-skills-journalism` end-to-end read (AUT-17), extended by the full competitive analysis approved 2026-05-27 ([AUT-19](/AUT/issues/AUT-19), full text in [`docs/competitive-analysis.md`](docs/competitive-analysis.md)). Translated into roadmap directives below. Per-skill and per-agent tasks fan out from this section; the doctrine and anti-recommendations apply to *all* skill and agent work going forward.
 
 ### Refactor Targets
 
@@ -674,3 +680,41 @@ Meta-layer skills for using a skill library on a real project — scaffolding, r
 | project-memory | Generate a project-specific `CLAUDE.md` (or equivalent agent context file) from a short project brief, preserving voice, audience, and editorial constraints across sessions | 🔲 planned |
 | project-retrospective | Generate a `LESSONS.md` from a finished project: what worked, what didn't, what to reuse, what to retire — formatted for next-project carry-over | 🔲 planned |
 | template-selector | Recommend the right skill bundle and project-memory template for a new project type (publication / event / pipeline / archive / research) | 🔲 planned |
+
+---
+
+## Agents
+
+Specialist orchestrators that compose multiple skills into multi-step deliverables. Each agent operates in PLANNING (produce an approvable methodology) or EXECUTION (run the approved plan) mode. Foundation work in [AUT-21](/AUT/issues/AUT-21); pilots in [AUT-22](/AUT/issues/AUT-22) and [AUT-23](/AUT/issues/AUT-23). Approved 2026-05-27 via [AUT-19](/AUT/issues/AUT-19).
+
+### pilot
+
+| Agent | Composes | Deliverable | Status |
+|-------|----------|-------------|--------|
+| documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | 🔲 planned ([AUT-22](/AUT/issues/AUT-22)) |
+| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔲 planned ([AUT-23](/AUT/issues/AUT-23)) |
+
+### planned (held until pilots prove the pattern)
+
+| Agent | Composes | Deliverable | Status |
+|-------|----------|-------------|--------|
+| magazine-editor-agent | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | End-to-end editing pass on a submitted draft | 🔲 planned |
+| youtube-channel-operator-agent | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | Full video pipeline from topic to publish-ready package | 🔲 planned |
+| podcast-producer-agent | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | Episode end-to-end | 🔲 planned |
+| pr-crisis-response-agent | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | Crisis response package | 🔲 planned |
+
+---
+
+## Hooks
+
+Write-time enforcement layer for the editorial discipline doctrine. All hooks are non-blocking warnings — they advise, they do not prevent action. Tracked in [AUT-25](/AUT/issues/AUT-25). Approved 2026-05-27 via [AUT-19](/AUT/issues/AUT-19).
+
+### editorial
+
+| Hook | Event | Description | Status |
+|------|-------|-------------|--------|
+| ai-slop-detector | PostToolUse | Flag banned words and `not just X — Y` constructions from the editorial discipline doctrine | 🔲 planned |
+| attribution-check | PostToolUse | Flag quoted material without source attribution | 🔲 planned |
+| archive-on-cite-reminder | PostToolUse | Remind to archive any URL cited in an edit (composes with `web-archiving` once shipped) | 🔲 planned |
+| passive-voice-warning | PostToolUse | Flag passive voice above a configurable threshold (composes with `passive-voice-checker` skill) | 🔲 planned |
+| pre-publish-checklist | Stop | Surface a 6-item editorial checklist before finishing a writing task | 🔲 planned |
