@@ -1207,7 +1207,7 @@
     {
       "name": "source-credibility-brief",
       "path": "skills/magazine-journalism/fact-checking/source-credibility-brief.md",
-      "description": "Produces a structured credibility assessment of a source whose claims appear in a draft article, covering expertise, track record, potential conflicts of interest, and what corroboration is needed before publication.",
+      "description": "Assesses the credibility of a source whose claims appear in a draft — expertise, track record, conflicts of interest, and the corroboration needed before publication.",
       "category": "magazine-journalism",
       "subcategory": "fact-checking",
       "status": "stable",
@@ -2220,7 +2220,7 @@
     {
       "name": "ad-read-script",
       "path": "skills/podcast/scripting/ad-read-script.md",
-      "description": "Writes a natural-sounding host-read ad script from a brand brief that fits the show's tone, meets typical sponsor requirements, and sounds like the host is speaking — not reading copy.",
+      "description": "Turns a brand brief into a host-read ad script that fits the show's tone, meets sponsor requirements, and sounds spoken — not read.",
       "category": "podcast",
       "subcategory": "scripting",
       "status": "stable",
@@ -4292,7 +4292,7 @@
     {
       "name": "science-jargon-explainer",
       "path": "skills/research/scientific-academic/science-jargon-explainer.md",
-      "description": "Translates dense scientific terminology and technical language from academic papers, press releases, or expert interviews into plain English that a general-audience journalist can quote, paraphrase, or explain in a news story.",
+      "description": "Translates dense scientific terminology from academic papers, press releases, or expert interviews into plain English a journalist can quote or paraphrase.",
       "category": "research",
       "subcategory": "scientific-academic",
       "status": "beta",
@@ -5244,7 +5244,7 @@
     {
       "name": "animated-explainer-script",
       "path": "skills/tv-documentary/scripting/animated-explainer-script.md",
-      "description": "Writes a complete narration script for an animated explainer sequence within a documentary, with visual direction cues synced to each beat — ready to hand to a narrator and an animation team simultaneously.",
+      "description": "Writes a narration script for a documentary's animated explainer sequence — visual direction cues on each beat, ready to hand to the narrator and animation team.",
       "category": "tv-documentary",
       "subcategory": "scripting",
       "status": "stable",
@@ -6402,7 +6402,7 @@
     {
       "name": "ab-title-test-brief",
       "path": "skills/youtube/analytics/ab-title-test-brief.md",
-      "description": "Generates 4–5 distinct title variants for A/B testing on a YouTube video, each testing a different click psychology principle, with a rationale for each variant and a recommended testing hypothesis.",
+      "description": "Generates 4–5 title variants for A/B testing — each on a different click-psychology principle, with a rationale and a test hypothesis.",
       "category": "youtube",
       "subcategory": "analytics",
       "status": "stable",
@@ -6434,7 +6434,7 @@
     {
       "name": "brand-deal-pitch-writer",
       "path": "skills/youtube/business/brand-deal-pitch-writer.md",
-      "description": "Writes a professional brand partnership pitch email to a prospective sponsor, presenting the channel's audience, relevant metrics, and specific integration options in a format that a marketing or partnerships team will take seriously.",
+      "description": "Writes a brand-partnership pitch email — channel audience, metrics, and integration options — in a format a marketing or partnerships team will take seriously.",
       "category": "youtube",
       "subcategory": "business",
       "status": "stable",
@@ -6450,7 +6450,7 @@
     {
       "name": "sponsorship-email-writer",
       "path": "skills/youtube/business/sponsorship-email-writer.md",
-      "description": "Writes a professional, specific sponsorship proposal email for a defined YouTube integration type — dedicated video, mid-roll mention, or product placement — addressed to a brand's marketing or partnerships contact.",
+      "description": "Writes a sponsorship proposal email — dedicated video, mid-roll mention, or product placement — addressed to a brand's marketing or partnerships contact.",
       "category": "youtube",
       "subcategory": "business",
       "status": "stable",
@@ -6466,7 +6466,7 @@
     {
       "name": "youtube-media-kit-generator",
       "path": "skills/youtube/business/youtube-media-kit-generator.md",
-      "description": "Generates the complete text content for a YouTube channel media kit — the document brands use to evaluate a creator before committing to a partnership — structured as a ready-to-design one or two-page document.",
+      "description": "Writes a YouTube channel media kit — the text a brand reviews before committing to a partnership — sized for a one or two-page layout.",
       "category": "youtube",
       "subcategory": "business",
       "status": "stable",
@@ -6482,7 +6482,7 @@
     {
       "name": "audience-persona-builder",
       "path": "skills/youtube/channel-strategy/audience-persona-builder.md",
-      "description": "Generates a detailed, practical audience persona profile for a YouTube channel — covering who the viewer is, what they need, why they watch, and what content decisions follow from understanding them.",
+      "description": "Generates an audience persona for the channel — who the viewer is, what they need, why they watch, and what content decisions follow.",
       "category": "youtube",
       "subcategory": "channel-strategy",
       "status": "stable",
@@ -6528,7 +6528,7 @@
     {
       "name": "community-post-generator",
       "path": "skills/youtube/post-production/community-post-generator.md",
-      "description": "Writes an engaging YouTube Community tab post to promote a new video upload, tease upcoming content, or spark audience conversation — matched to the channel's voice.",
+      "description": "Writes a YouTube Community tab post to promote a new upload, tease upcoming content, or spark conversation — matched to the channel's voice.",
       "category": "youtube",
       "subcategory": "post-production",
       "status": "stable",
@@ -6574,7 +6574,7 @@
     {
       "name": "niche-video-idea-generator",
       "path": "skills/youtube/pre-production/niche-video-idea-generator.md",
-      "description": "Generates 10 targeted video ideas for a specific YouTube niche, each with a working title, one-sentence hook, and content angle suited to the channel's style and audience.",
+      "description": "Generates 10 video ideas for the channel's niche — each with a working title, one-sentence hook, and content angle suited to the channel's voice.",
       "category": "youtube",
       "subcategory": "pre-production",
       "status": "stable",
@@ -6635,7 +6635,7 @@
     {
       "name": "call-to-action-generator",
       "path": "skills/youtube/scripting/call-to-action-generator.md",
-      "description": "Writes multiple ready-to-record CTA script options for subscribe, like, comment, sponsor read, or channel promotion — matched to a channel's tone and placed at the right moment in a video.",
+      "description": "Writes ready-to-record CTA scripts — subscribe, like, comment, sponsor read, channel promotion — matched to the channel's tone and timed to the right moment.",
       "category": "youtube",
       "subcategory": "scripting",
       "status": "stable",
@@ -6665,7 +6665,7 @@
     {
       "name": "shorts-script-adapter",
       "path": "skills/youtube/scripting/shorts-script-adapter.md",
-      "description": "Adapts a section of a long-form YouTube video script into a punchy, self-contained YouTube Shorts script under 60 seconds, optimized for vertical format and the Shorts feed.",
+      "description": "Adapts a section of a long-form YouTube script into a self-contained Shorts script under 60 seconds — optimized for vertical format and the Shorts feed.",
       "category": "youtube",
       "subcategory": "scripting",
       "status": "stable",
