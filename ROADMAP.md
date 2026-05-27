@@ -25,7 +25,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [x] Promote 181 beta skills to stable (batch G-Eval structural eval, all 181 passed at ≥ 4.2/5)
 - [ ] Agents layer foundation — folder, template, README, conventions ([AUT-21](/AUT/issues/AUT-21))
 - [ ] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22), blocked on AUT-21)
-- [ ] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23), blocked on AUT-21)
+- [x] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23))
 - [ ] OSINT and verification category — 5 planned skills + 2 new ([AUT-24](/AUT/issues/AUT-24))
 - [x] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
 
@@ -692,7 +692,7 @@ Specialist orchestrators that compose multiple skills into multi-step deliverabl
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
 | documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | 🔲 planned ([AUT-22](/AUT/issues/AUT-22)) |
-| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔲 planned ([AUT-23](/AUT/issues/AUT-23)) |
+| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔵 beta ([AUT-23](/AUT/issues/AUT-23)) |
 
 ### planned (held until pilots prove the pattern)
 
