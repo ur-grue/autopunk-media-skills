@@ -1,10 +1,10 @@
 ---
 name: cms-metadata-tagger
-status: beta
+status: stable
 category: archive-legal
 subcategory: publishing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [cms, metadata, archive, tagging, content management, finished piece, publishing]
 ---
 

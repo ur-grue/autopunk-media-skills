@@ -1,10 +1,10 @@
 ---
 name: regional-variant-adapter
-status: beta
+status: stable
 category: editing
 subcategory: editing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [editing, localization, british-english, american-english, australian-english, regional-language]
 ---
 

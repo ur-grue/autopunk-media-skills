@@ -1,10 +1,10 @@
 ---
 name: instagram-post-writer
-status: beta
+status: stable
 category: writing
 subcategory: digital-social
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [instagram, social media, caption, hashtags, visual content, journalism, distribution]
 ---
 

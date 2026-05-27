@@ -1,10 +1,10 @@
 ---
 name: interview-location-researcher
-status: beta
+status: stable
 category: research
 subcategory: locations-logistics
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [interview, location, pre-production, documentary, journalism, recce, production-design]
 ---
 

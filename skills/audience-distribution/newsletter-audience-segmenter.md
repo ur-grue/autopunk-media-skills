@@ -1,10 +1,10 @@
 ---
 name: newsletter-audience-segmenter
-status: beta
+status: stable
 category: audience-distribution
 subcategory: audience-distribution
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [newsletter, segmentation, audience, email, targeting]
 ---
 

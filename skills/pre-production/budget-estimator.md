@@ -1,10 +1,10 @@
 ---
 name: budget-estimator
-status: beta
+status: stable
 category: pre-production
 subcategory:
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [budget, pre-production, planning, finance, production]
 ---
 

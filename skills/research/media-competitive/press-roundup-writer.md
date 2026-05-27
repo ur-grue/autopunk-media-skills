@@ -1,10 +1,10 @@
 ---
 name: press-roundup-writer
-status: beta
+status: stable
 category: research
 subcategory: media-competitive
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [press-review, media-monitoring, editorial-briefing, competitor-coverage]
 ---
 

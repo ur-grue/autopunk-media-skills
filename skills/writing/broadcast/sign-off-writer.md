@@ -1,10 +1,10 @@
 ---
 name: sign-off-writer
-status: beta
+status: stable
 category: writing
 subcategory: broadcast
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [broadcast, sign-off, closing-script, presenter, reporter, podcast, outro]
 ---
 

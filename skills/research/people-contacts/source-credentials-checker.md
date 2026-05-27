@@ -1,10 +1,10 @@
 ---
 name: source-credentials-checker
-status: beta
+status: stable
 category: research
 subcategory: people-contacts
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [source-verification, credentials, expert-vetting, fact-checking, pre-interview]
 ---
 

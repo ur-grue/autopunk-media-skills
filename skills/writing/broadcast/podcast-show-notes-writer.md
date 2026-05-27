@@ -1,10 +1,10 @@
 ---
 name: podcast-show-notes-writer
-status: beta
+status: stable
 category: writing
 subcategory: broadcast
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [podcast, show-notes, post-production, SEO, episode-description]
 ---
 

@@ -1,10 +1,10 @@
 ---
 name: journalism-grant-application-writer
-status: beta
+status: stable
 category: writing
 subcategory: institutional
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [grant, funding, application, journalism, narrative, investigative]
 ---
 

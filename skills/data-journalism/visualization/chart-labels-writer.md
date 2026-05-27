@@ -1,10 +1,10 @@
 ---
 name: chart-labels-writer
-status: beta
+status: stable
 category: data-journalism
 subcategory: visualization
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [data-journalism, visualization, charts, labels, annotations]
 ---
 

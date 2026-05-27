@@ -1,10 +1,10 @@
 ---
 name: reader-response-writer
-status: beta
+status: stable
 category: audience-distribution
 subcategory: audience-distribution
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [reader-engagement, correspondence, editorial, letters, comments]
 ---
 

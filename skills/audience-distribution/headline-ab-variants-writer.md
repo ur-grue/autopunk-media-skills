@@ -1,10 +1,10 @@
 ---
 name: headline-ab-variants-writer
-status: beta
+status: stable
 category: audience-distribution
 subcategory: audience-distribution
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [headlines, a/b-testing, click-through, SEO, digital-publishing]
 ---
 

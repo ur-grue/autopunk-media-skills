@@ -1,10 +1,10 @@
 ---
 name: series-recap-writer
-status: beta
+status: stable
 category: writing
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [recap, running-story, series-journalism, explainer, catch-up, ongoing-coverage]
 ---
 

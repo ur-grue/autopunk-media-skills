@@ -1,10 +1,10 @@
 ---
 name: creative-commons-explainer
-status: beta
+status: stable
 category: archive-legal
 subcategory: legal
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [creative-commons, licensing, rights, open-content, attribution]
 ---
 

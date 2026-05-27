@@ -1,10 +1,10 @@
 ---
 name: editorial-writer
-status: beta
+status: stable
 category: writing
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [editorial, opinion, argument, institutional-voice, commentary]
 ---
 

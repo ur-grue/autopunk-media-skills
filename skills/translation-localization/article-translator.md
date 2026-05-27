@@ -1,10 +1,10 @@
 ---
 name: article-translator
-status: beta
+status: stable
 category: translation-localization
 subcategory: articles
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [translation, journalism, articles, localization, multilingual]
 ---
 

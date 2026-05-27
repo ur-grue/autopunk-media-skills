@@ -1,10 +1,10 @@
 ---
 name: rights-request-letter-writer
-status: beta
+status: stable
 category: pre-production
 subcategory: pre-production
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [rights, clearance, archive, permissions, letter, documentary, broadcast]
 ---
 

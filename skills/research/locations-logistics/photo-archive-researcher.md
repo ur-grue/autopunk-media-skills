@@ -1,10 +1,10 @@
 ---
 name: photo-archive-researcher
-status: beta
+status: stable
 category: research
 subcategory: locations-logistics
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [archive, photography, historical images, picture research, rights, licensing]
 ---
 

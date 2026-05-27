@@ -1,10 +1,10 @@
 ---
 name: format-converter-brief
-status: beta
+status: stable
 category: production-support
 subcategory: publishing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [formatting, markdown, html, conversion, production, workflow]
 ---
 

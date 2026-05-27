@@ -1,10 +1,10 @@
 ---
 name: derived-metrics-calculator
-status: beta
+status: stable
 category: research
 subcategory: data-statistics
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [data, statistics, metrics, percentages, per-capita, journalism-math]
 ---
 

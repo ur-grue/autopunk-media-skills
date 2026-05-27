@@ -1,10 +1,10 @@
 ---
 name: cultural-adaptation-brief
-status: beta
+status: stable
 category: translation-localization
 subcategory: localization
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [localization, cultural-adaptation, translation, international, audience]
 ---
 

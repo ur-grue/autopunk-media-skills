@@ -1,10 +1,10 @@
 ---
 name: layout-placement-advisor
-status: beta
+status: stable
 category: production-support
 subcategory: publishing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [layout, design, images, pull quotes, infographics, editorial, production]
 ---
 

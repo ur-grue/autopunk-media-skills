@@ -1,10 +1,10 @@
 ---
 name: platform-distribution-advisor
-status: beta
+status: stable
 category: audience-distribution
 subcategory: distribution
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [distribution, platforms, audience, reach, publishing]
 ---
 

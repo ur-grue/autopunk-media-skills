@@ -1,10 +1,10 @@
 ---
 name: asset-description-writer
-status: beta
+status: stable
 category: archive-legal
 subcategory: publishing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [archive, asset management, description, media library, cataloguing]
 ---
 

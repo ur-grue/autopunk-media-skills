@@ -1,10 +1,10 @@
 ---
 name: festival-entry-synopsis-writer
-status: beta
+status: stable
 category: writing
 subcategory: institutional
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [festival, synopsis, documentary, film, competition, submission]
 ---
 

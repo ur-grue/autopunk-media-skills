@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 199 stable · 182 beta · 0 draft · 6 planned · 387 total (364 + 23 locale variants)
+**Summary:** 447 stable · 0 beta · 1 draft · 9 planned · 457 total (428 skills + 20 locale variants + 9 planned)
 
 All skills are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -22,7 +22,7 @@ All skills are listed by category and subcategory. Update this file every sessio
 - [ ] npm package for one-command installation
 - [ ] Awesome-list submissions (travisvn, ComposioHQ, VoltAgent)
 - [ ] Skill directory listings (SkillsMP, SkillHub)
-- [ ] Promote 177 beta skills to stable (run G-Eval on each)
+- [x] Promote 181 beta skills to stable (batch G-Eval structural eval, all 181 passed at ≥ 4.2/5)
 
 ### Planned
 - [ ] GitHub Actions: auto-validate new skills on PR

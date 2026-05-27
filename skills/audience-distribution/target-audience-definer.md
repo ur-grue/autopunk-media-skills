@@ -1,10 +1,10 @@
 ---
 name: target-audience-definer
-status: beta
+status: stable
 category: audience-distribution
 subcategory: audience-distribution
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [audience-research, editorial-strategy, distribution, persona, commissioning]
 ---
 

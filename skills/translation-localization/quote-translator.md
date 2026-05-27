@@ -1,10 +1,10 @@
 ---
 name: quote-translator
-status: beta
+status: stable
 category: translation-localization
 subcategory: writing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [translation, quotes, interview, register, tone]
 ---
 

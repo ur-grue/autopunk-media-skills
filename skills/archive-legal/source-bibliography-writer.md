@@ -1,10 +1,10 @@
 ---
 name: source-bibliography-writer
-status: beta
+status: stable
 category: archive-legal
 subcategory: publishing
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [bibliography, citations, sourcing, fact-checking, AP-style, Chicago-style, APA-style]
 ---
 

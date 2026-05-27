@@ -1,10 +1,10 @@
 ---
 name: animated-explainer-script-writer
-status: beta
+status: stable
 category: writing
 subcategory: broadcast
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [animation, explainer, narration, script, broadcast]
 ---
 

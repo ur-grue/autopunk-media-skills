@@ -1,10 +1,10 @@
 ---
 name: location-permit-brief
-status: beta
+status: stable
 category: research
 subcategory: locations-logistics
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [location, permits, filming, access, logistics, pre-production]
 ---
 

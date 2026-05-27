@@ -1,10 +1,10 @@
 ---
 name: funding-sources-researcher
-status: beta
+status: stable
 category: research
 subcategory: facts-context
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [funding, NGO, think-tank, transparency, investigation, conflicts-of-interest]
 ---
 

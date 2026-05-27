@@ -1,10 +1,10 @@
 ---
 name: transition-narration-writer
-status: beta
+status: stable
 category: writing
 subcategory: broadcast
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [narration, transitions, broadcast, scripting, documentary, tv]
 ---
 

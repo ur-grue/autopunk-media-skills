@@ -1,10 +1,10 @@
 ---
 name: coverage-gap-identifier
-status: beta
+status: stable
 category: research
 subcategory: media-competitive
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [competitive-research, story-development, editorial-planning]
 ---
 

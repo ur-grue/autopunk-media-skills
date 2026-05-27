@@ -1,10 +1,10 @@
 ---
 name: contact-info-researcher
-status: beta
+status: stable
 category: research
 subcategory: people-contacts
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [research, contacts, outreach, sourcing, journalism]
 ---
 

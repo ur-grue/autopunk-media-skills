@@ -1,10 +1,10 @@
 ---
 name: retracted-papers-checker
-status: beta
+status: stable
 category: research
 subcategory: scientific-academic
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [fact-checking, retraction, research-integrity, science, verification]
 ---
 

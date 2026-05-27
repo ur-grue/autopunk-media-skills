@@ -1,10 +1,10 @@
 ---
 name: gdpr-note-writer
-status: beta
+status: stable
 category: archive-legal
 subcategory: legal
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [gdpr, data-protection, privacy, compliance, personal-data]
 ---
 

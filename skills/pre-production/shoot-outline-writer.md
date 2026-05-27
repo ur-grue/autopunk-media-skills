@@ -1,10 +1,10 @@
 ---
 name: shoot-outline-writer
-status: beta
+status: stable
 category: pre-production
 subcategory: pre-production
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [shoot-outline, shooting-script, pre-production, documentary, tv, b-roll, interviewee, production-plan]
 ---
 

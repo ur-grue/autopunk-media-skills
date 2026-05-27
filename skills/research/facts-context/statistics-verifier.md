@@ -1,10 +1,10 @@
 ---
 name: statistics-verifier
-status: beta
+status: stable
 category: research
 subcategory: facts-context
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [statistics, fact-checking, data, verification, numbers]
 ---
 

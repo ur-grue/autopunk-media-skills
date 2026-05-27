@@ -1,10 +1,10 @@
 ---
 name: image-rights-checker
-status: beta
+status: stable
 category: archive-legal
 subcategory: legal
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [rights, licensing, images, photos, archive, clearance]
 ---
 

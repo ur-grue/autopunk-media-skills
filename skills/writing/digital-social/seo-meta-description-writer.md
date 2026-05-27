@@ -1,10 +1,10 @@
 ---
 name: seo-meta-description-writer
-status: beta
+status: stable
 category: writing
 subcategory: digital-social
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [SEO, meta description, search engine optimisation, digital editing, click-through rate, keyword placement]
 ---
 

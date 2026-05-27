@@ -1,10 +1,10 @@
 ---
 name: interview-partners-brief
-status: beta
+status: stable
 category: research
 subcategory: people-contacts
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [research, sourcing, interviews, contacts, journalism, documentary, podcast]
 ---
 

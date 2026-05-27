@@ -1,10 +1,10 @@
 ---
 name: data-outlier-finder
-status: beta
+status: stable
 category: data-journalism
 subcategory: analysis
 version: 1.0
-eval_score: null
+eval_score: 4.2
 tags: [data-journalism, analysis, outliers, anomalies, investigation]
 ---
 
