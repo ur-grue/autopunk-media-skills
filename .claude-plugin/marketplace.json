@@ -1,7 +1,7 @@
 {
   "name": "autopunk-media-skills",
   "display_name": "Autopunk Media Skills",
-  "description": "428 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
+  "description": "435 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
   "version": "1.0.0",
   "author": "ur-grue",
   "homepage": "https://github.com/ur-grue/autopunk-media-skills",
@@ -1315,6 +1315,25 @@
       ]
     },
     {
+      "name": "eu-document-access-builder",
+      "path": "skills/magazine-journalism/investigation/eu-document-access-builder.md",
+      "description": "Eu document access builder",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "FOI",
+        "FOIA",
+        "EU",
+        "transparency",
+        "access-to-documents",
+        "IFG",
+        "BGÖG",
+        "CADA"
+      ]
+    },
+    {
       "name": "expert-finder-brief",
       "path": "skills/magazine-journalism/investigation/expert-finder-brief.md",
       "description": "Generates a structured brief identifying the types of experts needed for a story, where to find them, and how to approach them credibly.",
@@ -1360,6 +1379,39 @@
       ]
     },
     {
+      "name": "osint-tool-catalog",
+      "path": "skills/magazine-journalism/investigation/osint-tool-catalog.md",
+      "description": "Osint tool catalog",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "OSINT",
+        "tools",
+        "investigation",
+        "geolocation",
+        "verification",
+        "research"
+      ]
+    },
+    {
+      "name": "social-media-intelligence",
+      "path": "skills/magazine-journalism/investigation/social-media-intelligence.md",
+      "description": "Social media intelligence",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "OSINT",
+        "social-media",
+        "investigation",
+        "coordination-detection",
+        "narrative-tracking"
+      ]
+    },
+    {
       "name": "source-research-brief",
       "path": "skills/magazine-journalism/investigation/source-research-brief.md",
       "description": "Produces a structured pre-interview research brief on a potential source, covering their professional background, public positions, known biases, potential conflicts of interest, and suggested lines of questioning.",
@@ -1372,6 +1424,24 @@
         "research",
         "sources",
         "interview-prep"
+      ]
+    },
+    {
+      "name": "source-verification",
+      "path": "skills/magazine-journalism/investigation/source-verification.md",
+      "description": "Source verification",
+      "category": "magazine-journalism",
+      "subcategory": "investigation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "verification",
+        "SIFT",
+        "OSINT",
+        "fact-checking",
+        "deepfake",
+        "EXIF",
+        "C2PA"
       ]
     },
     {
@@ -4249,6 +4319,56 @@
         "source-vetting",
         "accuracy",
         "pre-publication"
+      ]
+    },
+    {
+      "name": "content-access",
+      "path": "skills/research/preservation/content-access.md",
+      "description": "Content access",
+      "category": "research",
+      "subcategory": "preservation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "research",
+        "open-access",
+        "paywalls",
+        "Unpaywall",
+        "Semantic-Scholar",
+        "CORE",
+        "libraries"
+      ]
+    },
+    {
+      "name": "page-monitoring",
+      "path": "skills/research/preservation/page-monitoring.md",
+      "description": "Page monitoring",
+      "category": "research",
+      "subcategory": "preservation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "monitoring",
+        "change-detection",
+        "alerts",
+        "investigation",
+        "web-tracking"
+      ]
+    },
+    {
+      "name": "web-archiving",
+      "path": "skills/research/preservation/web-archiving.md",
+      "description": "Web archiving",
+      "category": "research",
+      "subcategory": "preservation",
+      "status": "stable",
+      "tags": [
+        "journalism",
+        "archiving",
+        "Wayback-Machine",
+        "Archive-today",
+        "evidence-preservation",
+        "OSINT"
       ]
     },
     {
