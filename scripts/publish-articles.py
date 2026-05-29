@@ -139,6 +139,16 @@ def main():
         slug = fn[:-3]
         rec = state.setdefault(slug, {})
         fm, body = parse(open(os.path.join(ART_DIR, fn)).read())
+        # Optional staggering: a `publish_after: YYYY-MM-DD` frontmatter key holds
+        # an article until that date, so a batch drips out weekly instead of
+        # spamming every channel at once.
+        gate = fm.get("publish_after", "").strip()
+        if gate:
+            import datetime
+            today = datetime.date.today().isoformat()
+            if today < gate:
+                print(f"  {slug} scheduled for {gate} (today {today}) -> hold")
+                continue
         for channel, ok, fn_post in (
             ("devto", bool(DEVTO), post_devto),
             ("hashnode", bool(HASH_ON and HASH_PAT and HASH_PUB), post_hashnode),
