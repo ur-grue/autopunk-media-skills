@@ -358,9 +358,9 @@ This repo exists within a growing ecosystem of agent skills for media, journalis
 
 ## Need help with your specific project?
 
-These skills produce strong drafts. But if you're pitching to a broadcaster, applying for production funding, or trying to get a project greenlit — the document is only half the job. Knowing what commissioners respond to, how to position your project, and when to push back on notes is the other half.
+These skills produce strong drafts in any AI. But for one high-stakes job — getting a documentary commissioned — the draft is only half of it. The pitch has to be *broadcast-ready*: formatted for the specific broadcaster, sourced well enough to survive an editor, positioned against what's already in development.
 
-**[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals. The skills handle the writing. The Pitch Doctor handles the strategy.
+**[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system built for exactly that: it turns a documentary idea into a broadcaster-format exposé — 98 broadcaster profiles, confidence-tagged sourcing — in about twelve minutes. The skills here are the free, general-purpose layer; the Pitch Doctor is the specialized paid product for the pitch that has to land. Your first exposé is free.
 
 → [Learn more](docs/go-deeper.md)
 

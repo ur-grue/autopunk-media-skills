@@ -188,11 +188,11 @@ See the [Troubleshooting Guide](troubleshooting.md) — it covers the most commo
 
 ---
 
-## Need personalized help?
+## Pitching a documentary?
 
-These skills give you strong drafts for specific tasks. If you need strategic guidance — which commissioner to approach, how to position your project, whether your treatment will actually land — that's a different kind of help.
+These skills give you strong drafts for specific tasks, in any AI. For the specific job of getting a documentary commissioned, there's a dedicated tool.
 
-**[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals who have a project worth making and need expert guidance to get it funded.
+**[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system that turns a documentary idea into a broadcaster-format exposé — 98 broadcaster profiles, confidence-tagged sourcing — in about twelve minutes. Free library here; paid pitch product there. Your first exposé is free.
 
 The skills are free. The strategic advice is not. → [Learn more](go-deeper.md)
 

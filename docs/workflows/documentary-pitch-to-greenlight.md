@@ -107,4 +107,4 @@ Give Claude the fund's criteria, your project details, and the budget range. Get
 
 ## Beyond the documents
 
-This workflow gives you professional-grade pitch documents. But documents alone rarely greenlight a project. If you need strategic advice — which commissioners to approach, how to position your project in the current market, or feedback from someone who has sat on both sides of the table — **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers.
+This workflow gives you professional-grade pitch documents in any AI. When you need the pitch *broadcast-ready* — formatted for the specific broadcaster, sourced to survive an editor — **[thepitchdoctor.io](https://thepitchdoctor.io)** is a dedicated AI system that turns a documentary idea into a broadcaster-format exposé (98 broadcaster profiles, confidence-tagged sourcing) in about twelve minutes. Your first exposé is free.

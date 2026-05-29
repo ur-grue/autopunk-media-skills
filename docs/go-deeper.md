@@ -1,43 +1,40 @@
 # Go deeper
 
-These skills give you professional-grade drafts for specific tasks. They work. But a draft is not a strategy.
+These skills give you professional-grade drafts for specific tasks. They work. But for one specific, high-stakes job — getting a documentary commissioned — the hardest part isn't the draft. It's making it *broadcast-ready*: formatted for the exact broadcaster you're pitching, sourced well enough to survive an editor's scrutiny, positioned against what's already in development.
 
-If you're pitching a documentary to a broadcaster, applying for production funding, or trying to get a series greenlit — the real challenge isn't the document. It's knowing what commissioners actually respond to, how to position your project against what's already in development, and when to push back on notes that would weaken your pitch.
-
-That's what **thepitchdoctor.io** does.
+That's what **thepitchdoctor.io** is built for.
 
 ---
 
-## What thepitchdoctor.io offers
+## What thepitchdoctor.io does
 
-**Personalized pitch consulting for media professionals.**
+**An AI system that turns a documentary idea into a broadcast-ready exposé — formatted for the editor you're pitching.**
 
-- One-on-one review of your treatment, pitch deck, or funding application
-- Strategic positioning advice based on current market conditions
-- Feedback from someone who has sat on both sides of the commissioning table
-- Help turning a good idea into a funded project
+- Takes your topic through a multi-stage research-and-drafting pipeline to a format-compliant pitch in about twelve minutes
+- Targets 98 broadcaster profiles across markets (Germany, France, UK, Scandinavia, USA, and more) — each has its own conventions, and the output matches them
+- Tags every claim by confidence — `[CONFIRMED]` (two-source rule), `[PROBABLE]`, `[TO VERIFY]` — so you know exactly what still needs checking before you send
+- Built against AI hallucination, not on top of it
 
-The skills in this library handle the writing. thepitchdoctor.io handles the thinking behind it.
+The skills in this library are free, general-purpose, and work in any AI. thepitchdoctor.io is the specialized paid product for the one task where broadcaster-specific formatting and sourcing rigor decide whether you get the meeting.
 
 ---
 
 ## Who it's for
 
-Documentary filmmakers, series creators, podcast producers, and journalists who have a project worth making — and need expert guidance to get it funded, commissioned, or greenlit.
+Documentary producers and filmmakers pitching exposés and factual series to broadcasters — anyone who needs a format-compliant, well-sourced pitch document fast.
 
 ---
 
-## How the two work together
+## How the two fit together
 
-| This library | thepitchdoctor.io |
+| This library (free) | thepitchdoctor.io (paid) |
 |-------------|-------------------|
-| Write a pitch treatment | Get feedback on whether your treatment will land |
-| Generate a logline | Learn why your logline isn't opening doors |
-| Draft a broadcaster one-pager | Understand what the commissioner will actually read |
-| Build a funding application | Know which funds are right for your project |
+| Draft a treatment, logline, or one-pager in any AI | Turn a documentary idea into a broadcaster-format exposé |
+| General media tasks across 21 categories | One job done deeply: broadcast-ready documentary pitches |
+| Copy-paste prompts, no account | A pipeline with 98 broadcaster profiles and confidence-tagged sourcing |
 
-The skills are free. The strategic advice is not. That's the deal.
+The library is free and always will be. The pitch product is paid — your first exposé is free to try, no waitlist.
 
 ---
 
-**→ [thepitchdoctor.io](https://thepitchdoctor.io)**
+**→ [thepitchdoctor.io](https://thepitchdoctor.io)** — your first exposé is free.

@@ -113,4 +113,4 @@ Feed in the transcript and show notes. Get back a compelling episode summary opt
 
 ## Pitching the show itself
 
-This workflow handles the season. If you are pitching the show to a network, sponsor, or production company — that is a separate craft. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for podcast producers who need strategic positioning, not just a document.
+This workflow handles the season. If the show's subject could also become a **documentary** for a broadcaster, that's a different pitch — **[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system that turns a documentary idea into a broadcaster-format exposé in about twelve minutes (first one free).
