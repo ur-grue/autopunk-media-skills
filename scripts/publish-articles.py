@@ -87,10 +87,19 @@ def post_hashnode(fm, body):
                  "User-Agent": "autopunk-publisher"},
         method="POST")
     with urllib.request.urlopen(req, timeout=30) as r:
-        d = json.load(r)
-        if d.get("errors"):
-            raise RuntimeError(d["errors"])
+        raw = r.read().decode().strip()
+    if not raw:
+        raise RuntimeError(f"hashnode empty response (HTTP {r.status})")
+    try:
+        d = json.loads(raw)
+    except json.JSONDecodeError:
+        raise RuntimeError(f"hashnode non-JSON response: {raw[:300]}")
+    if d.get("errors"):
+        raise RuntimeError(d["errors"])
+    try:
         return d["data"]["publishPost"]["post"]["url"]
+    except (KeyError, TypeError):
+        raise RuntimeError(f"hashnode unexpected response: {raw[:300]}")
 
 
 def main():
@@ -130,8 +139,8 @@ def main():
                 except Exception:
                     pass
                 print(f"  {slug} [{channel}] HTTP {e.code} ERROR: {detail}", file=sys.stderr)
-            except (urllib.error.URLError, RuntimeError) as e:
-                print(f"  {slug} [{channel}] ERROR: {e}", file=sys.stderr)
+            except Exception as e:
+                print(f"  {slug} [{channel}] ERROR: {type(e).__name__}: {e}", file=sys.stderr)
     save_state(state)
     # Fail loudly if we tried to publish but everything failed — otherwise a
     # silent green run hides a broken token / API change.
