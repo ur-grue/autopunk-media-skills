@@ -42,7 +42,7 @@ Give Claude the specific records you need, the agency that holds them, and the l
 ---
 
 ### Step 4: Analyze documents and data
-**Skill:** [`document-analysis-brief`](../../skills/magazine-journalism/investigation/document-analysis-brief.md)
+**Skill:** [`document-analysis-summary`](../../skills/magazine-journalism/investigation/document-analysis-summary.md)
 
 When documents arrive, feed them to Claude. Get back a structured analysis: key findings, contradictions, gaps, and questions for follow-up.
 
@@ -87,7 +87,7 @@ Before publication, feed in every factual claim in your piece. Get back a verifi
 ---
 
 ### Step 9: Check legal risks
-**Skill:** [`defamation-risk-checker`](../../skills/magazine-journalism/legal/defamation-risk-checker.md)
+**Skill:** [`libel-check-brief`](../../skills/magazine-journalism/legal/libel-check-brief.md)
 
 Feed in the final draft. Get back a risk assessment flagging potential defamation, privacy, or contempt issues with suggested rewrites for problematic passages.
 
@@ -109,8 +109,8 @@ Give Claude the final piece with its angle and audience. Get back headline optio
 | When you need | Use this skill |
 |--------------|----------------|
 | Data analysis for numbers-heavy stories | [`data-story-finder`](../../skills/data-journalism/analysis/data-story-finder.md) |
-| Source credibility assessment | [`source-credibility-scorer`](../../skills/magazine-journalism/fact-checking/source-credibility-scorer.md) |
-| Correction notices if needed post-publication | [`correction-notice-writer`](../../skills/magazine-journalism/fact-checking/correction-notice-writer.md) |
+| Source credibility assessment | [`source-credibility-brief`](../../skills/magazine-journalism/fact-checking/source-credibility-brief.md) |
+| Correction notices if needed post-publication | [`correction-notice-writer`](../../skills/writing/articles/correction-notice-writer.md) |
 | Newsletter teaser for the investigation | [`newsletter-teaser-writer`](../../skills/magazine-journalism/distribution/newsletter-teaser-writer.md) |
 
 ---

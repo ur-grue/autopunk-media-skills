@@ -92,8 +92,8 @@ Feed in your script or final edit timeline. Get back formatted chapter timestamp
 |--------------|----------------|
 | A community post to announce the video | [`community-post-generator`](../../skills/youtube/post-production/community-post-generator.md) |
 | A Shorts version of the same content | [`shorts-script-adapter`](../../skills/youtube/scripting/shorts-script-adapter.md) |
-| Performance analysis after publishing | [`performance-report-summarizer`](../../skills/youtube/analytics/performance-report-summarizer.md) |
-| Sponsorship integration | [`sponsorship-pitch-writer`](../../skills/youtube/business/sponsorship-pitch-writer.md) |
+| Performance analysis after publishing | [`performance-report-writer`](../../skills/youtube/analytics/performance-report-writer.md) |
+| Sponsorship integration | [`sponsorship-email-writer`](../../skills/youtube/business/sponsorship-email-writer.md) |
 
 ---
 

@@ -95,11 +95,11 @@ Feed in the transcript and show notes. Get back a compelling episode summary opt
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A media kit for sponsors | [`podcast-media-kit`](../../skills/podcast/business/podcast-media-kit.md) |
-| Sponsorship outreach | [`listener-sponsorship-pitch`](../../skills/podcast/business/listener-sponsorship-pitch.md) |
+| A media kit for sponsors | [`podcast-media-kit-generator`](../../skills/podcast/business/podcast-media-kit-generator.md) |
+| Sponsorship outreach | [`sponsorship-pitch-writer`](../../skills/podcast/business/sponsorship-pitch-writer.md) |
 | Social posts to promote the episode | [`caption-writer`](../../skills/social-media/content/caption-writer.md) |
 | A newsletter teaser | [`edition-writer`](../../skills/newsletter/writing/edition-writer.md) |
-| Network submission | [`network-submission-brief`](../../skills/podcast/business/network-submission-brief.md) |
+| Pitch to a podcast network | [`collaboration-proposal-writer`](../../skills/media-business/pitching/collaboration-proposal-writer.md) |
 
 ---
 
