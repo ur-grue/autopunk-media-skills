@@ -15,6 +15,8 @@ The Claude Code **web app has no secure secret store** (its "environment variabl
 
 dev.to alone works without Hashnode — each channel is independent. Add only what you have.
 
+> **Hashnode note:** Hashnode's GraphQL *publishing* API now requires a paid **Pro** plan — `gql.hashnode.com` 301-redirects API POSTs to an announcement saying so. So Hashnode auto-publish is **off by default** (runs stay green on dev.to). The blog `autopunk-media-skills.hashnode.dev` exists; you can paste articles from `content/articles/*.md` into Hashnode's web editor by hand anytime for free. To enable auto-publish later, go Pro and add a secret `HASHNODE_ENABLED` = `1` (plus the two Hashnode secrets above).
+
 3. That's it. The workflow `.github/workflows/publish-content.yml` runs:
    - on every push to `main` that adds a file under `content/articles/`,
    - every Tuesday 13:00 UTC (weekly cadence),
