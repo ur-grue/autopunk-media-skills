@@ -54,7 +54,6 @@ def post_devto(fm, body):
         "published": True,
         "body_markdown": body,
         "tags": tags,
-        "canonical_url": f"https://github.com/ur-grue/autopunk-media-skills",
     }}
     if fm.get("cover_image"):
         payload["article"]["main_image"] = fm["cover_image"]
@@ -84,7 +83,8 @@ def post_hashnode(fm, body):
         "https://gql.hashnode.com/",
         data=json.dumps({"query": q, "variables": variables}).encode(),
         headers={"Authorization": HASH_PAT, "Content-Type": "application/json",
-                 "User-Agent": "autopunk-publisher"},
+                 "Accept": "application/json",
+                 "User-Agent": "Mozilla/5.0 (autopunk-publisher)"},
         method="POST")
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = r.read().decode().strip()
