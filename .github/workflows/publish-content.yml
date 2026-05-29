@@ -53,3 +53,5 @@ jobs:
             git commit -m "chore: record published articles [skip ci]"
             git push
           fi
+
+# re-trigger: ensure article2 + hashnode backfill run with all secrets present
