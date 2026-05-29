@@ -1,6 +1,10 @@
-articles: 2 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE_ENABLED=1)
+articles: 5 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE_ENABLED=1)
   2026-05-ai-writing-that-doesnt-sound-like-ai [devto] already published -> skip
   2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] secret missing -> skip
+  2026-05-claude-foia-letters-for-journalists [devto] PUBLISHED -> https://dev.to/urgrue/foia-letters-are-a-format-not-a-vibe-so-i-made-claude-write-them-properly-5gi3
+  2026-05-claude-foia-letters-for-journalists [hashnode] secret missing -> skip
+  2026-05-claude-youtube-hook-generator scheduled for 2026-06-05 (today 2026-05-29) -> hold
+  2026-05-narrow-skills-vs-one-big-prompt scheduled for 2026-06-12 (today 2026-05-29) -> hold
   2026-05-scoring-non-code-llm-output [devto] already published -> skip
   2026-05-scoring-non-code-llm-output [hashnode] secret missing -> skip
-done: nothing to publish
+done: 1/1 published

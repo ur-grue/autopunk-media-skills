@@ -2,6 +2,11 @@
   "2026-05-ai-writing-that-doesnt-sound-like-ai": {
     "devto": "https://dev.to/urgrue/how-to-tell-if-ai-wrote-it-and-how-to-make-it-stop-4c9m"
   },
+  "2026-05-claude-foia-letters-for-journalists": {
+    "devto": "https://dev.to/urgrue/foia-letters-are-a-format-not-a-vibe-so-i-made-claude-write-them-properly-5gi3"
+  },
+  "2026-05-claude-youtube-hook-generator": {},
+  "2026-05-narrow-skills-vs-one-big-prompt": {},
   "2026-05-scoring-non-code-llm-output": {
     "devto": "https://dev.to/urgrue/how-do-you-eval-llm-output-that-isnt-code-1gp8"
   }
