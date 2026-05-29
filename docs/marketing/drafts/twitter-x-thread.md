@@ -25,7 +25,7 @@ Each skill turns Claude into a specialist for one task.
 
 Not "act as a journalist." Specific output for a specific format with a specific quality bar.
 
-393 of the 394 are marked stable. Stable means a G-Eval pass at ≥ 4.0/5 across seven dimensions, including a hard floor on Editorial Naturalness.
+All 394 are marked stable. Stable means a G-Eval pass at ≥ 4.0/5 across seven dimensions, including a hard floor on Editorial Naturalness.
 ```
 
 ### 3/

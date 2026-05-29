@@ -1,5 +1,55 @@
 {
   "skill_name": "ai-writing-detox",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "method": "G-Eval (in-session), 7 dimensions, 1-5 scale",
+  "overall_mean": 4.76,
+  "editorial_naturalness_mean": 5.0,
+  "eval_score": 4.8,
+  "test_cases": [
+    {
+      "name": "corporate-linkedin-empty-buzzwords",
+      "input_register": "general audience / corporate LinkedIn post",
+      "note": "Draft is pure buzzword with no concrete claim; skill correctly strips the tells and flags that nothing load-bearing remains rather than fabricating substance.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "mean": 4.86
+    },
+    {
+      "name": "podcast-show-notes",
+      "input_register": "podcast show notes / consumer audience",
+      "note": "Removes 'dive deep', 'vibrant world', 'game-changing', 'must-listen'; uses placeholders for guest specifics instead of inventing them.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "mean": 4.71
+    },
+    {
+      "name": "minimal-input-refusal",
+      "input_register": "one-line technical-marketing fragment",
+      "note": "On a near-empty input the skill names the banned terms and asks for the underlying claim rather than fabricating finished copy — desired professional behaviour.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "mean": 4.71
+    }
+  ]
 }

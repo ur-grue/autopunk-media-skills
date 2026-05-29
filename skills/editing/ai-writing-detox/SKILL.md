@@ -1,11 +1,11 @@
 ---
 name: ai-writing-detox
 description: "Rewrites AI-flavoured copy into a publishable register by stripping the language tells of an LLM draft — buzzwords, throat-clearing, false-inclusive openers, and the \"not just X — Y\" rhetorical tic — and supplies the canonical banned-list that runtime hooks read to flag drafts before they ship."
-status: draft
+status: stable
 category: editing
 subcategory: editing
 version: 1.0
-eval_score: null
+eval_score: 4.8
 tags: [editing, voice, ai-slop, plain-language, copy-editing, house-style]
 ---
 # AI Writing Detox

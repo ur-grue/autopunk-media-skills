@@ -42,10 +42,10 @@ This repo is the opposite end of that. 394 Claude skills, each one a small
 prompt + instruction document for a specific media task. Written by someone
 who actually does the work and cares about whether the output is shippable.
 
-393 skills are currently marked stable, which in this repo means they passed
+All 394 skills are marked stable, which in this repo means they passed
 a G-Eval pass at ≥ 4.0/5 across seven dimensions including a hard floor on
 "Editorial Naturalness" — meaning the output has to read like a human
-professional in the medium, not like generic AI prose. Only one is still in draft.
+professional in the medium, not like generic AI prose.
 The full eval framework is documented in tests/EVAL_FRAMEWORK.md.
 
 In Claude Code you can install the whole library as a plugin with one line
