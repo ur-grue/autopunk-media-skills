@@ -61,23 +61,28 @@ Each skill encodes real production knowledge: the format conventions, the qualit
 
 **394 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
 
-Skills work as copy-paste prompts in [Claude](https://claude.ai), or as installable skills in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the [Agent Skills standard](https://agentskills.io).
+Each skill is a plain markdown prompt file, so it works as a copy-paste prompt in [Claude](https://claude.ai) — or anywhere you can paste text — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI.
 
 ---
 
 ## Install
 
-> **Using Claude on the web?** No install needed — see [Start In 60 Seconds](#start-in-60-seconds) above.
+Every skill is a plain markdown prompt file — there's nothing to compile and no account required.
+
+**Easiest — no install (claude.ai or any AI assistant):**
+
+1. Open the skill you want in the [`skills/`](skills/) folder.
+2. Copy its text.
+3. Paste it into Claude with your own material. Done.
+
+**Use the files locally (Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode):**
 
 ```bash
-# Clone the full library (for Claude Code, Cursor, Codex CLI, Gemini CLI)
-git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
-
-# Or install individual skills
-npx skills add ur-grue/autopunk-media-skills --skill hook-generator
+# Clone the library, then copy the skills you want into your project
+git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
 
-**Compatible with:** Claude Code · Cursor · Codex CLI · Gemini CLI · OpenCode · any agent supporting the [Agent Skills standard](https://agentskills.io).
+Each skill is self-contained: open the file, copy it into your tool's prompt/skills location, or paste it straight into the chat. Because the skills are just markdown, they work in **any** AI assistant.
 
 ---
 
@@ -277,10 +282,10 @@ Agents follow the same quality badge system as skills. See `agents/AGENT_TEMPLAT
 **Option B — Clone the library** (for coding agents like Claude Code, Cursor, Codex CLI)
 
 ```bash
-git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
+git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
 
-Skills are automatically available in Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any agent that reads from a skills directory.
+Each skill is a self-contained markdown file. Copy the ones you want into your tool's prompt or skills location, or paste a skill's text straight into the chat.
 
 **Option C — Reference from your project**
 

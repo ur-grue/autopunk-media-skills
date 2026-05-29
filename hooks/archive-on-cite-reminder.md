@@ -5,7 +5,7 @@ blocking: false
 severity: reminder
 version: 1.0
 composes_with:
-  - skills/research/background/web-archiving.md
+  - skills/research/preservation/web-archiving.md
 ---
 
 # Archive-on-cite reminder
@@ -56,6 +56,6 @@ This hook pairs with the `web-archiving` skill (AUT-24). Once that skill ships, 
 
 ## Related skills
 
-- [web-archiving](../skills/research/background/web-archiving.md) — full archiving workflow (planned, AUT-24)
-- [source-contact-tracker](../skills/magazine-journalism/investigation/source-contact-tracker.md) — tracking source material and contacts
+- [web-archiving](../skills/research/preservation/web-archiving.md) — full archiving workflow (planned, AUT-24)
+- [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief.md) — tracking source material and contacts
 - [claim-origin-tracer](../skills/research/fact-checking/claim-origin-tracer.md) — tracing claims to original sources
