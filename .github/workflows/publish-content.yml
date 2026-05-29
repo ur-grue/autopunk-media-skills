@@ -39,19 +39,19 @@ jobs:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
           HASHNODE_PAT: ${{ secrets.HASHNODE_PAT }}
           HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
-        run: python3 scripts/publish-articles.py
+        run: |
+          set -o pipefail
+          python3 scripts/publish-articles.py 2>&1 | tee content/last-run.log
 
-      - name: Commit publish state
+      - name: Commit publish state and log
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/.published.json
+          git add content/.published.json content/last-run.log
           if git diff --cached --quiet; then
-            echo "No publish-state changes"
+            echo "No changes to commit"
           else
-            git commit -m "chore: record published articles [skip ci]"
+            git commit -m "chore: record publish state + run log [skip ci]"
             git push
           fi
-
-# re-trigger: ensure article2 + hashnode backfill run with all secrets present
