@@ -2,38 +2,37 @@
   <defs>
     <filter id="grain">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.09 0"/>
     </filter>
     <style>
-      .display { font-family: 'Fredoka One','Fredoka','Baloo 2',sans-serif; font-weight:700; }
-      .body { font-family: 'DM Sans','Outfit',sans-serif; }
+      .display { font-family: 'Caprasimo', serif; font-weight: 400; }
+      .body { font-family: 'DM Sans', sans-serif; }
     </style>
   </defs>
 
-  <!-- black is dominant -->
-  <rect width="1280" height="640" fill="#000000"/>
-  <!-- grain texture (brand requirement) -->
+  <!-- warm near-black, dominant -->
+  <rect width="1280" height="640" fill="#0A0806"/>
   <rect width="1280" height="640" filter="url(#grain)"/>
 
-  <!-- 4-point star cluster, top-right, varied sizes, flat colour -->
-  <g fill="#E8000F">
-    <path d="M1150 65 L1156 95 L1186 101 L1156 107 L1150 137 L1144 107 L1114 101 L1144 95 Z"/>
-    <path d="M1212 138 L1215 153 L1230 156 L1215 159 L1212 174 L1209 159 L1194 156 L1209 153 Z"/>
+  <!-- 4-point star cluster, varied sizes, flat colour -->
+  <g fill="#D44A4A">
+    <path d="M1150 64 L1156 92 L1184 98 L1156 104 L1150 132 L1144 104 L1116 98 L1144 92 Z"/>
+    <path d="M1210 137 L1213 151 L1227 154 L1213 157 L1210 171 L1207 157 L1193 154 L1207 151 Z"/>
   </g>
-  <path d="M1096 158 L1098 168 L1108 170 L1098 172 L1096 182 L1094 172 L1084 170 L1094 168 Z" fill="#F5F0EB"/>
+  <path d="M1098 153 L1100 163 L1110 165 L1100 167 L1098 177 L1096 167 L1086 165 L1096 163 Z" fill="#F4EED1"/>
 
-  <!-- headline: lowercase, Fredoka One -->
-  <text x="80" y="232" class="display" font-size="104" fill="#F5F0EB">ai for media</text>
-  <text x="80" y="352" class="display" font-size="104" fill="#F5F0EB">that <tspan fill="#E8000F">matters.</tspan></text>
+  <!-- headline: lowercase, Caprasimo single-weight -->
+  <text x="80" y="232" class="display" font-size="96" fill="#F4EED1">ai for media</text>
+  <text x="80" y="348" class="display" font-size="96" fill="#F4EED1">that <tspan fill="#D44A4A">matters.</tspan></text>
 
-  <!-- heavy punk-red rule, flat -->
-  <rect x="80" y="420" width="360" height="6" fill="#E8000F"/>
+  <!-- heavy red rule, flat, accent -->
+  <rect x="80" y="416" width="340" height="6" fill="#D44A4A"/>
 
-  <!-- subline: DM Sans -->
-  <text x="80" y="478" class="body" font-size="28" fill="#F5F0EB">394 free Claude skills for tv, journalism, podcasts,</text>
-  <text x="80" y="514" class="body" font-size="28" fill="#F5F0EB">youtube, radio, newsletters and pr.</text>
+  <!-- subline: DM Sans, sentence case -->
+  <text x="80" y="478" class="body" font-size="27" fill="#F4EED1">394 free Claude skills for tv, journalism, podcasts,</text>
+  <text x="80" y="514" class="body" font-size="27" fill="#F4EED1">youtube, radio, newsletters and pr.</text>
 
   <!-- footer -->
-  <text x="80" y="576" class="display" font-size="24" fill="#E8000F">github.com/ur-grue/autopunk-media-skills</text>
-  <text x="80" y="612" class="body" font-size="18" fill="#F5F0EB" fill-opacity="0.7">all quality-tested  ·  mit  ·  one-command install</text>
+  <text x="80" y="576" class="display" font-size="22" fill="#D44A4A">github.com/ur-grue/autopunk-media-skills</text>
+  <text x="80" y="612" class="body" font-size="18" fill="#F4EED1" fill-opacity="0.7">all quality-tested  ·  mit  ·  one-command install</text>
 </svg>
