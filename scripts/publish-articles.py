@@ -21,6 +21,10 @@ STATE = os.path.join(ROOT, "content", ".published.json")
 DEVTO = os.environ.get("DEVTO_API_KEY", "").strip()
 HASH_PAT = os.environ.get("HASHNODE_PAT", "").strip()
 HASH_PUB = os.environ.get("HASHNODE_PUBLICATION_ID", "").strip()
+# Hashnode's GraphQL publishing API requires a paid Pro plan: gql.hashnode.com
+# 301-redirects POSTs to an announcement to that effect. Off by default so runs
+# stay green; set HASHNODE_ENABLED=1 (Secrets) if/when on a Pro plan.
+HASH_ON = os.environ.get("HASHNODE_ENABLED", "").strip() == "1"
 LIVE = os.environ.get("PUBLISH", "") == "1"
 
 
@@ -129,7 +133,7 @@ def main():
         print("no articles dir"); return 0
     state = load_state()
     arts = sorted(f for f in os.listdir(ART_DIR) if f.endswith(".md"))
-    print(f"articles: {len(arts)} | live={LIVE} | devto={'yes' if DEVTO else 'no'} | hashnode={'yes' if HASH_PAT and HASH_PUB else 'no'}")
+    print(f"articles: {len(arts)} | live={LIVE} | devto={'yes' if DEVTO else 'no'} | hashnode={'yes' if HASH_ON and HASH_PAT and HASH_PUB else 'off (needs Pro plan; set HASHNODE_ENABLED=1)'}")
     attempted = succeeded = 0
     for fn in arts:
         slug = fn[:-3]
@@ -137,7 +141,7 @@ def main():
         fm, body = parse(open(os.path.join(ART_DIR, fn)).read())
         for channel, ok, fn_post in (
             ("devto", bool(DEVTO), post_devto),
-            ("hashnode", bool(HASH_PAT and HASH_PUB), post_hashnode),
+            ("hashnode", bool(HASH_ON and HASH_PAT and HASH_PUB), post_hashnode),
         ):
             if rec.get(channel):
                 print(f"  {slug} [{channel}] already published -> skip")
