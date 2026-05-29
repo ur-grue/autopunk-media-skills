@@ -1,10 +1,10 @@
 # Reddit r/ClaudeAI Post
 
-**Title:** I built 354 free Claude skills for media professionals — here's what they actually produce
+**Title:** I built 394 free Claude skills for media professionals — here's what they actually produce
 
 **Body:**
 
-I work in media production and got tired of Claude giving me output that sounds like a chatbot instead of someone who knows the format. So I built a library of 354 Claude skills specifically for TV producers, journalists, podcasters, YouTubers, and content creators.
+I work in media production and got tired of Claude giving me output that sounds like a chatbot instead of someone who knows the format. So I built a library of 394 Claude skills specifically for TV producers, journalists, podcasters, YouTubers, and content creators.
 
 Every skill is quality-tested (226 skills, 98.5% pass rate across 2,390 checks). MIT licensed, no coding required.
 
@@ -30,7 +30,7 @@ Every skill is quality-tested (226 skills, 98.5% pass rate across 2,390 checks).
 
 ---
 
-354 skills across 16 categories: TV documentary, journalism, YouTube, podcast, radio, newsletter, PR, screenwriting, data journalism, image prompting, translation, and more.
+394 skills across 21 categories: TV documentary, journalism, YouTube, podcast, radio, newsletter, PR, screenwriting, data journalism, image prompting, translation, and more.
 
 **How to use:** Clone the repo or just copy-paste any skill into Claude. Skills follow the Agent Skills standard so they work in Claude Code, Cursor, Codex CLI, and Gemini CLI too.
 

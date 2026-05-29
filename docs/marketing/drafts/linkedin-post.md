@@ -1,6 +1,6 @@
 # LinkedIn Post (EN)
 
-I've open-sourced 354 Claude skills built for media professionals.
+I've open-sourced 394 Claude skills built for media professionals.
 
 TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — if you write for a living, there's probably a skill in here that saves you an hour.
 

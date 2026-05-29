@@ -16,7 +16,7 @@ Personal, short, one specific angle per recipient. No generic press blast.
 Hi —
 
 I'm a commissioning editor in public broadcasting. I open-sourced a library
-of 354 Claude skills built for media professionals: TV producers, journalists,
+of 394 Claude skills built for media professionals: TV producers, journalists,
 podcasters, YouTubers, radio producers, newsletter writers, PR teams.
 
 What makes it Nieman-worthy is the evaluation framework. Most "AI for
@@ -24,7 +24,7 @@ journalism" tools have no quality bar. This one ships an explicit seven-
 dimension G-Eval rubric with a hard floor on "Editorial Naturalness" — the
 output has to read like a working journalist, not a chatbot.
 
-178 skills are at the stable threshold (≥ 4.0/5). Full eval data is in the
+393 of the 394 skills are at the stable threshold (≥ 4.0/5). Full eval data is in the
 repo.
 
 There is an angle here about what evaluation looks like when AI tools are
@@ -48,7 +48,7 @@ Ur-grue
 ```
 Hi —
 
-Quick pitch. I open-sourced 354 Claude skills designed for working
+Quick pitch. I open-sourced 394 Claude skills designed for working
 journalists: pitch development, interview question building, transcript
 cleanup, foi-request drafting, fact-check checklists, methodology
 explainers for data journalism.
@@ -80,7 +80,7 @@ Brian —
 
 Long-time reader. Pitch:
 
-I open-sourced 354 Claude skills for media work. Not a SaaS, not a paywall,
+I open-sourced 394 Claude skills for media work. Not a SaaS, not a paywall,
 not a "premium tier coming soon." MIT licensed. The library is built by an
 editor in public broadcasting, not a startup pretending to know newsrooms.
 
@@ -107,7 +107,7 @@ Repo: https://github.com/ur-grue/autopunk-media-skills
 ```
 Ryan —
 
-Not the usual pitch. I open-sourced 354 Claude skills for media people:
+Not the usual pitch. I open-sourced 394 Claude skills for media people:
 YouTubers, podcasters, journalists, newsletter writers, screenwriters.
 
 It is not a startup, not a SaaS, no "join the waitlist." It is one editor's
@@ -136,7 +136,7 @@ No pressure either way, just thought it fits.
 ```
 Rusty —
 
-Pitch for Tabs: 354 Claude skills, MIT licensed, built by a working
+Pitch for Tabs: 394 Claude skills, MIT licensed, built by a working
 broadcaster, with an explicit quality bar that screens out chatbot prose.
 
 It is the rare AI-for-media project where the output actually sounds like
@@ -161,13 +161,13 @@ https://github.com/ur-grue/autopunk-media-skills
 ```
 Swyx —
 
-I open-sourced 354 Claude skills for media professionals. The piece you may
+I open-sourced 394 Claude skills for media professionals. The piece you may
 care about: every skill ships against a documented seven-dimension G-Eval
 rubric. 4.0/5 threshold to reach "stable," with a hard floor on Editorial
 Naturalness (the skill outputs must score against four lists of AI tells —
 lexical, structural, tonal, genre).
 
-178 of 354 currently stable. Full eval data + framework in tests/.
+393 of 394 currently stable. Full eval data + framework in tests/.
 
 There is a Latent Space angle here on what skill evaluation looks like when
 the domain is editorial output rather than code. Happy to write something
@@ -188,7 +188,7 @@ Hi Ben —
 
 For tomorrow's Tools section if it fits:
 
-autopunk-media-skills — 354 free Claude skills built specifically for media
+autopunk-media-skills — 394 free Claude skills built specifically for media
 professionals (TV producers, journalists, podcasters, YouTubers). Each one
 turns Claude into a specialist for a specific writing task. Quality-tested
 with a documented eval framework. MIT licensed.
@@ -207,7 +207,7 @@ Hi —
 
 Tool-of-the-day candidate:
 
-autopunk-media-skills — 354 free Claude skills for media work. Built by a
+autopunk-media-skills — 394 free Claude skills for media work. Built by a
 commissioning editor with 15+ years in broadcasting. Quality-tested with a
 seven-dimension eval framework. Covers journalism, documentary, YouTube,
 podcast, radio, newsletter, PR, screenwriting, data journalism, and image

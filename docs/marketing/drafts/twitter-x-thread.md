@@ -9,7 +9,7 @@ This thread is for the AI-tooling crowd that overlaps with media-tech. Voice: co
 ### 1/
 
 ```
-I open-sourced 354 Claude skills for media professionals.
+I open-sourced 394 Claude skills for media professionals.
 
 Documentary producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters.
 
@@ -25,7 +25,7 @@ Each skill turns Claude into a specialist for one task.
 
 Not "act as a journalist." Specific output for a specific format with a specific quality bar.
 
-178 of the 354 are marked stable. Stable means a G-Eval pass at ≥ 4.0/5 across seven dimensions, including a hard floor on Editorial Naturalness.
+393 of the 394 are marked stable. Stable means a G-Eval pass at ≥ 4.0/5 across seven dimensions, including a hard floor on Editorial Naturalness.
 ```
 
 ### 3/

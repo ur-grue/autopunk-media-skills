@@ -1,6 +1,6 @@
-# 354 Free Claude Skills for Media Professionals
+# 394 Free Claude Skills for Media Professionals
 
-**TL;DR:** I built a free, open-source library of 354 Claude skills designed for TV producers, journalists, podcasters, YouTubers, and content creators. Every skill is quality-tested. No coding required.
+**TL;DR:** I built a free, open-source library of 394 Claude skills designed for TV producers, journalists, podcasters, YouTubers, and content creators. Every skill is quality-tested. No coding required.
 
 **Repo:** [github.com/ur-grue/autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills)
 
@@ -18,7 +18,7 @@ AI can handle them. But most AI tools for media were built by people who've neve
 
 Think of each skill as hiring an expert collaborator: one writes pitch treatments, another generates SEO-optimized YouTube titles, another cleans up interview transcripts, another builds cinematic image prompts.
 
-There are 354 of them, organized by media format and production stage:
+There are 394 of them, organized by media format and production stage:
 
 | Category | Skills |
 |----------|--------|
@@ -65,7 +65,7 @@ All 36 failures occurred on deliberately minimal inputs where skills correctly r
 **Option A — Clone the library:**
 
 ```bash
-git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
+git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
 
 Works in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the Agent Skills standard.
