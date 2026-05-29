@@ -49,11 +49,11 @@ Takes a one-line documentary idea and produces a complete development package �
 
 | Step | Skill | What it produces | Condition |
 |------|-------|-----------------|-----------|
-| 1 | [logline-creator](../skills/tv-documentary/development/logline-creator.md) | 4–6 logline options across different formats and contexts | Always |
-| 2 | [pitch-treatment-writer](../skills/tv-documentary/development/pitch-treatment-writer.md) | Full pitch treatment (600–900 words) with narrative arc, characters, visual approach | Always |
-| 3 | [series-bible-generator](../skills/tv-documentary/development/series-bible-generator.md) | Complete series bible with episode breakdowns and commissioning language | Only if the project is a series |
-| 4 | [broadcaster-pitch-writer](../skills/tv-documentary/business/broadcaster-pitch-writer.md) | Two-page broadcaster pitch document tailored to the target buyer | Always |
-| 5 | [festival-synopsis-writer](../skills/tv-documentary/localization/festival-synopsis-writer.md) | Short (50-word), medium (100-word), and long (250-word) festival synopses | Always |
+| 1 | [logline-creator](../skills/tv-documentary/development/logline-creator/SKILL.md) | 4–6 logline options across different formats and contexts | Always |
+| 2 | [pitch-treatment-writer](../skills/tv-documentary/development/pitch-treatment-writer/SKILL.md) | Full pitch treatment (600–900 words) with narrative arc, characters, visual approach | Always |
+| 3 | [series-bible-generator](../skills/tv-documentary/development/series-bible-generator/SKILL.md) | Complete series bible with episode breakdowns and commissioning language | Only if the project is a series |
+| 4 | [broadcaster-pitch-writer](../skills/tv-documentary/business/broadcaster-pitch-writer/SKILL.md) | Two-page broadcaster pitch document tailored to the target buyer | Always |
+| 5 | [festival-synopsis-writer](../skills/tv-documentary/localization/festival-synopsis-writer/SKILL.md) | Short (50-word), medium (100-word), and long (250-word) festival synopses | Always |
 
 ## How the agent works
 
@@ -330,8 +330,8 @@ The strongest document in this package is the treatment — it carries the narra
 - Festival synopses are written in English. For festivals requiring synopses in other languages, use a professional translator — machine translation degrades the register that makes synopses effective.
 
 ## Related agents and skills
-- [logline-creator](../skills/tv-documentary/development/logline-creator.md) — standalone skill for users who need only a logline
-- [pitch-treatment-writer](../skills/tv-documentary/development/pitch-treatment-writer.md) — standalone skill for users who already have a logline and need only a treatment
-- [series-bible-generator](../skills/tv-documentary/development/series-bible-generator.md) — standalone skill for users who need only a series bible
-- [broadcaster-pitch-writer](../skills/tv-documentary/business/broadcaster-pitch-writer.md) — standalone skill for users who need only a broadcaster pitch document
-- [festival-synopsis-writer](../skills/tv-documentary/localization/festival-synopsis-writer.md) — standalone skill for users who need only festival synopses
+- [logline-creator](../skills/tv-documentary/development/logline-creator/SKILL.md) — standalone skill for users who need only a logline
+- [pitch-treatment-writer](../skills/tv-documentary/development/pitch-treatment-writer/SKILL.md) — standalone skill for users who already have a logline and need only a treatment
+- [series-bible-generator](../skills/tv-documentary/development/series-bible-generator/SKILL.md) — standalone skill for users who need only a series bible
+- [broadcaster-pitch-writer](../skills/tv-documentary/business/broadcaster-pitch-writer/SKILL.md) — standalone skill for users who need only a broadcaster pitch document
+- [festival-synopsis-writer](../skills/tv-documentary/localization/festival-synopsis-writer/SKILL.md) — standalone skill for users who need only festival synopses

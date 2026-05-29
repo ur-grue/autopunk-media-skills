@@ -15,7 +15,7 @@ Writers, journalists, and subject-matter experts launching a newsletter on platf
 ## The Workflow
 
 ### Step 1: Define your niche positioning
-**Skill:** [`niche-positioning-brief`](../../skills/newsletter/strategy/niche-positioning-brief.md)
+**Skill:** [`niche-positioning-brief`](../../skills/newsletter/strategy/niche-positioning-brief/SKILL.md)
 
 Give Claude your subject area, your background, and your target reader. Get back a positioning brief that defines your unique angle — what you cover that nobody else does, and why your voice matters in this space.
 
@@ -24,7 +24,7 @@ Give Claude your subject area, your background, and your target reader. Get back
 ---
 
 ### Step 2: Plan your content arc
-**Skill:** [`content-arc-planner`](../../skills/newsletter/strategy/content-arc-planner.md)
+**Skill:** [`content-arc-planner`](../../skills/newsletter/strategy/content-arc-planner/SKILL.md)
 
 Feed in your positioning and the number of editions you want to plan. Get back a multi-week content arc where each edition builds on the last — creating momentum and a reason to stay subscribed.
 
@@ -33,7 +33,7 @@ Feed in your positioning and the number of editions you want to plan. Get back a
 ---
 
 ### Step 3: Write your landing page
-**Skill:** [`landing-page-copy-writer`](../../skills/newsletter/growth/landing-page-copy-writer.md)
+**Skill:** [`landing-page-copy-writer`](../../skills/newsletter/growth/landing-page-copy-writer/SKILL.md)
 
 Give Claude your positioning brief and target audience. Get back landing page copy that explains the newsletter's value in 10 seconds — headline, subhead, bullet points, and subscribe CTA.
 
@@ -42,7 +42,7 @@ Give Claude your positioning brief and target audience. Get back landing page co
 ---
 
 ### Step 4: Write your welcome email
-**Skill:** [`welcome-email-writer`](../../skills/newsletter/writing/welcome-email-writer.md)
+**Skill:** [`welcome-email-writer`](../../skills/newsletter/writing/welcome-email-writer/SKILL.md)
 
 Give Claude your newsletter's voice and what a new subscriber should expect. Get back a welcome email that sets expectations, builds trust, and gives the reader a reason to open the next one.
 
@@ -51,7 +51,7 @@ Give Claude your newsletter's voice and what a new subscriber should expect. Get
 ---
 
 ### Step 5: Write your first edition
-**Skill:** [`edition-writer`](../../skills/newsletter/writing/edition-writer.md)
+**Skill:** [`edition-writer`](../../skills/newsletter/writing/edition-writer/SKILL.md)
 
 Give Claude your content arc (Step 2), your positioning (Step 1), your notes and links for this edition, and your tone. Get back a complete newsletter edition — opening, body sections, links, and sign-off.
 
@@ -60,7 +60,7 @@ Give Claude your content arc (Step 2), your positioning (Step 1), your notes and
 ---
 
 ### Step 6: Write the subject line
-**Skill:** [`subject-line-writer`](../../skills/newsletter/writing/subject-line-writer.md)
+**Skill:** [`subject-line-writer`](../../skills/newsletter/writing/subject-line-writer/SKILL.md)
 
 Feed in your edition content and audience. Get back multiple subject line options optimized for open rates — with the logic behind each one.
 
@@ -69,7 +69,7 @@ Feed in your edition content and audience. Get back multiple subject line option
 ---
 
 ### Step 7: Write your referral copy
-**Skill:** [`referral-copy-writer`](../../skills/newsletter/growth/referral-copy-writer.md)
+**Skill:** [`referral-copy-writer`](../../skills/newsletter/growth/referral-copy-writer/SKILL.md)
 
 Give Claude your newsletter's value proposition and your referral reward structure. Get back share-worthy referral copy that subscribers will actually forward.
 
@@ -78,7 +78,7 @@ Give Claude your newsletter's value proposition and your referral reward structu
 ---
 
 ### Step 8: Launch your paid tier
-**Skill:** [`paid-tier-pitch-writer`](../../skills/newsletter/monetization/paid-tier-pitch-writer.md)
+**Skill:** [`paid-tier-pitch-writer`](../../skills/newsletter/monetization/paid-tier-pitch-writer/SKILL.md)
 
 When you're ready to monetize, give Claude your free vs. paid content split and your audience profile. Get back a paid tier pitch that converts free readers — including pricing justification and preview of exclusive content.
 
@@ -90,10 +90,10 @@ When you're ready to monetize, give Claude your free vs. paid content split and 
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A re-engagement email for lapsed readers | [`re-engagement-email-writer`](../../skills/newsletter/writing/re-engagement-email-writer.md) |
-| Sponsorship outreach | [`sponsorship-rate-card`](../../skills/newsletter/monetization/sponsorship-rate-card.md) |
-| Audience segmentation strategy | [`newsletter-audience-segmenter`](../../skills/newsletter/strategy/newsletter-audience-segmenter.md) |
-| Social posts to promote editions | [`caption-writer`](../../skills/social-media/content/caption-writer.md) |
+| A re-engagement email for lapsed readers | [`re-engagement-email-writer`](../../skills/newsletter/writing/re-engagement-email-writer/SKILL.md) |
+| Sponsorship outreach | [`sponsorship-rate-card`](../../skills/newsletter/monetization/sponsorship-rate-card/SKILL.md) |
+| Audience segmentation strategy | [`newsletter-audience-segmenter`](../../skills/newsletter/strategy/newsletter-audience-segmenter/SKILL.md) |
+| Social posts to promote editions | [`caption-writer`](../../skills/social-media/content/caption-writer/SKILL.md) |
 
 ---
 

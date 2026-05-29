@@ -100,7 +100,7 @@ TikTok captions have different conventions from Instagram or Twitter. Media prof
 ```
 ## Improvement request
 
-**Skill:** skills/tv-documentary/development/logline-creator.md
+**Skill:** skills/tv-documentary/development/logline-creator/SKILL.md
 
 ## What needs improving
 
@@ -182,7 +182,7 @@ Radio journalists often need to produce all three formats from the same story un
 ```
 ## Translation request
 
-**Source skill:** skills/youtube/pre-production/hook-generator.md
+**Source skill:** skills/youtube/pre-production/hook-generator/SKILL.md
 **Target locale:** German (de)
 **Target path:** skills/locales/de/youtube/pre-production/hook-generator.md
 

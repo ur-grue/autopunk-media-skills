@@ -10,36 +10,36 @@ Idea → title → script → upload → grow. These skills cover the full publi
 
 ## 1. Plan the video
 
-- [niche-video-idea-generator](../../skills/youtube/pre-production/niche-video-idea-generator.md)
-- [seo-title-optimizer](../../skills/youtube/pre-production/seo-title-optimizer.md)
-- [thumbnail-concept-brief](../../skills/youtube/pre-production/thumbnail-concept-brief.md)
-- [hook-generator](../../skills/youtube/pre-production/hook-generator.md) — the first 15 seconds that decide everything
+- [niche-video-idea-generator](../../skills/youtube/pre-production/niche-video-idea-generator/SKILL.md)
+- [seo-title-optimizer](../../skills/youtube/pre-production/seo-title-optimizer/SKILL.md)
+- [thumbnail-concept-brief](../../skills/youtube/pre-production/thumbnail-concept-brief/SKILL.md)
+- [hook-generator](../../skills/youtube/pre-production/hook-generator/SKILL.md) — the first 15 seconds that decide everything
 
 ## 2. Script it
 
-- [full-script-writer](../../skills/youtube/scripting/full-script-writer.md)
-- [b-roll-shot-list](../../skills/youtube/scripting/b-roll-shot-list.md)
-- [call-to-action-generator](../../skills/youtube/scripting/call-to-action-generator.md)
-- [shorts-script-adapter](../../skills/youtube/scripting/shorts-script-adapter.md) — repurpose into Shorts
+- [full-script-writer](../../skills/youtube/scripting/full-script-writer/SKILL.md)
+- [b-roll-shot-list](../../skills/youtube/scripting/b-roll-shot-list/SKILL.md)
+- [call-to-action-generator](../../skills/youtube/scripting/call-to-action-generator/SKILL.md)
+- [shorts-script-adapter](../../skills/youtube/scripting/shorts-script-adapter/SKILL.md) — repurpose into Shorts
 
 ## 3. Publish
 
-- [description-seo-writer](../../skills/youtube/post-production/description-seo-writer.md)
-- [chapter-timestamps](../../skills/youtube/post-production/chapter-timestamps.md)
-- [community-post-generator](../../skills/youtube/post-production/community-post-generator.md)
+- [description-seo-writer](../../skills/youtube/post-production/description-seo-writer/SKILL.md)
+- [chapter-timestamps](../../skills/youtube/post-production/chapter-timestamps/SKILL.md)
+- [community-post-generator](../../skills/youtube/post-production/community-post-generator/SKILL.md)
 
 ## 4. Grow the channel
 
-- [content-calendar-planner](../../skills/youtube/channel-strategy/content-calendar-planner.md)
-- [audience-persona-builder](../../skills/youtube/channel-strategy/audience-persona-builder.md)
-- [ab-title-test-brief](../../skills/youtube/analytics/ab-title-test-brief.md) · [performance-report-writer](../../skills/youtube/analytics/performance-report-writer.md)
+- [content-calendar-planner](../../skills/youtube/channel-strategy/content-calendar-planner/SKILL.md)
+- [audience-persona-builder](../../skills/youtube/channel-strategy/audience-persona-builder/SKILL.md)
+- [ab-title-test-brief](../../skills/youtube/analytics/ab-title-test-brief/SKILL.md) · [performance-report-writer](../../skills/youtube/analytics/performance-report-writer/SKILL.md)
 
 ## 5. Monetize
 
-- [sponsorship-email-writer](../../skills/youtube/business/sponsorship-email-writer.md)
-- [brand-deal-pitch-writer](../../skills/youtube/business/brand-deal-pitch-writer.md)
-- [youtube-media-kit-generator](../../skills/youtube/business/youtube-media-kit-generator.md)
+- [sponsorship-email-writer](../../skills/youtube/business/sponsorship-email-writer/SKILL.md)
+- [brand-deal-pitch-writer](../../skills/youtube/business/brand-deal-pitch-writer/SKILL.md)
+- [youtube-media-kit-generator](../../skills/youtube/business/youtube-media-kit-generator/SKILL.md)
 
 ---
 
-**Start with:** [hook-generator](../../skills/youtube/pre-production/hook-generator.md) → [seo-title-optimizer](../../skills/youtube/pre-production/seo-title-optimizer.md). Two skills, 60 seconds, a sharper open and a more clickable title.
+**Start with:** [hook-generator](../../skills/youtube/pre-production/hook-generator/SKILL.md) → [seo-title-optimizer](../../skills/youtube/pre-production/seo-title-optimizer/SKILL.md). Two skills, 60 seconds, a sharper open and a more clickable title.

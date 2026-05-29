@@ -53,13 +53,13 @@ Takes a story spark and produces a fully-scoped investigation package — editor
 
 | Step | Skill | What it produces |
 |------|-------|-----------------|
-| 1 | [story-angle-finder](../skills/magazine-journalism/ideation/story-angle-finder.md) | 6-8 editorial angles with reporting approaches, narrowed to the strongest investigative angle |
-| 2 | [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief.md) | Structured briefs on key human sources — background, conflicts, interview questions |
-| 3 | [foia-request-writer](../skills/magazine-journalism/investigation/foia-request-writer.md) | Publication-ready records requests tailored to the jurisdiction and angle |
-| 4 | [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary.md) | Structured analysis of any seed documents — key findings, contradictions, gaps |
-| 5 | [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist.md) | Point-by-point verification checklist for every load-bearing claim |
-| 6 | [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief.md) | Defamation risk assessment with Red/Amber/Green flags and rewrite suggestions |
-| 7 | [lede-writer](../skills/writing/articles/lede-writer.md) | Three draft opening paragraphs in different styles with editorial guidance |
+| 1 | [story-angle-finder](../skills/magazine-journalism/ideation/story-angle-finder/SKILL.md) | 6-8 editorial angles with reporting approaches, narrowed to the strongest investigative angle |
+| 2 | [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief/SKILL.md) | Structured briefs on key human sources — background, conflicts, interview questions |
+| 3 | [foia-request-writer](../skills/magazine-journalism/investigation/foia-request-writer/SKILL.md) | Publication-ready records requests tailored to the jurisdiction and angle |
+| 4 | [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary/SKILL.md) | Structured analysis of any seed documents — key findings, contradictions, gaps |
+| 5 | [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md) | Point-by-point verification checklist for every load-bearing claim |
+| 6 | [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief/SKILL.md) | Defamation risk assessment with Red/Amber/Green flags and rewrite suggestions |
+| 7 | [lede-writer](../skills/writing/articles/lede-writer/SKILL.md) | Three draft opening paragraphs in different styles with editorial guidance |
 
 ## How the agent works
 
@@ -478,10 +478,10 @@ The treatment plant sits on a low bluff above the river, behind a chain-link fen
 - If the story spark is too vague — a hunch without any documentary basis or named subjects — the agent will produce a correspondingly thin package. Garbage in, garbage out.
 
 ## Related agents and skills
-- [story-angle-finder](../skills/magazine-journalism/ideation/story-angle-finder.md) — standalone skill for users who only need editorial angles, without the full investigation workflow
-- [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief.md) — standalone source profiling for any interview, not just investigations
-- [foia-request-writer](../skills/magazine-journalism/investigation/foia-request-writer.md) — standalone records request drafting for any jurisdiction
-- [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist.md) — standalone fact-checking for any article, not just investigations
-- [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief.md) — standalone legal risk check for any draft
-- [lede-writer](../skills/writing/articles/lede-writer.md) — standalone lede drafting for any article type
-- [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary.md) — standalone document analysis for any set of obtained records
+- [story-angle-finder](../skills/magazine-journalism/ideation/story-angle-finder/SKILL.md) — standalone skill for users who only need editorial angles, without the full investigation workflow
+- [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief/SKILL.md) — standalone source profiling for any interview, not just investigations
+- [foia-request-writer](../skills/magazine-journalism/investigation/foia-request-writer/SKILL.md) — standalone records request drafting for any jurisdiction
+- [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md) — standalone fact-checking for any article, not just investigations
+- [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief/SKILL.md) — standalone legal risk check for any draft
+- [lede-writer](../skills/writing/articles/lede-writer/SKILL.md) — standalone lede drafting for any article type
+- [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary/SKILL.md) — standalone document analysis for any set of obtained records

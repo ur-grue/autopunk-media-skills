@@ -42,9 +42,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Hook Generator** | Writes the first 15–30 seconds of your video script — the part that stops the scroll | [Open skill](../skills/youtube/pre-production/hook-generator.md) |
-| **SEO Title Optimizer** | Generates click-worthy titles optimized for YouTube search | [Open skill](../skills/youtube/pre-production/seo-title-optimizer.md) |
-| **Description SEO Writer** | Writes full video descriptions with keywords, timestamps, and calls to action | [Open skill](../skills/youtube/post-production/description-seo-writer.md) |
+| **Hook Generator** | Writes the first 15–30 seconds of your video script — the part that stops the scroll | [Open skill](../skills/youtube/pre-production/hook-generator/SKILL.md) |
+| **SEO Title Optimizer** | Generates click-worthy titles optimized for YouTube search | [Open skill](../skills/youtube/pre-production/seo-title-optimizer/SKILL.md) |
+| **Description SEO Writer** | Writes full video descriptions with keywords, timestamps, and calls to action | [Open skill](../skills/youtube/post-production/description-seo-writer/SKILL.md) |
 
 **Next steps:** Once you're comfortable, look at `full-script-writer` for complete video scripts and `content-calendar-planner` for long-term channel strategy.
 
@@ -54,9 +54,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Pitch Treatment Writer** | Turns your concept into a broadcast-ready pitch treatment | [Open skill](../skills/tv-documentary/development/pitch-treatment-writer.md) |
-| **Logline Creator** | Writes a one-sentence distillation of your project that opens doors | [Open skill](../skills/tv-documentary/development/logline-creator.md) |
-| **Interview Question Generator** | Builds structured question sets for your contributors | [Open skill](../skills/tv-documentary/scripting/interview-question-generator.md) |
+| **Pitch Treatment Writer** | Turns your concept into a broadcast-ready pitch treatment | [Open skill](../skills/tv-documentary/development/pitch-treatment-writer/SKILL.md) |
+| **Logline Creator** | Writes a one-sentence distillation of your project that opens doors | [Open skill](../skills/tv-documentary/development/logline-creator/SKILL.md) |
+| **Interview Question Generator** | Builds structured question sets for your contributors | [Open skill](../skills/tv-documentary/scripting/interview-question-generator/SKILL.md) |
 
 **Next steps:** Explore `series-bible-generator` for multi-part projects and `broadcaster-one-pager` when you're pitching to networks.
 
@@ -66,9 +66,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Story Angle Finder** | Takes a topic and generates multiple publishable angles with reporting approaches | [Open skill](../skills/magazine-journalism/ideation/story-angle-finder.md) |
-| **Headline Generator** | Writes headlines matched to your publication's style and audience | [Open skill](../skills/magazine-journalism/ideation/headline-generator.md) |
-| **Interview Transcript Editor** | Cleans up raw transcripts while preserving the speaker's voice | [Open skill](../skills/magazine-journalism/writing/interview-transcript-editor.md) |
+| **Story Angle Finder** | Takes a topic and generates multiple publishable angles with reporting approaches | [Open skill](../skills/magazine-journalism/ideation/story-angle-finder/SKILL.md) |
+| **Headline Generator** | Writes headlines matched to your publication's style and audience | [Open skill](../skills/magazine-journalism/ideation/headline-generator/SKILL.md) |
+| **Interview Transcript Editor** | Cleans up raw transcripts while preserving the speaker's voice | [Open skill](../skills/magazine-journalism/writing/interview-transcript-editor/SKILL.md) |
 
 **Next steps:** Try `research-brief-creator` for background research and `fact-check-prompt` before publication.
 
@@ -78,9 +78,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Episode Concept Generator** | Generates fully developed episode concepts with guest suggestions and hooks | [Open skill](../skills/podcast/pre-production/episode-concept-generator.md) |
-| **Show Notes Generator** | Writes complete show notes from your episode transcript or outline | [Open skill](../skills/podcast/post-production/show-notes-generator.md) |
-| **Interview Question Builder** | Creates structured question sets that guide conversation naturally | [Open skill](../skills/podcast/pre-production/interview-question-builder.md) |
+| **Episode Concept Generator** | Generates fully developed episode concepts with guest suggestions and hooks | [Open skill](../skills/podcast/pre-production/episode-concept-generator/SKILL.md) |
+| **Show Notes Generator** | Writes complete show notes from your episode transcript or outline | [Open skill](../skills/podcast/post-production/show-notes-generator/SKILL.md) |
+| **Interview Question Builder** | Creates structured question sets that guide conversation naturally | [Open skill](../skills/podcast/pre-production/interview-question-builder/SKILL.md) |
 
 **Next steps:** Look at `ad-read-script` for sponsor integrations and `podcast-media-kit` for pitching advertisers.
 
@@ -90,9 +90,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Edition Writer** | Writes a complete newsletter edition from your notes and links | [Open skill](../skills/newsletter/writing/edition-writer.md) |
-| **Subject Line Writer** | Generates subject lines optimized for open rates | [Open skill](../skills/newsletter/writing/subject-line-writer.md) |
-| **Content Arc Planner** | Plans multi-week content arcs so editions build on each other | [Open skill](../skills/newsletter/strategy/content-arc-planner.md) |
+| **Edition Writer** | Writes a complete newsletter edition from your notes and links | [Open skill](../skills/newsletter/writing/edition-writer/SKILL.md) |
+| **Subject Line Writer** | Generates subject lines optimized for open rates | [Open skill](../skills/newsletter/writing/subject-line-writer/SKILL.md) |
+| **Content Arc Planner** | Plans multi-week content arcs so editions build on each other | [Open skill](../skills/newsletter/strategy/content-arc-planner/SKILL.md) |
 
 **Next steps:** Try `landing-page-copy-writer` for subscriber acquisition and `paid-tier-pitch-writer` for monetization.
 
@@ -102,9 +102,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Press Release Writer** | Writes publication-ready press releases from your brief | [Open skill](../skills/pr-communications/press-office/press-release-writer.md) |
-| **Journalist Pitch Email** | Crafts personalized pitch emails to specific reporters | [Open skill](../skills/pr-communications/media-relations/journalist-pitch-email.md) |
-| **Crisis Statement Writer** | Drafts crisis communications statements under time pressure | [Open skill](../skills/pr-communications/crisis-comms/crisis-statement-writer.md) |
+| **Press Release Writer** | Writes publication-ready press releases from your brief | [Open skill](../skills/pr-communications/press-office/press-release-writer/SKILL.md) |
+| **Journalist Pitch Email** | Crafts personalized pitch emails to specific reporters | [Open skill](../skills/pr-communications/media-relations/journalist-pitch-email/SKILL.md) |
+| **Crisis Statement Writer** | Drafts crisis communications statements under time pressure | [Open skill](../skills/pr-communications/crisis-comms/crisis-statement-writer/SKILL.md) |
 
 **Next steps:** Explore `spokesperson-briefing-note` for media training and `op-ed-writer` for thought leadership.
 
@@ -114,9 +114,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Bulletin Script Writer** | Writes broadcast-ready news bulletins from source material | [Open skill](../skills/radio-audio/scripting/bulletin-script-writer.md) |
-| **Interview Cue Sheet Writer** | Builds cue sheets for live or recorded interviews | [Open skill](../skills/radio-audio/scripting/interview-cue-sheet-writer.md) |
-| **Running Order Builder** | Creates structured running orders for programmes | [Open skill](../skills/radio-audio/production/running-order-builder.md) |
+| **Bulletin Script Writer** | Writes broadcast-ready news bulletins from source material | [Open skill](../skills/radio-audio/scripting/bulletin-script-writer/SKILL.md) |
+| **Interview Cue Sheet Writer** | Builds cue sheets for live or recorded interviews | [Open skill](../skills/radio-audio/scripting/interview-cue-sheet-writer/SKILL.md) |
+| **Running Order Builder** | Creates structured running orders for programmes | [Open skill](../skills/radio-audio/production/running-order-builder/SKILL.md) |
 
 **Next steps:** Try `package-script-writer` for news packages and `pitch-to-broadcaster` for programme proposals.
 
@@ -126,9 +126,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Treatment Writer** | Turns your concept into a compelling narrative treatment | [Open skill](../skills/screenwriting/development/treatment-writer.md) |
-| **Beat Sheet Builder** | Maps out the structural beats of your screenplay | [Open skill](../skills/screenwriting/development/beat-sheet-builder.md) |
-| **Dialogue Polisher** | Refines dialogue for voice, subtext, and rhythm | [Open skill](../skills/screenwriting/scripting/dialogue-polisher.md) |
+| **Treatment Writer** | Turns your concept into a compelling narrative treatment | [Open skill](../skills/screenwriting/development/treatment-writer/SKILL.md) |
+| **Beat Sheet Builder** | Maps out the structural beats of your screenplay | [Open skill](../skills/screenwriting/development/beat-sheet-builder/SKILL.md) |
+| **Dialogue Polisher** | Refines dialogue for voice, subtext, and rhythm | [Open skill](../skills/screenwriting/scripting/dialogue-polisher/SKILL.md) |
 
 **Next steps:** Look at `coverage-report-writer` for self-evaluation and `one-pager-writer` for packaging.
 
@@ -138,9 +138,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Caption Writer** | Writes platform-specific captions with the right tone and length | [Open skill](../skills/social-media/content/caption-writer.md) |
-| **Thread Writer** | Turns a topic into a structured social media thread | [Open skill](../skills/social-media/content/thread-writer.md) |
-| **Platform Strategy Brief** | Creates a content strategy tailored to a specific platform | [Open skill](../skills/social-media/strategy/platform-strategy-brief.md) |
+| **Caption Writer** | Writes platform-specific captions with the right tone and length | [Open skill](../skills/social-media/content/caption-writer/SKILL.md) |
+| **Thread Writer** | Turns a topic into a structured social media thread | [Open skill](../skills/social-media/content/thread-writer/SKILL.md) |
+| **Platform Strategy Brief** | Creates a content strategy tailored to a specific platform | [Open skill](../skills/social-media/strategy/platform-strategy-brief/SKILL.md) |
 
 **Next steps:** Try `carousel-script-writer` for visual content and `hashtag-strategy-writer` for discoverability.
 
@@ -150,9 +150,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Data Story Finder** | Identifies newsworthy stories hidden in a dataset | [Open skill](../skills/data-journalism/analysis/data-story-finder.md) |
-| **Chart Description Writer** | Writes accessible descriptions that make data visualizations meaningful | [Open skill](../skills/data-journalism/visualization/chart-description-writer.md) |
-| **Statistics Explainer** | Translates complex statistics into plain language for general audiences | [Open skill](../skills/data-journalism/analysis/statistics-explainer.md) |
+| **Data Story Finder** | Identifies newsworthy stories hidden in a dataset | [Open skill](../skills/data-journalism/analysis/data-story-finder/SKILL.md) |
+| **Chart Description Writer** | Writes accessible descriptions that make data visualizations meaningful | [Open skill](../skills/data-journalism/visualization/chart-description-writer/SKILL.md) |
+| **Statistics Explainer** | Translates complex statistics into plain language for general audiences | [Open skill](../skills/data-journalism/analysis/statistics-explainer/SKILL.md) |
 
 **Next steps:** Explore `methodology-explainer` for transparency and `foi-data-request` for investigations.
 
@@ -162,9 +162,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Scientific Paper Summarizer** | Distills academic papers into clear, actionable briefs | [Open skill](../skills/research/academic/scientific-paper-summarizer.md) |
-| **Debate State Summary** | Maps the current state of a policy or public debate | [Open skill](../skills/research/background/debate-state-summary.md) |
-| **Coverage Review Brief** | Analyzes how a topic has been covered across media outlets | [Open skill](../skills/research/media/coverage-review-brief.md) |
+| **Scientific Paper Summarizer** | Distills academic papers into clear, actionable briefs | [Open skill](../skills/research/academic/scientific-paper-summarizer/SKILL.md) |
+| **Debate State Summary** | Maps the current state of a policy or public debate | [Open skill](../skills/research/background/debate-state-summary/SKILL.md) |
+| **Coverage Review Brief** | Analyzes how a topic has been covered across media outlets | [Open skill](../skills/research/media/coverage-review-brief/SKILL.md) |
 
 **Next steps:** Try `person-biography-brief` for source background and `claim-origin-tracer` for fact-checking.
 
@@ -174,9 +174,9 @@ Or pick a quick-start below:
 
 | Start with | What it does | File |
 |------------|-------------|------|
-| **Cinematic Shot Prompt** | Generates Midjourney prompts that look like real cinematography | [Open skill](../skills/image-prompting/midjourney/cinematic-shot-prompt.md) |
-| **Mood Board Brief** | Creates detailed mood board briefs for visual projects | [Open skill](../skills/image-prompting/art-direction/mood-board-brief.md) |
-| **Editorial Photo Prompt** | Writes prompts that produce editorial-quality photography in Flux | [Open skill](../skills/image-prompting/flux/editorial-photo-prompt.md) |
+| **Cinematic Shot Prompt** | Generates Midjourney prompts that look like real cinematography | [Open skill](../skills/image-prompting/midjourney/cinematic-shot-prompt/SKILL.md) |
+| **Mood Board Brief** | Creates detailed mood board briefs for visual projects | [Open skill](../skills/image-prompting/art-direction/mood-board-brief/SKILL.md) |
+| **Editorial Photo Prompt** | Writes prompts that produce editorial-quality photography in Flux | [Open skill](../skills/image-prompting/flux/editorial-photo-prompt/SKILL.md) |
 
 **Next steps:** Look at `cover-image-pipeline` for multi-step image workflows and `visual-identity-prompt` for brand consistency.
 

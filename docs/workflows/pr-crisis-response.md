@@ -15,7 +15,7 @@ PR professionals, communications directors, and press officers managing a crisis
 ## The Workflow
 
 ### Step 1: Draft the holding statement
-**Skill:** [`holding-statement-writer`](../../skills/pr-communications/crisis-comms/holding-statement-writer.md)
+**Skill:** [`holding-statement-writer`](../../skills/pr-communications/crisis-comms/holding-statement-writer/SKILL.md)
 
 Give Claude what you know so far — even if it's incomplete. Get back a holding statement that acknowledges the situation, commits to transparency, and buys you time without making promises you can't keep.
 
@@ -26,7 +26,7 @@ Give Claude what you know so far — even if it's incomplete. Get back a holding
 ---
 
 ### Step 2: Draft the full crisis statement
-**Skill:** [`crisis-statement-writer`](../../skills/pr-communications/crisis-comms/crisis-statement-writer.md)
+**Skill:** [`crisis-statement-writer`](../../skills/pr-communications/crisis-comms/crisis-statement-writer/SKILL.md)
 
 Once you have more facts, give Claude the full situation: what happened, what you know, what you're doing about it, and who's affected. Get back a formal crisis statement covering acknowledgment, accountability, action, and next steps.
 
@@ -35,7 +35,7 @@ Once you have more facts, give Claude the full situation: what happened, what yo
 ---
 
 ### Step 3: Build the FAQ document
-**Skill:** [`faq-document-writer`](../../skills/pr-communications/crisis-comms/faq-document-writer.md)
+**Skill:** [`faq-document-writer`](../../skills/pr-communications/crisis-comms/faq-document-writer/SKILL.md)
 
 Feed in your crisis statement and the likely questions from journalists, customers, employees, and stakeholders. Get back a comprehensive FAQ covering every angle — with approved answers for each.
 
@@ -44,7 +44,7 @@ Feed in your crisis statement and the likely questions from journalists, custome
 ---
 
 ### Step 4: Brief your spokesperson
-**Skill:** [`spokesperson-briefing-note`](../../skills/pr-communications/media-relations/spokesperson-briefing-note.md)
+**Skill:** [`spokesperson-briefing-note`](../../skills/pr-communications/media-relations/spokesperson-briefing-note/SKILL.md)
 
 Give Claude the crisis statement, FAQ, and who the spokesperson will be. Get back a briefing note: key messages (3 maximum), bridge phrases, anticipated hostile questions with recommended responses, and things to absolutely not say.
 
@@ -53,7 +53,7 @@ Give Claude the crisis statement, FAQ, and who the spokesperson will be. Get bac
 ---
 
 ### Step 5: Write proactive media outreach
-**Skill:** [`journalist-pitch-email`](../../skills/pr-communications/media-relations/journalist-pitch-email.md)
+**Skill:** [`journalist-pitch-email`](../../skills/pr-communications/media-relations/journalist-pitch-email/SKILL.md)
 
 Don't wait for journalists to call. Give Claude your statement and the reporters who cover your sector. Get back tailored pitch emails offering an exclusive briefing or comment — putting you ahead of the story instead of behind it.
 
@@ -62,7 +62,7 @@ Don't wait for journalists to call. Give Claude your statement and the reporters
 ---
 
 ### Step 6: Write the follow-up
-**Skill:** [`follow-up-email-writer`](../../skills/pr-communications/media-relations/follow-up-email-writer.md)
+**Skill:** [`follow-up-email-writer`](../../skills/pr-communications/media-relations/follow-up-email-writer/SKILL.md)
 
 After the initial storm, give Claude an update on actions taken. Get back follow-up emails for journalists and stakeholders that demonstrate progress and close the loop.
 
@@ -74,10 +74,10 @@ After the initial storm, give Claude an update on actions taken. Get back follow
 
 | When you need | Use this skill |
 |--------------|----------------|
-| An internal memo for employees | [`internal-memo-writer`](../../skills/pr-communications/content/internal-memo-writer.md) |
-| An op-ed to reframe the narrative | [`op-ed-writer`](../../skills/pr-communications/content/op-ed-writer.md) |
-| Social media statements | [`caption-writer`](../../skills/social-media/content/caption-writer.md) |
-| A press release when the crisis is resolved | [`press-release-writer`](../../skills/pr-communications/press-office/press-release-writer.md) |
+| An internal memo for employees | [`internal-memo-writer`](../../skills/pr-communications/content/internal-memo-writer/SKILL.md) |
+| An op-ed to reframe the narrative | [`op-ed-writer`](../../skills/pr-communications/content/op-ed-writer/SKILL.md) |
+| Social media statements | [`caption-writer`](../../skills/social-media/content/caption-writer/SKILL.md) |
+| A press release when the crisis is resolved | [`press-release-writer`](../../skills/pr-communications/press-office/press-release-writer/SKILL.md) |
 
 ---
 
