@@ -1,24 +1,6 @@
+  2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] ERROR: RuntimeError: hashnode non-JSON response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/6caf7277614b8f01.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/39c65b9ff246101f.css" dat
+  2026-05-scoring-non-code-llm-output [devto] HTTP 422 ERROR: {"error":"Canonical url has already been taken. Email support@dev.to for further details.","status":422}
+  2026-05-scoring-non-code-llm-output [hashnode] ERROR: RuntimeError: hashnode non-JSON response: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/6caf7277614b8f01.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/39c65b9ff246101f.css" dat
+FAILED: 3 publish attempt(s), 0 succeeded
 articles: 2 | live=True | devto=yes | hashnode=yes
   2026-05-ai-writing-that-doesnt-sound-like-ai [devto] already published -> skip
-Traceback (most recent call last):
-  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 146, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 122, in main
-    url = fn_post(fm, body)
-          ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 90, in post_hashnode
-    d = json.load(r)
-        ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/__init__.py", line 293, in load
-    return loads(fp.read(),
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/decoder.py", line 338, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/decoder.py", line 356, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
