@@ -104,28 +104,20 @@ TV documentary producers · magazine journalists · YouTube creators · podcast 
 
 ## Quick Start
 
-**New to Claude?** Claude is a free AI assistant made by Anthropic. Go to [claude.ai](https://claude.ai), create a free account, and you're ready. That's all you need to use any skill in this library.
+**You don't write the prompt — the skill *is* the prompt, already written.** You just paste it and add your topic. Works in [Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant — free accounts are fine.
 
-**Here's what the `hook-generator` skill produces.** Try it yourself — paste the prompt below into Claude and add your own topic.
+Three steps, about 60 seconds:
 
-### Example input:
+1. **Open a skill** — e.g. [`hook-generator`](skills/youtube/pre-production/hook-generator/SKILL.md). Copy its text.
+2. **Paste it** into Claude or ChatGPT.
+3. **Add your material** in one line — the skill's "What You Need To Provide" tells you exactly what:
 
 ```
-You are a YouTube hook specialist. Your job is to write the first 15–30 seconds
-of a YouTube video script — the hook that stops the scroll and forces the viewer
-to keep watching.
-
-My video is about: the hidden reason most people fail at learning a new language
-as an adult — and why the standard advice about "immersion" is scientifically wrong.
-
-Target audience: adults aged 28–45 who have tried and failed to learn a language
-before and feel frustrated with their own progress.
-
-Tone: direct, slightly provocative, backed by science — not motivational-speaker energy.
-
-Write 3 alternative hooks. For each: write the full script, then a one-line note
-explaining the psychological mechanism it uses.
+Topic: why most adults fail to learn a language — and why "immersion" advice is wrong.
+Format: YouTube long-form. Audience: frustrated adult learners, 28–45. Tone: direct, science-backed.
 ```
+
+That's the whole input. Here's what the skill writes back:
 
 ### Example output:
 
