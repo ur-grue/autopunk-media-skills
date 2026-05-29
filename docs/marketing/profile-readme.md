@@ -8,7 +8,7 @@ Reminder: add the following block to the ur-grue/ur-grue README.md (GitHub profi
 
 ```markdown
 ### autopunk-media-skills
-354 free Claude skills for media professionals — TV, journalism, YouTube, podcast, radio, and more.
+394 free Claude skills for media professionals — TV, journalism, YouTube, podcast, radio, and more.
 [Browse skills](https://github.com/ur-grue/autopunk-media-skills)
 ```
 

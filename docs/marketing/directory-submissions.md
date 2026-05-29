@@ -57,7 +57,7 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 
 > **Name:** autopunk-media-skills
 > **URL:** https://github.com/ur-grue/autopunk-media-skills
-> **Description:** 354 production-tested agent skills for media professionals — TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers. Covers the full production workflow from ideation to distribution. MIT licensed, G-Eval quality tested (98.5% pass rate). Works with Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the Agent Skills standard.
+> **Description:** 394 production-tested agent skills for media professionals — TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers. Covers the full production workflow from ideation to distribution. MIT licensed, G-Eval quality tested (98.5% pass rate). Works with Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the Agent Skills standard.
 > **Category:** Media / Content Creation
 
 ---
@@ -71,11 +71,11 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 
 **Submission copy (for DM or email):**
 
-> Hi — I maintain autopunk-media-skills, a library of 354 Claude skills for media professionals (TV, journalism, podcasts, YouTube, newsletters, PR, screenwriting). All MIT licensed, quality-tested. Would love to be listed on claudemarketplaces.com.
+> Hi — I maintain autopunk-media-skills, a library of 394 Claude skills for media professionals (TV, journalism, podcasts, YouTube, newsletters, PR, screenwriting). All MIT licensed, quality-tested. Would love to be listed on claudemarketplaces.com.
 >
 > Repo: https://github.com/ur-grue/autopunk-media-skills
 >
-> The library covers 15 media categories with skills for treatments, scripts, headlines, show notes, image prompts, and more. 98.5% pass rate on quality eval (226 skills tested against binary assertions). Works with Claude Code, Cursor, Codex CLI, Gemini CLI, and OpenCode.
+> The library covers 21 media categories with skills for treatments, scripts, headlines, show notes, image prompts, and more. 98.5% pass rate on quality eval (226 skills tested against binary assertions). Works with Claude Code, Cursor, Codex CLI, Gemini CLI, and OpenCode.
 
 ---
 
@@ -88,14 +88,14 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 **PR entry to add:**
 
 ```markdown
-- [autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills) - 354 production-tested Claude skills for media professionals. TV documentary, journalism, YouTube, podcasts, screenwriting, newsletters, PR, data journalism, and more. G-Eval quality tested. MIT licensed.
+- [autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills) - 394 production-tested Claude skills for media professionals. TV documentary, journalism, YouTube, podcasts, screenwriting, newsletters, PR, data journalism, and more. G-Eval quality tested. MIT licensed.
 ```
 
-**PR title:** `Add autopunk-media-skills — 354 skills for media professionals`
+**PR title:** `Add autopunk-media-skills — 394 skills for media professionals`
 
 **PR body:**
 
-> Adds autopunk-media-skills, a skill library covering 15 media categories with 354 skills. All production-tested (98.5% pass rate), MIT licensed. Covers TV documentary development, magazine journalism, YouTube pre-production, podcast scripting, screenwriting, data journalism, newsletters, PR/comms, image prompting, and more.
+> Adds autopunk-media-skills, a skill library covering 21 media categories with 394 skills. All production-tested (98.5% pass rate), MIT licensed. Covers TV documentary development, magazine journalism, YouTube pre-production, podcast scripting, screenwriting, data journalism, newsletters, PR/comms, image prompting, and more.
 >
 > Repo: https://github.com/ur-grue/autopunk-media-skills
 
@@ -114,7 +114,7 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 > **Your Name:** Autopunk
 > **Tool Name:** autopunk-media-skills
 > **Tool URL:** https://github.com/ur-grue/autopunk-media-skills
-> **Short Description:** 354 free, quality-tested Claude skills for media professionals. Covers the full production workflow for TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers — from pitch treatments to press kits, interview questions to SEO-optimized descriptions.
+> **Short Description:** 394 free, quality-tested Claude skills for media professionals. Covers the full production workflow for TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers — from pitch treatments to press kits, interview questions to SEO-optimized descriptions.
 > **Category:** Generative Code (closest match — skills are prompt engineering for media output)
 > **Pricing:** Free
 > **Your Email:** muttersagt@gmail.com
@@ -135,7 +135,7 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 
 > **Tool URL:** https://github.com/ur-grue/autopunk-media-skills
 > **Launch date:** Immediate
-> **Description (for listing):** 354 free, production-tested Claude skills for media professionals. TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers get ready-to-use prompts that produce professional-grade output — pitch treatments, scripts, headlines, show notes, image prompts, and more. No coding required. MIT licensed. Works with Claude Code, Cursor, Codex CLI, Gemini CLI.
+> **Description (for listing):** 394 free, production-tested Claude skills for media professionals. TV producers, journalists, podcasters, YouTubers, screenwriters, and newsletter writers get ready-to-use prompts that produce professional-grade output — pitch treatments, scripts, headlines, show notes, image prompts, and more. No coding required. MIT licensed. Works with Claude Code, Cursor, Codex CLI, Gemini CLI.
 
 **Recommendation:** Start with the $49 tier. TAAFT has 49,000+ tools listed and millions of monthly users. The $347 newsletter feature is high-value but better saved for a launch milestone (e.g., 500+ stars, docs site live, or npm package ready).
 
@@ -163,7 +163,7 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 
 Separate from directory submissions. Tracked here for visibility.
 
-- [ ] dev.to post: "354 Free Claude Skills for Media Professionals"
+- [ ] dev.to post: "394 Free Claude Skills for Media Professionals"
 - [ ] Reddit r/ClaudeAI: skill announcement post
 - [ ] LinkedIn post (EN, from maintainer profile)
 - [ ] Substack mention (if relevant newsletter exists)
@@ -174,15 +174,15 @@ Separate from directory submissions. Tracked here for visibility.
 
 ### One-liner (for directory fields, tweets, PRs)
 
-> 354 free, quality-tested Claude skills for media professionals — TV, journalism, YouTube, podcasts, screenwriting, newsletters, PR, and more.
+> 394 free, quality-tested Claude skills for media professionals — TV, journalism, YouTube, podcasts, screenwriting, newsletters, PR, and more.
 
 ### Short description (for forms with 1-2 sentence limit)
 
-> 354 production-tested Claude skills covering the full media workflow — from pitch treatments to press kits, interview questions to SEO descriptions. No coding required. MIT licensed.
+> 394 production-tested Claude skills covering the full media workflow — from pitch treatments to press kits, interview questions to SEO descriptions. No coding required. MIT licensed.
 
 ### Medium description (for forms with paragraph space)
 
-> autopunk-media-skills is a free library of 354 Claude skills for media professionals. Skills cover 15 categories: TV documentary, magazine journalism, YouTube, podcasts, image prompting, media business, social media, radio/audio, newsletters, PR/communications, screenwriting, data journalism, research, translation, and production support.
+> autopunk-media-skills is a free library of 394 Claude skills for media professionals. Skills cover 21 categories: TV documentary, magazine journalism, YouTube, podcasts, image prompting, media business, social media, radio/audio, newsletters, PR/communications, screenwriting, data journalism, research, translation, and production support.
 >
 > Every skill produces professional-grade output: pitch treatments, scripts, headlines, show notes, image prompts, press releases, interview questions, and more. 226 skills tested against binary quality assertions with a 98.5% pass rate. Works with Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any agent supporting the Agent Skills standard. MIT licensed.
 
@@ -196,7 +196,7 @@ Separate from directory submissions. Tracked here for visibility.
 
 - Auto-indexed directories should pick up the repo within days of reaching their star threshold.
 - For manual submissions, use the appropriate copy block above.
-- For blog/community posts, lead with the problem ("media professionals waste hours on repetitive writing tasks") and the solution ("354 free, quality-tested Claude skills covering the full workflow").
+- For blog/community posts, lead with the problem ("media professionals waste hours on repetitive writing tasks") and the solution ("394 free, quality-tested Claude skills covering the full workflow").
 - Always link to: https://github.com/ur-grue/autopunk-media-skills
 - After submission, update this file with the listing URL once approved.
 - Re-check blocked directories (aitools.fyi) on a 2-week cadence.

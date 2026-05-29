@@ -26,7 +26,7 @@ Actions that require human intervention — cannot be automated by CI/CD.
 - [ ] Submit to directories (see `docs/marketing/directory-submissions.md`)
 
 ## Content Marketing
-- [X] Write dev.to post: "354 Free Claude Skills for Media Professionals" — draft at `docs/marketing/drafts/devto-post.md`
+- [X] Write dev.to post: "394 Free Claude Skills for Media Professionals" — draft at `docs/marketing/drafts/devto-post.md`
 - [X] Write r/ClaudeAI post with 2-3 example outputs — draft at `docs/marketing/drafts/reddit-r-claudeai.md`
 - [X] Write LinkedIn post (EN) — draft at `docs/marketing/drafts/linkedin-post.md`
 - [ ] **HUMAN ACTION:** Post dev.to article from draft — see `docs/marketing/drafts/PUBLISH-NOW.md` for 30-second paste instructions

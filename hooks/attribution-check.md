@@ -6,7 +6,7 @@ severity: warning
 version: 1.0
 composes_with:
   - skills/editing/unattributed-claims-checker.md
-  - skills/magazine-journalism/fact-checking/source-credibility-scorer.md
+  - skills/magazine-journalism/fact-checking/source-credibility-brief.md
 ---
 
 # Attribution check
@@ -59,5 +59,5 @@ Attribution gaps are among the most common editorial failures in AI-assisted wri
 ## Related skills
 
 - [unattributed-claims-checker](../skills/editing/unattributed-claims-checker.md) — full-text audit for unsourced claims
-- [source-credibility-scorer](../skills/magazine-journalism/fact-checking/source-credibility-scorer.md) — evaluates named sources for reliability
-- [fact-check-prompt](../skills/magazine-journalism/fact-checking/fact-check-prompt.md) — broader fact-checking workflow
+- [source-credibility-brief](../skills/magazine-journalism/fact-checking/source-credibility-brief.md) — evaluates named sources for reliability
+- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt.md) — broader fact-checking workflow

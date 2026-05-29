@@ -1,6 +1,6 @@
 # Getting Started
 
-You've found a library of 229 ready-to-use skills for media professionals. Here's how to get value from it in under five minutes.
+You've found a library of 394 ready-to-use skills for media professionals. Here's how to get value from it in under five minutes.
 
 ---
 
@@ -200,6 +200,6 @@ The skills are free. The strategic advice is not. → [Learn more](go-deeper.md)
 
 Most real projects use multiple skills in sequence. See the [Workflows](workflows/) folder for step-by-step guides that walk you through an entire project — from concept to delivery.
 
-## Browse All 229 Skills
+## Browse All 394 Skills
 
 See the [Skill Index](skill-index.md) to search by task instead of category.

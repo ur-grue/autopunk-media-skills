@@ -5,7 +5,7 @@ title: autopunk-media-skills
 
 # autopunk-media-skills
 
-**354 free AI skills for TV producers, journalists, podcasters, YouTubers, and media professionals.**
+**394 free AI skills for TV producers, journalists, podcasters, YouTubers, and media professionals.**
 
 ## Quick Links
 
@@ -27,11 +27,13 @@ Step-by-step guides that chain multiple skills for complete projects:
 
 ## Install
 
+No install needed on [claude.ai](https://claude.ai) — open a skill, copy its text, paste it into Claude. To use the files locally in a coding agent (Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode), clone the library:
+
 ```bash
-git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills
+git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
 
-Compatible with Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and any agent supporting the Agent Skills standard.
+Each skill is a self-contained markdown file — copy the ones you want into your project, or paste a skill's text straight into the chat.
 
 ---
 

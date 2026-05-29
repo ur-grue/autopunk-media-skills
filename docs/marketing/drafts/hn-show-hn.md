@@ -11,7 +11,7 @@
 Submission titles for Show HN must start with "Show HN:". HN strips marketing language. Keep it concrete and specific.
 
 **Option A (recommended — concrete number + audience):**
-> Show HN: 354 free Claude skills for media professionals
+> Show HN: 394 free Claude skills for media professionals
 
 **Option B (lead with the quality claim):**
 > Show HN: A library of Claude skills evaluated against a 7-dimension rubric
@@ -38,14 +38,14 @@ up the writing parts of their jobs — pitch treatments, show notes, interview
 questions, press releases — and get output that mostly sounds like a chatbot
 pretending to know the format.
 
-This repo is the opposite end of that. 354 Claude skills, each one a small
+This repo is the opposite end of that. 394 Claude skills, each one a small
 prompt + instruction document for a specific media task. Written by someone
 who actually does the work and cares about whether the output is shippable.
 
-176 skills are currently marked stable, which in this repo means they passed
+393 skills are currently marked stable, which in this repo means they passed
 a G-Eval pass at ≥ 4.0/5 across seven dimensions including a hard floor on
 "Editorial Naturalness" — meaning the output has to read like a human
-professional in the medium, not like generic AI prose. 178 more are in beta.
+professional in the medium, not like generic AI prose. Only one is still in draft.
 The full eval framework is documented in tests/EVAL_FRAMEWORK.md.
 
 The skills follow the Agent Skills file format so they work in Claude Code,

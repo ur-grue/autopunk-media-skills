@@ -9,7 +9,7 @@
 **Link:** https://dev.to/enter
 
 1. Click "Create Post"
-2. **Title:** `354 Free Claude Skills for Media Professionals`
+2. **Title:** `394 Free Claude Skills for Media Professionals`
 3. **Tags:** `ai`, `opensource`, `writing`, `productivity`
 4. **Body:** Copy everything below the `---` line from `docs/marketing/drafts/devto-post.md` (lines 8-101)
 5. Click "Publish"
@@ -23,7 +23,7 @@ Full body is in: `docs/marketing/drafts/devto-post.md`
 **Link:** https://www.reddit.com/r/ClaudeAI/submit
 
 1. Select "Text" post
-2. **Title:** `I built 354 free Claude skills for media professionals — here's what they actually produce`
+2. **Title:** `I built 394 free Claude skills for media professionals — here's what they actually produce`
 3. **Body:** Copy everything from line 7 onward in `docs/marketing/drafts/reddit-r-claudeai.md`
 4. **Flair:** Pick "Project Showcase" or "Resources" if available
 5. Click "Post"

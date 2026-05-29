@@ -51,7 +51,7 @@ Feed in your key characters — who they are, what they want, what's blocking th
 ---
 
 ### Step 5: Write the broadcaster one-pager
-**Skill:** [`broadcaster-one-pager`](../../skills/tv-documentary/business/broadcaster-one-pager.md)
+**Skill:** [`broadcaster-pitch-writer`](../../skills/tv-documentary/business/broadcaster-pitch-writer.md)
 
 Give Claude your logline, treatment summary, target slot, and comparable titles. Get back a single-page pitch document — the page that sits on top of your package and determines whether the rest gets read.
 
@@ -78,7 +78,7 @@ Even at pitch stage, a press kit frame shows professionalism. Give Claude your p
 ---
 
 ### Step 8: Write the funding application (if applicable)
-**Skill:** [`funding-application-writer`](../../skills/tv-documentary/business/funding-application-writer.md)
+**Skill:** [`grant-proposal-writer`](../../skills/tv-documentary/business/grant-proposal-writer.md)
 
 Give Claude the fund's criteria, your project details, and the budget range. Get back a tailored funding application that speaks the fund's language.
 
@@ -90,10 +90,10 @@ Give Claude the fund's criteria, your project details, and the budget range. Get
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A location brief for recce | [`location-brief-writer`](../../skills/tv-documentary/pre-production/location-brief-writer.md) |
-| A shoot schedule | [`shoot-schedule-builder`](../../skills/tv-documentary/pre-production/shoot-schedule-builder.md) |
-| Festival submission copy | [`festival-submission-brief`](../../skills/media-business/distribution/festival-submission-brief.md) |
-| An investor deck (non-broadcast) | [`investor-deck-writer`](../../skills/media-business/pitching/investor-deck-writer.md) |
+| A location brief for recce | [`location-scout-brief`](../../skills/tv-documentary/pre-production/location-scout-brief.md) |
+| A shoot schedule | [`production-schedule-writer`](../../skills/tv-documentary/pre-production/production-schedule-writer.md) |
+| Festival submission copy | [`festival-strategy-brief`](../../skills/media-business/distribution/festival-strategy-brief.md) |
+| An investor brief (non-broadcast) | [`investor-brief-writer`](../../skills/media-business/funding/investor-brief-writer.md) |
 
 ---
 

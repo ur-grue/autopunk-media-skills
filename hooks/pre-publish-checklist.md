@@ -6,9 +6,9 @@ severity: checklist
 version: 1.0
 composes_with:
   - skills/editing/ai-writing-detox.md
-  - skills/editing/passive-voice-checker.md
+  - skills/magazine-journalism/editing/passive-voice-checker.md
   - skills/editing/copy-editor.md
-  - skills/magazine-journalism/fact-checking/fact-check-prompt.md
+  - skills/magazine-journalism/editing/fact-check-prompt.md
   - skills/magazine-journalism/editing/house-style-enforcer.md
 ---
 
@@ -103,7 +103,7 @@ This is the last line of defence before text leaves the working environment.
 ## Related skills
 
 - [ai-writing-detox](../skills/editing/ai-writing-detox.md) — AI language cleanup
-- [passive-voice-checker](../skills/editing/passive-voice-checker.md) — passive voice audit
+- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker.md) — passive voice audit
 - [copy-editor](../skills/editing/copy-editor.md) — full editorial pass
-- [fact-check-prompt](../skills/magazine-journalism/fact-checking/fact-check-prompt.md) — fact-checking workflow
+- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt.md) — fact-checking workflow
 - [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer.md) — house style enforcement
