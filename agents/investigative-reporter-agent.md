@@ -59,7 +59,7 @@ Takes a story spark and produces a fully-scoped investigation package — editor
 | 4 | [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary.md) | Structured analysis of any seed documents — key findings, contradictions, gaps |
 | 5 | [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist.md) | Point-by-point verification checklist for every load-bearing claim |
 | 6 | [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief.md) | Defamation risk assessment with Red/Amber/Green flags and rewrite suggestions |
-| 7 | [lede-writer](../skills/magazine-journalism/writing/lede-writer.md) | Three draft opening paragraphs in different styles with editorial guidance |
+| 7 | [lede-writer](../skills/writing/articles/lede-writer.md) | Three draft opening paragraphs in different styles with editorial guidance |
 
 ## How the agent works
 
@@ -483,5 +483,5 @@ The treatment plant sits on a low bluff above the river, behind a chain-link fen
 - [foia-request-writer](../skills/magazine-journalism/investigation/foia-request-writer.md) — standalone records request drafting for any jurisdiction
 - [claim-verification-checklist](../skills/magazine-journalism/fact-checking/claim-verification-checklist.md) — standalone fact-checking for any article, not just investigations
 - [libel-check-brief](../skills/magazine-journalism/legal/libel-check-brief.md) — standalone legal risk check for any draft
-- [lede-writer](../skills/magazine-journalism/writing/lede-writer.md) — standalone lede drafting for any article type
+- [lede-writer](../skills/writing/articles/lede-writer.md) — standalone lede drafting for any article type
 - [document-analysis-summary](../skills/magazine-journalism/investigation/document-analysis-summary.md) — standalone document analysis for any set of obtained records

@@ -9,7 +9,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 ## Project Milestones
 
 ### Completed
-- [x] 435 skills across 21 categories (+ 20 locale variants)
+- [x] 394 skills across 21 categories (+ 20 locale variants)
 - [x] G-Eval quality framework (7 dimensions, 4.0/5 threshold)
 - [x] SKILL_TEMPLATE.md for contributors
 - [x] CONTRIBUTING.md (non-technical + technical sections)
@@ -86,7 +86,7 @@ These are doctrine, not new skills. Every Input/Output block, README section, an
 The peer library is a useful mirror. These are the things we deliberately did NOT borrow from it, and the reasons — captured here so future contributors don't re-litigate.
 
 - **Don't downgrade frontmatter to the peer's minimalist `name` + `description` only.** Our `status` / `category` / `subcategory` / `version` / `eval_score` / `tags` block is the public quality signal. A reader can tell at a glance which skills are stable and how they scored. Remove that and we're indistinguishable from any unscored skill repo.
-- **Don't reorganise to one-folder-per-skill at root.** Production-stage taxonomy (development → pre-production → scripting → post-production → distribution → analytics) is a discoverability win. Peer's flat `skill-name/SKILL.md` layout works at 37 skills; it would collapse at 435.
+- **Don't reorganise to one-folder-per-skill at root.** Production-stage taxonomy (development → pre-production → scripting → post-production → distribution → analytics) is a discoverability win. Peer's flat `skill-name/SKILL.md` layout works at 37 skills; it would collapse at 394.
 - **Don't ship dev / security / programming skills.** Wrong audience. Skills like `test-first-bugs`, `vibe-coding`, `secure-auth`, `electron-dev`, `mobile-debugging` belong in a developer skill library. Adding them here dilutes the editorial focus and confuses the target user (working journalists, producers, podcasters).
 - **Don't replace G-Eval with a lint-only check.** Peer's `skill-lint.yml` validates that frontmatter exists and the file is listed in their README. Useful, but not a quality bar. Our G-Eval (6 dimensions × 4.0/5 threshold) is what makes `stable` mean something.
 

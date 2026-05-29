@@ -10,14 +10,14 @@ This report summarises the quality scores for every skill in the library. Scores
 
 | Metric | Value |
 |--------|-------|
-| Skills in library (English) | 435 |
+| Skills in library (English) | 394 |
 | Localized variants (ES / FR) | 20 |
-| Total skill files | 455 |
+| Total skill files | 414 |
 | Categories | 21 |
-| Stable (eval ≥ 4.0) | 434 |
+| Stable (eval ≥ 4.0) | 393 |
 | Draft (in progress) | 1 |
 | Skills with a documented eval run | 234 |
-| Mean score across stable skills | **4.37 / 5.00** |
+| Mean score across stable skills | **4.38 / 5.00** |
 | Score range | 4.2 – 5.0 |
 
 ---
@@ -26,28 +26,28 @@ This report summarises the quality scores for every skill in the library. Scores
 
 | Category | Skills | Mean score |
 |----------|:---:|:---:|
-| Research | 81 | 4.31 |
-| Writing | 68 | 4.32 |
-| Magazine Journalism | 42 | 4.48 |
+| Research | 73 | 4.32 |
+| Writing | 57 | 4.34 |
+| Magazine Journalism | 38 | 4.49 |
 | TV Documentary | 27 | 4.46 |
-| Media Business | 19 | 4.38 |
+| Media Business | 18 | 4.38 |
 | YouTube | 18 | 4.46 |
 | Data Journalism | 18 | 4.38 |
-| Editing | 17 | 4.30 |
-| Production Support | 17 | 4.28 |
-| Pre-Production | 14 | 4.24 |
+| Production Support | 16 | 4.29 |
+| Editing | 14 | 4.32 |
 | PR / Communications | 13 | 4.52 |
 | Newsletter | 13 | 4.43 |
 | Podcast | 12 | 4.43 |
 | Radio / Audio | 12 | 4.39 |
 | Social Media | 11 | 4.40 |
-| Archive & Legal | 10 | 4.20 |
+| Pre-Production | 10 | 4.26 |
 | Image Prompting | 10 | 4.42 |
-| Audience & Distribution | 9 | 4.20 |
 | Screenwriting | 9 | 4.44 |
-| Translation & Localization | 8 | 4.20 |
 | Translation | 7 | 4.43 |
-| **Total** | **435** | **4.37** |
+| Archive & Legal | 7 | 4.20 |
+| Audience & Distribution | 7 | 4.20 |
+| Translation & Localization | 4 | 4.20 |
+| **Total** | **394** | **4.38** |
 
 ---
 

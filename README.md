@@ -1,8 +1,8 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-[![Skills](https://img.shields.io/badge/skills-435-brightgreen)](skills/) [![Quality](https://img.shields.io/badge/mean_eval-4.37%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
+[![Skills](https://img.shields.io/badge/skills-394-brightgreen)](skills/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-**435 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
+**394 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
@@ -55,11 +55,11 @@ That's it. You're using a production-grade skill.
 
 ## What Is This?
 
-This is a free collection of **435 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
+This is a free collection of **394 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
 
 Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
 
-**435 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.37/5**, with 4.0 the minimum to ship. MIT licensed.
+**394 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
 
 Skills work as copy-paste prompts in [Claude](https://claude.ai), or as installable skills in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the [Agent Skills standard](https://agentskills.io).
 
@@ -156,28 +156,28 @@ That's the quality level you get from every stable skill in this library.
 
 | Category | Skills | What It Covers |
 |----------|--------|----------------|
-| Research | 81 skills | people · background · fact-checking · academic · data & statistics · competitive · logistics |
-| Writing | 68 skills | articles · broadcast · digital & social · institutional |
-| Magazine Journalism | 42 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| Research | 73 skills | people · background · fact-checking · academic · data & statistics · competitive · logistics |
+| Writing | 57 skills | articles · broadcast · digital & social · institutional |
+| Magazine Journalism | 38 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
 | TV Documentary | 27 skills | development · pre-production · scripting · post-production · localization · business |
-| Media Business | 19 skills | pitching · distribution · funding · legal |
+| Media Business | 18 skills | pitching · distribution · funding · legal |
 | YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
 | Data Journalism | 18 skills | analysis · investigation · visualization · publishing |
-| Editing | 17 skills | line, structure & voice editing |
-| Production Support | 17 skills | formatting · reference |
-| Pre-Production | 14 skills | planning, scheduling & shoot briefs |
+| Production Support | 16 skills | formatting · reference |
+| Editing | 14 skills | line, structure & voice editing |
 | PR / Communications | 13 skills | press office · crisis comms · media relations · content |
 | Newsletter | 13 skills | writing · strategy · growth · monetization |
 | Podcast | 12 skills | pre-production · scripting · post-production · business |
 | Radio / Audio | 12 skills | scripting · news packages · production · strategy |
 | Social Media | 11 skills | content · strategy |
-| Archive & Legal | 10 skills | archive research · rights & clearances |
+| Pre-Production | 10 skills | planning, scheduling & shoot briefs |
 | Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
-| Audience & Distribution | 9 skills | audience growth · publishing |
 | Screenwriting | 9 skills | development · scripting · revision · production |
-| Translation & Localization | 8 skills | localization · cultural adaptation |
 | Translation | 7 skills | text · institutional · digital · reference · quality |
-| **Total** | **435 skills** | + 20 localized ES/FR variants |
+| Archive & Legal | 7 skills | archive research · rights & clearances |
+| Audience & Distribution | 7 skills | audience growth · publishing |
+| Translation & Localization | 4 skills | localization · cultural adaptation |
+| **Total** | **394 skills** | + 20 localized ES/FR variants |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
@@ -333,7 +333,7 @@ Short version:
 
 ## Quality Testing
 
-**Every skill carries a quality score** in its metadata — the library mean is **4.37/5**, and 4.0 is the minimum to ship. See the auto-generated [`tests/EVAL_SUMMARY.md`](tests/EVAL_SUMMARY.md) for the score of every category.
+**Every skill carries a quality score** in its metadata — the library mean is **4.38/5**, and 4.0 is the minimum to ship. See the auto-generated [`tests/EVAL_SUMMARY.md`](tests/EVAL_SUMMARY.md) for the score of every category.
 
 On top of that, our documented assertion suite ran **226 skills** against binary checks using diverse inputs (standard, minimal, European context): **2,354 / 2,390 checks passed (98.5%).** All 36 misses occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
 

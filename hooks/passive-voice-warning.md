@@ -6,7 +6,7 @@ severity: warning
 version: 1.0
 default_threshold: 25
 composes_with:
-  - skills/editing/passive-voice-checker.md
+  - skills/magazine-journalism/editing/passive-voice-checker.md
 ---
 
 # Passive voice warning
@@ -62,6 +62,6 @@ The threshold is set per-file in frontmatter or globally:
 
 ## Related skills
 
-- [passive-voice-checker](../skills/editing/passive-voice-checker.md) — full audit with line-by-line rewrites
+- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker.md) — full audit with line-by-line rewrites
 - [copy-editor](../skills/editing/copy-editor.md) — broader editorial pass including voice
 - [structure-flow-checker](../skills/editing/structure-flow-checker.md) — checks narrative flow and structure

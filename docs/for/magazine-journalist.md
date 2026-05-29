@@ -23,10 +23,10 @@ From the first story angle to a fact-checked, libel-safe, publishable piece — 
 
 ## 3. Write the piece
 
-- [lede-writer](../../skills/magazine-journalism/writing/lede-writer.md)
+- [lede-writer](../../skills/writing/articles/lede-writer.md)
 - [reportage-structure](../../skills/magazine-journalism/writing/reportage-structure.md)
-- [news-article-writer](../../skills/magazine-journalism/writing/news-article-writer.md) · [profile-writer](../../skills/magazine-journalism/writing/profile-writer.md)
-- [sidebar-fact-box-writer](../../skills/magazine-journalism/writing/sidebar-fact-box-writer.md) · [pull-quote-selector](../../skills/magazine-journalism/editing/pull-quote-selector.md)
+- [news-article-writer](../../skills/writing/articles/news-article-writer.md) · [profile-writer](../../skills/magazine-journalism/writing/profile-writer.md)
+- [sidebar-fact-box-writer](../../skills/magazine-journalism/writing/sidebar-fact-box-writer.md) · [pull-quote-selector](../../skills/writing/articles/pull-quote-selector.md)
 
 ## 4. Verify and edit
 
@@ -41,6 +41,6 @@ From the first story angle to a fact-checked, libel-safe, publishable piece — 
 
 ---
 
-**Start with:** [story-angle-finder](../../skills/magazine-journalism/ideation/story-angle-finder.md) → [lede-writer](../../skills/magazine-journalism/writing/lede-writer.md).
+**Start with:** [story-angle-finder](../../skills/magazine-journalism/ideation/story-angle-finder.md) → [lede-writer](../../skills/writing/articles/lede-writer.md).
 
 Working on an investigation? See the [Investigative Reporter Agent](../../README.md#agents) for the full spark-to-draft pipeline.

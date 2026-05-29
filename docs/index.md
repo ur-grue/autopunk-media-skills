@@ -5,7 +5,7 @@ title: autopunk-media-skills
 
 # autopunk-media-skills
 
-**435 free AI skills for TV producers, journalists, podcasters, YouTubers, and media professionals.**
+**394 free AI skills for TV producers, journalists, podcasters, YouTubers, and media professionals.**
 
 ## Quick Links
 

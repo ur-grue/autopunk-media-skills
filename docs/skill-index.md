@@ -15,11 +15,11 @@ Use `Ctrl+F` / `Cmd+F` to search this page. Every skill in the library is listed
 | Write a podcast episode script (solo) | `solo-episode-script` | `skills/podcast/scripting/solo-episode-script.md` |
 | Write a podcast intro and outro | `intro-outro-writer` | `skills/podcast/scripting/intro-outro-writer.md` |
 | Write a sponsor ad read that sounds natural | `ad-read-script` | `skills/podcast/scripting/ad-read-script.md` |
-| Write a news article from facts and quotes | `news-article-writer` | `skills/magazine-journalism/writing/news-article-writer.md` |
+| Write a news article from facts and quotes | `news-article-writer` | `skills/writing/articles/news-article-writer.md` |
 | Write a magazine profile piece | `profile-writer` | `skills/magazine-journalism/writing/profile-writer.md` |
 | Write a critical review (book, film, restaurant) | `review-writer` | `skills/magazine-journalism/writing/review-writer.md` |
 | Write a column in a specific author's voice | `column-voice-adapter` | `skills/magazine-journalism/writing/column-voice-adapter.md` |
-| Write three opening paragraph options for an article | `lede-writer` | `skills/magazine-journalism/writing/lede-writer.md` |
+| Write three opening paragraph options for an article | `lede-writer` | `skills/writing/articles/lede-writer.md` |
 | Write documentary narration or commentary | `commentary-writer` | `skills/tv-documentary/scripting/commentary-writer.md` |
 | Write an animated explainer narration | `animated-explainer-script` | `skills/tv-documentary/scripting/animated-explainer-script.md` |
 | Write a radio news bulletin | `bulletin-script-writer` | `skills/radio-audio/scripting/bulletin-script-writer.md` |
@@ -143,7 +143,7 @@ Use `Ctrl+F` / `Cmd+F` to search this page. Every skill in the library is listed
 | Check for passive voice | `passive-voice-checker` | `skills/magazine-journalism/editing/passive-voice-checker.md` |
 | Harmonize multi-author copy | `multi-author-harmonizer` | `skills/magazine-journalism/editing/multi-author-harmonizer.md` |
 | Compare two versions of a draft | `version-comparator` | `skills/magazine-journalism/editing/version-comparator.md` |
-| Select pull quotes from an article | `pull-quote-selector` | `skills/magazine-journalism/editing/pull-quote-selector.md` |
+| Select pull quotes from an article | `pull-quote-selector` | `skills/writing/articles/pull-quote-selector.md` |
 | Write an editor's note or correction | `editor-note-writer` | `skills/magazine-journalism/editing/editor-note-writer.md` |
 | Write documentary rough-cut notes | `rough-cut-notes` | `skills/tv-documentary/post-production/rough-cut-notes.md` |
 | Write screenplay coverage | `coverage-report-writer` | `skills/screenwriting/revision/coverage-report-writer.md` |
@@ -308,7 +308,7 @@ Use `Ctrl+F` / `Cmd+F` to search this page. Every skill in the library is listed
 | Write a crisis FAQ document | `faq-document-writer` | `skills/pr-communications/crisis-comms/faq-document-writer.md` |
 | Write a follow-up email to a journalist | `follow-up-email-writer` | `skills/pr-communications/media-relations/follow-up-email-writer.md` |
 | Write a thank-you email to press | `thank-you-email-writer` | `skills/pr-communications/media-relations/thank-you-email-writer.md` |
-| Write an entertainment press release | `press-release-writer` | `skills/media-business/distribution/press-release-writer.md` |
+| Write an entertainment press release | `press-release-writer` | `skills/pr-communications/press-office/press-release-writer.md` |
 
 ---
 
@@ -399,4 +399,4 @@ Use `Ctrl+F` / `Cmd+F` to search this page. Every skill in the library is listed
 | Build a glossary for an article | `glossary-builder` | `skills/magazine-journalism/writing/glossary-builder.md` |
 | Write article summaries / standfirsts | `article-summary-writer` | `skills/magazine-journalism/writing/article-summary-writer.md` |
 | Write alt text for images | `alt-text-writer` | `skills/magazine-journalism/writing/alt-text-writer.md` |
-| Write photo captions | `photo-caption-writer` | `skills/magazine-journalism/writing/photo-caption-writer.md` |
+| Write photo captions | `photo-caption-writer` | `skills/writing/articles/photo-caption-writer.md` |
