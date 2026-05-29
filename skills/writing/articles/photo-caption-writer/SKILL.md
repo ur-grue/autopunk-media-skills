@@ -73,4 +73,4 @@ Structural engineers inspect a crack in the gymnasium wall of a public school du
 ## Related Skills
 - [alt-text-writer](../../../magazine-journalism/writing/alt-text-writer/SKILL.md)
 - [pull-quote-selector](../pull-quote-selector/SKILL.md)
-- [photo-essay-caption-sequence](photo-essay-caption-sequence.md)
+- [photo-essay-caption-sequence](SKILL.md)

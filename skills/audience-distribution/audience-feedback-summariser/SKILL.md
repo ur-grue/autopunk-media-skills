@@ -119,4 +119,4 @@ Two readers identified as professionals — a water engineer and a local governm
 ## Related Skills
 - [newsletter-audience-segmenter](../../newsletter/strategy/newsletter-audience-segmenter/SKILL.md)
 - [headline-ab-variants-writer](../headline-ab-variants-writer/SKILL.md)
-- [reader-engagement-brief](./reader-engagement-brief.md)
+- [reader-engagement-brief](../reader-comments-analyzer/SKILL.md)

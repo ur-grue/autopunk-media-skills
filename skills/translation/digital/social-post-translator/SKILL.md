@@ -93,4 +93,3 @@ Enlace en bio.
 - [article-translator](../../text/article-translator/SKILL.md) — translate full articles rather than social copy
 - [regional-variant-adapter](../../localization/regional-variant-adapter/SKILL.md) — adapt a translation for a specific regional dialect or market
 - [caption-writer](../../../social-media/content/caption-writer/SKILL.md) — write original social captions from scratch
-- [cross-platform-repurposer](../../social-media/strategy/cross-platform-repurposer.md) — adapt a post for a different platform entirely

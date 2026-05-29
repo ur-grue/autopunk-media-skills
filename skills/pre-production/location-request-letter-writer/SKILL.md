@@ -111,4 +111,4 @@ Series Producer, Northlight Documentary Films
 ## Related Skills
 - [shoot-schedule-builder](../../tv-documentary/pre-production/production-schedule-writer/SKILL.md)
 - [location-brief-writer](../../tv-documentary/pre-production/location-scout-brief/SKILL.md)
-- [release-form-checklist](../tv-documentary/pre-production/release-form-checklist.md)
+- [release-form-checklist](../../media-business/legal/release-form-writer/SKILL.md)

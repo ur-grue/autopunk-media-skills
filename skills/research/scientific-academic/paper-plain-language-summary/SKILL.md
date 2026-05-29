@@ -74,5 +74,5 @@ The study adds solid evidence that five hours of sleep is harmful to mental perf
 
 ## Related Skills
 - [retracted-papers-checker](../retracted-papers-checker/SKILL.md)
-- [literature-brief-creator](literature-brief-creator.md)
+- [literature-brief-creator](../../academic/scientific-paper-summarizer/SKILL.md)
 - [methodology-explainer](../../../data-journalism/publishing/methodology-explainer/SKILL.md)

@@ -90,4 +90,4 @@ Nadia Ferreira is a freelance investigative journalist covering financial crime 
 - [manuscript-formatter](../manuscript-formatter/SKILL.md) — format the full submission that accompanies this bio
 - [cms-metadata-writer](../cms-metadata-writer/SKILL.md) — write the metadata for the article this bio accompanies
 - [press-kit-generator](../../../tv-documentary/post-production/press-kit-generator/SKILL.md) — generate a full press kit that may include extended bios
-- [media-kit-generator](../../youtube/business/media-kit-generator.md) — create a media kit for a content creator, including bio sections
+- [media-kit-generator](../../../youtube/business/youtube-media-kit-generator/SKILL.md) — create a media kit for a content creator, including bio sections

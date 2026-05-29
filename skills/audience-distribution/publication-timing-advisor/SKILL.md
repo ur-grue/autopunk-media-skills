@@ -84,5 +84,4 @@ For a genuinely evergreen feature with no news hook, Saturday morning is a stron
 ## Related Skills
 - [platform-distribution-advisor](../platform-distribution-advisor/SKILL.md)
 - [content-calendar-planner](../../youtube/channel-strategy/content-calendar-planner/SKILL.md)
-- [cross-platform-repurposer](../../social-media/strategy/cross-platform-repurposer.md)
 - [newsletter-teaser-writer](../../magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md)

@@ -93,6 +93,5 @@ Most volatile elements: The political situation four months before an election i
 - The skill takes a neutral analytical stance. Journalists covering situations involving human rights violations, authoritarian consolidation, or democratic backsliding may need to apply additional ethical and editorial judgement about how to frame political actors whose actions are contested on normative grounds.
 
 ## Related Skills
-- [facts-context/background-brief-writer](background-brief-writer.md)
 - [facts-context/timeline-builder](../../../magazine-journalism/investigation/investigation-timeline-builder/SKILL.md)
 - [research/people-contacts/expert-identifier](../../people-contacts/expert-identifier/SKILL.md)

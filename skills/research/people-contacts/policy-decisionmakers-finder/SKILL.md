@@ -92,4 +92,4 @@ Independent advisory input typically comes from the Social Care Reform Advisory 
 ## Related Skills
 - [expert-identifier](../expert-identifier/SKILL.md)
 - [foia-request-writer](../../../magazine-journalism/investigation/foia-request-writer/SKILL.md)
-- [source-contact-tracker](../../magazine-journalism/investigation/source-contact-tracker.md)
+- [source-contact-tracker](../../../magazine-journalism/investigation/source-research-brief/SKILL.md)

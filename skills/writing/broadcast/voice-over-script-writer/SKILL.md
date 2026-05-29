@@ -81,4 +81,3 @@ The director of the regional emergency authority resigned the following March. T
 - [transition-narration-writer](../transition-narration-writer/SKILL.md)
 - [commentary-writer](../../../tv-documentary/scripting/commentary-writer/SKILL.md)
 - [narrator-voice-adapter](../../../tv-documentary/scripting/narrator-voice-adapter/SKILL.md)
-- [teleprompter-formatter](teleprompter-formatter.md)

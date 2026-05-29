@@ -73,4 +73,3 @@ The full investigation is linked below. I'd be glad to hear from anyone working 
 ## Related Skills
 - [social-media-excerpt](../../../magazine-journalism/distribution/social-media-excerpt/SKILL.md)
 - [newsletter-blurb-writer](../newsletter-blurb-writer/SKILL.md)
-- [cross-platform-repurposer](../../social-media/strategy/cross-platform-repurposer.md)

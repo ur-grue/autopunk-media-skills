@@ -109,5 +109,5 @@ Be alert to studies funded by sleep technology companies or wellness product man
 
 ## Related Skills
 - [study-methodology-evaluator](../../academic/study-methodology-evaluator/SKILL.md)
-- [paper-summary-writer](paper-summary-writer.md)
+- [paper-summary-writer](../../academic/scientific-paper-summarizer/SKILL.md)
 - [fact-check-prompt](../../../magazine-journalism/editing/fact-check-prompt/SKILL.md)

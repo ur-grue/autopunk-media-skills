@@ -94,4 +94,4 @@ No source provided. This figure requires knowing the total number of unemployed 
 - [source-cross-referencer](../source-cross-referencer/SKILL.md)
 - [statistics-fact-checker](../../../magazine-journalism/fact-checking/statistics-fact-checker/SKILL.md)
 - [claim-verification-checklist](../../../magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md)
-- [dataset-summary-writer](../data-statistics/dataset-summary-writer.md)
+- [dataset-summary-writer](../../../data-journalism/analysis/dataset-summary-brief/SKILL.md)

@@ -115,5 +115,5 @@ The government has launched a formal six-month regulatory review of online food 
 
 ## Related Skills
 - [press-roundup-writer](../../media/press-roundup-writer/SKILL.md)
-- [competitor-coverage-gap-finder](competitor-coverage-gap-finder.md)
+- [competitor-coverage-gap-finder](../competitor-framing-analyzer/SKILL.md)
 - [trending-topics-brief](../trending-topics-brief/SKILL.md)
