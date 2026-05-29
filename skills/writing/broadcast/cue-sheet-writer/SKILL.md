@@ -100,5 +100,5 @@ Presenter: Francesca Ndiaye
 - For programmes with highly complex technical requirements (multi-camera drama, live sport, OB-heavy productions), the cue sheet produced here covers editorial flow but does not substitute for a full technical running order prepared by a technical producer
 
 ## Related Skills
-- [voice-over-writer](voice-over-writer.md)
+- [voice-over-writer](../../../radio-audio/scripting/documentary-narration-writer/SKILL.md)
 - [cold-open-writer](../cold-open-writer/SKILL.md)

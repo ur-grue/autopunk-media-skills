@@ -99,4 +99,4 @@ Exclude: Mortgage interest rates (our finance desk covers that).
 ## Related Skills
 - [news-topic-monitor-brief](../news-topic-monitor-brief/SKILL.md)
 - [press-roundup-writer](../../media/press-roundup-writer/SKILL.md)
-- [competitor-coverage-gap-finder](competitor-coverage-gap-finder.md)
+- [competitor-coverage-gap-finder](../competitor-framing-analyzer/SKILL.md)

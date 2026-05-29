@@ -101,5 +101,4 @@ Story summary: A regional news outlet is preparing to publish a story about a lo
 ## Related Skills
 - [image-rights-checker](../image-rights-checker/SKILL.md)
 - [defamation-risk-checker](../../magazine-journalism/legal/libel-check-brief/SKILL.md)
-- [privacy-law-brief](../magazine-journalism/legal/privacy-law-brief.md)
 - [rights-clearance-checklist](../../media-business/legal/rights-clearance-checklist/SKILL.md)

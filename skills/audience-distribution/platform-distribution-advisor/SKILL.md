@@ -91,5 +91,4 @@ Communities focused on renting, housing rights, or your specific city or region 
 ## Related Skills
 - [publication-timing-advisor](../publication-timing-advisor/SKILL.md)
 - [audience-persona-builder](../../youtube/channel-strategy/audience-persona-builder/SKILL.md)
-- [cross-platform-repurposer](../../social-media/strategy/cross-platform-repurposer.md)
-- [platform-content-plan](../../social-media/strategy/platform-content-plan.md)
+- [platform-content-plan](SKILL.md)

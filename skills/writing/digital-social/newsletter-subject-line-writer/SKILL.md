@@ -75,4 +75,4 @@ Five numbered subject line options, each followed by a one-line label explaining
 ## Related Skills
 - [newsletter-blurb-writer](../newsletter-blurb-writer/SKILL.md)
 - [newsletter-teaser-writer](../../../magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md)
-- [ab-title-tester](../../youtube/analytics/ab-title-tester.md)
+- [ab-title-tester](../../../youtube/analytics/ab-title-test-brief/SKILL.md)

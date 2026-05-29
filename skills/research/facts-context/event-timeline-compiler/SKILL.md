@@ -80,4 +80,3 @@ Format: Table, for a web interactive. Maximum 12 entries. Include a one-phrase s
 ## Related Skills
 - [event-chronology-builder](../event-chronology-builder/SKILL.md)
 - [investigation-timeline-builder](../../../magazine-journalism/investigation/investigation-timeline-builder/SKILL.md)
-- [background-brief-writer](./background-brief-writer.md)

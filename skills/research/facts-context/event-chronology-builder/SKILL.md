@@ -100,4 +100,3 @@ Verano entered administration. An administrator was appointed to manage creditor
 ## Related Skills
 - [event-timeline-compiler](../event-timeline-compiler/SKILL.md)
 - [investigation-timeline-builder](../../../magazine-journalism/investigation/investigation-timeline-builder/SKILL.md)
-- [background-brief-writer](./background-brief-writer.md)

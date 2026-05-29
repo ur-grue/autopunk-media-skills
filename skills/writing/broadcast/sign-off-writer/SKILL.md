@@ -103,4 +103,4 @@ That's The Long View for this week. Subscribe if you'd like more of this — and
 ## Related Skills
 - [podcast-episode-script-writer](../podcast-episode-script-writer/SKILL.md)
 - [intro-outro-writer](../../../podcast/scripting/intro-outro-writer/SKILL.md)
-- [voice-over-writer](./voice-over-writer.md)
+- [voice-over-writer](../../../radio-audio/scripting/documentary-narration-writer/SKILL.md)

@@ -106,5 +106,4 @@ Mixed, with a clear tilt toward critical engagement rather than hostility. Most 
 ## Related Skills
 - [platform-distribution-advisor](../platform-distribution-advisor/SKILL.md)
 - [audience-persona-builder](../../youtube/channel-strategy/audience-persona-builder/SKILL.md)
-- [engagement-audit](../../social-media/strategy/engagement-audit.md)
 - [correction-notice-writer](../../writing/articles/correction-notice-writer/SKILL.md)

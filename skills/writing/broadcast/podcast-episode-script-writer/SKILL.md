@@ -176,4 +176,4 @@ I'll be back next week. Until then.
 ## Related Skills
 - [solo-episode-script](../../../podcast/scripting/solo-episode-script/SKILL.md)
 - [podcast-show-notes-writer](../podcast-show-notes-writer/SKILL.md)
-- [voice-over-writer](./voice-over-writer.md)
+- [voice-over-writer](../../../radio-audio/scripting/documentary-narration-writer/SKILL.md)

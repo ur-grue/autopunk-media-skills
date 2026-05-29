@@ -101,5 +101,4 @@ State and government relationships:
 
 ## Related Skills
 - [org-structure-researcher](../org-structure-researcher/SKILL.md)
-- [facts-context/background-brief-writer](background-brief-writer.md)
 - [magazine-journalism/legal/defamation-risk-checker](../../../magazine-journalism/legal/libel-check-brief/SKILL.md)

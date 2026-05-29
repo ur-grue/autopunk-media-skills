@@ -84,7 +84,6 @@ CSEF does not publish a donor list or annual accounts in a form accessible to th
 - This skill is a research starting point, not a publishable transparency audit. Any conclusions drawn from it must be verified before they appear in print or broadcast.
 
 ## Related Skills
-- [background-brief-writer](./background-brief-writer.md)
 - [source-credibility-scorer](../../../magazine-journalism/fact-checking/source-credibility-brief/SKILL.md)
 - [document-analysis-brief](../../../magazine-journalism/investigation/document-analysis-summary/SKILL.md)
 - [foia-request-writer](../../../magazine-journalism/investigation/foia-request-writer/SKILL.md)

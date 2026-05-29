@@ -76,5 +76,5 @@ We tested twelve of the most widely purchased fast-fashion labels. The full inve
 ## Related Skills
 - [facebook-post-writer](../facebook-post-writer/SKILL.md)
 - [caption-writer](../../../social-media/content/caption-writer/SKILL.md)
-- [hashtag-strategy-builder](../../social-media/content/hashtag-strategy-builder.md)
+- [hashtag-strategy-builder](../../../social-media/strategy/tag-keyword-generator/SKILL.md)
 - [content-tags-writer](../content-tags-writer/SKILL.md)

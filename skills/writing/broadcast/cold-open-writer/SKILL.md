@@ -95,6 +95,6 @@ NARRATION (V/O): This is the story of what happened to it.
 - Cold opens for formats with strict genre conventions (e.g., live news programmes with fixed rundowns) may require significant adaptation to fit editorial house style
 
 ## Related Skills
-- [voice-over-writer](voice-over-writer.md)
+- [voice-over-writer](../../../radio-audio/scripting/documentary-narration-writer/SKILL.md)
 - [scene-breakdown-writer](../../../tv-documentary/scripting/scene-breakdown-writer/SKILL.md)
 - [commentary-writer](../../../tv-documentary/scripting/commentary-writer/SKILL.md)

@@ -79,5 +79,5 @@ Tone: Neutral news
 
 ## Related Skills
 - [chart-type-advisor](../../../data-journalism/visualization/chart-type-advisor/SKILL.md)
-- [dataset-summary-writer](../../data-journalism/analysis/dataset-summary-writer.md)
+- [dataset-summary-writer](../../../data-journalism/analysis/dataset-summary-brief/SKILL.md)
 - [data-corrections-writer](../../../data-journalism/publishing/data-corrections-writer/SKILL.md)

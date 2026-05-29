@@ -93,4 +93,3 @@ For each country of operation, check the national business registry (e.g. Regist
 ## Related Skills
 - [ownership-structure-researcher](../ownership-structure-researcher/SKILL.md)
 - [people-contacts/expert-identifier](../../people-contacts/expert-identifier/SKILL.md)
-- [facts-context/background-brief-writer](background-brief-writer.md)

@@ -101,6 +101,6 @@ NARRATION: Urban heat islands are not inevitable. They are a result of choices â
 - The skill does not generate animation assets, motion briefs, or timing sheets â€” it produces narration copy only
 
 ## Related Skills
-- [voice-over-writer](voice-over-writer.md)
+- [voice-over-writer](../../../radio-audio/scripting/documentary-narration-writer/SKILL.md)
 - [narrator-voice-adapter](../../../tv-documentary/scripting/narrator-voice-adapter/SKILL.md)
 - [commentary-writer](../../../tv-documentary/scripting/commentary-writer/SKILL.md)
