@@ -34,7 +34,7 @@ Drafts a professional, personalised pitch email to a potential interviewee or ex
 - Whether the interview would be recorded, and for what format (print, broadcast, podcast, online)
 - A brief note on confidentiality or anonymity options, if relevant to the story
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a single sentence that names you, your outlet, and the story — no wasted words before the source knows why they are being contacted
 2. States concisely what the story is about and why it is being reported now, giving the source enough context to judge whether to participate
 3. Explains specifically why this source was chosen — references their expertise, role, or connection to the story without flattery or vagueness
@@ -82,7 +82,7 @@ Daniela Ferreira
 [email] · [phone] · [scheduling link]
 
 ## Known Limitations
-- Claude does not know the source's actual published work or public statements, so any reference to specific research or quotes must be provided by the journalist and verified before sending
+- The assistant does not know the source's actual published work or public statements, so any reference to specific research or quotes must be provided by the journalist and verified before sending
 - The skill produces a single polished draft; for particularly sensitive stories (legal proceedings, ongoing investigations, hostile sources), the journalist should review framing carefully before sending
 - Email norms vary by country and sector — a pitch appropriate for an academic may need adjusting in tone for a government spokesperson or corporate communications team
 

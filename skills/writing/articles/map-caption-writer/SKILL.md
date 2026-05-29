@@ -32,7 +32,7 @@ Writes a precise, context-rich caption for a published map that tells readers wh
 - Time period the map represents (especially important for historical or change-over-time maps)
 - Preferred length (short: one sentence; standard: two sentences; extended: three to four sentences for complex geographic context)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens by orienting the reader geographically — naming the area shown and anchoring it relative to a recognisable reference point if the location may be unfamiliar to the target audience
 2. States clearly what the map is measuring or illustrating and what the most significant geographic pattern or finding is (not a neutral description, but the editorial point the map makes)
 3. Adds source attribution and any essential note about time period, projection, or data boundary that a reader needs to interpret the map correctly

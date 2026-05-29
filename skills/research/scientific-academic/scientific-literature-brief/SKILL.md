@@ -28,7 +28,7 @@ Produces a structured, plain-language briefing on the state of scientific resear
 - Any specific claims or findings you have already encountered and want contextualised
 - Whether you need the brief to cover a specific time window (e.g. research from the last five years only)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Frames the field** — Identifies what branch of science the topic falls under, who the key research communities are, and what the central questions are that researchers are trying to answer.
 2. **Establishes the consensus** — Summarises findings that are broadly agreed upon across multiple studies, distinguishing between well-replicated results and single-study claims.
 3. **Maps the contested territory** — Identifies areas of genuine scientific disagreement, explains what the competing positions are and why they differ (different methodologies, population groups, funding sources, etc.).
@@ -103,9 +103,9 @@ Be alert to studies funded by sleep technology companies or wellness product man
 ---
 
 ## Known Limitations
-- Claude does not have access to real-time databases such as PubMed and cannot retrieve, verify, or cite specific published papers. The brief reflects general patterns in established research, not a live literature search. For a story involving specific contested findings, consult a medical librarian or subject expert.
-- Topics at the frontier of research (very recent findings, pre-print studies, emerging fields) may not be well-represented in Claude's training knowledge. Treat any brief on rapidly evolving topics as a starting point, not a final reference.
-- Claude cannot assess the quality of individual studies it has not read. Descriptions of study types are general indicators, not quality guarantees.
+- The assistant does not have access to real-time databases such as PubMed and cannot retrieve, verify, or cite specific published papers. The brief reflects general patterns in established research, not a live literature search. For a story involving specific contested findings, consult a medical librarian or subject expert.
+- Topics at the frontier of research (very recent findings, pre-print studies, emerging fields) may not be well-represented in the assistant's training knowledge. Treat any brief on rapidly evolving topics as a starting point, not a final reference.
+- The assistant cannot assess the quality of individual studies it has not read. Descriptions of study types are general indicators, not quality guarantees.
 
 ## Related Skills
 - [study-methodology-evaluator](../../academic/study-methodology-evaluator/SKILL.md)

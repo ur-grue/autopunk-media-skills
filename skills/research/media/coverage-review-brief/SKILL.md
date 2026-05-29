@@ -24,7 +24,7 @@ Produces a structured framework for reviewing how a topic has been covered by ot
 
 **Optional:** Specific outlets you want to focus on or exclude; the type of coverage you are most interested in (news, features, opinion, broadcast, social media); the angle you are considering (helps identify whether it has already been done); your publication's position in the market (helps assess whether your audience has already been exposed to the existing coverage).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Defines the search strategy.** Based on the topic and time period, creates a specific search plan — which news databases, outlet websites, social media platforms, and broadcast archives to search, and what search terms to use (including synonyms and related terms that may surface relevant coverage).
 
 2. **Creates the analysis framework.** Provides a structured template for categorising the coverage found, covering: dominant narrative frames (how the story is being told), primary sources quoted (who is speaking), story types (breaking news, feature, investigation, opinion), and geographic or demographic focus.
@@ -103,7 +103,7 @@ After completing the review, classify the coverage:
 Based on the gap-finding questions, draft a one-sentence pitch for your angle: "While coverage has focused on [dominant frame], no outlet has [specific gap], which matters because [why this affects readers]."
 
 ## Known Limitations
-- Claude cannot search news databases, access article archives, or review actual coverage. This skill produces the research framework — the journalist must execute the searches and complete the analysis. The value is in providing a systematic method rather than ad hoc reading.
+- The assistant cannot search news databases, access article archives, or review actual coverage. This skill produces the research framework — the journalist must execute the searches and complete the analysis. The value is in providing a systematic method rather than ad hoc reading.
 - The analysis framework is designed for efficiency (1–2 hours of work), not academic rigour. A full media content analysis would require coding protocols and larger samples. This is a journalist's working tool, not a research methodology.
 - Coverage reviews can create a "reactive" mindset — defining your story by what others have done rather than by what matters. Use the gap-finding questions to identify genuine absences, but do not let the existing coverage constrain your reporting if you have a strong story.
 

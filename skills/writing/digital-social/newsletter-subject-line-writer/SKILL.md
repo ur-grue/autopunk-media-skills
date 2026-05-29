@@ -22,9 +22,9 @@ Writes five subject line options for a newsletter edition — each using a diffe
 ## What You Need To Provide
 **Required:** The lead story or main theme of the edition · One sentence describing what readers will get if they open it · Your newsletter's name (used for the preview text context, not the subject line itself unless relevant)
 
-**Optional:** Tone of the newsletter (e.g., serious investigative, warm editorial, dry analytical, playful) · Audience (e.g., general public, policy professionals, media industry) · Any words or formats to avoid (e.g., no questions, no emoji, no ALL CAPS) · Approximate word or character limit if your email platform enforces one · Preview text (the sentence that appears after the subject line in most email clients) — if provided, Claude will write the subject lines to complement it rather than repeat it
+**Optional:** Tone of the newsletter (e.g., serious investigative, warm editorial, dry analytical, playful) · Audience (e.g., general public, policy professionals, media industry) · Any words or formats to avoid (e.g., no questions, no emoji, no ALL CAPS) · Approximate word or character limit if your email platform enforces one · Preview text (the sentence that appears after the subject line in most email clients) — if provided, the assistant will write the subject lines to complement it rather than repeat it
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the edition's lead story and core promise to the reader, and identifies the strongest single angle — the finding, tension, question, or detail that an inbox-scanning reader would pause for
 2. Generates five subject lines, each using a distinct approach: a declarative statement, a specific data point or fact, an implied question or tension, an unexpected or counterintuitive framing, and a direct reader-benefit frame ("What you need to know about X")
 3. Labels each option with its approach so you know what you are choosing between, not just which words you prefer
@@ -68,7 +68,7 @@ Five numbered subject line options, each followed by a one-line label explaining
 
 ## Known Limitations
 - Subject line performance depends heavily on list size, sender reputation, send time, and audience habits — this skill writes strong options but cannot predict which will perform best for your specific list; A/B testing two options is the only reliable way to find out
-- For newsletters with a long-established signature style (e.g., always a single short phrase, always a pun, always a date), Claude will approximate that style if you describe it, but may not match it exactly without seeing historical examples
+- For newsletters with a long-established signature style (e.g., always a single short phrase, always a pun, always a date), the assistant will approximate that style if you describe it, but may not match it exactly without seeing historical examples
 - This skill does not write preview text; if you need both subject line and preview text written together as a pair, request that explicitly
 - Character counts are estimates — verify in your email platform, as some clients measure by pixel width, not character count
 

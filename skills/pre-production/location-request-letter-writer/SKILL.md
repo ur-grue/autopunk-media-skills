@@ -34,7 +34,7 @@ Drafts a professional, ready-to-send letter requesting permission to film or pho
 - Contact name at the property if known
 - Whether a recce visit is also being requested
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the type of location owner (private individual, local authority, corporate property manager, heritage body, etc.) and adjusts the register and emphasis accordingly — a letter to a council planning department reads differently from one to a café owner.
 2. Leads with a clear, one-paragraph summary of who is asking, what the production is, and what access is needed — written so the recipient can answer without reading further.
 3. Details the practical logistics in a short numbered section: dates, crew size, equipment, any disruption, and how it will be managed. Addresses liability and insurance coverage briefly so the recipient does not need to ask.
@@ -103,9 +103,9 @@ Series Producer, Northlight Documentary Films
 [Phone] · production@northlightfilms.co.uk
 
 ## Known Limitations
-- Claude cannot verify local permit requirements, listed building restrictions, or any specific rules that apply to a given authority or venue — always check with the relevant body before submitting.
+- The assistant cannot verify local permit requirements, listed building restrictions, or any specific rules that apply to a given authority or venue — always check with the relevant body before submitting.
 - Letters involving heritage sites, government buildings, or locations with active security protocols will need legal review before sending.
-- If the property owner is not known, Claude cannot identify or research them — you must supply the correct recipient details.
+- If the property owner is not known, the assistant cannot identify or research them — you must supply the correct recipient details.
 - The letter will not include specific insurance policy numbers or certificate references; those must be added manually from your insurer.
 
 ## Related Skills

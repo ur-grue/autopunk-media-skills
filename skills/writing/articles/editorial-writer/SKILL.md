@@ -29,10 +29,10 @@ Drafts a publication editorial — a structured opinion piece written in the col
 - The intended audience (general public, policymakers, professionals in a specific sector)
 - The publication's editorial tone (measured and formal, direct and campaigning, cautiously centrist)
 - Word count target (standard editorial range: 350–600 words)
-- The strongest counterargument to your position, so Claude can address it rather than ignore it
+- The strongest counterargument to your position, so the assistant can address it rather than ignore it
 - Any specific call to action the editorial should end with
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a framing paragraph that establishes the issue, its stakes, and why the publication is taking a position now — without burying the argument
 2. States the editorial's position plainly in the first third of the piece, then devotes the middle section to building the argument with the evidence and reasoning provided
 3. Addresses the strongest counterargument — if supplied — to demonstrate the board has considered it, then explains why the publication's position still holds
@@ -79,7 +79,7 @@ We recognize that no budget round is painless. But proportionality matters. Befo
 The council should pause the closure timetable immediately and commission an independent impact assessment before any vote takes place. That assessment should quantify the downstream costs — not just the savings — of each proposed closure. If the case for cutting libraries still holds after scrutiny, let it be made in the open. If it does not, the council will have saved itself from a decision it would have spent years trying to undo.
 
 ## Known Limitations
-- This skill writes in a general institutional editorial voice. If your publication has a very specific, long-established editorial style — particular sentence rhythms, idiomatic phrases, recurring structural patterns — Claude will approximate it but not replicate it. Pass the draft to a senior editor for voice calibration.
+- This skill writes in a general institutional editorial voice. If your publication has a very specific, long-established editorial style — particular sentence rhythms, idiomatic phrases, recurring structural patterns — the assistant will approximate it but not replicate it. Pass the draft to a senior editor for voice calibration.
 - Editorials that engage with live legal proceedings, pending legislation, or active criminal investigations require legal review before publication. This skill does not flag legal risk.
 - The skill works from the evidence and reasoning you supply. If your inputs are thin (one point, no counterargument), the draft will reflect that. Strong editorials come from strong editorial positions — garbage in, garbage out.
 

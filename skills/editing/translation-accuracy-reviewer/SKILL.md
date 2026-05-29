@@ -23,7 +23,7 @@ Compares a source text against its translation, flags potential inaccuracies and
 **Required:** The original source text (any language) and the translated version side by side, with the source and target languages clearly labelled.
 **Optional:** The publication context (news article, documentary subtitle, legal document, press release); the intended audience for the translation; any known sensitivities (e.g., "the source's phrasing on this point is politically significant"); a note on whether the translation should be literal or idiomatic.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the source text in full to understand its meaning, tone, register, and any culturally specific references or idioms before looking at the translation.
 2. Works through the translation sentence by sentence against the source, flagging: omissions (content present in the source that is missing from the translation), additions (content in the translation with no basis in the source), mistranslations (words or phrases rendered inaccurately), register mismatches (source is formal, translation is casual, or vice versa), and cultural or idiomatic equivalence issues where a literal rendering distorts the intended meaning.
 3. Produces a structured report: each flag is numbered, the source passage and translated passage are quoted together, the problem is named clearly in plain language, and a more accurate alternative is provided. Closes with an overall accuracy assessment.
@@ -107,8 +107,8 @@ Suggested correction:
 The translation is not publishable as submitted. It contains one significant mistranslation that softens a ministerial denial beyond what the source supports (Flag 1), and one omission that removes two specific commitments from the public record (Flag 3). The register shift in Flag 2 is a minor editorial judgement call. Corrections to Flags 1 and 3 are required before this quote can be printed accurately. Estimated revision time: under five minutes.
 
 ## Known Limitations
-- Claude's accuracy is strongest for widely spoken languages (Spanish, French, German, Portuguese, Mandarin, Arabic, Italian). For less common languages or regional dialects, treat the report as a starting point and have a specialist verify flagged passages.
-- Claude cannot assess stylistic nuance in languages it has less training data for — in those cases it will focus on factual accuracy and flag potential idiomatic issues rather than confirm them.
+- The assistant's accuracy is strongest for widely spoken languages (Spanish, French, German, Portuguese, Mandarin, Arabic, Italian). For less common languages or regional dialects, treat the report as a starting point and have a specialist verify flagged passages.
+- The assistant cannot assess stylistic nuance in languages it has less training data for — in those cases it will focus on factual accuracy and flag potential idiomatic issues rather than confirm them.
 - This skill reviews accuracy against the source text. It does not assess whether the source text itself is accurate — for that, use fact-checking skills separately.
 - Legal translations (contracts, court documents, depositions) require a certified human translator. This skill can support that process but must not replace it.
 - Highly idiomatic or poetic language (song lyrics, proverbs, dialect speech) often has no single correct translation. In those cases the report will present options and note the trade-offs rather than a single recommendation.

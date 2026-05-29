@@ -24,7 +24,7 @@ Produces a structured checklist of verification steps and questions a journalist
 **Required:** The source's name, the credential or title they claim (e.g., "Professor of Epidemiology"), and the institution or organisation they say they belong to.
 **Optional:** The context in which you plan to quote them (article, broadcast, podcast), any web links or contact details they have provided, and whether they approached you or you found them.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the specific credential being claimed and breaks it into its component parts — job title, seniority level, institutional affiliation, and relevant specialisation — so each element can be checked independently.
 2. Generates a prioritised list of public sources and direct contact methods where each component can be confirmed: official institutional directories, professional licensing bodies, academic publication records, company filings, and so on.
 3. Flags any common misrepresentation patterns relevant to the claimed credential (for example, "visiting fellow" being presented as a full professorship, or an advisory board role described as a senior staff position), so the journalist knows what to watch for.

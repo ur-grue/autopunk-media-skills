@@ -24,7 +24,7 @@ Compares two versions of an article and produces a structured change report — 
 
 **Optional:** The type of comparison you want (substantive changes only, all changes including minor wording, or a specific focus such as "check whether any factual claims were altered"); any context about what the revision was supposed to address (e.g., "the editor asked for a stronger opening and shorter middle section").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Aligns the two versions.** Maps Version A paragraphs to their corresponding paragraphs in Version B, accounting for reordering, merging, splitting, and deletion. Identifies new paragraphs in Version B that have no counterpart in Version A.
 
 2. **Classifies every change.** Categorises each difference into one of five types:

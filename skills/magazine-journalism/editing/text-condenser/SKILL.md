@@ -22,9 +22,9 @@ Cuts an article or passage to a target word count by removing redundancies, tigh
 ## What You Need To Provide
 **Required:** The full text to be condensed; the target word count or the number of words to cut (e.g., "cut to 1,200 words" or "remove 400 words").
 
-**Optional:** Passages or information that must be preserved (e.g., "keep the opening anecdote intact," "the statistics in paragraph 5 are essential"); the reason for the cut (layout space, pacing, editorial tightness) — this affects which strategy Claude prioritises; whether you want a clean condensed version, a tracked-changes version showing what was cut, or both.
+**Optional:** Passages or information that must be preserved (e.g., "keep the opening anecdote intact," "the statistics in paragraph 5 are essential"); the reason for the cut (layout space, pacing, editorial tightness) — this affects which strategy the assistant prioritises; whether you want a clean condensed version, a tracked-changes version showing what was cut, or both.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Measures the gap.** Calculates the current word count and the number of words that need to be removed. This determines the strategy: a 10% cut calls for line-level tightening; a 30%+ cut requires removing entire passages or restructuring.
 
 2. **Identifies expendable material first.** Before touching any prose, flags the lowest-value content: redundant restatements, throat-clearing openings, examples that duplicate a point already made, attribution padding ("he went on to say that"), and transitional filler. These are cut first because they cost nothing editorially.

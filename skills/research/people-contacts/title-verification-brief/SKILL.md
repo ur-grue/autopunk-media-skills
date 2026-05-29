@@ -24,7 +24,7 @@ Produces a focused verification plan — specific sources to consult and direct 
 **Required:** The person's name, the title you plan to use in your story, and the organisation they are affiliated with.
 **Optional:** Any alternative titles they have used previously (e.g., on LinkedIn or past coverage), the publication date, and whether the title was provided by the person themselves, a PR, or a third party.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Parses the title into its distinct components — seniority indicator, functional role, and organisational scope — so you know exactly what each word is claiming and which part is most likely to need independent confirmation.
 2. Identifies the three to five fastest and most reliable public sources where the current title can be confirmed for this type of organisation (e.g., Companies House for UK directors, SEC filings for US public company executives, an institution's own staff directory for academics).
 3. Flags title inflation patterns common to this role type — words that are routinely overstated in self-reported titles — and notes which component of the title carries the most legal or editorial risk if wrong.

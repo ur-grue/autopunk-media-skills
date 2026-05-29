@@ -34,7 +34,7 @@ Writes a structured broadcaster pitch document for a documentary or series, cove
 - Budget range or financing already in place
 - Any awards, development support, or prior broadcaster interest already received
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a logline and a brief editorial hook — the one reason this story matters right now — tailored to the stated broadcaster's brand and audience
 2. Builds out the pitch body: subject and story, characters or contributors, narrative structure, visual approach, and why this producer/team is the right one to make it
 3. Adds a comps section that positions the project accurately in the market — comps are chosen to signal tone and ambition, not just genre
@@ -102,9 +102,9 @@ We are seeking a development conversation with [broadcaster] as a potential lead
 **Contact:** Northlight Documentary · development@northlightdoc.com
 
 ## Known Limitations
-- Claude cannot verify whether comparable titles are accurate market comps — the user must confirm that stated comps are genuinely similar in audience, budget tier, and tone, not merely in subject matter
+- The assistant cannot verify whether comparable titles are accurate market comps — the user must confirm that stated comps are genuinely similar in audience, budget tier, and tone, not merely in subject matter
 - The pitch document produced here is a starting-point draft; experienced commissioners will identify generic language that needs personalizing to their specific strand or editorial identity
-- Claude does not know the current commissioning priorities of specific broadcasters; statements like "this fits [broadcaster]'s strand" should be verified by the user before submission
+- The assistant does not know the current commissioning priorities of specific broadcasters; statements like "this fits [broadcaster]'s strand" should be verified by the user before submission
 - For series formats, a single pitch document may be insufficient — most commissioners expect a full series bible at some stage of the conversation
 
 ## Related Skills

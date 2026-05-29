@@ -23,7 +23,7 @@ Writes the in-newsletter section that asks free subscribers to upgrade to a paid
 **Required:** Newsletter name and voice; a clear description of what paid subscribers get that free subscribers do not (be specific — "more content" is not sufficient input); the paid subscription price
 **Optional:** Current free subscriber count; current paid conversion rate if known; how long you have had the paid tier; whether you are offering a launch price, trial, or discount; any social proof from paid subscribers (quotes, retention rate, count); the cadence of paid content
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens the pitch by acknowledging the free reader's relationship with the newsletter — not with guilt ("you've been reading for free") but with genuine recognition that they are already part of the community; this positions the upgrade as an extension of something already valued, not a paywall
 2. Articulates the paid benefit in specific, concrete terms: not "exclusive content" but the actual thing — "every Friday, a 1,500-word deep-dive with all the primary sources I used to write this edition, including the ones I cut"; the specificity is what converts
 3. Addresses the implicit objection: why is this worth paying for when there is so much free information available? The answer must be unique to this newsletter's actual offering

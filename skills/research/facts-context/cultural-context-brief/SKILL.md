@@ -24,7 +24,7 @@ Produces a concise, reporter-ready briefing note explaining the cultural, religi
 **Required:** The cultural or religious group, practice, or tradition you are covering; the angle or focus of your story (e.g., a specific ceremony, dispute, policy, celebration).
 **Optional:** The country or region where the story is set; the intended audience and publication; any specific terms, images, or customs that have already come up in your reporting; whether the brief needs to flag editorial sensitivities (language, imagery, representation).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core cultural or religious concept at the centre of the story and establishes what a non-specialist reporter must understand before making contact with sources
 2. Notes the internal diversity of the group or tradition — avoiding the single-story trap — and flags where terminology, practices, or beliefs vary significantly across communities or regions
 3. Summarises relevant history that shapes how this community relates to media coverage, including past misrepresentation or high-profile controversies involving press
@@ -107,8 +107,8 @@ It is worth being transparent about your publication and the story angle before 
 - Don't conflate the final ten days of Ramadan with Eid al-Fitr (the celebration at the end of Ramadan). They are distinct in character: one is solemn and private, the other is communal and festive.
 
 ## Known Limitations
-- This skill draws on Claude's training data, which has a knowledge cutoff. Religious practices evolve, community dynamics shift, and terminology preferences change — verify current usage with a community contact or a specialist academic before publication.
-- For communities with limited English-language documentation, Claude's knowledge may be shallower and more prone to generalisation. This is most likely for smaller or more geographically isolated communities.
+- This skill draws on the assistant's training data, which has a knowledge cutoff. Religious practices evolve, community dynamics shift, and terminology preferences change — verify current usage with a community contact or a specialist academic before publication.
+- For communities with limited English-language documentation, the assistant's knowledge may be shallower and more prone to generalisation. This is most likely for smaller or more geographically isolated communities.
 - The brief cannot replace direct consultation with community members. It is preparation for conversation, not a substitute for it.
 
 ## Related Skills

@@ -23,7 +23,7 @@ Generates a structured research brief on a documentary subject before the first 
 **Required:** The subject's name, professional or personal role, and why they are relevant to the documentary
 **Optional:** Any existing media coverage or prior interviews with the subject; their relationship to other key subjects in the film; known biographical details; the film's tone and approach; any sensitivities the production is aware of
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Profiles the subject's background relevant to the film's subject — their experience, expertise, personal history, and what makes them a compelling lens for the story
 2. Assesses the subject's on-camera track record: how they typically present in interviews, whether they are guarded or open, whether their public statements show consistency or contradiction over time
 3. Identifies the narrative territory most likely to yield strong documentary material: the experiences, relationships, or turning points in their life that connect most directly to the film's themes

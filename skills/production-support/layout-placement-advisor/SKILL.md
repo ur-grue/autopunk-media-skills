@@ -24,7 +24,7 @@ Recommends where to place visual elements — images, pull quotes, infographics,
 
 **Optional:** The publication medium (print spread, single-column web, mobile-first web). Word count and approximate number of pages or scroll sections. Any house rules about visual placement (e.g., no image in the first paragraph, pull quotes must appear in the second half only).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the article structure and identifies its natural narrative beats — the opening hook, background/context section, key evidence or testimony passages, turning points, and conclusion — then notes where reader attention typically dips in long-form pieces.
 2. Matches each available visual asset to the section it serves best: data visuals go near the passage that references the data, portrait images go near the subject's first substantive quote, pull quotes are drawn from emotionally or rhetorically strong moments.
 3. Produces a placement plan that staggers visuals evenly through the piece, avoids clustering them at the top, and flags any section that runs long without a visual break — with a note on whether that section needs one or whether the narrative momentum justifies the text-only run.

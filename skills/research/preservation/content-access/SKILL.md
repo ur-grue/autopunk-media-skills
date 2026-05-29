@@ -23,8 +23,7 @@ Locates accessible copies of paywalled, removed, or hard-to-find published mater
 **Required:** What you are looking for — a specific article (title, author, DOI, or URL), a type of document (government report, industry white paper, conference paper), or a description of the content you need
 **Optional:** Where you already looked and what you found (avoids duplicating effort); whether you have library access through an institution; the urgency (same-day need vs. background research); whether the material has been recently deleted (triggers archive-search steps)
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. **Identifies the material type** and selects the search path accordingly. Academic papers, government reports, industry publications, and news articles each have different open-access routes.
 
 2. **For academic papers and journal articles:**

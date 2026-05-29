@@ -32,7 +32,7 @@ Writes full speaker notes for each slide in a conference or panel presentation, 
 - Any slides where the speaker wants to pause for questions or audience interaction
 - Whether the presenter will use an autocue / teleprompter or read from printed notes
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews all slide content together to understand the narrative arc of the presentation before writing any notes — speaker notes work best when each slide connects naturally to the next
 2. Writes notes for each slide that start with a cue tied to what the slide shows, so the speaker always knows where they are in the flow
 3. Expands on each slide's content with spoken-language explanation, context, or examples — never just reading the bullet points back
@@ -131,8 +131,8 @@ If anyone wants to talk through what that looks like in practice, I will be arou
 [Pause for applause — do not rush to leave the lectern.]
 
 ## Known Limitations
-- Claude does not know the slide deck's visual design, so it cannot write notes tied to specific graphics, colours, or layout unless these are described in the input
-- For highly technical presentations (scientific data, complex financial analysis), the speaker will need to verify that the spoken explanations are accurate — Claude works from the description provided, not independent expertise
+- The assistant does not know the slide deck's visual design, so it cannot write notes tied to specific graphics, colours, or layout unless these are described in the input
+- For highly technical presentations (scientific data, complex financial analysis), the speaker will need to verify that the spoken explanations are accurate — the assistant works from the description provided, not independent expertise
 - The pacing estimate of 130 words per minute is an average; speakers who pause frequently or take questions mid-presentation should expect the notes to run long and should trim accordingly
 - The skill produces notes for a single, uninterrupted presentation — it is not designed for panel formats where speaking time is unpredictable
 

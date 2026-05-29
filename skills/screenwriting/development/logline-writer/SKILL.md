@@ -23,7 +23,7 @@ Crafts a precise, irresistible one-sentence logline for a feature film or TV pil
 **Required:** The protagonist (role or identity, not name), the inciting incident or central situation, and what is at stake
 **Optional:** Genre or tone; the antagonistic force; the ironic or thematic twist that makes the concept distinctive; what the writer most wants to preserve in the logline
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Extracts the four logline elements from the input: protagonist (described by role or defining trait, not name), inciting incident (the disruption that starts the story), central conflict (what the protagonist must overcome or decide), and stakes (what is lost if they fail — ideally with a personal and external dimension)
 2. Applies the standard logline test: can a producer hearing this sentence immediately see the movie and identify the audience? If not, the premise is either too thin or too complex and the skill flags why
 3. Writes three logline variants: a direct dramatic version, an ironic or tonal version (leading with the genre's distinctive flavor), and a compressed version for verbal pitching (under 25 words)

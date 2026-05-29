@@ -23,7 +23,7 @@ Produces a structured research brief for a reporter starting a new story assignm
 **Required:** The story topic or assignment in one or two sentences; the publication type (news, magazine feature, investigative, business press, general interest); any known constraints (time available for reporting, word count, known deadline pressure).
 **Optional:** What you already know about the topic; any obvious angles the editor mentioned; similar stories you've read on the topic (to understand what's been covered); geographic or demographic focus; any specific sources you've already identified.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the story territory: what is established (the background a reporter should understand), what is contested (the questions still being debated by sources and institutions), and what is unknown (the gaps that could make this story original).
 2. Generates three distinct potential story angles — each with a different primary question, target source set, and expected evidence type. One angle is the most obvious interpretation of the assignment; the others offer alternatives that may be more original or more reportable.
 3. Produces a structured reporting checklist: primary sources to seek (with a brief note on why each matters), documents to request or locate, background reading, and questions for each source type. Ordered by priority — what to do first.

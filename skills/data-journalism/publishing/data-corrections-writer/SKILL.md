@@ -23,7 +23,7 @@ Writes a precise, publication-standard corrections notice for a data error publi
 **Required:** The original published figure (as it appeared in print or online). The correct figure. The article headline or title and publication date. A brief explanation of how the error occurred (if known — this can be "we do not know how this error occurred").
 **Optional:** Whether the error affects the story's main conclusion (yes / no / partially); whether a related chart, table, or infographic also needs correction; the publication's standard corrections format or style.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Drafts a correction that states the error precisely — the original figure, the correct figure, and where in the article it appeared — without defensive language or over-explanation.
 2. Assesses whether the correction should include a note on whether the story's core finding is affected, and drafts appropriate language: affirming the conclusion stands, or acknowledging that it changes.
 3. Produces the correction in the standard form: present tense, direct, no passive constructions that obscure responsibility.

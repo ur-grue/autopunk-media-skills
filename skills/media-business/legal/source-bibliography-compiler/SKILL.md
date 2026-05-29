@@ -31,16 +31,16 @@ Compiles a formatted source list or bibliography from raw research notes, organi
 - Any sources that should be anonymised (e.g., confidential sources listed as "Source A — background interview, March 2026")
 - The title of the project or article the bibliography accompanies
 
-## How Claude Approaches This
-1. **Inventories and categorises the raw material.** Claude reads through your research notes and identifies each distinct source, categorising them by type: published sources (articles, books, reports), primary documents (court records, government filings, datasets), interviews and personal communications, and online/multimedia sources. This categorisation drives the formatting decisions.
+## How the Assistant Approaches This
+1. **Inventories and categorises the raw material.** the assistant reads through your research notes and identifies each distinct source, categorising them by type: published sources (articles, books, reports), primary documents (court records, government filings, datasets), interviews and personal communications, and online/multimedia sources. This categorisation drives the formatting decisions.
 
 2. **Standardises each entry.** Every source entry is reformatted to the specified citation style (or plain editorial format if none is specified). Missing fields are flagged rather than guessed — if a publication date is absent, the entry reads "[date unknown]" rather than inventing one. Consistency across all entries is prioritised: if one book entry includes publisher and city, all book entries do.
 
-3. **Handles interviews and unpublished sources.** Journalistic bibliographies frequently include sources that do not appear in standard citation guides — off-the-record conversations, anonymous sources, unpublished data, FOIA responses, leaked documents. Claude formats these according to journalistic convention: named interviews with date and context, anonymised sources with a descriptor and date, and documents with as much identifying information as is appropriate for the sensitivity level.
+3. **Handles interviews and unpublished sources.** Journalistic bibliographies frequently include sources that do not appear in standard citation guides — off-the-record conversations, anonymous sources, unpublished data, FOIA responses, leaked documents. The assistant formats these according to journalistic convention: named interviews with date and context, anonymised sources with a descriptor and date, and documents with as much identifying information as is appropriate for the sensitivity level.
 
-4. **Groups or orders entries as specified.** If grouping by type is requested, Claude uses clear section headers (Published Sources, Interviews, Documents, Data and Datasets). If alphabetical order is requested, all sources are listed in a single sequence by author surname or source name. If no preference is stated, Claude defaults to grouping by type — the most useful format for editorial records.
+4. **Groups or orders entries as specified.** If grouping by type is requested, the assistant uses clear section headers (Published Sources, Interviews, Documents, Data and Datasets). If alphabetical order is requested, all sources are listed in a single sequence by author surname or source name. If no preference is stated, the assistant defaults to grouping by type — the most useful format for editorial records.
 
-5. **Flags incomplete or problematic entries.** If a source cannot be formatted properly because key information is missing (no author, no date, broken URL), Claude includes the entry with a bracketed note identifying what is needed. This ensures nothing is silently dropped from the bibliography.
+5. **Flags incomplete or problematic entries.** If a source cannot be formatted properly because key information is missing (no author, no date, broken URL), the assistant includes the entry with a bracketed note identifying what is needed. This ensures nothing is silently dropped from the bibliography.
 
 ## Output Format
 A formatted source list with clear section headers (if grouped) or a single alphabetical list. Each entry follows the specified citation style consistently. Entries with missing information are flagged with bracketed notes (e.g., "[date needed]", "[confirm author name]"). For internal editorial records, the format includes interview dates, contexts, and confidentiality notes. For public-facing bibliographies, the format is cleaner and omits internal notes. Total length varies with the number of sources — typically 200–800 words for a standard journalistic project.
@@ -117,8 +117,8 @@ U.S. Census Bureau. 2024 American Community Survey, Table B25031: Median Gross R
 *Notes: Two entries flagged for completion — confirm the URL for Marcus Webb's Metro Journal article and the exact Census Bureau download link. All other entries verified against the raw research notes.*
 
 ## Known Limitations
-- Claude formats and organises the sources you provide but cannot verify that they are accurate, that URLs are live, or that cited data is correctly attributed. Always spot-check key entries against the original source before relying on the bibliography for fact-checking or legal defence.
-- For highly specialised citation formats (legal citation, scientific journal house styles, specific broadcaster compliance formats), Claude may not match every formatting rule exactly. Provide a sample formatted entry if you need precise conformance to an unusual style.
+- The assistant formats and organises the sources you provide but cannot verify that they are accurate, that URLs are live, or that cited data is correctly attributed. Always spot-check key entries against the original source before relying on the bibliography for fact-checking or legal defence.
+- For highly specialised citation formats (legal citation, scientific journal house styles, specific broadcaster compliance formats), the assistant may not match every formatting rule exactly. Provide a sample formatted entry if you need precise conformance to an unusual style.
 - The skill works from the information you provide. If your raw notes omit a source entirely, it will not appear in the bibliography. Cross-reference the compiled list against your article or script to ensure nothing is missing.
 
 ## Related Skills

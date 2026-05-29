@@ -23,7 +23,7 @@ Drafts a Freedom of Information request specifically targeting datasets, databas
 **Required:** The name of the public body you are submitting to. A description of the data you believe they hold — what it records, the approximate time period, and what you have found in published reports or previous FOIs that suggests it exists. Your name (or a publication name if submitting formally).
 **Optional:** Specific columns or fields you know exist; the file format you want the data in (CSV, Excel, database export); any known previous FOI that touched the same data; jurisdiction (to ensure correct statutory references are used).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Structures the request around the specific data sought — naming fields, date ranges, and systems where known — rather than using vague language that invites partial disclosure.
 2. Includes standard data-journalist clauses: requesting machine-readable format, a data dictionary or codebook if one exists, and any published schema or data model.
 3. Adds standard scaffolding: statutory basis for the request, a deadline note, a request for notification if the request is likely to be refused in part, and contact information.

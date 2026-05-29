@@ -32,14 +32,14 @@ Writes a clear, structured internal memo for staff or leadership, translating a 
 - Recommended actions or next steps you want included
 - Tone preference (neutral informational, persuasive, reassuring)
 
-## How Claude Approaches This
-1. **Structures for rapid comprehension.** Internal memos compete with overloaded inboxes. Claude uses a standard format — To/From/Date/Subject header, a one-sentence executive summary at the top, then supporting sections — so the reader gets the essential point in under ten seconds.
+## How the Assistant Approaches This
+1. **Structures for rapid comprehension.** Internal memos compete with overloaded inboxes. The assistant uses a standard format — To/From/Date/Subject header, a one-sentence executive summary at the top, then supporting sections — so the reader gets the essential point in under ten seconds.
 
 2. **Separates fact from interpretation.** The "Background" section contains only verified facts and chronology. The "Implications" or "Recommendation" section contains analysis and opinion, clearly labelled. This prevents the memo from being read as mixing editorial judgment with reporting.
 
 3. **Calibrates detail to the audience.** A memo to all staff uses plain language and avoids jargon. A memo to senior leadership assumes more context and focuses on strategic implications and decision points. A memo to a specific team provides operational detail and assigns responsibilities.
 
-4. **Includes key messages when relevant.** If the memo relates to an external communications issue, Claude provides 2–3 approved key messages that internal staff can use if asked by media, clients, or stakeholders — ensuring message consistency.
+4. **Includes key messages when relevant.** If the memo relates to an external communications issue, the assistant provides 2–3 approved key messages that internal staff can use if asked by media, clients, or stakeholders — ensuring message consistency.
 
 5. **Closes with a clear "what happens next" section.** Every memo ends with specific next steps, owners, and timelines. If the memo is informational only, it says so explicitly — "No action required" is better than leaving the reader guessing.
 
@@ -113,8 +113,8 @@ This is not a restriction on your personal social media use — simply a request
 Questions about the move itself should go to facilities@organisation.example.com. Questions about media handling should go to the press office.
 
 ## Known Limitations
-- Claude writes the memo based on the facts you provide. If the situation summary is incomplete or inaccurate, the memo will inherit those gaps. Always verify facts before distributing.
-- Internal memos about legally sensitive matters (employment disputes, regulatory investigations, data breaches) should be reviewed by legal counsel before circulation. Claude does not apply legal privilege or disclosure considerations.
+- The assistant writes the memo based on the facts you provide. If the situation summary is incomplete or inaccurate, the memo will inherit those gaps. Always verify facts before distributing.
+- Internal memos about legally sensitive matters (employment disputes, regulatory investigations, data breaches) should be reviewed by legal counsel before circulation. The assistant does not apply legal privilege or disclosure considerations.
 - The skill defaults to a Western corporate memo format. Organisations with different internal communication norms (e.g., government departments with prescribed formats, or newsrooms with informal Slack-first cultures) may need to adapt the structure.
 
 ## Related Skills

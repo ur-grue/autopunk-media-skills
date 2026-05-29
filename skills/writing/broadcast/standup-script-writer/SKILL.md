@@ -31,7 +31,7 @@ Writes a tightly worded, broadcast-ready stand-up script for a reporter to deliv
 - The tone of the wider package (sombre, investigative, explainer, human interest)
 - Any physical action or prop you plan to use (walking, pointing, holding a document)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the location and story angle to find the clearest journalistic reason for the reporter to be standing in that exact spot — the stand-up must earn its location
 2. Selects the most load-bearing fact or transition the stand-up needs to carry, given its position in the package, so it adds information rather than repeating narration
 3. Writes at natural spoken pace (roughly 2.5 words per second) to hit the requested duration, using short declarative sentences a reporter can deliver in a single breath

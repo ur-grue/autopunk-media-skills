@@ -23,7 +23,7 @@ Writes a screenplay scene in industry-standard format — slugline, action lines
 **Required:** Scene location and time of day (INT./EXT., setting, DAY/NIGHT); what must happen in the scene (the dramatic function — what changes, what is established, what is seeded); the characters present and what each one wants in this scene
 **Optional:** Character voice notes (register, verbal habits, what they will not say); where this scene falls in the story (act and beat); the preceding scene (what the audience has just seen) and following scene (where this needs to land); target length in pages; the writer's specific concerns about the scene
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the scene's dramatic function: what must change between FADE IN and FADE OUT of this scene — a relationship shift, a revelation, a decision, a new piece of information that reframes what came before
 2. Determines the scene's opening image (where are we, who are we watching, what is the behavioral tell that tells us where this character is emotionally without stating it) and the closing moment (the last line or action that carries the audience into the next scene)
 3. Writes the scene in proper screenplay format: slugline in standard form, action lines in present tense, economical and visual (what a camera would see), dialogue with each character's name centered and in caps, parentheticals only where the reading is genuinely ambiguous

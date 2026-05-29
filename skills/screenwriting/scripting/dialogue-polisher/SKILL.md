@@ -23,7 +23,7 @@ Rewrites or sharpens dialogue in a screenplay scene to improve subtext, differen
 **Required:** The scene as written, including action lines and dialogue; brief character notes for each speaker (what they want in this scene, what they will not say, their verbal habits or register)
 **Optional:** The scene's function in the overall story (what has to be established, changed, or seeded); any specific lines the writer wants to keep; the emotional destination of the scene (where should the audience be at the end of this scene that they weren't at the start)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the scene to identify on-the-nose lines (where a character states their emotion, motivation, or the scene's theme directly) and marks them — these are the primary targets
 2. Identifies any lines where both characters sound interchangeable and examines what register difference, vocabulary gap, or behavioral habit would distinguish them
 3. Rewrites the scene line by line, preserving the dramatic function of each exchange while finding the oblique version — the thing a character would actually say given what they want, what they fear, and what they refuse to admit

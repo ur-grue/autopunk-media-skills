@@ -23,7 +23,7 @@ Rewrites or drafts a column passage in a defined author's established voice and 
 **Required:** 150–400 words of existing writing in the target voice (the "voice sample"); the topic or argument of the new passage you want written; the approximate length needed.
 **Optional:** A description of the voice in your own words (e.g., "dry wit, never explains the joke, short declarative sentences, tends toward irony when discussing technology"); the publication and its audience; any specific phrases or habits to use or avoid; whether the new piece should feel like a continuation of the sample or a standalone piece.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyzes the voice sample for structural and stylistic patterns: sentence length and rhythm, characteristic vocabulary level, the writer's relationship to their subject (detached observer, first-person participant, amused skeptic), how they handle transitions, how they use irony or understatement, whether they explain or imply.
 2. Extracts 4–6 specific stylistic rules from the sample — enough to apply consistently across the new passage — and applies them to the new content. Patterns that appear once in the sample are suggestions; patterns that appear multiple times are rules.
 3. Writes the new passage in the target voice, then internally checks each sentence against the identified rules before finalizing. Notes any places where the topic creates a tension with the voice that required a judgment call.

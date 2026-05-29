@@ -23,7 +23,7 @@ Writes concise episode summaries in three lengths — platform short (100 words)
 **Required:** Episode title; a 4–8 sentence description of what the episode covers (or key points from the transcript)
 **Optional:** Guest name and one-sentence bio; the single most memorable moment, quote, or insight from the episode; target new audience versus regular listener framing; show name for attribution; primary keyword
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the listener value proposition — not what the episode is about, but what the listener will get from it
 2. Writes the shortest version first (100 words): a hook sentence, the core content in 2–3 sentences, and a clear reason to listen now
 3. Expands to 150 words for directory standard by adding guest context and one concrete detail that signals depth

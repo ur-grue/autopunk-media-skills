@@ -25,7 +25,7 @@ Produces a step-by-step guide — tailored to a journalist's specific story angl
 
 **Optional:** The format you need the data in (CSV, Excel, JSON, API); the geographic level of detail required (national, regional, city-level); any known indicator codes you have already found; your publication's preferred citation style.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the correct section or data explorer within the named database where the target indicator is most likely to be housed, based on how that platform organises its content.
 2. Writes numbered navigation steps from the database homepage to the exact dataset, specifying menu names, filter labels, and toggle options as they appear in the interface — not abstract descriptions.
 3. Specifies exactly which filters to apply (geography, time period, unit of measure, breakdown categories) to produce a clean, story-ready extract rather than a raw bulk download.

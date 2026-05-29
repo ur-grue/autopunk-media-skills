@@ -23,7 +23,7 @@ Generates a systematic fact-checking checklist from a draft article, categorizin
 **Required:** The draft article text (or the section to be fact-checked); the publication type (news, magazine feature, investigative, profile, opinion with reported elements).
 **Optional:** Which claims you're already confident about (to exclude from the list); any specific high-risk areas you're concerned about (statistics from a single source, historical claims, legal statements); the publication's fact-checking standard (light editorial check vs. full verification with source documentation).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads through the draft and extracts every verifiable claim — statistics, dates, names and titles, institutional descriptions, historical facts, legal statements, causal claims ("X caused Y"), and direct quotes attributed to named sources.
 2. Categorizes claims by risk level: High (statistics, specific numbers, legal or medical claims, anything that could expose the publication to a defamation claim), Medium (biographical details, historical claims, institutional descriptions), Low (widely known facts, claims easily verified in seconds).
 3. For each claim: writes the verification question in plain language, recommends the source type (primary document, official record, academic paper, direct confirmation with named source, etc.), and flags any claim where the draft text itself is ambiguous or internally inconsistent — separate from whether the underlying fact is correct.
@@ -134,7 +134,7 @@ The economics are also challenging. The average cost per unit of adaptive reuse 
 ---
 
 ## Known Limitations
-- This skill produces a VERIFICATION CHECKLIST, not verified facts. Claude does not check claims against external databases, call sources, or access current records. The checklist tells a human fact-checker what to verify and how — the human must execute the checks.
+- This skill produces a VERIFICATION CHECKLIST, not verified facts. The assistant does not check claims against external databases, call sources, or access current records. The checklist tells a human fact-checker what to verify and how — the human must execute the checks.
 - For direct quotes attributed to named sources, this skill flags them for verification but cannot confirm whether a source actually said the words in the draft. That requires the original recording or notes.
 - Opinion pieces and columns present a different fact-checking standard than reported pieces. For opinion, only reported elements (statistics, named facts, attributions) require verification — the author's argument and interpretation do not.
 - The skill may miss claims phrased as implications rather than direct assertions — review the checklist against the draft to ensure implied factual claims are also captured.

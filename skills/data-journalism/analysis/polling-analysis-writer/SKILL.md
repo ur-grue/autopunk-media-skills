@@ -23,7 +23,7 @@ Analyses poll or survey results and writes a clear, accurate, publication-ready 
 **Required:** The poll results — key headline figures, subgroup figures if relevant, sample size, fieldwork dates, and polling organisation. The question(s) asked, verbatim if possible.
 **Optional:** Previous poll figures on the same question; the commission source (who paid for the poll); the publication's audience register.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the results for the five most common polling reporting errors: cherry-picking subgroups, ignoring margin of error, treating non-significant differences as meaningful, misrepresenting question wording, and omitting who commissioned the poll.
 2. Writes a plain-language summary that leads with the headline finding and places it in context — comparison to previous polls, margin of error, and any relevant methodology caveats.
 3. Flags any result in the data that appears to be a subgroup finding and warns if the subsample is too small to report reliably.

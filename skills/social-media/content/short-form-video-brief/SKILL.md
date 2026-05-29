@@ -24,7 +24,7 @@ Writes a brief for a 15–60 second short-form video for TikTok, Instagram Reels
 
 **Optional:** Available footage or content to draw from (e.g., "we have interview footage of X"), tone (educational, entertaining, emotional, provocative, behind-the-scenes), target audience, any specific audio treatment (original audio, voiceover, trending sound), a call to action.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Designs the video's structure around the platform's specific viewing behaviour: TikTok rewards immediate pattern interruption and authenticity; Reels rewards visual appeal and fast editing; Shorts rewards search-optimised clarity. The hook is written differently for each platform.
 2. Breaks the video into timestamped segments: hook (0–3 seconds), body (3–45 seconds, depending on length), and close with CTA (last 3–5 seconds). Each segment gets specific direction — what to show, what to say, how long it lasts.
 3. Adds practical production notes: whether the video can be made with existing footage or requires new filming, audio treatment recommendation, caption text for accessibility, and a suggested thumbnail or first-frame image

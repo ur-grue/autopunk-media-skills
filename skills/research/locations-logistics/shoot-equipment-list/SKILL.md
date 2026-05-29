@@ -32,7 +32,7 @@ Generates a complete, shoot-specific packing and equipment checklist organized b
 - Travel method and luggage restrictions (domestic flight, international flight, road vehicle, boat)
 - Any equipment already confirmed available on location
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core technical requirements based on shoot type, environment, and deliverable format — what the job actually demands before any preferences are added
 2. Builds the list by crew role, so each person can check their own responsibilities independently; flags items that are shared between roles
 3. Applies travel constraints last — flags oversize, overweight, or restricted items and suggests alternatives where packaging or rental is preferable to shipping
@@ -144,7 +144,7 @@ Equipment available on location: None.
 - Wireless audio may be unreliable near heavy machinery — have wired fallback ready
 
 ## Known Limitations
-- Claude cannot verify exact equipment specifications or confirm compatibility between specific camera bodies and accessories — always have your camera operator review the list before rental
+- The assistant cannot verify exact equipment specifications or confirm compatibility between specific camera bodies and accessories — always have your camera operator review the list before rental
 - Power requirements are estimated; actual outlet availability and amperage on location must be confirmed with the location manager
 - Safety equipment requirements vary by country and industry — the list above is a general prompt, not a compliance checklist; always check local health and safety regulations
 

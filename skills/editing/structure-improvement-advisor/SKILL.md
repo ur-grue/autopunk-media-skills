@@ -24,7 +24,7 @@ Takes a draft with identified or suspected structural weaknesses and produces a 
 
 **Optional:** A description of the structural problem as you understand it (e.g. "the story buries the news," "the argument doesn't land until too late," "it feels like two separate pieces joined in the middle"). If an editor has given you notes, paste them in. Also useful: the target format (print feature, bulletin script, online explainer) and intended audience.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the draft and identifies its natural units — the distinct blocks of information, each of which does a single job (establishes context, introduces a person, presents evidence, makes an argument, provides a counterpoint, resolves the story).
 2. Assesses what each block requires the reader to already know before it will make full sense, and what each block sets up for what follows. This creates a dependency map: which blocks must come first, which can float, which are doing double duty.
 3. Proposes a restructured sequence that puts each block in the position where it lands with maximum clarity and impact. The proposal explains the logic behind each placement decision in plain terms — not "per narrative convention" but "because the reader needs to understand X before Y will make sense."

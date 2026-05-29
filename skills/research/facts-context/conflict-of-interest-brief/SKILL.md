@@ -25,7 +25,7 @@ Produces a structured brief identifying the potential financial, professional, a
 
 **Optional:** Known employer, institutional affiliation, or funding source. Any previous public statements or positions this person or organisation has taken. Industry or regulatory context.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the category of relationship most likely to create a conflict — financial (employment, investment, contracts, grants), professional (career advancement, peer review relationships, board membership), relational (family, political, personal loyalty), or reputational (prior advocacy positions, public commitments that may bias current comment).
 2. Maps the specific questions a reporter should investigate to surface each type of conflict — for example, what public registries to check, what disclosures to request, what questions to put to the source directly.
 3. Assesses the materiality of any identified or likely conflict: does it affect the specific claim being made, or is it background context?

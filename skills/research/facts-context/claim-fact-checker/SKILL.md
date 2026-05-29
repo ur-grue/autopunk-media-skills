@@ -25,7 +25,7 @@ Produces a structured verification brief for a specific claim — listing the ke
 
 **Optional:** Any context about where the claim appeared (interview, press release, social media post, court document). Any prior reporting or sources you have already consulted. The publication deadline or urgency level.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Breaks the claim into its component assertions — a single sentence often contains several distinct facts that each require separate verification.
 2. For each component, identifies the most authoritative source type likely to confirm or refute it (official data, primary documents, academic literature, on-record expert comment, or contemporaneous reporting).
 3. Flags specific logical or rhetorical patterns that make a claim harder to verify — undefined terms, missing denominators in statistics, unsourced attribution, timeframe ambiguity.
@@ -40,7 +40,7 @@ A structured brief of approximately 400–600 words. Divided into four sections:
 - [ ] Each checklist item names a specific, realistic source type (not "check online")
 - [ ] At least one red flag is identified if the claim contains ambiguous language, an unverified attribution, or a statistic without a denominator
 - [ ] The editorial judgment framework gives a clear threshold for publication, not-publication, and conditional publication
-- [ ] Output contains no invented facts about the claim subject — Claude makes no judgment about whether the claim is true or false
+- [ ] Output contains no invented facts about the claim subject — the assistant makes no judgment about whether the claim is true or false
 
 ## Example
 
@@ -98,7 +98,7 @@ Publish with caveat if: The underlying data supports a trend of increase but the
 Do not publish as stated if: The baseline is not obtainable, the dataset cannot be independently sourced, or the figure depends on a definition the commissioner cannot provide in writing.
 
 ## Known Limitations
-- Claude cannot access live databases, government portals, or subscription data services. All source recommendations point to real source types, but the journalist must retrieve and read those sources.
+- The assistant cannot access live databases, government portals, or subscription data services. All source recommendations point to real source types, but the journalist must retrieve and read those sources.
 - For highly technical statistical claims (regression analyses, adjusted rates, compound growth figures), this skill produces a framework but cannot catch methodological errors in the underlying data — a data journalist or statistician should review those cases.
 - Claims involving sealed court records, embargoed research, or proprietary corporate data are outside the scope of this framework.
 

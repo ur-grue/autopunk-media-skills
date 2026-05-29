@@ -24,7 +24,7 @@ Generates a complete, platform-appropriate set of tags and keywords for a video 
 
 **Optional:** Your target audience, any competitor content or trending topics you want to rank alongside, the geographic focus of the story, and any house-style restrictions on tag format (e.g. lowercase only, no spaces).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core subject, key people, locations, organisations, and themes in the content — these become the primary tags.
 2. Expands to related search terms a target audience would actually type: common phrasings, broader category terms, and relevant adjacent topics.
 3. Filters the list for the platform: YouTube tags are shorter and more numerous; CMS tags are fewer and more precise; podcast tags follow category conventions. Removes redundant, overly broad, or low-value terms.
@@ -73,7 +73,7 @@ Content summary: A 12-minute documentary report on urban heat islands in mid-siz
 
 ## Known Limitations
 - Tag effectiveness depends heavily on platform algorithm changes that this skill cannot predict. Terms that perform well today may lose value within months.
-- For highly specialised technical content (academic research, niche industries), Claude may suggest tags that are accurate but have low actual search volume. Cross-check against your platform's search analytics before publishing.
+- For highly specialised technical content (academic research, niche industries), the assistant may suggest tags that are accurate but have low actual search volume. Cross-check against your platform's search analytics before publishing.
 - This skill does not access live search data, trending topics, or keyword volume tools. It generates tags from the content itself, not from current platform trends.
 
 ## Related Skills

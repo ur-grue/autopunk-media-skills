@@ -28,7 +28,7 @@ Identifies which museums, national archives, libraries, film institutes, or spec
 - Language constraints for the material
 - Whether the production is commercial or non-commercial (affects licensing expectations)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core subject, geographic scope, and era from your brief, then maps these against the types of institutions most likely to hold relevant holdings — national archives, specialist libraries, regional collections, film institutes, university repositories, or sector-specific bodies (e.g. labour history archives, medical museums, military collections).
 2. Ranks institutions by probability of holding relevant material, starting with the most comprehensive national or specialist collections and working down to regional and niche repositories, noting what each institution is known for and why it fits your subject.
 3. For each institution, provides: full name, country, a plain-language description of its holdings relevant to your topic, the type of material most likely available, and a practical first step (online catalogue, written enquiry, or direct phone contact).
@@ -90,10 +90,10 @@ A brief, direct first enquiry works best with most archives. You can adapt this:
 Send this in writing (email is fine for most institutions) before phoning — it gives archivists time to check holdings before your conversation.
 
 ## Known Limitations
-- Claude cannot access live archive catalogues or databases, so holdings descriptions are based on general knowledge of each institution's known strengths, not a live search. Always verify current holdings directly with the institution before committing production time.
+- The assistant cannot access live archive catalogues or databases, so holdings descriptions are based on general knowledge of each institution's known strengths, not a live search. Always verify current holdings directly with the institution before committing production time.
 - Licensing fees, access conditions, and digitisation status change. A collection that was accessible three years ago may now have restrictions, or material that was undigitised may now be online — and vice versa.
 - For highly specialised or regional subjects, smaller archives may hold the most relevant material but be harder to identify without specialist knowledge. A professional archive researcher or specialist fixeur may be worth engaging for deep or complex subjects.
-- Claude does not have access to private or corporate archives (e.g. a shipping company's internal records that have not been deposited with a public institution).
+- The assistant does not have access to private or corporate archives (e.g. a shipping company's internal records that have not been deposited with a public institution).
 
 ## Related Skills
 - [location-brief-writer](../../../tv-documentary/pre-production/location-scout-brief/SKILL.md)

@@ -29,10 +29,10 @@ Takes a finished piece of content and produces a complete, archive-ready metadat
 - Named individuals, organisations, or locations that must appear in the record
 - Rights or licensing information (image credits, wire service content, licensed data sources)
 - Any restrictions on reuse (e.g. "not for republication", "interview subject requested anonymity in byline", "embargoed material — cleared for archive only")
-- Your archive's controlled vocabulary or subject taxonomy — paste it so Claude uses your terms rather than its own
+- Your archive's controlled vocabulary or subject taxonomy — paste it so the assistant uses your terms rather than its own
 - Internal reference number or file ID if you want it included in the record
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the content and extracts the primary subject, secondary subjects, named entities (people, places, organisations, events), and content format. Notes any elements with potential rights or legal implications mentioned in what you provide.
 2. Drafts a short archival summary (distinct from a publish-facing standfirst) written for internal retrieval — factual, dateline-style, without promotional language.
 3. Assembles the full metadata record in a field-by-field format. If a controlled vocabulary was provided, all subject tags are drawn from it. Rights and restriction fields are populated with whatever you have supplied; if none was supplied, the field is flagged as requiring manual entry rather than left blank silently.
@@ -89,7 +89,7 @@ Restrictions: None. Published in full with no embargo. No anonymisation of journ
 Internal reference: FEA-2025-0214-007
 
 ## Known Limitations
-- Claude works only from the information you provide. If rights or restrictions are not mentioned in your input, the skill will flag those fields for manual entry — it will not invent or assume rights status. Always verify rights information before the archive record is finalised.
+- The assistant works only from the information you provide. If rights or restrictions are not mentioned in your input, the skill will flag those fields for manual entry — it will not invent or assume rights status. Always verify rights information before the archive record is finalised.
 - Named individuals require careful handling. If any source was granted anonymity, this skill will flag the people field for manual review rather than auto-populate it, to avoid inadvertently creating a discoverable record linking a real person to a sensitive piece.
 - Subject tagging without a provided controlled vocabulary produces useful but non-standardised terms. For archives requiring strict taxonomy compliance, always supply your controlled vocabulary list.
 - This skill produces a metadata record, not a legal clearance. It is not a substitute for your organisation's rights or legal review process.

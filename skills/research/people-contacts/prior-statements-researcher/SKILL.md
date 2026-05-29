@@ -30,8 +30,7 @@ Produces a structured research framework for finding, organising, and verifying 
 - Any specific event or controversy you suspect is relevant
 - The format you are working in (print interview, documentary, broadcast segment) so the output can be tailored accordingly
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Identifies the most productive source categories** — distinguishes between primary sources (the person's own words: speeches, official statements, published interviews, social media posts, authored op-eds) and secondary sources (other journalists' quotes, reported summaries, attributed paraphrases) and explains why primary sources must be prioritised.
 
 2. **Maps a search strategy by source type** — for each source category, provides specific search queries, platform names, and archive resources most likely to surface relevant statements. Search logic accounts for name variations, job title changes, organisational affiliations, and common misspellings.
@@ -40,7 +39,7 @@ Produces a structured research framework for finding, organising, and verifying 
 
 4. **Structures the output as a working document** — formats findings as a table the journalist can populate as they search, with columns for date, source, verbatim quote or paraphrase, source type (primary/secondary), and a notes field for flagging contradictions or follow-up questions.
 
-5. **Highlights contradiction indicators** — if the journalist provides known positions, Claude identifies the types of language shifts, hedging patterns, or topic pivots that often signal a change in stance, so the journalist knows what to listen for.
+5. **Highlights contradiction indicators** — if the journalist provides known positions, the assistant identifies the types of language shifts, hedging patterns, or topic pivots that often signal a change in stance, so the journalist knows what to listen for.
 
 ## Output Format
 A structured research brief, approximately 600–900 words, divided into four sections:

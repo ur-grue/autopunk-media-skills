@@ -24,7 +24,7 @@ Writes a concise investor brief for a commercial media project, covering market 
 
 **Optional:** Comparable projects and their revenues or valuations, co-financiers already committed, talent attached, distribution interest, production timeline, investor protections or incentives already in the structure (tax credits, presales).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the commercial proposition, not the creative vision — what is the market, what is the product, and what is the financial structure being offered to investors
 2. Presents the project description and talent in the context of commercial track record and market comparables — using box office, streaming viewership data, or documented audience figures from comparable projects where possible
 3. Outlines the investment structure clearly: total budget, amount being raised, revenue waterfall structure, recoupment mechanism, and timeline — with a brief risk section that identifies the primary commercial risks honestly

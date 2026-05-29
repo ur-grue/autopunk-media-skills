@@ -22,9 +22,9 @@ Takes two versions of the same text — a before and an after — and produces a
 
 ## What You Need To Provide
 **Required:** Both versions of the text, clearly labelled. Paste Version A (original) first, then Version B (revised), separated by a clear divider such as `--- VERSION B ---`.
-**Optional:** A brief note on who made the changes and why (e.g., "editor tightened for length" or "legal flagged the third paragraph"). This context lets Claude frame the summary more accurately.
+**Optional:** A brief note on who made the changes and why (e.g., "editor tightened for length" or "legal flagged the third paragraph"). This context lets the assistant frame the summary more accurately.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads both versions carefully, mapping the structure of each — paragraphs, sentences, key claims — to understand what belongs to what.
 2. Identifies every category of change: deletions (content removed), additions (new content), rewrites (same idea, different words), structural moves (content shifted to a new position), and register or tone shifts (same meaning, changed level of formality or emphasis).
 3. Produces a layered summary: a one-paragraph overview of the overall direction of the edit, followed by a change-by-change breakdown. Each item in the breakdown notes what changed, where it appears, and why the change is likely to matter — editorially, factually, or legally.
@@ -111,9 +111,9 @@ The revision substantially strengthens the critical framing of the story. The la
    *Why it matters:* Adds editorial transparency. Ensure this is factually accurate — if the companies have confirmed the figure elsewhere, this line creates an error.
 
 ## Known Limitations
-- Claude works from the text you provide, not from tracked changes or a file diff. If the two versions are structurally very different (e.g., completely rewritten rather than revised), the log may not be able to map every original sentence to its revised counterpart, and some changes may be described at paragraph level rather than sentence level.
+- The assistant works from the text you provide, not from tracked changes or a file diff. If the two versions are structurally very different (e.g., completely rewritten rather than revised), the log may not be able to map every original sentence to its revised counterpart, and some changes may be described at paragraph level rather than sentence level.
 - Very long documents (over approximately 2,000 words per version) may result in a change log that is too long to act on efficiently. For long pieces, consider submitting one section at a time.
-- Claude does not flag whether a change is an improvement — only what changed and why it might matter. Editorial judgment on the quality of the revision remains yours.
+- The assistant does not flag whether a change is an improvement — only what changed and why it might matter. Editorial judgment on the quality of the revision remains yours.
 - Formatting changes (bullet points becoming prose, headers added or removed) are noted but described in general terms only.
 
 ## Related Skills

@@ -24,13 +24,13 @@ Produces a structured shortlist of potential interview partners for a given stor
 
 **Optional:** Specific voices you already have confirmed or are pursuing · Any voices you want to avoid or that are not relevant · Target audience (e.g. general public, specialist, policy community) · Geographic focus · Whether you need on-camera/on-mic talent only or are open to off-the-record background sources
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyses the story topic to identify the main perspectives that journalistic balance and editorial depth require — not just official and opposing voices, but lived-experience voices, technical experts, historical context providers, and critical challengers
 2. Generates a tiered shortlist of role types (not specific named individuals) with a clear editorial rationale for each — explaining what unique value that voice adds to the story that no other voice on the list provides
 3. Orders the shortlist by priority: which interviews are essential to the story functioning at all, which add depth, and which are desirable but cuttable — so you can triage if time or access becomes constrained
 
 ## Output Format
-A brief of 450–600 words. Structured as: (1) a two-sentence story framing summary to confirm you and Claude are aligned on what the story is; (2) an Essential Voices section (3–4 entries); (3) a Depth Voices section (2–3 entries); (4) a Desirable But Optional section (1–2 entries). Each entry: role title, the editorial function this voice serves, one sentence on where to find this type of source, and a flag if this voice is typically hard to access. Ends with a brief note on balance — whether the full shortlist, if realised, would represent the story fairly.
+A brief of 450–600 words. Structured as: (1) a two-sentence story framing summary to confirm you and the assistant are aligned on what the story is; (2) an Essential Voices section (3–4 entries); (3) a Depth Voices section (2–3 entries); (4) a Desirable But Optional section (1–2 entries). Each entry: role title, the editorial function this voice serves, one sentence on where to find this type of source, and a flag if this voice is typically hard to access. Ends with a brief note on balance — whether the full shortlist, if realised, would represent the story fairly.
 
 ## Quality Criteria
 - [ ] Every voice on the list has a distinct editorial function — no two entries serve the same purpose
@@ -107,8 +107,8 @@ Already confirmed: One parent willing to speak on record
 
 ## Known Limitations
 - This skill identifies role types and sourcing strategies — it does not name specific individuals or provide contact details. Use the contact-info-researcher skill to locate actual contacts once roles are defined.
-- For highly specialised or technical topics, Claude may not know which specific institutions or research bodies are the most credible in that field — verify with a sector specialist before committing to a sourcing plan.
-- The balance note reflects Claude's assessment of editorial coverage, not a legal or regulatory compliance check. For regulated broadcast formats, verify balance requirements with your compliance team.
+- For highly specialised or technical topics, the assistant may not know which specific institutions or research bodies are the most credible in that field — verify with a sector specialist before committing to a sourcing plan.
+- The balance note reflects the assistant's assessment of editorial coverage, not a legal or regulatory compliance check. For regulated broadcast formats, verify balance requirements with your compliance team.
 - Shortlists generated here are starting points. Access, timing, and willingness to speak will reshape the actual guest list; treat the brief as a map, not a schedule.
 
 ## Related Skills

@@ -24,7 +24,7 @@ Identifies where a short article or passage is thin on detail, context, or evide
 
 **Optional:** Additional material to integrate (unused quotes, background research, statistics, anecdotes); specific sections the editor wants developed ("expand the third paragraph with more context"); the publication type (news brief, feature, analysis) — this affects where expansion is most appropriate.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Diagnoses the thinness.** Reads the draft and identifies where it is underdeveloped: claims without evidence, transitions that skip steps, sources mentioned but not quoted, context assumed but not provided, and conclusions that arrive too quickly. Produces a gap analysis before expanding.
 
 2. **Proposes expansion points.** For each gap, specifies what kind of material would strengthen the passage: a supporting example, a statistic, a quote, historical context, a counterpoint, or a transitional paragraph. If the user provided additional material, maps it to the appropriate gaps.

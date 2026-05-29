@@ -25,7 +25,7 @@ Write the opening paragraph of a news article, feature, or opinion piece — the
 
 **Optional:** Target publication and its editorial register, intended audience (general public, specialist, local), target word count for the lede, tone direction (neutral, authoritative, empathetic, urgent), whether you want one lede or multiple variants.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the article type and selects the structurally appropriate lede form: summary lede for hard news (leads with the most newsworthy fact, answers who-what-when-where-why in 30-40 words); anecdotal or scene-setting lede for features (opens with a specific moment or person that embodies the story, 50-80 words); thesis lede for opinion and analysis (states the central argument directly in the first sentence)
 2. Distils the single most newsworthy or most engaging element from the facts provided — the thing the reader does not yet know and most needs to
 3. Writes to the conventions of the chosen type: active voice, present tense where appropriate for news, attribution placed correctly, no throat-clearing phrases ("In recent years...", "Now more than ever...", "It is a truth universally acknowledged...")

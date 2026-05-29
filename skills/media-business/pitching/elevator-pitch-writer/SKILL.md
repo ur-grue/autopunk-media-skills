@@ -24,7 +24,7 @@ Writes a tight 60-second verbal pitch for a media project — film, series, podc
 
 **Optional:** The project's current stage (concept, in development, completed), the one thing that makes it different from everything else in its genre, tone references or comparable titles.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most arresting thing about the project — the hook — and opens with it: a counterintuitive fact, a vivid image, a question the audience cannot answer yet
 2. Delivers the essential format and subject information in plain language in the fewest possible words, then names the central dramatic or editorial tension that drives the whole project
 3. Closes with a clear statement of what makes this project distinctive and a single sentence that invites the next question — leaving the listener wanting to hear more, not feeling they have already heard everything

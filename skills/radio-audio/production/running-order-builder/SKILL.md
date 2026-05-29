@@ -23,7 +23,7 @@ Builds a complete radio programme running order with timed segments, item slugs,
 **Required:** Programme duration, a list of planned items (name, type, approximate duration), and the programme format type (e.g. news magazine, music-and-talk, current affairs, documentary strand).
 **Optional:** Programme start time, presenter name, specific items that must open or close the programme, any items with fixed hard times (e.g. news at the hour), music tracks to include, ad break positions, and any items that may overrun or be cut at short notice.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Calculates total available programme time and maps fixed-time items (news, ads, legal requirements) first, then distributes variable-length items around them to produce a coherent structure
 2. Sequences items editorially — lead items earn their position through news value, emotional weight, or audience hook rather than being placed arbitrarily; similar items are spread rather than stacked; programme flow has a shape (up-tempo / reflective / strong close)
 3. Produces the running order in table format with cumulative clock times, item slugs, durations, type labels, and any presenter or production notes relevant to the transition

@@ -23,7 +23,7 @@ Builds a realistic 4-week content calendar for a YouTube channel, with specific 
 **Required:** Channel niche and content style; publishing frequency goal (e.g., once a week, twice a week); 4–6 video ideas or topic areas you want to cover this month; any fixed dates or events relevant to your niche (seasonal moments, product releases, community events).
 **Optional:** Audience persona or subscriber base description; which videos have performed best historically; any formats you want to test this month (new series, Shorts, collaboration); days of the week that work best for your editing schedule.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the available publishing slots across 4 weeks against the ideas provided, applying a strategic sequence — balancing evergreen content (long shelf life) with timely content (seasonal or trend-responsive), and varying formats to maintain audience engagement across the month.
 2. Assigns each slot a specific video topic (not just a theme), a format note (tutorial, opinion, case study, vlog, Shorts clip), and a one-line strategic rationale explaining why this video goes in this position in the calendar.
 3. Adds a brief production notes section flagging which videos need the most lead time (research-heavy topics, interviews, external locations) and recommending a batch filming schedule.

@@ -23,7 +23,7 @@ Maps the narrative arc of a key documentary subject across the full film or seri
 **Required:** A description of the documentary subject (who they are, what they do, what they represent in the context of the film); the film's central subject or argument; the documentary's format (single film or number of episodes)
 **Optional:** What you already know about the subject's past and present; any key events in their life that relate to the film's themes; how they came to be involved in the story; the film's intended tone and approach
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Defines the subject's entry state — who they are at the start of filming, what they believe, what they want, and what their relationship to the film's central subject is
 2. Identifies the arc's structural moments: the moment of conflict or complication, the point of maximum pressure or revelation, and the resolution or transformation (which in documentary may be ambiguous or incomplete)
 3. Maps each structural moment to a filming requirement — what scenes, interviews, or observational moments are needed to capture the arc on screen

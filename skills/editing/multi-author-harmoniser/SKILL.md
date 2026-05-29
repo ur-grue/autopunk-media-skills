@@ -24,7 +24,7 @@ Takes a draft written by two or more contributors and rewrites it as a single, c
 **Required:** The full draft text to be harmonised.
 **Optional:** A target house style or reference publication (e.g., "write in the style of a quality broadsheet news feature — authoritative, direct, no first person"); the preferred tense (past or present); whether to preserve each author's section roughly intact or allow restructuring for flow; any passages that must not be changed (confirmed quotes, legal-approved text, translated sections).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full draft and maps the stylistic variation: identifies shifts in sentence length, vocabulary register, use of first or second person, punctuation habits, tonal warmth or distance, and paragraph structure — noting roughly where each style shift occurs.
 2. Establishes a target voice for the harmonised version, either from explicit instructions provided, or — if none are given — by averaging toward the more formal or more consistent of the styles present in the draft.
 3. Rewrites the full text in the target voice, preserving all factual claims, quotes, and reported information. Where restructuring would help flow, it does so conservatively — keeping the original sequencing unless a clear improvement is available. Returns the harmonised draft in full, followed by a brief editor's note listing the main changes made and any passages that were left as-is (e.g., direct quotes, confirmed legally approved text).
@@ -70,9 +70,9 @@ The closures form part of a broader fiscal consolidation plan set out in the gov
 Main changes: The third section had shifted into a more bureaucratic register ("per the government's Q4 budget statement", "adversely impacted", "at this stage") and mixed tenses. Rewritten to match the direct, third-person narrative register of the opening. "We" removed from the interview passage; "told us" changed to "said." Budget reference ("Q4 budget statement") generalised to "most recent budget statement" to avoid jargon. Dr Osei's quotes left verbatim. No factual content changed.
 
 ## Known Limitations
-- Claude cannot verify whether factual content has changed if the input contains ambiguous or vaguely worded claims — it preserves the wording it receives. Always read the harmonised draft against the original before publishing.
+- The assistant cannot verify whether factual content has changed if the input contains ambiguous or vaguely worded claims — it preserves the wording it receives. Always read the harmonised draft against the original before publishing.
 - Very long pieces (over 3,000 words) may show some residual variation in the harmonised output, particularly if the source styles are sharply different. A second pass may be needed.
-- Claude cannot enforce a specific publication's proprietary house style unless that style is described in the instructions. Naming a target publication without specifying the style rules will produce only an approximation.
+- The assistant cannot enforce a specific publication's proprietary house style unless that style is described in the instructions. Naming a target publication without specifying the style rules will produce only an approximation.
 - Dialect, idiolect, or deliberately unconventional writing in one author's section may be normalised out unless you explicitly flag it as intentional.
 - This skill works on text. It cannot harmonise audio, video narration, or multi-author scripts without a transcript.
 

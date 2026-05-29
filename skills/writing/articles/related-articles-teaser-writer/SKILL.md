@@ -29,7 +29,7 @@ Writes a short, compelling "Related Articles" or "Read Next" teaser block — tw
 - The platform or context where the block will appear (article footer, sidebar, newsletter)
 - Any house style constraint (e.g., maximum character count per teaser, avoid question headlines)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the parent article's topic and tone to establish the editorial register — a hard-news investigation calls for different teaser language than a lifestyle feature
 2. For each linked article, identifies the most compelling hook: a surprising finding, an unanswered question the parent raised, or a directly useful follow-up
 3. Writes each teaser as a single punchy sentence (or a headline plus one-sentence sell) that makes the connection to the parent article explicit without repeating the same wording
@@ -80,7 +80,7 @@ The health case for protecting public parks is often made in general terms. The 
 ---
 
 ## Known Limitations
-- Claude cannot verify that the related article titles you provide are accurate or that the articles exist; if a title is vague, the teaser may not match the actual content
+- The assistant cannot verify that the related article titles you provide are accurate or that the articles exist; if a title is vague, the teaser may not match the actual content
 - For very short linked articles (under 300 words), the one-sentence sell may be more specific than the article warrants — provide a brief summary in your input to avoid this
 - Teaser copy does not include tracking parameters, CMS slugs, or URLs; those must be added manually
 

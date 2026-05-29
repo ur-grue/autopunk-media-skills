@@ -2,7 +2,7 @@
 
 [![Skills](https://img.shields.io/badge/skills-394-brightgreen)](skills/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-**394 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
+**394 free AI skills for media professionals — for Claude, ChatGPT, or any assistant.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
@@ -34,10 +34,10 @@ That is the quality level across the library. Production-ready. Usable without e
 
 **No technical setup. No account. No install.**
 
-1. Open [claude.ai](https://claude.ai) (free account — takes 30 seconds)
+1. Open [claude.ai](https://claude.ai) or [ChatGPT](https://chat.openai.com) (free account — takes 30 seconds)
 2. Browse [`skills/`](skills/) on this page and click the skill you want
 3. Read the **"What You Need To Provide"** section
-4. Copy the skill text and paste it into Claude with your own material
+4. Copy the skill text and paste it into the assistant with your own material
 
 That's it. You're using a production-grade skill.
 
@@ -55,13 +55,13 @@ That's it. You're using a production-grade skill.
 
 ## What Is This?
 
-This is a free collection of **394 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
+This is a free collection of **394 AI skills** — ready-to-use prompts and instructions that turn a capable assistant into a specialist for one specific media production task at a time.
 
 Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
 
 **394 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
 
-Each skill is a plain markdown prompt file, so it works as a copy-paste prompt in [Claude](https://claude.ai) — or anywhere you can paste text — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI.
+Each skill is a plain markdown prompt file written in model-neutral language ("the assistant," not any one brand), so it works as a copy-paste prompt in **[Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant** — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI. → **[Using the skills with OpenAI](docs/using-with-openai.md)**
 
 ---
 
@@ -69,11 +69,13 @@ Each skill is a plain markdown prompt file, so it works as a copy-paste prompt i
 
 Every skill is a plain markdown prompt file — there's nothing to compile and no account required.
 
-**Easiest — no install (claude.ai or any AI assistant):**
+**Easiest — no install (Claude, ChatGPT, or any AI assistant):**
 
 1. Open the skill you want in the [`skills/`](skills/) folder.
 2. Copy its text.
-3. Paste it into Claude with your own material. Done.
+3. Paste it into your assistant with your own material. Done.
+
+**On OpenAI** — copy-paste into ChatGPT, build a reusable Custom GPT, or use a skill as the `system` prompt via the API. Full guide + a one-command bundler that turns the library into a Custom GPT: **[Using the skills with OpenAI](docs/using-with-openai.md)**.
 
 **One command in Claude Code** (installs the whole library as a plugin):
 

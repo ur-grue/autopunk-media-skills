@@ -23,7 +23,7 @@ Maps the academic publishing landscape for a given field — explaining which jo
 **Required:** The field or topic you are covering (e.g., "childhood nutrition," "climate attribution science," "mRNA vaccine technology," "sleep medicine")
 **Optional:** Any journal names you have already encountered that you want contextualised; whether your angle is cutting-edge findings or established consensus
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the field's publishing ecosystem — the major peer-reviewed journals, who publishes them, and what audience they are written for (specialists vs. clinicians vs. interdisciplinary readers)
 2. Explains the credibility signals journalists should look for: whether a journal is indexed in major databases, whether it has editorial peer review, and what impact factor roughly indicates (without overstating its meaning)
 3. Flags the role of preprint servers relevant to the field — where preliminary work appears before peer review — and explains what "not yet peer-reviewed" means in practice for reporting
@@ -76,9 +76,9 @@ Three quick checks before you trust a journal: (1) Search the journal name on Pu
 ---
 
 ## Known Limitations
-- Claude cannot verify the current impact factor or indexing status of any specific journal — confirm these details on the journal's own website or through PubMed's journal search before publication.
+- The assistant cannot verify the current impact factor or indexing status of any specific journal — confirm these details on the journal's own website or through PubMed's journal search before publication.
 - The microbiome field moves quickly; journal prestige rankings can shift as new titles emerge and others decline in rigor. This briefing reflects general standing, not a real-time audit.
-- For highly specialised sub-fields (e.g., virome research, archaeal microbiome), Claude may not have sufficient detail on which specialist journals are most respected — consult a scientist source in that sub-field.
+- For highly specialised sub-fields (e.g., virome research, archaeal microbiome), the assistant may not have sufficient detail on which specialist journals are most respected — consult a scientist source in that sub-field.
 
 ## Related Skills
 - [scientific-literature-brief](../scientific-literature-brief/SKILL.md)

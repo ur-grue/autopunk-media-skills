@@ -37,7 +37,7 @@ Transforms a set of facts about a deceased person into a structured, dignified o
 - Preferred pronouns and name the subject went by in life
 - Publication's house style (broadsheet, tabloid, wire service)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a lede that names the subject, identifies them by their defining role or achievement, states the age and date of death, and — if known — the cause. This sentence must be self-contained: a reader who reads nothing else will have the essential facts.
 2. Develops the career arc in chronological or thematic order, selecting the two or three accomplishments most meaningful to the subject's field, not an exhaustive CV.
 3. Places at least one human detail — a quote, a characteristic habit, a moment that reveals character — before the piece becomes too formal. Obituaries that read only as resumes fail the subject.
@@ -48,7 +48,7 @@ Transforms a set of facts about a deceased person into a structured, dignified o
 - Structure: lede paragraph → career body → human texture (anecdote or quote) → survivors → service details (if provided)
 - Tone: dignified, factual, warm without being maudlin; past tense throughout
 - No subheadings; continuous prose
-- No invented facts: if information is missing, Claude will flag it with a bracketed note (e.g., `[cause of death not provided — confirm before publication]`) rather than guess
+- No invented facts: if information is missing, the assistant will flag it with a bracketed note (e.g., `[cause of death not provided — confirm before publication]`) rather than guess
 
 ## Quality Criteria
 - [ ] Lede names the person, their defining role, age, date of death, and cause (or clearly notes it is not disclosed)
@@ -84,10 +84,10 @@ She is survived by her husband, Kweku Osei-Bonsu; daughters Abena and Nana Ama; 
 A public memorial will be held at the University of Cape Coast on 28 March.
 
 ## Known Limitations
-- Claude cannot verify facts. The user must confirm all dates, names, and claims before publication — errors in an obituary are among the most damaging a publication can make.
-- Cause of death phrasing can be sensitive. Claude will follow whatever phrasing the user provides; editorial decisions about disclosure remain with the journalist.
-- Claude will not write an obituary that speculates about character, relationships, or circumstances not supplied in the input. If a richer portrait is needed, more source material must be provided.
-- For obituaries of public figures with contested legacies, Claude defaults to factual reporting and will not adjudicate historical disputes without explicit instruction.
+- The assistant cannot verify facts. The user must confirm all dates, names, and claims before publication — errors in an obituary are among the most damaging a publication can make.
+- Cause of death phrasing can be sensitive. The assistant will follow whatever phrasing the user provides; editorial decisions about disclosure remain with the journalist.
+- The assistant will not write an obituary that speculates about character, relationships, or circumstances not supplied in the input. If a richer portrait is needed, more source material must be provided.
+- For obituaries of public figures with contested legacies, the assistant defaults to factual reporting and will not adjudicate historical disputes without explicit instruction.
 
 ## Related Skills
 - [profile-writer](../../../magazine-journalism/writing/profile-writer/SKILL.md)

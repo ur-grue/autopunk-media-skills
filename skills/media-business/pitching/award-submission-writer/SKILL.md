@@ -23,7 +23,7 @@ Writes a compelling award or competition submission that frames a media project'
 **Required:**
 - The project title and format (documentary, podcast series, article, YouTube series, etc.)
 - A summary of what the project is about (subject, scope, approach)
-- The award or competition name and category (so Claude can calibrate the framing)
+- The award or competition name and category (so the assistant can calibrate the framing)
 - The key achievement or impact you want the judges to notice
 
 **Optional:**
@@ -33,12 +33,12 @@ Writes a compelling award or competition submission that frames a media project'
 - Word count or character limit for the submission field
 - Whether this is a self-nomination or a third-party nomination
 
-## How Claude Approaches This
-1. **Leads with the story, not the credits.** Judges read dozens of submissions. Claude opens with the human dimension of the project — the question it asked, the world it revealed, or the stakes involved — before describing the craft. This creates a reason to care before a reason to admire.
+## How the Assistant Approaches This
+1. **Leads with the story, not the credits.** Judges read dozens of submissions. The assistant opens with the human dimension of the project — the question it asked, the world it revealed, or the stakes involved — before describing the craft. This creates a reason to care before a reason to admire.
 
-2. **Maps the submission to the award's values.** Different awards prize different things: editorial rigour, visual innovation, social impact, audience engagement, investigative courage. Claude identifies what the specific award values (from the criteria you provide or from the award category's implicit priorities) and ensures those elements are prominent, not buried.
+2. **Maps the submission to the award's values.** Different awards prize different things: editorial rigour, visual innovation, social impact, audience engagement, investigative courage. The assistant identifies what the specific award values (from the criteria you provide or from the award category's implicit priorities) and ensures those elements are prominent, not buried.
 
-3. **Quantifies impact without inflating it.** Where data exists (audience numbers, press coverage, policy outcomes), Claude integrates it as supporting evidence. Where data is soft or absent, Claude describes qualitative impact honestly rather than inventing metrics. Judges can smell exaggeration.
+3. **Quantifies impact without inflating it.** Where data exists (audience numbers, press coverage, policy outcomes), the assistant integrates it as supporting evidence. Where data is soft or absent, the assistant describes qualitative impact honestly rather than inventing metrics. Judges can smell exaggeration.
 
 4. **Addresses craft and methodology.** The submission explains how the project was made — not just what it achieved. This is where production challenges, editorial decisions, access negotiations, and technical approaches demonstrate the team's skill and commitment.
 
@@ -87,9 +87,9 @@ The series reached 280,000 downloads and has been adopted into the journalism cu
 "Dust and Water" demonstrates that audio documentary can do more than report on environmental crisis — it can make the crisis audible. The sonification technique developed for this series has since been adopted by two other production teams, suggesting a new formal possibility for the medium. The work stands as evidence that patient, access-driven storytelling remains the most powerful tool available to documentary makers working at the intersection of science and human experience.
 
 ## Known Limitations
-- Claude cannot verify audience figures, impact claims, or production details. All data in the submission must be accurate before you submit — judges and award administrators may fact-check.
-- The skill works best when you provide the award's specific criteria or judging rubric. Without it, Claude infers priorities from the category name, which may not match the actual weighting.
-- Award submissions for highly technical categories (cinematography, sound design, visual effects) benefit from specialist vocabulary that Claude may not deploy with full precision. Have a subject-matter expert review technical claims.
+- The assistant cannot verify audience figures, impact claims, or production details. All data in the submission must be accurate before you submit — judges and award administrators may fact-check.
+- The skill works best when you provide the award's specific criteria or judging rubric. Without it, the assistant infers priorities from the category name, which may not match the actual weighting.
+- Award submissions for highly technical categories (cinematography, sound design, visual effects) benefit from specialist vocabulary that the assistant may not deploy with full precision. Have a subject-matter expert review technical claims.
 
 ## Related Skills
 - [elevator-pitch-writer](../elevator-pitch-writer/SKILL.md) — distil the project into a 60-second verbal pitch

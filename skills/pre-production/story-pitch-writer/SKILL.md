@@ -23,7 +23,7 @@ Drafts a concise, editor-ready story pitch that captures the angle, news hook, k
 **Required:** The story idea in plain language — what happened, who is involved, and why it matters now.
 **Optional:** Target outlet or programme, proposed format (print feature, news report, documentary, podcast episode), any sources already identified, word count or runtime target, publication date or broadcast window.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the news hook — the specific, timely reason this story matters right now — and places it at the top of the pitch.
 2. Sharpens the angle into one declarative sentence that an editor can use to decide immediately whether the story fits their publication.
 3. Structures the body of the pitch: who the story is about, what evidence or sources are available, what the proposed format is, and what makes this story different from existing coverage.
@@ -62,8 +62,8 @@ Access: I have the February meeting minutes under open records. The planning law
 **Format:** Longform news feature, approximately 1,500 words, with a sidebar on the planning regulations that were allegedly bypassed.
 
 ## Known Limitations
-- The pitch is only as strong as the information provided. If the story idea is vague or the news hook is weak, Claude will flag this but cannot invent a stronger angle from thin air.
-- Claude cannot verify whether the story has already been published elsewhere or whether a competing outlet is working on the same angle. Always run a quick news search before submitting.
+- The pitch is only as strong as the information provided. If the story idea is vague or the news hook is weak, the assistant will flag this but cannot invent a stronger angle from thin air.
+- The assistant cannot verify whether the story has already been published elsewhere or whether a competing outlet is working on the same angle. Always run a quick news search before submitting.
 - For highly specialised outlets (legal journals, scientific publications), the pitch tone may need manual adjustment to match house conventions.
 
 ## Related Skills

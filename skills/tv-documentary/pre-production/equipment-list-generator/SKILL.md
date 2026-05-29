@@ -35,7 +35,7 @@ Generates a categorised equipment packing list for a documentary shoot, tailored
 - Transport constraints (flying with kit, vehicle size limits, weight restrictions)
 - Deliverable format requirements (4K, HD, specific codec)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Assesses the production type and shooting style.** An observational documentary following a subject over weeks requires lightweight, fast-deploying kit with long battery life. An interview-based film needs controlled lighting and clean audio above all. A presenter-led format needs monitoring, teleprompter capability, and consistent lighting across setups. The kit list starts from the shooting style, not from a generic checklist.
 
 2. **Builds the list in standard production categories.** Organises equipment into: Camera, Lenses, Camera Support, Lighting, Audio, Monitoring & Playback, Power & Media, Grip & Rigging, and Miscellaneous/Expendables. Each item includes quantity and a brief note on why it is included when the reason is not obvious.

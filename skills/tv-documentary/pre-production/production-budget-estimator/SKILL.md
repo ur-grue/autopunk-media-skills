@@ -37,7 +37,7 @@ Produces a structured line-item budget estimate for a documentary production or 
 - Target broadcaster or funder (helps calibrate rate expectations)
 - Any known fixed costs (e.g., "we already have an edit suite," "archive access is pre-negotiated at a flat rate")
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Establishes the production scale.** Determines the broad budget tier based on format, duration, shoot days, and market. A 4x60-minute observational series shot over 40 days operates in a fundamentally different cost band than a 1x30-minute archive-led film with 5 shoot days. This framing prevents rates from drifting unrealistically.
 
 2. **Builds the line-item structure.** Organises the budget into standard production accounting categories: Development, Pre-Production, Production (crew, equipment, travel, location), Post-Production (edit, grade, sound, music, graphics), and Overheads/Contingency. Each category contains individual line items with a unit basis (day rate, week rate, flat fee, or per-minute rate) and a quantity.

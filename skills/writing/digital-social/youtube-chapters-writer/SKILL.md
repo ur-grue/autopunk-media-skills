@@ -22,9 +22,9 @@ Converts a video outline or rough transcript into a properly formatted YouTube c
 ## What You Need To Provide
 **Required:** A list of your video's sections in order, each with either an exact timestamp or an estimated start time in minutes and seconds. A one-sentence description of what happens in each section is enough.
 
-**Optional:** The video's total runtime, so Claude can sanity-check that no chapter overruns the end. The overall topic or title, so chapter names stay on-brand.
+**Optional:** The video's total runtime, so the assistant can sanity-check that no chapter overruns the end. The overall topic or title, so chapter names stay on-brand.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the section list and maps each entry to a [HH:MM:SS] timestamp, converting any minute:second shorthand (e.g. "4:30") to the full three-part format YouTube requires.
 2. Writes a chapter title for each section — 2 to 5 words, front-loaded with the most specific or searchable term, no filler words like "Part" or "Section."
 3. Checks that the first chapter is always 0:00:00, that timestamps are strictly ascending, and that no title exceeds 100 characters. Flags any gaps or ordering problems before delivering the final list.
@@ -75,9 +75,9 @@ Sections:
 ```
 
 ## Known Limitations
-- Claude cannot watch your video. Timestamps must come from you — either from your edit timeline, your script, or your own notes. If your timestamps are wrong, the chapters will be wrong.
-- Very short sections (under 30 seconds) are often better merged with the adjacent chapter; Claude will flag these but the decision is yours.
-- YouTube only displays chapters in the progress bar if the video has at least three chapters and the first starts at 0:00. If your outline starts later, Claude will prompt you to add an intro chapter at 0:00.
+- The assistant cannot watch your video. Timestamps must come from you — either from your edit timeline, your script, or your own notes. If your timestamps are wrong, the chapters will be wrong.
+- Very short sections (under 30 seconds) are often better merged with the adjacent chapter; the assistant will flag these but the decision is yours.
+- YouTube only displays chapters in the progress bar if the video has at least three chapters and the first starts at 0:00. If your outline starts later, the assistant will prompt you to add an intro chapter at 0:00.
 
 ## Related Skills
 - [chapter-timestamps](../../../youtube/post-production/chapter-timestamps/SKILL.md)

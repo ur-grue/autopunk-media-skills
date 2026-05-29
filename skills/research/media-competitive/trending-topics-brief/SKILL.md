@@ -24,7 +24,7 @@ Produces a short editorial brief that maps the trending conversations on a beat 
 
 **Optional:** The audience you write for (general public, specialist professionals, specific demographic); any signals you have already noticed (topics that came up in reader mail, on your own social feeds, in tip-offs from sources); topics you want to deliberately exclude
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the categories of trending signal that are most relevant to the stated beat — not all platforms trend the same stories, so the brief maps which signals matter most for the format and audience you described
 2. For each identified trending topic or cluster, assesses whether it reflects a durable story (an issue with ongoing developments) or a spike (a single event or reaction that is likely to fade quickly), and flags the distinction clearly
 3. Evaluates each trending topic against a simple editorial test: is there a news story here that your outlet is not already covering, or a new angle on a story you are covering? The output prioritises topics that pass that test
@@ -91,7 +91,7 @@ Exclude: Mortgage interest rates (our finance desk covers that).
 ---
 
 ## Known Limitations
-- Claude cannot access live social media platforms, search trend tools, or real-time audience data. The brief is built from the signals you describe and from knowledge of how issues typically travel across platforms — it cannot substitute for checking actual trend data yourself before publishing.
+- The assistant cannot access live social media platforms, search trend tools, or real-time audience data. The brief is built from the signals you describe and from knowledge of how issues typically travel across platforms — it cannot substitute for checking actual trend data yourself before publishing.
 - Trending interest does not equal editorial value. The brief flags public attention, but your editorial judgment about newsworthiness, source availability, and outlet fit must override any suggested angle.
 - For highly localised beats (a single neighbourhood, a small city), trending signals drawn from broader platforms may not reflect local interest accurately. Reader mail, source tip-offs, and community engagement are more reliable signals than national or global trend indicators.
 - This skill does not generate social media metrics, search volumes, or audience size estimates. Any numbers in your output would be fabricated — do not add them.

@@ -24,7 +24,7 @@ Takes one original headline and produces five distinct tested variants, each usi
 **Required:** The original headline. A one-sentence description of the article's main finding or argument. The intended platform (website homepage, newsletter subject line, social media post, push notification).
 **Optional:** Target audience (e.g. general public, finance professionals, parents of young children). Any constraints — character limits, house style rules, words to avoid. The current click-through rate or open rate if the original headline has already been tested.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyses the original headline to identify what it does well and where it may be leaving value on the table — for example, it may be accurate but lack urgency, or it may be clever but unclear.
 2. Writes five variants, each deliberately built on a different technique: direct benefit, curiosity gap, news-forward, question format, and specificity/number-led. Labels each variant with the technique so editors can see what they are testing.
 3. Adds a one-line note per variant explaining the hypothesis — why this version might outperform the original — so the editor can make an informed choice rather than picking at random.

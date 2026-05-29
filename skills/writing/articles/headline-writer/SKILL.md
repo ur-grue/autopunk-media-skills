@@ -25,7 +25,7 @@ Write publication-ready headlines for news articles, features, opinion pieces, a
 
 **Optional:** Tone direction (neutral, urgent, provocative, witty), specific SEO keywords to incorporate, character limit for the primary headline, number of variants needed (default: 5), platform-specific requirements (print vs. web vs. social share text).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the primary news value or story hook — the single most important or most surprising element a reader does not yet know
 2. Reviews the target medium's headline conventions: broadsheet decks favour precision and restraint; tabloids favour compression and emotional impact; digital outlets balance SEO clarity with engagement; magazines favour wit and reader promise
 3. Writes 5 headline variants, each serving a distinct editorial purpose — news accuracy, engagement optimisation, SEO search intent, feature storytelling, or platform-specific framing

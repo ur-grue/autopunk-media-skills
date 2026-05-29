@@ -32,7 +32,7 @@ Writes complete, publication-ready podcast show notes — including episode summ
 - Any standard boilerplate your show uses (subscribe links, review prompts, social handles)
 - Preferred length for the summary section (short / medium / long)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the episode content provided and identifies the three to five most important ideas, decisions, or moments a listener would want to find again after listening
 2. Writes a summary paragraph that captures the episode's value proposition — what a potential listener gains by pressing play — without spoiling the conclusion
 3. Structures the chapter timestamps into a scannable list that functions as a navigable index of the episode
@@ -144,10 +144,10 @@ Subscribe to Ground Truth on Apple Podcasts and Spotify. If this episode was use
 ---
 
 ## Known Limitations
-- Timestamps can only be included if the user provides them — Claude cannot generate accurate timestamps without access to the actual audio file or a transcript with time codes
-- Guest credentials and biographical information must be provided by the user; Claude will not invent or supplement biography from general knowledge, as this creates a risk of inaccuracy
+- Timestamps can only be included if the user provides them — the assistant cannot generate accurate timestamps without access to the actual audio file or a transcript with time codes
+- Guest credentials and biographical information must be provided by the user; the assistant will not invent or supplement biography from general knowledge, as this creates a risk of inaccuracy
 - The summary is written to attract potential listeners, not to replace listening — it deliberately does not include all conclusions, which means it may feel incomplete to someone who has already heard the episode
-- For shows with highly technical subject matter (medical, legal, financial), Claude will reproduce terminology as provided but cannot independently verify that technical claims are accurate
+- For shows with highly technical subject matter (medical, legal, financial), the assistant will reproduce terminology as provided but cannot independently verify that technical claims are accurate
 
 ## Related Skills
 - [show-notes-generator](../../../podcast/post-production/show-notes-generator/SKILL.md)

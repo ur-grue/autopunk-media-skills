@@ -24,7 +24,7 @@ Produces a written visual brief describing the architectural character, light co
 
 **Optional:** Time of year the shoot is planned, time of day preferences, specific visual elements to include or avoid (e.g. avoid tourist infrastructure, prioritise industrial texture, foreground water), and the camera format or aspect ratio if relevant.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Draws on established knowledge of the location's architectural period, urban or rural character, dominant materials and colours, and any distinctive visual signatures — landforms, skylines, waterways, light quality specific to the latitude and climate.
 2. Translates those physical characteristics into cinematographic language: contrast range, colour temperature tendencies, depth of field opportunities, framing challenges, and the kind of shots the location naturally affords.
 3. Notes how seasonal or time-of-day conditions affect the visual character — particularly light quality, crowds, and weather-dependent features.
@@ -88,7 +88,7 @@ Dust is the primary technical challenge: it is pervasive, fine, and will coat le
 - Long-lens compression of ore truck convoy on unpaved road: heat shimmer and dust trail
 
 ## Known Limitations
-- Claude's visual briefs are based on documented knowledge of a location's climate, architecture, and geography — not on first-hand recce experience. Unexpected construction, site changes, or access restrictions will not be reflected.
+- The assistant's visual briefs are based on documented knowledge of a location's climate, architecture, and geography — not on first-hand recce experience. Unexpected construction, site changes, or access restrictions will not be reflected.
 - For locations that are poorly documented in English-language sources (small towns, remote regions, private industrial sites), the brief will be shorter and should be flagged as provisional until a local contact or recce confirms conditions.
 - This brief describes general visual character, not specific shot-by-shot blocking. It should be treated as a starting framework, not a shooting plan — which requires on-the-ground time with the DoP.
 

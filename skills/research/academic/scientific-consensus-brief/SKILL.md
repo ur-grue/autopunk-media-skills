@@ -24,7 +24,7 @@ Produces a structured assessment of the current scientific consensus on a specif
 
 **Optional:** The context of your story; any specific studies or claims you have encountered that you want evaluated against the consensus; your audience (general reader, health section, science section); whether you are looking for the consensus position only or also the dissenting views and their credibility.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Frames the question precisely.** Restates the question in the specific, testable form that scientists would recognise. Many journalistic questions are broader than the actual scientific question — narrowing the question is essential for an accurate consensus assessment.
 
 2. **Assesses the evidence hierarchy.** Identifies the highest-quality evidence available on the topic — systematic reviews, meta-analyses, large randomised trials, and statements from authoritative scientific bodies. Explains where the evidence sits in the standard hierarchy (from strongest to weakest: systematic reviews > RCTs > cohort studies > case-control studies > expert opinion).
@@ -97,7 +97,7 @@ The scientific position on microplastics and human health is best classified as 
 - **Be careful with the word "toxin."** Microplastics are physical particles, not toxins. The chemicals associated with them (phthalates, BPA) are potential toxicants, but calling microplastics "toxic" is imprecise and more alarming than the evidence warrants.
 
 ## Known Limitations
-- Claude's knowledge of scientific consensus is based on training data and may not reflect the very latest publications or institutional statements. In rapidly evolving fields like microplastics research, the consensus may have shifted. The journalist should check for institutional updates published after Claude's training cutoff.
+- The assistant's knowledge of scientific consensus is based on training data and may not reflect the very latest publications or institutional statements. In rapidly evolving fields like microplastics research, the consensus may have shifted. The journalist should check for institutional updates published after the assistant's training cutoff.
 - Consensus assessments are inherently judgments, not facts. Reasonable scientists may classify the same body of evidence differently. This skill provides a structured framework for the assessment, but the journalist should verify the classification against the most recent institutional positions.
 - For highly politicised scientific topics (climate change, vaccine safety, GMO risks), the distinction between scientific consensus and public debate is particularly important. This skill assesses the scientific evidence, not the political or social controversy.
 

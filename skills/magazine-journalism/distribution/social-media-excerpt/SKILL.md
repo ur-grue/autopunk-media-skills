@@ -23,7 +23,7 @@ Extracts and reformats the most shareable passage or argument from a published a
 **Required:** Full article text or a substantial excerpt (at least 400 words); which platforms to format for (X/Twitter, Instagram, LinkedIn, or all three)
 **Optional:** Publication handle/username for attribution; specific passage you think is the most shareable; tone directive (threads/commentary style vs. quote-card style vs. straight excerpt); whether to include a link and call-to-read; paywall status
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full article and identifies 2–3 candidate excerpts: the most arresting sentence or statistic, the strongest quote from a source, and the article's most counterintuitive or surprising claim
 2. For each platform, formats the excerpt to fit the platform's natural register and character conventions — not just truncation, but structural adaptation
 3. For X/Twitter: a 240-character lead post that works standalone, optionally followed by a 2–3 tweet thread continuation
@@ -102,7 +102,7 @@ Eight hours. That's the number everyone knows. But where does it come from — a
 - This skill extracts and formats; it does not generate new editorial claims — if the article does not contain a strong standalone quote or arresting statistic, the social posts will be limited in impact
 - Paywalled article performance on social varies significantly by platform and audience; LinkedIn often outperforms X for paywalled content because the framing can establish professional value before the click
 - For Instagram, visual context (the image or graphic paired with the quote card) is not addressed here — use the thumbnail-concept-brief skill or art-direction skills for visual assets
-- Passage selection is subjective; if you have a specific line in mind, provide it — Claude's selection may not match editorial judgment about what is most representative of the piece
+- Passage selection is subjective; if you have a specific line in mind, provide it — the assistant's selection may not match editorial judgment about what is most representative of the piece
 
 ## Related Skills
 - [newsletter-teaser-writer](../newsletter-teaser-writer/SKILL.md)

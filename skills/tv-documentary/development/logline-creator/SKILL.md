@@ -23,7 +23,7 @@ Crafts 4–6 precise, compelling logline options for any documentary project, ra
 **Required:** A description of your documentary project — the subject, the central story or argument, and the key character(s) or event(s) at the center
 **Optional:** Intended broadcaster or festival context; tone of the film (observational, polemical, intimate, cinéma-vérité); what makes this film different from others on the same subject; any existing logline or synopsis you want to improve on
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the documentary's dramatic spine — not the topic, but the specific conflict, question, or transformation that the film will follow from opening to resolution
 2. Locates the subject (who or what), the stake (what is at risk or in question), and the specific angle (what this film sees that others haven't) — the three structural components of a functioning logline
 3. Generates variations across different logline structures: the character-drive form ("A [subject] who [situation] must [goal] before [stakes]"), the thematic statement form, the question form, and the compressed two-clause form used in broadcaster pitches
@@ -76,7 +76,7 @@ Social/press bio line also needed
 ## Known Limitations
 - Loglines are only as specific as the project description you provide — if the documentary concept is still underdeveloped, the loglines will expose that rather than solve it
 - A logline cannot substitute for a full treatment; commissioners and funders will need supporting context; use this skill alongside pitch-treatment-writer
-- For projects that are genuinely multi-strand or multi-subject (three separate protagonists with no shared narrative), a single logline may be impossible; in this case, Claude will flag the structural issue and suggest alternative framings
+- For projects that are genuinely multi-strand or multi-subject (three separate protagonists with no shared narrative), a single logline may be impossible; in this case, the assistant will flag the structural issue and suggest alternative framings
 
 ## Related Skills
 - [pitch-treatment-writer](../pitch-treatment-writer/SKILL.md)

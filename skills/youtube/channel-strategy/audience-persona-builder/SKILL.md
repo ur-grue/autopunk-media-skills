@@ -23,7 +23,7 @@ Generates an audience persona for the channel — who the viewer is, what they n
 **Required:** Channel niche and content style; your own description of who you think watches your channel (even if rough); any data you have about your audience — YouTube Analytics demographics, common comments or questions, subscriber feedback.
 **Optional:** Your channel's top 3 performing videos; geographic focus; what problem your channel solves for viewers; any brands or products your audience already uses and talks about.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Synthesizes the input to build a coherent primary viewer profile — not a generic demographic bucket but a specific person with specific needs, habits, and motivations for watching this kind of content.
 2. Develops the persona across five dimensions: who they are (life stage, context, relationship to the topic), what they're trying to do (goals and problems), how they watch (consumption habits, discovery behavior, what makes them subscribe vs. bounce), what they trust (content cues that signal credibility), and what they avoid (content styles or tones that repel this viewer).
 3. Concludes with three direct content strategy implications — specific decisions about tone, format, or topic depth that follow from the persona rather than generic advice.

@@ -24,7 +24,7 @@ Writes a ready-to-publish Facebook post that drives clicks and shares for a news
 
 **Optional:** The tone of your publication (serious and authoritative, conversational, campaigning), the target audience (general public, specialist professionals, local community, etc.), one surprising or counterintuitive fact from the piece to use as a hook, and any call to action beyond clicking the link (e.g. "share if you know someone affected by this").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the most shareable or emotionally resonant element of the story — a striking statistic, an unexpected finding, a human detail — and leads with it rather than the headline.
 2. Writes an opening line designed to stop the scroll: a question, a bold statement, or a specific detail that rewards attention. Avoids clickbait phrasing that Facebook's algorithm deprioritises.
 3. Adds two to three sentences of context that make the post readable as a standalone piece, so readers understand why the story matters before clicking through.

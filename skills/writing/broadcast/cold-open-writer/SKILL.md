@@ -32,7 +32,7 @@ Writes a short, high-impact cold open or teaser script that hooks a broadcast au
 - How much the audience should already know by the end of the cold open (tease without giving away, or drop straight into the story)
 - Target audience (e.g., primetime general audience, news documentary strand, streaming audience)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most arresting element of the story — a quote, a visual scene, a statistic, or an unanswered question — and builds the cold open around it, making the audience need to know what comes next
 2. Structures the opening in three beats: a moment that drops the audience into the story mid-action or mid-revelation, a beat that raises the central question without answering it, and a closing line or image that makes the title sequence feel earned
 3. Writes dialogue and narration at broadcast pace — short sentences, strong verbs, minimal explanation — using brackets to indicate picture direction, sync (interview) clips, and actuality sound so the script is production-ready
@@ -91,7 +91,7 @@ NARRATION (V/O): This is the story of what happened to it.
 ## Known Limitations
 - A cold open depends heavily on the quality of material available — if the subject has no arresting moment, no strong quotes, and no dramatic revelation, this skill can construct a structure but cannot manufacture impact that the story itself does not contain
 - The skill does not know what footage exists; visual directions are suggestions that assume the production has relevant material — the director and editor must adapt directions to what is actually in the can
-- For court-restricted or legally sensitive subjects, Claude will not include specific names, verdicts, or allegations without explicit instructions from the user — the user is responsible for legal review before broadcast
+- For court-restricted or legally sensitive subjects, the assistant will not include specific names, verdicts, or allegations without explicit instructions from the user — the user is responsible for legal review before broadcast
 - Cold opens for formats with strict genre conventions (e.g., live news programmes with fixed rundowns) may require significant adaptation to fit editorial house style
 
 ## Related Skills

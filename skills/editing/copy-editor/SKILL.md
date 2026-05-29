@@ -25,7 +25,7 @@ Copy-edit a piece of text for clarity, consistency, style, and readability — g
 
 **Optional:** House style guide reference or key style rules (e.g. "AP style", "sentence-case headings only", "no Oxford comma"); target reading level (general public, specialist, executive); specific concerns to address ("too many passive constructions", "inconsistent tense throughout", "paragraph three is unclear").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full text for structure, flow, and recurring patterns before touching a word — identifies the main editorial issues (wordiness, tense inconsistency, passive-voice overuse, logical gaps, unclear attribution) rather than fixing sentence by sentence
 2. Works paragraph by paragraph: tightens wordy constructions, ensures consistent tense and person, removes redundancies, and improves sentence rhythm — without changing the author's meaning or making substantive decisions (what to argue, what to conclude) that belong to the author
 3. Flags substantive issues — unclear attribution, unsupported claims, logical leaps, missing context — in the editorial note rather than silently rewriting them, because these require author judgment

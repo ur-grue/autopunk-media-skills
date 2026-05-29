@@ -24,7 +24,7 @@ Produces a structured research plan for tracing a widely circulated claim back t
 
 **Optional:** Any attribution already given (e.g., "according to a study by..." or "experts say..."); the topic area (helps identify which databases to search); how widely the claim has spread (one article vs. viral across media); whether you suspect the claim is accurate, distorted, or fabricated.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Deconstructs the claim.** Breaks the claim into its verifiable components — the specific figure, the attribution, the date, and the context. Identifies which elements can be independently verified and which are editorial framing.
 
 2. **Maps the citation chain backwards.** Starting from where the journalist encountered the claim, creates a step-by-step process for tracing it back through each layer of citation — from the article citing a report, to the report citing a study, to the study citing primary data. Each step identifies the specific source to locate and the question to answer.
@@ -100,7 +100,7 @@ At each step in the citation chain, check for these specific mutations:
 4. **Check the study's funding and potential conflicts.** Was the research funded by a company or organisation with a stake in the outcome? This does not invalidate the findings but is essential context.
 
 ## Known Limitations
-- Claude cannot search databases, access papers, or verify claims in real time. This skill produces the research plan and identifies likely sources — the journalist must execute the searches and read the actual documents. The value is in providing a systematic method rather than ad hoc googling.
+- The assistant cannot search databases, access papers, or verify claims in real time. This skill produces the research plan and identifies likely sources — the journalist must execute the searches and read the actual documents. The value is in providing a systematic method rather than ad hoc googling.
 - For claims that originated in non-English sources, social media, or ephemeral digital content (deleted posts, expired links), tracing the citation chain may be practically difficult even with the right method. The plan includes archival strategies but cannot guarantee that all sources are still accessible.
 - Some claims are genuinely untraceable — they have been repeated so many times with no attribution that the original source is lost. The plan can identify this situation, but it cannot create a source where none exists.
 

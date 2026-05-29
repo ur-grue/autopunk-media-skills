@@ -23,8 +23,7 @@ Produces a categorised catalog of open-source intelligence tools relevant to a j
 **Required:** The type of investigation or the category of tools you need (e.g., "geolocation tools," "corporate ownership research," "full catalog for a newsroom reference sheet")
 **Optional:** The specific platform or data type you are working with (e.g., "Telegram account analysis," "ship tracking," "Chinese corporate records"); your skill level (beginner, intermediate, advanced); whether you need free tools only or can use paid services
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. Identifies the investigation category or categories relevant to the request. If the user asks for a full catalog, covers all categories. If they ask for a specific domain, focuses there.
 
 2. For each category, lists the most reliable and widely used tools. Provides: tool name, URL (when it is a web tool or has a stable homepage), what it does in one sentence, free vs. paid status, and a practical note on what it is good at and where it falls short.

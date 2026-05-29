@@ -23,7 +23,7 @@ Writes a sponsorship proposal email — dedicated video, mid-roll mention, or pr
 **Required:** Brand name; integration type (dedicated video / mid-roll mention / product placement / series sponsorship); video or content concept where the integration would live; proposed rate; proposed timeline or publishing window.
 **Optional:** Why this specific integration concept fits the brand's current campaign or product launch; your channel metrics (subscribers, views, engagement); previous brand partnerships as credibility; whether exclusivity is on offer; preferred contract or payment terms.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the specific integration proposal — the concrete offer — before any channel self-promotion. Brands receive many generic "I'd love to work with you" emails; leading with a specific idea signals professionalism and saves their time.
 2. Supports the proposal with relevant audience-fit context and key metrics, kept brief. The email is a proposal, not a media kit — save the full data for an attachment or follow-up.
 3. Closes with clear terms (rate, timeline, what's included, what's needed from the brand) and a low-friction next step. Avoids the common mistake of ending an email with "let me know if you're interested" — instead specifies what happens if they reply yes.

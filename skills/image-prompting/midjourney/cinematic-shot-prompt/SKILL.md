@@ -23,7 +23,7 @@ Generates a film-grammar-aware Midjourney prompt from a scene description — sp
 **Required:** A description of the scene, subject, or moment you want to capture; the emotional mood or atmosphere the image should convey
 **Optional:** Reference films or cinematographers whose visual language you want to evoke; specific shot type (close-up, wide, overhead, etc.); time of day or lighting condition; color palette or grade preference; aspect ratio; Midjourney version (default is v6)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Translates the scene description into precise cinematographic language — shot type (ECU, MCU, wide, aerial), lens choice (24mm wide, 85mm portrait, 200mm compressed telephoto), and camera position (eye-level, low angle, dutch tilt) — choosing the option that best serves the described mood
 2. Specifies the lighting setup using film industry terms (Rembrandt, hard side-light, golden hour, practical-only, overcast diffused) rather than generic descriptors ("nice light," "dramatic")
 3. Defines a color grade or palette (desaturated teal-and-orange, warm amber shadows, cold blue midtones, high-contrast monochrome) that supports the emotional register

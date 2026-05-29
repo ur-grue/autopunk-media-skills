@@ -24,7 +24,7 @@ Writes a structured Twitter/X thread expanding on a media story, documentary sub
 
 **Optional:** Your voice and register (journalist, filmmaker, critic, investigative reporter, personal essayist), whether the thread promotes or expands on a specific piece of content (article, film, podcast episode), the specific audience you are writing for.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Structures the thread before writing — identifies the opening hook, the logical sequence of the argument or story, and the close. A thread that wanders or repeats itself is worse than no thread.
 2. Writes the opening tweet to function as a standalone statement: it should convey the most interesting or surprising claim in the thread so that someone who reads only the first tweet still gets value — and ideally wants to keep reading
 3. Writes each subsequent tweet to advance the argument or story by one clear step, closing with a tweet that either asks a question, makes a call to action, or lands a final thought that invites response

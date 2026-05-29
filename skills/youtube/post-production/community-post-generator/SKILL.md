@@ -23,7 +23,7 @@ Writes a YouTube Community tab post to promote a new upload, tease upcoming cont
 **Required:** Video title or upcoming topic; one sentence about what the video teaches, shows, or argues; channel tone (e.g., "warm and encouraging," "dry humor," "direct and no-BS," "enthusiastic hobbyist").
 **Optional:** A surprising or counterintuitive detail from the video that isn't obvious from the title; a specific question the video answers that your audience struggles with; whether you want a poll included; whether this is a new upload, a tease, or a standalone engagement post.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the most shareable or curiosity-provoking element of the video — the thing that would make a subscriber think "I didn't know that" or "I've wondered about this" — and builds the post around that rather than the title alone.
 2. Writes in the specified channel voice, keeping the post to the Community tab optimal length: long enough to say something meaningful, short enough to read in 15 seconds. Avoids YouTube's standard creator boilerplate ("Hey everyone! Big news!").
 3. Ends with a specific engagement prompt — a question, a poll, or a low-friction invitation to comment — calibrated to the topic so it generates meaningful replies, not just reactions.

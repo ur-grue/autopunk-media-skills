@@ -23,7 +23,7 @@ Writes short (50 words), medium (100 words), and long (250 words) festival synop
 **Required:** Documentary title; a 4–8 sentence description of the film — its subject, central character(s), the question or conflict it follows, and how it ends or concludes; whether the film is completed or in post-production
 **Optional:** Runtime; whether the synopsis should describe a finished film or a work-in-progress; any sentence from an existing synopsis you want preserved; tone of the film (polemical, intimate, ironic, observational); any festival-specific requirement you are aware of
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most compelling element of the documentary — the specific quality that makes it distinct from other films on the same subject
 2. Writes the 50-word synopsis (logline-plus) first: this is the hardest constraint and tests whether the film's premise is genuinely focused
 3. Expands to 100 words by adding context — the subject's situation, the film's emotional register, and a hint of how the narrative concludes

@@ -32,7 +32,7 @@ Rewrites a documentary narration script so that translated dialogue or narration
 - Any hard vocabulary the client insists must be preserved verbatim
 - Broadcast delivery standard (e.g., "EBU R 128 compliant, no faster than 17 syllables/second")
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Parses each narration block and identifies the target duration from the timecodes or notes provided, then counts the syllable density of the original English line
 2. Analyzes the translated text for syllable count, stress patterns, and natural spoken rhythm in the target language — flagging any block that runs more than 10% over or under the available time
 3. Rewrites over-long translated blocks by finding synonym contractions, syntactic restructuring, or permitted ellipsis that preserves meaning while hitting the timing window; rewrites under-long blocks by adding natural connective tissue (articles, demonstratives, transitional phrases) where the target language allows it
@@ -81,9 +81,9 @@ Rewrites a documentary narration script so that translated dialogue or narration
 **Summary:** 3 lines processed · 1 flagged (NR_02) · No semantic loss in NR_01 or NR_03 · Recommend dubbing editor review NR_02 addition "para siempre" with client before final record.
 
 ## Known Limitations
-- Claude cannot verify actual spoken duration — syllable counts are estimates and must be confirmed with a stopwatch reading by the dubbing editor or voice actor before final record
+- The assistant cannot verify actual spoken duration — syllable counts are estimates and must be confirmed with a stopwatch reading by the dubbing editor or voice actor before final record
 - Highly technical or proper-noun-dense scripts (scientific documentaries, historical films with many place names) may require more flags than average because terminology cannot be contracted without client approval
-- For languages with radically different morphological density than English (e.g., German compound nouns, agglutinative languages such as Finnish or Turkish), timing overruns may require content cuts that go beyond Claude's authority to decide — flag all such cases for the producer
+- For languages with radically different morphological density than English (e.g., German compound nouns, agglutinative languages such as Finnish or Turkish), timing overruns may require content cuts that go beyond the assistant's authority to decide — flag all such cases for the producer
 - This skill does not handle on-screen lip-flap (visible mouth movement) adaptation for interview subjects; it is designed for narrator VO and off-screen dialogue only
 
 ## Related Skills

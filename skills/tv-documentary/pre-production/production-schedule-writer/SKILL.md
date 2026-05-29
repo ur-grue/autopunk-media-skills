@@ -23,7 +23,7 @@ Writes a structured documentary production schedule from a list of scenes, inter
 **Required:** A list of everything that needs to be filmed: interview subjects (names and locations), observational scenes (location and approximate duration), and any special sequences; the total number of shooting days available; any fixed constraints (subject only available on specific dates, specific locations with access windows)
 **Optional:** Crew size and composition; travel logistics (flying between locations, overnight stays); whether filming is single-camera or multi-camera; known difficult sequences (crowd scenes, weather-dependent shots, sensitive access)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Groups scenes and subjects by location to minimize travel and maximize shooting efficiency — "location clustering" is the primary organizational principle
 2. Within each day, sequences scenes in a logical shooting order: establishing shots before interviews, wide shots before close-ups, most technically demanding sequences when the crew is freshest
 3. Assigns provisional time blocks to each sequence based on standard documentary production times, flagging which blocks are high-risk for overrun

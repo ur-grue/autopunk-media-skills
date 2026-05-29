@@ -24,7 +24,7 @@ Produces a structured source-language to target-language glossary of domain-spec
 
 **Optional:** Names of key people, organisations, and locations that appear throughout the project. Any terms already translated and approved by the editorial team. Style preferences (e.g. formal register, region-specific spelling such as European vs. Latin American Spanish).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads all provided source text and identifies every term likely to cause inconsistency: technical vocabulary, proper nouns, branded names, recurring thematic phrases, and any word with multiple plausible translations.
 2. For each term, selects the most accurate and contextually appropriate target-language equivalent, noting when regional variants exist or when the term should be left untranslated.
 3. Delivers the glossary in a clean two-column table (source → target) with a short note for any entry that requires editorial judgement — for example, a term with no direct equivalent, or a name with an established local spelling.
@@ -86,9 +86,9 @@ A two-column markdown table: Source Term | Target Translation. One row per term.
 **food hub → hub alimentaire:** "Hub" is an established anglicism in French logistics and food-system journalism. No substitution recommended.
 
 ## Known Limitations
-- Claude identifies terms from the sample text provided; terms that appear only in sections not shared will be missed. Provide as broad a sample as possible.
+- The assistant identifies terms from the sample text provided; terms that appear only in sections not shared will be missed. Provide as broad a sample as possible.
 - Regional variation is flagged but not automatically resolved — a French glossary does not distinguish between French, Belgian, and Swiss usage without explicit guidance. Specify the target region.
-- Claude cannot verify whether a proposed translation matches an organisation's existing official terminology. Always cross-check proper nouns against the organisation's own French-language materials.
+- The assistant cannot verify whether a proposed translation matches an organisation's existing official terminology. Always cross-check proper nouns against the organisation's own French-language materials.
 - Always verify the complete glossary with a native-speaker translator before distribution to dubbing studios or external translators.
 
 ## Related Skills

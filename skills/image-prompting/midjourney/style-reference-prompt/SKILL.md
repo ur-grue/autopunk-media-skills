@@ -31,7 +31,7 @@ Builds a Midjourney prompt that precisely captures a defined visual style or art
 - Whether you want multiple prompt variations to test (2–3 alternatives)
 - The specific use case (social media post, magazine cover, documentary still, podcast artwork)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core visual attributes of the stated style: lighting quality, color palette, texture, composition tendencies, grain or surface quality, subject-camera relationship
 2. Translates those attributes into Midjourney's prompt grammar: combines subject, style descriptors, technical photography or art terms, and quality/finish parameters
 3. Adds the appropriate camera, lens, or medium reference if the style implies specific photographic or artistic technique (e.g., "shot on 35mm Kodak Portra 400," "gouache on textured paper," "Leica M6 wide-open")

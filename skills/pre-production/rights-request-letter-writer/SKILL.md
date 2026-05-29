@@ -35,7 +35,7 @@ Drafts a formal letter requesting permission to use a specific piece of third-pa
 - Deadline by which you need a response (e.g., picture lock date)
 - Contact details for your production's rights coordinator
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a concise, professional introduction: who is writing, what production they represent, and a one-sentence description of the project so the rights holder immediately understands the context
 2. Describes the specific content being requested with enough detail to be unambiguous — title, date, duration, format — and explains precisely how it will be used in the production
 3. Proposes licence terms in plain language (territory, duration, media, exclusivity), offers a fee or requests a quote, and closes with a clear call to action and a named contact for the reply

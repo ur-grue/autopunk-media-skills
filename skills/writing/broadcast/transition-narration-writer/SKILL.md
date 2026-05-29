@@ -31,7 +31,7 @@ Writes short presenter or narrator lines that bridge two programme segments smoo
 - The approximate word count or screen time (e.g., "10–15 words, about 6 seconds of narration")
 - How many alternatives you want (default: 3)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the emotional and thematic note on which the outgoing segment ends — whether it is a question left open, a conclusion reached, or a moment of tension — and uses that as the launch point for the bridge
 2. Reads the incoming segment's opening to find a logical or emotional link: a contrast, a continuation, a cause-and-effect, or a geographic shift
 3. Writes transition lines that are short enough to feel light on screen (typically 15–25 words), end with forward momentum rather than a full stop, and avoid clichéd connective phrases such as "Meanwhile..." or "But that's not all..."
@@ -73,8 +73,8 @@ Writes short presenter or narrator lines that bridge two programme segments smoo
 [geographic pivot — uses physical locations to link the two spaces; works well if the presenter is on camera at the centre]
 
 ## Known Limitations
-- Transitions work best when the outgoing and incoming segments share at least one connecting thread (place, theme, or person). If the two segments are entirely unrelated in subject, Claude will flag this and suggest a harder structural break instead.
-- Claude cannot hear or view the actual cut — if the outgoing segment ends on an image rather than dialogue, describe that image in your input for a more precise bridge.
+- Transitions work best when the outgoing and incoming segments share at least one connecting thread (place, theme, or person). If the two segments are entirely unrelated in subject, the assistant will flag this and suggest a harder structural break instead.
+- The assistant cannot hear or view the actual cut — if the outgoing segment ends on an image rather than dialogue, describe that image in your input for a more precise bridge.
 - Political, legal, or highly contested subject matter may require a lawyer or editorial adviser to approve the framing of any narration line before broadcast.
 
 ## Related Skills

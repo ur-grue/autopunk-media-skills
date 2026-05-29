@@ -31,10 +31,10 @@ Writes a brief, genuine thank-you email to a journalist or media contact after c
 - Whether the coverage was positive, neutral, or mixed (tone adjusts accordingly)
 - Preferred sign-off name and title
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Opens with specificity, not pleasantries.** The first sentence references the exact thing being acknowledged — the article headline, the interview date, or the specific favour. This signals that the email is personal, not a mass send.
 
-2. **Keeps gratitude proportional.** A published feature gets warmer language than a brief mention in a round-up. An introduction gets a lighter touch than someone who spent two hours on camera. Claude matches the weight of the thank-you to the weight of the contribution.
+2. **Keeps gratitude proportional.** A published feature gets warmer language than a brief mention in a round-up. An introduction gets a lighter touch than someone who spent two hours on camera. The assistant matches the weight of the thank-you to the weight of the contribution.
 
 3. **Avoids transactional framing.** The email never reads as "thanks for the coverage, here is my next pitch." If a future value offer is included, it is framed as genuinely useful to the journalist — not as a quid pro quo.
 
@@ -85,9 +85,9 @@ Head of Communications, National Broadband Cooperative
 rachel@nbcoop.example.com
 
 ## Known Limitations
-- Claude cannot verify whether the coverage was accurate or fair. If you describe coverage as "positive" but it contained errors, the thank-you may inadvertently endorse inaccurate reporting. Review the piece before sending.
+- The assistant cannot verify whether the coverage was accurate or fair. If you describe coverage as "positive" but it contained errors, the thank-you may inadvertently endorse inaccurate reporting. Review the piece before sending.
 - The skill produces a single email. If you need to thank multiple contacts for the same piece of coverage, each email should be generated separately with personalised details — batch thank-yous read as insincere.
-- For contacts in cultures with different professional communication norms (e.g., more formal honorifics, different sign-off conventions), you may need to adjust the output. Claude defaults to a Western professional register.
+- For contacts in cultures with different professional communication norms (e.g., more formal honorifics, different sign-off conventions), you may need to adjust the output. The assistant defaults to a Western professional register.
 
 ## Related Skills
 - [follow-up-email-writer](../follow-up-email-writer/SKILL.md) — follow up on a pitch that has not received a response

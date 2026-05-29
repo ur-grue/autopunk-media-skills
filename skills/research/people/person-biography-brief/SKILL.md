@@ -24,7 +24,7 @@ Generates a structured biographical research plan for a specific person, listing
 
 **Optional:** Their known role or title; the organisation they are associated with; the specific angle of your story (helps prioritise which aspects of their biography matter most); any facts you already have; deadline pressure (determines depth of the plan).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Defines the research scope.** Based on the person's known role and the journalist's purpose, determines which biographical dimensions matter most — career chronology, financial interests, public statements, legal history, published work, board memberships, political donations, or personal background. Ranks these by relevance to the stated purpose.
 
 2. **Builds a source checklist.** For each biographical dimension, lists the specific public-record sources and databases to consult — company registries, court records, academic publication databases, patent filings, property records, social media archives, parliamentary registers, charity filings, and professional licensing bodies. Each source is named specifically, not generically.
@@ -118,7 +118,7 @@ Generates a structured biographical research plan for a specific person, listing
 - If any grants from her university period were industry-funded, ask directly about how she managed that transition and whether it raised any concerns among former colleagues
 
 ## Known Limitations
-- Claude cannot access databases, search engines, or any external records. This skill produces the research plan — the journalist or researcher must execute it. The value is in systematic coverage: ensuring no major source category is overlooked.
+- The assistant cannot access databases, search engines, or any external records. This skill produces the research plan — the journalist or researcher must execute it. The value is in systematic coverage: ensuring no major source category is overlooked.
 - For public figures in countries with limited digital public records (e.g., no searchable court databases or company registries), some source suggestions may not be practically available. The journalist should adapt the checklist to their jurisdiction.
 - The brief assumes the person is a legitimate research subject for journalistic purposes. It does not assess whether the research is ethically appropriate — that judgment belongs to the journalist and their editor.
 

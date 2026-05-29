@@ -24,7 +24,7 @@ Writes a professional LinkedIn post that frames a published article, investigati
 
 **Optional:** A striking statistic or quote from the piece · Target audience (e.g., policy professionals, media executives, investors) · Whether to include a call-to-action beyond the link · Character limit if your organization enforces one
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the strongest hook from the piece — a counterintuitive finding, a striking number, or a tension that professional readers will immediately recognise as relevant to their world
 2. Frames the post in first person if the author is an individual, or editorial voice if the post is from a publication or production company — maintaining credibility without sounding promotional
 3. Opens with the hook (not with "I wrote a piece about…"), builds briefly toward the core insight, then closes with a short call-to-action and the link
@@ -67,7 +67,7 @@ The full investigation is linked below. I'd be glad to hear from anyone working 
 
 ## Known Limitations
 - LinkedIn's algorithm favours posts that generate early engagement (comments in the first hour); this skill writes the post but cannot predict or optimise for algorithmic timing
-- For highly technical subjects (scientific papers, financial instruments), Claude may simplify the finding more than a specialist audience expects — always review the core claim for accuracy before posting
+- For highly technical subjects (scientific papers, financial instruments), the assistant may simplify the finding more than a specialist audience expects — always review the core claim for accuracy before posting
 - The skill produces one version; if you want A/B variants for testing different hooks, request them explicitly with a note on what variable you are testing
 
 ## Related Skills

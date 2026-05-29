@@ -23,7 +23,7 @@ Builds a complete narrative structure for a long-form reported piece — includi
 **Required:** The central argument or finding of the piece (the "so what" in one sentence); 3–6 key findings, scenes, or moments from your reporting; available sources (types of people you've interviewed — no real names needed); the publication's approximate word count range or format.
 **Optional:** The genre of the piece (profile, investigation, narrative essay, data journalism, travel reportage); the publication's house style or comparable pieces; your opening scene or strongest moment (if you already know it); any material you have that is visual or scene-driven versus analytical.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the best opening from the material — not necessarily the chronologically first event, but the scene or moment that most efficiently establishes the stakes, the character, and the questions the reader will spend the piece trying to answer.
 2. Maps a section-by-section structure: what each section must accomplish (establish, reveal, complicate, resolve), which sources and findings belong where, and how transitions between sections will maintain momentum.
 3. Proposes a closing strategy — how to land the piece thematically without over-explaining, and whether the best ending circles back to the opening scene, ends on a final reported moment, or closes on a wider implication of the central finding.

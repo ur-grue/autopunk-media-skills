@@ -22,9 +22,9 @@ Produces a structured, neutral summary of the current state of a public debate o
 ## What You Need To Provide
 **Required:** The topic or question at the centre of the debate (be specific — "Should gig-economy workers be classified as employees?" is better than "gig economy debate"); the jurisdiction or context if relevant.
 
-**Optional:** Your current understanding of the main positions; specific actors or organisations you know are involved; the media narrative you have seen so far (helps Claude identify what is being underreported); the audience for your output (general public, specialist readership, editorial team).
+**Optional:** Your current understanding of the main positions; specific actors or organisations you know are involved; the media narrative you have seen so far (helps the assistant identify what is being underreported); the audience for your output (general public, specialist readership, editorial team).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Defines the core question.** Distils the debate to a single, precise question that the competing positions are answering differently. This prevents the summary from drifting into adjacent issues.
 
 2. **Maps the main positions.** Identifies 3–5 distinct positions in the debate (not just "for" and "against" — most real debates have more nuance). For each position, describes: the argument in 2–3 sentences, the types of actors who hold it, and the evidence or reasoning they cite.
@@ -36,7 +36,7 @@ Produces a structured, neutral summary of the current state of a public debate o
 5. **Highlights the underreported angles.** Based on the positions mapped, identifies 2–3 aspects of the debate that receive less media attention than they deserve — minority positions, overlooked stakeholders, or evidence that complicates the dominant narrative.
 
 ## Output Format
-600–900 words. Four sections: **Core Question** (one sentence), **Positions Map** (3–5 positions, each with argument, actors, and evidence), **Points of Agreement** (2–3 bullet points), and **Unresolved Questions and Underreported Angles** (combined section, 4–6 bullet points). Tone: strictly neutral — the summary should not reveal which position the journalist or Claude favours. Language: accessible to a non-specialist reader, with technical terms defined on first use.
+600–900 words. Four sections: **Core Question** (one sentence), **Positions Map** (3–5 positions, each with argument, actors, and evidence), **Points of Agreement** (2–3 bullet points), and **Unresolved Questions and Underreported Angles** (combined section, 4–6 bullet points). Tone: strictly neutral — the summary should not reveal which position the journalist or the assistant favours. Language: accessible to a non-specialist reader, with technical terms defined on first use.
 
 ## Quality Criteria
 - [ ] Core question is specific and debatable — not a truism or a loaded question
@@ -90,9 +90,9 @@ Algorithmic transparency should be voluntary, driven by market competition and u
 - **The manipulation risk is real but unquantified.** Platform companies argue that disclosing algorithm criteria would enable bad actors to game the system. Is there evidence from other domains (search engine optimisation, financial regulation) about how disclosure affects manipulation, or is this a theoretical concern being used to resist accountability?
 
 ## Known Limitations
-- Claude's knowledge of the debate is limited to its training data. For fast-moving policy discussions, positions may have evolved, new actors may have entered, or legislative proposals may have advanced since Claude's last update. The journalist should verify the current state against recent reporting.
+- The assistant's knowledge of the debate is limited to its training data. For fast-moving policy discussions, positions may have evolved, new actors may have entered, or legislative proposals may have advanced since the assistant's last update. The journalist should verify the current state against recent reporting.
 - The summary maps positions as they are most commonly articulated in public discourse. Internal industry positions, private government deliberations, and emerging academic arguments may not be captured. The summary is a starting point, not a substitute for original reporting.
-- Neutrality is a goal, not a guarantee. Despite Claude's best efforts to present positions evenhandedly, the framing of "core question" and the selection of positions inevitably involve editorial choices. The journalist should adjust the framing to fit their editorial context.
+- Neutrality is a goal, not a guarantee. Despite the assistant's best efforts to present positions evenhandedly, the framing of "core question" and the selection of positions inevitably involve editorial choices. The journalist should adjust the framing to fit their editorial context.
 
 ## Related Skills
 - [policy-decision-maker-mapper](../../people/policy-decision-maker-mapper/SKILL.md) — map the decision-makers behind the positions identified in this summary

@@ -24,7 +24,7 @@ Generates a tiered hashtag strategy for a social media account, covering niche, 
 
 **Optional:** Current follower count (affects which tier of hashtag to prioritise), any hashtags you are already using that are working, any hashtags you want to avoid, a specific campaign or series that needs its own dedicated tag, any geographic focus.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies three tiers of hashtag by community size: Niche (small, highly engaged communities — 10K–200K posts on Instagram), Mid-range (active but not overcrowded — 200K–2M posts), Broad (high volume but algorithmically competitive — 2M+ posts). Explains how each tier functions differently in the algorithm.
 2. Generates a bank of 20–30 relevant tags across the three tiers, tailored to the account's specific subject and audience — not generic high-volume tags that attract no one specific
 3. Provides usage guidance: how many tags per post, when to rotate, how to use a branded or campaign hashtag, and what to avoid (ghost-tagged hashtags, irrelevant reach-padding)

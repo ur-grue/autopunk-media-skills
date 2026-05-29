@@ -24,8 +24,7 @@ Performs and explains basic statistical calculations — percentages, percentage
 
 **Optional:** The population or base figure for per-capita calculations; the time period the data covers; the comparison you want to make (year-over-year, city-to-city, before-and-after); the audience level (general public, specialist readers, other journalists); how you plan to use the result (headline figure, in-text comparison, chart label).
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Confirms the inputs and the ask.** Restates the numbers provided, what they represent, and what calculation is being requested. This step catches misunderstandings before any math is done — if the user provided annual figures but asked for a monthly rate, that discrepancy is flagged here.
 
 2. **Performs the calculation with full working shown.** Every step of the arithmetic is written out in plain language and with the formula. Nothing is hidden in a black box. The journalist can follow each step, check it against the source data, and verify the result independently. Rounding decisions are stated explicitly (e.g., "rounded to one decimal place").
@@ -120,7 +119,7 @@ Percentage change in per-capita rate: ((12.7 - 16.2) / 16.2) x 100 = -21.6%
 - A five-year comparison using only the start and end points can be misleading if there was a spike or dip in the middle. If burglaries surged to 500 in 2021 and then fell sharply, the trend story is very different from a steady decline. Request the year-by-year figures if available.
 
 ## Known Limitations
-- Claude performs arithmetic reliably for straightforward calculations (percentages, averages, ratios, per-capita rates) but is not a statistical software package. For regression analysis, significance testing, confidence intervals, or anything involving large datasets, use dedicated tools (Excel, R, Python) and use this skill only to verify and explain the outputs.
+- The assistant performs arithmetic reliably for straightforward calculations (percentages, averages, ratios, per-capita rates) but is not a statistical software package. For regression analysis, significance testing, confidence intervals, or anything involving large datasets, use dedicated tools (Excel, R, Python) and use this skill only to verify and explain the outputs.
 - This skill works with the data provided and cannot assess data quality. If the source figures are wrong, the calculation will be correctly performed on incorrect inputs. Always verify source data against primary documents before publishing.
 - The "In Plain English" sentence is designed for general news audiences. For specialist publications (financial press, scientific journals), the phrasing may need adjustment to meet field-specific conventions for reporting statistics.
 

@@ -23,7 +23,7 @@ Generates a structured brief identifying the types of experts needed for a story
 **Required:** A brief description of the story or investigation topic; the type of publication and approximate audience
 **Optional:** Any experts already identified; specific angles or sub-questions the story needs to answer; geographic constraints (local vs. national vs. international sources); deadline pressure (affects how quickly sources must be found)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Breaks the story's core questions into distinct knowledge domains — each domain points to a different category of expert
 2. For each knowledge domain, identifies the most credible expert types (by professional role, institutional affiliation, or credential) and flags which are more likely to be neutral versus advocacy-oriented
 3. Suggests specific finding strategies for each expert type: professional associations, academic departments, regulatory agency alumni networks, conference programs, court records, and public databases

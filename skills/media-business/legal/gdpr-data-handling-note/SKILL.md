@@ -34,16 +34,16 @@ Drafts a plain-language data handling notice for a journalistic or media product
 - Contact details for data protection queries
 - Whether the project involves sensitive personal data (health, ethnicity, political opinions, criminal history)
 
-## How Claude Approaches This
-1. **Identifies the applicable context.** Journalism benefits from significant GDPR exemptions in most EU/UK jurisdictions, but these exemptions do not remove the obligation to handle data responsibly or to be transparent with participants. Claude frames the notice within the journalistic context — acknowledging the exemption where relevant while still providing clear, honest information about data handling.
+## How the Assistant Approaches This
+1. **Identifies the applicable context.** Journalism benefits from significant GDPR exemptions in most EU/UK jurisdictions, but these exemptions do not remove the obligation to handle data responsibly or to be transparent with participants. The assistant frames the notice within the journalistic context — acknowledging the exemption where relevant while still providing clear, honest information about data handling.
 
 2. **Writes for the participant, not the regulator.** The notice is addressed to the person whose data is being collected. It uses plain language, short sentences, and direct answers to the questions people actually have: What are you collecting? Why? Who sees it? How long do you keep it? Can I change my mind? Legal terminology is avoided unless a specific term (like "data controller") is necessary and is immediately explained.
 
 3. **Covers the six GDPR transparency requirements.** Every notice addresses: (a) identity of the data controller, (b) purpose of processing, (c) legal basis, (d) recipients or categories of recipients, (e) retention period, (f) data subject rights. These are the minimum requirements for a valid transparency notice under Article 13/14 of the GDPR.
 
-4. **Handles sensitive data categories with additional care.** If the project involves special category data (health, ethnicity, sexual orientation, political opinions, trade union membership, criminal history), Claude adds specific language about the additional protections applied and the legal basis for processing this data — which is stricter than for ordinary personal data.
+4. **Handles sensitive data categories with additional care.** If the project involves special category data (health, ethnicity, sexual orientation, political opinions, trade union membership, criminal history), the assistant adds specific language about the additional protections applied and the legal basis for processing this data — which is stricter than for ordinary personal data.
 
-5. **Flags what needs legal review.** The notice is a working draft, not a finalised legal document. Claude identifies areas where legal advice is recommended — particularly around the journalistic exemption (which varies by member state), cross-border data transfers, and the processing of sensitive data.
+5. **Flags what needs legal review.** The notice is a working draft, not a finalised legal document. The assistant identifies areas where legal advice is recommended — particularly around the journalistic exemption (which varies by member state), cross-border data transfers, and the processing of sensitive data.
 
 ## Output Format
 300–500 words. Structured with clear headers: Project Information, What Data We Collect, Why We Collect It, Who Has Access, How Long We Keep It, Your Rights, Contact Us. Tone: clear, respectful, honest — written as if explaining to an interviewee or survey participant. No legal jargon without immediate plain-language explanation. Ends with a contact point for data protection queries. A note at the bottom flags areas that require legal review before the notice is finalised.
@@ -121,7 +121,7 @@ For any questions about your data, contact: data@northfieldaudio.example.com
 
 ## Known Limitations
 - This skill produces a draft data handling notice, not a legally binding privacy policy. The output must be reviewed by a qualified data protection professional or media lawyer before being issued to participants — particularly if the project involves sensitive data or cross-border distribution.
-- The journalistic exemption to GDPR varies significantly between EU member states and the UK. Claude applies the general principle but cannot confirm whether it applies in your specific jurisdiction or to your specific project. Legal advice is essential.
+- The journalistic exemption to GDPR varies significantly between EU member states and the UK. The assistant applies the general principle but cannot confirm whether it applies in your specific jurisdiction or to your specific project. Legal advice is essential.
 - The notice covers data collected directly from participants. If your project also processes personal data obtained from third-party sources (e.g., public records, social media, leaked documents), additional transparency obligations apply under GDPR Article 14 that this skill does not address by default.
 
 ## Related Skills

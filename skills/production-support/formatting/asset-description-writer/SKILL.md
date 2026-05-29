@@ -24,7 +24,7 @@ Writes structured, searchable descriptions for digital assets — photos, videos
 
 **Optional:** The DAM system in use (Adobe Experience Manager, Brandfolder, Bynder, Canto, custom — affects field naming); the organization's metadata schema or field list; keywords or tags the asset should be associated with; technical specifications (resolution, duration, format, color space); licensing or usage rights information; date and location of creation.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the asset's content and purpose.** Determines what the asset depicts or contains, who or what is featured, and the context in which it was created. For visual assets, describes the scene, composition, and notable elements. For audio, describes the content type (interview, ambient sound, music, voiceover) and key identifiers.
 
 2. **Writes a structured description optimized for search.** The description leads with the most distinguishing feature of the asset — the element most likely to be searched for. Uses concrete, specific language (not "a nice landscape" but "aerial view of terraced rice paddies at sunset, central highlands"). Avoids subjective adjectives that do not aid search.
@@ -92,7 +92,7 @@ A structured metadata record with clearly labeled fields. Minimum fields: Asset 
 - Rights status includes an explicit usage restriction note to prevent accidental external distribution.
 
 ## Known Limitations
-- Claude cannot view, listen to, or analyze actual media files. All descriptions are based on the user's textual description of the asset. For visual assets, providing specific details (composition, lighting, prominent objects, text visible in frame) produces significantly better descriptions than vague summaries.
+- The assistant cannot view, listen to, or analyze actual media files. All descriptions are based on the user's textual description of the asset. For visual assets, providing specific details (composition, lighting, prominent objects, text visible in frame) produces significantly better descriptions than vague summaries.
 - Keyword suggestions are based on common DAM search patterns but cannot account for an organization's specific internal search behavior. Review and adjust keywords based on how your team actually searches for assets.
 - This skill does not generate IPTC, EXIF, or XMP metadata that can be embedded directly into file headers. The output is designed for manual entry into a DAM system's metadata fields or for use in a bulk import spreadsheet.
 

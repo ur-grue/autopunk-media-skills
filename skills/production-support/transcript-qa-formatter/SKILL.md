@@ -24,7 +24,7 @@ Cleans a raw interview transcript into a polished Q&A — removing filler words,
 **Required:** The raw transcript text, pasted in full. Include speaker labels if they exist, even if inconsistent.
 **Optional:** Real names to replace placeholder labels (e.g. "Speaker 1 = Dr. Amara Nwosu"); preferred timestamp style (HH:MM:SS or MM:SS); whether you want light cleaning (filler words only) or full editing (also tighten run-on answers); the publication's house style for Q&A layout (e.g. bold Q, italic A, or labelled by name).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identify all speaker turns and map inconsistent labels to consistent names or roles (Q / A, or full names if provided). Flag any turns where the speaker is genuinely ambiguous rather than guessing.
 2. Strip filler words (um, uh, you know, like, sort of, I mean — when used as hesitation rather than meaning) without altering the speaker's actual phrasing, facts, or voice. Bracket any deletion that changes the sentence structure so the editor can review it.
 3. Fix punctuation, capitalisation, and sentence boundaries introduced by automated transcription errors. Do not rephrase or rewrite — only correct mechanical errors.

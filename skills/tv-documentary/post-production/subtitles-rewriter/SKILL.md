@@ -23,7 +23,7 @@ Reformats and rewrites subtitle text for timing, readability, and on-screen clar
 **Required:** The subtitle text to be rewritten; the context (documentary title, type of content — dialogue, narration, foreign language, on-screen text); the target platform (broadcast, streaming, cinema, DVD/home video)
 **Optional:** The original timecodes if reformatting is needed; the target maximum characters per line; the target maximum words per second (reading speed); whether this is SDH (subtitles for deaf and hard of hearing) or standard subtitles; the language
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the existing subtitle text for transcript accuracy, line breaks, and character count — identifies errors and over-long lines
 2. Reformats to the target platform's line length and reading speed standards (see Output Format for typical values)
 3. Corrects errors in auto-generated transcript (common patterns: homophones, proper nouns misread, non-standard accents misread, punctuation errors)

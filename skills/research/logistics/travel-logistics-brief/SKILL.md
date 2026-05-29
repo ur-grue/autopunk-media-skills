@@ -24,7 +24,7 @@ Produces a structured logistics checklist for a reporting trip — covering the 
 
 **Optional:** Your departure city; budget constraints; specific risks you are aware of (security situation, legal restrictions on journalism, extreme weather); whether you need to film or photograph (affects equipment and permit requirements); any contacts you already have at the destination; special requirements (disability access, dietary needs, equipment transport).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Builds the logistics checklist by category.** Organises the preparation into clear categories — travel documents, transport, accommodation, credentials and access, equipment, communications, safety, health, finances, and local contacts. For each category, lists the specific items to research and arrange, tailored to the destination and purpose.
 
 2. **Prioritises by lead time.** Identifies which items need to be arranged weeks in advance (visas, press accreditation, equipment carnets) vs. days before (local SIM cards, currency exchange, contact confirmation) vs. on arrival (ground transport, check-in protocols). This prevents last-minute scrambles.
@@ -123,9 +123,9 @@ Before boarding the plane, confirm:
 7. Embassy registration completed
 
 ## Known Limitations
-- Claude cannot verify current visa requirements, travel advisories, road conditions, or security situations. All logistical details must be confirmed through the sources listed in the checklist. Conditions change rapidly — a checklist prepared weeks before departure must be re-verified close to the travel date.
+- The assistant cannot verify current visa requirements, travel advisories, road conditions, or security situations. All logistical details must be confirmed through the sources listed in the checklist. Conditions change rapidly — a checklist prepared weeks before departure must be re-verified close to the travel date.
 - This skill provides a planning framework, not destination-specific intelligence. For high-risk destinations (active conflict, severe press restrictions, natural disaster zones), the journalist should also consult specialist hostile-environment advisors and their outlet's security team.
-- Budget estimates and logistical specifics (driver costs, accommodation prices, SIM card availability) cannot be provided by Claude. The checklist identifies what to research; the journalist must source the specifics through local contacts and current information.
+- Budget estimates and logistical specifics (driver costs, accommodation prices, SIM card availability) cannot be provided by the assistant. The checklist identifies what to research; the journalist must source the specifics through local contacts and current information.
 
 ## Related Skills
 - [press-office-finder](../../people/press-office-finder/SKILL.md) — find press contacts for organisations you will visit during the trip

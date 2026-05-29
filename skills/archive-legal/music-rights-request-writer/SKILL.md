@@ -22,7 +22,7 @@ Drafts a formal, professional request letter to a music rights holder asking for
 ## What You Need To Provide
 **Required:**
 - Track title and artist name
-- Rights holder name and contact address (if known; leave blank and Claude will insert a placeholder)
+- Rights holder name and contact address (if known; leave blank and the assistant will insert a placeholder)
 - Your production title and a one-sentence description of what it is
 - How the music will be used (e.g., background score, title sequence, featured performance)
 - Approximate duration of the music clip you intend to use
@@ -35,7 +35,7 @@ Drafts a formal, professional request letter to a music rights holder asking for
 - Budget range or fee expectation (sharing this can speed negotiation)
 - Any previous correspondence with this rights holder
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies which rights are required — sync licence, master licence, or both — based on the usage you have described, and signals this clearly in the opening paragraph so the recipient knows immediately what type of request they are handling.
 2. Structures the letter in standard business format: date, addressee block, subject line, body paragraphs, and a clear call to action with your contact details.
 3. Keeps the tone formal but direct — rights departments receive many vague requests and respond faster to letters that specify exactly what is needed, for how long, and in which territories.
@@ -100,7 +100,7 @@ helena.marsh@fieldworkfilm.example
 +44 [telephone number]
 
 ## Known Limitations
-- Claude cannot verify who actually holds the rights to a given track. If the master recording and publishing rights are split between different organisations (which is common), a single letter may not be sufficient — users should confirm the rights chain before sending.
+- The assistant cannot verify who actually holds the rights to a given track. If the master recording and publishing rights are split between different organisations (which is common), a single letter may not be sufficient — users should confirm the rights chain before sending.
 - This letter does not constitute legal advice. For high-value or complex licences, users should have the letter reviewed by a media lawyer before sending.
 - Fee negotiation is outside the scope of this skill. The letter requests terms but does not draft counter-offers or negotiate on the user's behalf.
 - For US productions requiring Harry Fox Agency or ASCAP/BMI involvement, additional steps and different letter formats may be required — this skill is not specialised for US mechanical licensing procedures.

@@ -23,7 +23,7 @@ Produces a detailed brief for archive research, specifying the historical footag
 **Required:** The documentary's subject, period, and geographic focus; a description of the key scenes or sequences in the film that require archive material; the film's format (length, single or series)
 **Optional:** The editorial function of each archive sequence (to illustrate, to contradict, to establish period atmosphere, to show a person before/after an event); budget tier (minimal, standard, broadcast-grade); known archive sources already identified; whether original format matters (film gauge, broadcast resolution)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. For each sequence needing archive material, specifies what the footage needs to show — subject, approximate period, visual quality, and editorial function
 2. Identifies the most likely primary sources for each category (national broadcasters, national archives, specialist collections, news agencies, institutional libraries) in order of research priority
 3. Flags which requests are likely to be straightforward (well-indexed, cleared, widely available) and which will require specialist searching or may not be findable

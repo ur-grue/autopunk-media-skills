@@ -24,7 +24,7 @@ Writes a complete, newswire-ready press release from a briefing note, following 
 
 **Optional:** Embargo date and time; a second quote from a partner, client, or external voice; supporting data or statistics; background context; boilerplate "About" paragraph; media contact name, phone, and email.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most newsworthy fact and places it in the headline and opening sentence — no "we are pleased to announce" throat-clearing.
 2. Builds the first paragraph to answer who, what, when, where, and why-it-matters in under 50 words.
 3. Expands in subsequent paragraphs in descending order of news value, integrating quotes at natural breaks rather than front-loading them.
@@ -88,9 +88,9 @@ press@meridianhealth.example.com
 ###
 
 ## Known Limitations
-- Claude cannot verify facts, statistics, or quotes provided in the briefing — all figures must be confirmed by the communications team before distribution.
-- For highly regulated sectors (pharmaceuticals, financial services, publicly listed companies), legal and compliance review is essential before any release is sent; Claude does not apply sector-specific disclosure rules.
-- If no genuine news value is present in the briefing, Claude cannot manufacture it — it will write the strongest possible version of what exists, which may not achieve media pickup.
+- The assistant cannot verify facts, statistics, or quotes provided in the briefing — all figures must be confirmed by the communications team before distribution.
+- For highly regulated sectors (pharmaceuticals, financial services, publicly listed companies), legal and compliance review is essential before any release is sent; the assistant does not apply sector-specific disclosure rules.
+- If no genuine news value is present in the briefing, the assistant cannot manufacture it — it will write the strongest possible version of what exists, which may not achieve media pickup.
 
 ## Related Skills
 - [media-alert-writer](../media-alert-writer/SKILL.md)

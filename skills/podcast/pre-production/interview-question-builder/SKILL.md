@@ -29,9 +29,9 @@ Builds a complete, staged interview question set for a podcast guest — organiz
 - Any specific stories, moments, or claims you want to make sure you reach in the conversation
 - Topics to avoid (personal subjects, ongoing legal matters, past controversies the guest has asked not to address)
 - Approximate episode length (helps calibrate how many questions to include)
-- Any prior work, writing, or interviews by the guest that Claude should reference
+- Any prior work, writing, or interviews by the guest that the assistant should reference
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the guest's background and the episode focus to identify the three or four most interesting tensions, turning points, or ideas in the guest's work — these become the anchors for the core question section
 2. Builds a staged arc: opening questions that are easy and biographical (let the guest warm up), core questions that go to the heart of the subject (the ones that will make the episode worth listening to), and closing questions that pull back to perspective and reflection
 3. For each core question, adds two or three follow-up prompts in brackets — not scripted follow-ups, but reminders of where to dig if the guest's answer opens a door
@@ -131,7 +131,7 @@ Builds a complete, staged interview question set for a podcast guest — organiz
 - What does your research say about how we should communicate deadlines to other people — partners, colleagues, clients?
 
 ## Known Limitations
-- Claude does not know things about the guest that are not in the input — if there are recent controversies, relevant book arguments, or live debates in the guest's field, the user must brief Claude on them for the questions to be sharply targeted
+- The assistant does not know things about the guest that are not in the input — if there are recent controversies, relevant book arguments, or live debates in the guest's field, the user must brief the assistant on them for the questions to be sharply targeted
 - Questions are crafted for a conversational interview format; they may need adjustment for a more structured or journalistic format (e.g., adversarial interview, roundtable, debate)
 - Follow-up prompts are conditional scenarios — they are not a script, and the best follow-up in the actual recording may be something entirely different; the prompts are preparation, not prescription
 - This skill does not replace the host doing their own research into the guest's work; the questions will be better if the host reads or watches at least one piece of the guest's prior work before recording

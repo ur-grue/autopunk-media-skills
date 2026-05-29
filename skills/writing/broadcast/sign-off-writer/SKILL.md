@@ -32,7 +32,7 @@ Writes a polished, broadcast-ready closing script for a presenter, reporter, or 
 - Any standard elements the sign-off must include (programme name, network name, call to action, subscribe reminder)
 - Number of sign-off variants required (default: three options at different tones/lengths)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the register and conventions of the format — a broadcast news report sign-off, a podcast outro, and a documentary closing statement each follow different structural expectations
 2. Establishes the emotional or intellectual landing point: what should the audience feel or think in the moment after the sign-off plays?
 3. Writes the sign-off to carry that landing point cleanly — using rhythm, pacing, and precision rather than decoration

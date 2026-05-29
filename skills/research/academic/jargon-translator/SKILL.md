@@ -24,7 +24,7 @@ Rewrites scientific, legal, financial, or technical jargon into plain language s
 
 **Optional:** The target audience (general reader, semi-specialist, young adult); the publication context (news article, broadcast script, social media post — each has different register requirements); specific terms you find most confusing; whether you want term-by-term translations, a full rewrite, or both.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies every piece of jargon in the text.** Flags every term, phrase, or construction that a general reader would not immediately understand — including acronyms, initialisms, technical terms, discipline-specific idioms, and Latinate constructions common in legal and medical language.
 
 2. **Provides a plain-language equivalent for each.** For every flagged term, gives a one-sentence definition written in conversational English. Where a single word can replace a technical phrase without losing meaning, provides the substitution. Where simplification would distort the meaning, explains the concept in a short phrase and notes the trade-off.
@@ -92,9 +92,9 @@ On a secondary measure — the percentage of patients whose tumours shrank — t
 A large clinical trial found that a new drug was roughly as effective as the current treatment at slowing disease progression, and may be better at shrinking tumours, but the main result was not statistically conclusive.
 
 ## Known Limitations
-- Simplification always involves trade-offs. Claude flags where precision is lost, but the journalist must decide whether the simplification is acceptable for their audience and context. In some cases, the technical term is genuinely the only accurate way to express the concept.
+- Simplification always involves trade-offs. The assistant flags where precision is lost, but the journalist must decide whether the simplification is acceptable for their audience and context. In some cases, the technical term is genuinely the only accurate way to express the concept.
 - For highly specialised fields (quantum physics, advanced mathematics, certain areas of law), the "plain language" version may still require some reader effort. There is a floor below which complex ideas cannot be simplified without becoming misleading.
-- Claude translates the jargon as written. If the original text contains errors, unclear phrasing, or ambiguous technical language, the translation may reproduce those problems. When in doubt, the journalist should verify the translation with a domain expert.
+- The assistant translates the jargon as written. If the original text contains errors, unclear phrasing, or ambiguous technical language, the translation may reproduce those problems. When in doubt, the journalist should verify the translation with a domain expert.
 
 ## Related Skills
 - [scientific-paper-summarizer](../scientific-paper-summarizer/SKILL.md) — summarise a full paper, including methodology and findings

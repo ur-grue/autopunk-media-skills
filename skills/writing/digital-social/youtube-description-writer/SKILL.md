@@ -24,7 +24,7 @@ Writes a complete YouTube video description with the first two lines optimized f
 
 **Optional:** Secondary keywords, any links to include (resources mentioned, social accounts, subscribe link), chapter markers if already written, and the tone of your channel (conversational, authoritative, documentary-style, etc.).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes the opening two lines (roughly 150–160 characters total) as a standalone hook that reads well even when the rest is cut off by the "Show more" fold. These lines front-load the primary keyword and state the clearest benefit of watching.
 2. Builds the description body: a short paragraph expanding on the video's value, then any secondary keywords woven in naturally, then a structured section for links and resources.
 3. Closes with a call to action (subscribe, comment, or share prompt) kept to one short sentence so it does not feel forced. Formats the whole block with line breaks that create visual breathing room without adding markdown that YouTube strips anyway.
@@ -80,7 +80,7 @@ If this helped, subscribe — new videos on freelance business every week.
 
 ## Known Limitations
 - YouTube's search algorithm weighs watch time and click-through rate more heavily than description keywords — a strong description helps discovery but cannot compensate for a weak title or thumbnail.
-- Claude cannot verify that your links are correct or live. Always paste-check every URL before publishing.
+- The assistant cannot verify that your links are correct or live. Always paste-check every URL before publishing.
 - If your video covers a highly competitive keyword, the description alone will not move you to page one. This skill optimizes what is within your control at the metadata level.
 - Hashtags in the description are displayed above the title on mobile. If you add more than three, YouTube shows only the first three in that position.
 

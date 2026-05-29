@@ -24,7 +24,7 @@ Writes a focused sidebar or infobox that packages key facts, context, or support
 
 **Optional:** A word-count target, the publication's style register (formal broadsheet, general interest, consumer magazine), whether it will appear in print or digital, and a sample sentence from the main article to help calibrate tone.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the sidebar type from your brief — fact-box, timeline, key figures, how-it-works, glossary entry, or Q&A panel — and applies the structural conventions for that type.
 2. Selects and organises the most useful, specific details from your notes, discarding anything that duplicates the main article's core argument rather than adding to it.
 3. Writes tight, self-contained copy: a short title, an optional one-sentence orienting line, and the body structured for quick scanning. Ends cleanly without trailing off or cross-referencing the main article in a way that breaks standalone reading.
@@ -68,7 +68,7 @@ Expanding green cover — parks, street trees, green roofs — can reduce local 
 *Sources: European Environment Agency; peer-reviewed urban climatology literature, 2022–2024.*
 
 ## Known Limitations
-- Claude cannot verify the accuracy of figures you provide — fact-check all statistics before publication.
+- The assistant cannot verify the accuracy of figures you provide — fact-check all statistics before publication.
 - For highly technical subjects (medical, legal, scientific), the sidebar may simplify to the point of imprecision; have a specialist review the output before use.
 - The skill does not generate charts or visual layouts — it produces copy only. A designer or CMS editor will still need to format the block.
 - If your notes are thin or vague, the output will reflect that; the more specific your input, the more useful the sidebar.

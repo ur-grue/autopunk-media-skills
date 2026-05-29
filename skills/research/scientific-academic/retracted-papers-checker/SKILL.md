@@ -23,12 +23,12 @@ Produces a structured verification checklist for any scientific paper or researc
 **Required:** The paper title, author names, and the journal it was published in. A publication year is strongly recommended.
 **Optional:** The DOI (digital object identifier — the unique code usually printed at the top of a paper), any specific claims from the paper you plan to cite, and the context in which you encountered the paper (press release, social media, a researcher's recommendation).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the paper details you have provided and identifies which aspects carry the highest verification risk — for example, papers in fields with known replication problems, papers that have attracted public controversy, or very old studies in fast-moving fields.
 2. Generates a prioritised checklist of checks to run, with the exact database name or resource to use for each step and what you are looking for.
 3. Adds a brief editorial note on common red flags specific to the paper's field or the type of claim being made.
 
-**Important:** Claude cannot access live retraction databases, journal websites, or the internet. This skill gives you the right checklist and tells you exactly where to look — you carry out the checks yourself. This is by design: retraction databases update daily, and only a live search reflects the current status of a paper.
+**Important:** the assistant cannot access live retraction databases, journal websites, or the internet. This skill gives you the right checklist and tells you exactly where to look — you carry out the checks yourself. This is by design: retraction databases update daily, and only a live search reflects the current status of a paper.
 
 ## Output Format
 A numbered checklist of five to eight steps. Each step includes:
@@ -46,7 +46,7 @@ Total length: 300–500 words. Plain language throughout — no assumption that 
 - [ ] The checklist covers retraction, correction, expression of concern, and contested findings as separate categories
 - [ ] At least one field-specific red flag is included based on the paper's subject area
 - [ ] The output explains what to do if a step requires institutional access the journalist may not have
-- [ ] No implication that Claude has verified the paper itself — the journalist is clearly positioned as the person doing the checking
+- [ ] No implication that the assistant has verified the paper itself — the journalist is clearly positioned as the person doing the checking
 
 ## Example
 
@@ -86,7 +86,7 @@ Total length: 300–500 words. Plain language throughout — no assumption that 
 - Press releases or news articles that describe the finding more strongly than the paper's own conclusions do
 
 ## Known Limitations
-- Claude cannot run live database searches — you must perform every step on the checklist yourself. This is non-negotiable: retraction status changes, and only a live check is reliable.
+- The assistant cannot run live database searches — you must perform every step on the checklist yourself. This is non-negotiable: retraction status changes, and only a live check is reliable.
 - Not all retractions are indexed in publicly accessible databases. Journals in some regions or smaller publishers may not report retractions consistently. A clean database search does not guarantee the paper is uncontested.
 - This skill does not assess the statistical or methodological quality of a paper — it checks publication integrity only. A paper can be technically valid but still be weak evidence for a strong claim. Use the paper-plain-language-summary skill to understand what the paper actually proves.
 - Preprints (papers posted online before peer review, common on bioRxiv and medRxiv) have a different status from peer-reviewed publications. This checklist applies primarily to peer-reviewed journal articles — for preprints, step one should always be confirming whether the paper has since been published, revised, or withdrawn.

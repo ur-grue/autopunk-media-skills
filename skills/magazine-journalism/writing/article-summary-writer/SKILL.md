@@ -31,8 +31,7 @@ Writes a concise summary, standfirst, abstract, or deck for a completed article 
 - Whether the summary should avoid revealing the article's conclusion (important for opinion pieces and investigations)
 - Target audience if different from the article's primary readership
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Identifies the article's core argument.** Before writing, isolates the single most important claim, finding, or narrative the article makes. This is not always the lede — sometimes the real argument emerges in the middle of the piece. The summary leads with this core, not with setup or background.
 
 2. **Matches the format conventions.** Each summary type has distinct conventions:
@@ -42,7 +41,7 @@ Writes a concise summary, standfirst, abstract, or deck for a completed article 
    - **Meta description:** Front-loads the most important information within 155 characters for search engine display.
    - **General summary:** Captures the article's argument, key evidence, and conclusion in proportion to the specified length.
 
-3. **Compresses without distorting.** Every fact in the summary must be present in the article. Claude does not infer, extrapolate, or add context that the article itself does not contain. If the article hedges a conclusion, the summary hedges too.
+3. **Compresses without distorting.** Every fact in the summary must be present in the article. The assistant does not infer, extrapolate, or add context that the article itself does not contain. If the article hedges a conclusion, the summary hedges too.
 
 4. **Calibrates length precisely.** Hits the specified word or character count within 10% tolerance. For standfirsts, this typically means 25–50 words. For abstracts, 100–150 words. For meta descriptions, 120–155 characters.
 

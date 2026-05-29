@@ -23,7 +23,7 @@ Produces a structured pre-interview research brief on a potential source, coveri
 **Required:** The source's name, professional title or role, and the topic of your investigation
 **Optional:** Links or summaries of previous public statements, publications, or interviews; the source's employer or institutional affiliation; any known relationship between the source and the subject of your investigation; how you plan to use their testimony (on-record, background, expert commentary)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Profiles the source's professional background and relevant expertise, distinguishing between established credentials and claimed authority
 2. Reviews the source's known public positions on the investigation topic, identifying consistency or evolution over time, and flagging any previously stated views that could affect their testimony
 3. Assesses potential conflicts of interest, institutional affiliations, funding sources, or personal relationships that could bias their account — without making unsupported accusations
@@ -84,7 +84,7 @@ In a 2022 conference presentation (American Pharmacovigilance Society, Boston), 
 7. If the risk data is as strong as some researchers claim, why hasn't the FDA acted?
 
 ## Known Limitations
-- This brief is based only on publicly available information provided by the user or known to Claude. It cannot search live databases, paywalled academic records, or non-public financial disclosures.
+- This brief is based only on publicly available information provided by the user or known to the assistant. It cannot search live databases, paywalled academic records, or non-public financial disclosures.
 - Conflict-of-interest flags are based on stated affiliations and public records — undisclosed relationships will not appear.
 - The brief describes a source's known positions but cannot predict how they will behave in an interview or whether they will go on record.
 - For sources with very limited public footprints, the brief will be correspondingly thin — this is an honest reflection of available information, not a failure of the skill.

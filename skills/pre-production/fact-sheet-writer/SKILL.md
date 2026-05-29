@@ -27,12 +27,12 @@ Produces a concise, structured fact sheet on any topic for production teams — 
 **Optional:**
 - The specific angle or focus of the production (e.g., "we are covering the economic impact, not the scientific debate")
 - Any terminology the team is already familiar with that can be skipped
-- Key questions the production is trying to answer — helps Claude prioritise what to include
+- Key questions the production is trying to answer — helps the assistant prioritise what to include
 - Geographic or temporal scope (e.g., "focus on the situation in West Africa since 2015")
 - Contributor names or expert roles whose work should be referenced if relevant
 - Maximum length or number of sections
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core concepts a non-specialist would need to understand the topic at a production-ready level — not academic depth, but enough to ask good questions and follow expert answers
 2. Organises the material into a logical sequence: overview first, then key facts and figures, then terminology, then context and history, then common misconceptions or areas of public confusion
 3. Writes every section in plain, confident language — no jargon without explanation, no hedging, no filler — so the document can be read in ten minutes and retained
@@ -123,9 +123,9 @@ Proponents argue that deep-sea mining could supply the metals needed for the glo
 ---
 
 ## Known Limitations
-- Claude generates fact sheets from its training data, which has a knowledge cutoff. For a fast-moving regulatory or scientific topic, have a specialist check figures and update any recent developments before the shoot
+- The assistant generates fact sheets from its training data, which has a knowledge cutoff. For a fast-moving regulatory or scientific topic, have a specialist check figures and update any recent developments before the shoot
 - The fact sheet covers the scope you define — if the production angle shifts, request a revised version rather than patching the existing one
-- For topics involving contested science (climate projections, medical research, economic modelling), Claude will present the mainstream consensus; if your production requires a specific dissenting position to be represented fairly, specify this in your input
+- For topics involving contested science (climate projections, medical research, economic modelling), the assistant will present the mainstream consensus; if your production requires a specific dissenting position to be represented fairly, specify this in your input
 - Contributor-specific facts (quotes, publication titles, institutional affiliations) should always be verified directly with the contributor before use on camera
 
 ## Related Skills

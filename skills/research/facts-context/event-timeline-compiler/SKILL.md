@@ -24,7 +24,7 @@ Compiles key events into a structured, scannable timeline — formatted as a tab
 
 **Optional:** Preferred output format (table, numbered list, or both); maximum number of entries (useful if you need it to fit a fixed layout); whether to include a brief annotation on each entry or just the bare date and event; the publication context (print sidebar, web interactive, broadcast rundown, pitch document).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the key events that define the arc of the story — trigger, escalation, turning points, and current status — prioritising entries that are independently significant over entries that are merely part of the background.
 2. Assigns each entry the most specific date available (day/month/year where possible; month/year where exact date is unknown; year only as a last resort) and flags any approximate dates.
 3. Writes each entry as a single, precise sentence — no more than 20 words — that states what happened and, if space permits, why it matters.
@@ -73,9 +73,9 @@ Format: Table, for a web interactive. Maximum 12 entries. Include a one-phrase s
 
 ## Known Limitations
 - This skill produces a structured reference tool, not a publication-ready narrative. A writer will still need to interpret the timeline for readers rather than reproducing it verbatim in a text piece.
-- Claude cannot guarantee completeness for fast-moving stories or events that occurred close to its training cutoff. Always verify the final entry against current sources.
+- The assistant cannot guarantee completeness for fast-moving stories or events that occurred close to its training cutoff. Always verify the final entry against current sources.
 - For topics with significant regional or language variation (policy enacted differently in different jurisdictions, events covered primarily in non-English press), the timeline may reflect English-language coverage more than the full picture.
-- The 20-word entry limit is a discipline, not a hard technical constraint — if a critical event cannot be accurately summarised in 20 words, ask Claude to expand that specific entry.
+- The 20-word entry limit is a discipline, not a hard technical constraint — if a critical event cannot be accurately summarised in 20 words, ask the assistant to expand that specific entry.
 
 ## Related Skills
 - [event-chronology-builder](../event-chronology-builder/SKILL.md)

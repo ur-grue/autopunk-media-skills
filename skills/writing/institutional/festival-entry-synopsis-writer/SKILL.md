@@ -34,7 +34,7 @@ Writes a polished, submission-ready synopsis for a film, documentary, or media p
 - Any festival-specific submission guidelines or restricted content (e.g. "do not mention co-producers," "third person only")
 - One sentence describing the visual or stylistic approach if distinctive
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most compelling hook — the human story, the unanswered question, or the stakes — and places it at the opening line rather than burying it in context.
 2. Structures the synopsis in three beats: who or what the film is about, what happens or is at stake, and why this film exists now (the "why this, why now" that juries respond to).
 3. Calibrates length precisely to the word count requested, leaving no padding and no truncation — every sentence carries weight.
@@ -70,9 +70,9 @@ Every spring, Marta and her small team of rangers walk the same river corridors 
 What does it mean to continue doing necessary work when the outcome is already visible? Shot over six weeks in an inland reserve with a two-person crew, *The Counting Season* is a film about devotion, about what counts as failure, and about the particular grief of people who stay.
 
 ## Known Limitations
-- Claude cannot verify whether the synopsis meets a specific festival's undisclosed submission criteria — always read the festival's own guidelines before submitting.
-- For films with highly experimental or non-linear narrative structures, the three-beat synopsis structure may feel reductive; flag this to Claude and request a more fragmented or associative approach.
-- Claude will not invent credits, co-production details, or distribution history. If you need these included, provide them explicitly.
+- The assistant cannot verify whether the synopsis meets a specific festival's undisclosed submission criteria — always read the festival's own guidelines before submitting.
+- For films with highly experimental or non-linear narrative structures, the three-beat synopsis structure may feel reductive; flag this to the assistant and request a more fragmented or associative approach.
+- The assistant will not invent credits, co-production details, or distribution history. If you need these included, provide them explicitly.
 - Word counts are approximate; always verify the final count in your submission form before pasting.
 
 ## Related Skills

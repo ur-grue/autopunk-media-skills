@@ -28,8 +28,7 @@ Write three opening hook options — one per style — for a YouTube video, podc
 - Target audience: who this is for in one phrase (e.g., "first-time founders", "true crime listeners")
 - A specific fact, statistic, or scene from your content that could anchor the hook
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Identifies the core tension.** Before writing, finds the single most compelling thing about the topic — the counterintuitive fact, the unexpected outcome, the stakes that make this worth watching. This becomes the raw material all three hooks draw from.
 
 2. **Writes one hook per style**, each attacking the tension from a different angle:
@@ -37,7 +36,7 @@ Write three opening hook options — one per style — for a YouTube video, podc
    - **Surprising statistic or fact** — leads with a specific, counterintuitive number or detail. The specificity is what creates credibility and curiosity. Avoids vague superlatives.
    - **Bold declarative claim** — makes a confident, slightly controversial statement that reframes how the viewer thinks about the subject. Earns its confidence; does not bluster.
 
-3. **Adapts register to tone.** Serious journalism hooks are measured and authoritative — they earn credibility without sensationalism. Popular science hooks trade in wonder and accessibility. Entertainment hooks lead with personality, energy, or a visual provocation. If the input tone is ambiguous, Claude matches the most common register for the format.
+3. **Adapts register to tone.** Serious journalism hooks are measured and authoritative — they earn credibility without sensationalism. Popular science hooks trade in wonder and accessibility. Entertainment hooks lead with personality, energy, or a visual provocation. If the input tone is ambiguous, the assistant matches the most common register for the format.
 
 4. **Respects the format.** YouTube hooks prioritize visual provocation and pattern interrupts. Podcast hooks rely entirely on language and often work best when they are conversational and surprising. Documentary openings can sustain a slower build — a declarative statement of place or time followed by a pivot.
 
@@ -98,7 +97,7 @@ Most personal finance advice isn't broken. It's just optimized for someone who d
 
 ## Known Limitations
 - The skill cannot verify statistics. If you supply a specific figure in your input, it will use it. If you don't, the surprising statistic option may construct a plausible-sounding one that requires fact-checking before filming.
-- For topics where the core tension is genuinely obscure or highly technical, the hooks may be accurate but abstract — provide one concrete detail from your research to give Claude something specific to anchor to.
+- For topics where the core tension is genuinely obscure or highly technical, the hooks may be accurate but abstract — provide one concrete detail from your research to give the assistant something specific to anchor to.
 - Documentary hooks benefit significantly from knowing the opening scene or image. Without that, this skill generates language-only hooks that may need visual adaptation.
 
 ## Related Skills

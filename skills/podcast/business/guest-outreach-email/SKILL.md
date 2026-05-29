@@ -33,7 +33,7 @@ Writes a personalized outreach email inviting a specific person to appear as a g
 - Whether you are offering a specific air date or are flexible on timing
 - Anything notable about your show's recent guests or press coverage that signals credibility
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a specific, genuine reason why this person — not a generic expert in their field, but this person specifically — is the right guest for this episode
 2. Introduces the show briefly and credibly — enough for the guest to assess fit, not a full pitch document
 3. States the episode idea in one clear sentence — a specific question or framing that makes the conversation sound genuinely interesting, not just "I'd love to have you on to discuss your work"
@@ -92,7 +92,7 @@ Would a brief call to see if this is a good fit work for you? I'm flexible on ti
 ---
 
 ## Known Limitations
-- Claude cannot know the guest's current workload, media saturation level, or whether they are actively seeking podcast appearances — a well-crafted email to someone who is not currently doing press will still be ignored; this skill maximizes the quality of the email, not the response rate
+- The assistant cannot know the guest's current workload, media saturation level, or whether they are actively seeking podcast appearances — a well-crafted email to someone who is not currently doing press will still be ignored; this skill maximizes the quality of the email, not the response rate
 - The personal reference to the guest's work depends entirely on what the user provides — a vague input ("she writes about psychology") will produce a vague opening; the more specific the reference to the guest's actual work, the stronger the email
 - For high-profile guests (major public figures, celebrities, political figures), outreach should go through a manager or publicist, not a direct email — this skill is designed for professional and expert guests, not public personalities who have formal gatekeeping
 - This skill writes the initial outreach; it does not write follow-up emails or handle scheduling logistics

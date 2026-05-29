@@ -24,7 +24,7 @@ Produces a festival submission strategy brief for a documentary or short film, i
 
 **Optional:** Existing festival interest or invitations, co-production countries, language and subtitle status, any awards or selection history, preferred geographic markets (European circuit, North American circuit, Asian circuit), sales agent status, broadcast deals already in place.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the film's positioning — its genre, subject, and tone — and identifies which festival categories and strands it is most likely to be competitive in (e.g., competitive documentary, human rights, environmental, experimental, short film)
 2. Proposes a tiered festival list organised by prestige/strategic value: Tier 1 (world premiere, maximum visibility), Tier 2 (regional premiere or strong specialist festival), Tier 3 (broader circuit, audience building, qualification for awards eligibility)
 3. Outlines submission sequencing advice: which festivals require world premiere status, which accept post-premiere, approximate submission deadlines, and any strategic conflicts to avoid

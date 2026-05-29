@@ -31,17 +31,16 @@ Creates a glossary of key terms for a specific topic or article, with concise pl
 - Publication format: sidebar, inline glossary, standalone page, or digital tooltip text
 - Any terms the publication has already defined in a house style guide (to avoid contradiction)
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Identifies the terms that need defining.** If given an article, scans for jargon, technical language, acronyms, and terms that a general reader would not know or might misunderstand. If given a topic, selects the most essential terms a reader would encounter. Prioritizes terms where misunderstanding would undermine comprehension of the article.
 
 2. **Writes definitions in plain language.** Each definition explains the term as you would to a smart colleague who doesn't work in your field. No circular definitions ("blockchain: a type of chain of blocks"). No jargon in the definition of jargon. Technical precision is maintained, but clarity comes first.
 
-3. **Calibrates depth to the audience.** A general-reader glossary defines "equity" differently than a glossary for financial professionals. Claude adjusts register, assumed knowledge, and definition length based on the stated audience. For specialist audiences, definitions are shorter and more precise; for general readers, they include more context and analogy.
+3. **Calibrates depth to the audience.** A general-reader glossary defines "equity" differently than a glossary for financial professionals. The assistant adjusts register, assumed knowledge, and definition length based on the stated audience. For specialist audiences, definitions are shorter and more precise; for general readers, they include more context and analogy.
 
-4. **Orders terms logically.** Default is alphabetical. If the terms have a natural conceptual sequence (e.g., terms in a legal process, stages of a scientific method), Claude offers that ordering instead and notes why. Terms that depend on other terms in the glossary are cross-referenced.
+4. **Orders terms logically.** Default is alphabetical. If the terms have a natural conceptual sequence (e.g., terms in a legal process, stages of a scientific method), the assistant offers that ordering instead and notes why. Terms that depend on other terms in the glossary are cross-referenced.
 
-5. **Formats for the specified output.** Sidebar glossaries are compact and scannable. Standalone reference pages can include more detail and cross-references. Tooltip text must be self-contained in a single sentence. Claude matches the format to the publication context.
+5. **Formats for the specified output.** Sidebar glossaries are compact and scannable. Standalone reference pages can include more detail and cross-references. Tooltip text must be self-contained in a single sentence. The assistant matches the format to the publication context.
 
 ## Output Format
 
@@ -101,7 +100,7 @@ A titled glossary with terms in bold, each followed by a plain-language definiti
 **Tax-exempt** — A feature of most municipal bonds that means investors do not pay federal income tax on the interest they earn. This allows municipalities to borrow at lower interest rates than private companies.
 
 ## Known Limitations
-- Claude defines terms based on general knowledge. For highly specialized or evolving terminology (legal terms in a specific jurisdiction, emerging scientific nomenclature), definitions should be verified against authoritative sources before publication.
+- The assistant defines terms based on general knowledge. For highly specialized or evolving terminology (legal terms in a specific jurisdiction, emerging scientific nomenclature), definitions should be verified against authoritative sources before publication.
 - The skill defines terms in their most common usage. If a term has a specific meaning in the context of your article that differs from the standard definition, provide that context — otherwise the glossary definition may not match how the term is used in the piece.
 - For very large glossaries (25+ terms), the definitions may become formulaic. Consider breaking them into thematic sub-sections or running the skill in batches of 10–12 terms.
 

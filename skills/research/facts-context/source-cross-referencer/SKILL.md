@@ -25,8 +25,7 @@ Takes a specific claim and a list of sources you have gathered, then maps which 
 
 **Optional:** The original context where the claim appears (paragraph or script line). The type of story (news report, documentary, magazine feature, podcast episode). Any known relationship between the sources — for example, if two of them cite the same underlying report.
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. Reads the claim precisely as stated — noting any specific numbers, dates, or qualifiers that a source would need to match exactly to count as corroboration.
 2. Examines each source in turn and places it into one of four categories: **Supports** (source clearly backs the claim), **Partially supports** (source agrees with the general point but differs on a detail), **Contradicts** (source directly disputes the claim or gives a different figure), or **Silent** (source does not address this specific claim).
 3. Checks whether sources that appear to agree are actually independent — if two sources trace back to the same original data or rely on the same study, it flags that as a single chain of evidence, not two independent confirmations.
@@ -69,9 +68,9 @@ Two-part output. First, a source comparison table with columns: Source Name / Ty
 **Narrative summary:** The claim has solid grounding in official data but two problems need fixing before publication. First, the annual report shows 13.8 minutes, not 14 — a small difference but worth correcting to avoid accuracy challenges. More significantly, the "8-minute national benchmark" framing is contested: the standards body defines that target for life-threatening Category 1 calls only. If the story is comparing all-category averages against a Category 1 target, the comparison is misleading and legally and editorially risky. The regional newspaper piece does not add independent corroboration — it draws on the same health authority data. Recommended next step: confirm the call-category breakdown from the health authority before finalising the claim, and either narrow the benchmark comparison to Category 1 calls or use the 18-minute mean target instead.
 
 ## Known Limitations
-- Claude cannot access URLs, databases, or documents — it can only assess the information you paste in. If a source excerpt is incomplete or paraphrased, the assessment will only be as good as what you provide.
+- The assistant cannot access URLs, databases, or documents — it can only assess the information you paste in. If a source excerpt is incomplete or paraphrased, the assessment will only be as good as what you provide.
 - This skill does not verify whether the sources themselves are accurate. It maps internal consistency and independence across sources, not ground truth.
-- Source categories (Supports / Contradicts / etc.) reflect the claim exactly as worded. If your claim is slightly ambiguous, Claude will flag that rather than make a judgment call — you may need to tighten the wording first.
+- Source categories (Supports / Contradicts / etc.) reflect the claim exactly as worded. If your claim is slightly ambiguous, the assistant will flag that rather than make a judgment call — you may need to tighten the wording first.
 - For claims involving legal liability (defamation, privacy), this output is not a substitute for legal review.
 
 ## Related Skills

@@ -31,8 +31,8 @@ Writes a professional follow-up email to a journalist, editor, or media contact 
 - Your relationship history with this contact (cold, met once, established source)
 - Preferred sign-off name and title
 
-## How Claude Approaches This
-1. **Assesses the follow-up stage.** A first follow-up is warmer and more generous than a second or third. Claude adjusts assertiveness, length, and tone accordingly — first follow-ups assume good faith and a busy inbox; later follow-ups are shorter, more direct, and offer an easy out.
+## How the Assistant Approaches This
+1. **Assesses the follow-up stage.** A first follow-up is warmer and more generous than a second or third. The assistant adjusts assertiveness, length, and tone accordingly — first follow-ups assume good faith and a busy inbox; later follow-ups are shorter, more direct, and offer an easy out.
 
 2. **Leads with value, not with a reminder.** The email never opens with "just checking in" or "circling back." Instead, it leads with a new detail, a timely hook, or a reframing of why the story matters now — giving the journalist a reason to engage rather than a guilt trip.
 
@@ -88,7 +88,7 @@ Communications Director, Regional Press Alliance
 sarah@regionalpressalliance.example.com
 
 ## Known Limitations
-- Claude cannot know whether the journalist has already seen and deliberately ignored your pitch. If the contact has a pattern of non-response, the follow-up may still go unanswered regardless of quality.
+- The assistant cannot know whether the journalist has already seen and deliberately ignored your pitch. If the contact has a pattern of non-response, the follow-up may still go unanswered regardless of quality.
 - The skill works best when you can provide a new hook or angle. Without one, the follow-up is structurally weaker — it becomes a polite reminder rather than a compelling re-pitch.
 - Tone calibration relies on your description of the relationship. If you overstate familiarity, the email may read as presumptuous to the recipient.
 

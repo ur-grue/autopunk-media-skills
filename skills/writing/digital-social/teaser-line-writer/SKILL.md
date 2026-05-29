@@ -23,7 +23,7 @@ Generates a short, compelling teaser line — one or two sentences — that earn
 **Required:** A summary of the story — the topic, the central finding or event, and who it affects. One paragraph is enough.
 **Optional:** The intended platform (newsletter, Instagram, LinkedIn, homepage preview); target audience (general public, industry professionals, specialist readers); tone preference (urgent, measured, curious, wry); the actual headline if one already exists.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most newsworthy or surprising element in the story — the detail most likely to make a reader stop scrolling.
 2. Frames that element as an open loop: enough information to create genuine curiosity, not so much that the reader feels they already have the answer.
 3. Calibrates language register to the platform and audience — concise and direct for social, slightly more expansive for newsletters, warmer for human-interest stories, crisper for breaking news.

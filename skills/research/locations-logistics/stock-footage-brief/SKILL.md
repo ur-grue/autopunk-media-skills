@@ -34,7 +34,7 @@ Produces a structured brief for a researcher or footage coordinator to use when 
 - Deadline for confirming footage availability
 - Any footage sources already checked or excluded
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Translates the editorial description into concrete searchable footage categories — what specifically needs to be on screen, not just what the story is about
 2. Identifies which categories are likely commercially available (major stock libraries, news archives), which require specialist sources (national film archives, broadcaster vaults, institutional collections), and which may be impossible to clear within typical production budgets
 3. Structures the brief as a clear task list for a researcher, with search terms, suggested sources by category, and licensing flags — so the researcher can begin work immediately without a follow-up conversation
@@ -146,7 +146,7 @@ Research vessels, scientists measuring fish stocks, government fisheries officer
 4. Flag any footage where rights ownership is unclear before ordering — rights research adds 2–3 weeks
 
 ## Known Limitations
-- Claude cannot search live stock footage databases and cannot confirm what is actually in any given archive's holdings — this brief defines what to look for, not what exists
+- The assistant cannot search live stock footage databases and cannot confirm what is actually in any given archive's holdings — this brief defines what to look for, not what exists
 - Licensing costs vary enormously by source, broadcast territory, and footage duration; all cost estimates must come from the archives directly
 - Footage from the 1950s and 1960s sometimes has orphaned rights (original producer no longer exists) — legal advice may be needed before licensing material from small or defunct regional broadcasters
 

@@ -25,7 +25,7 @@ Produces a structured research framework mapping the internal hierarchy, key dec
 
 **Optional:** The specific department, executive, or decision you are researching; the country or jurisdiction the organisation operates in; any known subsidiary names or brands; whether the organisation is public, private, or state-owned
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the organisation type (publicly listed company, private firm, government body, NGO, media group, etc.) and explains how that type typically structures its leadership and governance — this gives you a baseline before you start verifying
 2. Outlines the standard hierarchy for that organisation type: what roles typically exist, what each is responsible for, and how power flows between them — framed as questions to verify, not facts to accept
 3. Lists the specific research questions a journalist should answer for this organisation, grouped by tier (board level, executive leadership, operational management, key departments), and suggests where public records, filings, or official directories are most likely to yield verified answers

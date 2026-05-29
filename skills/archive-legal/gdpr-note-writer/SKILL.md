@@ -24,7 +24,7 @@ Drafts a GDPR compliance note for a specific piece of journalistic content or da
 
 **Optional:** How long you intend to retain the data, who within your organisation will have access, whether the data will be shared with third parties, whether any data will be published, the country your publication is based in.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the categories of personal data involved (names, images, location data, financial information, health data, etc.) and flags any special category data under GDPR Article 9, which carries higher obligations.
 2. Determines the most appropriate lawful basis for processing under GDPR Article 6 — and, where special category data is involved, Article 9 — with a focus on the journalistic exemptions that most editorial organisations rely on.
 3. Drafts a structured compliance note covering: data categories, purpose, lawful basis, retention period, access controls, and any third-party sharing.

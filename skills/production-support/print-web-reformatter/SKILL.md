@@ -24,7 +24,7 @@ Adapts print-formatted article text — including column breaks, orphaned lines,
 
 **Optional:** The original print format (broadsheet, tabloid, magazine double-spread, newsletter column). The target web format (full-width web article, mobile-first single column, newsletter email body). Any house style notes for the web version (e.g., subheadings required every 400 words, links should be added at named sources).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Scans the pasted text for print artefacts — column-break mid-words (soft hyphens), "continued" notices, page cross-references ("see page 4," "chart, right," "above"), orphaned single words at paragraph ends that were forced by column width, and condensed or expanded spacing from InDesign export.
 2. Resolves each artefact: rejoins broken words, removes continuation notices, rewrites positional cross-references as self-contained web phrases (e.g., "see chart, left" becomes "see the chart below" or the reference is absorbed into the sentence if no chart will appear on the web page), and normalises paragraph spacing.
 3. Checks the text for print conventions that read awkwardly on screen — heavily condensed sentences written to fill a column count, paragraph structures that depend on a page turn for dramatic effect, and any footnote or sidebar references that point to print-only elements. Rewrites or flags these for editorial decision.

@@ -22,9 +22,9 @@ Translates dense scientific terminology from academic papers, press releases, or
 
 ## What You Need To Provide
 **Required:** The technical text, passage, or list of terms you need explained — copied verbatim, not paraphrased.
-**Optional:** The outlet or format you are writing for (broadsheet, TV package, podcast, social post); the assumed knowledge level of your audience (general public, interested layperson, science-literate reader); any context about the study or topic that may help Claude interpret ambiguous terms correctly.
+**Optional:** The outlet or format you are writing for (broadsheet, TV package, podcast, social post); the assumed knowledge level of your audience (general public, interested layperson, science-literate reader); any context about the study or topic that may help the assistant interpret ambiguous terms correctly.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the technical passage and identifies every term or phrase that would be opaque to a non-specialist reader, flagging each one explicitly.
 2. For each flagged term, produces a plain-English explanation using analogy, everyday comparison, or concrete example — choosing the method that preserves the most scientific accuracy without introducing misleading simplifications.
 3. Delivers the full passage rewritten in plain English, followed by a glossary of individual terms so the journalist can pick the phrasing that fits their word count and register.
@@ -75,7 +75,7 @@ People who received the treatment saw their blood pressure drop by a meaningful 
 - **Non-significant trends** — These results moved in the right direction but were not strong enough to rule out chance. Do not report these as "also effective." Report them as "suggesting possible benefits that need further study."
 
 ## Known Limitations
-- Claude cannot verify that its plain-English explanation matches the authors' intended meaning — always confirm key interpretations with the study's corresponding author or an independent expert before publication.
+- The assistant cannot verify that its plain-English explanation matches the authors' intended meaning — always confirm key interpretations with the study's corresponding author or an independent expert before publication.
 - Highly specialised subfields (e.g., quantum chromodynamics, CRISPR base-editing mechanisms) may require domain-expert review even after explanation, as analogies can introduce subtle inaccuracies.
 - This skill explains terminology — it does not assess whether the study's methods or conclusions are sound. For methodological critique, use the scientific-paper-brief or peer-review-summary skills.
 - Statistical concepts in particular carry nuanced meanings that plain-English glosses can only approximate; flag these passages to a statistician if precision is critical.

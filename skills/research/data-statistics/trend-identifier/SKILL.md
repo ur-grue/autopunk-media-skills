@@ -24,7 +24,7 @@ Reads a set of data points or a described data series and identifies the meaning
 **Required:** The data series itself — paste the numbers, a description of the figures, or a summary table. Include what each value represents (e.g. percentage, count, rate per 100,000), the time period each corresponds to, and what geography or population it covers.
 **Optional:** The publication format (news article, documentary script, data visualisation caption, broadcast voice-over); the audience (general public, specialist, policymakers); any hypothesis or angle you already have about the data; a note on the source of the figures.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the data as described — identifies what is being measured, the unit, the time span, and whether it is a complete series or a sample of data points.
 2. Reads the direction and magnitude of change: whether values are rising, falling, flattening, accelerating, or reversing, and by how much in relative and absolute terms.
 3. Identifies any notable sub-patterns: inflection points (where a trend changes direction), outlier years or periods, plateaus, and whether the trend is consistent or volatile.
@@ -90,7 +90,7 @@ Road deaths fell sharply over the first decade of this record — from 68 deaths
 ## Known Limitations
 - This skill interprets trends in data as described or pasted — it does not perform statistical significance testing. For formal analysis (confidence intervals, regression, seasonal adjustment), you need a data journalist or statistician to run the numbers directly.
 - If the data series is short (fewer than five data points) or heavily rounded, the skill will flag that the trend description must be hedged accordingly — short series can mislead.
-- The skill cannot account for changes in how data was collected over time; if the source methodology changed mid-series, that must be noted by the user, as Claude will not know unless told.
+- The skill cannot account for changes in how data was collected over time; if the source methodology changed mid-series, that must be noted by the user, as the assistant will not know unless told.
 
 ## Related Skills
 - [statistics-researcher](../statistics-researcher/SKILL.md)

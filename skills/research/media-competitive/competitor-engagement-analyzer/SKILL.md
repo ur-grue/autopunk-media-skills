@@ -21,9 +21,9 @@ Interprets audience engagement signals from a competitor's published piece — c
 
 ## What You Need To Provide
 **Required:** The competitor's article, script, or episode (paste the full text, or a detailed summary). Any engagement data you have access to — comment samples, share counts, social posts quoting or reacting to the piece, reader letters, or a description of how the story spread.
-**Optional:** The platform or format the piece appeared on (affects what engagement signals mean). Your outlet's audience profile, so Claude can flag whether the engagement signals are relevant to your readers or represent a different demographic.
+**Optional:** The platform or format the piece appeared on (affects what engagement signals mean). Your outlet's audience profile, so the assistant can flag whether the engagement signals are relevant to your readers or represent a different demographic.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the content and identifies the structural and editorial choices the piece makes: the lede type, the central claim, the sources used, the emotional register, and the point at which the piece peaks or shifts.
 2. Reads the engagement data and categorises the audience responses — what readers are agreeing with, pushing back on, sharing as a quote, turning into a further question, or emotionally reacting to.
 3. Maps the editorial choices in step one against the engagement patterns in step two, identifying which specific elements appear to have driven the strongest responses, and why — connecting craft decisions to audience reactions.
@@ -85,7 +85,7 @@ Tone is analytical and editorial — the language of a senior editor's debrief, 
 
 ## Known Limitations
 - This skill interprets engagement data you provide — it cannot retrieve live metrics, crawl comment sections, or access social media directly. The quality of the analysis depends entirely on the quality and completeness of the data you supply.
-- Engagement data from social platforms is often partial and unrepresentative. High share counts on one platform may not reflect the views of a publication's core readership. Claude will flag this where relevant but cannot correct for platform bias on your behalf.
+- Engagement data from social platforms is often partial and unrepresentative. High share counts on one platform may not reflect the views of a publication's core readership. The assistant will flag this where relevant but cannot correct for platform bias on your behalf.
 - For paywalled content where comment sections are small or absent, engagement signals are inherently limited. The skill works best with pieces that generated visible, quotable public responses.
 - This skill identifies correlations between editorial choices and audience responses — it cannot establish causation. Other factors (timing, algorithm behaviour, the news cycle) may explain engagement as much as the editorial decisions themselves.
 

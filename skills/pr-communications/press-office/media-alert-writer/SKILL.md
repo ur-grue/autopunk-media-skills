@@ -24,7 +24,7 @@ Writes a short, factual media alert inviting journalists to a press conference, 
 
 **Optional:** Additional speakers or attendees; on-site PR contact for the day; photography or filming permission status; parking or access instructions; note on what journalists will have access to (exclusive interviews, product demo, etc.).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a bold, descriptive subject line formatted as if it were an email subject, followed by a "MEDIA ALERT" label.
 2. Writes a one-sentence lead that answers: what is happening, who is hosting it, and why it is newsworthy today.
 3. Formats the logistical core — What, When, Where, Who — in a scannable block rather than prose paragraphs, so a journalist can check the facts at a glance.
@@ -86,7 +86,7 @@ tomas@greenwayurbanfarms.example.com | (503) 555-0247
 
 ## Known Limitations
 - A media alert does not substitute for a press release — it does not carry quotes, background detail, or boilerplate. If journalists need more context to decide whether to cover the story, pair this alert with a short press release.
-- Claude cannot confirm that the event details are accurate — any error in date, time, or address will be reproduced in the output. Always verify logistics before sending.
+- The assistant cannot confirm that the event details are accurate — any error in date, time, or address will be reproduced in the output. Always verify logistics before sending.
 - For events requiring security clearance or press accreditation, additional accreditation fields will need to be added manually.
 
 ## Related Skills

@@ -37,7 +37,7 @@ Writes a formal, professional letter requesting permission to film at a specific
 - Any previous correspondence or contact name at the location
 - Specific concerns the location owner is likely to have (noise, parking, public access disruption)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Opens with clarity and brevity.** States who is writing, the production company, the documentary subject (in one non-technical sentence), and the specific request — permission to film at the named location. No marketing language, no overselling. Location owners respond to professionalism and straightforwardness.
 
 2. **Explains why this location matters.** One or two sentences connecting the location to the documentary's subject in a way that is respectful and genuine. This is not flattery — it is context that helps the recipient understand why their location was chosen and what will be filmed there.
@@ -115,7 +115,7 @@ Lighthouse Films
 
 ## Known Limitations
 - This skill produces a first-approach letter. It does not generate location agreements, licence-to-film contracts, or risk assessments — these are separate legal documents that should be drafted by the production's legal advisor or insurer.
-- For locations governed by specific regulations (military sites, prisons, NHS hospitals, schools with safeguarding requirements), the standard letter will need supplementing with sector-specific documentation. Claude flags these where it can, but cannot know every jurisdiction's requirements.
+- For locations governed by specific regulations (military sites, prisons, NHS hospitals, schools with safeguarding requirements), the standard letter will need supplementing with sector-specific documentation. The assistant flags these where it can, but cannot know every jurisdiction's requirements.
 - The letter assumes good faith on both sides. It does not handle hostile or pre-refused situations — if a location has already declined or has a blanket no-filming policy, a different approach (escalation, alternative contacts, formal FOI routes for public bodies) is needed.
 
 ## Related Skills

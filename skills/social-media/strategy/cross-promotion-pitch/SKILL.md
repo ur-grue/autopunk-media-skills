@@ -24,7 +24,7 @@ Writes a cross-promotion pitch to another creator, publication, or media brand p
 
 **Optional:** Your audience size and engagement context, any shared interests or overlapping themes between the two accounts, a specific project hook that makes this the right moment to collaborate (new season, shared topic, news moment), prior interactions or connection with the recipient.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens by naming the specific account and noting one genuine thing about their work — something specific enough to show it is not a mass-sent template. The pitch must feel personal, even when it is professional.
 2. Makes the case for audience compatibility concisely — what the audiences share, why each would benefit from knowing the other's work — and proposes a specific collaboration format, not an open-ended "let's work together"
 3. Closes with a concrete, low-friction ask: one specific next step that is easy to say yes to (a 15-minute call, a simple swap, a try-it-once test)

@@ -23,7 +23,7 @@ Produces a structured, host-ready research brief on an upcoming podcast guest �
 **Required:** Guest's name; their professional role or area of expertise; the show's topic focus and what prompted the booking
 **Optional:** Links or descriptions of their recent work (books, articles, talks, other podcast appearances); what the audience already knows about them; specific angles or topics you want to cover; topics to avoid (at the guest's request or editorial choice); episode format and approximate length
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Summarizes the guest's background and professional context — focused on what is most relevant to your show's audience, not a full biography
 2. Identifies their most significant recent work and maps its core arguments or findings, so the host can engage substantively without having read every word
 3. Surfaces the most interesting angle or tension in the guest's work — the point where their position is most contested, most counterintuitive, or most relevant to the show's audience

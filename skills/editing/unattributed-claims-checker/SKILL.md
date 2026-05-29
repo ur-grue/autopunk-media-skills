@@ -21,9 +21,9 @@ Reads a draft article or script and flags every assertion of fact that lacks a n
 
 ## What You Need To Provide
 **Required:** The full text of the draft — paste it directly into your message.
-**Optional:** A note about which claims are already known to have internal documentation (e.g., "the unemployment figures in paragraph 3 come from a government data release we have on file"). This prevents Claude from flagging things you have already verified off-page.
+**Optional:** A note about which claims are already known to have internal documentation (e.g., "the unemployment figures in paragraph 3 come from a government data release we have on file"). This prevents the assistant from flagging things you have already verified off-page.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the draft sentence by sentence and identifies every declarative claim — statistics, allegations, descriptions of events, characterisations of individuals or organisations, and predictions stated as fact.
 2. Checks whether each claim is clearly attributed to a named or sufficiently identified source (e.g., a person, institution, document, or data release) either within the sentence or in the immediately surrounding context.
 3. Appends `[NEEDS SOURCE]` directly after any claim that lacks attribution, then returns the full annotated draft so you can see every flag in context. It also produces a numbered list of flagged claims at the end, so you can work through them without scrolling the whole piece.
@@ -72,8 +72,8 @@ Housing costs in the capital remain 40 percent above the national average, [NEED
 *The attribution from "two officials familiar with internal discussions" in the final sentence is noted but flagged as anonymous — verify your editorial policy permits unnamed sourcing here before publication.*
 
 ## Known Limitations
-- Claude cannot verify whether an attribution is accurate, only whether one is present. A quote attributed to a real-sounding name still passes the check even if the person does not exist — this skill audits form, not truthfulness.
-- In densely reported passages where attribution is implied by context across multiple paragraphs (e.g., an extended interview), Claude may flag claims that are implicitly covered by an earlier attribution. Review flagged items in full context before acting.
+- The assistant cannot verify whether an attribution is accurate, only whether one is present. A quote attributed to a real-sounding name still passes the check even if the person does not exist — this skill audits form, not truthfulness.
+- In densely reported passages where attribution is implied by context across multiple paragraphs (e.g., an extended interview), the assistant may flag claims that are implicitly covered by an earlier attribution. Review flagged items in full context before acting.
 - Opinion columns and explicitly labelled commentary may produce a high false-positive rate, since analytical assertions in opinion pieces do not always require sourcing by convention. Consider noting the piece type in your prompt.
 
 ## Related Skills

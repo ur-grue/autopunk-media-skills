@@ -24,7 +24,7 @@ Write a subheadline (deck, standfirst, or dek) that sits below the main headline
 
 **Optional:** Target publication style (broadsheet print deck, web standfirst, magazine dek), character limit, whether the subheadline should complement the headline (adding new information) or provide contrast (a counterpoint or tension), SEO keywords to incorporate.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the headline carefully and identifies exactly what it promises and what information it leaves out — the subheadline's job is to fill that gap, not to restate the headline in different words
 2. Identifies what a reader still needs to know to decide whether to read: the key actors, stakes, timing, or surprise element that the headline does not name
 3. Writes to the publication's convention — print broadsheet decks run 15-25 words and favour declarative statements; web standfirsts run 20-40 words and may be more conversational; magazine deks often favour wit or a provocative secondary hook

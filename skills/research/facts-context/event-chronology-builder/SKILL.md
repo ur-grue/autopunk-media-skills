@@ -24,7 +24,7 @@ Builds a detailed, prose-style chronology of events for a given story — ordere
 
 **Optional:** Any key events, dates, names, or turning points you already know; the intended publication or format (print feature, broadcast package, documentary, etc.); any events or angles you want excluded.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the scope — the subject, start date, end date, and the level of detail appropriate for the story type (day-by-day for a breaking scandal; year-by-year for a decades-long policy story).
 2. Works through the subject systematically: key trigger events, escalations, responses, turning points, and resolution or current status, in strict chronological order.
 3. Writes each entry as a concise prose paragraph (2–4 sentences) rather than a bare bullet point — enough context to understand why each event matters, not just that it happened.
@@ -92,10 +92,10 @@ Verano entered administration. An administrator was appointed to manage creditor
 *Note: Dates for internal regulatory correspondence (June 2022 notice of concern, March 2023 preliminary findings) are approximate, based on sources familiar with the process. Independent verification recommended before publication.*
 
 ## Known Limitations
-- Claude's knowledge has a training cutoff and cannot include events after that date. For stories with recent developments, treat the chronology as a starting framework and update it with your own reporting.
-- For stories involving non-English-language sources, Claude may have less detailed knowledge of events that received limited English-language coverage.
-- Claude cannot access paywalled databases, court filings, or proprietary document repositories — any entry drawing on such sources will need to be verified independently.
-- Claude will flag uncertainty where it is aware of it, but it may not know what it does not know. All dates and facts should be verified against primary sources before publication.
+- The assistant's knowledge has a training cutoff and cannot include events after that date. For stories with recent developments, treat the chronology as a starting framework and update it with your own reporting.
+- For stories involving non-English-language sources, the assistant may have less detailed knowledge of events that received limited English-language coverage.
+- The assistant cannot access paywalled databases, court filings, or proprietary document repositories — any entry drawing on such sources will need to be verified independently.
+- The assistant will flag uncertainty where it is aware of it, but it may not know what it does not know. All dates and facts should be verified against primary sources before publication.
 
 ## Related Skills
 - [event-timeline-compiler](../event-timeline-compiler/SKILL.md)

@@ -30,9 +30,9 @@ Turns a brand brief into a host-read ad script that fits the show's tone, meets 
 - Any restrictions (things you cannot say, competitors you cannot name)
 - Your hosting voice or style (e.g., "dry and wry," "warm and direct," "high-energy")
 - Whether you want a personal endorsement angle ("I use this") or a more neutral presentation
-- Ad placement: pre-roll (~30 sec), mid-roll (~60 sec), post-roll (~30 sec) — Claude can write all three from one brief
+- Ad placement: pre-roll (~30 sec), mid-roll (~60 sec), post-roll (~30 sec) — the assistant can write all three from one brief
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the sponsor's core value proposition — the one thing a listener should remember — and uses it to anchor the copy rather than listing every feature
 2. Opens with a transition out of show content that feels natural, not jarring (for mid-rolls: a brief pause and acknowledgment that the show will continue; for pre-rolls: direct but not intrusive)
 3. Writes the ad body in the host's stated voice — if the show is warm and conversational, the ad is warm and conversational; if the show is dry and skeptical, the ad reflects that register
@@ -111,8 +111,8 @@ Okay — back to dimethyl sulfide and why the ocean smells the way it does.
 ---
 
 ## Known Limitations
-- Claude cannot verify whether a host actually uses or endorses the product — a personal endorsement angle must only be used if it is truthful; using fabricated personal endorsements may violate FTC guidelines (US) and equivalent regulations in other territories
-- Some sponsors have very specific required phrases that do not sound natural in spoken audio; Claude will integrate them as smoothly as possible and flag any that remain awkward — the user must decide whether to use the sponsor's required language or negotiate an alternative
+- The assistant cannot verify whether a host actually uses or endorses the product — a personal endorsement angle must only be used if it is truthful; using fabricated personal endorsements may violate FTC guidelines (US) and equivalent regulations in other territories
+- Some sponsors have very specific required phrases that do not sound natural in spoken audio; the assistant will integrate them as smoothly as possible and flag any that remain awkward — the user must decide whether to use the sponsor's required language or negotiate an alternative
 - Ad read length assumes a conversational speaking pace (~140 wpm for natural spoken delivery); hosts who speak significantly faster or slower should re-time the script
 - This skill does not write the disclosure statement ("this episode is sponsored by") required by some platforms and regulations; the user is responsible for checking their platform's sponsorship disclosure requirements
 

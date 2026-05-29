@@ -24,8 +24,7 @@ Writes two SEO-optimized meta descriptions for an article, landing page, or cont
 
 **Optional:** Secondary keywords (1-3 additional terms); the target audience in one phrase; the publication or brand voice (formal, conversational, authoritative); whether the page is evergreen or time-sensitive; the current meta description if one exists and you want it improved.
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Identifies the search intent.** Determines whether the primary keyword signals informational intent (the searcher wants to learn), transactional intent (the searcher wants to do something), or navigational intent (the searcher wants to find a specific page). The meta description is written to match that intent — not to summarize the article, but to answer the searcher's implicit question: "Is this the result I need?"
 
 2. **Writes two variants with different optimization strategies:**

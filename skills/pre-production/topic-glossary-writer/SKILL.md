@@ -23,7 +23,7 @@ Produces a plain-language glossary of essential terms for a complex or specialis
 **Required:** The topic or subject area, and the intended audience for the glossary (e.g. journalist preparing for an interview, TV presenter, general reader, production team).
 **Optional:** The specific story angle or editorial focus, any terms you already know are relevant, the format of the final content (broadcast, print, online), and any terms you want defined even if they seem basic.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core terms a non-specialist must understand to follow the topic accurately — prioritising terms that are commonly misused, misunderstood, or used inconsistently across sources.
 2. Writes each definition in plain language, at the level of a well-educated non-specialist. Avoids circular definitions ("a derivative is a type of financial derivative").
 3. Adds a brief note where a term is frequently confused with another, or where common usage differs from technical usage — these distinctions are where errors most often occur in journalism.
@@ -99,8 +99,8 @@ The practice of making misleading claims about environmental credentials. In the
 - **"Climate positive"** — a marketing term with no agreed technical definition. Avoid without a precise explanation.
 
 ## Known Limitations
-- Claude's knowledge of specific offset standards, verification bodies, and market mechanisms reflects its training data. For breaking regulatory developments or recently updated standards, cross-check with a specialist source or the relevant standards body's published documentation.
-- Glossaries work best for topics with relatively stable terminology. In fast-moving fields (AI regulation, emerging financial instruments), terms may shift in meaning between Claude's training cutoff and your publication date.
+- The assistant's knowledge of specific offset standards, verification bodies, and market mechanisms reflects its training data. For breaking regulatory developments or recently updated standards, cross-check with a specialist source or the relevant standards body's published documentation.
+- Glossaries work best for topics with relatively stable terminology. In fast-moving fields (AI regulation, emerging financial instruments), terms may shift in meaning between the assistant's training cutoff and your publication date.
 - This skill defines terms; it does not assess which claims in your story are accurate. Use the glossary as a foundation for questions, not as a substitute for expert review of your final copy.
 
 ## Related Skills

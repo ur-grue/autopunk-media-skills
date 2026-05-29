@@ -34,7 +34,7 @@ Writes a co-production brief for approaching a foreign broadcaster, streaming pl
 - International angle or connection to the partner's territory that makes this project relevant to them
 - Comparable co-productions that set a market precedent
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a concise project description that emphasizes the international dimension — specifically what makes this story relevant beyond the producing country
 2. Identifies the business proposition clearly: what the partner is being asked to contribute, what they receive in return, and how the co-production credit and editorial structure would work
 3. Presents the financing architecture: what is already in place, what gap the partner fills, and why the deal structure is realistic and balanced
@@ -106,8 +106,8 @@ The three-territory structure positions the series for strong international sale
 We are presenting *After the Ice* at Sunny Side of the Doc in June and would welcome a one-to-one meeting at the market. We are also available for a video call at any point before the market to share the series treatment, director's statement, and development cut (available in May). Please contact us at: development@nordvindfilm.no
 
 ## Known Limitations
-- Co-production treaties and rules vary significantly by country pair; Claude cannot verify whether a proposed deal structure is compliant with a specific bilateral co-production treaty — this must be confirmed with a media lawyer or treaty administrator
-- Specific broadcaster acquisition budgets and co-production policies are not known to Claude; the amounts and deal structures produced here are illustrative and should be calibrated by the user against real market knowledge
+- Co-production treaties and rules vary significantly by country pair; the assistant cannot verify whether a proposed deal structure is compliant with a specific bilateral co-production treaty — this must be confirmed with a media lawyer or treaty administrator
+- Specific broadcaster acquisition budgets and co-production policies are not known to the assistant; the amounts and deal structures produced here are illustrative and should be calibrated by the user against real market knowledge
 - For treaty co-productions (where both parties receive official co-producer status under a bilateral agreement), this brief is a starting document only — formal treaty applications require additional paperwork
 - This skill writes the brief; it does not write a full series bible, treatment, or financing plan, all of which are typically required at later stages of the co-production conversation
 

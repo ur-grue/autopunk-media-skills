@@ -25,7 +25,7 @@ Produces a clear, specific description of who a piece of content is written for 
 
 **Optional:** The publication or platform it will appear in; any existing audience data (demographics, readership surveys, engagement patterns); who the writer imagined as they wrote it; any audiences the publication explicitly does not serve.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the piece description and identifies the specific knowledge, interests, and concerns it assumes in a reader — not a generic category ("adults aged 25–45") but a concrete set of characteristics that explain why someone would seek this piece out and find it useful.
 2. Defines the primary audience in terms of what they already know, what problem or question the piece answers for them, and what they are likely to do with the information after reading. Avoids demographic labels as the primary descriptor — they are secondary to psychographic and contextual fit.
 3. Identifies any secondary audiences who might engage with the piece for different reasons, notes any audiences the piece is likely to confuse or disappoint (so the team can decide whether to adjust the writing or narrow distribution), and flags whether the piece's current framing matches the intended audience.
@@ -64,7 +64,7 @@ The piece's structure — leading with individual pharmacists before introducing
 
 ## Known Limitations
 - This skill works from the piece description you provide — it cannot read the actual draft. If the draft differs significantly from the description, the audience definition may not match the finished piece. For a precise fit check, provide the actual text or a detailed summary of the argument, not just the topic.
-- Audience definition does not substitute for actual reader data. If your publication has readership surveys, analytics, or subscriber profiles, those should be used to validate or override Claude's output.
+- Audience definition does not substitute for actual reader data. If your publication has readership surveys, analytics, or subscriber profiles, those should be used to validate or override the assistant's output.
 - This skill does not produce audience size estimates, reach projections, or advertising-ready demographic breakdowns. It is an editorial tool, not a media planning tool.
 
 ## Related Skills

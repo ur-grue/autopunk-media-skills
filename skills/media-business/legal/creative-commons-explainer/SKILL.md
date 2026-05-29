@@ -27,18 +27,18 @@ Explains a specific Creative Commons licence in plain language, telling a media 
 - Your intended use (editorial article, commercial broadcast, YouTube video, podcast, social media, remix/adaptation, print publication)
 - Whether you plan to modify the work (crop, edit, translate, incorporate into a larger piece)
 - Whether your use is commercial or non-commercial
-- The specific content you are licensing (helps Claude give concrete examples of compliant attribution)
+- The specific content you are licensing (helps the assistant give concrete examples of compliant attribution)
 
-## How Claude Approaches This
-1. **Identifies the licence and version.** Creative Commons licences differ meaningfully between versions (2.0, 3.0, 4.0). Claude confirms the exact licence and version, notes any differences from the current version if relevant, and flags if the licence URL or abbreviation does not match a valid CC licence.
+## How the Assistant Approaches This
+1. **Identifies the licence and version.** Creative Commons licences differ meaningfully between versions (2.0, 3.0, 4.0). The assistant confirms the exact licence and version, notes any differences from the current version if relevant, and flags if the licence URL or abbreviation does not match a valid CC licence.
 
 2. **Explains the licence in four plain-language categories.** Every CC licence answer covers: (a) Can I use this commercially? (b) Can I modify, remix, or adapt it? (c) Do I have to credit the creator, and how? (d) Do I have to share my version under the same licence? These four questions cover 95% of what media professionals need to know.
 
-3. **Applies the licence to the stated use case.** If you describe your intended use, Claude gives a direct yes/no answer on whether that use is permitted, with a brief explanation of why. No hedging when the answer is clear; honest flagging when it is genuinely ambiguous.
+3. **Applies the licence to the stated use case.** If you describe your intended use, the assistant gives a direct yes/no answer on whether that use is permitted, with a brief explanation of why. No hedging when the answer is clear; honest flagging when it is genuinely ambiguous.
 
-4. **Provides a model attribution line.** For licences that require attribution, Claude writes an example attribution line that meets the licence requirements — including the creator's name (if known), the work title, the licence name, and a link to the licence deed. This is copy-paste ready.
+4. **Provides a model attribution line.** For licences that require attribution, the assistant writes an example attribution line that meets the licence requirements — including the creator's name (if known), the work title, the licence name, and a link to the licence deed. This is copy-paste ready.
 
-5. **Flags common mistakes.** Many media professionals misunderstand "non-commercial" (it does not mean "I am not making money from this specific piece"), confuse ShareAlike with attribution-only, or forget that NoDerivatives prohibits cropping or editing. Claude identifies the most common mistake for the specific licence and warns against it.
+5. **Flags common mistakes.** Many media professionals misunderstand "non-commercial" (it does not mean "I am not making money from this specific piece"), confuse ShareAlike with attribution-only, or forget that NoDerivatives prohibits cropping or editing. The assistant identifies the most common mistake for the specific licence and warns against it.
 
 ## Output Format
 200–350 words. Structured in clear sections: Licence Summary (one sentence), What You Can Do, What You Cannot Do, Attribution Requirement (with a model attribution line), and Common Mistakes. If a specific use case was provided, a "Your Use Case" section gives a direct yes/no verdict. Tone: plain English, no legal jargon, written for someone who has never read a licence in their life. No disclaimers about not being a lawyer — the output is practical guidance, clearly presented.
@@ -92,9 +92,9 @@ Note the final line — when you modify a CC-licensed work, best practice is to 
 The most frequent error with NC licences is assuming that "non-commercial" means "I am not a business" or "I am not selling this specific image." It does not. If the platform, channel, or publication where you use the work generates revenue — through ads, subscriptions, memberships, or sponsorship — the use is generally considered commercial, regardless of whether the specific piece of content is directly monetised.
 
 ## Known Limitations
-- Creative Commons licences are legal instruments, and edge cases exist. Claude provides practical guidance that is accurate for straightforward use cases, but genuinely ambiguous situations (e.g., whether a specific use qualifies as "non-commercial" in a particular jurisdiction) may require legal advice.
-- Claude cannot verify that the person who applied the CC licence to a work actually held the rights to do so. If the original uploader did not own the copyright, the CC licence may be invalid. When in doubt about provenance, verify the source.
-- The explanation covers the licence terms as written by Creative Commons. Some institutions apply additional terms or restrictions alongside CC licences (e.g., "CC BY 4.0, but please notify us of use"). Claude addresses the CC licence only, not supplementary conditions.
+- Creative Commons licences are legal instruments, and edge cases exist. The assistant provides practical guidance that is accurate for straightforward use cases, but genuinely ambiguous situations (e.g., whether a specific use qualifies as "non-commercial" in a particular jurisdiction) may require legal advice.
+- The assistant cannot verify that the person who applied the CC licence to a work actually held the rights to do so. If the original uploader did not own the copyright, the CC licence may be invalid. When in doubt about provenance, verify the source.
+- The explanation covers the licence terms as written by Creative Commons. Some institutions apply additional terms or restrictions alongside CC licences (e.g., "CC BY 4.0, but please notify us of use"). The assistant addresses the CC licence only, not supplementary conditions.
 
 ## Related Skills
 - [copyright-holder-finder](../copyright-holder-finder/SKILL.md) — find the rights holder when a work is not CC-licensed and you need permission

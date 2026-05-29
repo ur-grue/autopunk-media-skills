@@ -37,7 +37,7 @@ Drafts a complete production call sheet for a documentary shoot day, with crew c
 - Production company name and logo description (for header)
 - Key contact numbers (production manager, location contact, runner)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Builds the header block.** Places production title, shoot date, day number (if part of a series), and the production company name at the top. Adds a one-line weather summary if provided, or flags it as "TBC — check morning of shoot."
 
 2. **Structures crew and talent calls.** Lists every crew member and talent with their individual call time, role, and any specific instructions (e.g., "Camera Operator — arrive 30 min before talent for lighting setup"). If only a general call time is given, applies standard documentary offsets: crew call 60–90 minutes before first setup, talent call 30 minutes before scheduled interview or scene.
@@ -192,7 +192,7 @@ Lunch: The Old Mill pub, 2 min walk from location. Table booked for 13:00.
 ---
 
 ## Known Limitations
-- Claude cannot verify addresses, travel times, or hospital locations. All location details must be confirmed by the production team before the call sheet is distributed.
+- The assistant cannot verify addresses, travel times, or hospital locations. All location details must be confirmed by the production team before the call sheet is distributed.
 - Phone numbers are almost never provided in full during briefing — the call sheet will flag every missing contact number, but the producer must populate these manually before sending.
 - For multi-location shoot days with travel between sites, the schedule estimates may be inaccurate without specific travel time data. Provide drive times between locations for a realistic schedule.
 

@@ -25,7 +25,7 @@ Generate a structured catalogue of interview questions for a specific subject an
 
 **Optional:** Intended interview length; known facts about the subject you want to build on; areas the subject has said they will not discuss; whether the tone is collaborative (subject is supportive) or adversarial (subject is being challenged or held to account); specific outcomes needed (a soundbite, a personal story, a confession, a technical explanation)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Organises the question set into 3–5 thematic blocks based on the topic and interview angle — each block covers a distinct territory, moving from broad context to specific detail
 2. Sequences questions within each block: starts with an open question that invites the subject to talk freely, followed by follow-up questions that probe or redirect
 3. Marks any question that directly addresses the core angle of the interview as [MUST-ASK] — these are the questions that cannot be skipped regardless of time

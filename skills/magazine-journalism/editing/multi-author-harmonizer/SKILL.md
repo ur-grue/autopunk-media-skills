@@ -24,7 +24,7 @@ Reviews a text written or assembled by multiple authors and produces a detailed 
 
 **Optional:** The target voice or style to harmonise toward (e.g., "match the tone of Section 1," "align to our house style," or "aim for formal analytical register"); the publication type; any specific concerns (e.g., "the middle section feels more casual than the rest").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Profiles each voice.** Reads the full text and identifies distinct stylistic signatures: sentence length patterns, formality level, use of first person vs. third person, degree of hedging, attribution style, punctuation habits (em dashes, semicolons, parentheticals), and vocabulary register. If author boundaries are labelled, profiles each author's section. If not, identifies where the voice shifts.
 
 2. **Flags inconsistencies.** Produces a categorised list of discrepancies:

@@ -23,7 +23,7 @@ Analyzes statistics used in a draft article and flags any that are misrepresente
 **Required:** The specific statistics used in the article (quoted verbatim from the draft) along with their attributed sources; the story context
 **Optional:** The full draft text; any known methodological notes about the data sources; the publication audience (general vs. technically literate)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads each statistic and assesses whether the attributed source plausibly produces this type of data, and whether the statistic has been reproduced accurately (correct figure, correct unit, correct year)
 2. Checks for common misrepresentation patterns: reversed causality presented as fact, relative vs. absolute risk conflation, percentage vs. percentage-point errors, non-representative sample presented as universal, outdated data, and inappropriate comparisons across different measurement methodologies
 3. Flags missing context that would change how a reader interprets the statistic — base rate, sample size, margin of error, comparison period
@@ -136,7 +136,7 @@ This claim has no source. It is directionally consistent with available data, bu
 
 ## Known Limitations
 - This skill assesses statistics based on general knowledge of common data sources and statistical methodology. It cannot access the specific study or database cited to verify the exact number — that verification requires the reporter to pull the original source.
-- For statistics from highly specialized or proprietary datasets (industry market research, internal company data), Claude may not be familiar with the specific methodology and will flag for verification rather than providing a confident assessment.
+- For statistics from highly specialized or proprietary datasets (industry market research, internal company data), the assistant may not be familiar with the specific methodology and will flag for verification rather than providing a confident assessment.
 - This skill identifies statistical misrepresentation patterns but cannot resolve empirical disputes in contested scientific fields — where multiple peer-reviewed studies disagree, the brief will note the disagreement but cannot adjudicate it.
 - Margin of error and confidence interval checks require the original study data; the skill flags when these should be added but cannot supply them.
 

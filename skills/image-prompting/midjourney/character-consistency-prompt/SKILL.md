@@ -32,7 +32,7 @@ Writes a set of Midjourney prompts designed to maintain consistent character app
 - Aspect ratio for intended use
 - Any seed number from a prior successful generation
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Builds a dense, precise character anchor string — a consistent block of descriptive text that will be used verbatim in every prompt in the set, covering the character's appearance in enough detail that Midjourney has minimal room for variation
 2. Identifies the key consistency anchors: face structure, hair, signature clothing item or accessory — these are what must appear in every image
 3. Writes a base prompt for the first image, then generates scene-specific prompts that keep the character anchor string identical and vary only the environment, action, and lighting

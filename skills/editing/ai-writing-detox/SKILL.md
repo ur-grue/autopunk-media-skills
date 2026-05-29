@@ -24,7 +24,7 @@ Rewrites AI-flavoured copy into a publishable register by stripping the language
 **Required:** The draft text you want detoxed.
 **Optional:** Outlet or surface (news article, show notes, internal memo, README), audience register (general public, working journalists, investor-facing), any preserved terms (e.g., a term that looks like jargon but has been defined earlier in the piece), word-count constraint if the rewrite must hit a length.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full draft and identifies every hit against the **Hard ban** list — these are non-negotiable rewrites.
 2. Reads it again for **Soft warn** patterns — surfaces them with one-line reasons; the editor decides whether to keep, soften, or cut.
 3. Produces a rewritten draft that preserves every load-bearing fact and quote, swaps banned vocabulary for the plainest accurate alternative, and dismantles "not just X — Y" / "it's not about X, it's about Y" constructions into direct claims.

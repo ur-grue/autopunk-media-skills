@@ -22,9 +22,9 @@ Identifies historical precedents relevant to a current news event or policy deba
 ## What You Need To Provide
 **Required:** A clear description of the current event, policy, or situation you need precedents for — including the specific aspect you want to compare (e.g., "the economic impact of a rapid technology transition," not just "AI").
 
-**Optional:** Any historical precedents already being cited in media coverage (helps Claude assess their accuracy and offer alternatives); the time period or geography you want precedents from; the audience (general reader, specialist, editorial team); whether you want analogies that support or challenge the dominant narrative.
+**Optional:** Any historical precedents already being cited in media coverage (helps the assistant assess their accuracy and offer alternatives); the time period or geography you want precedents from; the audience (general reader, specialist, editorial team); whether you want analogies that support or challenge the dominant narrative.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the structural features of the current situation.** Before searching for precedents, defines the 3–5 structural characteristics that any relevant precedent must share — e.g., "a rapid shift in a major industry driven by technology, affecting a large workforce, with government intervention debated." This prevents superficial comparisons based on surface similarity.
 
 2. **Proposes 2–4 historical precedents.** For each, provides a concise description (what happened, when, where) and explains specifically which structural features it shares with the current situation and which it does not. Precedents are selected for analytical value, not just familiarity.
@@ -113,7 +113,7 @@ The surface similarity is compelling — workers in a specific sector losing job
 This analogy is essentially useless for serious analysis. The Luddite movement was a labour protest against specific machinery in the early 19th-century textile industry. It tells us nothing about the design of government retraining programmes, the effectiveness of industry levies, or the labour market conditions facing modern warehouse workers. Citing the Luddites is a way of signalling familiarity with the concept of technology displacement, not a way of understanding it.
 
 ## Known Limitations
-- Claude's historical knowledge is drawn from training data and is not exhaustive. Obscure or recent precedents may be missing. The journalist should verify the factual details of any precedent cited and consult the recommended sources for depth.
+- The assistant's historical knowledge is drawn from training data and is not exhaustive. Obscure or recent precedents may be missing. The journalist should verify the factual details of any precedent cited and consult the recommended sources for depth.
 - Historical analogies are inherently imperfect. This skill is designed to highlight differences as much as similarities, but the journalist must exercise editorial judgment about which comparisons are illuminating and which are misleading in their specific reporting context.
 - The skill cannot access recent academic publications, newly released government reports, or updated programme evaluations. Source recommendations may need supplementation with the most current research.
 

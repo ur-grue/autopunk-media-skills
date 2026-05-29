@@ -23,7 +23,7 @@ Identifies the newsworthy story or stories hidden inside a dataset before any wr
 **Required:** A description of what the dataset contains — column headers, row count, time period covered, and source. Include a small representative sample (5–20 rows) if possible.
 **Optional:** The institution or event the data came from; any story hypothesis you already have; publication type and audience.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the dataset description and sample to understand the structure, variables, and coverage period.
 2. Applies five standard news-value lenses: magnitude, change over time, geographic variation, outliers, and hidden/buried comparisons.
 3. Generates a ranked list of potential story angles with a plain-language summary of what makes each newsworthy, what data point supports it, and what additional reporting would be needed to publish it.

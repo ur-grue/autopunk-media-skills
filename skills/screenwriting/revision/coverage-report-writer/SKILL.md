@@ -23,7 +23,7 @@ Writes a structured script coverage report — logline, synopsis, breakdown scor
 **Required:** Full script synopsis or detailed act-by-act breakdown; title, writer, format (feature/pilot/series), draft date; brief description of the script's genre and premise
 **Optional:** The target company or slate (informs marketability assessment); comparable titles mentioned in the script or by the writer; any prior feedback the writer has received; the reader's recommendation context (is this unsolicited or a requested read?)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Produces the standard header block used across the industry: title, writer, format, pages (if known), genre, draft date, date of coverage, reader (left blank or as specified), and the grid of one-word ratings (Pass / Consider / Recommend) for premise, structure, character, dialogue, and overall
 2. Writes a one-sentence logline, then a synopsis of approximately 400 words covering the full story including the ending — unlike a one-pager, coverage is an internal document and always spoils the resolution
 3. Writes a comments section structured as: premise evaluation, structural analysis, character assessment, dialogue quality, marketability/commercial context, and overall recommendation — each as a short, headed paragraph

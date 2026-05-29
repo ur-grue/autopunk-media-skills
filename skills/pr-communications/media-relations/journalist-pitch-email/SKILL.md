@@ -24,7 +24,7 @@ Writes a targeted pitch email to a specific journalist offering an exclusive, in
 
 **Optional:** Suggested headline angle; embargo date if applicable; supporting data or statistics; a link to a background briefing or press release; whether you are pitching this exclusively or to multiple journalists; a specific deadline or publication window you are working to.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the news hook in the first sentence — no "I hope this email finds you well" or any preamble. Journalists receive hundreds of pitches a day; the story value must be immediately visible.
 2. Connects the pitch explicitly to the journalist's beat or a recent piece they wrote, showing the email is not a mass send.
 3. States the offer clearly: what access is available, who they would speak to, and what they would get that is not available to competitors.
@@ -70,9 +70,9 @@ Communications, Roscoe University
 sam.adeyemi@roscoe.example.edu | +44 7xxx xxxxxx
 
 ## Known Limitations
-- Claude does not have access to a journalist's actual published work, social media presence, or real editorial interests — the connection to the journalist's beat must be provided accurately in the input, or the personalisation will be generic and unconvincing.
-- A pitch email is only as strong as the story it is pitching. If the news value is weak, Claude will write the strongest possible pitch for what exists — it will not invent news value that is not there.
-- For sensitive or embargoed pitches (involving company data, legal proceedings, or unpublished research), security of the email channel is the sender's responsibility — Claude cannot assess the risk of the communication method.
+- The assistant does not have access to a journalist's actual published work, social media presence, or real editorial interests — the connection to the journalist's beat must be provided accurately in the input, or the personalisation will be generic and unconvincing.
+- A pitch email is only as strong as the story it is pitching. If the news value is weak, the assistant will write the strongest possible pitch for what exists — it will not invent news value that is not there.
+- For sensitive or embargoed pitches (involving company data, legal proceedings, or unpublished research), security of the email channel is the sender's responsibility — the assistant cannot assess the risk of the communication method.
 
 ## Related Skills
 - [press-release-writer](../../press-office/press-release-writer/SKILL.md)

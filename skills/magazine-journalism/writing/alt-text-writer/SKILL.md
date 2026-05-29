@@ -30,13 +30,12 @@ Writes descriptive alt text for editorial images following WCAG accessibility gu
 - Any specific accessibility guidelines the publication follows beyond WCAG 2.1
 - Whether the image is purely decorative (in which case alt text should be empty per WCAG)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
+1. **Determines the image's editorial function.** The same photograph requires different alt text depending on its role. A portrait of an interview subject needs identification and context. A lead image for a feature needs to convey the scene's mood and content. A chart needs its data summarized. The assistant reads the editorial context first, then writes alt text that serves the image's purpose in the article.
 
-1. **Determines the image's editorial function.** The same photograph requires different alt text depending on its role. A portrait of an interview subject needs identification and context. A lead image for a feature needs to convey the scene's mood and content. A chart needs its data summarized. Claude reads the editorial context first, then writes alt text that serves the image's purpose in the article.
+2. **Writes for screen reader users, not search engines.** Alt text is read aloud by assistive technology. The assistant writes in natural, spoken-language phrasing — not keyword-stuffed SEO text. The description is specific enough that a person who cannot see the image understands what it shows and why it matters to the article.
 
-2. **Writes for screen reader users, not search engines.** Alt text is read aloud by assistive technology. Claude writes in natural, spoken-language phrasing — not keyword-stuffed SEO text. The description is specific enough that a person who cannot see the image understands what it shows and why it matters to the article.
-
-3. **Keeps it concise but complete.** WCAG guidelines recommend alt text between 10 and 125 characters for most images. Claude aims for one to two sentences that cover the essential visual information without overloading. If the image is complex (infographic, data visualization, detailed scene), Claude writes a short alt attribute and recommends a longer description in the article body or a `longdesc` element.
+3. **Keeps it concise but complete.** WCAG guidelines recommend alt text between 10 and 125 characters for most images. The assistant aims for one to two sentences that cover the essential visual information without overloading. If the image is complex (infographic, data visualization, detailed scene), the assistant writes a short alt attribute and recommends a longer description in the article body or a `longdesc` element.
 
 4. **Follows accessibility conventions.** Does not begin with "Image of" or "Photo of" — screen readers already announce the element as an image. Does not duplicate the caption. Does include text visible in the image if that text is editorially significant. Marks purely decorative images with empty alt attributes.
 
@@ -83,7 +82,7 @@ For decorative images:
 **Alt text:** "" (decorative — no alt text needed)
 
 ## Known Limitations
-- Claude cannot see or analyze actual images. The skill works from your text description — if details are omitted or inaccurate in the description, the alt text will reflect those gaps. Always verify against the actual image.
+- The assistant cannot see or analyze actual images. The skill works from your text description — if details are omitted or inaccurate in the description, the alt text will reflect those gaps. Always verify against the actual image.
 - Alt text that works well for accessibility may not be optimal for SEO, and vice versa. This skill prioritizes accessibility. If SEO metadata is needed separately, write it in the image's title attribute or structured data, not the alt attribute.
 - For images containing significant amounts of text (infographics, screenshots of documents), the alt text will be necessarily incomplete. Follow the recommendation to provide a full transcription in the article body or a linked long description.
 

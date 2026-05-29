@@ -24,7 +24,7 @@ Produces a clear, step-by-step brief explaining exactly how to convert a finishe
 
 **Optional:** The name or type of CMS the output will be pasted into (WordPress, Arc, Contentful, Ghost). Any house style rules that affect markup — for example, whether `<h2>` or `##` is used for section heads, or whether links open in new tabs.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies every structural element in the source document — body paragraphs, headlines, subheadings, captions, bylines, pull quotes, bullet lists, links, footnotes — and maps each to its correct equivalent in the target format.
 2. Flags any elements that have no clean equivalent in the target format (for example, multi-column layouts or decorated drop caps in Word have no Markdown equivalent) and recommends a practical workaround.
 3. Produces a brief structured as a numbered conversion checklist: one instruction per element type, written in plain language so that any editor — not just a developer — can follow it without ambiguity.

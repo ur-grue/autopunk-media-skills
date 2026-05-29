@@ -24,7 +24,7 @@ Drafts a plain-language talent or location release form for use in documentary, 
 
 **Optional:** Territory of distribution, whether the release needs to be in perpetuity or for a fixed term, any specific provisions required by a broadcaster or distributor, whether the subject requires any editorial consultation rights or notification rights.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the type of release required and the key provisions that must be present for the production's intended use — talent releases and location releases have different core requirements
 2. Drafts the release in plain language that covers: what rights are being granted, for what purpose, for which platforms and territories, for how long, and what (if anything) the subject receives in return
 3. Flags any provisions that are standard but require the subject's informed understanding (such as a publicity rights grant) and includes a plain-language explanation alongside any formal legal language

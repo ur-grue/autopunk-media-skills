@@ -23,7 +23,7 @@ Generates a range of headline and subheadline options across different registers
 **Required:** Article topic or a 2–4 sentence summary of the piece; publication type or audience (e.g., national newspaper, trade publication, literary magazine, digital media brand)
 **Optional:** Existing working headline you want to improve or use as reference; headline character limit; whether a subheadline (dek) is needed; any words or framing to avoid; tone directive (serious, provocative, wry, neutral)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the article's core argument, revelation, or conflict — the one thing that makes this piece worth reading — and uses that as the anchor for all headline options
 2. Generates headlines across distinct structural approaches: declarative statement, question, imperative, ironic twist, "x of y" construction, and the clean noun-phrase format used by literary and long-form publications
 3. Calibrates register to the specified publication type — tabloid vocabulary and punctuation differ fundamentally from literary magazine style; trade press follows different conventions from consumer lifestyle
@@ -99,8 +99,8 @@ No character limit specified
 *Notes: Options 1 and 5 are strongest for digital/SEO. Options 3 and 4 suit the literary register of a print feature. If this piece goes on a cover, Option 7 with a coverline dek is the most elegant short form.*
 
 ## Known Limitations
-- Headline effectiveness in digital depends partly on thumbnail/image context that Claude cannot see; some options may need adjustment once the visual is known
-- Claude cannot verify claims or data in the article summary; headlines are only as accurate as what you provide — any specific figure in a headline (e.g., "18 months") must be verified in the reporting
+- Headline effectiveness in digital depends partly on thumbnail/image context that the assistant cannot see; some options may need adjustment once the visual is known
+- The assistant cannot verify claims or data in the article summary; headlines are only as accurate as what you provide — any specific figure in a headline (e.g., "18 months") must be verified in the reporting
 - Literary and ironic headlines can underperform algorithmically on platforms that prioritize clear keyword matching; flag your distribution channel when requesting
 
 ## Related Skills

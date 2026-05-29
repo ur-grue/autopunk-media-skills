@@ -33,7 +33,7 @@ Adds broadcast-standard timecodes to a plain transcript at regular intervals or 
 - Any known timecode jumps or discontinuities in the source media
 - Whether you need timecodes in HH:MM:SS:FF format (broadcast) or HH:MM:SS format (simplified)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Analyses the transcript structure.** Identifies speaker changes, paragraph breaks, natural pauses (indicated by ellipses, dashes, or "[pause]" markers), and approximate word count per section. Uses average speech rate (~150 words per minute for interview speech, ~130 for considered/emotional speech, ~170 for fast conversational speech) to estimate elapsed time from the starting timecode.
 
 2. **Inserts timecodes at the specified intervals.** If the user requests speaker-change timecodes, places a timecode at every speaker transition. If fixed-interval timecodes are requested, inserts them at the specified time gap (e.g., every 30 seconds), splitting the transcript text at the nearest sentence boundary to avoid mid-word breaks. If both are requested, combines them — speaker changes always get a timecode, and fixed-interval timecodes are added within long single-speaker passages.

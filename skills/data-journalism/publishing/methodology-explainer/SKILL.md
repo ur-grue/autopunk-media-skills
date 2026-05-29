@@ -23,7 +23,7 @@ Writes a plain-language explanation of a data journalism methodology — what da
 **Required:** A description of the data used (source, time period, scope). The analysis steps you performed (what you calculated, how you grouped or filtered data, any joins or merges with other datasets). The key findings. Any known limitations or caveats in the data or analysis.
 **Optional:** How the data was obtained (FOI, open data, licensed); what software or tools were used; whether the data was independently verified; whether any external expert reviewed the methodology.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Structures the methodology in the order a reader needs it: what data was used, how it was obtained, what was done with it, and what the results mean — followed by honest caveats.
 2. Writes for two audiences simultaneously: the general reader who wants a short, reassuring summary that the journalism is solid, and the specialist reader who needs enough detail to reproduce or challenge the methodology.
 3. Balances transparency with accessibility — avoids statistical jargon unless necessary, and always explains it when used.

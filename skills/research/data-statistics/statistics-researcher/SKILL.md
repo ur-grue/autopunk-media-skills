@@ -24,7 +24,7 @@ Compiles a structured set of credible, ready-to-cite statistics on a specific to
 **Required:** The topic or question you want statistics on (e.g. "youth unemployment in southern Europe" or "plastic waste produced by the packaging industry globally").
 **Optional:** Geographic scope (global, national, regional); time range (last 5 years, since 2010); preferred source types (government data, academic studies, NGO reports); how many statistics you need; the publication or broadcast format this is for.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Parses the topic into its core measurable dimensions — what quantities are likely to exist, what institutions would track them, and at what geographic and temporal granularity.
 2. Identifies the most credible primary source categories for the topic: national statistical agencies, UN system bodies, World Bank, OECD, peer-reviewed meta-analyses, sector-specific regulators, or major survey organisations.
 3. Retrieves or reconstructs the most current and widely cited figures for each dimension, noting the year of measurement, the methodology used (survey, administrative data, modelling), and the exact source and publication.
@@ -74,9 +74,9 @@ Statistics needed: 6–8
 **Source notes:** The FAO 2011 figure (Statistic 1) remains the most widely cited global total, but it was based on modelling rather than direct measurement. UNEP's 2021 Index is the current methodological standard for consumer-level waste and used direct data collection where available. For any story requiring up-to-date EU country-level comparisons, Eurostat's annual Waste Statistics publication is the primary source.
 
 ## Known Limitations
-- Claude can retrieve statistics from well-documented, widely published sources but cannot access paywalled databases, proprietary industry reports, or real-time data feeds — for those, you will need direct database access or a librarian.
-- Statistics on fast-moving topics (inflation, unemployment, conflict-related figures) may have been updated since Claude's knowledge cutoff; always verify the current figure against the original source before publication.
-- For highly localised data (a specific city, province, or sector niche), reliable official statistics may simply not exist — Claude will flag this rather than substitute an estimate.
+- The assistant can retrieve statistics from well-documented, widely published sources but cannot access paywalled databases, proprietary industry reports, or real-time data feeds — for those, you will need direct database access or a librarian.
+- Statistics on fast-moving topics (inflation, unemployment, conflict-related figures) may have been updated since the assistant's knowledge cutoff; always verify the current figure against the original source before publication.
+- For highly localised data (a specific city, province, or sector niche), reliable official statistics may simply not exist — the assistant will flag this rather than substitute an estimate.
 
 ## Related Skills
 - [statistical-report-summariser](../statistical-report-summariser/SKILL.md)

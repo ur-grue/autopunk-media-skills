@@ -24,7 +24,7 @@ Writes a pre-interview briefing note for a spokesperson, covering the interview 
 
 **Optional:** A recent press release or statement the interview connects to; specific questions the journalist has submitted in advance; background on the journalist's likely angle or known position; previous on-record statements that must remain consistent; whether there is a call-to-action for the audience.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a one-paragraph interview context brief: who is interviewing them, why, the likely angle, and the tone the journalist is expected to take.
 2. States the three to five key messages clearly, numbered, with a plain-English rationale for each — not just the message but why it matters to land it.
 3. Lists the anticipated questions in journalist register (direct, sometimes adversarial), with a recommended response or line-to-take for each.
@@ -109,7 +109,7 @@ Bridgeway is a company that invests in the people affected by change — not one
 
 ## Known Limitations
 - The quality of the anticipated questions depends on the accuracy of the input about the journalist's known angle. If the journalist takes an unexpected line, the briefing note does not cover it — spokespeople must be prepared to bridge to their messages regardless.
-- Claude cannot predict how aggressive or persistent the questioning will be. This briefing note prepares the content of responses but is not a substitute for live media training with a trained coach.
+- The assistant cannot predict how aggressive or persistent the questioning will be. This briefing note prepares the content of responses but is not a substitute for live media training with a trained coach.
 - For interviews touching on litigation, regulatory proceedings, or employment law, every line-to-take in this document must be reviewed by legal counsel before the interview proceeds.
 
 ## Related Skills

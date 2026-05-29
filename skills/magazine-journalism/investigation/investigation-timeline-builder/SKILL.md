@@ -23,7 +23,7 @@ Builds a structured, annotated chronological timeline from raw notes, documents,
 **Required:** Raw notes, document excerpts, or bullet-point summaries of events in any order; the investigation's subject (person, institution, or incident)
 **Optional:** Known key dates you want anchored; the intended output use (internal working document vs. publishable graphic); any disputed or uncertain dates you want flagged; sources for specific events (document names, interviewee names)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Extracts all dateable events from the raw input and sorts them chronologically, noting where only approximate dates are available
 2. For each entry, records the event, the source or document it comes from, and a verification status (confirmed, single-source, or unverified)
 3. Identifies structural gaps in the timeline — periods of unexplained silence, missing transitions between events, or logical breaks that suggest something happened but is not yet documented

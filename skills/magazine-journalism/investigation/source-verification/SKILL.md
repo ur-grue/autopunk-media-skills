@@ -23,8 +23,7 @@ Walks through a structured verification of a source's claims, images, video, or 
 **Required:** The claim or material to verify (describe the image, video, document, or assertion); the source's stated provenance (who sent it, when, what they say it shows)
 **Optional:** The URL where the material was found; any metadata you have already extracted; the publication deadline (affects how deep the verification can go); whether the material will be used in a legal or regulatory context (triggers the evidence-preservation section)
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. **Stop.** Restates the claim and the source's provenance in neutral language. Identifies what specifically needs to be true for the material to support the claim.
 
 2. **Investigate the source.** Checks who is making the claim. Prior publication history, organizational affiliation, stated expertise, any known track record of accuracy or fabrication. Flags if the source is anonymous or if provenance is secondhand.
@@ -135,7 +134,7 @@ Date: [today's date]
 ```
 
 ## Known limitations
-- Claude cannot run reverse-image searches, extract EXIF data, or perform error-level analysis. This skill tells the reporter what tools to use and what to look for in the results — the reporter must run those tools themselves.
+- The assistant cannot run reverse-image searches, extract EXIF data, or perform error-level analysis. This skill tells the reporter what tools to use and what to look for in the results — the reporter must run those tools themselves.
 - Deepfake detection guidance covers observable indicators a reporter can check visually. It does not replace forensic analysis software for sophisticated manipulations.
 - C2PA Content Credentials are still rare in consumer media. The absence of credentials is not evidence of manipulation — it is the current default for most devices and platforms.
 - This skill does not verify the source's identity. It verifies whether the material is consistent with the source's claims about it. Identity verification is a separate reporting step.

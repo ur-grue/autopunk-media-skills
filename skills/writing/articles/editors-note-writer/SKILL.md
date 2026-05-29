@@ -34,7 +34,7 @@ Writes a clear, credible editor's note that explains to readers why an article h
 - Whether to link to a related correction policy or a fuller explanation
 - House style preference (e.g., italics, bold label, inline vs. top-of-article placement)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the type of note needed (correction, update, disclosure, retraction, or editorial context) and applies the conventions appropriate to that type — corrections name the error directly; disclosures state the relationship; updates explain what changed and why
 2. Drafts the note in a direct, professional voice that acknowledges the issue without excessive apology or defensiveness — the note builds trust by being specific, not by over-explaining
 3. Formats the note for top-of-article placement with a clear label ("Editor's note:", "Correction:", "Disclosure:") and a concise body of one to three sentences, ending with both the original publication date and the note date

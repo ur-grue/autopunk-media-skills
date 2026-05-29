@@ -23,10 +23,10 @@ Scans a draft for repeated ideas, redundant phrases, and unnecessary word cluste
 **Required:** The full text of the article, script, or document you want checked.
 **Optional:** Target word count or percentage reduction goal; any sections marked as deliberately repetitive for rhetorical effect (a refrain in a documentary narration, for example) that should be left unchanged.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the entire text before flagging anything, building a map of ideas, arguments, and phrases to identify repetition across the whole piece, not just within individual sentences.
 2. Identifies three types of redundancy: (a) **phrase-level** — word clusters where one word does the work of several (for example, "at this point in time" instead of "now"); (b) **sentence-level** — sentences that repeat information already established earlier; (c) **structural** — paragraphs or passages that circle back to a point already fully made without adding new information.
-3. For each flag, notes the location, identifies what is being repeated or what words are surplus, and proposes a specific cut or rewrite. Where a rhetorical repetition is intentional and effective, Claude notes it as a deliberate choice rather than flagging it for removal.
+3. For each flag, notes the location, identifies what is being repeated or what words are surplus, and proposes a specific cut or rewrite. Where a rhetorical repetition is intentional and effective, the assistant notes it as a deliberate choice rather than flagging it for removal.
 4. Produces a structured report followed by the full tightened text.
 
 ## Output Format

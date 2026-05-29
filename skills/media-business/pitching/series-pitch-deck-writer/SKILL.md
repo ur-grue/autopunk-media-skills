@@ -24,7 +24,7 @@ Writes the complete narrative content for a TV or streaming series pitch deck, c
 
 **Optional:** Comparable shows (your own references), specific broadcaster or platform you are targeting, tone words or aesthetic references, existing footage or research, key talent attached.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a logline that captures the central dramatic or editorial proposition in one sentence — specific enough to be distinctive, short enough to be memorable
 2. Writes a format overview paragraph covering genre, episode count, length, and production style, then articulates the series' tone and world in concrete language
 3. Outlines the episode arc or series structure (what changes across episodes, what the throughline is), adds comparable show references with a brief note on how this series differs, and closes with a broadcaster rationale that explains why this project fits that specific commissioning slate
@@ -101,7 +101,7 @@ Arte's cultural documentary strand is the natural home for a series that takes E
 
 ## Known Limitations
 - The broadcaster rationale section requires the user to name a specific broadcaster. Generic output ("suitable for any documentary commissioner") will be produced if no target is given, and it will be significantly weaker.
-- Comparable shows provided by the user are used as-is. If the comparables are poorly chosen or obscure, the section will reflect that — Claude cannot independently verify whether a comparable title is known to the target commissioner.
+- Comparable shows provided by the user are used as-is. If the comparables are poorly chosen or obscure, the section will reflect that — the assistant cannot independently verify whether a comparable title is known to the target commissioner.
 - Episode structure quality depends on the clarity of the user's input. Vague concepts produce generic episode descriptions.
 
 ## Related Skills

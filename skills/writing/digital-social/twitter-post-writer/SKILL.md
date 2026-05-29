@@ -23,7 +23,7 @@ Writes a single, publication-ready post for X/Twitter — 280 characters maximum
 **Required:** The story summary — one paragraph covering what happened, who is involved, and why it matters. Include a link if there is one to share.
 **Optional:** The intended account voice (newsroom, individual journalist, documentary channel, podcast); whether the post should stand alone or function as a thread opener; any specific element to foreground (data point, quote, date, outcome); words or frames to avoid.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the story for its single most shareable fact — the specific number, ruling, reversal, or detail that carries the most information in the fewest words.
 2. Leads with that fact or its direct consequence, not with context. Context earns its place only if it changes how the fact reads.
 3. Writes in clean indicative sentences — active voice, concrete nouns, no editorial amplification ("shocking," "bombshell," "must-read"). The fact does the work.

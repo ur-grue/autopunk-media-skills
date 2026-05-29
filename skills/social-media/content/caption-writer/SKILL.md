@@ -24,7 +24,7 @@ Writes platform-optimised social media captions for Instagram, LinkedIn, TikTok,
 
 **Optional:** Your account's voice or tone (formal, conversational, opinionated, dry, warm), any hashtag strategy or specific tags to include, the account type (personal brand, media outlet, documentary film, magazine, podcast), a character or word count limit.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the platform's conventions and what performs well in that context — Instagram rewards visual storytelling and warmth, LinkedIn rewards insight and professional credibility, TikTok rewards immediacy and humour or raw authenticity, Twitter/X rewards brevity and opinion
 2. Takes the core content and finds the single most engaging angle for the platform — not the most complete description of the content, but the one sentence or idea that makes someone stop scrolling
 3. Writes to the platform's natural length and structural conventions: hook, body (or immediate impact), close (question, CTA, or punchline), then suggests hashtags or platform-specific elements if requested

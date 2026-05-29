@@ -24,7 +24,7 @@ Writes a short, punchy newsletter blurb — the 60–120-word teaser entry that 
 
 **Optional:** Newsletter tone (e.g., dry and analytical, warm and editorial, urgent and breaking) · Audience description (e.g., policy professionals, general readers, media industry insiders) · Word limit if your template has one · Whether to include a read-time estimate (e.g., "5-minute read")
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the sharpest entry point into the story — the detail, finding, or question that would make the target reader stop scrolling and click, rather than a straight restatement of the headline
 2. Writes an opening sentence that earns attention without resorting to clickbait — specific, grounded in fact, and honest about what the piece delivers
 3. Adds one or two sentences of essential context, then closes with a forward-leaning phrase that functions as a soft call-to-action (e.g., "Read the full investigation →") — never a hard sell
@@ -60,7 +60,7 @@ Full story → [link]
 ## Known Limitations
 - Blurbs work best when the underlying story has a clear hook; if the piece is genuinely complex or ambiguous (a methodological explainer, a legal analysis), the blurb may feel thinner than the story deserves — in those cases, consider leading with the relevance to the reader rather than a narrative hook
 - This skill produces one blurb per story; for a full newsletter edition with multiple stories, run it once per item and then review the edition as a whole for tonal consistency across blurbs
-- Claude does not have access to your newsletter's historical voice or style guide — if you have specific phrasing conventions ("This week's must-read", "Worth your time"), include them in the prompt
+- The assistant does not have access to your newsletter's historical voice or style guide — if you have specific phrasing conventions ("This week's must-read", "Worth your time"), include them in the prompt
 
 ## Related Skills
 - [newsletter-teaser-writer](../../../magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md)

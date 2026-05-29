@@ -32,7 +32,7 @@ Writes a concise, informative caption for a published infographic that tells rea
 - Preferred caption length (short: one sentence; standard: two sentences; extended: up to four sentences for complex graphics)
 - House style preferences (e.g., source format, whether to include a note line)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the description of the graphic and identifies the single most important insight a reader should take from it — this becomes the lead sentence of the caption, not a description of what the chart type is
 2. Adds supporting context if needed (a comparison, a trend direction, a geographic scope) in a second sentence, only if it adds meaning not visible in the graphic itself
 3. Appends the source line in a standard format ("Source: [Organization], [Year]") and, if needed, a brief note on methodology or data limitations

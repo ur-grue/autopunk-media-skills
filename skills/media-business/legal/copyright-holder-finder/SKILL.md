@@ -30,16 +30,16 @@ Produces a step-by-step research plan for identifying the copyright holder of a 
 - Your intended use (editorial, commercial, broadcast, online-only — this affects which rights you need to clear)
 - Any deadline pressure (some research steps take weeks; knowing your timeline helps prioritise)
 
-## How Claude Approaches This
-1. **Assesses what is already known.** Before proposing research steps, Claude inventories the identifying information you have — creator name, publication, date, metadata, watermarks, reverse image search results — to determine how close you already are to an answer and which gaps remain.
+## How the Assistant Approaches This
+1. **Assesses what is already known.** Before proposing research steps, the assistant inventories the identifying information you have — creator name, publication, date, metadata, watermarks, reverse image search results — to determine how close you already are to an answer and which gaps remain.
 
-2. **Builds a research plan specific to the content type.** The path to a copyright holder differs by medium: photographs route through image agencies, photographer registries, and publication archives; music routes through performing rights organisations, mechanical rights databases, and publisher catalogues; text routes through publishers, literary agents, and copyright registration databases. Claude selects the relevant path and provides specific registries, databases, and organisations to contact.
+2. **Builds a research plan specific to the content type.** The path to a copyright holder differs by medium: photographs route through image agencies, photographer registries, and publication archives; music routes through performing rights organisations, mechanical rights databases, and publisher catalogues; text routes through publishers, literary agents, and copyright registration databases. The assistant selects the relevant path and provides specific registries, databases, and organisations to contact.
 
 3. **Orders steps from fastest to slowest.** The plan starts with quick digital checks (reverse image search, metadata extraction, online database lookups) and progresses to slower methods (contacting publishers, submitting formal enquiries to collecting societies, searching national copyright offices). This ensures you do not spend two weeks on a letter when a five-minute search would have found the answer.
 
-4. **Includes contact templates where useful.** For steps that require reaching out to organisations or individuals (e.g., a publisher's permissions department, a collecting society, or an archive), Claude provides a brief template for the enquiry — what to say, what information to include, and what to ask for.
+4. **Includes contact templates where useful.** For steps that require reaching out to organisations or individuals (e.g., a publisher's permissions department, a collecting society, or an archive), the assistant provides a brief template for the enquiry — what to say, what information to include, and what to ask for.
 
-5. **Flags when to seek legal advice.** If the research plan suggests the work may be orphaned, the rights situation is legally complex (e.g., works created under employment, works from dissolved companies, pre-digital-era contracts), or the intended use carries significant financial risk, Claude recommends consulting a media lawyer rather than proceeding on assumption.
+5. **Flags when to seek legal advice.** If the research plan suggests the work may be orphaned, the rights situation is legally complex (e.g., works created under employment, works from dissolved companies, pre-digital-era contracts), or the intended use carries significant financial risk, the assistant recommends consulting a media lawyer rather than proceeding on assumption.
 
 ## Output Format
 A numbered research plan of 5–10 steps, ordered from fastest to slowest. Each step includes: what to do, where to do it (specific database, website, or organisation name), and what result to expect. Where relevant, a brief contact template is included. The plan ends with a "If All Else Fails" section covering orphan works procedures and a recommendation on when to consult a lawyer. Tone: practical, specific, no legal jargon. Total length: 400–600 words.
@@ -104,9 +104,9 @@ If no rights holder can be identified after completing these steps, the photogra
 For a television documentary, the financial and reputational risk of using an uncleared image is significant. If the diligent search does not produce a rights holder, consult a media lawyer before proceeding — they can advise on the orphan works application or on whether your use might qualify under another exception.
 
 ## Known Limitations
-- Claude provides a research methodology, not a rights clearance. The plan directs you to the right databases and organisations, but you must perform the searches and contacts yourself. Claude cannot access external databases or verify current registry contents.
+- The assistant provides a research methodology, not a rights clearance. The plan directs you to the right databases and organisations, but you must perform the searches and contacts yourself. The assistant cannot access external databases or verify current registry contents.
 - Registry names and URLs are accurate at the time of writing but may change. Verify that the resources listed are still active, particularly for government databases and collecting societies.
-- For content originating in jurisdictions outside the UK, US, and EU, the relevant registries and legal frameworks may differ significantly. Claude can provide general guidance but may not know every national copyright office or collecting society.
+- For content originating in jurisdictions outside the UK, US, and EU, the relevant registries and legal frameworks may differ significantly. The assistant can provide general guidance but may not know every national copyright office or collecting society.
 
 ## Related Skills
 - [rights-clearance-checklist](../rights-clearance-checklist/SKILL.md) — a systematic checklist for clearing all third-party content in a production

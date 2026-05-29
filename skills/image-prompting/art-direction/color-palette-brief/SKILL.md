@@ -32,7 +32,7 @@ Generates a detailed color palette brief with named colors, hex codes, rationale
 - Whether you need dark mode and light mode variants
 - Any colors to avoid and why
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Derives the palette from the project's personality and audience: what colors communicate the right feeling, and what associations must be avoided
 2. Builds a structured system: primary color (the identity anchor), secondary color (support and contrast), accent color (for calls to action and highlights), neutral/background colors (light and dark), and a danger or caution color (for use sparingly)
 3. Provides each color with: a descriptive name, a hex code, an RGB value, and a one-sentence usage note

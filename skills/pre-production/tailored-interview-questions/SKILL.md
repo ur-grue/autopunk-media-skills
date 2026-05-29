@@ -23,7 +23,7 @@ Generates a set of interview questions precisely matched to a named subject's kn
 **Required:** The subject's name and role, a brief summary of their relevant background and public record, and the story angle or editorial purpose of the interview.
 **Optional:** Format (on-camera, radio, print), available interview time, any topics that are off-limits, previous interviews or public statements you want to challenge or follow up on, specific claims you need the subject to respond to.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the subject's provided background to identify what is already known, what is on the public record, and where gaps or contradictions exist — these gaps become the most valuable questions.
 2. Maps the questions to the story angle, discarding anything that is interesting about the subject in general but irrelevant to this specific story.
 3. Orders the questions to build rapport early, move into substantive territory in the middle section, and place the hardest or most confrontational questions toward the end — after trust is established and the recorder is running.
@@ -106,8 +106,8 @@ Subject: Dr. Marina Okonkwo, Chief Medical Officer of a regional public hospital
 
 ## Known Limitations
 - The quality of the questions depends entirely on the quality of the background information provided. Thin research produces generic questions — this skill cannot substitute for pre-interview reading.
-- Claude has no access to the subject's actual previous interviews or statements. You must supply the relevant quotes and claims; Claude will then build questions around them.
-- For subjects who are likely to be legally cautious or media-trained to deflect, Claude can note where questions are likely to be evaded, but cannot predict or counter specific deflection strategies.
+- The assistant has no access to the subject's actual previous interviews or statements. You must supply the relevant quotes and claims; the assistant will then build questions around them.
+- For subjects who are likely to be legally cautious or media-trained to deflect, the assistant can note where questions are likely to be evaded, but cannot predict or counter specific deflection strategies.
 
 ## Related Skills
 - [interview-question-catalogue](../interview-question-catalogue/SKILL.md)

@@ -25,11 +25,11 @@ Identifies unusual values, unexpected patterns, and potential stories hidden in 
 - What the data measures and where it comes from
 
 **Optional:**
-- What you expect to find (so Claude can flag deviations from your assumptions)
+- What you expect to find (so the assistant can flag deviations from your assumptions)
 - Known context that might explain outliers (e.g., "2020 data will be distorted by COVID")
 - Whether you want statistical outliers only or also contextual anomalies (values that are technically valid but editorially surprising)
 
-## How Claude approaches this
+## How the Assistant Approaches This
 1. Identifies the key numeric columns and their expected ranges
 2. Flags statistical outliers — values more than 2 standard deviations from the mean, or in the top/bottom 5% of the distribution
 3. Checks for contextual anomalies — sudden changes between time periods, values that contradict known patterns, or categories that break expected rankings
@@ -80,7 +80,7 @@ Luxembourg's small population (660,000) and high cross-border workforce distort 
 - Cannot run statistical calculations on raw data. Works from summary statistics, described datasets, or pasted tables. For large datasets, provide aggregated summaries rather than row-level data.
 - Outlier detection is based on described distributions and contextual knowledge, not automated statistical tests. Results should be verified with proper statistical tools before publication.
 - Cannot access live databases or APIs. Works with the data you provide in the conversation.
-- Context-dependent anomalies (e.g., knowing that Turkey had an earthquake in 2023) rely on Claude's training data. Very recent events may not be reflected.
+- Context-dependent anomalies (e.g., knowing that Turkey had an earthquake in 2023) rely on the assistant's training data. Very recent events may not be reflected.
 
 ## Related skills
 - [data-story-finder](../data-story-finder/SKILL.md)

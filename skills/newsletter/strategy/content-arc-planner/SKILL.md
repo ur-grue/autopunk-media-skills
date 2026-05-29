@@ -24,7 +24,7 @@ Plans a multi-edition content arc for a newsletter — mapping themes, topics, a
 **Required:** Newsletter name, subject area, and publishing cadence; the time period to plan (e.g. "next 8 editions", "Q2", "12 weeks"); any known fixed events, deadlines, or seasonal hooks that should anchor specific editions
 **Optional:** The newsletter's current recurring formats or sections; any topics you have been saving for the right moment; reader feedback themes you want to address; whether you want to introduce any new recurring sections during this arc; your editorial ambition (is this period a good time to go deeper on one subject, or range more widely?)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the natural narrative or thematic logic of the period — what questions can this series of editions build toward answering? What would make a reader who reads every edition feel they have gone on a journey rather than just received regular updates?
 2. Maps an arc structure: an opening edition that establishes the period's central focus, a development phase where individual editions add complexity or explore adjacent angles, and a closing edition that synthesises or resolves the arc without being artificially tidy
 3. Assigns recurring formats and special formats across the arc — ensuring a mix of depth and accessibility, and flagging which editions could serve as good entry points for new subscribers (important for promotion strategy)

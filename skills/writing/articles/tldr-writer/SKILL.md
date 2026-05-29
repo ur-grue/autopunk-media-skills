@@ -25,7 +25,7 @@ Condense an article, report, or long-form piece into a concise TL;DR summary of 
 
 **Optional:** Target word count (default 50-75 words), intended audience (general public, industry insiders, editorial team, executives), tone (neutral, conversational, formal), whether to end with a key implication or action point.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full text and identifies the single most important takeaway — not a list of topics covered, but the one thing that changes a reader's understanding or requires their attention
 2. Strips supporting evidence, background context, and secondary detail down to the minimum needed for the summary to make sense on its own
 3. Writes in active voice with no hedging ("may," "could potentially") unless the uncertainty is itself the key point

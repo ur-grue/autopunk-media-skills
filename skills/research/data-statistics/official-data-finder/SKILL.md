@@ -24,7 +24,7 @@ Identifies the most authoritative official source for a given statistical indica
 **Required:** The indicator or statistic you are looking for (be as specific as possible — e.g. "youth unemployment rate" rather than just "unemployment"); the country or region you are reporting on
 **Optional:** The time period you need (latest available, specific year, time series); the publication you are writing for and its citation style preferences; whether you need a figure comparable across multiple countries
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the primary national statistical agency responsible for the indicator in the country you specified, and the international body (UN, OECD, World Bank, IMF, Eurostat, etc.) that collects comparable cross-country data
 2. Describes the specific dataset or publication where the indicator is released — title, release cadence, and the most recent period for which data was available as of the knowledge cutoff
 3. Explains what the official measure actually counts, including any definitional details that affect how the number should be reported (e.g. age ranges included, survey methodology, seasonal adjustment)

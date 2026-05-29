@@ -24,7 +24,7 @@ Reviews a translated text against its source original, producing a structured qu
 
 **Optional:** The intended audience and publication context (news article, press release, social media, legal document); the style standard the translation should follow (AP, house style, formal institutional); a glossary of approved translations for key terms; specific areas of concern (e.g., "check the financial terminology," "verify that quotes match the original," "flag any overly literal phrasing").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads both texts in full before flagging anything.** Understands the source text's meaning, tone, and structure, then reads the translation as a complete document. This prevents false flags caused by reading sentence-by-sentence without understanding the translator's overall strategy.
 
 2. **Categorizes issues into three tiers.** Tier 1: Accuracy errors — meaning has been changed, omitted, or added (must fix before publication). Tier 2: Fluency issues — the translation is accurate but reads unnaturally, uses awkward phrasing, or contains grammatical errors in the target language (should fix). Tier 3: Style suggestions — the translation is accurate and fluent but could be improved for register, idiom, or cultural fit (optional refinement).
@@ -123,8 +123,8 @@ The result is striking. The square, formerly a wild parking lot invaded by weeds
 **Next Step:** Correct the five items above (prioritizing Tier 1 first), then do a final read-through of the full translated piece for any additional fluency issues not captured in this excerpt.
 
 ## Known Limitations
-- Claude reviews translation quality based on the source and target texts provided. If the source text itself contains errors, Claude may flag a correct translation of an incorrect original as accurate — it does not fact-check the source material.
-- For highly specialized domains (medical, legal, financial), Claude can identify obvious mistranslations but may not catch subtle terminological errors that only a domain specialist would recognize. Supplement this review with subject-matter expertise for regulated content.
+- The assistant reviews translation quality based on the source and target texts provided. If the source text itself contains errors, the assistant may flag a correct translation of an incorrect original as accurate — it does not fact-check the source material.
+- For highly specialized domains (medical, legal, financial), the assistant can identify obvious mistranslations but may not catch subtle terminological errors that only a domain specialist would recognize. Supplement this review with subject-matter expertise for regulated content.
 - The quality rating is calibrated for general professional translation. Different contexts (literary translation, marketing transcreation, legal certified translation) have different quality standards that may require adjusted scoring criteria.
 
 ## Related Skills

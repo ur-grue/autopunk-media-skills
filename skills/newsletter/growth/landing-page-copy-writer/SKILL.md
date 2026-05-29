@@ -23,7 +23,7 @@ Writes the complete copy for a newsletter subscribe page — headline, subheadli
 **Required:** Newsletter name; what the newsletter covers and for whom (2–3 sentences); publishing cadence; the newsletter's tone and register
 **Optional:** Current subscriber count or open rate if you want to use it as social proof; any testimonials or quotes from existing subscribers; the single most impressive or interesting edition you have published (title and one-sentence summary); whether there is a paid tier; any incentive for subscribing (free issue, lead magnet, etc.)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the sharpest single benefit the newsletter offers its specific reader — not "stay informed" but something the reader cannot easily get elsewhere, stated in terms of outcome rather than content
 2. Writes a headline that leads with that benefit, using the reader's language rather than the publisher's. Tests two alternatives in the output so the editor can choose
 3. Builds a value proposition that answers the reader's implicit question: "Why this newsletter instead of all the others about this subject?" — the differentiator must be real, not generic

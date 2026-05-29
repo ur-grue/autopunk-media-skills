@@ -23,7 +23,7 @@ Writes a structured dramatic character profile — covering psychology, backstor
 **Required:** Character's role in the story; their external goal in the story (the want); a brief description of who they appear to be on the surface
 **Optional:** Genre and tone; the protagonist's relationship to this character (lead, antagonist, ally, mirror); any fixed biographical facts; what the writer already knows about their backstory or arc; character traits to avoid
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the wound — the formative past event that explains why this character behaves as they do now — and distinguishes it clearly from the flaw, which is the maladaptive coping strategy the wound produced
 2. Defines the want (the external, conscious goal driving the character through the plot) and the need (the internal, unconscious lesson they must learn — often the opposite of the want)
 3. Constructs a voice signature: vocabulary range, sentence rhythm, use of silence, characteristic deflection or verbal habit — specific enough to write actual dialogue

@@ -25,13 +25,13 @@ Generates the complete set of metadata fields — tags, categories, keywords, sl
 - Publication name or type (e.g. "daily news site", "monthly trade magazine", "broadcast news service")
 
 **Optional:**
-- Your tag taxonomy or category list — paste your site's existing categories so Claude matches them exactly rather than inventing new ones
+- Your tag taxonomy or category list — paste your site's existing categories so the assistant matches them exactly rather than inventing new ones
 - Maximum number of tags permitted by your CMS
 - Preferred slug format (e.g. lowercase-hyphenated, date-prefixed)
 - Whether a meta description is needed in addition to the on-page summary
 - Audience or section (e.g. "Politics section", "consumer-facing")
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the content and identifies the primary topic, secondary topics, named entities (people, places, organisations, events), and content format (news, feature, opinion, explainer).
 2. Maps these to the metadata fields typically required by a CMS: title tag, slug, category, primary tags, secondary tags, keywords, and summary or standfirst. If a category list was provided, it matches categories to that list exactly.
 3. Presents each field on its own clearly labelled line so you can copy individual values directly into each CMS input field without reformatting.
@@ -78,9 +78,9 @@ Keywords: cycling infrastructure, cardiovascular health, hospital admissions, ci
 Summary: A ten-year study of 47 European cities finds that protected cycle lanes are associated with a 19% reduction in heart-attack-related hospital admissions.
 
 ## Known Limitations
-- If you do not provide your CMS's category list, Claude will generate plausible categories that may not match your actual taxonomy — always check before publishing.
+- If you do not provide your CMS's category list, the assistant will generate plausible categories that may not match your actual taxonomy — always check before publishing.
 - This skill works best with a complete article text. Summaries or bullet-point notes produce less precise keyword sets because topic nuance is lost.
-- Claude cannot access your CMS directly. All field values must be manually entered. This skill produces the text only.
+- The assistant cannot access your CMS directly. All field values must be manually entered. This skill produces the text only.
 - For very long articles (over 3,000 words), paste the introduction, subheadings, and conclusion rather than the full text to stay within input limits while preserving enough context for accurate tagging.
 
 ## Related Skills

@@ -33,15 +33,14 @@ Writes a magazine-style profile piece on a person from interview notes, biograph
 - Word count target (defaults to 1,200–1,500 words)
 - Publication style and tone (literary magazine, Sunday supplement, trade press, online feature)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
+1. **Identifies the through-line.** Every strong profile has a single animating question or tension at its center — not "who is this person" but "what drives them, and what does that reveal?" the assistant finds this thread in the editorial angle and the quotes, and structures the entire piece around it.
 
-1. **Identifies the through-line.** Every strong profile has a single animating question or tension at its center — not "who is this person" but "what drives them, and what does that reveal?" Claude finds this thread in the editorial angle and the quotes, and structures the entire piece around it.
-
-2. **Opens with a scene or telling detail.** The profile does not begin with a biography. It opens with a moment, an image, or an observation that draws the reader in and hints at the larger story. If observational details were provided, Claude uses them. If not, it opens with the strongest quote or anecdote from the notes.
+2. **Opens with a scene or telling detail.** The profile does not begin with a biography. It opens with a moment, an image, or an observation that draws the reader in and hints at the larger story. If observational details were provided, the assistant uses them. If not, it opens with the strongest quote or anecdote from the notes.
 
 3. **Weaves biography into narrative.** Biographical facts are introduced only when they serve the story's momentum — not dumped in a single paragraph. Career milestones, education, and background emerge naturally as context for the subject's actions, decisions, or quotes.
 
-4. **Balances the subject's voice with the writer's eye.** Direct quotes carry the subject's personality, perspective, and speech patterns. Between quotes, the writer's prose provides interpretation, context, and narrative structure. Claude alternates between these two registers, never letting either dominate for too long.
+4. **Balances the subject's voice with the writer's eye.** Direct quotes carry the subject's personality, perspective, and speech patterns. Between quotes, the writer's prose provides interpretation, context, and narrative structure. The assistant alternates between these two registers, never letting either dominate for too long.
 
 5. **Closes with resonance, not summary.** The final section returns to the through-line — a closing image, a final quote, or a moment that echoes the opening. The reader should finish the profile feeling they understand something essential about the subject, not just knowing their resume.
 
@@ -114,9 +113,9 @@ The fennel is done. Someone behind the pass has moved on to breaking down fish �
 The last service will be a Saturday. She wants it to be busy. She wants the kitchen to be loud. And then she wants to lock the door and walk to the water.
 
 ## Known Limitations
-- Without observational details from the actual interview setting, Claude invents plausible scenes. These are clearly fabricated and must be replaced with real material before publication — a profile's authority depends on first-hand observation.
+- Without observational details from the actual interview setting, the assistant invents plausible scenes. These are clearly fabricated and must be replaced with real material before publication — a profile's authority depends on first-hand observation.
 - The skill works best with a clear editorial angle. If you provide only biographical facts without a "why now" framing, the output will read more like a biography than a profile.
-- Claude cannot replicate a specific publication's voice or a writer's personal style. The output provides professional structure and narrative competence — the writer's distinctive voice must be applied in revision.
+- The assistant cannot replicate a specific publication's voice or a writer's personal style. The output provides professional structure and narrative competence — the writer's distinctive voice must be applied in revision.
 
 ## Related Skills
 - [interview-transcript-editor](../interview-transcript-editor/SKILL.md) — clean up raw interview transcripts before extracting quotes for the profile

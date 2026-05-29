@@ -24,7 +24,7 @@ Writes a pitch document for a streaming platform commissioning or acquisitions t
 
 **Optional:** Comparable titles currently on the platform, talent attached, production stage, international angle or co-production interest, any prior development support or broadcast interest.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Frames the project explicitly in terms of what it adds to the specific platform's slate — what audience it serves, what need it fills — not just what it is as a standalone project
 2. Presents the format, logline, and series structure or film concept with enough detail for a commissioning executive to see how it would exist on-screen, including pacing, format, and any distinctive production approach
 3. Makes the commercial and audience case: why this audience is on the platform, why they will watch this project, and how it positions alongside comparable titles — including, if possible, comparable titles already on that platform's catalogue

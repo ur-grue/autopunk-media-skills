@@ -31,7 +31,7 @@ Produces a practical brief covering the best time of day, season, and weather wi
 - Whether interviews or sync-sound work is planned (affects noise and wind tolerance)
 - Any known access restrictions already identified
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Draws on geographic and climatic knowledge of the stated location to establish the general light envelope for the month: sunrise and sunset times, the quality and angle of light at different times of day, and how weather patterns in that season typically affect outdoor shooting.
 2. Maps those conditions against the stated filming purpose — wide establishing shots have different optimal windows than intimate interviews; crowd scenes require different timing than empty-location work — and identifies the 1–3 windows within a typical day that best serve the production's needs.
 3. Identifies practical complicating factors specific to this type of location: tourist or visitor crowds, noise patterns, permit-sensitive hours, seasonal closures, or weather risks (high winds, fog, monsoon-adjacent rain) that could disrupt the schedule.
@@ -91,10 +91,10 @@ Parking and vehicle access to headland locations is limited — scout road-end a
 **Gear:** Saltwater spray reaches cliff-top locations even on calm days. All camera equipment should be in weather-sealed housings or covered between shots. Budget for a full clean of gimbal and lens mounts after each day on the cliffs.
 
 ## Known Limitations
-- Claude does not have access to live weather data or real-time forecasts. All climate information is based on historical averages and general geographic knowledge — verify current conditions and extended forecasts through a weather service (yr.no is standard for North Atlantic and Nordic locations) as you approach the shoot.
+- The assistant does not have access to live weather data or real-time forecasts. All climate information is based on historical averages and general geographic knowledge — verify current conditions and extended forecasts through a weather service (yr.no is standard for North Atlantic and Nordic locations) as you approach the shoot.
 - Sunrise and sunset times given are approximate for the stated month and location. Always confirm exact times for your specific shoot date using a sun-calculator tool (The Photographer's Ephemeris or PhotoPills are widely used on productions).
 - Permit requirements, drone regulations, and access conditions change. Always verify current rules with local authorities or a fixer on the ground before travel.
-- For remote or very niche locations, Claude's knowledge of crowd patterns and access logistics may be limited. A local fixer or location manager is the most reliable source for granular access detail.
+- For remote or very niche locations, the assistant's knowledge of crowd patterns and access logistics may be limited. A local fixer or location manager is the most reliable source for granular access detail.
 
 ## Related Skills
 - [location-brief-writer](../../../tv-documentary/pre-production/location-scout-brief/SKILL.md)

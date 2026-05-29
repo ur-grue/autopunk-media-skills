@@ -24,7 +24,7 @@ Evaluates the methodology of a published study in plain language — identifying
 
 **Optional:** The claims being made about the study in media coverage or press releases (helps evaluate whether the methodology supports those specific claims); the specific methodological concerns you have; the field or discipline (statistical conventions vary between fields); whether you need a quick assessment or a detailed evaluation.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Classifies the study design.** Identifies the study type — randomised controlled trial, cohort study, case-control study, cross-sectional survey, meta-analysis, qualitative study, case study — and explains in plain language what this design can and cannot demonstrate (particularly regarding causation vs. correlation).
 
 2. **Evaluates the sample.** Assesses sample size (adequate for the effect being measured?), selection method (random, convenience, self-selected?), population characteristics (who was studied and who was excluded), and representativeness (can findings be generalised beyond the study population?).
@@ -94,8 +94,8 @@ The press release claim that "heavy social media use causes anxiety" is **not su
 If an editor asks "should we cover this?" — the study is publishable as a finding about association, but only if the article avoids causal language and includes the design limitations. It is not strong enough to anchor a "social media causes anxiety" headline.
 
 ## Known Limitations
-- Claude evaluates methodology based on the information provided. If key methodological details are omitted from the description (e.g., how participants were randomised, how missing data was handled), the evaluation will be incomplete. Providing the full methods section produces a much more accurate assessment.
-- Statistical evaluation is limited to widely applicable concerns (sample size adequacy, multiple comparisons, confounding). Claude cannot re-run statistical analyses or verify that computations were performed correctly.
+- The assistant evaluates methodology based on the information provided. If key methodological details are omitted from the description (e.g., how participants were randomised, how missing data was handled), the evaluation will be incomplete. Providing the full methods section produces a much more accurate assessment.
+- Statistical evaluation is limited to widely applicable concerns (sample size adequacy, multiple comparisons, confounding). The assistant cannot re-run statistical analyses or verify that computations were performed correctly.
 - Standards of methodological rigor vary between disciplines. What is considered a strong sample size in psychology may be inadequate in epidemiology. The evaluation accounts for disciplinary conventions where the field is specified, but edge cases may require expert consultation.
 
 ## Related Skills

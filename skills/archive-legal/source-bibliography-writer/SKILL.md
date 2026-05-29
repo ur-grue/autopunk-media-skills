@@ -27,9 +27,9 @@ Produces a correctly formatted bibliography or source list from details you prov
 **Optional:**
 - Whether you want the list alphabetised, numbered, or grouped by source type (e.g., interviews separate from documents)
 - Whether you want a brief annotation after each entry explaining what the source contributed to your reporting (annotated bibliography)
-- The publication or production this bibliography is for — Claude will adjust the level of formality accordingly
+- The publication or production this bibliography is for — the assistant will adjust the level of formality accordingly
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads each source you have provided and identifies its type — book, journal article, newspaper article, government document, interview, website, broadcast, or unpublished material — because citation format varies by type within each style guide.
 2. Applies the requested style guide rules consistently across all entries: author formatting, title capitalisation, punctuation, date placement, and URL conventions each differ between AP, Chicago, and APA.
 3. Delivers the complete list in the requested order, flagging any entries where information is missing that would be required for a complete citation, so you know exactly what to look up before submission.
@@ -70,9 +70,9 @@ Osei-Bonsu, Clara. "Audit Culture and the Freedom of Information Request." *Jour
 Regional Housing Authority, Deputy Director (name withheld). Interview by reporter. In person, November 14, 2025. [Note: Chicago style typically requires the interviewee's name; confirm with editor whether anonymisation convention is acceptable in this context.]
 
 ## Known Limitations
-- Claude applies style guide rules as of its training data. Style guides are periodically updated — for submissions to academic journals or grant bodies with strict requirements, verify against the current edition of the relevant guide.
-- This skill relies entirely on the details you provide. If you supply an incorrect date, a misspelled author name, or the wrong page range, the citation will reproduce that error. Claude cannot verify source details against external databases.
-- AP style does not have a formal bibliography format in the way Chicago and APA do — AP is primarily an in-text citation system. When AP is selected, Claude produces a source list modelled on AP wire-service conventions, which may need adaptation for specific editors.
+- The assistant applies style guide rules as of its training data. Style guides are periodically updated — for submissions to academic journals or grant bodies with strict requirements, verify against the current edition of the relevant guide.
+- This skill relies entirely on the details you provide. If you supply an incorrect date, a misspelled author name, or the wrong page range, the citation will reproduce that error. The assistant cannot verify source details against external databases.
+- AP style does not have a formal bibliography format in the way Chicago and APA do — AP is primarily an in-text citation system. When AP is selected, the assistant produces a source list modelled on AP wire-service conventions, which may need adaptation for specific editors.
 - Very unusual source types — ancient manuscripts, unpublished theses, personal correspondence, oral history recordings — may require manual review against the full style guide rather than relying on this skill alone.
 
 ## Related Skills

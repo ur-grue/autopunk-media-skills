@@ -32,7 +32,7 @@ Recommends the best platforms for distributing a finished piece of content, with
 - Paid vs. organic distribution preference
 - Geographic focus (local, national, international)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the content category — text, audio, video, visual — and cross-references it with which platforms are structurally suited to that format (e.g., long-form text does not perform on short-video platforms)
 2. Matches the topic and intended audience to the likely user base of each candidate platform, noting where the audience overlap is strongest
 3. Produces a ranked list of three to five platforms with a short rationale for each, including one note on what adaptation (if any) the content would need for that platform
@@ -86,7 +86,7 @@ Communities focused on renting, housing rights, or your specific city or region 
 - Recommendations are based on general platform characteristics and audience behaviour patterns — they are not drawn from your actual analytics or real-time platform data. Treat them as an informed starting point, not a guarantee of performance.
 - Platform dynamics shift. Recommendations are grounded in how platforms behave at the time of writing but should be reviewed if significant platform changes have occurred.
 - This skill cannot assess whether your publication has existing distribution agreements, exclusivity clauses, or contractual restrictions on syndication. Always check before republishing.
-- For highly specialised or niche topics, Claude may recommend broad platforms when a specialist trade publication or industry forum would actually be a stronger fit.
+- For highly specialised or niche topics, the assistant may recommend broad platforms when a specialist trade publication or industry forum would actually be a stronger fit.
 
 ## Related Skills
 - [publication-timing-advisor](../publication-timing-advisor/SKILL.md)

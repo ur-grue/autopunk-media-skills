@@ -34,8 +34,8 @@ Writes a narration script for a documentary's animated explainer sequence — vi
 - Any visual metaphors or analogies you want to use or avoid
 - Brand or production style guidelines for graphics
 
-## How Claude Approaches This
-1. **Identifies the explanation structure.** Every explainer needs a logic: chronological (first this, then this), causal (this causes that), comparative (A versus B), or process-based (step 1, step 2, step 3). Claude determines which structure best serves the concept and uses it to organise the sequence.
+## How the Assistant Approaches This
+1. **Identifies the explanation structure.** Every explainer needs a logic: chronological (first this, then this), causal (this causes that), comparative (A versus B), or process-based (step 1, step 2, step 3). The assistant determines which structure best serves the concept and uses it to organise the sequence.
 
 2. **Writes the narration script.** Drafts voiceover text at approximately 150 words per minute of target duration — the standard pace for documentary narration that allows breathing room for the visuals to land. The language is concrete and specific: no jargon without immediate plain-language follow-through, no passive constructions when active voice is clearer, no more than one new concept per sentence.
 
@@ -115,7 +115,7 @@ Target duration: 2:00 | Narration word count: ~290
 ## Known Limitations
 - Narration word count targets assume a standard documentary narration pace (~150 words per minute). If your narrator speaks significantly faster or slower, or if the programme uses a more conversational delivery, adjust the word count accordingly. The visual cues remain valid; only the narration density changes.
 - Visual direction cues describe what should appear on screen but do not constitute a storyboard. An animation team will still need a design brief covering colour palette, typography, icon style, and animation techniques (2D, 3D, motion graphics). Use the mood-board-brief or visual-identity-prompt skills to generate that brief.
-- Statistics and facts included in the narration are drawn from the user's input or from widely reported figures. Claude cannot verify their accuracy or currency — all data points must be fact-checked by the production team before recording.
+- Statistics and facts included in the narration are drawn from the user's input or from widely reported figures. The assistant cannot verify their accuracy or currency — all data points must be fact-checked by the production team before recording.
 
 ## Related Skills
 - [commentary-writer](../commentary-writer/SKILL.md) — write narration for live-action sequences that bookend the animation

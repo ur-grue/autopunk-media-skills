@@ -24,7 +24,7 @@ Reduce a piece of text to a specified word count or percentage reduction while p
 
 **Optional:** Priority elements to preserve (specific quotes, data points, section headings, the conclusion); elements that can be sacrificed first (background context, secondary examples, attribution detail).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Counts the current word count, calculates the exact reduction needed, and identifies where the text has room to compress — redundancies, filler phrases, over-long attributions, repeated points, adverb clusters, and throat-clearing introductions
 2. Makes cuts in order of least-to-most impact: first removes filler and redundancy, then trims secondary examples and supporting detail, then shortens sentences — preserving all direct quotes, specific data, and the opening and closing sentences wherever possible
 3. Performs a final read of the reduced text for coherence — ensures no orphan references (a "this" with no antecedent, a pronoun referring to a deleted subject) and no choppy transitions caused by cuts

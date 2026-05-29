@@ -24,7 +24,7 @@ Writes a journalist-facing FAQ document for a crisis or complex issue, anticipat
 
 **Optional:** A holding statement or earlier press release for consistency reference; the target channel (internal use only / media-facing / public website); whether unanswerable questions should be flagged rather than answered; a list of specific questions to address; the spokesperson's name and title.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the facts provided and identifies the five to ten questions a journalist covering this story would ask first — ordered by likely urgency, not organisational convenience.
 2. Writes each question in the direct, blunt register journalists use ("Did you know about this before it happened?" not "Can you describe your prior awareness of the issue?").
 3. Writes answers that are factual, specific, and consistent with any prior public statements — not evasive, but also not beyond what has been confirmed.
@@ -87,7 +87,7 @@ We cannot comment on the possibility of future regulatory action. We are focused
 *Internal note: Questions about the packaging contractor's identity and any litigation matters should be referred to the legal team and not addressed by media spokespeople at this time.*
 
 ## Known Limitations
-- Claude can only anticipate questions based on what it knows about standard media practice — genuinely unusual or technically specialist story angles may not be covered. Review the FAQ with someone who knows the beat.
+- The assistant can only anticipate questions based on what it knows about standard media practice — genuinely unusual or technically specialist story angles may not be covered. Review the FAQ with someone who knows the beat.
 - Answers that say "we cannot comment" or "this is under investigation" are honest, but journalists will push past them. The FAQ does not prepare spokespeople for bridging techniques, which requires human media training.
 - All legal references, regulatory body names, and procedural details in the FAQ must be verified by legal and compliance before any spokesperson uses the document.
 

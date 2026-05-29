@@ -24,7 +24,7 @@ Writes the campaign description, reward tier copy, and campaign update text for 
 
 **Optional:** Your background or credentials as a filmmaker or producer, the specific platform (Kickstarter, Indiegogo, etc.), your planned reward tiers and the amounts, what the money will specifically be used for, any existing community (newsletter subscribers, social media following, previous project audience).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes the campaign headline and opening paragraph to hook the specific community the project belongs to — not a general audience pitch but a direct address to the people who already care about this subject
 2. Writes the campaign body copy covering: what the project is, why it matters now, who is making it, and exactly what the money will fund — each section in plain language that respects the backer's intelligence
 3. Writes reward tier descriptions that justify each price point with something real (access, acknowledgement, physical objects, involvement) — and writes two sample campaign updates: one mid-campaign milestone update and one campaign-end thank-you

@@ -23,7 +23,7 @@ Writes the in-email referral section that asks existing subscribers to share the
 **Required:** Newsletter name, voice, and audience; whether you are running a formal referral programme with rewards or just asking for organic sharing
 **Optional:** The specific rewards you offer at each referral tier (e.g. "3 referrals = exclusive monthly Q&A access; 10 referrals = one year paid subscription free"); your unique referral link format; any data on your subscriber base that makes the sharing ask feel meaningful (e.g. "our readers are mostly professionals who know other professionals in the same field"); a short description of the type of reader most likely to appreciate the newsletter
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the value-first framing: before the ask, gives the reader a brief reminder of why they find the newsletter worthwhile — this activates the psychological state most likely to lead to sharing
 2. Makes the ask specific and personal: "forward this to one colleague who..." is consistently more effective than "share with your network"; the copy names the ideal recipient to help the reader picture a real person
 3. If there are referral rewards, presents them simply and concretely — a table or a brief tier list, not a paragraph of programme mechanics. Avoids making the rewards sound like the primary reason to share (this backfires by making sharing feel transactional)

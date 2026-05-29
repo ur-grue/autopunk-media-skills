@@ -23,7 +23,7 @@ Writes a short, high-click newsletter teaser for a published article — includi
 **Required:** Article headline and a 3–6 sentence summary of what the piece covers (or a paste of the article's introduction)
 **Optional:** Newsletter tone (formal, conversational, literary, punchy); subscriber audience description; publish platform or CMS link to include; whether this is the only article in the newsletter or one of several; any line from the article you consider the most arresting
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most compelling element in the article — the reveal, the surprising fact, the human moment, or the central tension — and builds the teaser around withholding it just enough to create a click
 2. Writes the teaser body (70–120 words) as an entry point, not a summary: it raises the question the article answers, rather than answering it
 3. Generates 3 subject line options across different emotional registers (curiosity, urgency, direct)
@@ -80,7 +80,7 @@ We reported on how the software works, why it's become the industry standard, an
 *Use Subject Line A for a standard send; test Subject Line C if open rates on this topic have been lower than average — the second-person framing tends to outperform on housing.*
 
 ## Known Limitations
-- Newsletter performance (open rate, click-through) depends on list health, send time, and subject line length limits that vary by platform — these are not factors Claude can optimize for
+- Newsletter performance (open rate, click-through) depends on list health, send time, and subject line length limits that vary by platform — these are not factors the assistant can optimize for
 - If the article has a paywall, the teaser may need an explicit paywall signal ("subscriber-only") to manage reader expectations; add this manually
 - Very long or complex articles may need a more selective teaser approach — this skill works best when the article has one clear hook; multi-topic roundups require different handling
 

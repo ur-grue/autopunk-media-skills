@@ -23,7 +23,7 @@ Reviews a draft article and returns a structured list of grammatical errors, sty
 **Required:** The draft text (or the section you want reviewed); the style standard you're writing to (AP, Chicago, Guardian, house style, or "general professional journalism").
 **Optional:** Specific areas of concern (e.g., "I'm not confident about the punctuation in complex sentences," "check all hyphenation," "flag any passive voice that weakens a sentence"); word count of the piece (helps calibrate the depth of the review); whether this is a first draft (light touch) or a final draft (thorough line edit).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full draft and categorizes issues into three tiers: Tier 1 (errors — things that are wrong by the stated style standard and must be changed), Tier 2 (inconsistencies — things that are used two different ways in the same piece and need to be made consistent), and Tier 3 (suggestions — things that are not wrong but would benefit from rewording for clarity or flow).
 2. For each flagged item: quotes the original text, provides the correction, and gives a one-line rationale citing the rule or reason (not just "fix this").
 3. Returns items in document order so the writer can work through them linearly. Ends with a brief summary: how many Tier 1, 2, and 3 items, and an overall verdict on the draft's readiness (ready to submit, needs one more pass, requires significant line editing).

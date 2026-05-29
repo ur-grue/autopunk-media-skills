@@ -24,7 +24,7 @@ Produces a step-by-step guide for locating the correct press office, media conta
 
 **Optional:** The country or jurisdiction the organisation operates in; the specific department or topic area (e.g., "I need the press contact for their environmental compliance division, not the corporate PR team"); your deadline; your media outlet name and type (helps determine which approach to recommend).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the organisation type.** Determines whether this is a corporation, government body, university, non-profit, international organisation, or individual with representation — each has different press office structures and contact conventions.
 
 2. **Maps the likely contact routes.** Lists the specific places to look for press contacts, in order of reliability: official website press page, annual reports, regulatory filings, LinkedIn, professional directories, journalist databases, and direct phone approaches. Each route includes the specific page or section to check.
@@ -92,7 +92,7 @@ I am happy to send specific questions in advance or arrange a brief phone call w
 - **Individual hospital vs. group response.** Emergency department data may prompt different responses from individual hospitals vs. the corporate group. Direct your enquiry to the group-level press office to get the official organisational position.
 
 ## Known Limitations
-- Claude cannot look up actual contact details, phone numbers, or email addresses. This skill provides the strategy for finding them — the journalist must execute the search. The value is in knowing where to look and in what order.
+- The assistant cannot look up actual contact details, phone numbers, or email addresses. This skill provides the strategy for finding them — the journalist must execute the search. The value is in knowing where to look and in what order.
 - Press office structures vary enormously by country, sector, and organisation size. The plan is tailored to the organisation type provided, but local conventions (e.g., how government press offices work in a specific country) may require adaptation.
 - For individuals without organisational affiliation (freelance experts, retired officials, private citizens), press office strategies do not apply. In those cases, the plan focuses on direct contact methods, which are inherently less reliable.
 

@@ -23,7 +23,7 @@ Applies a named style guide — AP, Chicago, or a custom house style — to a ma
 **Required:** The full draft text you want formatted. The name of the target style guide (AP, Chicago, or "house style").
 **Optional:** Your house style sheet as a list of rules — essential if you choose "house style." Specific problem areas to prioritise (e.g., "we always spell out percent, never use the % symbol"). Any words or names that should be treated as exceptions (proper nouns, brand names with unusual capitalisation).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identify the target style and load its conventions — number thresholds, title case rules, Oxford comma policy, date formats, abbreviation standards, and punctuation around quotes.
 2. Read through the manuscript systematically, flagging every deviation from the target style, including inconsistencies within the text itself (e.g., "healthcare" in paragraph two, "health care" in paragraph seven).
 3. Apply corrections and return the revised text with an annotated change log: each change listed as a numbered note showing what was changed, where, and which rule it follows — so the editor can accept or override each decision.
@@ -75,7 +75,7 @@ Two sections: (1) the fully formatted manuscript, ready to hand to a layout edit
 10. "January, 2022" → "January 2022" — AP omits the comma between month and year when no day is given.
 
 ## Known Limitations
-- Custom house style rules must be provided explicitly — Claude cannot infer unstated conventions from context alone. The more complete your house style sheet, the more accurate the output.
+- Custom house style rules must be provided explicitly — the assistant cannot infer unstated conventions from context alone. The more complete your house style sheet, the more accurate the output.
 - Highly technical or scientific manuscripts (with discipline-specific notation, units, or citation formats) may need a specialist copy editor for elements outside the named style guide's scope.
 - This skill corrects style, not grammar or factual accuracy. A human copy editor should still review content-level issues.
 - AP and Chicago evolve; conventions here reflect widely accepted current practice but may lag the latest printed edition for niche rulings.

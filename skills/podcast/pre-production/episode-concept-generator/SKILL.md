@@ -21,9 +21,9 @@ Generates 6–8 fully developed episode concepts aligned to a podcast's format, 
 
 ## What You Need To Provide
 **Required:** Podcast name and topic focus; target audience; episode format (interview, solo, narrative, roundtable, hybrid); approximate episode length
-**Optional:** 3–5 recent episodes you have already done (so Claude can avoid repeating them); any themes or angles you want to explore but haven't found the right angle for; whether you want seasonal/thematic concepts or standalone episodes; guest-based or topic-based preference
+**Optional:** 3–5 recent episodes you have already done (so the assistant can avoid repeating them); any themes or angles you want to explore but haven't found the right angle for; whether you want seasonal/thematic concepts or standalone episodes; guest-based or topic-based preference
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the topic space of the podcast — the full range of subjects, perspectives, and audience questions that are relevant but not necessarily obvious
 2. Identifies under-explored angles: the contrarian take, the practitioner perspective, the historical origin story, the failure case, the audience question that goes unasked in most episodes on this topic
 3. Generates concepts across different episode types: the debate episode, the deep-dive explainer, the personal story, the expert interview, the myth-busting episode, and the "what no one talks about" episode

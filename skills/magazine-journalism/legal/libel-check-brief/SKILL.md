@@ -23,7 +23,7 @@ Reviews a draft article and flags statements that could pose defamation risk, id
 **Required:** The full text of the draft article, or a detailed excerpt focusing on the passages you are concerned about; the publication jurisdiction (U.S., UK, Australia, or other — libel law varies significantly)
 **Optional:** Whether the named individuals are public figures or private individuals (different legal standards apply); whether the publication has already given subjects right-of-reply; any supporting documentation for the most sensitive claims
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies every statement in the draft that makes or implies a factual claim about a named or identifiable person or organization — distinguishing statements of fact from protected opinion
 2. Assesses each identified statement for defamation risk factors: specificity of the allegation, public vs. private figure status of the subject, verifiability of the claim, and potential for harm to reputation
 3. Flags passages where the current language creates unnecessary risk that could be reduced with simple editing — conditional language, attribution, or right-of-reply framing
