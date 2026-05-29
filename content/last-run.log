@@ -1,6 +1,6 @@
-  2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] ERROR: RuntimeError: hashnode redirect HTTP 301 -> 'https://hashnode.com/announcements/graphql-api' (ctype=text/html; charset=UTF-8)
-  2026-05-scoring-non-code-llm-output [hashnode] ERROR: RuntimeError: hashnode redirect HTTP 301 -> 'https://hashnode.com/announcements/graphql-api' (ctype=text/html; charset=UTF-8)
-FAILED: 2 publish attempt(s), 0 succeeded
-articles: 2 | live=True | devto=yes | hashnode=yes
+articles: 2 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE_ENABLED=1)
   2026-05-ai-writing-that-doesnt-sound-like-ai [devto] already published -> skip
+  2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] secret missing -> skip
   2026-05-scoring-non-code-llm-output [devto] already published -> skip
+  2026-05-scoring-non-code-llm-output [hashnode] secret missing -> skip
+done: nothing to publish
