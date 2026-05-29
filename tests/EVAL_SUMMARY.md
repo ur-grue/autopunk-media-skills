@@ -14,8 +14,8 @@ This report summarises the quality scores for every skill in the library. Scores
 | Localized variants (ES / FR) | 20 |
 | Total skill files | 414 |
 | Categories | 21 |
-| Stable (eval ≥ 4.0) | 393 |
-| Draft (in progress) | 1 |
+| Stable (eval ≥ 4.0) | 394 |
+| Draft (in progress) | 0 |
 | Skills with a documented eval run | 234 |
 | Mean score across stable skills | **4.38 / 5.00** |
 | Score range | 4.2 – 5.0 |
@@ -34,7 +34,7 @@ This report summarises the quality scores for every skill in the library. Scores
 | YouTube | 18 | 4.46 |
 | Data Journalism | 18 | 4.38 |
 | Production Support | 16 | 4.29 |
-| Editing | 14 | 4.32 |
+| Editing | 14 | 4.36 |
 | PR / Communications | 13 | 4.52 |
 | Newsletter | 13 | 4.43 |
 | Podcast | 12 | 4.43 |

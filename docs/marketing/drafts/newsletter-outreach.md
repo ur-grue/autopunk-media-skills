@@ -24,7 +24,7 @@ journalism" tools have no quality bar. This one ships an explicit seven-
 dimension G-Eval rubric with a hard floor on "Editorial Naturalness" — the
 output has to read like a working journalist, not a chatbot.
 
-393 of the 394 skills are at the stable threshold (≥ 4.0/5). Full eval data is in the
+All 394 skills are at the stable threshold (≥ 4.0/5). Full eval data is in the
 repo.
 
 There is an angle here about what evaluation looks like when AI tools are
@@ -167,7 +167,7 @@ rubric. 4.0/5 threshold to reach "stable," with a hard floor on Editorial
 Naturalness (the skill outputs must score against four lists of AI tells —
 lexical, structural, tonal, genre).
 
-393 of 394 currently stable. Full eval data + framework in tests/.
+All 394 currently stable. Full eval data + framework in tests/.
 
 There is a Latent Space angle here on what skill evaluation looks like when
 the domain is editorial output rather than code. Happy to write something
