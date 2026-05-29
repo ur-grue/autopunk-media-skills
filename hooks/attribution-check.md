@@ -5,8 +5,8 @@ blocking: false
 severity: warning
 version: 1.0
 composes_with:
-  - skills/editing/unattributed-claims-checker.md
-  - skills/magazine-journalism/fact-checking/source-credibility-brief.md
+  - skills/editing/unattributed-claims-checker/SKILL.md
+  - skills/magazine-journalism/fact-checking/source-credibility-brief/SKILL.md
 ---
 
 # Attribution check
@@ -34,7 +34,7 @@ Attribution gaps are among the most common editorial failures in AI-assisted wri
 ```
 ⚠ attribution-check (PostToolUse · non-blocking)
 
-  skills/magazine-journalism/writing/reportage-structure.md
+  skills/magazine-journalism/writing/reportage-structure/SKILL.md
 
   Unattributed material (3 flags):
     Line 42: "The policy has been a disaster from day one."
@@ -58,6 +58,6 @@ Attribution gaps are among the most common editorial failures in AI-assisted wri
 
 ## Related skills
 
-- [unattributed-claims-checker](../skills/editing/unattributed-claims-checker.md) — full-text audit for unsourced claims
-- [source-credibility-brief](../skills/magazine-journalism/fact-checking/source-credibility-brief.md) — evaluates named sources for reliability
-- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt.md) — broader fact-checking workflow
+- [unattributed-claims-checker](../skills/editing/unattributed-claims-checker/SKILL.md) — full-text audit for unsourced claims
+- [source-credibility-brief](../skills/magazine-journalism/fact-checking/source-credibility-brief/SKILL.md) — evaluates named sources for reliability
+- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) — broader fact-checking workflow

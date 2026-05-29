@@ -5,11 +5,11 @@ blocking: false
 severity: checklist
 version: 1.0
 composes_with:
-  - skills/editing/ai-writing-detox.md
-  - skills/magazine-journalism/editing/passive-voice-checker.md
-  - skills/editing/copy-editor.md
-  - skills/magazine-journalism/editing/fact-check-prompt.md
-  - skills/magazine-journalism/editing/house-style-enforcer.md
+  - skills/editing/ai-writing-detox/SKILL.md
+  - skills/magazine-journalism/editing/passive-voice-checker/SKILL.md
+  - skills/editing/copy-editor/SKILL.md
+  - skills/magazine-journalism/editing/fact-check-prompt/SKILL.md
+  - skills/magazine-journalism/editing/house-style-enforcer/SKILL.md
 ---
 
 # Pre-publish checklist
@@ -74,8 +74,8 @@ This is the last line of defence before text leaves the working environment.
 ⚠ pre-publish-checklist (Stop · non-blocking)
 
   You edited 3 content files this session:
-    - skills/youtube/scripting/full-script-writer.md
-    - skills/podcast/post-production/show-notes-generator.md
+    - skills/youtube/scripting/full-script-writer/SKILL.md
+    - skills/podcast/post-production/show-notes-generator/SKILL.md
     - docs/workflows/youtube-video-launch.md
 
   ┌──────────────────────────────────────────────────┐
@@ -102,8 +102,8 @@ This is the last line of defence before text leaves the working environment.
 
 ## Related skills
 
-- [ai-writing-detox](../skills/editing/ai-writing-detox.md) — AI language cleanup
-- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker.md) — passive voice audit
-- [copy-editor](../skills/editing/copy-editor.md) — full editorial pass
-- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt.md) — fact-checking workflow
-- [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer.md) — house style enforcement
+- [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) — AI language cleanup
+- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker/SKILL.md) — passive voice audit
+- [copy-editor](../skills/editing/copy-editor/SKILL.md) — full editorial pass
+- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) — fact-checking workflow
+- [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer/SKILL.md) — house style enforcement

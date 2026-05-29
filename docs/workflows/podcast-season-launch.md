@@ -15,7 +15,7 @@ Podcast producers and hosts launching a new show or a new season. Works for inte
 ## The Workflow
 
 ### Step 1: Generate episode concepts for the season
-**Skill:** [`episode-concept-generator`](../../skills/podcast/pre-production/episode-concept-generator.md)
+**Skill:** [`episode-concept-generator`](../../skills/podcast/pre-production/episode-concept-generator/SKILL.md)
 
 Give Claude your show's theme, target audience, and the number of episodes in the season. Get back fully developed episode concepts with guest suggestions, angle variations, and hook lines.
 
@@ -24,7 +24,7 @@ Give Claude your show's theme, target audience, and the number of episodes in th
 ---
 
 ### Step 2: Research your first guest
-**Skill:** [`guest-research-brief`](../../skills/podcast/pre-production/guest-research-brief.md)
+**Skill:** [`guest-research-brief`](../../skills/podcast/pre-production/guest-research-brief/SKILL.md)
 
 Feed in your guest's name and background. Get back a research dossier: key work, public positions, interesting contradictions, conversation starters, and topics to avoid.
 
@@ -33,7 +33,7 @@ Feed in your guest's name and background. Get back a research dossier: key work,
 ---
 
 ### Step 3: Build the interview questions
-**Skill:** [`interview-question-builder`](../../skills/podcast/pre-production/interview-question-builder.md)
+**Skill:** [`interview-question-builder`](../../skills/podcast/pre-production/interview-question-builder/SKILL.md)
 
 Give Claude the guest research, your episode concept, and your audience. Get back structured question blocks — opening, core exploration, surprise angles, and closing.
 
@@ -42,7 +42,7 @@ Give Claude the guest research, your episode concept, and your audience. Get bac
 ---
 
 ### Step 4: Write the intro and outro
-**Skill:** [`intro-outro-writer`](../../skills/podcast/scripting/intro-outro-writer.md)
+**Skill:** [`intro-outro-writer`](../../skills/podcast/scripting/intro-outro-writer/SKILL.md)
 
 Give Claude your show name, episode topic, guest name, and tone. Get back scripted intro and outro copy including any standard show elements (subscribe reminders, social handles, credits).
 
@@ -51,7 +51,7 @@ Give Claude your show name, episode topic, guest name, and tone. Get back script
 ---
 
 ### Step 5: Write the ad read
-**Skill:** [`ad-read-script`](../../skills/podcast/scripting/ad-read-script.md)
+**Skill:** [`ad-read-script`](../../skills/podcast/scripting/ad-read-script/SKILL.md)
 
 Give Claude your sponsor's talking points and your show's voice. Get back a natural-sounding ad read that sounds like you, not like a commercial.
 
@@ -65,7 +65,7 @@ Give Claude your sponsor's talking points and your show's voice. Get back a natu
 ---
 
 ### Step 7: Clean up the transcript
-**Skill:** [`transcript-cleanup`](../../skills/podcast/post-production/transcript-cleanup.md)
+**Skill:** [`transcript-cleanup`](../../skills/podcast/post-production/transcript-cleanup/SKILL.md)
 
 After recording, feed in your raw transcript. Get back a cleaned version with filler words removed, false starts smoothed, and speaker labels consistent — while preserving natural speech patterns.
 
@@ -74,7 +74,7 @@ After recording, feed in your raw transcript. Get back a cleaned version with fi
 ---
 
 ### Step 8: Write the show notes
-**Skill:** [`show-notes-generator`](../../skills/podcast/post-production/show-notes-generator.md)
+**Skill:** [`show-notes-generator`](../../skills/podcast/post-production/show-notes-generator/SKILL.md)
 
 Give Claude the cleaned transcript or your episode outline. Get back complete show notes: episode summary, key topics, guest bio, timestamps, links mentioned, and calls to action.
 
@@ -83,7 +83,7 @@ Give Claude the cleaned transcript or your episode outline. Get back complete sh
 ---
 
 ### Step 9: Write the episode summary
-**Skill:** [`episode-summary-writer`](../../skills/podcast/post-production/episode-summary-writer.md)
+**Skill:** [`episode-summary-writer`](../../skills/podcast/post-production/episode-summary-writer/SKILL.md)
 
 Feed in the transcript and show notes. Get back a compelling episode summary optimized for podcast directories — the description that makes someone press play.
 
@@ -95,11 +95,11 @@ Feed in the transcript and show notes. Get back a compelling episode summary opt
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A media kit for sponsors | [`podcast-media-kit-generator`](../../skills/podcast/business/podcast-media-kit-generator.md) |
-| Sponsorship outreach | [`sponsorship-pitch-writer`](../../skills/podcast/business/sponsorship-pitch-writer.md) |
-| Social posts to promote the episode | [`caption-writer`](../../skills/social-media/content/caption-writer.md) |
-| A newsletter teaser | [`edition-writer`](../../skills/newsletter/writing/edition-writer.md) |
-| Pitch to a podcast network | [`collaboration-proposal-writer`](../../skills/media-business/pitching/collaboration-proposal-writer.md) |
+| A media kit for sponsors | [`podcast-media-kit-generator`](../../skills/podcast/business/podcast-media-kit-generator/SKILL.md) |
+| Sponsorship outreach | [`sponsorship-pitch-writer`](../../skills/podcast/business/sponsorship-pitch-writer/SKILL.md) |
+| Social posts to promote the episode | [`caption-writer`](../../skills/social-media/content/caption-writer/SKILL.md) |
+| A newsletter teaser | [`edition-writer`](../../skills/newsletter/writing/edition-writer/SKILL.md) |
+| Pitch to a podcast network | [`collaboration-proposal-writer`](../../skills/media-business/pitching/collaboration-proposal-writer/SKILL.md) |
 
 ---
 

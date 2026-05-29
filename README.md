@@ -75,14 +75,22 @@ Every skill is a plain markdown prompt file — there's nothing to compile and n
 2. Copy its text.
 3. Paste it into Claude with your own material. Done.
 
-**Use the files locally (Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode):**
+**One command in Claude Code** (installs the whole library as a plugin):
+
+```
+/plugin marketplace add ur-grue/autopunk-media-skills
+/plugin install autopunk-media-skills@autopunk-media-skills
+```
+
+Claude then auto-loads the right skill for the task at hand. Browse or manage them anytime with `/plugin`.
+
+**Use the files directly (Cursor, Codex CLI, Gemini CLI, OpenCode, or any AI assistant):**
 
 ```bash
-# Clone the library, then copy the skills you want into your project
 git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
 
-Each skill is self-contained: open the file, copy it into your tool's prompt/skills location, or paste it straight into the chat. Because the skills are just markdown, they work in **any** AI assistant.
+Each skill is a self-contained `SKILL.md`: open the file, copy it into your tool's prompt/skills location, or paste it straight into the chat. Because the skills are just markdown, they work in **any** AI assistant.
 
 ---
 

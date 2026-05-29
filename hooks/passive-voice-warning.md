@@ -6,7 +6,7 @@ severity: warning
 version: 1.0
 default_threshold: 25
 composes_with:
-  - skills/magazine-journalism/editing/passive-voice-checker.md
+  - skills/magazine-journalism/editing/passive-voice-checker/SKILL.md
 ---
 
 # Passive voice warning
@@ -40,7 +40,7 @@ The threshold is set per-file in frontmatter or globally:
 ```
 ⚠ passive-voice-warning (PostToolUse · non-blocking)
 
-  skills/tv-documentary/scripting/commentary-writer.md
+  skills/tv-documentary/scripting/commentary-writer/SKILL.md
 
   Passive voice: 8 of 22 sentences (36%) — threshold is 25%.
 
@@ -62,6 +62,6 @@ The threshold is set per-file in frontmatter or globally:
 
 ## Related skills
 
-- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker.md) — full audit with line-by-line rewrites
-- [copy-editor](../skills/editing/copy-editor.md) — broader editorial pass including voice
-- [structure-flow-checker](../skills/editing/structure-flow-checker.md) — checks narrative flow and structure
+- [passive-voice-checker](../skills/magazine-journalism/editing/passive-voice-checker/SKILL.md) — full audit with line-by-line rewrites
+- [copy-editor](../skills/editing/copy-editor/SKILL.md) — broader editorial pass including voice
+- [structure-flow-checker](../skills/editing/structure-flow-checker/SKILL.md) — checks narrative flow and structure

@@ -15,7 +15,7 @@ Documentary filmmakers, development producers, and indie production companies pi
 ## The Workflow
 
 ### Step 1: Write the logline
-**Skill:** [`logline-creator`](../../skills/tv-documentary/development/logline-creator.md)
+**Skill:** [`logline-creator`](../../skills/tv-documentary/development/logline-creator/SKILL.md)
 
 Give Claude your concept — what it's about, who's in it, what's at stake, and why now. Get back a sharp, one-sentence logline that captures the essence of the project.
 
@@ -24,7 +24,7 @@ Give Claude your concept — what it's about, who's in it, what's at stake, and 
 ---
 
 ### Step 2: Develop the full treatment
-**Skill:** [`pitch-treatment-writer`](../../skills/tv-documentary/development/pitch-treatment-writer.md)
+**Skill:** [`pitch-treatment-writer`](../../skills/tv-documentary/development/pitch-treatment-writer/SKILL.md)
 
 Feed in your logline, key characters, narrative arc, visual approach, and target broadcaster. Get back a complete pitch treatment — formatted the way commissioning editors expect to read them.
 
@@ -33,7 +33,7 @@ Feed in your logline, key characters, narrative arc, visual approach, and target
 ---
 
 ### Step 3: Build the series bible (if multi-part)
-**Skill:** [`series-bible-generator`](../../skills/tv-documentary/development/series-bible-generator.md)
+**Skill:** [`series-bible-generator`](../../skills/tv-documentary/development/series-bible-generator/SKILL.md)
 
 Give Claude your treatment, the number of episodes, and the overarching theme. Get back a series bible with episode breakdowns, character arcs across episodes, and the series-level narrative engine.
 
@@ -42,7 +42,7 @@ Give Claude your treatment, the number of episodes, and the overarching theme. G
 ---
 
 ### Step 4: Map the character arcs
-**Skill:** [`character-arc-planner`](../../skills/tv-documentary/development/character-arc-planner.md)
+**Skill:** [`character-arc-planner`](../../skills/tv-documentary/development/character-arc-planner/SKILL.md)
 
 Feed in your key characters — who they are, what they want, what's blocking them, and how their situation might change. Get back mapped character arcs showing development across the project.
 
@@ -51,7 +51,7 @@ Feed in your key characters — who they are, what they want, what's blocking th
 ---
 
 ### Step 5: Write the broadcaster one-pager
-**Skill:** [`broadcaster-pitch-writer`](../../skills/tv-documentary/business/broadcaster-pitch-writer.md)
+**Skill:** [`broadcaster-pitch-writer`](../../skills/tv-documentary/business/broadcaster-pitch-writer/SKILL.md)
 
 Give Claude your logline, treatment summary, target slot, and comparable titles. Get back a single-page pitch document — the page that sits on top of your package and determines whether the rest gets read.
 
@@ -60,7 +60,7 @@ Give Claude your logline, treatment summary, target slot, and comparable titles.
 ---
 
 ### Step 6: Write the co-production brief (if applicable)
-**Skill:** [`co-production-brief`](../../skills/tv-documentary/business/co-production-brief.md)
+**Skill:** [`co-production-brief`](../../skills/tv-documentary/business/co-production-brief/SKILL.md)
 
 If you're pitching for co-production, give Claude the project details and the territory split. Get back a structured co-production brief covering editorial responsibilities, rights, and financial framework.
 
@@ -69,7 +69,7 @@ If you're pitching for co-production, give Claude the project details and the te
 ---
 
 ### Step 7: Prepare the press kit
-**Skill:** [`press-kit-generator`](../../skills/tv-documentary/post-production/press-kit-generator.md)
+**Skill:** [`press-kit-generator`](../../skills/tv-documentary/post-production/press-kit-generator/SKILL.md)
 
 Even at pitch stage, a press kit frame shows professionalism. Give Claude your project details. Get back a press kit skeleton covering synopsis, key creatives, visual approach, and production timeline.
 
@@ -78,7 +78,7 @@ Even at pitch stage, a press kit frame shows professionalism. Give Claude your p
 ---
 
 ### Step 8: Write the funding application (if applicable)
-**Skill:** [`grant-proposal-writer`](../../skills/tv-documentary/business/grant-proposal-writer.md)
+**Skill:** [`grant-proposal-writer`](../../skills/tv-documentary/business/grant-proposal-writer/SKILL.md)
 
 Give Claude the fund's criteria, your project details, and the budget range. Get back a tailored funding application that speaks the fund's language.
 
@@ -90,10 +90,10 @@ Give Claude the fund's criteria, your project details, and the budget range. Get
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A location brief for recce | [`location-scout-brief`](../../skills/tv-documentary/pre-production/location-scout-brief.md) |
-| A shoot schedule | [`production-schedule-writer`](../../skills/tv-documentary/pre-production/production-schedule-writer.md) |
-| Festival submission copy | [`festival-strategy-brief`](../../skills/media-business/distribution/festival-strategy-brief.md) |
-| An investor brief (non-broadcast) | [`investor-brief-writer`](../../skills/media-business/funding/investor-brief-writer.md) |
+| A location brief for recce | [`location-scout-brief`](../../skills/tv-documentary/pre-production/location-scout-brief/SKILL.md) |
+| A shoot schedule | [`production-schedule-writer`](../../skills/tv-documentary/pre-production/production-schedule-writer/SKILL.md) |
+| Festival submission copy | [`festival-strategy-brief`](../../skills/media-business/distribution/festival-strategy-brief/SKILL.md) |
+| An investor brief (non-broadcast) | [`investor-brief-writer`](../../skills/media-business/funding/investor-brief-writer/SKILL.md) |
 
 ---
 

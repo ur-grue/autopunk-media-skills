@@ -15,7 +15,7 @@ YouTube creators working on scripted or semi-scripted content (explainers, essay
 ## The Workflow
 
 ### Step 1: Generate the idea
-**Skill:** [`niche-video-idea-generator`](../../skills/youtube/pre-production/niche-video-idea-generator.md)
+**Skill:** [`niche-video-idea-generator`](../../skills/youtube/pre-production/niche-video-idea-generator/SKILL.md)
 
 Give Claude your niche, recent trends you've noticed, and what your audience responds to. Get back 5–10 validated video concepts with audience hooks.
 
@@ -24,7 +24,7 @@ Give Claude your niche, recent trends you've noticed, and what your audience res
 ---
 
 ### Step 2: Optimize the title
-**Skill:** [`seo-title-optimizer`](../../skills/youtube/pre-production/seo-title-optimizer.md)
+**Skill:** [`seo-title-optimizer`](../../skills/youtube/pre-production/seo-title-optimizer/SKILL.md)
 
 Feed in your chosen concept. Get back multiple title options optimized for search and click-through rate.
 
@@ -33,7 +33,7 @@ Feed in your chosen concept. Get back multiple title options optimized for searc
 ---
 
 ### Step 3: Design the thumbnail concept
-**Skill:** [`thumbnail-concept-brief`](../../skills/youtube/pre-production/thumbnail-concept-brief.md)
+**Skill:** [`thumbnail-concept-brief`](../../skills/youtube/pre-production/thumbnail-concept-brief/SKILL.md)
 
 Give Claude your title and video angle. Get back a thumbnail concept brief describing composition, text overlay, color palette, and emotional trigger — ready to hand to a designer or execute yourself.
 
@@ -42,7 +42,7 @@ Give Claude your title and video angle. Get back a thumbnail concept brief descr
 ---
 
 ### Step 4: Write the hook
-**Skill:** [`hook-generator`](../../skills/youtube/pre-production/hook-generator.md)
+**Skill:** [`hook-generator`](../../skills/youtube/pre-production/hook-generator/SKILL.md)
 
 Feed in your topic, audience, and tone. Get back 3 alternative opening scripts (first 15–30 seconds) with the psychological mechanism behind each.
 
@@ -51,7 +51,7 @@ Feed in your topic, audience, and tone. Get back 3 alternative opening scripts (
 ---
 
 ### Step 5: Write the full script
-**Skill:** [`full-script-writer`](../../skills/youtube/scripting/full-script-writer.md)
+**Skill:** [`full-script-writer`](../../skills/youtube/scripting/full-script-writer/SKILL.md)
 
 Give Claude your hook, your title, your key arguments or story beats, and your target length. Get back a complete video script with transitions, B-roll suggestions, and calls to action.
 
@@ -60,7 +60,7 @@ Give Claude your hook, your title, your key arguments or story beats, and your t
 ---
 
 ### Step 6: Build the B-roll shot list
-**Skill:** [`b-roll-shot-list`](../../skills/youtube/scripting/b-roll-shot-list.md)
+**Skill:** [`b-roll-shot-list`](../../skills/youtube/scripting/b-roll-shot-list/SKILL.md)
 
 Feed in your script. Get back a timestamped shot list describing every B-roll clip you need — what to film, what to source, and what to generate.
 
@@ -69,7 +69,7 @@ Feed in your script. Get back a timestamped shot list describing every B-roll cl
 ---
 
 ### Step 7: Write the description
-**Skill:** [`description-seo-writer`](../../skills/youtube/post-production/description-seo-writer.md)
+**Skill:** [`description-seo-writer`](../../skills/youtube/post-production/description-seo-writer/SKILL.md)
 
 Give Claude your final title, script summary, and any links. Get back a full video description with keywords, chapters, social links, and calls to action — optimized for YouTube search.
 
@@ -78,7 +78,7 @@ Give Claude your final title, script summary, and any links. Get back a full vid
 ---
 
 ### Step 8: Generate chapter timestamps
-**Skill:** [`chapter-timestamps`](../../skills/youtube/post-production/chapter-timestamps.md)
+**Skill:** [`chapter-timestamps`](../../skills/youtube/post-production/chapter-timestamps/SKILL.md)
 
 Feed in your script or final edit timeline. Get back formatted chapter timestamps ready for your description.
 
@@ -90,10 +90,10 @@ Feed in your script or final edit timeline. Get back formatted chapter timestamp
 
 | When you need | Use this skill |
 |--------------|----------------|
-| A community post to announce the video | [`community-post-generator`](../../skills/youtube/post-production/community-post-generator.md) |
-| A Shorts version of the same content | [`shorts-script-adapter`](../../skills/youtube/scripting/shorts-script-adapter.md) |
-| Performance analysis after publishing | [`performance-report-writer`](../../skills/youtube/analytics/performance-report-writer.md) |
-| Sponsorship integration | [`sponsorship-email-writer`](../../skills/youtube/business/sponsorship-email-writer.md) |
+| A community post to announce the video | [`community-post-generator`](../../skills/youtube/post-production/community-post-generator/SKILL.md) |
+| A Shorts version of the same content | [`shorts-script-adapter`](../../skills/youtube/scripting/shorts-script-adapter/SKILL.md) |
+| Performance analysis after publishing | [`performance-report-writer`](../../skills/youtube/analytics/performance-report-writer/SKILL.md) |
+| Sponsorship integration | [`sponsorship-email-writer`](../../skills/youtube/business/sponsorship-email-writer/SKILL.md) |
 
 ---
 

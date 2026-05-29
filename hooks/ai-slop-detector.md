@@ -5,7 +5,7 @@ blocking: false
 severity: warning
 version: 1.0
 composes_with:
-  - skills/editing/ai-writing-detox.md
+  - skills/editing/ai-writing-detox/SKILL.md
 ---
 
 # AI slop detector
@@ -19,7 +19,7 @@ The hook reads its word lists from the `ai-writing-detox` skill's **Hard ban** a
 ## When this hook fires
 
 - **Event:** PostToolUse (after any Edit or Write tool call that touches a `.md` file under `skills/`, `docs/`, or the repo root)
-- **Condition:** The written or edited text contains one or more matches against the Hard ban or Soft warn lists defined in `skills/editing/ai-writing-detox.md`
+- **Condition:** The written or edited text contains one or more matches against the Hard ban or Soft warn lists defined in `skills/editing/ai-writing-detox/SKILL.md`
 - **Scope:** Body text only. Frontmatter YAML values, code blocks (fenced with triple backticks), and inline code spans are excluded from scanning.
 
 ## What the hook checks
@@ -28,7 +28,7 @@ The hook reads its word lists from the `ai-writing-detox` skill's **Hard ban** a
 
 **Soft warn** (flagged as a nudge): throat-clearing openers (`In this section, we will`, `It is worth noting that`, `It goes without saying`), false-inclusive openers (`Whether you're a … or a …`), marketing intensifiers (`truly`, `actually`, `simply`, `essentially`), academic-padding openers (`furthermore`, `moreover`, `additionally`), summary tics (`In conclusion`, `To summarize`), and em-dash density above three per 200-word window.
 
-Full lists with explanations and context scopes are in `skills/editing/ai-writing-detox.md` under the **Hard ban** and **Soft warn** headings.
+Full lists with explanations and context scopes are in `skills/editing/ai-writing-detox/SKILL.md` under the **Hard ban** and **Soft warn** headings.
 
 ## Silencing false positives
 
@@ -43,7 +43,7 @@ Some matches are intentional — a banned word inside a direct quote, a code sam
 ```
 ⚠ ai-slop-detector (PostToolUse · non-blocking)
 
-  skills/youtube/scripting/full-script-writer.md
+  skills/youtube/scripting/full-script-writer/SKILL.md
 
   Hard ban (2 hits):
     Line 34: "…designed to streamline the creator's workflow"
@@ -67,6 +67,6 @@ Some matches are intentional — a banned word inside a direct quote, a code sam
 
 ## Related skills
 
-- [ai-writing-detox](../skills/editing/ai-writing-detox.md) — source of truth for all banned/warned patterns
-- [copy-editor](../skills/editing/copy-editor.md) — broader editorial pass
-- [tone-consistency-checker](../skills/editing/tone-consistency-checker.md) — register and voice consistency
+- [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) — source of truth for all banned/warned patterns
+- [copy-editor](../skills/editing/copy-editor/SKILL.md) — broader editorial pass
+- [tone-consistency-checker](../skills/editing/tone-consistency-checker/SKILL.md) — register and voice consistency

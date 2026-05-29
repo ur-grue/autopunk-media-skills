@@ -48,10 +48,11 @@ a G-Eval pass at ≥ 4.0/5 across seven dimensions including a hard floor on
 professional in the medium, not like generic AI prose. Only one is still in draft.
 The full eval framework is documented in tests/EVAL_FRAMEWORK.md.
 
-The skills follow the Agent Skills file format so they work in Claude Code,
-Cursor, Codex CLI, Gemini CLI, and the various MCP-aware clients. But you
-can also just open one in the browser and paste it into Claude with your
-material — no install, no tooling. That's the actual user I built it for.
+In Claude Code you can install the whole library as a plugin with one line
+(`/plugin marketplace add ur-grue/autopunk-media-skills`) and Claude loads the
+right skill for the task automatically. But you can also just open one in the
+browser and paste it into Claude with your material — no install, no tooling.
+That's the actual user I built it for.
 
 What I'd love feedback on:
 1. Skills that look promising on paper but produce mediocre output for you —

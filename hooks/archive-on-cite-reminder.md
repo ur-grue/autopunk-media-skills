@@ -5,7 +5,7 @@ blocking: false
 severity: reminder
 version: 1.0
 composes_with:
-  - skills/research/preservation/web-archiving.md
+  - skills/research/preservation/web-archiving/SKILL.md
 ---
 
 # Archive-on-cite reminder
@@ -33,7 +33,7 @@ This hook pairs with the `web-archiving` skill (AUT-24). Once that skill ships, 
 ```
 ⚠ archive-on-cite-reminder (PostToolUse · non-blocking)
 
-  skills/magazine-journalism/investigation/foia-request-writer.md
+  skills/magazine-journalism/investigation/foia-request-writer/SKILL.md
 
   New URLs without archive confirmation (2):
     Line 23: https://www.rcfp.org/open-government-sections/
@@ -56,6 +56,6 @@ This hook pairs with the `web-archiving` skill (AUT-24). Once that skill ships, 
 
 ## Related skills
 
-- [web-archiving](../skills/research/preservation/web-archiving.md) — full archiving workflow (planned, AUT-24)
-- [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief.md) — tracking source material and contacts
-- [claim-origin-tracer](../skills/research/fact-checking/claim-origin-tracer.md) — tracing claims to original sources
+- [web-archiving](../skills/research/preservation/web-archiving/SKILL.md) — full archiving workflow (planned, AUT-24)
+- [source-research-brief](../skills/magazine-journalism/investigation/source-research-brief/SKILL.md) — tracking source material and contacts
+- [claim-origin-tracer](../skills/research/fact-checking/claim-origin-tracer/SKILL.md) — tracing claims to original sources

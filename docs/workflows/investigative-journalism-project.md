@@ -15,7 +15,7 @@ Journalists working on medium to long-form investigative stories. Works for free
 ## The Workflow
 
 ### Step 1: Define your research brief
-**Skill:** [`research-brief-creator`](../../skills/magazine-journalism/ideation/research-brief-creator.md)
+**Skill:** [`research-brief-creator`](../../skills/magazine-journalism/ideation/research-brief-creator/SKILL.md)
 
 Give Claude what you know so far — the tip, the subject, the suspected story. Get back a structured research brief: what to investigate, what records to request, who to talk to, and what would constitute proof.
 
@@ -24,7 +24,7 @@ Give Claude what you know so far — the tip, the subject, the suspected story. 
 ---
 
 ### Step 2: Map the key people
-**Skill:** [`person-biography-brief`](../../skills/research/people/person-biography-brief.md)
+**Skill:** [`person-biography-brief`](../../skills/research/people/person-biography-brief/SKILL.md)
 
 Feed in the names of your key subjects and sources. Get back concise biographies covering career history, public statements, known affiliations, and potential motivations.
 
@@ -33,7 +33,7 @@ Feed in the names of your key subjects and sources. Get back concise biographies
 ---
 
 ### Step 3: File your records requests
-**Skill:** [`foia-request-writer`](../../skills/magazine-journalism/investigation/foia-request-writer.md)
+**Skill:** [`foia-request-writer`](../../skills/magazine-journalism/investigation/foia-request-writer/SKILL.md)
 
 Give Claude the specific records you need, the agency that holds them, and the legal basis for your request. Get back a properly formatted FOIA/FOI letter ready to send.
 
@@ -42,7 +42,7 @@ Give Claude the specific records you need, the agency that holds them, and the l
 ---
 
 ### Step 4: Analyze documents and data
-**Skill:** [`document-analysis-summary`](../../skills/magazine-journalism/investigation/document-analysis-summary.md)
+**Skill:** [`document-analysis-summary`](../../skills/magazine-journalism/investigation/document-analysis-summary/SKILL.md)
 
 When documents arrive, feed them to Claude. Get back a structured analysis: key findings, contradictions, gaps, and questions for follow-up.
 
@@ -51,7 +51,7 @@ When documents arrive, feed them to Claude. Get back a structured analysis: key 
 ---
 
 ### Step 5: Build your interview questions
-**Skill:** [`interview-question-generator`](../../skills/tv-documentary/scripting/interview-question-generator.md)
+**Skill:** [`interview-question-generator`](../../skills/tv-documentary/scripting/interview-question-generator/SKILL.md)
 
 Give Claude the subject's biography, the documents you've analyzed, and what you're trying to establish. Get back layered question sets — from open-ended warmups to pointed confrontation questions.
 
@@ -60,7 +60,7 @@ Give Claude the subject's biography, the documents you've analyzed, and what you
 ---
 
 ### Step 6: Find the story angles
-**Skill:** [`story-angle-finder`](../../skills/magazine-journalism/ideation/story-angle-finder.md)
+**Skill:** [`story-angle-finder`](../../skills/magazine-journalism/ideation/story-angle-finder/SKILL.md)
 
 Now that you have research, documents, and interview material, feed it all in. Get back multiple publishable angles with different framings, reporting approaches, and headline concepts.
 
@@ -69,7 +69,7 @@ Now that you have research, documents, and interview material, feed it all in. G
 ---
 
 ### Step 7: Structure the piece
-**Skill:** [`reportage-structure`](../../skills/magazine-journalism/writing/reportage-structure.md)
+**Skill:** [`reportage-structure`](../../skills/magazine-journalism/writing/reportage-structure/SKILL.md)
 
 Give Claude your chosen angle, your evidence, and your target length. Get back a detailed structural outline — opening scene, narrative arc, evidence placement, source attribution plan.
 
@@ -78,7 +78,7 @@ Give Claude your chosen angle, your evidence, and your target length. Get back a
 ---
 
 ### Step 8: Run the fact-check
-**Skill:** [`claim-verification-checklist`](../../skills/magazine-journalism/fact-checking/claim-verification-checklist.md)
+**Skill:** [`claim-verification-checklist`](../../skills/magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md)
 
 Before publication, feed in every factual claim in your piece. Get back a verification checklist: what's confirmed, what needs a second source, what's unverifiable, and what's risky.
 
@@ -87,7 +87,7 @@ Before publication, feed in every factual claim in your piece. Get back a verifi
 ---
 
 ### Step 9: Check legal risks
-**Skill:** [`libel-check-brief`](../../skills/magazine-journalism/legal/libel-check-brief.md)
+**Skill:** [`libel-check-brief`](../../skills/magazine-journalism/legal/libel-check-brief/SKILL.md)
 
 Feed in the final draft. Get back a risk assessment flagging potential defamation, privacy, or contempt issues with suggested rewrites for problematic passages.
 
@@ -96,7 +96,7 @@ Feed in the final draft. Get back a risk assessment flagging potential defamatio
 ---
 
 ### Step 10: Write the headline and distribution copy
-**Skill:** [`headline-generator`](../../skills/magazine-journalism/ideation/headline-generator.md)
+**Skill:** [`headline-generator`](../../skills/magazine-journalism/ideation/headline-generator/SKILL.md)
 
 Give Claude the final piece with its angle and audience. Get back headline options and social distribution copy.
 
@@ -108,10 +108,10 @@ Give Claude the final piece with its angle and audience. Get back headline optio
 
 | When you need | Use this skill |
 |--------------|----------------|
-| Data analysis for numbers-heavy stories | [`data-story-finder`](../../skills/data-journalism/analysis/data-story-finder.md) |
-| Source credibility assessment | [`source-credibility-brief`](../../skills/magazine-journalism/fact-checking/source-credibility-brief.md) |
-| Correction notices if needed post-publication | [`correction-notice-writer`](../../skills/writing/articles/correction-notice-writer.md) |
-| Newsletter teaser for the investigation | [`newsletter-teaser-writer`](../../skills/magazine-journalism/distribution/newsletter-teaser-writer.md) |
+| Data analysis for numbers-heavy stories | [`data-story-finder`](../../skills/data-journalism/analysis/data-story-finder/SKILL.md) |
+| Source credibility assessment | [`source-credibility-brief`](../../skills/magazine-journalism/fact-checking/source-credibility-brief/SKILL.md) |
+| Correction notices if needed post-publication | [`correction-notice-writer`](../../skills/writing/articles/correction-notice-writer/SKILL.md) |
+| Newsletter teaser for the investigation | [`newsletter-teaser-writer`](../../skills/magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md) |
 
 ---
 

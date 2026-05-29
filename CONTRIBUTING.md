@@ -58,7 +58,7 @@ Place your skill file in the correct subdirectory under `skills/`. Match the cat
 
 Example:
 ```
-skills/youtube/pre-production/hook-generator.md
+skills/youtube/pre-production/hook-generator/SKILL.md
 ```
 
 ### Skill File Format

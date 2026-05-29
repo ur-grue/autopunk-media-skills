@@ -32,7 +32,7 @@ Every skill is quality-tested (226 skills, 98.5% pass rate across 2,390 checks).
 
 394 skills across 21 categories: TV documentary, journalism, YouTube, podcast, radio, newsletter, PR, screenwriting, data journalism, image prompting, translation, and more.
 
-**How to use:** Clone the repo or just copy-paste any skill into Claude. Skills follow the Agent Skills standard so they work in Claude Code, Cursor, Codex CLI, and Gemini CLI too.
+**How to use:** In Claude Code, install the whole library with one line — `/plugin marketplace add ur-grue/autopunk-media-skills` — and Claude auto-loads the right skill. Or just copy-paste any skill into Claude (works in any assistant — no install).
 
 Repo: https://github.com/ur-grue/autopunk-media-skills
 

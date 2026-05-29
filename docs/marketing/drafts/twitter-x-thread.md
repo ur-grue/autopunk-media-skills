@@ -67,7 +67,7 @@ It encodes production knowledge, not generic prompt templates.
 ```
 No coding required.
 
-Clone the repo into your skills folder. Or open any skill file in a browser, copy it, paste it into Claude with your material.
+In Claude Code: `/plugin marketplace add ur-grue/autopunk-media-skills` — one line, whole library. Or open any skill file in a browser, copy it, paste it into Claude with your material.
 
 Works in Claude Code, Cursor, Codex CLI, Gemini CLI. MIT licensed.
 ```

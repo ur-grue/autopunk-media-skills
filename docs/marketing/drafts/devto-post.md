@@ -62,15 +62,22 @@ All 36 failures occurred on deliberately minimal inputs where skills correctly r
 
 ## How to use it
 
-**Option A — Clone the library:**
+**Option A — One command in Claude Code:**
+
+```
+/plugin marketplace add ur-grue/autopunk-media-skills
+/plugin install autopunk-media-skills@autopunk-media-skills
+```
+
+Claude then auto-loads the right skill for whatever you're working on.
+
+**Option B — Copy and paste (no install):** Browse `skills/`, open the one you need, paste it into Claude with your material. Works in any AI assistant.
+
+**Option C — Clone the files:**
 
 ```bash
 git clone https://github.com/ur-grue/autopunk-media-skills.git
 ```
-
-Works in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the Agent Skills standard.
-
-**Option B — Copy and paste:** Browse `skills/`, find what you need, paste it into Claude with your material.
 
 **No coding required.** The entire library is plain text. Pick a skill, read "What You Need To Provide," give Claude what it asks for, and get professional output.
 
