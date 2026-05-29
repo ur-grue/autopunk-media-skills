@@ -9,7 +9,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'content/articles/**.md'
+      - 'content/articles/**'
+      - 'scripts/publish-articles.py'
+      - '.github/workflows/publish-content.yml'
   schedule:
     - cron: '0 13 * * 2'   # Tuesdays 13:00 UTC — weekly cadence
   workflow_dispatch:        # manual "Run workflow" button
@@ -40,6 +42,7 @@ jobs:
         run: python3 scripts/publish-articles.py
 
       - name: Commit publish state
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -99,6 +99,7 @@ def main():
     state = load_state()
     arts = sorted(f for f in os.listdir(ART_DIR) if f.endswith(".md"))
     print(f"articles: {len(arts)} | live={LIVE} | devto={'yes' if DEVTO else 'no'} | hashnode={'yes' if HASH_PAT and HASH_PUB else 'no'}")
+    attempted = succeeded = 0
     for fn in arts:
         slug = fn[:-3]
         rec = state.setdefault(slug, {})
@@ -116,13 +117,28 @@ def main():
             if not LIVE:
                 print(f"  {slug} [{channel}] DRY-RUN (would publish)")
                 continue
+            attempted += 1
             try:
                 url = fn_post(fm, body)
                 rec[channel] = url
+                succeeded += 1
                 print(f"  {slug} [{channel}] PUBLISHED -> {url}")
-            except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as e:
+            except urllib.error.HTTPError as e:
+                detail = ""
+                try:
+                    detail = e.read().decode()[:500]
+                except Exception:
+                    pass
+                print(f"  {slug} [{channel}] HTTP {e.code} ERROR: {detail}", file=sys.stderr)
+            except (urllib.error.URLError, RuntimeError) as e:
                 print(f"  {slug} [{channel}] ERROR: {e}", file=sys.stderr)
     save_state(state)
+    # Fail loudly if we tried to publish but everything failed — otherwise a
+    # silent green run hides a broken token / API change.
+    if attempted and not succeeded:
+        print(f"FAILED: {attempted} publish attempt(s), 0 succeeded", file=sys.stderr)
+        return 1
+    print(f"done: {succeeded}/{attempted} published" if attempted else "done: nothing to publish")
     return 0
 
 
