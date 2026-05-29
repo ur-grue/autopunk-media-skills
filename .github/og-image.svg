@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2ea043"/>
+  <text x="80" y="150" fill="#7ee787" font-size="30" font-weight="600" letter-spacing="2">AUTOPUNK MEDIA SKILLS</text>
+  <text x="80" y="250" fill="#f0f6fc" font-size="76" font-weight="800">394 free Claude skills</text>
+  <text x="80" y="335" fill="#f0f6fc" font-size="76" font-weight="800">for media professionals</text>
+  <text x="80" y="425" fill="#c9d1d9" font-size="38" font-weight="400">AI that writes like a pro — not a chatbot.</text>
+  <text x="80" y="478" fill="#8b949e" font-size="30">TV · journalism · podcast · YouTube · radio · newsletter · PR</text>
+  <g fill="#8b949e" font-size="28">
+    <text x="80" y="565">all quality-tested · mean 4.38/5 · MIT</text>
+  </g>
+  <text x="80" y="600" fill="#58a6ff" font-size="28" font-weight="600">github.com/ur-grue/autopunk-media-skills</text>
+</svg>
