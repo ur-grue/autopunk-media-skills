@@ -1,24 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B0E14"/>
-      <stop offset="0.5" stop-color="#14181F"/>
-      <stop offset="1" stop-color="#0B0E14"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FF3366"/>
-      <stop offset="0.5" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#FFD23F"/>
-    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.08 0"/>
+    </filter>
+    <style>
+      .display { font-family: 'Fredoka One','Fredoka','Baloo 2',sans-serif; font-weight:700; }
+      .body { font-family: 'DM Sans','Outfit',sans-serif; }
+    </style>
   </defs>
-  <rect width="1280" height="640" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1280" height="8" fill="url(#accent)"/>
-  <rect x="0" y="632" width="1280" height="8" fill="url(#accent)"/>
-  <text x="640" y="118" font-size="56" font-weight="800" fill="#F5F7FA" text-anchor="middle" letter-spacing="-1">autopunk-media-skills</text>
-  <text x="640" y="240" font-size="76" font-weight="800" fill="#F5F7FA" text-anchor="middle">394 free Claude skills</text>
-  <text x="640" y="330" font-size="76" font-weight="800" fill="#F5F7FA" text-anchor="middle">for media professionals</text>
-  <text x="640" y="420" font-size="34" font-weight="400" fill="#9AA4B2" text-anchor="middle">AI that writes like a pro — not a chatbot.</text>
-  <text x="640" y="495" font-size="26" font-weight="600" fill="#FF6B35" text-anchor="middle" letter-spacing="6">PITCH · SCRIPT · PUBLISH</text>
-  <text x="640" y="550" font-size="24" font-weight="400" fill="#9AA4B2" text-anchor="middle">TV · journalism · podcast · YouTube · radio · newsletter · PR</text>
-  <text x="640" y="600" font-size="22" font-weight="400" fill="#6B7280" text-anchor="middle">all quality-tested · mean 4.38/5 · MIT licensed</text>
+
+  <!-- black is dominant -->
+  <rect width="1280" height="640" fill="#000000"/>
+  <!-- grain texture (brand requirement) -->
+  <rect width="1280" height="640" filter="url(#grain)"/>
+
+  <!-- 4-point star cluster, top-right, varied sizes, flat colour -->
+  <g fill="#E8000F">
+    <path d="M1150 65 L1156 95 L1186 101 L1156 107 L1150 137 L1144 107 L1114 101 L1144 95 Z"/>
+    <path d="M1212 138 L1215 153 L1230 156 L1215 159 L1212 174 L1209 159 L1194 156 L1209 153 Z"/>
+  </g>
+  <path d="M1096 158 L1098 168 L1108 170 L1098 172 L1096 182 L1094 172 L1084 170 L1094 168 Z" fill="#F5F0EB"/>
+
+  <!-- headline: lowercase, Fredoka One -->
+  <text x="80" y="232" class="display" font-size="104" fill="#F5F0EB">ai for media</text>
+  <text x="80" y="352" class="display" font-size="104" fill="#F5F0EB">that <tspan fill="#E8000F">matters.</tspan></text>
+
+  <!-- heavy punk-red rule, flat -->
+  <rect x="80" y="420" width="360" height="6" fill="#E8000F"/>
+
+  <!-- subline: DM Sans -->
+  <text x="80" y="478" class="body" font-size="28" fill="#F5F0EB">394 free Claude skills for tv, journalism, podcasts,</text>
+  <text x="80" y="514" class="body" font-size="28" fill="#F5F0EB">youtube, radio, newsletters and pr.</text>
+
+  <!-- footer -->
+  <text x="80" y="576" class="display" font-size="24" fill="#E8000F">github.com/ur-grue/autopunk-media-skills</text>
+  <text x="80" y="612" class="body" font-size="18" fill="#F5F0EB" fill-opacity="0.7">all quality-tested  ·  mit  ·  one-command install</text>
 </svg>
