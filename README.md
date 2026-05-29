@@ -104,28 +104,20 @@ TV documentary producers · magazine journalists · YouTube creators · podcast 
 
 ## Quick Start
 
-**New to Claude?** Claude is a free AI assistant made by Anthropic. Go to [claude.ai](https://claude.ai), create a free account, and you're ready. That's all you need to use any skill in this library.
+**You don't write the prompt — the skill *is* the prompt, already written.** You just paste it and add your topic. Works in [Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant — free accounts are fine.
 
-**Here's what the `hook-generator` skill produces.** Try it yourself — paste the prompt below into Claude and add your own topic.
+Three steps, about 60 seconds:
 
-### Example input:
+1. **Open a skill** — e.g. [`hook-generator`](skills/youtube/pre-production/hook-generator/SKILL.md). Copy its text.
+2. **Paste it** into Claude or ChatGPT.
+3. **Add your material** in one line — the skill's "What You Need To Provide" tells you exactly what:
 
 ```
-You are a YouTube hook specialist. Your job is to write the first 15–30 seconds
-of a YouTube video script — the hook that stops the scroll and forces the viewer
-to keep watching.
-
-My video is about: the hidden reason most people fail at learning a new language
-as an adult — and why the standard advice about "immersion" is scientifically wrong.
-
-Target audience: adults aged 28–45 who have tried and failed to learn a language
-before and feel frustrated with their own progress.
-
-Tone: direct, slightly provocative, backed by science — not motivational-speaker energy.
-
-Write 3 alternative hooks. For each: write the full script, then a one-line note
-explaining the psychological mechanism it uses.
+Topic: why most adults fail to learn a language — and why "immersion" advice is wrong.
+Format: YouTube long-form. Audience: frustrated adult learners, 28–45. Tone: direct, science-backed.
 ```
+
+That's the whole input. Here's what the skill writes back:
 
 ### Example output:
 
@@ -366,9 +358,9 @@ This repo exists within a growing ecosystem of agent skills for media, journalis
 
 ## Need help with your specific project?
 
-These skills produce strong drafts. But if you're pitching to a broadcaster, applying for production funding, or trying to get a project greenlit — the document is only half the job. Knowing what commissioners respond to, how to position your project, and when to push back on notes is the other half.
+These skills produce strong drafts in any AI. But for one high-stakes job — getting a documentary commissioned — the draft is only half of it. The pitch has to be *broadcast-ready*: formatted for the specific broadcaster, sourced well enough to survive an editor, positioned against what's already in development.
 
-**[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals. The skills handle the writing. The Pitch Doctor handles the strategy.
+**[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system built for exactly that: it turns a documentary idea into a broadcaster-format exposé — 98 broadcaster profiles, confidence-tagged sourcing — in about twelve minutes. The skills here are the free, general-purpose layer; the Pitch Doctor is the specialized paid product for the pitch that has to land. Your first exposé is free.
 
 → [Learn more](docs/go-deeper.md)
 

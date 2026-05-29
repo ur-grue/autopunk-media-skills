@@ -125,4 +125,4 @@ Give Claude the final piece with its angle and audience. Get back headline optio
 
 ## Pitching the investigation as a documentary
 
-If the investigation is strong enough to become a documentary, podcast series, or long-form feature for a different outlet — that is a different pitch entirely. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers pitch consulting for journalists turning investigations into broadcast or streaming projects.
+If the investigation is strong enough to become a documentary, pitching it to a broadcaster is a different job. **[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system that turns a documentary idea into a broadcaster-format exposé — 98 broadcaster profiles, confidence-tagged sourcing — in about twelve minutes. Your first exposé is free.

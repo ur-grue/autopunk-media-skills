@@ -12,20 +12,27 @@ That's it — the same copy-paste flow as Claude, just a different chat window.
 
 ## 2. A Custom GPT (reusable, no code)
 
-Turn a skill — or the whole library — into a GPT you can reuse:
+Don't paste all 394 skills into one giant prompt — that's the exact thing this library is built *against*, and it makes output worse. Instead, attach the skills as **Knowledge** and let the GPT pull up the right one per request:
 
 1. ChatGPT → **Explore GPTs → Create → Configure**.
-2. For a single skill: paste its `SKILL.md` body into **Instructions**.
-3. For the whole library: run the bundler below to get one file, and either paste it into **Instructions** or upload it under **Knowledge**:
+2. Under **Knowledge**, upload the skill files for the area you work in. Easiest way to get tidy per-category files:
 
    ```bash
    python3 scripts/build-openai-bundle.py
-   # writes dist/openai/autopunk-system-prompt.md  (all skills, one file)
-   # and    dist/openai/<category>.md              (one bundle per category)
+   # writes dist/openai/<category>.md  — one file per category (journalism, youtube, podcast…)
    ```
-4. Name it (e.g. "autopunk media skills"), save, and it auto-selects the right skill from your request.
 
-If the full bundle is larger than a GPT's instruction limit, use a per-category bundle (e.g. `dist/openai/journalism.md`) or attach the bundle as a Knowledge file instead.
+   Upload the categories you care about (e.g. `journalism.md`, `youtube.md`). You can also just drag in individual `SKILL.md` files.
+3. Paste this into **Instructions**:
+
+   ```
+   You are a media-production assistant. The Knowledge files contain individual
+   SKILLS, each a procedure for one task. When I describe a task, find the single
+   most relevant skill and follow it exactly — its "What You Need To Provide,"
+   "How the Assistant Approaches This," "Output Format," and "Quality Criteria."
+   If a required input is missing, ask for it instead of inventing facts.
+   ```
+4. Name it (e.g. "autopunk media skills"), save. Now you describe a task in plain words and it applies the right skill.
 
 ## 3. The OpenAI API (Assistants / Chat Completions)
 

@@ -107,4 +107,4 @@ Feed in your script or final edit timeline. Get back formatted chapter timestamp
 
 ## Pitching the channel, not the video
 
-This workflow makes individual videos. If you are pitching the channel as a property — to sponsors, networks, or production partners — the document is only half the job. **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for creators who need strategic packaging, not just copy.
+This workflow makes individual videos. If a topic you cover could become a **documentary** for a broadcaster, that's a different pitch entirely — **[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system that turns a documentary idea into a broadcaster-format exposé in about twelve minutes (first one free).
