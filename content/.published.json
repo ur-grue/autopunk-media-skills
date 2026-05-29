@@ -2,5 +2,7 @@
   "2026-05-ai-writing-that-doesnt-sound-like-ai": {
     "devto": "https://dev.to/urgrue/how-to-tell-if-ai-wrote-it-and-how-to-make-it-stop-4c9m"
   },
-  "2026-05-scoring-non-code-llm-output": {}
+  "2026-05-scoring-non-code-llm-output": {
+    "devto": "https://dev.to/urgrue/how-do-you-eval-llm-output-that-isnt-code-1gp8"
+  }
 }
