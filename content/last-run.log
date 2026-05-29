@@ -1,0 +1,24 @@
+articles: 2 | live=True | devto=yes | hashnode=yes
+  2026-05-ai-writing-that-doesnt-sound-like-ai [devto] already published -> skip
+Traceback (most recent call last):
+  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 146, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 122, in main
+    url = fn_post(fm, body)
+          ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/autopunk-media-skills/autopunk-media-skills/scripts/publish-articles.py", line 90, in post_hashnode
+    d = json.load(r)
+        ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
