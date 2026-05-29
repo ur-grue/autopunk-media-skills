@@ -1,12 +1,12 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-[![Skills](https://img.shields.io/badge/skills-354_total-brightgreen)](skills/) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
+[![Skills](https://img.shields.io/badge/skills-435-brightgreen)](skills/) [![Quality](https://img.shields.io/badge/mean_eval-4.37%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-**354 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — built by a commissioning editor with 15+ years in public broadcasting. No coding required.
+**435 free Claude skills for media professionals.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
-**Jump to your role:** [Documentary Producer](#-for-documentary-producers) · [Journalist](#-for-journalists) · [YouTube Creator](#-for-youtube-creators) · [Podcaster](#-for-podcasters) · [Newsletter Writer](#-for-newsletter-writers)
+**Jump to your role:** [Documentary Producer](docs/for/documentary-producer.md) · [Journalist](docs/for/magazine-journalist.md) · [YouTube Creator](docs/for/youtuber.md) · [Podcaster](docs/for/podcaster.md) · [Newsletter Writer](docs/for/newsletter-writer.md)
 
 ---
 
@@ -55,11 +55,11 @@ That's it. You're using a production-grade skill.
 
 ## What Is This?
 
-This is a free collection of **354 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
+This is a free collection of **435 Claude skills** — ready-to-use prompts and instructions that turn Claude into a specialist for one specific media production task at a time.
 
 Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
 
-**354 skills across 15 categories.** 176 stable (quality-evaluated at ≥ 4.0/5), 178 beta. MIT licensed.
+**435 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.37/5**, with 4.0 the minimum to ship. MIT licensed.
 
 Skills work as copy-paste prompts in [Claude](https://claude.ai), or as installable skills in Claude Code, Cursor, Codex CLI, Gemini CLI, and any agent supporting the [Agent Skills standard](https://agentskills.io).
 
@@ -156,22 +156,28 @@ That's the quality level you get from every stable skill in this library.
 
 | Category | Skills | What It Covers |
 |----------|--------|----------------|
-| TV Documentary | 28 skills | development · pre-production · scripting · post-production · localization · business |
-| Magazine Journalism | 39 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
-| YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
-| Podcast | 12 skills | pre-production · scripting · post-production · business |
-| Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
+| Research | 81 skills | people · background · fact-checking · academic · data & statistics · competitive · logistics |
+| Writing | 68 skills | articles · broadcast · digital & social · institutional |
+| Magazine Journalism | 42 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| TV Documentary | 27 skills | development · pre-production · scripting · post-production · localization · business |
 | Media Business | 19 skills | pitching · distribution · funding · legal |
-| Social Media | 11 skills | content · strategy |
-| Radio / Audio | 12 skills | scripting · news packages · production · strategy |
-| Newsletter | 13 skills | writing · strategy · growth · monetization |
+| YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
+| Data Journalism | 18 skills | analysis · investigation · visualization · publishing |
+| Editing | 17 skills | line, structure & voice editing |
+| Production Support | 17 skills | formatting · reference |
+| Pre-Production | 14 skills | planning, scheduling & shoot briefs |
 | PR / Communications | 13 skills | press office · crisis comms · media relations · content |
+| Newsletter | 13 skills | writing · strategy · growth · monetization |
+| Podcast | 12 skills | pre-production · scripting · post-production · business |
+| Radio / Audio | 12 skills | scripting · news packages · production · strategy |
+| Social Media | 11 skills | content · strategy |
+| Archive & Legal | 10 skills | archive research · rights & clearances |
+| Image Prompting | 10 skills | Midjourney · Flux · art direction · workflows |
+| Audience & Distribution | 9 skills | audience growth · publishing |
 | Screenwriting | 9 skills | development · scripting · revision · production |
-| Data Journalism | 15 skills | analysis · visualization · investigation · publishing |
-| Research | 18 skills | people · background · fact-checking · academic · media · logistics |
-| Translation | 7 skills | text · institutional · digital · reference · quality · localization |
-| Production Support | 7 skills | formatting · reference |
-| **Total** | **354 skills** | |
+| Translation & Localization | 8 skills | localization · cultural adaptation |
+| Translation | 7 skills | text · institutional · digital · reference · quality |
+| **Total** | **435 skills** | + 20 localized ES/FR variants |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
@@ -327,9 +333,9 @@ Short version:
 
 ## Quality Testing
 
-**226 skills tested** against binary assertions using diverse inputs (standard, minimal, European context). **2,354 / 2,390 checks passed (98.5%).** Radio/Audio and PR/Communications scored 100%.
+**Every skill carries a quality score** in its metadata — the library mean is **4.37/5**, and 4.0 is the minimum to ship. See the auto-generated [`tests/EVAL_SUMMARY.md`](tests/EVAL_SUMMARY.md) for the score of every category.
 
-All 36 failures occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
+On top of that, our documented assertion suite ran **226 skills** against binary checks using diverse inputs (standard, minimal, European context): **2,354 / 2,390 checks passed (98.5%).** All 36 misses occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
 
 Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [`tests/README.md`](tests/README.md)
 
