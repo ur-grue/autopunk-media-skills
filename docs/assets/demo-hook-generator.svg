@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="900" height="430" rx="12" fill="#0d1117"/>
+  <text x="30" y="48" fill="#7ee787" font-size="20" font-weight="700">hook-generator</text>
+  <text x="30" y="74" fill="#8b949e" font-size="15">Paste a topic → get opening lines that stop the scroll. No install.</text>
+
+  <rect x="30" y="98" width="400" height="300" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="50" y="128" fill="#58a6ff" font-size="14" font-weight="700">INPUT</text>
+  <text x="50" y="158" fill="#c9d1d9" font-size="15">Video: why "immersion" fails for</text>
+  <text x="50" y="180" fill="#c9d1d9" font-size="15">adult language learners.</text>
+  <text x="50" y="214" fill="#8b949e" font-size="14">Audience: self-teaching adults.</text>
+  <text x="50" y="236" fill="#8b949e" font-size="14">Tone: contrarian, evidence-led.</text>
+
+  <rect x="470" y="98" width="400" height="300" rx="8" fill="#161b22" stroke="#2ea043"/>
+  <text x="490" y="128" fill="#7ee787" font-size="14" font-weight="700">OUTPUT (unedited)</text>
+  <text x="490" y="158" fill="#f0f6fc" font-size="15">"Everyone says move abroad to</text>
+  <text x="490" y="180" fill="#f0f6fc" font-size="15">learn a language. I did. Two years</text>
+  <text x="490" y="202" fill="#f0f6fc" font-size="15">later I still couldn't order coffee.</text>
+  <text x="490" y="224" fill="#f0f6fc" font-size="15">Here's what actually moved the</text>
+  <text x="490" y="246" fill="#f0f6fc" font-size="15">needle — and why immersion</text>
+  <text x="490" y="268" fill="#f0f6fc" font-size="15">alone is a myth."</text>
+  <text x="490" y="306" fill="#8b949e" font-size="13">+ 2 more hooks, each with the</text>
+  <text x="490" y="324" fill="#8b949e" font-size="13">reason it works.</text>
+
+  <text x="450" y="246" fill="#2ea043" font-size="28" text-anchor="middle" font-weight="800">→</text>
+</svg>

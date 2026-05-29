@@ -1,0 +1,52 @@
+name: Publish Content
+
+# Auto-publishes new marketing articles to dev.to + Hashnode.
+# Secrets live in GitHub repo settings (Settings -> Secrets and variables ->
+# Actions): DEVTO_API_KEY, HASHNODE_PAT, HASHNODE_PUBLICATION_ID.
+# Missing secret => that channel is skipped (no failure).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/articles/**.md'
+  schedule:
+    - cron: '0 13 * * 2'   # Tuesdays 13:00 UTC — weekly cadence
+  workflow_dispatch:        # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-content
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publish new articles
+        env:
+          PUBLISH: '1'
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          HASHNODE_PAT: ${{ secrets.HASHNODE_PAT }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+        run: python3 scripts/publish-articles.py
+
+      - name: Commit publish state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/.published.json
+          if git diff --cached --quiet; then
+            echo "No publish-state changes"
+          else
+            git commit -m "chore: record published articles [skip ci]"
+            git push
+          fi
