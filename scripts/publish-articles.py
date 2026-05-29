@@ -80,16 +80,38 @@ def post_hashnode(fm, body):
     if fm.get("cover_image"):
         variables["input"]["coverImageOptions"] = {"coverImageURL": fm["cover_image"]}
     req = urllib.request.Request(
-        "https://gql.hashnode.com/",
+        "https://gql.hashnode.com",  # no trailing slash — slash can 301 -> GET -> HTML
         data=json.dumps({"query": q, "variables": variables}).encode(),
         headers={"Authorization": HASH_PAT, "Content-Type": "application/json",
                  "Accept": "application/json",
                  "User-Agent": "Mozilla/5.0 (autopunk-publisher)"},
         method="POST")
-    with urllib.request.urlopen(req, timeout=30) as r:
-        raw = r.read().decode().strip()
+    # Do NOT auto-follow redirects: a 301 on POST would be replayed as GET and
+    # return the marketing site's HTML. Catch it and report instead.
+    class _NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k):
+            return None
+    opener = urllib.request.build_opener(_NoRedirect)
+    try:
+        with opener.open(req, timeout=30) as r:
+            status = r.status
+            ctype = r.headers.get("Content-Type", "")
+            raw = r.read().decode().strip()
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get("Location", "")
+        ctype = e.headers.get("Content-Type", "")
+        if e.code in (301, 302, 303, 307, 308):
+            raise RuntimeError(f"hashnode redirect HTTP {e.code} -> {loc!r} (ctype={ctype})")
+        body_snip = ""
+        try:
+            body_snip = e.read().decode()[:200]
+        except Exception:
+            pass
+        raise RuntimeError(f"hashnode HTTP {e.code} ctype={ctype} body={body_snip!r}")
     if not raw:
-        raise RuntimeError(f"hashnode empty response (HTTP {r.status})")
+        raise RuntimeError(f"hashnode empty response (HTTP {status})")
+    if not raw.lstrip().startswith("{"):
+        raise RuntimeError(f"hashnode non-JSON (HTTP {status}, ctype={ctype}): {raw[:200]}")
     try:
         d = json.loads(raw)
     except json.JSONDecodeError:
