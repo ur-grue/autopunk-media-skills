@@ -23,7 +23,7 @@ Generates a detailed, numbered B-roll shot list from a video script or outline, 
 **Required:** The full video script or a detailed section-by-section outline; the video's main subject or topic; shooting environment (e.g., home studio, outdoor location, office, on-the-go).
 **Optional:** Gear available (e.g., gimbal, drone, macro lens); visual style or reference channels; anything you definitely cannot film (licensed locations, private settings, faces of specific people); screen recording or graphics sections that will replace B-roll.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads through the script section by section, identifying every moment where a visual is needed to cover narration, demonstrate a concept, establish a location, or add texture to a talking-head shot.
 2. For each moment, determines the most effective shot type (wide establishing, close-up detail, over-the-shoulder, cutaway, insert, time-lapse suggestion) and writes a specific, filmable description — not "show cooking" but "close-up of hands pressing dough into a bowl, flour cloud visible."
 3. Organizes shots by script section, flags any shots that require special preparation (permits, props, second person, specific time of day), and adds a brief shooting notes section at the end with logistical groupings to make the shoot day efficient.
@@ -134,7 +134,7 @@ Numbered shot list organized under bold section headers matching the script. Eac
 ## Known Limitations
 - Shot suggestions assume standard consumer camera access. If you're shooting on a smartphone only, some shot types (slow motion, time-lapse) may need to be flagged as device-dependent.
 - This skill cannot account for shots that are genuinely impossible without location access — if a script mentions a specific landmark or commercial location, those shots will be listed but flagged. You'll need to decide whether to substitute or seek access.
-- For highly abstract or non-visual topics (philosophy, personal finance concepts, mental health), B-roll options are inherently limited. Claude will suggest illustrative and metaphorical shots, but some sections may need graphics, text overlays, or screen recordings instead.
+- For highly abstract or non-visual topics (philosophy, personal finance concepts, mental health), B-roll options are inherently limited. The assistant will suggest illustrative and metaphorical shots, but some sections may need graphics, text overlays, or screen recordings instead.
 
 ## Related Skills
 - [full-script-writer](../full-script-writer/SKILL.md)

@@ -24,9 +24,8 @@ Generates a structured red-flag checklist for a specific document or quote a jou
 **Required:** A description of the document or quote — what it purports to be, who it is attributed to, how you received it, and what it claims.
 **Optional:** A transcription or close description of the document's content and visual appearance (letterhead, logos, formatting, signatures, date formats); the name of the organisation or individual it claims to originate from; any contextual details about why the source provided it and what they stand to gain.
 
-## How Claude Approaches This
-
-**Important:** This skill does not verify documents. It produces a checklist of red flags to look for. Claude cannot examine the physical document, run metadata analysis, or confirm authenticity. The checklist tells you what questions to ask and what to check — it does not answer those questions.
+## How the Assistant Approaches This
+**Important:** This skill does not verify documents. It produces a checklist of red flags to look for. The assistant cannot examine the physical document, run metadata analysis, or confirm authenticity. The checklist tells you what questions to ask and what to check — it does not answer those questions.
 
 1. Identifies the document type and establishes what an authentic version of that type normally looks like — standard formatting conventions, expected language register, typical structural features
 2. Generates a red-flag checklist specific to that document type, organised by category: formatting and visual indicators, content and language indicators, provenance and chain-of-custody indicators, and source-motive indicators

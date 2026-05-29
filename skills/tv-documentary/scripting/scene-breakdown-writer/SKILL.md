@@ -23,7 +23,7 @@ Breaks a documentary sequence into a detailed scene-by-scene breakdown with acti
 **Required:** A description of the sequence (what it covers, what it needs to achieve narratively); the raw material available (interview excerpts, observational footage descriptions, archival material); the sequence's position in the film (opening, mid-film, climax, closing)
 **Optional:** Approximate target running time for the sequence; the film's overall tone and narration style; specific interview lines or quotes you want to include; the preceding and following sequences for context
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the sequence's narrative function — what question or story beat it opens, develops, and closes
 2. Structures the scene order to create maximum forward momentum: establishes before explains, shows before tells, plants before pays off
 3. Writes each scene with three elements: Action (what the audience sees), Narration Cue (where and approximately what the narration should say, or "N/A" if the scene plays without narration), and Interview Placement (which interview line or subject appears, if any)

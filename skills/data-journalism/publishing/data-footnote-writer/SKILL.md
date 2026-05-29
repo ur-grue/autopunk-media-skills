@@ -23,7 +23,7 @@ Writes precise, publication-standard footnotes for data claims in a finished art
 **Required:** The data claims from the article that need footnotes (the exact sentences or figures). The source for each claim — dataset name, institution, publication date, and URL or file reference. Whether the figure was taken directly from the source or derived through analysis.
 **Optional:** The publication format (academic, journalism, policy report) and its citation style if known; any methodological notes that should appear in the footnote rather than the body text.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. For each claim, identifies whether the figure is a direct quote from a source or a calculated/derived figure — and adjusts the footnote language accordingly ("Source: X" for direct quotes; "Calculated from X using [method]" for derived figures).
 2. Writes each footnote to the minimum length required for the claim to be reproduced or verified — no padding, no duplication of the body text.
 3. Numbers the footnotes in the order they appear in the article and formats them consistently.

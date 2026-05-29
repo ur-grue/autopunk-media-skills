@@ -23,7 +23,7 @@ Writes a one-page screenplay sales document — logline, short synopsis, tone re
 **Required:** Title; format (feature, TV pilot, series); logline or one-paragraph premise; three-act story summary (can be brief); writer's name and one-line bio or positioning statement
 **Optional:** Tone/genre references (comparable titles); target audience; production notes (budget tier, shooting location, key casting considerations); any awards, fellowships, or prior credits relevant to the project
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a clean title block — project title, format, writer's name — and the logline, which is the document's single most important sentence
 2. Writes a two-paragraph synopsis: the first paragraph covers the setup and protagonist; the second covers the central conflict and what is at stake, stopping before the resolution (a one-pager leaves the ending to the room)
 3. Constructs a tone and comparables section with two to three reference titles and a single sentence explaining what this project shares with them and what makes it distinct

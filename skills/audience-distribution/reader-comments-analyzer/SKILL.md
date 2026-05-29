@@ -23,14 +23,14 @@ Reads a batch of reader comments and produces a structured summary of recurring 
 ## What You Need To Provide
 **Required:**
 - A batch of reader comments (paste them directly — a minimum of 10 is useful; 30 or more gives more reliable patterns)
-- The headline or a one-sentence description of the original article (so Claude can assess relevance and gap between article intent and reader response)
+- The headline or a one-sentence description of the original article (so the assistant can assess relevance and gap between article intent and reader response)
 
 **Optional:**
 - The platform the comments came from (website, YouTube, Facebook, Reddit, etc.) — tone and conventions differ by platform
 - Any specific question you want answered (e.g., "What are readers most angry about?" or "What follow-up story ideas are hidden in these comments?")
 - Whether you want the analysis to inform a correction, a follow-up article, or a community response
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads through all comments and identifies recurring subjects, questions, and emotional registers — grouping similar responses together without losing important outliers
 2. Assesses the overall tone distribution: what proportion of comments are broadly positive, critical, questioning, hostile, or off-topic
 3. Extracts the three to five strongest editorial signals: specific factual challenges, gaps the article did not address, misunderstandings the headline or framing may have caused, and story ideas the audience is explicitly requesting
@@ -99,9 +99,9 @@ Mixed, with a clear tilt toward critical engagement rather than hostility. Most 
 
 ## Known Limitations
 - Analysis is only as good as the comments provided. A highly moderated comment section, or one filtered to remove negative responses, will produce a skewed picture of actual reader sentiment.
-- Claude cannot verify factual claims made in comments. When a reader alleges an error, treat it as a flag to investigate, not as a confirmed correction.
+- The assistant cannot verify factual claims made in comments. When a reader alleges an error, treat it as a flag to investigate, not as a confirmed correction.
 - Comment sections self-select for readers with strong opinions. The silent majority who read and moved on are not represented. This analysis reflects engaged readers, not all readers.
-- For very large comment batches (several hundred comments), paste a representative sample rather than the full set — Claude works best with 20–80 comments at a time. Flag if you have sampled rather than included all comments.
+- For very large comment batches (several hundred comments), paste a representative sample rather than the full set — the assistant works best with 20–80 comments at a time. Flag if you have sampled rather than included all comments.
 
 ## Related Skills
 - [platform-distribution-advisor](../platform-distribution-advisor/SKILL.md)

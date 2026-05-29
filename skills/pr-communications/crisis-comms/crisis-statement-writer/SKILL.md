@@ -24,7 +24,7 @@ Drafts an initial crisis communications statement for an organisation responding
 
 **Optional:** A specific spokesperson name and title; whether legal has cleared any admissions; the target audience (general public, employees, investors, regulators — each requires a different register); any previous public statements that must remain consistent; the channel this will be published on (website, social media, issued to wire).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Assesses the severity and nature of the incident from the input to calibrate tone — a product recall requires different language from a data breach or a fatal accident.
 2. Opens with empathy directed at those affected — names the harm without minimising it — before any organisational self-defence.
 3. States what is confirmed as fact, clearly separated from what remains under investigation; does not speculate or fill knowledge gaps with reassurance.
@@ -69,10 +69,10 @@ We have notified the relevant regulatory authorities and will cooperate fully wi
 We are focused entirely on the safety of our people and the integrity of this investigation.
 
 ## Known Limitations
-- Claude cannot assess legal exposure — statements involving fatalities, regulatory investigations, or litigation risk must be reviewed by legal counsel before release. The output is a communications draft, not a cleared document.
+- The assistant cannot assess legal exposure — statements involving fatalities, regulatory investigations, or litigation risk must be reviewed by legal counsel before release. The output is a communications draft, not a cleared document.
 - The quality of the statement is directly proportional to the quality of the briefing. Vague input (e.g., "something happened at our factory") produces a vague statement. You must provide confirmed facts.
-- For incidents involving fatalities, severe injuries, or child safety, the register requires significant customisation that goes beyond what Claude can determine without explicit guidance.
-- Claude will not draft a statement that is factually false, minimises confirmed harm, or frames victims as a liability risk.
+- For incidents involving fatalities, severe injuries, or child safety, the register requires significant customisation that goes beyond what the assistant can determine without explicit guidance.
+- The assistant will not draft a statement that is factually false, minimises confirmed harm, or frames victims as a liability risk.
 
 ## Related Skills
 - [holding-statement-writer](../holding-statement-writer/SKILL.md)

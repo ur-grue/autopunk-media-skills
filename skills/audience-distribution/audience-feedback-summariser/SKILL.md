@@ -23,7 +23,7 @@ Reads a batch of raw audience comments, emails, or survey responses about a piec
 **Required:** A block of raw feedback — comments copied from a platform, email replies pasted together, or survey free-text responses. Minimum 10 responses for meaningful patterns; 30 or more is ideal.
 **Optional:** The original headline and a one-sentence description of the content the feedback refers to. The platform the feedback came from (comments section, email, social media, survey). Any specific question you want the summary to answer (e.g. "Did readers understand the data visualisation?").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads all feedback as a single corpus, ignoring obvious spam or off-topic replies, and identifies recurring themes — both positive and critical.
 2. Groups themes by type: what landed well, what confused or frustrated readers, what follow-up questions they raised, and any notable emotional responses (strong praise, strong anger, surprise).
 3. Produces a structured summary with counts or proportions where the volume of feedback supports it, and flags any individual comments that are outliers or particularly quotable.

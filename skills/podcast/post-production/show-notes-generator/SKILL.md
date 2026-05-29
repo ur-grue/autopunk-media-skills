@@ -23,7 +23,7 @@ Generates complete, SEO-friendly podcast show notes from a transcript or episode
 **Required:** Episode title; either a transcript (full or partial) or a 6–10 sentence episode summary covering the main topics discussed
 **Optional:** Guest name and bio (or bio to include); links mentioned in the episode; sponsor information; show social handles; podcast platform links (Apple Podcasts, Spotify, etc.) for the boilerplate section; whether timestamps are needed; target keyword for SEO
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes the opening description paragraph (100–150 words): what the episode covers, who the guest is, and what the listener will take away — with the primary keyword appearing naturally in the first sentence
 2. Extracts 4–6 key takeaways as bullet points — the specific insights or arguments from the episode, not generic topic labels
 3. Generates timestamps for major topic shifts if a transcript with timing is provided, or notes the sections if no timestamps are available

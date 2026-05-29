@@ -23,7 +23,7 @@ Writes a targeted re-engagement email (or short sequence of two emails) for subs
 **Required:** Newsletter name and a brief description of what it covers; typical inactivity threshold you are targeting (e.g. "no opens in 90 days"); the newsletter's current voice and tone
 **Optional:** Any recent improvements or changes to the newsletter worth highlighting to lapsed subscribers; the consequences if they do not re-engage (will you remove them from the list?); a reason to stay (offer, exclusive content, or best recent edition); whether you want a single email or a two-email sequence
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with direct acknowledgment of the gap — not guilt, not passive aggression, but honest recognition that the subscriber has not been opening and that is a normal thing to happen; this disarms defensiveness
 2. Gives the reader a specific reason to re-engage, not a generic "we miss you" — either a concrete recent piece they missed that is worth their time, a change in the newsletter worth knowing about, or a honest pitch for what they originally signed up for
 3. Makes the ask clear and low-friction: a single button or link, either to confirm they want to stay or to read a specific piece; the goal is one click, not a journey

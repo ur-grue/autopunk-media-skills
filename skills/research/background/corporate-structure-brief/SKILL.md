@@ -24,7 +24,7 @@ Produces a structured research plan for mapping the ownership, governance, and o
 
 **Optional:** The specific aspect of the structure you need to understand (ownership, board composition, subsidiaries, financial flows, offshore entities); any information you already have (parent company, key shareholders, known subsidiaries); the reason for your research (helps prioritise which structural elements matter most); the level of depth needed (basic corporate profile vs. deep ownership trace).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the registry and filing sources.** Based on the country of incorporation and entity type, lists the specific company registries, securities regulators, and financial disclosure databases where the entity's filings can be found. Names the exact registry (not just "company records") and specifies what information each source contains.
 
 2. **Builds the ownership trace checklist.** Creates a step-by-step process for tracing ownership from the company up through any parent entities, holding companies, or ultimate beneficial owners — and down through subsidiaries and associated entities. Each step identifies the specific document to obtain (articles of incorporation, annual returns, shareholder registers, securities filings).
@@ -99,7 +99,7 @@ Produces a structured research plan for mapping the ownership, governance, and o
 5. **Nominee directors or corporate directors.** If any directors are nominee service providers rather than individuals with a real management role, the actual controller may not appear in the public record. Check whether the registered directors match the people who actually run the business.
 
 ## Known Limitations
-- Claude cannot access company registries, beneficial ownership databases, or any external records. This skill produces the research plan — the journalist or researcher must execute the searches. The value is in ensuring systematic and thorough coverage of all relevant source categories.
+- The assistant cannot access company registries, beneficial ownership databases, or any external records. This skill produces the research plan — the journalist or researcher must execute the searches. The value is in ensuring systematic and thorough coverage of all relevant source categories.
 - Disclosure requirements and registry accessibility vary enormously between jurisdictions. The plan is tailored to the jurisdiction described, but the journalist should verify which sources are publicly accessible, which require paid subscriptions, and which require formal access requests.
 - Complex corporate structures may involve entities in dozens of jurisdictions. This skill provides the methodology for tracing them, but the practical effort required to trace a multi-jurisdictional corporate chain can be substantial and may require collaboration with colleagues or specialist investigators.
 

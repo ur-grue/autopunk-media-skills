@@ -23,7 +23,7 @@ Produces a structured summary of what a dataset contains, what it covers, what i
 **Required:** A description of the dataset — source, title or file name, number of rows and columns, time period covered, geographic scope, and a list of column names with brief descriptions of what each contains.
 **Optional:** A small representative data sample; any known issues with the data (missing values, format inconsistencies); the context in which the data was obtained (FOI response, published report, leaked document).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the structure description and identifies the key variables, time dimensions, and geographic granularity of the dataset.
 2. Assesses the dataset's completeness and potential limitations — missing periods, incomplete geographies, definitional ambiguities, and likely data quality issues.
 3. Writes a structured brief covering: what the dataset is and where it came from, what it can and cannot show, and three to five story angles it could support.

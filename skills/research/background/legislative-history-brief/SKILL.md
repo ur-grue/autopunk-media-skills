@@ -24,7 +24,7 @@ Produces a structured research framework for tracing the full legislative or reg
 
 **Optional:** The specific aspect of the law you are investigating (e.g., "I'm focused on the exemption for small businesses, not the whole law"); the current stage (proposed, enacted, under review, repealed); any key dates or events you already know about; the depth you need (quick timeline vs. deep investigative trace).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Defines the legislative timeline structure.** Creates a chronological framework covering: the originating problem or event that prompted the legislation, the initial proposal, key committee hearings and amendments, floor debates and votes, executive approval, implementation milestones, and any subsequent revisions or legal challenges.
 
 2. **Identifies the source documents for each milestone.** For each stage of the legislative process, lists the specific records to locate — bill text versions, committee reports, hearing transcripts, amendment records, voting records, regulatory impact assessments, and court rulings. Specifies where to find each document (legislative archives, parliamentary websites, court databases).
@@ -111,7 +111,7 @@ Produces a structured research framework for tracing the full legislative or reg
 3. **The regulatory impact assessment methodology.** Were the cost and feasibility estimates for age verification based on independent analysis or on data provided by companies that stood to win implementation contracts? Locate the data sources cited in the assessment.
 
 ## Known Limitations
-- Claude cannot access legislative databases, court records, or government archives. This skill produces the research framework — the journalist must execute the searches. The value is in systematic coverage: ensuring no significant source category is missed.
+- The assistant cannot access legislative databases, court records, or government archives. This skill produces the research framework — the journalist must execute the searches. The value is in systematic coverage: ensuring no significant source category is missed.
 - Legislative processes vary significantly between jurisdictions. The framework is adapted to the jurisdiction described, but procedural details (committee structures, amendment rules, publication requirements) may need adjustment based on local practice.
 - For older legislation (pre-digital era), many source documents may not be available online. The framework includes archival sources where relevant, but physical archive visits may be necessary.
 

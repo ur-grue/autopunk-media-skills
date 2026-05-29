@@ -24,7 +24,7 @@ Writes structured metadata fields — title tag, meta description, tags, categor
 
 **Optional:** The CMS platform (WordPress, Ghost, Webflow, custom — affects field naming); target keywords or phrases the article should rank for; character limits for title tag and meta description (defaults: 60 characters for title, 155 for description); the publication's tagging taxonomy (list of existing tags to choose from); whether Open Graph / social sharing fields are needed; the article's section or vertical within the publication.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads the article to identify the core topic, angle, and target audience.** The metadata must accurately represent the content — not promise something the article does not deliver. Identifies the primary keyword theme and the article's unique angle within that theme.
 
 2. **Writes the title tag for search intent, not just the headline.** The article's headline and the SEO title tag serve different purposes. The title tag is rewritten to include the primary keyword naturally, stay within character limits, and communicate what the reader will get — while the headline can be more creative or provocative.
@@ -87,7 +87,7 @@ A structured metadata block with clearly labeled fields, ready to copy into the 
 - "Opinion" tag omitted — the article is reported (cites data and interviews), not opinion. Including it could misrepresent the piece to readers filtering by tag.
 
 ## Known Limitations
-- Claude cannot access real-time keyword data, search volume, or competition metrics. The target keywords provided by the user are taken at face value. For data-driven keyword optimization, use a dedicated SEO tool (Ahrefs, SEMrush, Google Search Console) alongside this skill.
+- The assistant cannot access real-time keyword data, search volume, or competition metrics. The target keywords provided by the user are taken at face value. For data-driven keyword optimization, use a dedicated SEO tool (Ahrefs, SEMrush, Google Search Console) alongside this skill.
 - Character counts are calculated as plain text. Some CMS platforms count characters differently (with or without spaces, including HTML entities). Verify the final character count in your specific CMS after pasting.
 - This skill writes metadata for individual articles. For site-wide metadata strategy (category structures, tag taxonomies, internal linking), consult an SEO specialist or use a dedicated content strategy tool.
 

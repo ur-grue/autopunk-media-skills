@@ -32,7 +32,7 @@ Generates a structured shooting outline — organised by scene or sequence — l
 - Intended final film length and format (e.g., 52-minute broadcast documentary, 3-part streaming series)
 - Any known B-roll gaps that need to be filled
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the story beats and maps each one to a location or contributor, grouping elements that can be captured together to minimise travel and crew time
 2. Structures the outline scene by scene, assigning each scene a location, a primary purpose (interview / observational / B-roll), the relevant contributor(s) if any, and a list of B-roll shots needed to cover or illustrate that scene in the edit
 3. Adds a brief notes column to each scene flagging logistical considerations — access requirements, time-of-day sensitivity, equipment needs, or editorial risks (e.g., "contributor may be reluctant to discuss this topic — prepare alternative question set")

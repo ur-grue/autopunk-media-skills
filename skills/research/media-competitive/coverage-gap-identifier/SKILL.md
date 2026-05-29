@@ -21,9 +21,9 @@ Analyses existing coverage on a topic to identify the specific angles, voices, a
 
 ## What You Need To Provide
 **Required:** A description of the topic or story area. A summary of what existing coverage you are aware of — which outlets have covered it, in what formats, from what angles. The more specific and accurate this description, the more targeted the gap analysis will be.
-**Optional:** Your outlet's audience and format (so Claude can prioritise gaps that are a realistic fit for you, not just gaps in the abstract). Any sources or communities you have access to that mainstream outlets may not. A time range for the coverage you want assessed.
+**Optional:** Your outlet's audience and format (so the assistant can prioritise gaps that are a realistic fit for you, not just gaps in the abstract). Any sources or communities you have access to that mainstream outlets may not. A time range for the coverage you want assessed.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the coverage summary and maps what has been done: the dominant frames, the source types used, the formats deployed, the questions the existing body of coverage collectively asks — and implicitly treats as answered.
 2. Identifies structural gaps: angles that are logically adjacent to the existing coverage but not addressed; voices and demographics present in the story but absent from reporting; questions that follow directly from published claims but have not been pursued; formats that could reach audiences the current coverage does not serve.
 3. Prioritises the gaps by opportunity quality — distinguishing gaps that are unexplored because they are genuinely hard to report from those that are unexplored simply because no outlet has tried, and flagging which opportunities best fit the outlet profile you described.
@@ -83,9 +83,9 @@ Tone is direct and editorial — written for a commissioning editor making a dec
 3. **Comparative platform compliance** — analytically important and underreported, though it would require document access or Freedom of Information requests to do rigorously. Worth commissioning as an investigation rather than a feature; timeline will be longer but the story has strong legs if the compliance picture is as patchy as existing reporting implies.
 
 ## Known Limitations
-- The quality of the gap analysis depends entirely on the accuracy and completeness of the coverage summary you provide. If significant pieces of existing coverage are not mentioned in your input, Claude may identify them as gaps when they are in fact already covered. Spend time on the input — it is the most important part of this skill.
-- Claude cannot search the internet or retrieve articles. This skill analyses what you describe, not the full universe of published coverage. For high-stakes commissioning decisions, cross-check identified gaps with your own desk research.
-- Some gaps are unexplored for good editorial reasons — the story is legally sensitive, sources are inaccessible, or the evidence does not yet exist to support rigorous reporting. Claude will flag difficulty where it is apparent, but you will need to make the final call on feasibility.
+- The quality of the gap analysis depends entirely on the accuracy and completeness of the coverage summary you provide. If significant pieces of existing coverage are not mentioned in your input, the assistant may identify them as gaps when they are in fact already covered. Spend time on the input — it is the most important part of this skill.
+- The assistant cannot search the internet or retrieve articles. This skill analyses what you describe, not the full universe of published coverage. For high-stakes commissioning decisions, cross-check identified gaps with your own desk research.
+- Some gaps are unexplored for good editorial reasons — the story is legally sensitive, sources are inaccessible, or the evidence does not yet exist to support rigorous reporting. The assistant will flag difficulty where it is apparent, but you will need to make the final call on feasibility.
 - This skill identifies opportunities; it does not write pitches or research briefs. Use the output as input to other skills or your own commissioning process.
 
 ## Related Skills

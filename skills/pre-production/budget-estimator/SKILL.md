@@ -31,7 +31,7 @@ Generates a structured production budget estimate for a specific project element
 - Format constraints (e.g., "4K delivery required" or "must include subtitles in three languages")
 - Whether this is for internal planning or external submission (affects level of detail)
 
-## How Claude approaches this
+## How the Assistant Approaches This
 1. Identifies the production type and maps it to standard budget categories (development, pre-production, production, post-production, delivery, overheads, contingency)
 2. Estimates realistic cost ranges for each line item based on the territory, scale, and format specified
 3. Flags assumptions made (day rates, equipment costs, post-production timelines) so you can adjust with real quotes

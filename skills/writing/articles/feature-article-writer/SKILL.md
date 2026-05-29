@@ -20,11 +20,11 @@ Write a long-form feature article from provided notes, interview transcripts, or
 - You have a factual brief and need it turned into a long-form piece with a clear through-line
 
 ## What You Need To Provide
-**Required:** Detailed notes, facts, or interview excerpts (the raw material Claude will write from); the article topic and angle; target word count (500–2000 words).
+**Required:** Detailed notes, facts, or interview excerpts (the raw material the assistant will write from); the article topic and angle; target word count (500–2000 words).
 
 **Optional:** Publication style (magazine, newspaper supplement, digital longform); tone (warm, investigative, lyrical, dry); specific quotes to include; structural preference (chronological, thematic, or profile-led).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the provided material and identifies the strongest narrative thread — the single idea or tension that can carry the piece
 2. Structures the article using a five-part arc: **(1) Hook** — a scene, quote, or striking detail that draws the reader in; **(2) Context** — the broader situation or background that explains why this story matters; **(3) Development** — the story unfolds with evidence, quotes, and specific detail; **(4) Turn** — a complication, surprise, or shift in understanding that deepens the story; **(5) Resolution** — what it means, what comes next, or a return to the opening scene
 3. Ensures every fact in the output is drawn from the provided material — nothing is invented

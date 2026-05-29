@@ -34,7 +34,7 @@ Drafts a concise, production-ready briefing document that gives a presenter or o
 - Logistical details (shoot location, schedule, crew contacts)
 - Links or source documents to read further
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a one-paragraph "big picture" summary — the story, why it matters, and the presenter's role in it — so they have an immediate frame before reading the detail.
 2. Organises background information by topic in short, scannable sections with clear headers. Prioritises what the presenter needs to know to sound authoritative, not everything that exists on the subject.
 3. Profiles each contributor or interviewee in 3–5 lines: who they are, why they are in the programme, what they are likely to say, and any sensitivities to bear in mind.
@@ -125,7 +125,7 @@ For Owen Fletcher:
 ---
 
 ## Known Limitations
-- Claude cannot verify factual claims about contributors — all background details supplied must be checked by the production team before the document is handed to the presenter.
+- The assistant cannot verify factual claims about contributors — all background details supplied must be checked by the production team before the document is handed to the presenter.
 - The skill does not generate programme-specific question lists without input; you must supply the interview direction you want the presenter to take.
 - For complex legal or editorial sensitivities (e.g., ongoing litigation, anonymised sources), always have the briefing reviewed by your editorial or legal team before distribution.
 - Briefings for live programmes (news panels, awards hosting) may need a different format — this skill is optimised for pre-recorded documentary and factual television.

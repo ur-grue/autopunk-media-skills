@@ -24,7 +24,7 @@ Adapts text from one regional variant of a language to another — such as Briti
 
 **Optional:** The content type (news article, press release, social media post, marketing copy, dialogue/script); the target publication or platform's style guide; specific terms that must remain unchanged regardless of variant; the desired register (formal, conversational, colloquial); whether to adapt measurement units and currency references.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies all variant-specific elements in the source text.** Scans for spelling differences (colour/color, organise/organize), vocabulary differences (flat/apartment, boot/trunk, ordenador/computadora), grammatical patterns (have got/have gotten, vosotros/ustedes), punctuation conventions, and measurement or currency formats.
 
 2. **Adapts vocabulary and idioms to the target variant.** Replaces region-specific terms with their natural equivalents. Where an idiom exists in both variants but with different phrasing, uses the target variant's version. Where an idiom has no equivalent, replaces it with a locally natural expression that conveys the same meaning and register.
@@ -103,8 +103,8 @@ Transit connections are a selling point. The site is a five-minute walk from the
 - "autumn" → "fall" (standard American English preference in journalistic writing)
 
 ## Known Limitations
-- Currency conversions use approximate exchange rates and should be confirmed with the finance or editorial team before publication. Claude flags every currency conversion in the change log for this reason.
-- Some regional differences are context-dependent rather than categorical. For example, "pavement" means "sidewalk" in British English but "road surface" in American English — Claude handles these based on context, but ambiguous cases should be reviewed.
+- Currency conversions use approximate exchange rates and should be confirmed with the finance or editorial team before publication. The assistant flags every currency conversion in the change log for this reason.
+- Some regional differences are context-dependent rather than categorical. For example, "pavement" means "sidewalk" in British English but "road surface" in American English — the assistant handles these based on context, but ambiguous cases should be reviewed.
 - This skill adapts language variants within the same language. It does not translate between different languages. For cross-language translation followed by regional adaptation, run Article Translator first, then this skill.
 
 ## Related Skills

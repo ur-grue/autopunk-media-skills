@@ -24,7 +24,7 @@ Analyses a draft for logical sequence, narrative coherence, and transitions, the
 
 **Optional:** The intended format (print feature, broadcast package, online explainer), the intended audience (general public, specialist, regional), and the structural logic you were aiming for (e.g. "inverted pyramid," "problem–solution–outcome," "chronological," "scene-setting then argument").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the entire draft once to understand the intended argument or story arc — what the piece is trying to establish from opening to close.
 2. Maps the actual sequence of information: what appears in each section, in what order, and what each section assumes the reader already knows from previous sections.
 3. Checks the map against sound structural logic — does each section follow necessarily from the one before? Are there gaps where the reader must make an unexplained leap? Are there moments where the same information appears twice, or where a key piece of context arrives too late to be useful?

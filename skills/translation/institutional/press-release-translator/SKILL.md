@@ -24,12 +24,12 @@ Translates a complete press release from one language to another, preserving cor
 
 **Optional:** A glossary of approved translations for proprietary terms, product names, or legal phrases; the target wire service or distribution channel (AP, AFP, Reuters, PR Newswire, regional equivalent); whether the boilerplate has an approved translation already; dateline city for the target-market version if different from the original; any regulatory disclaimers that must appear verbatim.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies structural elements before translating.** Maps the release into its components: headline, sub-headline, dateline, body paragraphs, quotes, boilerplate, contact block, and any legal disclaimers or embargo notices. Each element is translated according to its specific conventions.
 
-2. **Translates the headline for news impact, not literal equivalence.** Press release headlines follow different conventions across languages. Claude rewrites the headline to land with the same news value in the target language, adjusting word order, article usage, and emphasis to match local press release norms.
+2. **Translates the headline for news impact, not literal equivalence.** Press release headlines follow different conventions across languages. The assistant rewrites the headline to land with the same news value in the target language, adjusting word order, article usage, and emphasis to match local press release norms.
 
-3. **Preserves approved corporate language.** Product names, division names, trademarks, and legal phrases are retained exactly as provided in the glossary. Where no glossary is supplied, Claude flags proprietary terms in the translator's notes and uses the most common industry-standard translation.
+3. **Preserves approved corporate language.** Product names, division names, trademarks, and legal phrases are retained exactly as provided in the glossary. Where no glossary is supplied, the assistant flags proprietary terms in the translator's notes and uses the most common industry-standard translation.
 
 4. **Adapts formatting to the target market's wire conventions.** Dateline format, currency notation, measurement units, number formatting (thousands separators, decimal marks), and contact block layout are adjusted for the target market. The "###" end mark is retained universally.
 
@@ -118,8 +118,8 @@ press@solarvio.example.com
 - No regulatory disclaimers present in the original. If this release is distributed in Germany, confirm with counsel whether a Handelsregister reference is required in the boilerplate.
 
 ## Known Limitations
-- Claude cannot verify that proprietary terms, product names, or legal phrases are translated according to an organization's internal glossary unless that glossary is provided. Always supply approved translations for brand-critical terminology.
-- Financial and legal language in press releases often has jurisdiction-specific implications. Claude flags these passages but cannot replace legal counsel review in the target market.
+- The assistant cannot verify that proprietary terms, product names, or legal phrases are translated according to an organization's internal glossary unless that glossary is provided. Always supply approved translations for brand-critical terminology.
+- Financial and legal language in press releases often has jurisdiction-specific implications. The assistant flags these passages but cannot replace legal counsel review in the target market.
 - For simultaneous multi-language distribution (e.g., translating one release into five languages at once), run this skill once per target language rather than requesting all translations in a single pass — quality degrades when multiple target languages compete in a single output.
 
 ## Related Skills

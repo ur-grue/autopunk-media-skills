@@ -24,7 +24,7 @@ Produces a structured research brief on the known and probable funding sources o
 
 **Optional:** Any specific funder names you already know or suspect; the publication context (news story, investigation, explainer, broadcast report); whether you need a formal disclosure note drafted for publication, or a background brief for editorial use only.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes what is publicly known about the organisation's funding model — whether it discloses donors, publishes annual reports, holds charity or foundation status (which may trigger disclosure requirements), or has been the subject of prior journalism on its finances.
 2. Identifies the categories of funders that typically back organisations of this type in this policy space — governments, corporate foundations, industry bodies, high-net-worth donors, international development agencies — and explains what each category of funding tends to imply about independence and potential bias.
 3. Highlights any known or reported funding relationships that raise transparency questions, based on publicly available information, and frames the key investigative questions the journalist should ask.
@@ -78,9 +78,9 @@ CSEF does not publish a donor list or annual accounts in a form accessible to th
 6. If you use the director as a source, a one-sentence disclosure in your piece is advisable: "CSEF does not publicly disclose its funders." This protects you and your publication regardless of what the investigation reveals.
 
 ## Known Limitations
-- This skill works from publicly available information only. If an organisation has not disclosed its funders and has not been the subject of investigative reporting, Claude's brief will map the uncertainty rather than resolve it — the investigative work remains with the journalist.
-- Claude cannot access live charity commission databases, company registries, or freedom-of-information systems. Registry searches described in the recommended next steps must be conducted by the journalist.
-- For organisations in countries with limited public financial disclosure requirements, the brief may have significantly less to work with. Claude will be explicit about this rather than filling gaps with speculation.
+- This skill works from publicly available information only. If an organisation has not disclosed its funders and has not been the subject of investigative reporting, the assistant's brief will map the uncertainty rather than resolve it — the investigative work remains with the journalist.
+- The assistant cannot access live charity commission databases, company registries, or freedom-of-information systems. Registry searches described in the recommended next steps must be conducted by the journalist.
+- For organisations in countries with limited public financial disclosure requirements, the brief may have significantly less to work with. The assistant will be explicit about this rather than filling gaps with speculation.
 - This skill is a research starting point, not a publishable transparency audit. Any conclusions drawn from it must be verified before they appear in print or broadcast.
 
 ## Related Skills

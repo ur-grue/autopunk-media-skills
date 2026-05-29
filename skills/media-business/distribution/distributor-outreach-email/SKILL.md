@@ -24,7 +24,7 @@ Writes a sales outreach email to a film or content distributor introducing a com
 
 **Optional:** A prior connection to the distributor (met at a market, referral from a mutual contact), comparable titles in their catalogue, specific territories of interest, trailer or screener availability, any existing distribution deals already closed.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with brief professional context (who is writing, any connection to the recipient) and states immediately that the email concerns a completed project available for acquisition
 2. Delivers the commercial essentials in compact form: title, format, runtime, logline, festival pedigree or key credentials, territories available — all information an acquisitions executive needs to decide whether to request a screener
 3. Closes with a single clear ask — usually a screener request or a market meeting — and notes any time-sensitive factors (upcoming festival exposure, competing offers) without creating false urgency

@@ -23,7 +23,7 @@ Translates the key findings of a scientific paper — abstract, methods, and con
 **Required:** The full abstract of the paper, or as much of the paper text as you can paste (methods, results, and conclusions sections are most useful).
 **Optional:** The topic of your story, your intended audience (general public, policymakers, specialist readers), any specific aspect of the paper you most need explained, and any claims you have seen made about this research that you want verified.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the abstract and any additional text to identify the core research question, the method used, what was measured, and what the authors concluded.
 2. Replaces technical vocabulary with plain-language equivalents — retaining precision where it matters (for example, "statistically significant" is explained rather than dropped).
 3. Flags anything the paper itself limits or qualifies — sample size caveats, funding disclosures, the difference between correlation and causation — so the journalist does not overstate the findings.
@@ -68,9 +68,9 @@ Over six weeks, 214 adults were randomly assigned to sleep five, seven, or nine 
 The study adds solid evidence that five hours of sleep is harmful to mental performance within a relatively short period, not just after months of sleep deprivation. However, the researchers themselves note that the controlled lab setting may not reflect how people actually sleep at home, where noise, stress, and inconsistent schedules all play a role. The study does not tell us whether the effects are permanent or recover after normal sleep resumes. It also does not address what happens at six hours — a common real-world figure that this research does not test.
 
 ## Known Limitations
-- Claude cannot access the full paper from a DOI or URL — you must paste the text. Abstracts alone sometimes omit key methodological details that change how findings should be interpreted.
+- The assistant cannot access the full paper from a DOI or URL — you must paste the text. Abstracts alone sometimes omit key methodological details that change how findings should be interpreted.
 - Highly mathematical or statistical content (Bayesian models, complex meta-analytic methods) will be simplified accurately in plain terms but the nuance of the method may be lost for specialist readers.
-- Claude cannot assess whether a paper has been peer-reviewed, retracted, or disputed — use the retracted-papers-checker skill for that step.
+- The assistant cannot assess whether a paper has been peer-reviewed, retracted, or disputed — use the retracted-papers-checker skill for that step.
 
 ## Related Skills
 - [retracted-papers-checker](../retracted-papers-checker/SKILL.md)

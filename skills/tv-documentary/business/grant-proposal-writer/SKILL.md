@@ -34,7 +34,7 @@ Writes a competitive grant proposal narrative for a documentary project, structu
 - Word limit or specified sections from the fund's application form
 - Any previous feedback received from this or similar funds
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the funder's stated priorities and maps the project's strongest attributes against those criteria — identifying the best alignment points before writing a single word of proposal copy
 2. Frames the project opening around the funder's language: if the fund prioritizes "public interest journalism," leads with that; if it prioritizes "underrepresented voices," leads with access and character; if it prioritizes "innovation in form," leads with approach
 3. Builds the core proposal narrative: what the film is, why it is needed, how it will be made, what it will achieve — structured so each section answers an implied evaluator question
@@ -91,8 +91,8 @@ The requested $35,000 in development funding will enable three specific delivera
 We are developing *Parallel Lines* because we believe documentary film remains one of the few forms capable of making systemic failure legible at the level of individual human experience. This is a film that can deepen public understanding of an urgent social issue — and we are asking the Sundance Institute Documentary Fund to help us build the foundation that makes it possible.
 
 ## Known Limitations
-- Claude does not know the specific application history or current priorities of real funders — statements like "this fund responds to X" should be verified against the actual current cycle guidelines before submission
-- Grant proposals require specific evidence of access, prior funding, and team credibility; Claude will write strong narrative around what the user provides, but cannot invent credentials — vague inputs produce vague credibility sections
+- The assistant does not know the specific application history or current priorities of real funders — statements like "this fund responds to X" should be verified against the actual current cycle guidelines before submission
+- Grant proposals require specific evidence of access, prior funding, and team credibility; the assistant will write strong narrative around what the user provides, but cannot invent credentials — vague inputs produce vague credibility sections
 - Word limits and required section headers vary widely by fund; the default output may need to be restructured to match the actual application form
 - This skill produces the narrative section of a proposal, not the full application package (budget forms, CVs, technical specifications)
 

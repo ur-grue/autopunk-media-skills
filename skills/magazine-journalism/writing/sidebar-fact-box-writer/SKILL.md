@@ -23,7 +23,7 @@ Writes a structured, print-ready fact box or sidebar to accompany a feature arti
 **Required:** The article topic or a paste of key sections; what type of sidebar is needed (by-the-numbers panel, timeline, glossary, key quotes, explainer box, or "what you need to know")
 **Optional:** Specific facts, figures, or quotes you want included; publication type (print magazine, digital editorial, trade press); approximate word/item limit for the sidebar; any items that must not appear (e.g., already covered in the main text)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the factual layer of the article that most readers would want quick access to — statistics, definitions, or chronology — but that would slow the main narrative if embedded
 2. Selects the sidebar format that best serves the article type: "By the Numbers" for data-heavy investigations, "Timeline" for historical or process stories, "Key Terms" for specialized subjects, "What Happened" for breaking or news-adjacent features
 3. Writes each sidebar item at consistent length and register — fact boxes should not mix long explanations with bare bullet points
@@ -71,8 +71,8 @@ Word limit: ~150 words
 ---
 
 ## Known Limitations
-- Sidebar statistics must be verified by the journalist before publication — Claude works from what you provide and will not fabricate figures, but it also cannot check that the figures in your input are current or accurately attributed
-- For timelines, Claude requires the article or input to contain the source events — it will not construct a timeline from general knowledge unless explicitly instructed, as this risks introducing unverified dates
+- Sidebar statistics must be verified by the journalist before publication — the assistant works from what you provide and will not fabricate figures, but it also cannot check that the figures in your input are current or accurately attributed
+- For timelines, the assistant requires the article or input to contain the source events — it will not construct a timeline from general knowledge unless explicitly instructed, as this risks introducing unverified dates
 - Glossary and key terms sidebars for highly technical fields (medicine, law, engineering) should be reviewed by a subject expert before publication
 - Print column width constraints are not addressed here — layout adjustments for tight column formats must be made manually
 

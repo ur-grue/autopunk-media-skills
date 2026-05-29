@@ -28,31 +28,31 @@ Constructs a structured, argumentatively coherent opinion article or op-ed from 
 - Your intended audience (general public, policymakers, industry insiders, etc.)
 
 **Optional:**
-- The strongest counterargument you expect readers to raise (Claude will address it; if not provided, Claude will construct the most obvious one)
+- The strongest counterargument you expect readers to raise (the assistant will address it; if not provided, the assistant will construct the most obvious one)
 - Any personal experience or reported scene you want used as the opening hook
 - Word limit (default: 700 words)
 - Tone guidance: measured/analytical, polemical, wry, urgent
 - A conclusion direction you want to land on (call to action, open question, restatement of stakes)
 
-## How Claude Approaches This
-1. Opens with a specific scene, fact, or moment — not a generalisation. Opinion pieces that begin with "In today's world..." lose readers before the argument starts. Claude uses the hook the user provides, or constructs one from the evidence supplied.
+## How the Assistant Approaches This
+1. Opens with a specific scene, fact, or moment — not a generalisation. Opinion pieces that begin with "In today's world..." lose readers before the argument starts. The assistant uses the hook the user provides, or constructs one from the evidence supplied.
 2. States the thesis explicitly, usually by the end of the second paragraph. The reader should never have to guess what the piece is arguing.
-3. Builds the argument in three to four body paragraphs, each advancing one step of the logic. Evidence is woven in, not listed. Claude anticipates the strongest counterargument and addresses it directly — a piece that ignores the obvious objection loses credibility.
+3. Builds the argument in three to four body paragraphs, each advancing one step of the logic. Evidence is woven in, not listed. The assistant anticipates the strongest counterargument and addresses it directly — a piece that ignores the obvious objection loses credibility.
 4. Closes with forward momentum: a call to action, a restatement of what is at stake, or a question that reframes the issue. The final sentence carries the most rhetorical weight.
 
 ## Output Format
 - Length: 600–900 words unless a different limit is specified
 - Structure: hook → thesis → argument body (3–4 paragraphs) → counterargument acknowledgement → conclusion
 - Tone: authoritative but not arrogant; the writer is making a case, not lecturing
-- First person is standard for opinion; Claude uses "I" where it strengthens the argument
+- First person is standard for opinion; the assistant uses "I" where it strengthens the argument
 - No subheadings; continuous prose
-- Quotations from named sources are only included if supplied by the user — Claude does not invent quotes
+- Quotations from named sources are only included if supplied by the user — the assistant does not invent quotes
 
 ## Quality Criteria
 - [ ] Core argument is stated explicitly within the first two paragraphs
 - [ ] Every body paragraph advances the argument; none merely repeats or decorates
 - [ ] At least one counterargument is identified and answered, not dismissed
-- [ ] Evidence cited is factual, not opinion — Claude flags any claim that may need verification
+- [ ] Evidence cited is factual, not opinion — the assistant flags any claim that may need verification
 - [ ] Conclusion provides forward momentum, not just summary
 - [ ] Tone is consistent throughout; no tonal lurches between analytical and polemical
 - [ ] Word count is within 10% of the specified or default limit
@@ -86,10 +86,10 @@ Local authorities have more direct power over food-service plastics than over mo
 The phase is not a plan. It is a postponement. Councils that have moved decisively have not regretted it. Those still deliberating have the data. The next step is the decision.
 
 ## Known Limitations
-- Claude cannot take a position on factual matters that are genuinely contested among experts — it will flag these rather than resolve them editorially on your behalf.
-- If the supplied evidence does not actually support the stated argument, Claude will note the gap rather than paper over it. Strengthening a weak argument requires stronger evidence, not stronger writing.
-- Claude does not generate quotes attributed to named individuals. If the piece requires a specific source quote, the user must supply it.
-- Opinion pieces are highly sensitive to voice. Claude produces a professional draft, but columnists with established voices will almost always need to rewrite significantly to make it sound like themselves.
+- The assistant cannot take a position on factual matters that are genuinely contested among experts — it will flag these rather than resolve them editorially on your behalf.
+- If the supplied evidence does not actually support the stated argument, the assistant will note the gap rather than paper over it. Strengthening a weak argument requires stronger evidence, not stronger writing.
+- The assistant does not generate quotes attributed to named individuals. If the piece requires a specific source quote, the user must supply it.
+- Opinion pieces are highly sensitive to voice. The assistant produces a professional draft, but columnists with established voices will almost always need to rewrite significantly to make it sound like themselves.
 
 ## Related Skills
 - [column-voice-adapter](../../../magazine-journalism/writing/column-voice-adapter/SKILL.md)

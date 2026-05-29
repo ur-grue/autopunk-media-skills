@@ -24,8 +24,7 @@ Drafts a formal access-to-documents request under the applicable European transp
 **Required:** The target institution or authority; the jurisdiction (EU, Germany, Switzerland, or France); a description of the documents you are seeking (as specific as possible — date range, document type, subject matter, authoring department)
 **Optional:** Your affiliation (journalist, researcher, citizen — some regimes treat applicants differently); whether you want the request in English, German, or French; any previous request reference numbers for follow-ups; a deadline or time-sensitivity note
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. Identifies the applicable legal regime based on the target institution and jurisdiction. EU institutions fall under Regulation 1049/2001. German federal authorities fall under IFG (state authorities may fall under state-level IFG equivalents — the skill flags this). Swiss federal authorities fall under BGÖG/LTrans. French administrative authorities fall under the Code des relations entre le public et l'administration (CRPA), with the Commission d'accès aux documents administratifs (CADA) as the recourse body.
 
 2. Drafts the request using the structure and language the receiving body expects:

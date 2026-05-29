@@ -24,8 +24,7 @@ Writes three push notification variants for a news story or content update, each
 
 **Optional:** Urgency level (breaking, developing, scheduled feature); tone preference (neutral news, conversational, provocative); the publication's voice (formal broadsheet, digital-native, tabloid energy); a specific detail or number that should appear in the notification.
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Extracts the single most compelling fact.** Reads the input and identifies what makes this notification worth interrupting someone's day — the new information, the surprising number, the consequence that affects the reader personally. This fact anchors all three variants.
 
 2. **Writes three variants at different urgency registers:**
@@ -88,7 +87,7 @@ The sleep threshold that changes your cognitive risk — and most people are alr
 *Deployment: Use Variant A for health and science subscribers who expect data-forward alerts. Use Variant C for the general push list to drive tap-through on a feature package.*
 
 ## Known Limitations
-- Claude cannot predict tap-through rates. The three-variant structure supports A/B testing, but actual performance depends on send time, audience segment, and device context — factors outside the skill's scope.
+- The assistant cannot predict tap-through rates. The three-variant structure supports A/B testing, but actual performance depends on send time, audience segment, and device context — factors outside the skill's scope.
 - Push notifications for legally sensitive stories (court rulings, ongoing investigations, unconfirmed reports) require editorial and legal review before sending. This skill optimizes for clarity and engagement, not legal caution.
 - Character counts are based on standard Unicode characters. Emoji, special characters, or non-Latin scripts may display differently across devices and could affect visible length.
 

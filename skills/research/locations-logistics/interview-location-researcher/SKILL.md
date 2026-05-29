@@ -31,7 +31,7 @@ Researches and compares potential locations for a filmed or recorded interview, 
 - Whether the interview is long-form (60+ minutes) or short (under 20 minutes)
 - Any known constraints: budget, travel limits, subject's availability or mobility
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Builds a profile of the interview's editorial requirements: what the location needs to communicate about the subject visually, what acoustic environment the format requires, and what practical constraints (crew access, lighting, sound) will determine whether a location is actually usable.
 2. Evaluates each candidate location — or, if no candidates are given, generates a set of appropriate options — against five criteria: visual storytelling fit, acoustic suitability, access and logistics, production practicality, and subject comfort.
 3. For each location, produces a clear-eyed assessment of pros and cons, flags deal-breaker risks (e.g. a visually ideal space with an uncontrollable HVAC hum), and suggests mitigation where possible.
@@ -107,10 +107,10 @@ The home study delivers the editorial tone most directly — intimate, personal,
 - All locations: Where is power? Where does the crew park and load in? Is there a dedicated holding area for the subject between setups?
 
 ## Known Limitations
-- Claude cannot physically assess a location — acoustic quality, real ambient noise levels, and precise visual suitability must be verified on the recce. This brief is a pre-recce research tool, not a substitute for site visit.
+- The assistant cannot physically assess a location — acoustic quality, real ambient noise levels, and precise visual suitability must be verified on the recce. This brief is a pre-recce research tool, not a substitute for site visit.
 - Recommendations are based on the information provided. If the subject has a strong preference for a particular location, that preference should be weighted heavily — subject comfort has a measurable effect on interview performance, particularly in long-form sessions.
 - For locations requiring third-party access (aquariums, public buildings, working industrial sites), negotiation timelines and costs can vary widely. Build more lead time into the schedule than you expect to need.
-- Claude's knowledge of specific venues in specific cities is limited. For granular location intelligence in an unfamiliar city, a local fixer or location manager with regional knowledge will provide more reliable detail.
+- The assistant's knowledge of specific venues in specific cities is limited. For granular location intelligence in an unfamiliar city, a local fixer or location manager with regional knowledge will provide more reliable detail.
 
 ## Related Skills
 - [filming-conditions-brief](../filming-conditions-brief/SKILL.md)

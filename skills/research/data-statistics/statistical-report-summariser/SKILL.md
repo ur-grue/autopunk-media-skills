@@ -25,7 +25,7 @@ Translates the key findings of a statistical report into plain, journalist-ready
 
 **Optional:** Your story angle or the specific question you are trying to answer; the audience for your piece (general public, specialist readership, broadcast); any figures you have already noticed that you want specifically addressed; the word limit for your eventual article.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the report structure first — identifying the publishing body, methodology notes, sample size or data source, and the time period covered — so the summary is grounded in the right context.
 2. Extracts the three to five findings most likely to be newsworthy, ranked by magnitude of change, unexpected direction, or direct relevance to the stated story angle. Avoids leading with figures buried in appendices unless they are clearly the most significant.
 3. Translates each finding into one plain-language sentence: the number, what it measures, the comparison point (year-on-year, vs. a benchmark, vs. another group), and what direction it moved. No passive voice, no jargon.
@@ -83,7 +83,7 @@ National Road Safety Authority, "Annual Road Safety Statistics — Provisional F
 
 ## Known Limitations
 - This skill works on text you paste in directly. It cannot read PDFs, spreadsheets, or linked documents — you must copy and paste the relevant sections. For very long reports, paste the executive summary plus any tables relevant to your angle.
-- Statistical reports sometimes bury the most significant finding in a technical annex rather than the executive summary. If you suspect the headline figure in the press release differs from the underlying data, paste the relevant table alongside the summary so Claude can check for inconsistencies.
+- Statistical reports sometimes bury the most significant finding in a technical annex rather than the executive summary. If you suspect the headline figure in the press release differs from the underlying data, paste the relevant table alongside the summary so the assistant can check for inconsistencies.
 - This skill identifies figures and explains them; it does not fact-check them against external sources. A figure that appears in the report will be reported as given. Independent verification against the underlying dataset remains the journalist's responsibility.
 
 ## Related Skills

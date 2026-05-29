@@ -24,10 +24,10 @@ Generate a structured biographical research template for a named person — list
 
 **Optional:** What is already known about the person; specific areas of interest or concern for the story; whether the research is for an interview, profile, or background check; the publication or programme type (which affects what level of biographical detail is appropriate).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Creates a structured research template organised by category: career timeline, public positions and statements, published or broadcast work, institutional affiliations, notable achievements, controversies or criticisms in the public record, and personal context relevant to the story
 2. For each category, lists the specific items to verify — not a general description, but discrete checkable facts
-3. Suggests the types of source to consult for each category (databases, publications, institutional records) without naming specific sources Claude cannot verify are current
+3. Suggests the types of source to consult for each category (databases, publications, institutional records) without naming specific sources the assistant cannot verify are current
 4. Generates pre-interview questions that reference the research categories, so that interview preparation and research preparation are integrated
 5. Includes a "red flags" section flagging the types of gap, inconsistency, or pattern to watch for in the research
 
@@ -122,7 +122,7 @@ Items to verify: Why the previous CEO left; what the hospital network's current 
 - Media coverage suggesting the previous CEO's departure was contentious — this may affect the political dynamics she is working within
 
 ## Known Limitations
-- This skill produces a RESEARCH FRAMEWORK, not biographical facts. Claude may have outdated or incorrect information about real individuals — the template is designed to guide the journalist's own research, not replace it
+- This skill produces a RESEARCH FRAMEWORK, not biographical facts. The assistant may have outdated or incorrect information about real individuals — the template is designed to guide the journalist's own research, not replace it
 - The template assumes the subject is a public figure with an accessible public record. Private individuals require additional ethical considerations, including data protection law, that this skill does not address
 - For subjects in ongoing legal proceedings, editorial legal advice is required before publishing any biographical research — this skill does not flag legal risk
 - The quality of the pre-interview questions depends on what is known about the person at input stage; thin input produces more generic questions

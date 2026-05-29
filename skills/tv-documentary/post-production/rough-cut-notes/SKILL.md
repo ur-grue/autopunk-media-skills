@@ -23,7 +23,7 @@ Produces structured editorial notes from a rough cut description, identifying st
 **Required:** A description of the rough cut: the sequence of scenes in order, approximate running time of each section, and what is in each section (interview subjects featured, what they say, observational footage, archival material, narration content)
 **Optional:** The film's intended running time; the broadcaster's brief or commissioning pitch; any specific concerns you already have about the cut; what previous feedback has been given (from editor, director, or broadcaster)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the cut's structure: where are the act breaks, where does the narrative question open and where does it close, what is the shape of the film's journey
 2. Identifies structural problems first: scenes in the wrong order, missing elements, overlong sections that slow the film's forward momentum, and undercooked sections that leave questions unanswered
 3. Identifies character and narrative issues: are the subjects' arcs coherent across the cut, does the film's central argument land, are there contradictions in the editorial logic

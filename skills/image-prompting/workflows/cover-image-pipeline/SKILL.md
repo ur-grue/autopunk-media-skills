@@ -32,7 +32,7 @@ Generates a complete, coordinated set of image prompts for a cover image concept
 - The project's color palette if defined
 - Priority format (the one that must be strongest if trade-offs are needed)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyzes the core image concept and identifies which visual element is the focal point — this determines how each format is composed, not just cropped
 2. Designs each format as an intentional composition, not a crop: the 16:9 version may use the wide aspect to show context the square version cannot; the square version may push the focal point to center in a way that would be static in landscape
 3. Writes a coordinated prompt set where all versions share a consistent subject, style, and palette anchor, but each prompt is written to optimize for its specific ratio and use context

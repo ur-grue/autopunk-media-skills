@@ -24,7 +24,7 @@ Takes raw numbers you provide and calculates derived figures — percentage chan
 **Required:** The raw numbers you want to work with, clearly labelled (e.g. "hospital beds 2019: 42,000 / 2023: 38,500 / population: 5.2 million")
 **Optional:** The unit of analysis you want the rate expressed in (per 1,000, per 100,000, etc.); the geographic or time scope; the type of derived metric you want (percentage change, per-capita rate, share of total, index); any known data caveats you want flagged
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the raw figures and identifies which type of calculation is most useful and most defensible for the journalistic context
 2. Performs the calculation step by step, showing workings so you can check them before publishing
 3. Rounds to an appropriate number of significant figures for a general audience (usually 1–2 decimal places)

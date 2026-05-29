@@ -24,14 +24,14 @@ Reformats a manuscript, article, or long-form text to match a specific publicati
 
 **Optional:** The publication's specific formatting requirements if they differ from a standard style guide (paragraph indent vs. block paragraphs, heading hierarchy, footnote vs. endnote, citation style); whether to add or restructure subheadings; word count target (if the reformatted version must fit a specific length); front matter requirements (author name, date, word count header, abstract, keywords); any elements that must be preserved exactly as-is (e.g., specific formatting of data tables or block quotes).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads the full text and identifies its current structure.** Maps the existing formatting: heading levels, paragraph style, citation format, block quote treatment, list formatting, and any front matter. Identifies what needs to change to match the target format and what can remain as-is.
 
 2. **Applies the target format's structural rules.** Adjusts heading hierarchy (H1/H2/H3), paragraph spacing and indentation, block quote formatting, list style (bulleted vs. numbered), and section break conventions. For academic-to-journalistic conversions, removes abstracts and reorganizes front matter; for journalistic-to-academic, adds structured sections and formal citation format.
 
-3. **Reformats citations and attributions.** Converts between citation styles (APA, Chicago, MLA, AP) as needed. In-text citations, footnotes, endnotes, and bibliography entries are reformatted to match the target standard. If the source text uses informal attributions ("according to a recent study"), Claude retains them as-is for journalistic formats or formalizes them for academic formats.
+3. **Reformats citations and attributions.** Converts between citation styles (APA, Chicago, MLA, AP) as needed. In-text citations, footnotes, endnotes, and bibliography entries are reformatted to match the target standard. If the source text uses informal attributions ("according to a recent study"), the assistant retains them as-is for journalistic formats or formalizes them for academic formats.
 
-4. **Adds or adjusts front matter.** Generates a properly formatted header block including: title, author name, date, word count, abstract (if required), and any other fields specified in the target format. If the source text lacks a required front matter element (e.g., an abstract for an academic submission), Claude drafts one from the article's content and flags it for review.
+4. **Adds or adjusts front matter.** Generates a properly formatted header block including: title, author name, date, word count, abstract (if required), and any other fields specified in the target format. If the source text lacks a required front matter element (e.g., an abstract for an academic submission), the assistant drafts one from the article's content and flags it for review.
 
 5. **Preserves the content unchanged.** This is a formatting skill, not an editing skill. The text's meaning, arguments, quotes, and data are not altered. Any unavoidable content changes (e.g., converting an informal subheading to a formal one) are flagged in the formatting notes.
 
@@ -89,9 +89,9 @@ This article presents findings from a comparative analysis of 14 renewable energ
 - Author name and word count left as placeholders — fill in before submission.
 
 ## Known Limitations
-- Claude reformats text structurally but cannot apply visual formatting (font sizes, line spacing, page margins) in a text output. For submissions that require specific visual formatting (e.g., "12pt Times New Roman, double-spaced, 1-inch margins"), apply those settings in your word processor after using this skill for structural formatting.
-- Complex tables, figures, and embedded images cannot be reformatted in text output. Claude will flag these elements and note where they should appear in the reformatted version, but the user must reinsert them manually.
-- When converting from academic to journalistic format, citation removal requires judgment about which sources to attribute narratively and which to omit. Claude flags every removed citation so the author can make the final decision.
+- The assistant reformats text structurally but cannot apply visual formatting (font sizes, line spacing, page margins) in a text output. For submissions that require specific visual formatting (e.g., "12pt Times New Roman, double-spaced, 1-inch margins"), apply those settings in your word processor after using this skill for structural formatting.
+- Complex tables, figures, and embedded images cannot be reformatted in text output. The assistant will flag these elements and note where they should appear in the reformatted version, but the user must reinsert them manually.
+- When converting from academic to journalistic format, citation removal requires judgment about which sources to attribute narratively and which to omit. The assistant flags every removed citation so the author can make the final decision.
 
 ## Related Skills
 - [copy-editor-assistant](../../../magazine-journalism/editing/copy-editor-assistant/SKILL.md) — edit the content after formatting is complete

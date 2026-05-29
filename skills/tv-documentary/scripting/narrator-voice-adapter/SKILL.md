@@ -23,7 +23,7 @@ Rewrites existing narration or commentary to match a defined presenter or narrat
 **Required:** The original narration text; a description of the target voice (register, personality, sentence style, emotional range); the documentary's subject and tone
 **Optional:** Sample text written in the target voice (a transcript excerpt, a comparable film's narration, or a note written by the presenter themselves); the narrator's name if they are a known public figure whose voice style you are approximating; the sequence context (where this narration falls in the film)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the original narration for its factual content and structure — this content must be preserved, even when the surface language changes completely
 2. Identifies the characteristics of the target voice from the description or sample provided: sentence length, use of rhetorical questions, personal pronoun use, relationship to emotion, vocabulary level, and pace
 3. Rewrites the narration maintaining the same facts, sequence of ideas, and approximate length — but in the target voice

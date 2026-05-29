@@ -24,7 +24,7 @@ Writes a bylined opinion article for placement in a newspaper or trade publicati
 
 **Optional:** The author's personal connection to the subject; a specific news hook or recent event the piece responds to; the publication's approximate word-count limit; the author's preferred register (formal academic / engaged professional / conversational expert); any positions the author must not be seen to take.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a specific, concrete observation — an anecdote, a data point, a recent event, or a direct challenge — not with the author's credentials or the organisation's history.
 2. States the central argument clearly by the end of the second paragraph, so readers and editors immediately know the piece's thesis.
 3. Develops the argument through two or three concrete evidence points, not a list of talking points dressed as prose.
@@ -84,9 +84,9 @@ We should not wait for regulation to catch up. Institutional investors, procurem
 The Commission's review is a beginning. The question is whether we treat it as the start of a reckoning or another opportunity to adjust the accounting.
 
 ## Known Limitations
-- An op-ed written by Claude is a draft written in the author's declared voice — it must be read, personalised, and approved by the named author before submission, not submitted as written. Most publications require the stated author to vouch for the piece.
-- If the central argument is weak, contradicted by public evidence, or legally contentious, Claude will flag this — but cannot refuse to draft the piece. The communications team is responsible for assessing the reputational risk of the argument itself.
-- Claude cannot tailor the piece to a specific editor's preferences or a publication's house style without examples of what that style looks like.
+- An op-ed written by the assistant is a draft written in the author's declared voice — it must be read, personalised, and approved by the named author before submission, not submitted as written. Most publications require the stated author to vouch for the piece.
+- If the central argument is weak, contradicted by public evidence, or legally contentious, the assistant will flag this — but cannot refuse to draft the piece. The communications team is responsible for assessing the reputational risk of the argument itself.
+- The assistant cannot tailor the piece to a specific editor's preferences or a publication's house style without examples of what that style looks like.
 
 ## Related Skills
 - [speech-writer](../speech-writer/SKILL.md)

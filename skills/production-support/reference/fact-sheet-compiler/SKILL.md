@@ -24,7 +24,7 @@ Compiles a structured, scannable fact sheet on a topic — organizing key data, 
 
 **Optional:** Specific questions the fact sheet must answer; the target audience for the fact sheet (editorial team, on-air talent, general readers); preferred length (one page, two pages, comprehensive); whether to include a timeline; whether to include a glossary of key terms; any data or statistics that must appear; sources to cite.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the core facts the audience needs.** Starts with the user's raw material and the stated purpose. For an editorial briefing, prioritizes context, key players, and open questions. For interview prep, prioritizes facts the interviewer needs to have at their fingertips. For a production reference, prioritizes dates, names, locations, and technical details.
 
 2. **Organizes facts into scannable sections.** Uses a consistent structure: Overview (2–3 sentences), Key Facts (bulleted list of the most important data points), Timeline (if applicable), Key Players/Organizations, and Context (background that explains why this topic matters now). Sections can be read independently — a producer can grab just the timeline without reading the overview.
@@ -33,7 +33,7 @@ Compiles a structured, scannable fact sheet on a topic — organizing key data, 
 
 4. **Includes a glossary when the topic requires one.** If the subject involves technical terms, acronyms, or jargon that the target audience may not know, adds a brief glossary at the end. Definitions are one sentence each — precise, not exhaustive.
 
-5. **Flags unverified or uncertain information.** If the user's raw material contains claims that cannot be confirmed from the provided sources, or if key data points are missing, Claude flags them explicitly (e.g., "Source not confirmed — verify before publication"). The fact sheet should be a reliable starting point, not a source of error.
+5. **Flags unverified or uncertain information.** If the user's raw material contains claims that cannot be confirmed from the provided sources, or if key data points are missing, the assistant flags them explicitly (e.g., "Source not confirmed — verify before publication"). The fact sheet should be a reliable starting point, not a source of error.
 
 ## Output Format
 A structured document with clearly labeled sections. Standard sections: Overview (2–3 sentences), Key Facts (6–12 bulleted items), Timeline (if applicable, chronological), Key Players (names, titles, roles), Context (1–2 paragraphs), and Glossary (if needed). Total length: 400–800 words for a standard fact sheet, up to 1,500 for a comprehensive briefing. Tone: neutral, factual, precise. No narrative voice. Formatted for easy printing or screen reference — headers, bullets, bold for key terms.
@@ -100,7 +100,7 @@ Community solar allows households and businesses to subscribe to a share of a lo
 *Note: All figures in this fact sheet are drawn from the raw material provided. Verify the 6 GW capacity figure and the 22-state count against the most recent SEIA or CCSA quarterly report before publication.*
 
 ## Known Limitations
-- Claude compiles fact sheets from the raw material provided by the user and its general knowledge. It cannot access real-time databases, verify statistics against live sources, or confirm that cited figures are current. Every fact sheet should be treated as a starting point for further verification, not as a primary source.
+- The assistant compiles fact sheets from the raw material provided by the user and its general knowledge. It cannot access real-time databases, verify statistics against live sources, or confirm that cited figures are current. Every fact sheet should be treated as a starting point for further verification, not as a primary source.
 - For rapidly evolving topics (legislation, market data, personnel changes), fact sheets can become outdated within weeks. Include a "Date prepared" line and schedule a refresh before publication deadlines.
 - This skill organizes and presents facts — it does not perform investigative research, FOIA analysis, or original data gathering. For research-intensive briefings, combine this skill with dedicated research tools and primary source review.
 

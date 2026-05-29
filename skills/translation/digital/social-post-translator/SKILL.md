@@ -24,14 +24,14 @@ Translates social media posts from one language to another, adapting tone, chara
 
 **Optional:** Character limit for the target version (if different from platform default); hashtag strategy (translate hashtags, replace with local equivalents, or drop them); whether emojis should be kept, adapted, or removed; the brand's tone of voice guidelines for the target market; any terms or slogans that must remain in the original language.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Analyzes the post's engagement mechanics before translating.** Identifies the hook (question, bold claim, statistic), the call to action, and any platform-specific elements (hashtags, mentions, line breaks for readability). These structural elements are preserved in the translation — the translated post must work the same way on the same platform.
 
-2. **Translates for impact, not equivalence.** Social media copy is performance-driven. If a pun, wordplay, or cultural reference does not land in the target language, Claude replaces it with an equivalent device that achieves the same effect — a different joke, a locally resonant reference, or a rephrased hook that creates the same curiosity gap.
+2. **Translates for impact, not equivalence.** Social media copy is performance-driven. If a pun, wordplay, or cultural reference does not land in the target language, the assistant replaces it with an equivalent device that achieves the same effect — a different joke, a locally resonant reference, or a rephrased hook that creates the same curiosity gap.
 
 3. **Adapts hashtags for discoverability.** Translates hashtags into their most-used target-language equivalents rather than literal translations. If a hashtag is a branded term, it is retained in the original language. Notes when a hashtag has no established equivalent and suggests alternatives.
 
-4. **Respects platform character limits.** If the translation exceeds the platform's character limit, Claude tightens the copy to fit without losing the core message or call to action. Flags any cuts made.
+4. **Respects platform character limits.** If the translation exceeds the platform's character limit, the assistant tightens the copy to fit without losing the core message or call to action. Flags any cuts made.
 
 5. **Provides the post ready to copy and paste.** Output is the final post text — no quotation marks wrapping it, no commentary inline. Notes and decisions are appended separately.
 
@@ -85,8 +85,8 @@ Enlace en bio.
 - "Link in bio" translated as "Enlace en bio" — the English word "bio" is universally understood on Instagram in Spanish-speaking markets and is more natural than "enlace en biografia."
 
 ## Known Limitations
-- Claude cannot verify which hashtags are currently trending or have the highest engagement in a given market. Hashtag suggestions are based on common usage patterns, not real-time analytics. Cross-check with your social analytics tools before publishing.
-- Humor and wordplay are the hardest elements to translate for social media. If the original post relies heavily on a language-specific joke, the translated version may need a fundamentally different hook — Claude will flag this, but the social media manager should review the replacement.
+- The assistant cannot verify which hashtags are currently trending or have the highest engagement in a given market. Hashtag suggestions are based on common usage patterns, not real-time analytics. Cross-check with your social analytics tools before publishing.
+- Humor and wordplay are the hardest elements to translate for social media. If the original post relies heavily on a language-specific joke, the translated version may need a fundamentally different hook — the assistant will flag this, but the social media manager should review the replacement.
 - Platform-specific formatting (Instagram line breaks, X thread numbering, LinkedIn article links) may render differently when copy-pasted. Test the formatted output on the actual platform before scheduling.
 
 ## Related Skills

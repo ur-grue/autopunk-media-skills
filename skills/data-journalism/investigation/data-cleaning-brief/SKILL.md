@@ -23,7 +23,7 @@ Writes clear, step-by-step instructions for cleaning a messy or inconsistent dat
 **Required:** A description of the dataset and the problems you can see in it — specific examples of inconsistent values, formatting problems, missing data, or structural issues. Column names and a small sample of the messy rows.
 **Optional:** The intended analysis goal (what you will do with the data once it is clean); any cleaning decisions that have already been made; the tool the analyst will use (Excel, Python, R, SQL); the deadline.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies each cleaning problem from the description and categorises it: standardisation (format, spelling, case), deduplication, missing value handling, type conversion, or structural issues.
 2. Writes a numbered, sequenced instruction set — earlier steps that change data shape (deduplication, column splitting) before later steps that change values (standardisation, type conversion).
 3. Flags any cleaning decisions that involve editorial judgement — e.g. how to handle ambiguous missing values, or whether to exclude records rather than impute them — and notes that these decisions need journalist sign-off.

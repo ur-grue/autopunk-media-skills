@@ -23,7 +23,7 @@ Produces a detailed, production-ready thumbnail concept brief that a designer or
 **Required:** Video title or topic; target audience; the core emotion or reaction you want the viewer to feel when they see the thumbnail
 **Optional:** Channel color palette or existing visual style; whether a face/presenter should appear; platform context (desktop vs. mobile primary); competitor thumbnails you want to differentiate from; text overlay preferences
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single visual idea that most powerfully communicates the video's value — the "one-frame promise" that makes a viewer stop scrolling
 2. Develops 2–3 distinct concept directions, each with a different emotional or compositional approach (e.g., one curiosity-driven, one results-focused, one identity-based)
 3. For each concept, specifies: background treatment, foreground subject(s), text overlay (copy, position, size hierarchy), color mood, and any facial expression or gesture if a presenter is shown
@@ -88,7 +88,7 @@ Text preference: Short, punchy overlay on left side
 **Recommended for primary publish:** Concept 1. Test Concept 3 as mobile variant after initial publish.
 
 ## Known Limitations
-- Claude cannot view or analyze actual images; if you have reference thumbnails you want to match or differentiate from, describe them in text rather than attaching files
+- The assistant cannot view or analyze actual images; if you have reference thumbnails you want to match or differentiate from, describe them in text rather than attaching files
 - Color hex values are suggested based on described mood — verify against your actual brand palette before use
 - Thumbnail effectiveness is impossible to predict without A/B testing; treat all concepts as hypotheses, not guarantees
 - For animated or motion thumbnails (used in some channels), this skill produces static concepts only

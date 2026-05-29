@@ -23,9 +23,9 @@ Writes a structured monthly or quarterly YouTube channel performance report from
 **Required:** Time period (e.g., February 2026); key metrics for the period — total views, watch time, subscriber change, top 5 videos by views or watch time; comparison to the previous period (same metrics) if available.
 **Optional:** Revenue data (if applicable); click-through rate and impressions; traffic source breakdown; audience retention rate on top videos; any notable events during the period (publishing schedule changes, viral moments, collaboration, new content format tested).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Organizes the metrics into a structured summary: period overview, key wins (what improved or performed above expectation), areas of concern (what declined or underperformed), and standout content analysis (what the top-performing video tells you about audience preference).
-2. Identifies patterns and trends rather than just reporting numbers — the goal is insight, not recitation. Where data shows a meaningful change, Claude identifies what likely caused it and what it suggests about future content decisions.
+2. Identifies patterns and trends rather than just reporting numbers — the goal is insight, not recitation. Where data shows a meaningful change, the assistant identifies what likely caused it and what it suggests about future content decisions.
 3. Ends with three to five specific, prioritized recommendations — content, publishing, or format decisions that follow directly from the data. Recommendations are specific enough to act on: not "improve video quality" but "three of the top 5 videos this month are tutorials — prioritize tutorials in next month's calendar."
 
 ## Output Format

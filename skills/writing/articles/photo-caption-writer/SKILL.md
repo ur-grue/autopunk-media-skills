@@ -24,7 +24,7 @@ Write a publication-ready photo caption from an image description and story cont
 
 **Optional:** Publication style guide or house style (AP, magazine long-form, web gallery); whether a photographer credit line is needed and in what format; target word count; whether the caption should add context that goes beyond what is visible in the image; whether names of the people pictured are confirmed or need a verification flag
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes the caption in the standard two-part news format: a present-tense first sentence describing what is happening in the image (who, what, where), followed by a past-tense or contextual second sentence linking the image to the story
 2. Keeps language concrete and visual — describes what is observable, not what people appear to be feeling or thinking
 3. Avoids editorialising: does not use emotional descriptors ("a worried father," "a desperate scene") unless those words appear in the caption's context or are directly supported by visual evidence

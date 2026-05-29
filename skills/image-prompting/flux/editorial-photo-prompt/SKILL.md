@@ -32,7 +32,7 @@ Writes a Flux prompt for editorial-style photography suitable for journalism, do
 - Any specific photographic style or documentary photographer whose aesthetic you want to reference
 - Whether the image should feel recent/contemporary or historically situated
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the key visual elements that will make the image feel editorial rather than commercial: specificity of detail, natural light, authentic environment, non-idealized subject presentation
 2. Structures the prompt around a specific, believable scene — not a generic representation of a concept but a particular moment that could plausibly have been photographed
 3. Applies Flux-specific prompt optimizations: Flux responds well to detailed scene descriptions, specific lighting language, and photographic medium references

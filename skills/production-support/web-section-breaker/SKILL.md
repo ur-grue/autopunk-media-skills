@@ -24,7 +24,7 @@ Splits a long article or draft into web-optimised sections by inserting clear su
 **Required:** The full article text, pasted in without existing subheadings (or with them, if you want them reviewed and improved).
 **Optional:** Target word count per section (default: 200–350 words); tone of subheadings (neutral/informational vs. punchy/curiosity-driven); whether you want a table of contents at the top; whether subheadings should be keyword-rich for SEO; the publication's house style for heading capitalisation (title case vs. sentence case).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Read the full article to map its logical structure — identify the argument, narrative arc, or sequence of topics, and note where the text naturally shifts focus.
 2. Mark candidate break points where a new idea, scene, or argument begins. Aim for sections of 200–350 words unless a different target is specified. Do not break mid-argument or mid-anecdote.
 3. Write a subheading for each section. Default style: sentence case, 4–8 words, descriptive rather than clever — the subheading tells a scanning reader exactly what the section covers. If a punchy or SEO-driven style is requested, adjust accordingly.

@@ -24,7 +24,7 @@ Writes the copy for a multi-slide Instagram or LinkedIn carousel post, with a st
 
 **Optional:** The specific audience you are targeting, whether this is based on an existing piece of content (article, episode, documentary), a call to action for the final slide, any design constraints (e.g., maximum characters per slide for the design template).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Plans the carousel structure before writing: slide 1 is a hook that stops the scroll (a claim, a question, or a provocation); slides 2–(n-1) develop the argument or story one idea per slide; the final slide is a CTA, a question, or a summary worth saving
 2. Writes each slide with minimal text — carousels reward brevity per slide; each slide should contain one idea, stated in the fewest possible words that still make it land
 3. Provides a caption to accompany the carousel post (using the same logic as the caption-writer skill) and a suggested slide design note for each slide (what type of visual would work: typographic, photographic, illustrated)

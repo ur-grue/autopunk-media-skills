@@ -24,7 +24,7 @@ Write a hard news article from provided facts using the inverted pyramid structu
 
 **Optional:** Word count target (default 300–500 words); publication type (broadsheet, tabloid, regional, digital); any background context to include; whether a standfirst or subheading is needed.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most newsworthy fact — the "so what?" that makes this story worth publishing today
 2. Writes a summary lede (25–35 words) that answers the key question and leads with the most important element, not the background
 3. Structures the article in strict inverted pyramid order: paragraph 2 expands on the lede with the next most important detail; paragraph 3 provides context or a key quote; remaining paragraphs add background and secondary detail in descending importance
@@ -38,7 +38,7 @@ Inverted pyramid news article. Lede: 25–35 words. Total: 300–500 words (or s
 - [ ] The article can be cut at any paragraph break and still make complete sense
 - [ ] Every fact was provided by the user — nothing invented or assumed
 - [ ] Quotes are attributed clearly with name and title
-- [ ] No editorialising, opinion, or emotive language injected by Claude
+- [ ] No editorialising, opinion, or emotive language injected by the assistant
 - [ ] Follows AP-style news conventions (past tense for completed events, attribution format)
 
 ## Example

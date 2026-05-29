@@ -24,7 +24,7 @@ Organise user-provided notes, facts, and context into a structured background br
 
 **Optional:** What gaps you already know exist; who the brief is for (reporter, editor, producer, director); whether you want the brief to highlight unanswered questions prominently; any facts that must appear in a specific section.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads through the user's provided notes in full, without adding or inferring information not present in the input
 2. Organises the material into standard briefing categories: Core Facts, Timeline, Key Players, Context, Open Questions, and Source Suggestions
 3. Uses bullet points within each section for scanability — someone should be able to locate a specific fact within ten seconds
@@ -36,7 +36,7 @@ Organise user-provided notes, facts, and context into a structured background br
 Structured brief with five or six labelled sections. Each section uses bullet points. Contradictions in the source material are flagged with a note (not silently resolved or decided). Open Questions are framed as actionable research tasks ("Confirm whether the council vote was unanimous — check meeting minutes"). "Gaps and Next Steps" at the end summarises the most important missing information and suggests where to find it. Total: 400–700 words depending on the volume of input provided.
 
 ## Quality Criteria
-- [ ] All content is traceable to the user's provided notes — nothing has been added from Claude's general knowledge
+- [ ] All content is traceable to the user's provided notes — nothing has been added from the assistant's general knowledge
 - [ ] Contradictions in the notes are flagged explicitly rather than silently resolved
 - [ ] Open Questions are phrased as specific research tasks, not as vague observations
 - [ ] The brief is scannable — a colleague could find any specific fact in under ten seconds

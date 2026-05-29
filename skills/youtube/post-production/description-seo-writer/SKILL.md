@@ -23,7 +23,7 @@ Writes a complete, SEO-optimized YouTube video description — including hook pa
 **Required:** Video title; 3–5 sentence summary of what the video covers; target audience; primary keyword you want to rank for
 **Optional:** Channel links (subscribe URL, website, social profiles); timestamps/chapters (if already written); sponsor or affiliate links to include; secondary keywords; tone of channel (formal, casual, educational)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a 2–3 sentence hook paragraph that restates the video's value promise and contains the primary keyword naturally within the first 100 characters — the portion visible before the "Show more" fold
 2. Writes a 100–200 word body section that elaborates on video content, incorporates secondary keywords organically, and avoids keyword stuffing
 3. Structures the links section in a standard format: chapters (if provided), subscribe CTA, social links, affiliate/sponsor disclosures
@@ -80,7 +80,7 @@ Note: Some links in this description may be affiliate links. We only recommend r
 #salarynegotiation #joboffer #careertips #negotiationtips #salaryadvice
 
 ## Known Limitations
-- Claude cannot access YouTube Analytics or Search Console; keyword suggestions are based on structural best practices, not actual search volume data for your specific channel
+- The assistant cannot access YouTube Analytics or Search Console; keyword suggestions are based on structural best practices, not actual search volume data for your specific channel
 - Descriptions optimized for search may feel slightly formal compared to a channel's usual conversational tone — adjust register manually if needed
 - The "Show more" fold position varies by device and is approximately 100–150 characters; this skill targets the 100-character threshold as a conservative safe zone
 - Affiliate and sponsor disclosure language should be reviewed against current FTC or relevant national guidelines before publishing

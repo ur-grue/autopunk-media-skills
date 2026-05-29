@@ -23,7 +23,7 @@ Produces five headline variants for a single article, each optimised for a diffe
 **Required:** Article topic in one or two sentences; primary keyword or key phrase you want to rank for (e.g. "remote working productivity").
 **Optional:** Secondary keywords; target audience (e.g. HR managers, first-time homebuyers, general readers); publication tone (neutral news, opinion, service journalism, investigative); article word count and type (explainer, investigation, interview, list, news report).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the primary search intent behind the keyword — informational ("what is"), navigational ("find X"), commercial ("best X for Y"), or transactional ("how to do X") — and notes which the original article serves.
 2. Writes one headline per intent type from the list below, placing the primary keyword as close to the start as the sentence allows without sounding unnatural.
 3. Reviews each variant for character count (target: 55–65 characters for full display in Google search results), front-loading of the keyword, and editorial credibility — adjusting any variant that reads like clickbait at the expense of accuracy.

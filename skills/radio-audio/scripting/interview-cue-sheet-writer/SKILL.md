@@ -23,7 +23,7 @@ Produces a formatted radio interview cue sheet with scripted intro, key question
 **Required:** Guest name and role, the topic or news hook for the interview, and the interview's editorial purpose (e.g. accountability, explanation, human interest, debate).
 **Optional:** Programme name and tone, interview duration, any sensitive areas to handle carefully, background notes or pre-interview research, specific claims to challenge, and whether the interview is live or pre-recorded.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the interview's editorial purpose and uses it to sequence the questions — opening questions build rapport and establish context; mid-interview questions go to the core of the story; the final section handles accountability, challenge, or forward-looking angles
 2. Writes 6–10 primary questions in plain spoken English, each focused on a single point; adds 2–3 follow-up prompts per key question to handle likely deflections or non-answers
 3. Provides a scripted intro (20–30 seconds) that the presenter can read verbatim, a factual reference card (3–5 bullet points) for use mid-interview, and a clean out-cue thanking the guest and returning to the programme

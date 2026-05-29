@@ -24,7 +24,7 @@ Writes a concise positioning brief that defines a newsletter's niche, primary di
 **Required:** What the newsletter covers (broad subject area); who you are writing for (even a rough description of the reader you have in mind); why you are starting or running this newsletter (the genuine motivation, not the marketing version); what existing newsletters cover the same ground (at least one — if you cannot name a competitor, the niche may be undefined)
 **Optional:** What you refuse to cover or how you refuse to cover it; any reader feedback you have received about what they value most; your own background or expertise and why it qualifies you for this subject; what you want the newsletter to be known for in three years
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the positioning territory: given the subject area and the competitor landscape, where is the gap? Not every newsletter needs an entirely unclaimed space — positioning can be about how you approach a subject, not just what you cover
 2. Defines the target reader with specificity — not a demographic ("35–50, college educated") but a psychographic and situational description: what does this reader already know, what are they frustrated by, what would make them forward this to a colleague?
 3. Articulates the editorial promise in one sentence: the thing the newsletter commits to delivering in every edition. This sentence should be testable against any piece of content — you should be able to ask "does this edition fulfil the promise?" and get a clear yes or no

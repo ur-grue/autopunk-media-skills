@@ -33,7 +33,7 @@ Writes a comprehensive visual identity prompt for a show, channel, or publicatio
 - Typography preferences (serif/sans-serif, editorial/display, contemporary/classic)
 - Any hard constraints (colors to avoid, elements that must appear, client restrictions)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Distills the project's personality into a visual position: what world does this project inhabit, and what does that world look like in visual terms?
 2. Defines the complete visual system across six dimensions: Color, Typography Direction, Imagery Register, Composition Principles, Texture & Surface, and Motion/Animation character (for video contexts)
 3. Identifies three to five specific visual reference points with precise explanations of what quality in each is being cited — not names alone, but the specific visual attribute being borrowed

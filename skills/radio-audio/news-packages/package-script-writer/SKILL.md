@@ -23,7 +23,7 @@ Writes a complete radio news package script — intro copy, reporter track, clip
 **Required:** The story details (facts, figures, key angles), available clips with approximate content and duration (from transcripts or notes), and the target package duration.
 **Optional:** Programme name, whether the package needs a presenter intro or includes one, any particular angle the editor wants foregrounded, reporter name, and whether actuality or wildtrack is available.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the news angle and structures the package around a clear narrative: scene-setting or context opening, evidence (clips), development or counterpoint, and a closing reporter track that lands the editorial point
 2. Writes the presenter intro (15–20 seconds) as a separate, stand-alone cue that introduces the story and the reporter; writes reporter track sections in first-person reporter voice, calibrated to leave space for clips
 3. Labels all clips with suggested in-cues, out-cues, and durations; adds a back announcement for the presenter if requested; calculates approximate total package duration based on track and clip lengths

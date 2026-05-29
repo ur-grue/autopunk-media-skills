@@ -24,8 +24,7 @@ Takes a batch of reader comments, survey responses, or audience messages and ret
 
 **Optional:** The specific question the feedback was responding to (e.g., "What topics should we cover next quarter?"); the publication name and focus area; any known audience demographics; whether you want the summary focused on content feedback, product/experience feedback, or both.
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Reads all feedback and identifies recurring themes.** Groups messages by topic rather than chronology. A theme must appear in at least two separate responses to be reported — isolated one-off comments are noted separately to avoid over-indexing on outliers.
 
 2. **Categorizes each theme by sentiment and urgency.** For each theme, assesses whether the overall sentiment is positive (readers want more of this), negative (readers want this fixed or changed), or mixed (divided opinions). Flags any theme where the feedback suggests urgency — a problem causing unsubscribes, a request appearing with high frequency, or a complaint about a recent specific change.
@@ -125,7 +124,7 @@ Two readers raised length. One wants a shorter, more frequent format; the other 
 Only 14 of your subscriber base responded, and self-selected respondents tend to be your most engaged readers. This feedback likely over-represents power users and under-represents casual readers who may have already disengaged. A broader survey or an analysis of open-rate drop-off points would complement these qualitative insights.
 
 ## Known Limitations
-- Claude identifies themes based on the text provided and cannot verify whether the feedback sample is representative of the full audience. Small or self-selected samples may produce misleading patterns — always note the sample size when acting on results.
+- The assistant identifies themes based on the text provided and cannot verify whether the feedback sample is representative of the full audience. Small or self-selected samples may produce misleading patterns — always note the sample size when acting on results.
 - Sentiment analysis from written text is imperfect. Sarcasm, cultural differences in expression, and ambiguous phrasing can lead to misclassified sentiment. Review flagged quotes to confirm the interpretation matches the reader's likely intent.
 - This skill summarizes stated preferences, not revealed preferences. What readers say they want and what they actually open, read, and share can differ significantly. Pair feedback summaries with behavioral data (open rates, click rates, scroll depth) when available.
 

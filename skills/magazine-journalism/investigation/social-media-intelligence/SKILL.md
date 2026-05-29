@@ -23,8 +23,7 @@ Produces a structured open-source intelligence brief on a social media account o
 **Required:** The account(s) to analyze (platform, handle or URL, and the context of why this account matters to the investigation); the specific question you are trying to answer (authenticity, origin of a claim, coordination, influence)
 **Optional:** A timeframe to focus on; related accounts you suspect are connected; the narrative or claim you are tracking; screenshots or archived versions of key posts
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. **Account profile analysis.** Examines the account's observable characteristics: creation date relative to activity patterns, username format and history, profile photo (reverse-image searchable), bio claims, follower-to-following ratio, posting frequency and hours of activity. Flags indicators of inauthenticity — new accounts with sudden high output, generic stock profile photos, bios that mimic real organisations without exact matches, follower counts inconsistent with engagement levels.
 
 2. **Content pattern analysis.** Reviews the account's posting behaviour: dominant topics, language consistency, hashtag usage, link-sharing patterns, reply behaviour. Identifies whether the account produces original content, amplifies others, or mainly reacts. Notes shifts in topic focus, language, or posting cadence that may indicate a change of operator or purpose.
@@ -113,7 +112,7 @@ Archive immediately:
 Two posts from @DrinkSafe_PL that were visible last week are no longer accessible — they may have been deleted. If screenshots were not taken, those posts are lost.
 
 ## Known limitations
-- Claude cannot access live social media platforms, run reverse-image searches, or retrieve account metadata. This skill structures the analysis and tells the reporter what to look for and where — the reporter gathers the data.
+- The assistant cannot access live social media platforms, run reverse-image searches, or retrieve account metadata. This skill structures the analysis and tells the reporter what to look for and where — the reporter gathers the data.
 - Follower counts, engagement ratios, and posting patterns can be gamed in both directions. High followers with low engagement may indicate purchased followers, but some authentic accounts also show this pattern. The skill flags indicators, not conclusions.
 - Coordination detection based on public signals (timing, content overlap, shared links) identifies behavioural clusters. It cannot prove that accounts are operated by the same person or organisation without platform-side data.
 - Social media platforms change their APIs, archive accessibility, and public data availability frequently. Tool recommendations in this skill may need updating as platforms restrict access.

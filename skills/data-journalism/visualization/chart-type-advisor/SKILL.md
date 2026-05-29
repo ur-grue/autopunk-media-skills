@@ -30,7 +30,7 @@ Recommends the most effective chart type for your data and editorial goal, expla
 - Publication format (print, web, social — affects complexity)
 - Any house style constraints (e.g., "we never use pie charts")
 
-## How Claude approaches this
+## How the Assistant Approaches This
 1. Identifies the data type (time-series, comparison, distribution, composition, relationship, geographic)
 2. Maps the editorial goal to the chart types that serve it best
 3. Recommends a primary chart type with a brief explanation of why it works

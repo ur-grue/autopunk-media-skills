@@ -23,7 +23,7 @@ Writes a precise, accessible text description of a data visualization — coveri
 **Required:** A description of the chart — chart type (bar, line, scatter, etc.), what the x and y axes show, the time period if applicable, the data source, and the key finding or pattern you want the reader to take away.
 **Optional:** The exact headline figure or data point you want emphasised; the publication register (news article, magazine feature, annual report); whether an alt-text version (screen reader) is also needed.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the chart type and the primary story the data tells — not a neutral description of all data points, but the finding a journalist would lead with.
 2. Writes a headline-first description: the key finding in plain language, followed by the supporting context (time period, comparison, magnitude).
 3. If alt-text is requested, produces a separate, more complete description including chart type, axis labels, data range, and a full plain-language summary — formatted to accessibility standards.

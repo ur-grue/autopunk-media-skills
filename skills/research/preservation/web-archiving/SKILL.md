@@ -23,8 +23,7 @@ Produces a step-by-step archiving plan for preserving a live web page using Wayb
 **Required:** The URL(s) to archive; why the page matters to your investigation or story (helps prioritise what to capture)
 **Optional:** Whether the material may be needed as legal evidence (triggers additional preservation steps); whether the page is behind a login or paywall (affects archiving method); whether you need to capture the page's full visual appearance (screenshots) or just its text and HTML
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. **Primary archive: Wayback Machine.** Guides the user to submit the URL to web.archive.org/save. Notes: Wayback Machine archives the page's HTML, CSS, and embedded resources. It stores a timestamped snapshot accessible via a permanent URL. Capture may take a few seconds to a few minutes depending on page complexity. Some pages block the Wayback Machine's crawler — if the save fails, note this and move to the secondary archive.
 
 2. **Secondary archive: Archive.today.** Guides the user to submit the URL to archive.today (also accessible via archive.ph, archive.is, archive.li). Notes: Archive.today renders the page in a browser before saving, which means it captures JavaScript-rendered content that Wayback Machine sometimes misses. It also captures pages behind some soft paywalls. Archive.today assigns its own permanent URL.

@@ -24,7 +24,7 @@ Writes a platform strategy brief for a media brand, publication, documentary fil
 
 **Optional:** Current follower count and performance if expanding an existing presence, target audience description, any comparable accounts doing this well on the platform, specific goals (audience growth, newsletter subscribers, event ticket sales, reach), available resource (one person, a small team, a budget for paid content).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Assesses the fit between the platform's dominant audience behaviour and the media brand's content — not every platform is right for every brand, and the brief will say so honestly if the fit is weak
 2. Defines the content approach: what types of content work on this platform for this kind of account, what the posting rhythm should be, and what the brand's distinctive angle should be (not just "post what everyone else posts")
 3. Sets realistic metrics for 90 days and 12 months — based on what is achievable with the stated resource level — and identifies the two or three things that will determine whether the strategy is working

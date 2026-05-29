@@ -23,7 +23,7 @@ Analyses an interview transcript and recommends the best actuality clips to use 
 **Required:** The interview transcript (or a detailed paraphrase of key sections), the story angle or package focus, and the target number of clips (typically 2–4).
 **Optional:** Total available package duration (helps prioritise shorter vs longer clips), whether the clip is for a bulletin package or a longer feature, any sections the reporter has already flagged as likely clips, and any sections that must be excluded for legal or editorial reasons.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the transcript to map its structure: where does the speaker state the news angle, where do they express emotion or personal stakes, where do they deflect or reveal, where is the language most vivid and natural
 2. Assesses each candidate passage against four criteria: news value (does it add information or perspective not covered elsewhere?), audio quality potential (is the spoken language clean, natural, and free of filler that would distort under editing?), edit-ability (does it have clear natural in and out points?), and uniqueness (does it say something only this speaker can say?)
 3. Recommends 2–5 clips in priority order, each with a verbatim in-cue and out-cue, an estimated duration, a one-sentence editorial justification, and a note on any editing risk (e.g. a long self-correction before the key phrase, a technical term that needs a brief explanation in the surrounding track)

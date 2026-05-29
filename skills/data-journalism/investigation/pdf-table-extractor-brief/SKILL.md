@@ -20,12 +20,11 @@ Produces a structured extraction plan and clean spreadsheet template for pulling
 - You are assigning the extraction task to a research assistant or intern and need clear instructions that prevent common errors
 
 ## What You Need To Provide
-**Required:** A description of the PDF and its table structure — the document title, what the table contains, how many columns and rows (approximate is fine), and what the data represents. If possible, paste or describe the first few rows of the table so Claude can see the structure. Alternatively, provide the actual PDF content if you have extracted the raw text.
+**Required:** A description of the PDF and its table structure — the document title, what the table contains, how many columns and rows (approximate is fine), and what the data represents. If possible, paste or describe the first few rows of the table so the assistant can see the structure. Alternatively, provide the actual PDF content if you have extracted the raw text.
 
-**Optional:** The extraction tool you plan to use (Tabula, Camelot, manual copy-paste, Adobe Export, or "not sure — recommend one"); any known problems with the PDF (merged cells, multi-line row entries, footnotes embedded in the table, inconsistent formatting across pages); the analysis you plan to run on the extracted data (this helps Claude optimize the template for your downstream use case).
+**Optional:** The extraction tool you plan to use (Tabula, Camelot, manual copy-paste, Adobe Export, or "not sure — recommend one"); any known problems with the PDF (merged cells, multi-line row entries, footnotes embedded in the table, inconsistent formatting across pages); the analysis you plan to run on the extracted data (this helps the assistant optimize the template for your downstream use case).
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Analyzes the table structure.** From the description or pasted content, identifies: number of columns, data types per column (text, integers, currency, percentages, dates), header rows vs. data rows, whether the table spans multiple pages, and whether any cells are merged or contain multi-line entries. This structural map is the foundation of the extraction plan.
 
 2. **Defines clean column headers.** Creates standardized, machine-readable column headers for the spreadsheet template — converting the PDF's often-verbose or ambiguous headers into clear, consistent labels. Specifies the expected data type and format for each column (e.g., "Budget_Amount: numeric, no currency symbols, no commas, two decimal places").

@@ -24,13 +24,13 @@ Translates a voice-over script into a target language while preserving the appro
 
 **Optional:** A project terminology glossary, if one exists. The narrator's delivery style (conversational, authoritative, soft documentary, urgent news). Notes on any lines the director considers "locked" (cannot be shortened) or "flexible" (can be paraphrased). Speaker gender, which affects translation in gendered languages.
 
-## How Claude Approaches This
-1. Reads the source script and estimates the word count per segment relative to the declared duration, establishing a target speech rate in the target language. Speech rates vary by language — Spanish and French typically run 15–20% longer than equivalent English; German runs shorter; Japanese requires different rhythm handling — and Claude accounts for this in the translation.
+## How the Assistant Approaches This
+1. Reads the source script and estimates the word count per segment relative to the declared duration, establishing a target speech rate in the target language. Speech rates vary by language — Spanish and French typically run 15–20% longer than equivalent English; German runs shorter; Japanese requires different rhythm handling — and the assistant accounts for this in the translation.
 2. Translates each line for meaning first, then tests the translated line against the available time by estimating syllable count and natural delivery pace. Lines that translate long are condensed by finding shorter synonyms, removing non-essential qualifiers, or restructuring the sentence — always within the boundaries of editorial accuracy.
 3. Lines that translate short are given natural expansion — adding a clarifying phrase, a geographic or contextual note — so the narrator is not left with silence before the next cut. The final script is annotated with timing guidance so the narrator and director can spot any lines that still need adjustment before the recording session.
 
 ## Output Format
-The translated script presented as a two-column table: Original Line | Translated Line. Each row corresponds to one script segment or paragraph. A "Duration Note" column flags any segment where Claude judges the timing tight or loose. After the table, a short Translator's Notes section explaining any editorial decisions — condensed lines, paraphrased passages, terms left untranslated. Total output length mirrors the source script length. Register and tone match the requested delivery style.
+The translated script presented as a two-column table: Original Line | Translated Line. Each row corresponds to one script segment or paragraph. A "Duration Note" column flags any segment where the assistant judges the timing tight or loose. After the table, a short Translator's Notes section explaining any editorial decisions — condensed lines, paraphrased passages, terms left untranslated. Total output length mirrors the source script length. Register and tone match the requested delivery style.
 
 ## Quality Criteria
 - [ ] Every segment of the source script is translated — nothing is omitted
@@ -89,9 +89,9 @@ The translated script presented as a two-column table: Original Line | Translate
 
 ## Known Limitations
 - Syllable-count estimation is a guide, not a precise measurement. Actual recording duration depends on the narrator's delivery speed, breath patterns, and the director's pacing decisions. A table read with the narrator before the session is always recommended.
-- Languages with grammatical gender (Spanish, French, Portuguese, Italian) require knowing the narrator's gender for correct agreement. If not specified, Claude defaults to masculine forms and flags this in the notes.
+- Languages with grammatical gender (Spanish, French, Portuguese, Italian) require knowing the narrator's gender for correct agreement. If not specified, the assistant defaults to masculine forms and flags this in the notes.
 - Highly technical scripts — medical, legal, scientific — may require terminology review by a subject-matter expert before the recording session, regardless of translation quality.
-- Claude cannot account for mouth sync requirements in lip-synced dubbing (where the translated audio must match the on-screen speaker's lip movements). This skill is designed for voice-over and narrator-track translation only, not full dubbing replacement.
+- The assistant cannot account for mouth sync requirements in lip-synced dubbing (where the translated audio must match the on-screen speaker's lip movements). This skill is designed for voice-over and narrator-track translation only, not full dubbing replacement.
 - Always verify the final translated script with a native speaker before the recording session.
 
 ## Related Skills

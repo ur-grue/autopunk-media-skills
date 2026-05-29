@@ -26,7 +26,7 @@ Produces a structured research framework for tracing who ultimately owns and con
 
 **Optional:** Any known parent company names, investor names, or brands associated with the entity; the specific concern driving the research (e.g. potential conflict of interest, editorial independence, foreign ownership, state involvement); whether the entity is publicly listed, privately held, or state-owned
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the ownership model (publicly listed, private, state-owned, non-profit, trust-owned, cooperative, etc.) and explains what disclosure obligations typically apply to each type in the relevant jurisdiction — so you know upfront how much of the structure is likely to be publicly traceable
 2. Maps the layers of ownership that typically exist for entities of this type: the trading entity you can see, any intermediate holding companies, the ultimate beneficial owner (UBO), and any investors or creditors with significant governance rights — framed as a chain of questions to verify rather than assumed facts
 3. Lists the specific research questions and public record types most likely to reveal the ownership structure, prioritised by what is easiest to confirm first

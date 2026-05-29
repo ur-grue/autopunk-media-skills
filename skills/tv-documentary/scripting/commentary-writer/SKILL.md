@@ -23,7 +23,7 @@ Writes narration or commentary for a documentary sequence, given a description o
 **Required:** A description of the sequence: what is seen on screen, shot by shot or section by section; the factual context or research notes the narration should draw on; the approximate total narration length needed (in words or seconds)
 **Optional:** The film's narrator voice profile (formal/conversational, detached/intimate, authoritative/questioning); the tone of the surrounding sequences (for tonal consistency); any specific facts or quotes that must appear in this section; the film title and general subject
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the picture description and identifies where narration should be placed — not every image needs words, and good commentary leaves space for the picture to breathe
 2. Drafts narration that is subordinate to the picture: it adds what the image cannot show (context, fact, time period, implication) without describing what is already visible
 3. Calibrates sentence length and rhythm to documentary speech patterns — short sentences that can be delivered in one breath, with natural pause points between thoughts

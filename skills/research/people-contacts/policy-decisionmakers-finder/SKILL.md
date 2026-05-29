@@ -24,7 +24,7 @@ Maps the roles, institutions, and access channels a journalist needs to identify
 **Required:** The specific policy area or issue (e.g. "urban housing planning approval," "national broadband infrastructure rollout," "pharmaceutical pricing regulation")
 **Optional:** The country or jurisdiction; the level of government (national, regional, local); whether you need elected officials, unelected officials, or both; whether you are looking for current or former decisionmakers; the angle of your story (accountability, access, process)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Breaks the policy area into its functional layers — who sets the legal framework, who administers it day-to-day, who controls the budget, and who advises in private
 2. Maps the institutional landscape: the relevant ministry or department, the regulatory agency (if separate), the advisory bodies, the legislative committee with oversight, and the cabinet-level position with ultimate sign-off
 3. For each layer, specifies the job title or role type to target — not invented names, but the structural positions that hold real authority — and describes the most productive channel for approach (official press office, parliamentary record, regulatory filing, freedom of information request, published advisory board membership)
@@ -85,9 +85,9 @@ Independent advisory input typically comes from the Social Care Reform Advisory 
 *Note: Verify current post-holders via the government's official directory and check for any machinery-of-government changes since your last research session. Ministerial portfolios shift frequently.*
 
 ## Known Limitations
-- Claude cannot verify current post-holders or confirm that a named institution still exists in its described form — always cross-check against official government directories before publishing
+- The assistant cannot verify current post-holders or confirm that a named institution still exists in its described form — always cross-check against official government directories before publishing
 - The output reflects structural patterns in democratic systems; it is less reliable for jurisdictions with opaque governance, state-controlled media environments, or rapidly shifting administrations
-- For highly technical regulatory domains (financial derivatives, pharmaceutical licensing), the informal power layer may involve industry working groups that are not publicly documented — Claude can flag where these gaps likely exist but cannot map them
+- For highly technical regulatory domains (financial derivatives, pharmaceutical licensing), the informal power layer may involve industry working groups that are not publicly documented — the assistant can flag where these gaps likely exist but cannot map them
 
 ## Related Skills
 - [expert-identifier](../expert-identifier/SKILL.md)

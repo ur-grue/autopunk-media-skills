@@ -24,8 +24,7 @@ Produces a practical audience segmentation brief for a newsletter, identifying 3
 
 **Optional:** Subscriber count; the newsletter's format and frequency; any survey data, reader feedback, or demographic information; the business model (free, freemium, paid, sponsor-supported); specific segmentation goals (e.g., "I want to identify who would pay for a premium tier").
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Analyzes the audience signals.** Reviews all provided information — topic, engagement data, reader feedback, stated demographics — and identifies the natural fault lines in the audience. These are the characteristics along which subscribers differ meaningfully: their expertise level, their primary use case for the content, their engagement pattern, or their professional context.
 
 2. **Defines 3-5 segments with clear boundaries.** Each segment gets a descriptive label, a one-paragraph profile, an estimated share of the audience (based on the data provided or reasonable inference), and the defining characteristic that separates it from adjacent segments. Segments are mutually exclusive — a subscriber belongs to one primary segment.

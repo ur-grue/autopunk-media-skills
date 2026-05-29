@@ -23,9 +23,9 @@ Rewrite a piece of text in a different tone or register while preserving all fac
 ## What You Need To Provide
 **Required:** The text to rewrite; the target tone (formal, conversational, authoritative, empathetic, urgent, dry, ironic, provocative, warm, clinical).
 
-**Optional:** The source tone, so Claude knows what is changing and by how much; target publication or audience (which provides implicit tone guidance); specific phrases, quotes, or data points to preserve unchanged; a target word count if the rewrite should also be shorter or longer.
+**Optional:** The source tone, so the assistant knows what is changing and by how much; target publication or audience (which provides implicit tone guidance); specific phrases, quotes, or data points to preserve unchanged; a target word count if the rewrite should also be shorter or longer.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the current tone markers: sentence length and rhythm, vocabulary register (Latinate vs Anglo-Saxon words, technical vs everyday), use of first and second person, presence of emotional or evaluative language, formality indicators (contractions, colloquialisms, hedging phrases)
 2. Maps the gap between current and target tone — a shift from "formal academic" to "conversational newsletter" is much larger than "formal broadsheet" to "authoritative long-form"; the scale of change determines how much structural adjustment is needed alongside vocabulary changes
 3. Rewrites by adjusting vocabulary choice, sentence length and rhythm, rhetorical devices (questions, short emphatic sentences, direct address), and formality level — while keeping every fact, figure, direct quote, and the logical structure of the argument unchanged

@@ -25,7 +25,7 @@ Produces a chronological brief tracing how a law or regulation came to be — th
 
 **Optional:** The specific aspect of the law you most need to understand — its original intent, a particular amendment, the political battle around its passage, or the gap between intent and current application. Known key figures or political moments associated with it.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the law's origins — the political, social, or economic context that created demand for it and the moment it was passed or implemented.
 2. Traces the major amendments, reforms, or reinterpretations over time, noting which changes were politically contested and why.
 3. Identifies the gap, if any, between the stated intent at the time of passage and how the law or regulation functions today — a distinction that is often the heart of a story.
@@ -71,8 +71,8 @@ The most useful primary sources for verifying and deepening this brief are: parl
 
 ## Known Limitations
 - This brief is a journalistic orientation tool, not a legal interpretation. Questions about what the law requires in a specific situation must be put to qualified legal counsel, not answered from this brief.
-- Claude's knowledge of specific national legislation, amendments, and regulatory guidance has a training cutoff and may not reflect the most recent developments. All historical claims should be verified against primary sources before publication.
-- Legislative histories for laws passed before widespread digitalisation of parliamentary records can be incomplete; Claude may have limited information on the detailed negotiating history of older statutes.
+- The assistant's knowledge of specific national legislation, amendments, and regulatory guidance has a training cutoff and may not reflect the most recent developments. All historical claims should be verified against primary sources before publication.
+- Legislative histories for laws passed before widespread digitalisation of parliamentary records can be incomplete; the assistant may have limited information on the detailed negotiating history of older statutes.
 - In jurisdictions where legislative history is not formally recorded or publicly available, this skill will be less precise — it can describe the political context but may not be able to accurately reconstruct what specific provisions were intended to mean.
 - This skill does not replace access to official parliamentary or congressional record databases, which remain the authoritative source for what was said and decided during a law's passage.
 

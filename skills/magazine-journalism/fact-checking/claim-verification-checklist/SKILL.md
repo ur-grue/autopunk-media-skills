@@ -23,7 +23,7 @@ Generates a point-by-point checklist of every verifiable claim in a draft articl
 **Required:** The full text of the draft article or a detailed section-by-section summary
 **Optional:** A note on which claims are already verified (so the checklist can mark them as such); the publication's fact-checking standard (minimal, standard, or rigorous); the story type (news, investigation, profile, feature)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the draft and extracts every claim that is factually verifiable — distinguishing factual assertions from opinions, characterizations, and attributed quotes
 2. Categorizes each claim by type: statistical, biographical, chronological, attribution (quote or paraphrase), official record, scientific, or legal
 3. For each claim, specifies the minimum evidence standard needed for verification — primary source, secondary corroboration, expert confirmation, or documentary proof

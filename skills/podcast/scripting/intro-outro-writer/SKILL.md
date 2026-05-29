@@ -23,7 +23,7 @@ Writes episode-specific intro and outro scripts matched to a podcast's tone, for
 **Required:** Show name; episode topic or title; host name(s); tone of the show (casual, serious, irreverent, warm, authoritative)
 **Optional:** Guest name and one-line context; the most compelling or surprising moment from the episode (a quote, a finding, a scene); target intro length (30 seconds, 45 seconds, 60 seconds at typical speaking pace); whether a music bed plays under the intro; whether the outro should include specific CTAs (subscribe, leave a review, follow on social, Patreon); any standard language that appears in every episode's intro or outro
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the strongest opening hook from the episode — ideally a specific quote, moment, or question that makes a cold listener need to know what happens next
 2. Writes the intro in three parts: hook (5–10 seconds), episode context (10–15 seconds), host welcome and show ID (5–10 seconds) — calibrated to the requested length
 3. Writes the outro in two parts: brief episode callback (2–3 sentences referencing what was just heard), then CTA sequence

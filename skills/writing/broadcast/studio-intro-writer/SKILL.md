@@ -31,7 +31,7 @@ Writes a presenter-delivered studio introduction that sets up a field report or 
 - Any facts, statistics, or named individuals the presenter must introduce before the package begins
 - Whether the intro will be read to camera or over a graphic or still image
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most important piece of context a viewer needs before watching the package — not a summary of the package, but what the viewer must understand for the package to land with full force
 2. Constructs a short, clear opening sentence that carries the news value, followed by one or two sentences of essential context, ending with a clean hand-off line that cues the package without stating the obvious
 3. Checks that the intro does not duplicate the first ten seconds of the package — the presenter's words and the reporter's opening should not repeat the same information
@@ -68,7 +68,7 @@ Authorities have opened a formal inquiry into contamination at the Harwick Indus
 
 ## Known Limitations
 - This skill writes the presenter's words only — it cannot verify that the facts in the intro match the final cut of the package; a producer must check them against the edited version before broadcast
-- If the package opens with the reporter delivering a strong, fact-laden stand-up, the intro may feel redundant at first draft; share the package's opening narration as optional input to help Claude avoid duplication
+- If the package opens with the reporter delivering a strong, fact-laden stand-up, the intro may feel redundant at first draft; share the package's opening narration as optional input to help the assistant avoid duplication
 - For very short news summaries (under 20 seconds), the intro may feel compressed; a brief (10–15 second) reader format may serve better — ask for a "reader" version if needed
 
 ## Related Skills

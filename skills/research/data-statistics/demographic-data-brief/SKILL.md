@@ -23,9 +23,9 @@ Produces a concise, journalist-ready profile of the population structure, trends
 ## What You Need To Provide
 **Required:** The location or community you are researching (country, region, city, neighbourhood, or defined group); the primary angle of your story (what demographic question matters most to your reporting).
 
-**Optional:** The specific dimensions you need covered (age, gender, ethnicity, income, religion, language, migration status, education, employment); the time period or trend you want to understand (current snapshot vs. change over 10 or 20 years); the audience for your piece (general public, specialist, local vs. national); any data sources you already have that Claude should build from.
+**Optional:** The specific dimensions you need covered (age, gender, ethnicity, income, religion, language, migration status, education, employment); the time period or trend you want to understand (current snapshot vs. change over 10 or 20 years); the audience for your piece (general public, specialist, local vs. national); any data sources you already have that the assistant should build from.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the total population and its most recent reliable source, noting any data lag or census timing issues.
 2. Breaks the population down across the dimensions most relevant to the stated story angle — age pyramid, urbanisation, ethnicity or language groups, income distribution, or migration patterns, selecting the three to five most story-relevant dimensions rather than producing an exhaustive census dump.
 3. Identifies the trend line: what has changed in this population over the past decade and what is projected to change in the next ten to twenty years.
@@ -95,8 +95,8 @@ The headline housing story is this: the 1980s deindustrialisation wave caused a 
 - **Local authority annual reports**: often contain ward-level breakdowns not visible in national data — request directly from the council
 
 ## Known Limitations
-- This skill works from Claude's training data and cannot access live census portals or local authority databases. Figures provided without a pasted source are indicative rather than precise, and must be verified before broadcast or publication.
-- Demographic data for small communities, recent arrivals, or unofficial settlements is frequently undercounted in official statistics. Claude will flag when a group is likely under-represented in the data but cannot correct for it.
+- This skill works from the assistant's training data and cannot access live census portals or local authority databases. Figures provided without a pasted source are indicative rather than precise, and must be verified before broadcast or publication.
+- Demographic data for small communities, recent arrivals, or unofficial settlements is frequently undercounted in official statistics. The assistant will flag when a group is likely under-represented in the data but cannot correct for it.
 - For fast-changing situations — a city that has received large numbers of refugees in the past two years, or a neighbourhood undergoing rapid gentrification — official census data may be significantly out of date. Ground-level reporting and local expert interviews are essential supplements.
 
 ## Related Skills

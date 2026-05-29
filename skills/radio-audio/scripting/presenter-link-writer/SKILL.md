@@ -23,7 +23,7 @@ Writes natural, conversational presenter links to introduce, bridge, and close s
 **Required:** The link type (intro / bridge / back-anno / close), the content being introduced or followed, and the programme's tone (e.g. upbeat daytime, serious current affairs, intimate late-night).
 **Optional:** Presenter name, any specific facts or angle to highlight in the link, duration target (in seconds), and examples of the presenter's existing style for voice matching.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the function of the link — is it a cold open, a tease into a package, a back announcement after a clip, or a programme close — and anchors the copy to that specific role
 2. Calibrates the register to the programme tone: a breakfast show link is punchy and warm, a documentary strand link may be more reflective and measured; in both cases, the language is spoken English, not written
 3. Writes the link at the specified length (default 15–25 seconds / ~40–60 words for a bridge; up to 90 seconds for an opening sequence), with a natural lead sentence, a development beat, and a clean handover line

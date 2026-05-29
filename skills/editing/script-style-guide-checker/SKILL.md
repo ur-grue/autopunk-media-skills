@@ -24,7 +24,7 @@ Checks a script against a specified style guide and returns a prioritised list o
 
 **Optional:** The intended platform (TV bulletin, radio package, online video), the target audience (general public, specialist, regional), and any specific style rules you want prioritised over others.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the style guide rules you provide — either a named standard (AP, Reuters, BBC) or a custom ruleset you paste in — and builds a mental checklist of the most common violation categories: numerals, titles, abbreviations, punctuation, attribution format, time references, and tone register.
 2. Reads through the script systematically, flagging every passage that deviates from the specified rules. Each flag is tied to a specific rule, not a general impression.
 3. Returns a prioritised violation report — critical issues (meaning or legality affected) first, then consistency issues, then minor style preferences — with the original text, the rule it breaks, and a corrected version for each flag.
@@ -128,8 +128,8 @@ None identified.
 **Summary:** 5 consistency issues, 1 minor. No critical violations. Script is close to AP standard — the main pattern is time and numeral formatting. Corrections above can be applied directly.
 
 ## Known Limitations
-- Named style guides (AP, Reuters, BBC) are checked against Claude's training knowledge of those guides, which may not reflect the most recent edition. Always verify flagged rules against the current published version, especially for evolving areas like gender-neutral language or digital-first terminology.
-- Custom in-house style guides must be pasted in full — Claude cannot infer rules from a guide name it does not recognise.
+- Named style guides (AP, Reuters, BBC) are checked against the assistant's training knowledge of those guides, which may not reflect the most recent edition. Always verify flagged rules against the current published version, especially for evolving areas like gender-neutral language or digital-first terminology.
+- Custom in-house style guides must be pasted in full — the assistant cannot infer rules from a guide name it does not recognise.
 - The skill checks written style, not whether the script reads aloud naturally. Broadcast rhythm and breath phrasing require a separate read-aloud pass.
 - Very long scripts (over 2,000 words) may be checked more thoroughly if submitted in sections.
 

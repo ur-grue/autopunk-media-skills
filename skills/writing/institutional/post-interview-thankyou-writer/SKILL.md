@@ -30,7 +30,7 @@ Drafts a brief, professionally warm thank-you email to send to an interview subj
 - Any agreed next step (e.g., you will send a fact-check, they offered to share a document)
 - Whether you want the email to leave the door open for follow-up contact
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a direct, specific thank-you — names the interview, not a generic "thanks for your time."
 2. References one concrete detail from the conversation to signal genuine engagement, not a form letter.
 3. Sets clear, honest expectations about next steps and publication timeline without making editorial promises the journalist cannot keep.

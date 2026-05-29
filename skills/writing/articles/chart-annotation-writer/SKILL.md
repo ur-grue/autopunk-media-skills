@@ -24,7 +24,7 @@ Writes the annotation text for a data chart — axis labels, callout boxes, tren
 **Required:** A description of the chart — what type it is (bar, line, scatter, map, etc.), what the axes represent, what the data shows, and what the key finding or data story is; the topic and publication context
 **Optional:** The specific data point or moment you want highlighted as a callout; any secondary patterns worth noting; the publication's annotation style (brief labels vs. full explanatory sentences); character or word limits imposed by the design template; whether the chart will appear in print, on screen, or as a standalone social graphic
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the one primary data story the chart is built to show — the trend, the outlier, the crossover point, or the comparison — and writes the main callout around that single finding, not a summary of all the data
 2. Writes axis labels that are specific and honest: units are stated, time periods are clear, and any index or percentage base is explained in a note rather than assumed
 3. Constructs callout text to answer the question a first-time reader would ask when they see the highlighted data point: "What happened here, and why does it matter?" — in no more than two short sentences
@@ -88,7 +88,7 @@ National housing price registry, 2024 annual release. Data covers registered ten
 Prices are indexed to January 2019 = 100 for each city tier separately. Index values show relative change within each group, not absolute price comparisons between groups.
 
 ## Known Limitations
-- Callout text is written from the data story you describe — Claude does not have access to the actual dataset and will not generate or verify specific numbers for callouts; any figures in callouts must be verified by the journalist against the source data
+- Callout text is written from the data story you describe — the assistant does not have access to the actual dataset and will not generate or verify specific numbers for callouts; any figures in callouts must be verified by the journalist against the source data
 - Chart titles that state a clear finding ("rents rose fastest") may face editorial pushback in outlets that prefer neutral descriptive titles; adjust the title register to match your publication's style guide
 - For charts covering politically sensitive topics (elections, economic inequality, immigration), the framing of the callout can itself be contested — run callout text past your editor before publication
 - This skill does not produce chart design specifications or layout coordinates; it delivers text only, for a designer to position

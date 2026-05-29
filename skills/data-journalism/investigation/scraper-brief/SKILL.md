@@ -23,7 +23,7 @@ Writes a clear, technical brief describing exactly what data needs to be collect
 **Required:** The URL or website description. What data you need — the specific fields visible on the page. The scope — how many pages or records you expect to collect. The reason you need it (news investigation, research, ongoing monitoring).
 **Optional:** How frequently the data needs to be updated; whether pagination, search filters, or login walls are involved; any known technical obstacles (JavaScript rendering, anti-scraping measures); the output format you need.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the required data fields from the description of the source page, identifying what is structured (tables, clearly labelled fields) versus what requires extraction from running text.
 2. Documents the scope, pagination, and any known complexity (dynamic content, filters, session requirements).
 3. Produces a structured brief covering: data source, fields to collect, output schema, scope and frequency, known technical challenges, and legal/ethical considerations.

@@ -23,7 +23,7 @@ Drafts a formal, legally complete Freedom of Information Act request letter to a
 **Required:** The name of the agency you are sending the request to; a description of the records you want (dates, subjects, document types); your name and contact information; your stated purpose as a journalist
 **Optional:** The specific FOIA office address; any known document numbers, case IDs, or reference numbers; the name of the news organization; a deadline tied to publication; specific officials or offices whose records you want
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the correct statutory citation (5 U.S.C. § 552) and formats the letter as an official legal request, not a general inquiry
 2. Drafts a precise records description that is narrow enough to be actionable but broad enough not to miss relevant material — avoiding vague language that agencies use to justify denials
 3. Includes a journalist fee waiver request under the "representative of the news media" category, a request for expedited processing if applicable, and a clear statement of willingness to appeal

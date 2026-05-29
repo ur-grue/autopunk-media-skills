@@ -24,7 +24,7 @@ Writes a brief holding statement for an organisation that is under media pressur
 
 **Optional:** A specific spokesperson name; the channel (responding to press directly, posting to website, issuing to wire); any facts that are confirmed and safe to include; any specific phrases or framings that legal has approved or prohibited.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes a statement that is short enough to deliver in one breath but substantive enough that journalists cannot report it as a non-answer.
 2. Acknowledges the subject of the inquiry directly — does not pretend the question has not been asked.
 3. States clearly and without elaborate explanation that the organisation is in the process of gathering information.
@@ -61,8 +61,8 @@ We expect to be able to make a fuller statement by 5:00 p.m. today. Media inquir
 
 ## Known Limitations
 - A holding statement is not a substitute for a full response — it is a bridge. If the full statement does not follow within the committed timeframe, the holding statement creates new credibility problems rather than solving them.
-- Claude cannot advise on whether a statement crosses legal lines — any holding statement for an incident involving litigation, regulatory action, or criminal proceedings must be reviewed by legal counsel.
-- If the organisation genuinely has nothing to confirm, Claude will say so clearly; it will not fabricate confirmed facts to make the statement appear more substantial.
+- The assistant cannot advise on whether a statement crosses legal lines — any holding statement for an incident involving litigation, regulatory action, or criminal proceedings must be reviewed by legal counsel.
+- If the organisation genuinely has nothing to confirm, the assistant will say so clearly; it will not fabricate confirmed facts to make the statement appear more substantial.
 
 ## Related Skills
 - [crisis-statement-writer](../crisis-statement-writer/SKILL.md)

@@ -24,7 +24,7 @@ Rewrite a single paragraph or short passage for maximum clarity — simplifying 
 
 **Optional:** Target audience (general public, secondary school level, industry specialists, non-native English readers); the specific clarity problem if known ("too many subordinate clauses", "unclear pronoun reference", "jargon-heavy", "sentences too long"); whether to preserve the original structure or rebuild entirely if needed.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the paragraph's core point in a single sentence before touching the text — if the core point cannot be stated clearly, that itself is a clarity problem and is noted
 2. Diagnoses what makes the passage unclear: overlong sentence chains, buried main clause, stacked subordinate clauses, passive constructions that hide the actor, abstract nouns standing in for verbs, ambiguous pronoun references, or unnecessary jargon
 3. Rewrites prioritising: one idea per sentence, subject-verb-object structure, the main clause first, concrete language over abstract, active voice — while preserving all technical accuracy and the author's intended meaning

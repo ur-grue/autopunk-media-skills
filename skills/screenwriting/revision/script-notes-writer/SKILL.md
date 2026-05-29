@@ -23,7 +23,7 @@ Writes a detailed set of editorial script notes for a specific draft, identifyin
 **Required:** Detailed act-by-act story breakdown including character arcs; title, format, draft number; the specific problems the writer or editor is most concerned about (even if vague — "Act 2 drags" is useful context)
 **Optional:** The draft's stated goals ("this draft was supposed to fix the protagonist's passivity"); what the previous draft's problems were; whether the writer is early in development (broad structural notes) or late (fine-tuning notes); any scenes or elements the writer considers fixed and does not want notes on
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the draft's single biggest structural issue — the root problem that, if unaddressed, makes everything else provisional — and states it plainly at the top of the notes before any specific notes begin
 2. Works through the script in three passes: structural (acts and turning points), character (arc, want/need, consistency, agency), and scene-level (specific scenes that are not working and why, with a suggested fix or reframe for each)
 3. Balances problem identification with what is working — notes that identify only problems are less useful than notes that help a writer understand what to protect

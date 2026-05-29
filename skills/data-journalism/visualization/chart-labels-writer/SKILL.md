@@ -31,7 +31,7 @@ Writes clear, precise axis labels, legends, annotations, and source lines for a 
 - Publication context (print, web, social) — affects label length
 - Whether alt-text is needed for accessibility
 
-## How Claude approaches this
+## How the Assistant Approaches This
 1. Writes a headline for the chart — a short sentence that states the finding, not just the topic
 2. Writes axis labels with correct units and formatting conventions
 3. Writes a legend if multiple series are present

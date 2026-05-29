@@ -23,7 +23,7 @@ Adapts a section of a long-form YouTube script into a self-contained Shorts scri
 **Required:** The source script section or the specific moment from a long-form video you want to adapt (paste the exact text — 200–600 words works best); the core point or insight you want the Short to land.
 **Optional:** The long-form video title (for cross-promotion framing); whether this Short should drive viewers to the full video; channel tone; maximum target length in seconds (default 55 seconds to allow buffer before the 60-second limit).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single sharpest, most self-contained argument or insight in the source material — Shorts work when they make one clear point with no loose threads. If the source section makes multiple points, selects the one with the strongest standalone hook.
 2. Restructures the content for the Shorts format: front-loads the hook in the first 3 seconds (the "don't scroll" moment), delivers the core point efficiently, and ends with a pattern-interrupt or question rather than a traditional outro (Shorts viewers don't watch CTAs).
 3. Strips all transitional language designed for long-form ("as I mentioned earlier," "in the next section") and rewrites for immediacy. Calibrates word count: a 55-second Short at normal speaking pace runs approximately 115–130 words.

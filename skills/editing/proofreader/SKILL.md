@@ -25,7 +25,7 @@ Proofread a piece of text and return it with all spelling, grammar, punctuation,
 
 **Optional:** Language variant (British English, American English, Australian English — defaults to British English if not specified); house style notes (e.g. "Oxford comma: yes", "spell out numbers under ten", "capitalise 'Government' when referring to the UK Government"); whether to flag style choices for review rather than correcting them silently.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full text for meaning before making any corrections — understanding the author's intent, register, and deliberate style choices (sentence fragments for effect, informal voice, rule-breaking for emphasis)
 2. Makes a correction pass for spelling errors, grammatical mistakes, punctuation errors, and typographical issues (doubled words, missing words, transposed letters), distinguishing between genuine errors and intentional stylistic decisions
 3. Returns the corrected text in full, followed by a numbered change log listing every correction made — the original, the corrected version, and the reason — so the author can review and accept or reject each change individually

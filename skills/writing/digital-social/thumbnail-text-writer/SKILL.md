@@ -23,7 +23,7 @@ Generates short, bold text overlays — five words or fewer — for YouTube and 
 **Required:** The video title or topic, and the central promise or finding of the video — what the viewer will get from watching.
 **Optional:** The visual already planned for the thumbnail (face, graphic, scene); the channel's established tone (dramatic, informative, conversational, authoritative); any words or phrases to avoid; whether you need text for the main overlay, a secondary label, or both.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Strips the story to its single most provocative or valuable element — the one thing that makes a viewer think "I need to know that."
 2. Compresses that element to the fewest possible words without becoming vague. Five words is the ceiling; three is usually better.
 3. Prioritises noun-verb clarity and concrete specificity over cleverness. Thumbnail text must be understood in under a second.

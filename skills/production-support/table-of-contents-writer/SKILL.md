@@ -23,7 +23,7 @@ Reads a long-form piece and generates a publication-ready table of contents with
 **Required:** The full text of the piece, or a structured outline with all section headings and subheadings in order. The intended publication format (print with page numbers, web with anchor links, or plain navigational text with no links).
 **Optional:** Page numbers already assigned to each section (for print). The publication's title and issue details if the contents page will appear on its own page. The desired tone — functional and minimal, or editorial with descriptive lines beneath each entry. Any sections that should be excluded from the contents (e.g., legal notices, masthead).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identify every named section and subsection in the manuscript, reading the text or outline in order. Where headings are absent, infer natural section breaks from the content and propose heading names for the author to approve.
 2. Construct the hierarchy: main sections as primary entries, subsections as indented secondary entries, with consistent formatting throughout. Trim or rewrite overly long headings so they read cleanly as contents entries without losing meaning.
 3. Format the final table to match the requested output type — print layout with page numbers and dot leaders, web layout with anchor slugs ready to paste into CMS, or plain text. Add descriptive lines beneath section titles if the editorial style calls for it.
@@ -102,7 +102,7 @@ A clean, publication-ready table of contents. Print format: section titles flush
 - Descriptive lines for the Conclusion were not included as the heading is self-explanatory — add one if house style requires it.
 
 ## Known Limitations
-- If the manuscript has no headings, Claude will propose section breaks and names based on content — these must be reviewed by the author before use, as inferred headings may not reflect the writer's intended structure.
+- If the manuscript has no headings, the assistant will propose section breaks and names based on content — these must be reviewed by the author before use, as inferred headings may not reflect the writer's intended structure.
 - Page numbers for print cannot be assigned accurately without a laid-out document; this skill produces placeholder numbers or numbering based on the sequence provided, which must be verified against final layout.
 - Very long documents (book-length or 10,000+ words) may produce a contents list that is itself unwieldy — consider requesting only top-level entries for a summary contents, with sub-entries in a separate expanded version.
 - Descriptive lines are written in an editorial tone and will need author approval if the piece has a distinct first-person or highly specific voice.

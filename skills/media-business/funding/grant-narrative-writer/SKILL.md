@@ -24,7 +24,7 @@ Writes a grant proposal narrative for a media project applying to a public broad
 
 **Optional:** Director or producer biography highlights, the project's cultural or social significance, planned distribution or public impact, co-funding already secured, comparable funded projects, any relevant production track record.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the funder's stated priorities and frames the project's significance through that lens — what specific criterion does this project meet, and why? — without misrepresenting the project to fit a narrative it does not genuinely support
 2. Writes the project description section in the funder's expected register: more formal than a pitch deck, evidence-led where possible, specific about creative and editorial choices rather than vague about "exploring themes"
 3. Addresses the impact and distribution section in concrete terms: who will see this project, where, when, and why that matters to the funder's mandate

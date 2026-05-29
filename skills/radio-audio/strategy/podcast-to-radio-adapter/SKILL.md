@@ -23,7 +23,7 @@ Adapts a podcast episode or series format for broadcast radio, identifying and r
 **Required:** Description of the podcast format (structure, duration, tone, key features), target radio network or station type (public, commercial, regional), and proposed broadcast duration.
 **Optional:** Existing podcast episodes to describe as reference, any presenter or talent considerations, regulatory context (e.g. UK Ofcom standards, FCC rules), broadcast slot, and whether the adaptation is for a pilot or a full series.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps the podcast format across five adaptation dimensions: duration (most podcasts are longer than equivalent broadcast slots), structure (broadcast requires hard entry and exit points, ad breaks at fixed positions, and compliance with EPG scheduling), tone (podcast informality often needs calibrating for broadcast, especially for public networks), content standards (broadcast regulation affects language, impartiality, and certain topic categories), and audience relationship (podcast listeners opt in and self-select; broadcast audiences arrive with context and may not stay)
 2. For each dimension, identifies what stays the same and what changes — and critically, explains why the change is necessary rather than just listing it
 3. Produces a structured adaptation brief that the producer can use to begin re-formatting, with specific recommendations for each episode's structure, a comparison table of podcast vs broadcast conventions, and any regulatory flags

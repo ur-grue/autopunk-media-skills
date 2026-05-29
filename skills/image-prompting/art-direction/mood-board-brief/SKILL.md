@@ -32,7 +32,7 @@ Writes a structured mood board brief for a visual project — a document that sp
 - Audience demographic (helps calibrate sophistication and register of the visual language)
 - Things you definitely do not want (generic stock photo look, overly polished, too dark, too corporate)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Synthesizes the inputs into a clear visual position statement — a one-paragraph description of the visual world this project inhabits
 2. Specifies the five core visual dimensions: Lighting, Color Palette, Texture & Surface, Composition Tendencies, and Subject-Camera Relationship
 3. Lists three to five specific reference points — named films, photographers, publications, or art works — with a one-sentence explanation of exactly what quality in each reference is being cited (not just the name)

@@ -32,7 +32,7 @@ Writes a timed, scene-by-scene narration script for an animated explainer video,
 - Whether the narrator is on-screen (presenter-led) or off-screen voice-over only
 - Language register — plain English, technical, bilingual considerations
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single core idea the audience must leave with, then structures all content to support that idea and nothing else
 2. Divides the runtime into logical segments — typically hook, problem/context, explanation, and resolution or call to action — and assigns approximate word counts to each segment based on a standard spoken pace of 130 words per minute
 3. Writes narration scene by scene, including a bracketed visual direction for each scene to guide the animation team, keeps sentences short and declarative, and ends with a clear closing statement the audience can remember
@@ -95,9 +95,9 @@ NARRATION: Urban heat islands are not inevitable. They are a result of choices �
 ---
 
 ## Known Limitations
-- Claude cannot predict how long a specific narrator will take to read the script — professional narrators vary from 120 to 150 words per minute; the 130 wpm default is an approximation only, and producers should time a read-aloud before locking the edit
+- The assistant cannot predict how long a specific narrator will take to read the script — professional narrators vary from 120 to 150 words per minute; the 130 wpm default is an approximation only, and producers should time a read-aloud before locking the edit
 - Visual directions are suggestions to guide an animation team, not storyboard frames — a motion designer will interpret them according to their own style guide
-- For highly technical subjects (medical procedures, engineering processes, legal frameworks), Claude may oversimplify unless the user provides the exact facts and terminology they want included
+- For highly technical subjects (medical procedures, engineering processes, legal frameworks), the assistant may oversimplify unless the user provides the exact facts and terminology they want included
 - The skill does not generate animation assets, motion briefs, or timing sheets — it produces narration copy only
 
 ## Related Skills

@@ -23,7 +23,7 @@ Turns a rough documentary concept into a complete pitch treatment — including 
 **Required:** Project description (2–6 sentences); intended format (single documentary, 2-part, or series); primary subject(s) or character(s); the central question or conflict the film will follow; target broadcaster or funder type
 **Optional:** Estimated runtime; production stage (development, pre-production, shooting, post); any footage already shot; tone references (other films this resembles); any scenes or sequences you know the film will contain; what makes this project unique or timely
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a logline and a two-paragraph "hook block" — the section commissioners read before deciding whether to continue; it must communicate premise, tone, and stakes within 150 words
 2. Writes the narrative overview (300–400 words): the documentary's arc from opening scene through central development to intended resolution, written as if describing a finished film
 3. Introduces key characters or subjects in the order the film will introduce them — brief, vivid, with a specific detail that makes each person feel real
@@ -105,9 +105,9 @@ A pipe failure in a neighboring city twelve months ago brought the condition of 
 
 ## Known Limitations
 - Treatments written at early development stage require the filmmaker to verify or expand on production details before submission — this skill produces a structural draft, not a final deliverable
-- Character descriptions are based on what you provide; Claude cannot invent specific, credible details for real people beyond what is given
+- Character descriptions are based on what you provide; the assistant cannot invent specific, credible details for real people beyond what is given
 - Different broadcasters have different treatment formats and word count conventions; verify the specific submission requirements before finalizing
-- "Why now" sections are only as timely as your input — if a relevant news hook exists, provide it; Claude cannot research current events
+- "Why now" sections are only as timely as your input — if a relevant news hook exists, provide it; the assistant cannot research current events
 
 ## Related Skills
 - [logline-creator](../logline-creator/SKILL.md)

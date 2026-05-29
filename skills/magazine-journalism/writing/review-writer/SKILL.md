@@ -32,15 +32,14 @@ Writes a critical review of a book, film, exhibition, album, restaurant, or perf
 - Word count target (defaults to 600–900 words)
 - Whether the review should avoid spoilers
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Establishes the critical frame.** Opens with a statement, observation, or question that sets up the review's argument — not a plot summary or biography. The reader should understand within the first paragraph what kind of critical conversation this review is entering.
 
 2. **Describes enough to orient, not enough to replace.** Provides sufficient description of the work for a reader who hasn't experienced it, but never lets summary crowd out analysis. For narrative works, this means a setup without a resolution. For visual or musical works, it means capturing the sensory experience in specific language.
 
-3. **Grounds judgments in evidence.** Every critical claim is supported by a specific detail, scene, passage, or moment from the work. "The pacing falters" becomes "the pacing falters in the second act, where three consecutive scenes repeat the same emotional beat without advancing the stakes." Claude never offers unsupported superlatives or vague dismissals.
+3. **Grounds judgments in evidence.** Every critical claim is supported by a specific detail, scene, passage, or moment from the work. "The pacing falters" becomes "the pacing falters in the second act, where three consecutive scenes repeat the same emotional beat without advancing the stakes." the assistant never offers unsupported superlatives or vague dismissals.
 
-4. **Acknowledges complexity.** Strong reviews are not uniformly positive or negative. Claude identifies what works and what doesn't, even in a review with a clear overall verdict. This gives the review credibility and respects the reader's intelligence.
+4. **Acknowledges complexity.** Strong reviews are not uniformly positive or negative. The assistant identifies what works and what doesn't, even in a review with a clear overall verdict. This gives the review credibility and respects the reader's intelligence.
 
 5. **Closes with a verdict, not a summary.** The final paragraph delivers a clear, definitive assessment — who this is for, whether it succeeds on its own terms, and where it stands in the larger conversation. No fence-sitting, no "overall it was good." The review earns its conclusion through the evidence presented.
 

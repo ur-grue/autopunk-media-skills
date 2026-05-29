@@ -25,7 +25,7 @@ Takes a specific indicator or metric and produces a structured, journalist-ready
 
 **Optional:** The time period or year; the data source you are working from (paste a table or figures directly); the angle of your story (e.g., "I want to show that Nordic countries outperform the EU average"); the audience reading level (general public vs. specialist policy audience).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the indicator, confirms the unit of measurement, and notes any standard caveats about how different countries define or collect this data differently.
 2. Organises the countries into a clear ranking or grouping — leaders, mid-range, laggards — and flags any outliers that break an expected pattern.
 3. For each major grouping, provides one to two sentences of contextual explanation: what structural, historical, or policy factors likely explain the gap.
@@ -90,9 +90,9 @@ The EU's "at risk of poverty or social exclusion" indicator combines three measu
 UK figures post-2020 are Eurostat estimates and should be verified against ONS data if the UK is central to your argument.
 
 ## Known Limitations
-- Claude cannot access live databases. If you do not paste figures directly, Claude will draw on training data that may be 12–24 months out of date. Always verify key statistics against Eurostat, World Bank, or OECD before publication.
+- The assistant cannot access live databases. If you do not paste figures directly, the assistant will draw on training data that may be 12–24 months out of date. Always verify key statistics against Eurostat, World Bank, or OECD before publication.
 - Indicators that look identical across countries are often measured differently (poverty thresholds, age definitions, household composition rules). This skill flags the most common comparability problems but cannot catch every methodological difference without access to the original technical documentation.
-- For countries with weak statistical capacity or recent data collection disruptions, figures may be unreliable at source — Claude will note this where known but cannot guarantee completeness.
+- For countries with weak statistical capacity or recent data collection disruptions, figures may be unreliable at source — the assistant will note this where known but cannot guarantee completeness.
 
 ## Related Skills
 - [statistics-researcher](../statistics-researcher/SKILL.md)

@@ -22,9 +22,9 @@ Produces a plain-language summary of the legal framework applicable to a story �
 ## What You Need To Provide
 **Required:** The legal issue or question (be specific — "Is it legal for employers to monitor employees' personal devices?" is better than "employment law"); the jurisdiction (country, state/province, or specify if multiple jurisdictions are relevant).
 
-**Optional:** The specific story context (helps Claude prioritise which aspects of the law matter most); your current understanding (helps identify what needs correcting or confirming); the audience for your output (general reader, specialist publication, editorial team); whether you need the current law or also the historical evolution.
+**Optional:** The specific story context (helps the assistant prioritise which aspects of the law matter most); your current understanding (helps identify what needs correcting or confirming); the audience for your output (general reader, specialist publication, editorial team); whether you need the current law or also the historical evolution.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the relevant legal areas.** Determines which branches of law apply to the question — statutory law, regulation, case law, constitutional provisions, or international law. For most journalistic questions, multiple legal areas interact (e.g., a data privacy question involves statute, regulation, and potentially case law).
 
 2. **Summarises the key legal provisions in plain language.** For each relevant statute, regulation, or legal principle, provides a non-technical summary of what it says, who it applies to, and what it requires or prohibits. Uses the actual legal terminology but immediately defines it in plain English.
@@ -101,8 +101,8 @@ In states without biometric privacy statutes, employees may have arguments under
 *Note: This brief provides a research framework for journalistic reporting. It is not legal advice. Specific employment disputes require analysis by a qualified attorney in the relevant jurisdiction.*
 
 ## Known Limitations
-- Claude's legal knowledge is based on training data and may not reflect the most recent legislative changes, court decisions, or regulatory guidance. The journalist should verify the current state of the law through official legal sources or consultation with a qualified lawyer.
-- This skill provides a general framework, not case-specific analysis. The applicability of any law to a specific set of facts requires legal judgment that Claude cannot provide.
+- The assistant's legal knowledge is based on training data and may not reflect the most recent legislative changes, court decisions, or regulatory guidance. The journalist should verify the current state of the law through official legal sources or consultation with a qualified lawyer.
+- This skill provides a general framework, not case-specific analysis. The applicability of any law to a specific set of facts requires legal judgment that the assistant cannot provide.
 - For jurisdictions outside the common-law tradition (civil law countries, mixed systems), the structure of the legal framework analysis may need to be adapted — the sources, hierarchy of legal authority, and role of case law differ significantly.
 
 ## Related Skills

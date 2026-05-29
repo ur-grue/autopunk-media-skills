@@ -24,7 +24,7 @@ Produces a structured research plan for systematically locating everything a spe
 
 **Optional:** Their known professional field or role; specific time period of interest; known affiliations (university, company, political party); specific topics or keywords to prioritise; any publications you already have.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Maps the publication landscape.** Based on the person's role and field, identifies which categories of public output are most likely to exist — an academic will have journal articles and conference papers; a CEO will have earnings call transcripts and industry keynotes; a politician will have legislative speeches, committee testimony, and campaign materials.
 
 2. **Lists specific search sources for each category.** For each publication type, provides the exact databases, archives, and search strategies to use — including search syntax tips (name variations, institutional affiliations as secondary filters, date ranges).
@@ -107,7 +107,7 @@ Record each item chronologically. In the "Key Position or Claim" column, note an
 - **Disappearing content.** If Wayback Machine shows pages that have been removed from his consultancy website or social media accounts, archive the cached versions immediately — deletions often signal sensitivity.
 
 ## Known Limitations
-- Claude cannot perform any of the searches described. This skill produces the research plan; the journalist executes it. The value is in ensuring comprehensive coverage across source types that are easy to overlook.
+- The assistant cannot perform any of the searches described. This skill produces the research plan; the journalist executes it. The value is in ensuring comprehensive coverage across source types that are easy to overlook.
 - Name disambiguation is a real challenge for common names. The plan includes filtering strategies, but the journalist must verify that results actually refer to the correct person.
 - Some sources (Factiva, LexisNexis, PACER) require paid subscriptions. The plan flags free alternatives where they exist, but comprehensive publication tracking for media professionals often requires institutional access.
 

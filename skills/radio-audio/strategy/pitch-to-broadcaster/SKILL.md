@@ -23,7 +23,7 @@ Writes a radio programme pitch document for submission to a network or station c
 **Required:** Programme title (or working title), the core idea in 1–2 sentences, format type and duration, proposed broadcast slot, and the production entity pitching (individual, company, or internal team).
 **Optional:** Presenter or talent attachment, comparable programmes (on this or other networks), evidence of audience demand, production track record, proposed series length, budget range, and any development material already completed (pilot, taster, research).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the editorial proposition — what the programme offers audiences that does not already exist — in one or two sentences designed to be read by a commissioning editor in under 30 seconds; this pitch paragraph is the document's most important element
 2. Develops the format description with enough structural detail that a commissioner can visualise one episode: what happens, in what order, for how long, with whom; avoids vague descriptors and grounds every claim in specific editorial choices
 3. Adds the commercial and editorial context section last: why now, who is the audience, what is the competitive landscape, and why this production entity is the right one to make it

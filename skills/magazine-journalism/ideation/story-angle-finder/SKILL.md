@@ -23,7 +23,7 @@ Generates 6–8 distinct editorial angles from a broad topic or news event, each
 **Required:** The broad topic, subject area, or news event you are working with; publication type or target outlet (or describe your audience if no specific outlet)
 **Optional:** Any angles you have already considered and want to avoid; specific sources or data you already have access to; geographic scope (local, national, international); timeframe (breaking, evergreen, anniversary); whether you need a pitch-ready one-liner for each angle
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies at least six distinct editorial lenses through which the topic can be approached: the personal/human story, the systemic/structural analysis, the data story, the historical perspective, the counterintuitive or contrarian take, the profile, and the process/how-it-works explainer — selecting those most appropriate to the topic
 2. For each angle, specifies the core question the story would answer, the primary type of reporting required (documents, sources, data, observation), and the most likely publication home
 3. Marks which angles are time-sensitive versus evergreen, and which require significant access versus desk research
@@ -108,7 +108,7 @@ Avoid: Any angle that's essentially "remote work made this happen" (editor says 
 *Note: Angles 1, 3, and 5 are strongest for a long-form general magazine. Angles 2 and 4 suit an investigative or policy desk. Angle 6 is a strong pitch for a lifestyle or health publication. None of these require the remote-work framing you want to avoid.*
 
 ## Known Limitations
-- Angles are generated from the topic description only; Claude does not have access to current news databases or what has recently been published on this topic — always verify an angle has not been recently covered before pitching
+- Angles are generated from the topic description only; the assistant does not have access to current news databases or what has recently been published on this topic — always verify an angle has not been recently covered before pitching
 - The strength of any angle depends on the availability of sources and access; an angle requiring embedded community reporting may be unusable for a journalist based elsewhere
 - For breaking news, time-sensitive angle assessment may be inaccurate without current event context; provide the date and recent developments for more accurate evergreen vs. time-sensitive classification
 

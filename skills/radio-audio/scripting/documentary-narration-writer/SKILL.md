@@ -23,7 +23,7 @@ Writes narration for a radio or audio documentary, weaving together interview cl
 **Required:** A brief description of the documentary's subject and argument or story arc, a list of available clips (speaker name, rough content, duration), and any actuality sounds that will be featured.
 **Optional:** The documentary's target duration, the narrator's voice profile (authoritative, intimate, journalistic), any specific scene-setting beats needed, and the intended audience or platform.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the clip list and actuality notes to map the available material, then identifies the documentary's implicit structure — where does the story begin, what are the turning points, how does it resolve or leave questions open
 2. Writes narration that "earns" each clip — the narration before a clip sets up exactly what the listener needs to hear the clip clearly; the narration after a clip draws out its significance without over-explaining
 3. Crafts scene-setting passages in the present tense where appropriate, uses silence and sound cues as structural punctuation, and maintains a consistent narrative voice throughout — the narration sounds like one authorial voice, not a series of bulletin cues stitched together

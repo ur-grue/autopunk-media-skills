@@ -23,7 +23,7 @@ Identifies passages where the tone or register shifts unexpectedly within a piec
 **Required:** The full text to be checked.
 **Optional:** A description of the intended tone (e.g., "authoritative but accessible, like a quality broadsheet feature"; "warm and conversational, like a podcast host talking to a friend"; "neutral and precise, broadcast news style"); the publication or format this is written for; any passages the writer considers the tonal benchmark — the parts they are happiest with.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the entire text first to establish what the dominant tone appears to be — or, if a target tone description was provided, uses that as the reference standard. Notes vocabulary level, sentence rhythm, use of contractions, formality of address, emotional temperature, and use of first or second person.
 2. Re-reads paragraph by paragraph, flagging any passage where one or more of those dimensions shifts sharply relative to the established baseline — a sudden use of jargon in a plain-language piece, an informal aside in a formal investigation, a shift from third-person reporting voice to first-person opinion.
 3. Produces a structured report: each flagged passage is quoted in full, the tonal problem is named clearly in plain language, and a rewrite suggestion is provided so the editor can either adopt it or use it to prompt their own revision.
@@ -96,8 +96,8 @@ Suggested revision:
 Use paragraphs 1, 3, and 5 as the tonal anchor throughout. Any passage that cannot be rewritten in the same register as paragraph 3 should be attributed to a named perspective (an official, a resident, an assessor) rather than presented as the narrator's voice. Two revisions required before this piece is tonally publishable.
 
 ## Known Limitations
-- Tone is partly subjective. If you do not supply a target register or benchmark paragraph, Claude will infer one from the text — and may infer it from passages that you consider the weaker parts.
-- Deliberate tonal contrast used as a structural device (e.g., a journalist's personal aside in a first-person reported essay) may be flagged as an inconsistency. Provide context about the form so Claude can distinguish intentional shifts from errors.
+- Tone is partly subjective. If you do not supply a target register or benchmark paragraph, the assistant will infer one from the text — and may infer it from passages that you consider the weaker parts.
+- Deliberate tonal contrast used as a structural device (e.g., a journalist's personal aside in a first-person reported essay) may be flagged as an inconsistency. Provide context about the form so the assistant can distinguish intentional shifts from errors.
 - This skill addresses register and voice. It does not check factual accuracy, grammar, or terminology — use the companion skills for those tasks.
 - For long texts (10,000+ words), submit in sections of 2,000–3,000 words with the same target tone description repeated in each prompt, so the analysis remains consistent across sections.
 

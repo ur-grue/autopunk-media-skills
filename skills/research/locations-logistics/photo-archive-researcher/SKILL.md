@@ -24,7 +24,7 @@ Identifies the most relevant photo archives, picture libraries, and institutiona
 
 **Optional:** The intended use (broadcast documentary, print magazine, online editorial, book publishing), the production budget tier (low/independent, mid-range, commercial broadcast), whether public domain material is preferred, any known archives already searched and ruled out, and the deadline for securing images.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the subject's jurisdictional and institutional home — which country's national archives, press agencies, or specialist collections would logically hold images from this subject area and period.
 2. Separates sources into three tiers: national or state archives (often lower cost or public domain for older material), specialist institutional collections (museums, universities, NGOs, government agencies), and commercial picture agencies (higher cost, faster access, broader search tools).
 3. For each source, notes the collection's known strengths and gaps, how to initiate access (online portal, email request, accredited researcher appointment), typical licensing cost range by use type, and realistic lead times for high-resolution file delivery.
@@ -101,8 +101,8 @@ Material from the 1948–1955 period where the photographer is deceased and died
 
 ## Known Limitations
 - Archive holdings, online portal availability, and licensing fee structures change regularly. The institutions named here are established and stable, but contact details, digital access scope, and pricing should be verified directly before beginning a research engagement.
-- For very specific or niche subjects within a broader category (a single neighbourhood, a single building project, a specific minor political figure), Claude may not be able to identify collections with certainty — the brief will note where specialist local knowledge or a professional picture researcher is likely needed.
-- Claude cannot perform live searches of archive databases or retrieve actual images. This brief identifies where to look and how to approach the search, not what specific images exist within those collections.
+- For very specific or niche subjects within a broader category (a single neighbourhood, a single building project, a specific minor political figure), the assistant may not be able to identify collections with certainty — the brief will note where specialist local knowledge or a professional picture researcher is likely needed.
+- The assistant cannot perform live searches of archive databases or retrieve actual images. This brief identifies where to look and how to approach the search, not what specific images exist within those collections.
 - Rights clearance complexity — particularly for material involving multiple rights holders, unknown photographers, or images acquired through secondary licensing — should be reviewed by a media lawyer or specialist picture editor before publication.
 
 ## Related Skills

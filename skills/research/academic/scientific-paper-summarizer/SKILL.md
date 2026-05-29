@@ -24,7 +24,7 @@ Summarises a scientific paper in plain language — covering the research questi
 
 **Optional:** The story angle you are considering (helps prioritise which findings to emphasise); the audience (general reader, health/science section, specialist publication); specific aspects you need explained (methodology, statistical significance, limitations); any claims being made about the study in media coverage that you want to verify against the actual paper.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the research question.** States in one sentence what the researchers set out to investigate — stripped of jargon, framed as a question a general reader would understand.
 
 2. **Summarises the methodology in plain language.** Describes what the researchers actually did — the study design (experiment, observational study, meta-analysis, survey), the population studied (who, how many, how selected), and the key measures used. Flags whether the design can support causal claims or only associations.
@@ -89,8 +89,8 @@ The programme did not improve job satisfaction or reduce sick leave days. The bu
 This study provides moderate evidence that a 12-week mindfulness programme can reduce one component of burnout (emotional exhaustion) in hospital nurses in the short term. The effect is statistically real but modest, and it fades after the programme ends. It does not prove that mindfulness "solves" burnout, and it found no impact on job satisfaction or sick leave — the outcomes that matter most to employers and policymakers. For the journalist's story angle: this paper supports the claim that mindfulness programmes have a measurable effect, but it also supports the counter-argument — that the effect is limited, temporary, and does not address the structural causes of burnout.
 
 ## Known Limitations
-- Claude's summary quality depends entirely on the completeness and accuracy of the paper content provided. If only the abstract is supplied, the summary will be shallower and may miss important methodological details. Providing the full methods, results, and discussion sections produces a much stronger summary.
-- Claude cannot verify whether the data in the paper is accurate or whether the statistical analyses were performed correctly. The summary takes the paper's reported results at face value while flagging methodological concerns visible from the text.
+- The assistant's summary quality depends entirely on the completeness and accuracy of the paper content provided. If only the abstract is supplied, the summary will be shallower and may miss important methodological details. Providing the full methods, results, and discussion sections produces a much stronger summary.
+- The assistant cannot verify whether the data in the paper is accurate or whether the statistical analyses were performed correctly. The summary takes the paper's reported results at face value while flagging methodological concerns visible from the text.
 - For papers in rapidly evolving fields, subsequent research may have confirmed, refined, or contradicted the findings. This skill summarises the individual paper — use the scientific-consensus-brief skill to assess where the paper fits in the broader evidence base.
 
 ## Related Skills

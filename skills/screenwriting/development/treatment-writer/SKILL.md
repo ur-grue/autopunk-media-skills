@@ -23,7 +23,7 @@ Writes a professional screenplay treatment — typically 5–10 pages — coveri
 **Required:** Logline or premise; protagonist name and core role; the three major acts in summary (beginning, middle, end); the film's central theme or emotional argument
 **Optional:** Beat sheet (if available); character list with brief descriptions; tone references; target format and length (feature, TV pilot, limited series); writer's vision statement for the project
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a title block, logline, format specification, and a one-paragraph premise statement — the material a development executive reads before deciding whether to continue
 2. Writes character introductions in present tense, establishing each major character's want, flaw, and relationship to the protagonist in 2–4 sentences — enough for a reader to track them through the story without a separate cast list
 3. Writes the three-act story in present tense as a continuous prose narrative, not a bulleted synopsis — using scene-level specificity at turning points (Inciting Incident, End of Act One, Midpoint, All Is Lost, Climax) while compressing connective tissue

@@ -37,7 +37,7 @@ Writes a compelling grant application narrative for a journalism project, coveri
 - Previous coverage or reporting this project builds on
 - Budget summary if narrative should reference it
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the story, not the credentials — grant reviewers read dozens of applications and respond to a clear, urgent narrative hook in the first paragraph.
 2. Constructs the public interest argument explicitly: who is affected, how many, and why existing coverage has not adequately addressed this — this is the section most applicants write weakly.
 3. Describes the reporting methodology in concrete, verifiable terms (specific document types, source categories, geographic scope) without overpromising on outcomes that cannot be guaranteed before reporting begins.
@@ -103,10 +103,10 @@ I have covered housing and urban policy for eight years, with a focus on the gap
 The series will be published by a national daily with a dedicated accountability desk and a demonstrated record of following investigations through to public response. A data-visualisation partner has agreed to produce accompanying graphics for digital publication. I am in preliminary discussions with a public radio current affairs programme about adapting the findings for broadcast following print publication.
 
 ## Known Limitations
-- Claude cannot review actual FOI documents, data files, or source materials — it works only from the summary information you provide. Factual accuracy of the narrative is entirely dependent on what you supply.
-- Grant application requirements vary significantly between funders. Claude produces a strong general narrative, but you must verify that every required section is present and correctly labelled for your specific form.
-- Claude will not fabricate credentials, past publications, or institutional affiliations. Provide these accurately — false statements in grant applications are grounds for disqualification.
-- For applications requiring a budget justification within the narrative, provide budget figures explicitly; Claude will not estimate project costs.
+- The assistant cannot review actual FOI documents, data files, or source materials — it works only from the summary information you provide. Factual accuracy of the narrative is entirely dependent on what you supply.
+- Grant application requirements vary significantly between funders. The assistant produces a strong general narrative, but you must verify that every required section is present and correctly labelled for your specific form.
+- The assistant will not fabricate credentials, past publications, or institutional affiliations. Provide these accurately — false statements in grant applications are grounds for disqualification.
+- For applications requiring a budget justification within the narrative, provide budget figures explicitly; the assistant will not estimate project costs.
 
 ## Related Skills
 - [grant-application-writer](../../../tv-documentary/business/grant-proposal-writer/SKILL.md)

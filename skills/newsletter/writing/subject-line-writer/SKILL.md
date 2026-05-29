@@ -23,7 +23,7 @@ Generates five distinct subject line options for a newsletter edition, each usin
 **Required:** A summary of the newsletter edition's main topic or story (2–5 sentences); the newsletter's name and general tone (e.g. "analytical and dry", "warm and conversational", "urgent and activist")
 **Optional:** Your typical subscriber profile; any subject lines that have performed well or badly for you before; the sending day and time; whether you allow emoji in subject lines
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most compelling element of the edition — the hook, the reveal, the tension, or the utility — that would make a reader stop scrolling
 2. Applies five distinct psychological frameworks: curiosity gap, direct value statement, personal relevance, urgency or scarcity, and contrarian or counterintuitive angle
 3. Calibrates each option to the newsletter's stated tone, keeping length under 50 characters where possible and avoiding spam-trigger language (all-caps, excessive punctuation, misleading claims)

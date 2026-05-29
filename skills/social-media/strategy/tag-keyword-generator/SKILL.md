@@ -24,8 +24,7 @@ Generates a structured set of tags and keywords for an article, video, or podcas
 
 **Optional:** The primary audience in one phrase; 2-3 keywords you already know work for your content; competitors or similar creators whose audience you want to reach; whether the content is evergreen or tied to a current event.
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Maps the content's topic hierarchy.** Identifies the broad category, the specific niche, and the angle or hook that distinguishes this content from others on the same subject. This three-level map ensures tags cover broad discoverability (reaching new audiences), niche relevance (reaching the right audience), and specificity (matching exact search queries).
 
 2. **Generates keywords in three priority tiers:**

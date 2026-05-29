@@ -24,7 +24,7 @@ Creates a structured bilingual or multilingual glossary of key terms for a proje
 
 **Optional:** Existing translations you want to keep (approved terms that must appear in the glossary as-is); terms that must never be translated (brand names, trademarks, proper nouns); preferred register (formal institutional, journalistic, conversational); any existing style guides or glossaries to build upon; the number of terms needed (small project glossary vs. comprehensive organizational glossary).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Extracts key terminology from the provided text or list.** Identifies proper nouns, technical terms, recurring phrases, acronyms, titles, and any domain-specific language that requires consistent translation. Groups related terms (e.g., a product name and its description, an acronym and its expansion).
 
 2. **Researches standard translations for each term.** For technical and industry terms, uses the most widely accepted translation in the target language's professional literature. For terms with multiple valid translations, lists the preferred option and notes alternatives with usage context (e.g., "used in EU regulatory documents" vs. "used in Latin American media").
@@ -99,7 +99,7 @@ A structured table or list, organized alphabetically by source term. Each entry 
 - Compound nouns: French does not hyphenate compound nouns the way German does. "Series-C-Finanzierungsrunde" in German becomes "tour de financement de Serie C" in French — no hyphens.
 
 ## Known Limitations
-- Claude builds glossaries based on general knowledge of industry terminology and standard translation practice. For highly specialized or proprietary terms, the approved translations should be confirmed by a subject-matter expert in the target language before the glossary is distributed to translators.
+- The assistant builds glossaries based on general knowledge of industry terminology and standard translation practice. For highly specialized or proprietary terms, the approved translations should be confirmed by a subject-matter expert in the target language before the glossary is distributed to translators.
 - A glossary is only as complete as the sample text provided. If the source material does not contain all relevant terms, the glossary will have gaps. Provide the broadest representative sample available, or supplement with a list of additional terms to include.
 - This skill creates a static glossary at a point in time. Terminology evolves — especially in technology and regulatory contexts. Schedule periodic reviews to update entries as usage changes.
 

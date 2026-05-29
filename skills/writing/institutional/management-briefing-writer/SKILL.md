@@ -34,7 +34,7 @@ Writes a clear, structured briefing note for editorial managers, department head
 - Any risks or sensitivities that should be flagged
 - Preferred tone (neutral informational, advisory, urgent)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes a one-sentence subject line that tells the reader exactly what the briefing is about — not a vague title but a precise description of the issue and the action required.
 2. Opens with a "bottom line up front" summary: two to three sentences covering what has happened or what the issue is, why it matters now, and what is being asked of the reader. A busy editor should be able to read this paragraph and act on it without reading further.
 3. Expands into a structured body covering background, key facts, and — where relevant — options with their implications. Keeps each section short enough to scan.
@@ -108,9 +108,9 @@ Please confirm preferred course of action.
 *Distribution: Deputy Editor only*
 
 ## Known Limitations
-- Claude works only from the information you provide — it cannot assess interpersonal dynamics, legal exposure, or organisational politics that you have not described.
-- For briefings involving live legal proceedings, active HR investigations, or regulatory matters, have the draft reviewed by legal or HR before sending. Claude's output is a drafting aid, not legal or HR advice.
-- The neutral tone produced by this skill may feel too restrained in situations that genuinely require urgency. If urgency needs to be conveyed, state this explicitly in your input and Claude will adjust accordingly.
+- The assistant works only from the information you provide — it cannot assess interpersonal dynamics, legal exposure, or organisational politics that you have not described.
+- For briefings involving live legal proceedings, active HR investigations, or regulatory matters, have the draft reviewed by legal or HR before sending. The assistant's output is a drafting aid, not legal or HR advice.
+- The neutral tone produced by this skill may feel too restrained in situations that genuinely require urgency. If urgency needs to be conveyed, state this explicitly in your input and the assistant will adjust accordingly.
 - Briefing notes for external audiences (regulators, press, government) require a different register — this skill is optimised for internal management communication only.
 
 ## Related Skills

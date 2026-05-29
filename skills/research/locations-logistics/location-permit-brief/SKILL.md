@@ -24,7 +24,7 @@ Produces a structured brief summarising the permit requirements, access restrict
 
 **Optional:** Planned shoot dates, crew size, whether drone or aerial footage is needed, whether the shoot involves interviews with members of the public, and any known sensitivities about the location (government building, religious site, protest area, military zone).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the jurisdictional layer — national, regional, and municipal — that governs filming at the specified location, noting which level issues permits and which enforces restrictions.
 2. Lists the typical permit categories that apply (public space permit, film office permit, property owner consent, police notification, drone authorisation) and flags which are likely mandatory versus optional based on crew size and content type.
 3. Identifies the most relevant permit-issuing bodies or film commissions for that location, with their typical processing times and known fee structures where this information is established.
@@ -99,8 +99,8 @@ No public interview permit is needed as no members of the public are being appro
 6. Obtain production liability insurance — MFC and Valletta Waterfront will both request proof at point of application.
 
 ## Known Limitations
-- Claude's knowledge of specific permit fees, online application portals, and processing times reflects information available before its training cutoff; fees and procedures change regularly. Always verify current requirements directly with the Malta Film Commission and Transport Malta before confirming the shoot schedule.
-- For shoots in jurisdictions with limited English-language documentation — or where film commissions do not have an active public-facing office — Claude may be unable to name specific contacts or accurate lead times, and the brief will note this gap explicitly.
+- The assistant's knowledge of specific permit fees, online application portals, and processing times reflects information available before its training cutoff; fees and procedures change regularly. Always verify current requirements directly with the Malta Film Commission and Transport Malta before confirming the shoot schedule.
+- For shoots in jurisdictions with limited English-language documentation — or where film commissions do not have an active public-facing office — the assistant may be unable to name specific contacts or accurate lead times, and the brief will note this gap explicitly.
 - This brief does not constitute legal advice. For sensitive locations (military zones, active protest areas, religious sites with specific access rules), a local fixer or production lawyer should review the plan before any permit application is submitted.
 
 ## Related Skills

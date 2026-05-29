@@ -23,7 +23,7 @@ Generates a formatted newsletter sponsorship rate card that documents placement 
 **Required:** Newsletter name, subscriber count, open rate, click rate (if available), and publishing cadence; the placement options you offer or are considering (e.g. dedicated send, top-of-newsletter banner, mid-newsletter mention, sponsored post, classified ad)
 **Optional:** Audience demographics or professional profile (the more specific the better — sponsors pay more for precisely defined audiences); CPM or flat-rate pricing preferences; any existing sponsors you are comfortable naming as references; exclusivity terms; typical format constraints for each placement (word count, image specs)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Calculates or presents CPM (cost per thousand impressions) ranges for each placement based on provided metrics and industry benchmarks for newsletter advertising, flagging if the provided rates are above or below typical ranges for the audience type
 2. Describes each placement option with specificity: what it includes, where it appears in the edition, typical format and length, and what the sponsor can expect in terms of reader context when they encounter the ad
 3. Frames the audience description in the language sponsors use when evaluating media buys — job titles, decision-making authority, professional context — not in editorial language about what makes the newsletter interesting to read

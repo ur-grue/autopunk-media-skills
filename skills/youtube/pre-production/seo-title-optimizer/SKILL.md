@@ -23,7 +23,7 @@ Generates 8–10 search-optimized YouTube title options for a given video topic,
 **Required:** Video topic or working title; target audience (who watches this channel); primary goal of the video (inform, entertain, tutorial, opinion, review)
 **Optional:** Channel niche and tone (casual, educational, journalistic); top 2–3 competitor titles on the same topic; desired video length or format; any keywords you already rank for
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core search intent behind the topic — what specific question or desire would drive someone to search for this video
 2. Extracts 3–5 high-value keywords and phrases likely to match how the audience actually searches, including long-tail variants
 3. Generates titles across multiple proven YouTube title structures: listicle, how-to, question, "why/what/how" explanatory, curiosity-gap, and value-promise formats
@@ -66,7 +66,7 @@ Competitor titles seen: "My 5AM Morning Routine", "How I Became a Morning Person
 
 ## Known Limitations
 - Title effectiveness depends heavily on thumbnail — a strong title with a weak thumbnail will still underperform; use this skill alongside thumbnail-concept-brief
-- Claude cannot access live YouTube search volume data; keyword suggestions are based on structural patterns, not real-time analytics
+- The assistant cannot access live YouTube search volume data; keyword suggestions are based on structural patterns, not real-time analytics
 - Niche channels with highly specific audiences (e.g., professional subtopics) may need additional domain context for accurate keyword selection
 - Titles optimized for search may sacrifice brand voice; creators with established tonal identity should filter accordingly
 

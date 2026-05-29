@@ -26,7 +26,7 @@ Produces a structured research framework that maps the key political actors, pow
 
 **Optional:** The angle or focus of your story; the audience you are writing for (domestic, international, specialist); how much space you have to provide political context; whether you need historical background or only current dynamics; any known names, parties, or events you want to anchor the brief around
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the structural political context: the system of government, the balance of institutional power (executive, legislature, judiciary, military, civil society), and any features of the political system that are essential for understanding how decisions get made and contested in this place
 2. Maps the principal political actors and forces — parties, coalitions, movements, and powerful individuals — identifying their positions on the subject of your story and the relationships between them, including alliances, rivalries, and current tensions
 3. Identifies the key fault lines and contested questions: the underlying disagreements — ideological, ethnic, regional, economic, religious — that explain why the story you are covering is contested in the way it is

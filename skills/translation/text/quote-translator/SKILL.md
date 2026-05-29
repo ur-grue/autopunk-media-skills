@@ -24,14 +24,14 @@ Translates individual quotes or quoted passages from one language to another, pr
 
 **Optional:** The context in which the quote was spoken (press conference, one-on-one interview, public speech, written statement); whether to present the original alongside the translation; the target publication's style for handling translated quotes (e.g., "use square brackets for translated material," "paraphrase unless the exact wording matters"); the speaker's typical register (formal official, casual conversational, academic).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads the full quote and its surrounding context.** Identifies the speaker's intent, emotional register, and rhetorical devices — sarcasm, understatement, emphasis, hedging — before selecting equivalent phrasing in the target language.
 
 2. **Translates for meaning and voice, not word count.** A faithful quote translation captures what the speaker meant and how they said it. If the speaker was blunt, the translation is blunt. If they were evasive, the translation preserves the evasion. Literal translations that distort tone are avoided.
 
 3. **Applies target-language attribution conventions.** Adjusts "said" placement, title formatting, and punctuation to match the target language's journalism standards. French quotes get guillemets and comma-separated attribution; German quotes get low-high quotation marks; English quotes use standard double quotation marks with attribution after the first natural clause break.
 
-4. **Flags ambiguity and untranslatable elements.** If a word or phrase has no direct equivalent, or if the quote contains a pun, idiom, or cultural reference that does not survive translation, Claude notes the issue and provides the closest alternative with an explanation.
+4. **Flags ambiguity and untranslatable elements.** If a word or phrase has no direct equivalent, or if the quote contains a pun, idiom, or cultural reference that does not survive translation, the assistant notes the issue and provides the closest alternative with an explanation.
 
 5. **Provides dual-language format when requested.** If the user asks for original-plus-translation, presents them in a clean parallel format suitable for editorial review or publication as a bilingual excerpt.
 
@@ -76,8 +76,8 @@ Each translated quote presented with full attribution, formatted for the target 
 - "Se construyo pensando en los turistas" uses an impersonal passive in Spanish that deflects blame. The translation "that was built with tourists in mind" preserves this evasion — the speaker avoids naming who made the decision.
 
 ## Known Limitations
-- Claude cannot hear tone of voice, pauses, or emphasis. If the speaker's delivery is important to understanding the quote (e.g., sarcasm that is clear when spoken but ambiguous in print), provide a note about the delivery so the translation can account for it.
-- For languages with significant dialectal variation (Arabic, Chinese, Spanish), Claude defaults to the standard written register unless a specific dialect is requested. A quote from a speaker using regional slang may lose its colloquial texture in translation.
+- The assistant cannot hear tone of voice, pauses, or emphasis. If the speaker's delivery is important to understanding the quote (e.g., sarcasm that is clear when spoken but ambiguous in print), provide a note about the delivery so the translation can account for it.
+- For languages with significant dialectal variation (Arabic, Chinese, Spanish), the assistant defaults to the standard written register unless a specific dialect is requested. A quote from a speaker using regional slang may lose its colloquial texture in translation.
 - Legal or regulatory quotes (court testimony, official depositions) require professional certified translation. This skill is designed for journalistic and editorial use, not legal proceedings.
 
 ## Related Skills

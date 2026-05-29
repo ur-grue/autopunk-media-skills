@@ -23,7 +23,7 @@ Produces a structured summary of a leaked, official, or obtained document, extra
 **Required:** The full text or a detailed summary of the document; the document type (internal memo, contract, audit report, email chain, etc.); the story or investigation context
 **Optional:** Specific claims or allegations you are trying to verify or challenge; names or entities you want to cross-reference within the document; the document's provenance (how it was obtained)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the document for factual content: identifies the who, what, when, where, and any stated conclusions or recommendations
 2. Identifies what the document does not address — omissions that are significant given its stated purpose, gaps in dates or data, missing signatories, or redacted sections
 3. Flags internal contradictions — statements in different sections that conflict, discrepancies between stated figures and attached data, or language that appears to have been revised
@@ -111,7 +111,7 @@ Document text summary: A 34-page internal audit report from the transit authorit
 ## Known Limitations
 - This skill analyzes the text provided. If the document was summarized rather than quoted in full, the analysis reflects that summary — key details in unshared sections will be missed.
 - The skill identifies what is absent relative to the document's stated scope. It cannot know what records were deliberately excluded before the document was leaked or disclosed.
-- Handwritten notations, formatting anomalies, and metadata suggesting revision history are things the user must flag explicitly — Claude cannot view a document's physical or file properties.
+- Handwritten notations, formatting anomalies, and metadata suggesting revision history are things the user must flag explicitly — the assistant cannot view a document's physical or file properties.
 - Legal interpretation of document language (e.g., whether "aware of departures" meets a legal standard for liability) requires a lawyer, not a journalist tool.
 
 ## Related Skills

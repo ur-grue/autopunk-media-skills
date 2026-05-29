@@ -24,7 +24,7 @@ Writes a brief summarising the licensing requirements for using a specific piece
 
 **Optional:** The rights holder or archive you believe owns or controls the content, any existing relationship with the rights holder, your budget range for the licence, whether you need in-perpetuity rights or a fixed term, the territories required.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the type(s) of licence needed based on the content and use — distinguishing between the layers of rights that may apply (e.g., sync licence and master licence for a music recording, or archive footage licence vs underlying rights in footage)
 2. Identifies who holds or likely holds the relevant rights and how to locate and approach them, noting any complexity (split rights, contested ownership, archive vs original rights holder)
 3. Drafts a licensing request summary — the key terms to request and a note on what terms are standard versus what requires negotiation — and flags any scenarios where specialist legal advice is needed before approaching rights holders

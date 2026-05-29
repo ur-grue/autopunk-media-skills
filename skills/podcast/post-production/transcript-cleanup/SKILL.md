@@ -22,15 +22,15 @@ Cleans and formats a raw auto-generated podcast transcript for publication on a 
 ## What You Need To Provide
 **Required:**
 - The raw transcript text (paste directly)
-- The names of the host and guest(s), so Claude can assign correct speaker labels
+- The names of the host and guest(s), so the assistant can assign correct speaker labels
 
 **Optional:**
 - Show name and episode title (for the header)
-- Any proper nouns, technical terms, or names that the transcription service consistently got wrong (Claude will look for these and correct them)
+- Any proper nouns, technical terms, or names that the transcription service consistently got wrong (the assistant will look for these and correct them)
 - Publication format: website (markdown), plain text, or formatted document
 - Whether you want light cleanup (fix errors, add speakers, remove obvious filler) or heavy cleanup (also remove all filler words, tighten sentences, remove false starts)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Assigns correct speaker labels throughout, replacing auto-generated labels (SPEAKER 1, SPEAKER 2) with actual names
 2. Corrects transcription errors: proper nouns misspelled, technical terms mangled, homophones chosen incorrectly, sentences that clearly run together or are incorrectly split
 3. Applies the appropriate level of cleanup:
@@ -100,10 +100,10 @@ SPEAKER 1: that's fascinating and and and i hadn't thought about the chassis thi
 *[Note: "LONG BEACH" confirmed from context — if this refers to a different port location, correct before publishing. No [UNCLEAR] passages in this excerpt.]*
 
 ## Known Limitations
-- Claude cannot hear the audio — if the transcription service produced a passage that is garbled in a way where multiple interpretations are plausible, Claude will mark it [UNCLEAR] and the user must check against the recording
+- The assistant cannot hear the audio — if the transcription service produced a passage that is garbled in a way where multiple interpretations are plausible, the assistant will mark it [UNCLEAR] and the user must check against the recording
 - Heavy cleanup removes filler and false starts but cannot always detect when a filler word ("you know," "I mean") is being used meaningfully as a rhetorical device — the user should review any passage where the register feels off after cleanup
 - Very long transcripts (over 10,000 words) should be submitted in sections; submitting a full 60-minute transcript at once may produce inconsistent results
-- Claude does not have memory of prior sessions — speaker name assignments must be provided every time, even for recurring guests
+- The assistant does not have memory of prior sessions — speaker name assignments must be provided every time, even for recurring guests
 - This skill cleans the transcript; it does not produce show notes, chapter markers, or summaries — those require separate skills
 
 ## Related Skills

@@ -24,7 +24,7 @@ Generates a comprehensive rights clearance checklist for a media project, coveri
 
 **Optional:** Specific items you know require clearance (e.g., named archive provider, specific piece of music), territory of distribution, any clearances already obtained, any items you believe are in the public domain.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies all categories of rights that apply to the project based on the content description — music (sync and master), archive footage, talent releases, location releases, third-party IP (logos, brands, artworks visible on screen), and any special categories (news footage, AI-generated content, crowd scenes)
 2. For each category, generates a specific checklist of items to be cleared, documents to obtain, rights holders to contact, and common mistakes to avoid
 3. Flags any high-risk items (e.g., music with complex ownership, famous faces in crowd footage, footage from contested archives) and recommends specialist legal review where the risk is material

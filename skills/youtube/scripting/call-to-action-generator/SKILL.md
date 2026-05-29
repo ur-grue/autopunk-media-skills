@@ -23,7 +23,7 @@ Writes ready-to-record CTA scripts — subscribe, like, comment, sponsor read, c
 **Required:** CTA type (subscribe, like, comment, sponsor read, channel membership, or end card); channel tone and register (casual/friendly, authoritative/educational, dry-humorous, etc.)
 **Optional:** Video topic and context; specific action you want (e.g., "comment your answer" vs. generic engagement); sponsor product name and one-line description; any CTA language you want to avoid or retire; approximate position in the video (opening, mid-roll, end)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the psychological mechanism that makes the CTA type work — subscribe CTAs need to communicate ongoing value, comment CTAs need a genuine question, sponsor reads need to earn trust before selling
 2. Generates 4–6 variations that each use a different engagement trigger: value-promise, curiosity, community, humor, urgency, or direct ask
 3. Calibrates the language register to the specified channel tone — a dry-humor tech channel and an earnest educational channel need entirely different CTA voices
@@ -85,7 +85,7 @@ Position: End of video
 *Notes: CTA #1 and #4 work best together at the end of this video. CTA #6 lands most naturally after the first major concept reveal — not at the start or end. Avoid stacking more than two CTAs consecutively; choose one subscribe + one comment for the end sequence.*
 
 ## Known Limitations
-- Sponsor reads require accurate product information — Claude will write to what you provide; if the product description is vague, the read will be generic
+- Sponsor reads require accurate product information — the assistant will write to what you provide; if the product description is vague, the read will be generic
 - CTAs written in a dry or minimal style may not drive the same raw subscribe numbers as more emphatic approaches; tone-matching trades peak volume for authenticity
 - Comment CTAs with specific questions work best when the creator plans to actually respond; if engagement is not monitored, the "I read every answer" line will erode trust over time
 - Platform conventions change; what feels fresh today may feel dated in 12 months — revisit and regenerate CTAs periodically

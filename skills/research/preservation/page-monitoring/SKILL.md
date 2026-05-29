@@ -23,8 +23,7 @@ Produces a monitoring plan for tracking changes to a target web page over time â
 **Required:** The URL(s) to monitor; what kind of change you are watching for (any change, text changes only, specific sections, new documents added, deletion of content)
 **Optional:** How often you need to check (hourly, daily, weekly); how long the monitoring needs to run; whether you need historical diff records or just an alert when something changes; the number of pages you are monitoring (affects tool choice)
 
-## How Claude approaches this
-
+## How the Assistant Approaches This
 1. **Selects the right monitoring method based on the page and the need.** Three main approaches, chosen by fit:
 
    - **Dedicated change-detection tools** (Visualping, ChangeTower, Distill.io): Best for monitoring specific sections of a page (a data table, a press-release list, a paragraph of text). These tools take periodic snapshots and compare them, alerting you by email or webhook when a difference is detected. Suitable when you need visual or text-level diff records.

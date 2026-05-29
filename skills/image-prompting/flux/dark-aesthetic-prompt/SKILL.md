@@ -31,7 +31,7 @@ Generates a Flux prompt for dark, moody, or noir visual aesthetics — producing
 - What the image should evoke emotionally: dread, mystery, melancholy, tension, isolation
 - Aspect ratio and platform
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the specific flavor of dark aesthetic being requested — noir, gothic, grimdark, and dark editorial are distinct languages with different lighting grammar, palette, and composition conventions
 2. Builds the scene description around the darkness: what is in shadow, what is in light, and what the relationship between shadow and light communicates
 3. Applies the appropriate technical references: for noir, classic Hollywood side-lighting and chiaroscuro; for dark editorial, contemporary low-key photography; for gothic, candle or moon light with architectural gloom

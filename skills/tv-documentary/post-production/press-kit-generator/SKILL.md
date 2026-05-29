@@ -23,7 +23,7 @@ Generates a complete documentary press kit from a synopsis and key production fa
 **Required:** A description of the documentary (subject, approach, key subjects featured, what it reveals or argues); the film's runtime; director name; production company; year of production; any broadcast or streaming partners
 **Optional:** Director's statement or note; key subject names and their roles; cinematographer and editor credits; notable access or production details (what made this film possible or unusual); festival history or premiere information; any critical quotes if already received
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a logline (1–2 sentences) and writes three synopsis lengths: 50-word (for festival catalogues and database entries), 150-word (for press releases and broadcaster listings), and 400-word (for full press kit and media use)
 2. Writes a Production Notes section covering the genesis of the project, notable access, and what distinguishes this film — drawn from the information provided
 3. Creates subject profiles for the key documentary subjects featured in the film

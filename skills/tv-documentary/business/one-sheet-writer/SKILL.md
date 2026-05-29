@@ -21,14 +21,14 @@ Produces a single-page sales document for a completed or nearly completed docume
 
 ## What You Need To Provide
 **Required:**
-- Film title and tagline (or ask Claude to draft a tagline from your description)
+- Film title and tagline (or ask the assistant to draft a tagline from your description)
 - Runtime and completion/release year
 - A description of the film (2–4 sentences is enough)
 - Director name and production company
 - Genre and target audience (e.g., "feature documentary, broad theatrical/SVOD audience")
 
 **Optional:**
-- Festival selections and awards (list them all — Claude will format and prioritize)
+- Festival selections and awards (list them all — the assistant will format and prioritize)
 - Broadcaster or platform acquisitions already made
 - Key reviews or critical quotes (include the full quote and the publication name)
 - Distribution or sales agent already attached
@@ -36,7 +36,7 @@ Produces a single-page sales document for a completed or nearly completed docume
 - Country of production and language
 - Key financiers or funders to credit (if required by their agreement)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Leads with the film's visual identity in text: title formatted prominently, tagline (or a generated one) immediately beneath, followed by the key technical specs in a single line
 2. Writes the film description as a two-paragraph sales synopsis — first paragraph establishes the story and characters, second paragraph positions the film's emotional and editorial impact and its audience
 3. Formats festival selections and awards as a clean, visually organized list, prioritizing the most prestigious entries and any prizes won
@@ -131,8 +131,8 @@ www.terraviva.it
 ---
 
 ## Known Limitations
-- Claude cannot verify that festival credits are formatted according to the specific conventions preferred by each festival — for official festival catalogues, check with the festival's sales & industry office for their preferred credit line format
-- If the film has no festival history yet (pre-release), the one-sheet will rely entirely on the film description and creative credits; this is a weaker document and Claude will flag this
+- The assistant cannot verify that festival credits are formatted according to the specific conventions preferred by each festival — for official festival catalogues, check with the festival's sales & industry office for their preferred credit line format
+- If the film has no festival history yet (pre-release), the one-sheet will rely entirely on the film description and creative credits; this is a weaker document and the assistant will flag this
 - Tagline quality depends heavily on the description provided — a flat or vague description will produce a weak tagline; the more specific the input, the stronger the tagline
 - This skill produces copy for a one-sheet layout; actual design (typography, image placement, visual identity) requires a graphic designer working from this copy
 

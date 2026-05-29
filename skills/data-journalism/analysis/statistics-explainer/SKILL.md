@@ -23,7 +23,7 @@ Rewrites a complex statistic — including percentage changes, relative risk, co
 **Required:** The statistic as it appears in the source (exact wording or data point). The context — what the statistic is measuring and from what study, report, or dataset.
 **Optional:** The audience (general public, specialist readers, etc.); the publication register (tabloid, broadsheet, academic journal); any related comparison figure that might help contextualise it.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the statistical concept being used and checks for common misinterpretation traps (e.g. relative vs absolute risk, percentage point vs percentage change).
 2. Rewrites the statistic using plain numbers and concrete comparisons — avoiding jargon, passive constructions, and ambiguous framing.
 3. Flags any cases where the plain-language version risks oversimplification, and suggests a brief accuracy note if needed.

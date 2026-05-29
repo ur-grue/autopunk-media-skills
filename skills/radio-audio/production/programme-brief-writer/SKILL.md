@@ -23,7 +23,7 @@ Writes a structured internal radio programme brief covering format, audience, to
 **Required:** Programme title (or working title), format type (news, music-and-talk, current affairs, features, documentary strand), target duration, broadcast slot (day of week and time), and a 2–3 sentence description of the show's core idea.
 **Optional:** Target audience demographics and psychographics, any specific regular features or segments already planned, presenter name or presenter profile, competitor programmes, editorial distinctions from other shows on the same station, and production resources (number of producers, budget scale).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the show's editorial proposition in a single clear sentence — what it does that no other programme on the station does — and uses this as the anchor for all subsequent sections
 2. Defines the target audience in terms of what they need from radio at that time of day, not just demographics; maps the programme format and feature set to those needs
 3. Structures the brief in standard internal format: Programme Identity, Audience, Format and Duration, Tone and Register, Regular Features, Editorial Aims and Constraints, Presenter Profile, and Production Requirements

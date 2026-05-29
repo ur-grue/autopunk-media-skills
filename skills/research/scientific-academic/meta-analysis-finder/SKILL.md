@@ -23,7 +23,7 @@ Explains what meta-analyses and systematic reviews are, how to locate them for a
 **Required:** The topic or question you are investigating (e.g., "does intermittent fasting affect cardiovascular risk," "effectiveness of school-based mental health programmes," "air pollution and cognitive decline")
 **Optional:** Any time period you want to focus on (e.g., last five years); whether you want population-level or clinical evidence; any specific population group (children, older adults, low-income settings)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Explains what a meta-analysis and systematic review are in plain terms — the difference between the two, why they are generally considered stronger evidence than individual studies, and where they sit in the evidence hierarchy
 2. Identifies the databases and search tools most likely to surface high-quality reviews on the topic (PubMed, Cochrane Library, Campbell Collaboration, or field-specific databases) and explains how to use them without academic library access
 3. Describes the key features of a trustworthy meta-analysis — what to look for in the methods section, what heterogeneity means and why it matters, and red flags that suggest a review is low quality
@@ -88,9 +88,9 @@ Meta-analyses are not the final word. If the underlying studies all have the sam
 ---
 
 ## Known Limitations
-- Claude cannot search live databases on your behalf — this skill explains how to search, not what the current results are. You will need to run the searches yourself.
+- The assistant cannot search live databases on your behalf — this skill explains how to search, not what the current results are. You will need to run the searches yourself.
 - Meta-analyses take years to complete; the most current evidence on a fast-moving topic may still exist only in individual studies. Check publication dates carefully.
-- For some topics, especially emerging or niche areas, no high-quality meta-analyses exist yet. Claude will flag this, but if the field is genuinely thin, there is no substitute for speaking directly with researchers.
+- For some topics, especially emerging or niche areas, no high-quality meta-analyses exist yet. The assistant will flag this, but if the field is genuinely thin, there is no substitute for speaking directly with researchers.
 
 ## Related Skills
 - [scientific-literature-brief](../scientific-literature-brief/SKILL.md)

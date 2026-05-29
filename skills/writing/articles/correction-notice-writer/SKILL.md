@@ -31,7 +31,7 @@ Drafts a formal, publication-ready correction notice for a previously published 
 - Your publication's house style for correction notices (e.g., whether the word "Correction" appears in bold, whether the date of correction is included)
 - Any additional context the reader needs to understand why the original statement was wrong
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the nature of the error — factual, typographical, attributional, or contextual — and chooses the appropriate correction register (correction vs. clarification vs. editor's note)
 2. Drafts a notice that states the error plainly, provides the accurate information, and does not speculate about cause or assign blame
 3. Applies a neutral, professional tone that protects the publication's credibility without being defensive or dismissive
@@ -63,7 +63,7 @@ House style: Begin with "Correction:" in bold, include the date the correction w
 ## Known Limitations
 - This skill produces the notice text only — it does not update the original article body, add strike-through formatting, or file the correction in a CMS. Those steps remain with the editor.
 - For corrections involving legal risk (defamation, pending litigation), the notice should be reviewed by legal counsel before publication. This skill does not provide legal advice.
-- If the original error was in a headline or subheading, the notice may need to call that out explicitly — provide the location clearly in your input or Claude may default to assuming the error was in the article body.
+- If the original error was in a headline or subheading, the notice may need to call that out explicitly — provide the location clearly in your input or the assistant may default to assuming the error was in the article body.
 
 ## Related Skills
 - [data-corrections-writer](../../../data-journalism/publishing/data-corrections-writer/SKILL.md)

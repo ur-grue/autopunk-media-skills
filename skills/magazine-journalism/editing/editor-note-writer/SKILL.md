@@ -24,7 +24,7 @@ Drafts a publication-ready editor's note — correction, clarification, update, 
 
 **Optional:** The publication date of the original article; the specific sentence or passage that is affected; any house style rules for how your publication formats editor's notes (e.g., "We use 'Correction:' in bold at the top of the article"); whether the note should be appended, prepended, or standalone.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Classifies the note type.** Determines whether this is a correction (something was factually wrong), a clarification (something was technically accurate but misleading), an update (new information has emerged), or a disclosure (editorial transparency about process or conflicts). Each type has a different conventional tone and structure.
 
 2. **States the error or change plainly.** Writes what was originally published, what was incorrect or incomplete, and what the accurate version is — in that order. Uses neutral, non-defensive language. Never blames sources, readers, or circumstances. Never minimises the error.

@@ -23,7 +23,7 @@ Generates a clean, correctly formatted YouTube chapter timestamp list from a vid
 **Required:** The full video script, transcript, or a detailed outline with section names; approximate total video length
 **Optional:** Whether the video has a cold open before the formal introduction; preferred chapter naming style (question, statement, short noun); any sections you want to combine or split differently than the source material
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full script or transcript and identifies natural topic breaks — where the subject, scene, or argument shifts meaningfully
 2. Assigns a descriptive, viewer-facing chapter name to each segment — short (3–6 words), action-oriented where possible, and written so a viewer scanning chapters can understand the video structure without watching
 3. Estimates timestamps based on typical spoken word rate (approximately 130–150 words per minute) when working from a script, or extracts exact times when working from a timestamped transcript

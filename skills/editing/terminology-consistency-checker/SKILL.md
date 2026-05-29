@@ -23,7 +23,7 @@ Scans a text for inconsistent use of key terms, names, titles, and technical voc
 **Required:** The full text to be checked.
 **Optional:** A preferred terminology list or house style glossary (e.g., "use 'climate change' not 'global warming'"); names of people or organisations whose styling should be standardised; target publication and its style guide (AP, Guardian, Chicago, etc.).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full text and builds an internal inventory of every significant term, name, title, and proper noun it encounters — including all spelling variants and capitalisations.
 2. Compares each term across its occurrences, flagging pairs or groups where the same referent is expressed differently (e.g., "the Minister" vs. "the minister" vs. "Minister Chen"; "AI" vs. "A.I." vs. "artificial intelligence" used interchangeably).
 3. Produces a structured report: one entry per inconsistency, showing every variant found, the line-level location (quoted context), and a recommended single form to adopt throughout — with a brief reason where the choice isn't obvious.
@@ -120,10 +120,10 @@ Unambiguous internal inconsistencies: 2 (Secretary-General, AI variants)
 Style-guide alignment issues: 2 (co-ordinated, DEM abbreviation handling)
 
 ## Known Limitations
-- Claude cannot flag inconsistencies it has no basis to resolve — if you do not supply a preferred form and no style guide is named, it will note the variants but may present multiple defensible options rather than a single recommendation.
-- Direct quotes are treated as fixed text. Claude will flag them for your awareness but will not recommend changing the wording inside quotation marks.
+- The assistant cannot flag inconsistencies it has no basis to resolve — if you do not supply a preferred form and no style guide is named, it will note the variants but may present multiple defensible options rather than a single recommendation.
+- Direct quotes are treated as fixed text. The assistant will flag them for your awareness but will not recommend changing the wording inside quotation marks.
 - For very long documents (10,000+ words), provide the text in sections to avoid missed flags near the end.
-- Claude does not have live access to subscription style guides (AP, Chicago, etc.). Recommendations for contested style questions are based on training data and may not reflect the most recent edition.
+- The assistant does not have live access to subscription style guides (AP, Chicago, etc.). Recommendations for contested style questions are based on training data and may not reflect the most recent edition.
 
 ## Related Skills
 - [house-style-enforcer](../../magazine-journalism/editing/house-style-enforcer/SKILL.md)

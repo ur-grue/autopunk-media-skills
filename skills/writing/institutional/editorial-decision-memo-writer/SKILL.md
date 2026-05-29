@@ -33,7 +33,7 @@ Writes a clear internal memo that documents an editorial decision — why a stor
 - Any conditions attached to the decision (e.g., "publish when X is confirmed," "hold until right of reply received")
 - The intended audience for the memo (legal team, editorial leadership, general internal record)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a single-sentence statement of the decision, the date, and the story it concerns — clear enough that someone reading the memo months later has immediate orientation
 2. Summarises the story briefly, with enough context that the decision makes sense to a reader who was not in the room
 3. Works through the decision factors in descending order of weight — starting with the most significant consideration and building a logical chain that leads to the conclusion reached
@@ -95,7 +95,7 @@ Legal counsel reviewed the full draft and raised two factual points, both of whi
 ## Known Limitations
 - This skill documents editorial reasoning in plain English; it is not a substitute for formal legal advice, and memos produced here should be reviewed by legal counsel before being used in any regulatory or litigation context
 - The memo format assumes a broadly conventional editorial structure; organisations with highly specific compliance or governance requirements may need to adapt the format to their internal templates
-- Claude cannot assess whether the decision itself was correct — it can only document the reasoning you provide; the quality of the memo depends on the quality of the reasoning given to it
+- The assistant cannot assess whether the decision itself was correct — it can only document the reasoning you provide; the quality of the memo depends on the quality of the reasoning given to it
 - For decisions involving significant legal risk or regulatory exposure, the memo should be produced in consultation with legal counsel, not in place of that consultation
 
 ## Related Skills

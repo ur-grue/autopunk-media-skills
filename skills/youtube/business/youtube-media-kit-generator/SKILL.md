@@ -23,7 +23,7 @@ Writes a YouTube channel media kit — the text a brand reviews before committin
 **Required:** Channel name; channel niche and one-line description of what you make; subscriber count; average monthly views; average view duration (or completion rate); top 3 performing videos (title and view count); audience demographic data (age range, gender split, top 3 geographic markets).
 **Optional:** Engagement rate (likes + comments / views); past brand partnerships and categories; content formats offered and rates; email list or other platform following; awards, press mentions, or credibility markers; channel growth trajectory (e.g., "grew from 10K to 78K in 18 months").
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Organizes the channel story in the order a brand evaluator reads it: channel identity first (who are you, what do you make, why does it matter to a brand), then audience data, then format and rate options. Brands skim — this skill structures the document for skimming.
 2. Translates raw metrics into brand-relevant framing: "78,000 subscribers" becomes "78,000 working professionals who have already self-selected into content about tools and productivity." Numbers gain meaning from context.
 3. Writes all rate card language clearly and without hedging — vague rate cards are the most common reason media kits fail to convert. If rates are not provided, generates placeholder copy with clear instructions to fill in.

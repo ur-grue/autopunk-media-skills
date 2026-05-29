@@ -24,7 +24,7 @@ Produces a structured map of the key individuals and institutions with decision-
 
 **Optional:** The stage of the policy process (proposal, consultation, legislative debate, implementation, review); specific institutions you already know are involved; the angle of your story (helps prioritise which actors to focus on); whether you are interested in formal decision-makers only or also informal influencers (lobbyists, think tanks, campaign groups).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the formal decision chain.** Maps the institutions with legal or procedural authority over the policy — the ministry or department responsible, the legislative committee, the regulatory body, the head of state or executive authority who signs off. For each, names the specific role (not the person, since office-holders change) and explains their decision-making power.
 
 2. **Maps the influence ecosystem.** Identifies the categories of actors who influence the decision without formal authority — industry associations, trade unions, think tanks, campaign organisations, academic advisors, media commentators, and international bodies. For each category, explains how they typically exert influence (public advocacy, private lobbying, providing research, funding campaigns).
@@ -115,7 +115,7 @@ Produces a structured map of the key individuals and institutions with decision-
 5. **An employment lawyer advising affected companies** — can explain the practical compliance challenges and whether industry concerns are legitimate or exaggerated.
 
 ## Known Limitations
-- Claude cannot identify current office-holders by name — policy roles change with elections, reshuffles, and appointments. The map identifies roles and institutions; the journalist must determine who currently occupies them.
+- The assistant cannot identify current office-holders by name — policy roles change with elections, reshuffles, and appointments. The map identifies roles and institutions; the journalist must determine who currently occupies them.
 - The formal decision chain is based on standard legislative and regulatory processes for the jurisdiction described. If the policy is being advanced through an unusual mechanism (executive order, emergency legislation, regulatory interpretation), the chain may need adjustment.
 - Influence ecosystems are inherently incomplete. This skill maps the most common categories of actors, but specific policy issues may involve unusual stakeholders (e.g., foreign governments, religious institutions, military) that are only apparent with domain-specific knowledge.
 

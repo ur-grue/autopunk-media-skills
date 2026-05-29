@@ -32,7 +32,7 @@ Drafts a concise, correctly formatted media advisory that gives journalists ever
 - Embargo time, if applicable
 - Background context (1–2 sentences) for journalists unfamiliar with the story
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the event headline — a single declarative sentence answering "what is happening and why does it matter to a journalist's audience."
 2. Formats the Who / What / When / Where / Why block so an editor can scan it in under ten seconds and decide whether to assign a reporter.
 3. Adds a short "Details" paragraph with any essential context, then a clean media contact block at the foot of the document.

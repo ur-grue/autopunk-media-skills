@@ -23,7 +23,7 @@ Generates 10 video ideas for the channel's niche — each with a working title, 
 **Required:** Channel niche (be specific — not "fitness" but "strength training for people over 50"); target audience in one sentence; 2–3 example videos already on your channel or videos you admire in this niche.
 **Optional:** Topics you've already covered (to avoid repeats); audience pain points you've heard in comments; content formats you prefer (e.g., tutorials, opinion essays, case studies); upload frequency.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyzes the niche and example videos to identify the content patterns already common in that space — then looks for gaps, underserved angles, and audience questions that aren't being answered well.
 2. Generates ideas across a range of content types (beginner entry points, intermediate deep-dives, opinion/debate, practical how-to, case study, myth-busting) to give the channel variety rather than 10 variations of the same format.
 3. For each idea: writes a working title optimized for search intent, a one-sentence hook that explains why this video is worth watching, and a short angle note explaining what makes this idea distinctive in this niche.
@@ -100,7 +100,7 @@ Total length: approximately 400–600 words. No preamble. No padding. Ends with 
 
 ## Known Limitations
 - Ideas are generated from pattern analysis of the niche, not from live search data — titles should be validated with a keyword tool before publishing.
-- For very obscure micro-niches with fewer than a handful of established channels, Claude has limited reference points and ideas may be more generic than usual. Provide more detailed audience context to compensate.
+- For very obscure micro-niches with fewer than a handful of established channels, the assistant has limited reference points and ideas may be more generic than usual. Provide more detailed audience context to compensate.
 - This skill does not account for seasonal relevance or trending topics; creators should filter the output through their own awareness of what's current in their community.
 
 ## Related Skills

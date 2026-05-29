@@ -24,7 +24,7 @@ Generates 5 YouTube title options for a single video, each 60–70 characters lo
 
 **Optional:** Your working title if you have one, the tone of your channel (e.g. educational, investigative, entertaining, conversational), any title formats that have performed well for you before, and the target audience (e.g. beginner freelancers, documentary fans, small business owners).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the primary keyword and the strongest hook — the moment, fact, outcome, or question that makes a viewer most likely to click.
 2. Writes 5 title variations using different structural approaches: one leading with the keyword, one leading with the outcome ("How to…"), one leading with a number or list format ("3 Ways…"), one framed as a question, and one using a short declarative statement. Each approach targets a slightly different search intent or emotional trigger.
 3. Checks every title against the 60–70 character limit, confirms the hook word or primary keyword appears in the first 30 characters, and removes any filler words that dilute clarity without adding curiosity.

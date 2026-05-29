@@ -35,7 +35,7 @@ Writes a professional, strategically crafted follow-up email to a source or inte
 - Whether you will publish a "did not respond" note if they decline — state this only on final follow-up
 - Tone preference: neutral/professional, warm (existing relationship), or firm (final notice)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the follow-up number and adjusts tone accordingly: first follow-up is light and assumes a busy inbox; second follow-up is slightly more direct and re-states the specific value of their perspective; final pre-publication notice is brief, firm, and factual
 2. Leads with the most compelling reason for the source to engage — editorial relevance, their unique expertise, or a time-sensitive opportunity to contribute to the public record — not with an apology for following up
 3. Makes the ask specific and easy to act on: a clear time commitment, a simple yes/no, or a concrete next step
@@ -104,8 +104,8 @@ Please reply to this email or call me directly on [number].
 [Your name]
 
 ## Known Limitations
-- Follow-up emails to sources in legally sensitive situations (e.g. subjects under investigation, active litigation) should be reviewed by a lawyer or senior editor before sending — Claude drafts professional language but cannot assess legal exposure
-- If the source has explicitly declined, Claude can draft a respectful re-approach after a suitable interval, but cannot guarantee a different outcome
+- Follow-up emails to sources in legally sensitive situations (e.g. subjects under investigation, active litigation) should be reviewed by a lawyer or senior editor before sending — the assistant drafts professional language but cannot assess legal exposure
+- If the source has explicitly declined, the assistant can draft a respectful re-approach after a suitable interval, but cannot guarantee a different outcome
 - Cultural tone calibration for international sources (e.g. very formal correspondence conventions in some countries) may need manual adjustment
 
 ## Related Skills

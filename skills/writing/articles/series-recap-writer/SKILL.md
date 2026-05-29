@@ -31,7 +31,7 @@ Writes a concise "previously on" or "catch-up" block that brings new readers up 
 - Whether the recap should appear as inline prose, a separate labelled block ("The Story So Far"), or a bullet-point timeline
 - Any developments that are contested or under dispute and should be framed carefully
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the through-line of the story — the central question or conflict that links all the developments — so the recap reads as a coherent narrative rather than a list of events
 2. Selects the most essential developments (not every event, only those a reader genuinely needs to follow the new instalment)
 3. Writes in chronological order with clear, unambiguous transitions that mark the passage of time without becoming a timeline of dates
@@ -79,9 +79,9 @@ This week, leaked internal emails obtained by this newsroom show that senior hou
 ---
 
 ## Known Limitations
-- The recap can only be as accurate as the developments you provide; Claude does not have access to your previous articles and cannot fill gaps in your chronology
+- The recap can only be as accurate as the developments you provide; the assistant does not have access to your previous articles and cannot fill gaps in your chronology
 - For stories involving legal proceedings, the recap's framing of contested facts depends on clear guidance in your input — flag anything sub judice or disputed before running
-- Very long-running stories (three or more years of developments) may require you to pre-select which developments to include rather than listing everything; Claude will make choices, but editorial judgement on what is essential to the current instalment rests with you
+- Very long-running stories (three or more years of developments) may require you to pre-select which developments to include rather than listing everything; the assistant will make choices, but editorial judgement on what is essential to the current instalment rests with you
 
 ## Related Skills
 - [related-articles-teaser-writer](../related-articles-teaser-writer/SKILL.md)

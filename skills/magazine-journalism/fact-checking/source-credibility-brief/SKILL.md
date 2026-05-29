@@ -23,7 +23,7 @@ Assesses the credibility of a source whose claims appear in a draft — expertis
 **Required:** The source's name, role or title, and the specific claims they are making in the article
 **Optional:** The source's employer or institutional affiliation; any known background on the source (publications, testimony, prior interviews); how the claim was communicated (on-record interview, background, leaked document, official statement); the story context
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Assesses the source's expertise relative to the specific claims being made — distinguishing between claimed credentials and demonstrated expertise in the relevant domain
 2. Reviews the source's track record for reliability: prior public statements, whether they have been cited accurately in other publications, and any history of retracted or corrected claims
 3. Identifies potential conflicts of interest — financial, professional, personal, or ideological — that could affect the source's account

@@ -24,7 +24,7 @@ Writes a complete Instagram caption — including hook, body, call to action, an
 
 **Optional:** A specific hook fact or striking statistic from the piece, the target audience, a call to action beyond a link in bio (e.g. "save this for later," "tag someone who needs to see this"), and whether the account uses emoji in captions.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes a first line designed to appear above the "more" fold — typically under 125 characters — that earns the tap to expand. Uses a specific detail, a provocative question, or a bold statement. Never starts with the account name, a greeting, or "New post."
 2. Develops the caption body in short paragraphs (two to three sentences each) that expand on the hook, give essential context, and create emotional or intellectual momentum toward the call to action.
 3. Closes with a direct, specific call to action: a question that invites comments, a directive to visit the link in bio, or a share prompt. Avoids vague endings like "follow for more."

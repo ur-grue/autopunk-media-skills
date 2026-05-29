@@ -24,7 +24,7 @@ Identifies every passive-voice construction in a draft, assesses whether each we
 
 **Optional:** The article type (news, feature, opinion, investigative) — this affects how strictly passive voice is treated; your tolerance level ("flag all passives" vs. "flag only those that weaken the prose"); any passages where passive voice is intentional and should not be flagged.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies all passive constructions.** Scans the draft for every instance of passive voice — both obvious forms ("was arrested," "has been criticised") and subtler constructions ("is considered to be," "remains unaddressed"). Counts the total and calculates the passive-voice ratio as a percentage of all finite verbs.
 
 2. **Classifies each instance.** Not all passive voice is bad. Assigns each instance to one of three categories:

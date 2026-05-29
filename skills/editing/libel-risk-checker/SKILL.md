@@ -24,7 +24,7 @@ Reviews a draft for statements that carry a credible risk of defamation, produci
 **Required:** The full draft text to be reviewed.
 **Optional:** The jurisdiction in which the piece will be published (e.g., England and Wales, United States, Australia) — different countries have different defamation standards, and naming a jurisdiction improves the relevance of the flags; the name of any individual or organisation who has been given a right of reply, and what their response was.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full draft and identifies statements that could be understood as factual allegations — as opposed to clearly labelled opinion — about a named or identifiable individual, company, or organisation.
 2. For each flagged passage, assesses it against a standard checklist of defamation red flags: whether the claim is verifiably false or unverified; whether it could lower the subject's reputation in the eyes of a reasonable person; whether the subject is identified or identifiable; whether the source of the claim is attributed or left anonymous; and whether any public-interest or fair-comment defence is apparent from the text.
 3. Produces a numbered red-flag report listing each passage, the specific concern, and a practical suggestion for reducing risk (e.g., attribute to a named source, add the subject's response, reframe as confirmed rather than alleged, or seek legal review before publishing).
@@ -92,10 +92,10 @@ Overall recommendation: **Do not publish in current form.** The two High-risk pa
 
 ## Known Limitations
 - This skill is not a substitute for qualified legal advice. A media lawyer must review any high-risk material before publication. No AI tool can replicate the judgment of a qualified legal professional or assess jurisdiction-specific case law.
-- Defamation law differs significantly between countries. Flags are more accurate when you specify a jurisdiction; without one, Claude applies general common-law principles.
-- Claude cannot assess whether your supporting evidence is sufficient to mount a truth defence — it can only flag that evidence would be needed.
+- Defamation law differs significantly between countries. Flags are more accurate when you specify a jurisdiction; without one, the assistant applies general common-law principles.
+- The assistant cannot assess whether your supporting evidence is sufficient to mount a truth defence — it can only flag that evidence would be needed.
 - Satire, clearly labelled opinion, and privileged reporting (e.g., court reports, parliamentary proceedings) are subject to different rules. This skill may flag them unnecessarily if context is not provided.
-- Claude cannot contact subjects for a right of reply. That remains the editor's responsibility.
+- The assistant cannot contact subjects for a right of reply. That remains the editor's responsibility.
 
 ## Related Skills
 - [libel-check-brief](../../magazine-journalism/legal/libel-check-brief/SKILL.md)

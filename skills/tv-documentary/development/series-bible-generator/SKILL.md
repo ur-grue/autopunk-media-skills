@@ -23,7 +23,7 @@ Generates a complete documentary series bible from a concept brief and episode o
 **Required:** A description of the series concept (subject, approach, central argument or question); the number of episodes and approximate length per episode; a brief description of each episode's focus
 **Optional:** Target broadcaster or platform; comparable series (tone and style references); key subjects or access already secured; visual or stylistic approach; intended territory (domestic, international co-production); budget tier (low, mid, high-end)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a logline and series overview that captures the commercial hook and editorial substance — what the show is about and why it matters now
 2. Builds out tone and visual approach from the concept, using the comparable series provided or inferring an appropriate register from the subject matter
 3. Writes episode breakdowns for each episode: title, subject focus, key scenes or set pieces, and narrative arc

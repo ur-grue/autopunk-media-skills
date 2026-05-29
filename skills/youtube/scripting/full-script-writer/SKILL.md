@@ -23,7 +23,7 @@ Writes a complete, word-for-word YouTube video script — from opening hook thro
 **Required:** Video title or working title; main angle or argument the video will make; 4–8 key talking points or sections in rough order; target video length (e.g., 8–12 minutes); channel tone (e.g., "educational but conversational," "dry humor, data-driven," "enthusiastic and beginner-friendly").
 **Optional:** Target audience description; intro style you prefer (question hook, bold claim, story, statistic); existing channel scripts for voice matching; call-to-action preference (subscribe, comment prompt, link to related video).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a hook designed for the first 30 seconds — the window when most viewers decide whether to stay. Chooses hook format (problem, bold claim, story, curiosity gap) based on the topic and the tone specified.
 2. Writes each section in spoken, conversational prose — not essay prose. Includes natural transitions, rhetorical questions, and on-camera direction cues (e.g., [cut to screen recording], [hold up product]) where they add clarity.
 3. Closes with a strong final point that reinforces the video's core value, then a natural outro with the requested call-to-action. Total word count calibrated to the target video length (approximately 130–150 words per minute of spoken video).

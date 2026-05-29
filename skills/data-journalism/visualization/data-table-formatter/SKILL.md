@@ -23,7 +23,7 @@ Formats raw or messy data into a clean, publication-ready table with appropriate
 **Required:** The raw data (pasted as text, CSV, or a description of the rows and columns). The intended purpose (news article, annual report, magazine feature, etc.). The data source for the footnote.
 **Optional:** Whether the table should be sorted and by which column; any columns to exclude from the published version; preferred number format (e.g. round to nearest whole number, use commas for thousands); a specific headline or title for the table.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the raw data for formatting inconsistencies, ambiguous column labels, and numbers that need standardising (units, decimal places, thousands separators).
 2. Rewrites column headers in plain, publication-appropriate language and applies consistent number formatting throughout.
 3. Produces the final table in clean Markdown format with a title, formatted headers, sorted rows (if specified), and a source note beneath.

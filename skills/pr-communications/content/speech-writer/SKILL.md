@@ -24,7 +24,7 @@ Writes a structured speech for an executive or spokesperson for a media event, c
 
 **Optional:** An example of the speaker's previous public remarks or tone of voice; any specific story, anecdote, or personal reference the speaker wants included; whether the speech will be delivered from a full script, bullet-point notes, or a teleprompter; any topics or phrasing to avoid; whether Q&A follows and what questions are expected.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single primary purpose of the speech — inform, persuade, inspire, announce, or mark an occasion — and structures every element toward that purpose.
 2. Opens with the speaker's presence on stage, not with thanks. A speech that begins "Thank you for having me" before saying anything substantive wastes the opening seconds of maximum attention.
 3. Embeds key messages at natural points in the argument rather than listing them as bullet points. A key message lands because of what precedes it, not because it is bold.
@@ -112,9 +112,9 @@ Thank you.
 ---
 
 ## Known Limitations
-- A speech written by Claude is a draft for the speaker's review and personalisation — any personal anecdote, specific memory, or first-person reference that is not in the input must be added by the speaker, who is the only person who knows whether it is true.
-- Claude cannot replicate a speaker's idiosyncratic cadence, verbal tics, or personal vocabulary without examples of their previous speeches or transcripts. Generic input produces a competent but generic speech.
-- For speeches at legally significant moments (financial results announcements, regulatory hearings, formal statements of record), the text requires legal review before delivery. Claude applies general communications standards, not legal disclosure rules.
+- A speech written by the assistant is a draft for the speaker's review and personalisation — any personal anecdote, specific memory, or first-person reference that is not in the input must be added by the speaker, who is the only person who knows whether it is true.
+- The assistant cannot replicate a speaker's idiosyncratic cadence, verbal tics, or personal vocabulary without examples of their previous speeches or transcripts. Generic input produces a competent but generic speech.
+- For speeches at legally significant moments (financial results announcements, regulatory hearings, formal statements of record), the text requires legal review before delivery. The assistant applies general communications standards, not legal disclosure rules.
 
 ## Related Skills
 - [op-ed-writer](../op-ed-writer/SKILL.md)

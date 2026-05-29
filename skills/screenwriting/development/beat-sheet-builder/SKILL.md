@@ -23,7 +23,7 @@ Generates a complete 15-beat story map for a feature film or TV pilot, placing e
 **Required:** Logline or one-paragraph premise; protagonist name, want (external goal), and need (internal lesson); antagonistic force or central conflict
 **Optional:** Genre; target format (feature film or TV pilot — 30-min, 60-min); tone references ("dark and grounded," "comedic but emotional"); any beats already fixed by the writer
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the protagonist's wound, want, and need — the emotional engine that determines where the character starts and where they must end up
 2. Maps the 15 Blake Snyder beats (Save the Cat structure) or the equivalent Syd Field turning-point model depending on format, placing each beat at the correct page/percentage mark for the stated length
 3. Writes each beat as a concrete dramatic event, not a structural label — specifying what happens, to whom, and what changes as a result

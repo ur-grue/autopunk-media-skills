@@ -30,7 +30,7 @@ Turns research notes, interview transcripts, or article text into a broadcast-re
 - Specific images or moments in the cut that the narration should land on or avoid stepping over
 - Whether this is for TV, radio, or online — the register differs slightly
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core facts and the narrative thread — what the audience must know, in what order — and strips away everything that would read well in print but slow down the ear
 2. Rewrites into broadcast grammar: sentences of 10–15 words, active constructions, numbers spoken out ("four hundred" not "400"), no subordinate clauses longer than a phrase, no jargon that cannot be immediately understood on a single listen
 3. Paces the script to the target duration, marking approximate timings every 15–20 seconds so the producer can see where the narration sits against the picture, and flags any line that risks clashing with a sync sound moment if one is described
@@ -73,7 +73,7 @@ The director of the regional emergency authority resigned the following March. T
 
 ## Known Limitations
 - The 2.8 words-per-second timing estimate is an average. A slower, more gravely delivery can drop to 2.2; a brisk news-package pace can reach 3.2. Always read the script aloud before locking the edit.
-- Claude cannot watch your cut. If narration must hit specific picture moments (a name appearing on screen, a graph animating), describe those moments in your input so the script can be shaped around them.
+- The assistant cannot watch your cut. If narration must hit specific picture moments (a name appearing on screen, a graph animating), describe those moments in your input so the script can be shaped around them.
 - Highly technical subjects — legal, medical, scientific — may require a specialist to review the simplified language before broadcast to ensure nothing has been inadvertently misrepresented.
 - This skill writes narration text only. Music, sound design, and production directions should be added by the producer in a separate pass.
 

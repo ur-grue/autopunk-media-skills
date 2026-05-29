@@ -24,7 +24,7 @@ Select the 3-5 strongest pull quotes from an article — the sentences or short 
 
 **Optional:** Number of quotes needed (default 3-5), whether quotes should be drawn from interview subjects only or may also include the author's own voice, maximum character length per quote (default: no limit), intended use (print pull quote, social media, newsletter highlight, quote card).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Scans the article for sentences or short passages that are self-contained — they make complete sense and have impact without the surrounding context a reader would need to supply
 2. Prioritises direct speech from named interview subjects over reported speech or authorial commentary, as attributed quotes carry more weight and credibility as pull quotes
 3. Assesses each candidate quote for three qualities: does it surprise or challenge the reader's expectations, does it carry emotional or intellectual weight, does it create a question in the reader's mind that makes them want to read on

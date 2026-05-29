@@ -51,11 +51,11 @@ One precise sentence.
 - Specific trigger condition 2
 
 ## What You Need To Provide
-**Required:** List the inputs Claude needs to do this task well.
+**Required:** List the inputs the assistant needs to do this task well.
 **Optional:** Any extra context that improves output quality.
 
-## How Claude Approaches This
-1. Step one — what Claude does first
+## How the Assistant Approaches This
+1. Step one — what the assistant does first
 2. Step two — how it builds on step one
 3. Step three — how it produces the final output
 

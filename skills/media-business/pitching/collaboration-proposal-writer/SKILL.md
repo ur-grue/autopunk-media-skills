@@ -33,14 +33,14 @@ Writes a structured proposal for a co-production, editorial partnership, or cros
 - Any existing relationship with the proposed partner (cold approach, met at a conference, previous informal discussions)
 - A specific problem this collaboration solves that neither party can solve alone
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Opens with the opportunity, not the logistics.** The first paragraph frames why this collaboration makes strategic sense — the audience gap it fills, the market timing, or the editorial angle that requires both partners' strengths. Decision-makers need a reason to keep reading before they see a project plan.
 
-2. **Articulates mutual benefit with specificity.** Claude avoids vague "synergy" language. Instead, it names exactly what each partner gains: audience reach into a new demographic, access to a content library, production capacity, editorial credibility in a specific domain, or distribution on a platform they do not currently occupy.
+2. **Articulates mutual benefit with specificity.** the assistant avoids vague "synergy" language. Instead, it names exactly what each partner gains: audience reach into a new demographic, access to a content library, production capacity, editorial credibility in a specific domain, or distribution on a platform they do not currently occupy.
 
 3. **Proposes a clear structure.** The body of the proposal outlines the collaboration format, each party's role and responsibilities, and a suggested timeline. This demonstrates professionalism and makes the proposal actionable — the partner can respond to specific elements rather than to an abstract idea.
 
-4. **Addresses the practical questions early.** How will editorial control be shared? Who owns the final content? What are the cost and revenue arrangements? Claude raises these questions directly — either proposing terms or flagging them as discussion points — because experienced partners know that unaddressed practicalities kill collaborations.
+4. **Addresses the practical questions early.** How will editorial control be shared? Who owns the final content? What are the cost and revenue arrangements? The assistant raises these questions directly — either proposing terms or flagging them as discussion points — because experienced partners know that unaddressed practicalities kill collaborations.
 
 5. **Closes with a specific next step.** The proposal ends with one concrete action: a meeting date suggestion, a call to discuss terms, or a request to share the document with the partner's editorial or business team. No open-ended "let us know your thoughts."
 
@@ -110,7 +110,7 @@ Horizon Digital News contributes investigative journalism capacity — reporters
 We would welcome a 30-minute call with your editorial and partnerships team to discuss the concept and scope. We are available the week of April 7 and can share a more detailed production budget outline in advance. Please reply to this proposal or contact partnerships@coastalmedia.example.com to arrange a time.
 
 ## Known Limitations
-- Claude cannot assess the proposed partner's strategic priorities, internal politics, or willingness to collaborate. The proposal presents your strongest case, but the partner may have reasons to decline that are invisible from outside.
+- The assistant cannot assess the proposed partner's strategic priorities, internal politics, or willingness to collaborate. The proposal presents your strongest case, but the partner may have reasons to decline that are invisible from outside.
 - Financial and legal terms in the proposal are starting positions for negotiation, not binding offers. Any co-production agreement should be reviewed by legal counsel on both sides before signing.
 - The skill works best when you can articulate what both sides gain. If the collaboration is primarily beneficial to your organisation, the proposal will struggle to make a convincing mutual-benefit case — because there may not be one.
 

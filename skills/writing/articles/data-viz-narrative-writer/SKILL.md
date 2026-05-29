@@ -31,7 +31,7 @@ Writes the explanatory text that accompanies a data visualization — the headli
 - The tone of the surrounding article (investigative, explanatory, neutral news, opinion)
 - Word count target for the narrative text
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the single most significant finding in the data as described — the peak, the gap, the trend reversal, the unexpected comparison — and treats that as the headline finding
 2. Drafts a chart headline (also called a "active headline" or "tells headline") that states the finding rather than just labeling the chart topic
 3. Writes an introductory sentence of one to two lines that contextualizes the finding for a reader who may not examine the chart closely
@@ -74,7 +74,7 @@ Tone: Neutral news
 
 ## Known Limitations
 - This skill works from your description of the chart — it cannot read an image or a data file directly. The quality of the output depends on how precisely you describe the key finding and what the axes represent.
-- For charts with multiple competing findings (e.g., some metrics up, some down), you must specify which finding is primary; otherwise Claude will choose, and it may not be the one your story argument requires.
+- For charts with multiple competing findings (e.g., some metrics up, some down), you must specify which finding is primary; otherwise the assistant will choose, and it may not be the one your story argument requires.
 - Annotation text for highly technical data (epidemiological rates, financial derivatives, scientific measurements) should be reviewed by a subject-matter expert before publication.
 
 ## Related Skills

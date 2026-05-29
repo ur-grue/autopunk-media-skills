@@ -24,7 +24,7 @@ Produces a structured press roundup that summarises how multiple outlets covered
 
 **Optional:** The outlet names and types (broadsheet, tabloid, broadcast, specialist, international); publication dates; the audience for your roundup (editorial team, executive, public newsletter); whether you want a neutral summary or analytical commentary on the framing differences; any specific angles or outlets you want highlighted.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the dominant frames.** Reads the coverage summaries provided and categorises them by editorial angle — how each outlet framed the story (political, economic, human-interest, scientific, moral). Groups coverage by frame rather than by outlet, so the roundup reveals the pattern.
 
 2. **Summarises each frame.** For each editorial angle identified, writes a concise paragraph summarising how outlets using that frame covered the story — what they emphasised, what sources they cited, and what conclusions they drew.
@@ -93,7 +93,7 @@ The business newspaper frames the strike as an economic event. GDP impact estima
 
 ## Known Limitations
 - The quality of the roundup depends entirely on the quality and breadth of the coverage summaries provided. If the journalist provides coverage from only one type of outlet, the roundup will not capture the full range of frames. Aim for at least 4–5 outlets across different market segments.
-- Claude cannot access or search for articles. The journalist must provide the coverage content; Claude organises and analyses it. The value is in the structured analysis, not in sourcing the articles.
+- The assistant cannot access or search for articles. The journalist must provide the coverage content; the assistant organises and analyses it. The value is in the structured analysis, not in sourcing the articles.
 - Press roundups are snapshots. Coverage evolves rapidly, and the frames identified in an initial roundup may shift as the story develops. For ongoing stories, the roundup should be updated regularly.
 
 ## Related Skills

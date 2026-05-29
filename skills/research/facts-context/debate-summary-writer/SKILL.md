@@ -22,14 +22,14 @@ Produces a structured, neutral summary of an ongoing public debate or controvers
 
 ## What You Need To Provide
 **Required:** The topic or controversy you are covering; a brief description of what prompted your story (new development, anniversary, policy change, viral moment).
-**Optional:** The publication and audience; any specific aspect of the debate you are most focused on; names of key advocates or institutions already in your notes (for Claude to map against the broader debate without endorsing them); the geographic or jurisdictional scope if the debate is local or national rather than global.
+**Optional:** The publication and audience; any specific aspect of the debate you are most focused on; names of key advocates or institutions already in your notes (for the assistant to map against the broader debate without endorsing them); the geographic or jurisdictional scope if the debate is local or national rather than global.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the core contested question — the one claim or proposal that, if resolved, would dissolve the disagreement — and states it plainly in one sentence
 2. Maps the main positions (typically two to four; rarely more) and names the types of actors who hold each position, without endorsing any
 3. For each position, summarises the strongest evidence or arguments its proponents advance, distinguishing between empirical claims (which can in principle be checked) and value claims (which cannot)
 4. Identifies the crux points: the specific factual, methodological, or ethical disagreements that explain why the debate has not resolved, rather than describing each side as simply disagreeing
-5. Notes the current state of play — whether consensus has shifted recently, whether a key institution has changed its position, whether new evidence has entered the debate — and flags any areas where Claude's knowledge may be incomplete or dated
+5. Notes the current state of play — whether consensus has shifted recently, whether a key institution has changed its position, whether new evidence has entered the debate — and flags any areas where the assistant's knowledge may be incomplete or dated
 
 ## Output Format
 700–1000 words. Structure: The Core Question (1 short paragraph) → Main Positions (one subsection per position, 100–150 words each) → Key Crux Points (bulleted list of 4–6 genuine disagreements) → Current State of Play (1 paragraph). Tone: briefing-document neutral. No rhetorical framing that advantages one side. Contested empirical claims are flagged as contested; settled empirical claims are stated as fact. First person is not used.
@@ -87,12 +87,12 @@ A middle-ground position, held by some legal scholars and reform-minded court ad
 
 Several jurisdictions that adopted algorithmic tools in the 2010s are now reviewing or restricting their use following independent audits and legal challenges. The debate has intensified with the growth of AI-generated risk scores in adjacent contexts (child welfare, immigration). Academic literature on the topic is voluminous but contested: studies reach opposing conclusions depending on which dataset they use and which definition of fairness they apply. The civil liberties sector has shifted from scepticism to active opposition in most jurisdictions. Tool developers and some court systems continue to maintain that with proper oversight the tools are net positive. There is no settled consensus.
 
-*Note: Claude's knowledge of specific legislative changes, court rulings, and published audits has a cutoff date. Verify the status of any specific tool or jurisdiction before publication.*
+*Note: the assistant's knowledge of specific legislative changes, court rulings, and published audits has a cutoff date. Verify the status of any specific tool or jurisdiction before publication.*
 
 ## Known Limitations
-- For highly technical debates (statistical methodology, scientific measurement disputes), Claude can map the positions but may not be able to adjudicate between competing empirical claims. The output will accurately represent that these are contested; it will not resolve the technical disagreement.
+- For highly technical debates (statistical methodology, scientific measurement disputes), the assistant can map the positions but may not be able to adjudicate between competing empirical claims. The output will accurately represent that these are contested; it will not resolve the technical disagreement.
 - In debates where one side has a significantly stronger evidentiary basis, this skill's commitment to neutral framing may give the impression of false equivalence. Use the "Current State of Play" section to note where scientific or legal consensus exists, and supplement with expert sourcing.
-- Claude's training data reflects the English-language debate most heavily. Debates with a strong non-English dimension may be less fully represented.
+- The assistant's training data reflects the English-language debate most heavily. Debates with a strong non-English dimension may be less fully represented.
 
 ## Related Skills
 - [claim-fact-checker](../claim-fact-checker/SKILL.md)

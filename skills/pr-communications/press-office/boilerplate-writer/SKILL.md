@@ -24,7 +24,7 @@ Writes a standard "About [Organisation]" boilerplate paragraph for use at the fo
 
 **Optional:** Mission statement or founding purpose; notable clients, partners, or certifications; recent recognition or awards; parent company or subsidiary relationship; stock ticker if publicly listed; tone guidance (formal / conversational / mission-driven).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with the full legal or trading name of the organisation, followed immediately by a one-clause description of what it does and for whom.
 2. Adds concrete scale indicators (founding year, geographic reach, headcount, revenue range, or clients served) to give the boilerplate credibility and prevent it from reading as empty marketing.
 3. Closes with the website URL in parentheses or as a standalone line, formatted consistently with standard wire-service conventions.
@@ -65,7 +65,7 @@ Fernwood Institute is a UK professional development organisation training more t
 Fernwood Institute is a UK-based professional development organisation dedicated to strengthening leadership capability across the public sector. Founded in 2004, Fernwood delivers accredited management training to more than 18,000 professionals per year at every career stage — from new team leaders to senior directors. Programmes are delivered in person and online across the United Kingdom, with international delivery in Ireland and Canada. Fernwood is accredited by the Chartered Management Institute and employs 220 staff across its UK offices. (www.fernwoodinstitute.example.co.uk)
 
 ## Known Limitations
-- Claude cannot verify whether stated figures (employee count, clients served, accreditations) are current — all boilerplate text must be approved by the communications team before use.
+- The assistant cannot verify whether stated figures (employee count, clients served, accreditations) are current — all boilerplate text must be approved by the communications team before use.
 - If the organisation has changed significantly (merger, rebrand, leadership change, new geography), the output will only reflect what is provided in the input; outdated inputs produce outdated boilerplate.
 - For publicly listed companies, the boilerplate may need a legal review to ensure it does not constitute a forward-looking statement or selective disclosure.
 

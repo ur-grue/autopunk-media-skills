@@ -24,7 +24,7 @@ Produces a structured research plan for tracing the funding sources of an organi
 
 **Optional:** Any funding sources you already know about; the specific policy area or controversy the organisation is involved in; whether the organisation is a registered charity, non-profit, trade association, or unincorporated entity (affects which disclosure rules apply); the depth of investigation needed (quick check vs. deep trace).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the disclosure regime.** Based on the organisation type and jurisdiction, determines what funding information is legally required to be public — charity accounts, non-profit tax filings, lobbying disclosures, political donation reports, grant databases — and where to find it.
 
 2. **Lists the specific databases and records to check.** For each disclosure category, names the exact database or filing location and specifies what information it contains. Distinguishes between sources that reveal donor identity (e.g., tax filings listing major donors) and sources that reveal only aggregate amounts.
@@ -101,7 +101,7 @@ For a think tank publishing reports on energy regulation and fossil-fuel transit
 - **Recent structural changes.** If the think tank recently changed its legal structure (e.g., from 501(c)(3) to 501(c)(4), or created a separate (c)(4) arm), this may affect what funding information is publicly available. 501(c)(4) organisations have fewer disclosure requirements.
 
 ## Known Limitations
-- Claude cannot access tax filings, grant databases, or any external records. This skill produces the research plan — the journalist must execute the searches. The value is in knowing which databases exist, what they contain, and how to use them systematically.
+- The assistant cannot access tax filings, grant databases, or any external records. This skill produces the research plan — the journalist must execute the searches. The value is in knowing which databases exist, what they contain, and how to use them systematically.
 - US non-profit disclosure rules are specific. For organisations in other jurisdictions, the plan would need to identify the equivalent local disclosure regimes — charity commissions, non-profit registries, and tax authority databases vary significantly by country.
 - Funding traces inevitably encounter opacity. Some funding relationships are legally structured to be untraceable through public records. This plan maximises what can be found through public sources, but it cannot guarantee that all funding will be identified.
 

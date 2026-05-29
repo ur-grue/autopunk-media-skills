@@ -32,7 +32,7 @@ Produces a formatted broadcast cue sheet — including item numbers, in-cues, ou
 - Any fixed-time or hard-out constraints (e.g., "news at the top of the hour — hard out at 28:00")
 - Language of broadcast
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reviews the full list of items and assigns each a sequential item number, estimates durations based on the descriptions provided (or uses supplied durations), and checks that all items fit within the total running time
 2. Writes an in-cue (the first words of the item or the presenter's introduction line) and an out-cue (the last words spoken or the end of a music or VT item) for each entry, so the director and technical team know exactly when each element starts and ends
 3. Formats the complete sheet as a structured table — item number, item type, title/description, in-cue, out-cue, duration, cumulative running time, and any technical notes — and flags any timing problems or gaps that would cause a broadcast overrun
@@ -94,7 +94,7 @@ Presenter: Francesca Ndiaye
 ---
 
 ## Known Limitations
-- Claude estimates item durations from descriptions; actual timings must be confirmed against timed scripts, edited VT packages, and timed rehearsals before air — this skill does not replace a timed read-through
+- The assistant estimates item durations from descriptions; actual timings must be confirmed against timed scripts, edited VT packages, and timed rehearsals before air — this skill does not replace a timed read-through
 - In-cues and out-cues for VT packages are marked as placeholders unless the user provides the actual first and last words of each package; producers must insert confirmed outcues from edited material
 - The skill does not generate a full rundown system export (e.g., ENPS, iNews, Dalet format) — it produces a print-formatted cue sheet only
 - For programmes with highly complex technical requirements (multi-camera drama, live sport, OB-heavy productions), the cue sheet produced here covers editorial flow but does not substitute for a full technical running order prepared by a technical producer

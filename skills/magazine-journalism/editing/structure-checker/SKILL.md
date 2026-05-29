@@ -22,9 +22,9 @@ Analyses a draft article's structural architecture — paragraph order, logical 
 ## What You Need To Provide
 **Required:** The full draft text.
 
-**Optional:** The intended article type (news report, feature, investigative, opinion, profile, explainer) — this affects what structural conventions Claude evaluates against; specific concerns (e.g., "the middle section feels slow," "I'm not sure the ending works"); the target publication or audience, if relevant to structure expectations.
+**Optional:** The intended article type (news report, feature, investigative, opinion, profile, explainer) — this affects what structural conventions the assistant evaluates against; specific concerns (e.g., "the middle section feels slow," "I'm not sure the ending works"); the target publication or audience, if relevant to structure expectations.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Maps the architecture.** Reads the full draft and creates a paragraph-by-paragraph outline: what each paragraph does (introduces, provides evidence, quotes a source, transitions, contextualises, concludes). This map reveals the skeleton of the piece without the distraction of prose quality.
 
 2. **Evaluates against structural conventions.** Checks the draft against the conventions for its article type. For news: inverted pyramid, most important information first, attribution high. For features: narrative arc, scene-setting, tension and resolution. For investigative: evidence-claim-evidence structure, source diversity, clear separation of fact and analysis. For opinion: thesis stated early, evidence marshalled logically, counterarguments addressed, strong close.
@@ -109,7 +109,7 @@ Three sections. First: a structural map (one line per paragraph summarising its 
 
 ## Known Limitations
 - Structural analysis works best on drafts of 500+ words. For very short pieces (under 300 words), there may not be enough structural complexity to diagnose — a copy edit or line edit is more useful.
-- The skill evaluates structure against editorial conventions, but some writers deliberately break structure for effect. If an unconventional structure is intentional, tell Claude in the input so it evaluates execution rather than flagging the departure as a problem.
+- The skill evaluates structure against editorial conventions, but some writers deliberately break structure for effect. If an unconventional structure is intentional, tell the assistant in the input so it evaluates execution rather than flagging the departure as a problem.
 - This skill does not evaluate prose quality, factual accuracy, or voice. It diagnoses architecture only. Run copy-editor-assistant and fact-check-prompt separately for those layers.
 
 ## Related Skills

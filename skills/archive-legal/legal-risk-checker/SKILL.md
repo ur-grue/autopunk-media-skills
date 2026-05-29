@@ -32,7 +32,7 @@ Reviews a story brief, draft article, or broadcast script and flags potential le
 - The publication outlet type (national newspaper, local broadcaster, independent digital outlet) — affects the practical exposure level
 - Any legal correspondence or threats already received from parties in the story
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the story summary and identifies the legal categories that are potentially engaged: defamation, privacy (including data protection), contempt of court, harassment, malicious falsehood, or copyright/confidence. Notes which are relevant and which are not, with brief reasons.
 2. For each relevant legal category, flags the specific elements of the story that create risk — naming a claim, naming a source, naming a subject, the nature of the allegation, the strength of the evidence described, and whether a right of reply was offered.
 3. Assigns each flag a risk level (Low / Medium / High) with a plain-English explanation: what the risk is, why this part of the story triggers it, and what a court or regulator would likely focus on.

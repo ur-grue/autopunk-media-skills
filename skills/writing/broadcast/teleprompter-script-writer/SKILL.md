@@ -31,7 +31,7 @@ Writes a full presenter script formatted for teleprompter delivery — short spo
 - Any mandatory phrases, names, or figures that must appear verbatim
 - Whether the script ends with a package cue, a toss to another presenter, or a programme close
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Converts all content into spoken-word sentences — active voice, contractions where natural, no sub-clauses that bury the verb — so every sentence reads naturally at the speed a presenter speaks
 2. Marks pause points with a double forward slash (//) at each natural breath moment — typically after every sentence and at any point where a presenter should slow for emphasis; these are not read aloud, they are cues for timing and delivery
 3. Calculates approximate duration based on a standard broadcast read rate of 150–160 words per minute and notes the estimated time at the end of the script; adjusts sentence density if the draft runs long or short
@@ -87,8 +87,8 @@ Our correspondent is at the central station. // Here is her report.
 
 ## Known Limitations
 - Pause markers are a guide for timing, not a directive — experienced presenters adapt them to their own rhythm; share the script with the presenter before the recording so they can mark their own copy
-- This skill cannot account for a presenter's individual speech patterns, accent, or idiosyncrasies; for presenters with a very distinctive delivery, provide one or two sample scripts as optional input so Claude can calibrate sentence length and contraction use
-- Scripts containing complex foreign names, technical terms, or numbers in rapid succession may need phonetic guides added manually — Claude will flag these but will not produce phonetics unless asked
+- This skill cannot account for a presenter's individual speech patterns, accent, or idiosyncrasies; for presenters with a very distinctive delivery, provide one or two sample scripts as optional input so the assistant can calibrate sentence length and contraction use
+- Scripts containing complex foreign names, technical terms, or numbers in rapid succession may need phonetic guides added manually — the assistant will flag these but will not produce phonetics unless asked
 - Duration estimates assume a standard broadcast read rate of 155 words per minute; individual presenter speeds vary; time the script in a read-through before broadcast
 
 ## Related Skills

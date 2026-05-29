@@ -31,7 +31,7 @@ Recommends the best day and time to publish a piece of content based on the cont
 - Your existing publication schedule, so recommendations avoid clashing with your own content
 - Timezone of your primary audience
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the content's relationship to time — is it news-driven (publish as fast as possible), evergreen (timing is flexible), or event-anchored (must align with an external date)?
 2. Cross-references the content type and platform with known audience behaviour patterns for that format — for example, professional LinkedIn audiences are most active on weekday mornings; podcast listening peaks during commuting hours; newsletters sent on Tuesday outperform those sent on Friday for most general audiences
 3. Produces a primary recommendation with a rationale, then one or two alternative windows if flexibility exists

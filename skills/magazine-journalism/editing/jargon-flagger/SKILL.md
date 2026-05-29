@@ -24,7 +24,7 @@ Scans a draft and flags every instance of technical jargon, unexplained acronyms
 
 **Optional:** The target audience's assumed knowledge level (e.g., "general newspaper reader," "informed but non-specialist," "industry audience who knows the basics"); the subject domain (helps calibrate what counts as jargon vs. common knowledge in that field); any terms you have already decided to keep and do not want flagged.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Establishes the knowledge baseline.** Determines what a reader of the stated audience would reasonably be expected to understand. For a general newspaper reader, terms like "GDP" or "DNA" are assumed known; "quantitative easing" or "epigenetics" are not. For an informed-but-non-specialist audience, the threshold is higher. If no audience is specified, defaults to a general magazine reader.
 
 2. **Scans for three categories.** Flags items in three tiers:

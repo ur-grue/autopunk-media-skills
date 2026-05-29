@@ -23,7 +23,7 @@ Cleans, tightens, and restructures a raw interview transcript for publication �
 **Required:** The raw transcript or the section you want edited; the publication format (full Q&A, excerpts within a narrative piece, pull-quote selection, or summary with quotes); approximate target word count or space available.
 **Optional:** The publication and its style; which sections or answers you consider essential (must-keep material); the subject's identity type (expert, public figure, affected individual, whistleblower — this affects how aggressively to edit); whether the subject has approval rights over the edited transcript.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the full transcript to identify the three to five most substantive answers — the moments where the subject says something irreducible — and treats these as the structural anchors. Everything else is assessed for whether it supports or duplicates these moments.
 2. Edits for clarity and compression: removes filler words, verbal repetition, and false starts; tightens long answers to their essential content; resolves pronoun ambiguity and unclear references. Does not change the subject's meaning, vocabulary level, or word choices — only removes and condenses, never substitutes.
 3. Proposes a running order for the Q&A if restructuring is requested — moves the most compelling exchange to the top rather than preserving chronological order, and sequences subsequent exchanges so each one adds a distinct dimension (not repeating or contradicting the previous).

@@ -23,7 +23,7 @@ Generates a targeted, structured interview question set for a specific documenta
 **Required:** Who the subject is and their role in the documentary; the editorial angle (what the film is trying to understand through this interview); 3–5 key facts about the subject that are already known
 **Optional:** What the subject is likely to be guarded about; any specific scenes or sequences the interview needs to support (e.g., "we need them to describe the moment they made the decision"); tone of the film; whether this is an observational film where the interview is the primary narrative device, or a documentary with separate verité footage
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the narrative work this particular interview needs to do in the film — what the subject alone can provide that no other element of the documentary can
 2. Opens the question set with 3–4 rapport-builders: open biographical questions that let the subject find their voice before the camera, and that may yield unexpected context
 3. Develops the substantive middle section: 10–15 questions that progress from factual to reflective to personally revealing, each building on the natural answer the previous question invites

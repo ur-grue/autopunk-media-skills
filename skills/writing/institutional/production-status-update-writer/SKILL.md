@@ -36,7 +36,7 @@ Writes a clear, professional status update on a media production for commissione
 - Tone preference: formal (broadcaster/funder), semi-formal (co-producer), or direct (internal executive)
 - Any decisions you need from the stakeholder
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Frames the update around what the stakeholder cares about: timeline, quality, and any risks — not the internal texture of daily production work
 2. Organises information in a predictable structure so the reader can scan quickly: what's done, what's live, what's next, any flags
 3. Keeps the tone measured and professional — confident about progress, honest about challenges, solution-oriented when flagging problems
@@ -99,8 +99,8 @@ With best regards,
 [Producer Name]
 
 ## Known Limitations
-- Does not generate budget tables or financial breakdowns — for those, provide the numbers and ask Claude to draft explanatory narrative around them separately
-- If the production situation is genuinely complex (e.g. multiple interlinked delays, legal complications), a single status update may not be sufficient; Claude will draft the clearest possible version but cannot substitute for a direct conversation
+- Does not generate budget tables or financial breakdowns — for those, provide the numbers and ask the assistant to draft explanatory narrative around them separately
+- If the production situation is genuinely complex (e.g. multiple interlinked delays, legal complications), a single status update may not be sufficient; the assistant will draft the clearest possible version but cannot substitute for a direct conversation
 - Tone calibration for very specific institutional relationships (e.g. a particular broadcaster's house style) may need manual adjustment after drafting
 
 ## Related Skills

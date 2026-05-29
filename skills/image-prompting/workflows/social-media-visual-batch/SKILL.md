@@ -34,7 +34,7 @@ Produces a coordinated batch of image prompts for a social media campaign — a 
 - Color palette if defined (or reference to an existing color-palette-brief)
 - Image generation tool (Midjourney, Flux, DALL-E)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the visual anchor string — the shared aesthetic DNA that will appear in every prompt in the batch, ensuring all images are recognizably from the same project
 2. Defines the batch structure: sequential (tells a story or progression across the posts) or thematic (varied subjects within a consistent visual world) — and maps out what each of the N images will depict
 3. Writes each individual prompt around a distinct scene or subject, ensuring no two images are compositionally identical while all images share the same lighting approach, palette, and register

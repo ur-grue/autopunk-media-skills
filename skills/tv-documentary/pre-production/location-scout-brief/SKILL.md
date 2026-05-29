@@ -23,7 +23,7 @@ Writes a structured brief for filming a specific location, covering visual and n
 **Required:** The location (type and approximate geography); the scenes or sequences you intend to film there; the film or story context
 **Optional:** The crew size; the intended shooting style (observational, interview, aerial, reconstruction); specific equipment (large lights, cranes, drones); seasonal or time-of-day requirements; any known sensitivities (active business, private land, protected site)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the narrative function of the location — what story work it needs to do — so every logistical decision is anchored to a creative purpose
 2. Specifies visual requirements: light conditions, angles, background elements, clearance needs (unwanted signage, bystanders, competing sound)
 3. Maps the practical logistics: access, permission pathways, parking and crew staging, power supply, time constraints

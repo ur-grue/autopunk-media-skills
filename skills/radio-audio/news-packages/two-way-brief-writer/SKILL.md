@@ -23,7 +23,7 @@ Writes a briefing document for a live radio two-way — covering the story conte
 **Required:** The story, the reporter or guest's role and position, the programme context (e.g. mid-bulletin, programme interview), and approximate two-way duration.
 **Optional:** Any angles the presenter is likely to push on, recent developments since the original report, any areas the reporter or guest wants to avoid or flag as sensitive, and the presenter's name.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Summarises the story context in 3–5 bullet points that the guest or reporter can scan in under 60 seconds — this is the standing brief, not a repeat of the full story
 2. Generates 4–6 presenter questions in likely order, framed as the presenter would ask them on air; for each question, provides a suggested answer framework (not a scripted answer, but the key points to land and the likely follow-up)
 3. Flags any sensitive areas, likely aggressive follow-ups, or difficult angles that the reporter or guest should be prepared for, with a suggested approach for each

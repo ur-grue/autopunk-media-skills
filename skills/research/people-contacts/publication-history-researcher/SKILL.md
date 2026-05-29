@@ -31,8 +31,7 @@ Produces a structured research framework for building a verified publication his
 - Any specific publications, journals, or outlets you have already confirmed they contributed to
 - What you need the publication history for (expert vetting, profile piece, conflict-of-interest check) so the output can be prioritised accordingly
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Separates publication types** — distinguishes between peer-reviewed academic papers, book chapters, trade and industry publications, mainstream journalism bylines, and self-published or grey literature, because each carries different evidentiary weight and requires different search methods.
 
 2. **Maps the right database for each type** — identifies the most productive databases and archives for this person's field (e.g. PubMed for biomedical researchers, SSRN for social scientists, JSTOR for humanities scholars, newspaper archive databases for journalists) and provides specific search queries for each.

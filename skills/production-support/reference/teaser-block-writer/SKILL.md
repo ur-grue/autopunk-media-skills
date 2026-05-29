@@ -24,7 +24,7 @@ Writes "read next," "related articles," or "previously on" teaser blocks for web
 
 **Optional:** The article the reader is currently viewing (so teasers can be editorially relevant, not random); maximum character or word count per teaser; whether each teaser should include a category label, publication date, or reading time; the publication's teaser style (headline-only, headline-plus-one-sentence, headline-plus-two-sentences); tone (news-formal, conversational, provocative).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Identifies the hook in each article.** Reads the provided material and finds the single most compelling element — the fact, question, or revelation that would make a reader click. This becomes the core of the teaser, not a generic summary.
 
 2. **Writes each teaser as a self-contained unit.** Every teaser must work on its own — a reader encountering it in a sidebar or newsletter should understand what the article offers without needing additional context. The teaser answers: "What will I learn or experience if I click this?"
@@ -101,7 +101,7 @@ A former coal region was promised thousands of green energy jobs. Payroll record
 
 ## Known Limitations
 - Teaser quality depends heavily on the source material provided. If the user supplies only a vague headline and no description, the teaser will necessarily be generic. Providing a two-sentence summary of each article's angle produces significantly better teasers.
-- Claude optimizes teasers for editorial click-through but cannot predict actual performance. Headline A/B testing and analytics should inform teaser strategy over time.
+- The assistant optimizes teasers for editorial click-through but cannot predict actual performance. Headline A/B testing and analytics should inform teaser strategy over time.
 - This skill writes text teasers only. It does not generate thumbnail images, select featured images, or produce visual teaser cards. For visual elements, pair with an image prompting skill or provide image selections separately.
 
 ## Related Skills

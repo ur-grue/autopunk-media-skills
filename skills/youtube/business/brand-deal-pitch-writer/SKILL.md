@@ -23,7 +23,7 @@ Writes a brand-partnership pitch email — channel audience, metrics, and integr
 **Required:** Brand name and product/service category; your channel niche and what makes your audience relevant to this brand; key channel metrics (subscribers, average monthly views, average view duration); the integration format you're proposing (dedicated video, mid-roll mention, product feature, giveaway, etc.); your proposed rate or rate range (optional but strongly recommended — pitches without rates often don't convert).
 **Optional:** Audience demographic data (age, location, gender breakdown); engagement rate or average comments per video; previous brand partnerships and how they performed; a specific connection between your content and the brand's product (a video where you used the product, a content angle that maps to their campaign goals).
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens the email from the brand's perspective — leads with why this specific audience, at this channel, at this moment is relevant to their marketing goals. Does not open with the channel's metrics (self-centered) or with flattery (transparent). The first paragraph earns attention by demonstrating audience insight.
 2. Builds the case with specific metrics and audience context, presented in plain language rather than creator-industry jargon. Frames the audience demographics and engagement as a media buy decision, not a follower count.
 3. Proposes a specific integration format with a clear rate or rate range and a soft call to action — inviting a response without pressure. Tone is professional and peer-level: a creator pitching a brand, not a fan asking for money.

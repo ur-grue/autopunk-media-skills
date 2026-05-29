@@ -24,7 +24,7 @@ Generates two or three distinct social media post variants for the same article 
 
 **Optional:** The primary audience segment (general public, specialists, decision-makers); any constraints on length or tone set by your publication's style guide; the specific hypothesis you want to test (e.g., "curiosity-gap hook vs. direct statement of fact"); any call-to-action wording you want to keep consistent across variants.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies three proven copywriting angles for the piece — typically: a direct news statement, a curiosity or question hook, and an emotional or human-interest angle — and selects the two or three that are most plausible given the content.
 2. Drafts each variant independently, keeping the article link and any fixed call-to-action identical across variants but varying the opening sentence, emotional register, and framing strategy. Each variant is genuinely different — not the same post with one word swapped.
 3. Labels each variant with its hypothesis (what it is testing), so the social media team can interpret results without needing to decode the copy themselves. Notes any platform-specific formatting (character limits, hashtag conventions, emoji norms).

@@ -24,9 +24,8 @@ Generates two distinct social media post variants for the same content — each 
 
 **Optional:** The existing post text if you want to improve a specific underperformer; the brand or publication voice; the target audience in one phrase; a specific variable you want to isolate (hook style, CTA type, emotional register, length).
 
-## How Claude Approaches This
-
-1. **Identifies the testable variable.** Every meaningful A/B test isolates one variable. Claude determines the highest-leverage variable to test based on the content type and goal: hook style (question vs. statement vs. statistic), emotional register (curiosity vs. urgency vs. authority), CTA type (direct ask vs. implied invitation vs. no CTA), or length (concise vs. expanded). If the user specifies a variable, Claude uses it. If not, Claude selects the one most likely to produce a measurable difference for the stated goal.
+## How the Assistant Approaches This
+1. **Identifies the testable variable.** Every meaningful A/B test isolates one variable. The assistant determines the highest-leverage variable to test based on the content type and goal: hook style (question vs. statement vs. statistic), emotional register (curiosity vs. urgency vs. authority), CTA type (direct ask vs. implied invitation vs. no CTA), or length (concise vs. expanded). If the user specifies a variable, the assistant uses it. If not, the assistant selects the one most likely to produce a measurable difference for the stated goal.
 
 2. **Writes Variant A and Variant B.** Each variant is a complete, ready-to-post piece of copy for the specified platform. Both share the same core message and information — only the isolated variable differs. This ensures any performance difference is attributable to the tested element, not to different information.
 

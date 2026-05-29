@@ -33,7 +33,7 @@ Writes a complete solo episode script for a host-led narrative or educational po
 - Any running segments or catchphrases that should be included
 - Previous episode title or context, if this is a follow-up episode
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the episode's central idea and drafts a strong opening hook — a specific story, a striking fact, or a question that creates immediate listener investment within the first 30 seconds
 2. Structures the episode in clear beats: hook, context, main body (broken into 2–4 segments with natural transitions), and closing
 3. Writes for spoken delivery throughout — short sentences, active voice, natural rhythm, deliberate use of pause and repetition, no academic or formal register unless the show calls for it
@@ -184,10 +184,10 @@ I'll be back next week. Until then — slow down and look at something carefully
 *[END OF SCRIPT — total approx. 2,780 words / ~19.5 minutes at medium pace]*
 
 ## Known Limitations
-- Claude does not have access to real-time research or current publications; for episodes that depend on recent findings, the user must provide the research and Claude will script around it
+- The assistant does not have access to real-time research or current publications; for episodes that depend on recent findings, the user must provide the research and the assistant will script around it
 - The word-per-minute estimate (130–150 wpm) assumes a conversational pace; hosts who speak faster or slower should calibrate by timing a test read
 - Solo scripts work best when the host reads them aloud at least once before recording — the script is designed for spoken delivery, but every host's natural rhythm is different and the script should be adjusted to match
-- For highly technical subjects, the script will be only as accurate as the information provided; Claude may use simplified analogies that technical experts would qualify — flag these before publishing
+- For highly technical subjects, the script will be only as accurate as the information provided; the assistant may use simplified analogies that technical experts would qualify — flag these before publishing
 
 ## Related Skills
 - [intro-outro-writer](../intro-outro-writer/SKILL.md)

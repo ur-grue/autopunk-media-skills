@@ -24,7 +24,7 @@ Translates a news or feature article from one language to another, preserving jo
 
 **Optional:** The target publication's tone or register (broadsheet formal, tabloid accessible, digital conversational); any proper nouns, technical terms, or organization names that must remain untranslated or use a specific approved translation; whether quotes should be translated or left in the original language with a bracketed translation; word count target if the translated version must fit a specific layout.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads the full piece before translating a single word.** Identifies the article's structure (lede, nut graf, body, kicker), tone, register, and any rhetorical devices — puns, wordplay, cultural references — that will need creative adaptation rather than literal translation.
 
 2. **Translates paragraph by paragraph in document order,** maintaining the original's sentence rhythm and paragraph breaks. Prioritizes meaning fidelity over word-for-word correspondence. Where a phrase has no natural equivalent, selects the closest idiom in the target language that preserves the intent and energy of the original.
@@ -95,7 +95,7 @@ Le quartier abrite 3 200 résidents dans des immeubles de hauteur moyenne organi
 - L'expression « lining up to move in » (sous-titre) adaptée en « se bousculent pour y emménager » — traduction idiomatique plutot que littérale pour conserver l'énergie de la phrase.
 
 ## Known Limitations
-- Claude cannot guarantee the accuracy of specialized terminology in highly technical fields (legal, medical, financial). For articles heavy in domain jargon, have a subject-matter expert review the translation before publication.
+- The assistant cannot guarantee the accuracy of specialized terminology in highly technical fields (legal, medical, financial). For articles heavy in domain jargon, have a subject-matter expert review the translation before publication.
 - Translation quality is strongest for widely spoken languages with large training corpora (English, French, Spanish, German, Portuguese, Chinese, Japanese). For less-resourced languages, expect more literal phrasing and fewer idiomatic adaptations.
 - The skill translates text faithfully but does not perform cultural localization — it will not restructure an article to suit a different market's editorial conventions. For that, use Regional Variant Adapter after translation.
 

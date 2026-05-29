@@ -22,9 +22,9 @@ Breaks a long-form article into web-optimized sections with subheadings, pull-qu
 ## What You Need To Provide
 **Required:** The full article text; the target platform or CMS (WordPress, Ghost, Webflow, custom — affects section formatting recommendations).
 
-**Optional:** Desired number of sections (or let Claude determine based on content); whether to suggest pull quotes (default: yes); whether to suggest image placement with brief descriptions of what the image should show; maximum section length in words (default: 300–500 words per section); the publication's web style guide (subheading style, pull-quote format, sidebar conventions); any multimedia elements already planned (video embeds, interactive graphics, data tables) that need placement.
+**Optional:** Desired number of sections (or let the assistant determine based on content); whether to suggest pull quotes (default: yes); whether to suggest image placement with brief descriptions of what the image should show; maximum section length in words (default: 300–500 words per section); the publication's web style guide (subheading style, pull-quote format, sidebar conventions); any multimedia elements already planned (video embeds, interactive graphics, data tables) that need placement.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. **Reads the full article and maps its argument structure.** Identifies the natural topic shifts, turning points, and thematic clusters that define where sections should break. Sections are split at genuine content boundaries — not arbitrarily every 400 words.
 
 2. **Writes subheadings that serve as a scannable table of contents.** Each subheading tells the reader what that section delivers — specific enough that a skimmer can decide whether to read the section or scroll past. Avoids vague subheadings ("Background," "Analysis") in favor of content-specific ones ("Three Cities That Cut Bus Fares and Saw Ridership Double").
@@ -149,7 +149,7 @@ Despite this, demand continues to grow. Westfield Public Library now runs its me
 | Image placements | 2 |
 
 ## Known Limitations
-- Claude splits sections based on content analysis, not visual page design. The suggested section lengths work well for standard web layouts but may need adjustment for designs with large hero images, embedded videos, or multi-column layouts that affect how much text appears above the fold.
+- The assistant splits sections based on content analysis, not visual page design. The suggested section lengths work well for standard web layouts but may need adjustment for designs with large hero images, embedded videos, or multi-column layouts that affect how much text appears above the fold.
 - Pull-quote suggestions are editorial recommendations. The final selection should be reviewed by the editor, as the most quotable line may not always be the one that works best visually in the page layout.
 - This skill does not generate HTML, CSS, or CMS-specific shortcodes. The output is a structural plan that a web editor translates into the CMS. For WordPress specifically, sections map naturally to Gutenberg blocks, but the editor must build the page.
 

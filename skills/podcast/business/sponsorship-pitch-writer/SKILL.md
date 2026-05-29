@@ -33,7 +33,7 @@ Writes a sponsorship pitch email or one-page deck to a prospective brand partner
 - Notable guests, press coverage, or awards the show has received
 - Any special formats you offer (dedicated episodes, newsletter inclusion, social posts)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a direct statement of why this specific brand is a good fit for this specific audience — this is not a form letter; the pitch is tailored to the brand's product and the show's audience overlap
 2. Presents the audience case concisely: who listens, why they are valuable to this advertiser, and what the listener relationship with the host enables in terms of purchase trust
 3. Lays out the sponsorship packages as a clear menu: what each placement includes, approximate reach, and pricing (or a prompt to discuss pricing if the user has not set rates yet)
@@ -105,7 +105,7 @@ I'd love to set up a 20-minute call to walk you through the show and see if the 
 
 ## Known Limitations
 - CPM rates and industry benchmarks change frequently — the example rate of $40 CPM is illustrative; the user should research current podcast CPM norms for their category and download size before setting rates
-- Claude does not know the specific brand manager's name or current marketing priorities — the user must find the right contact and verify that the brand is actively seeking podcast sponsorships before sending
+- The assistant does not know the specific brand manager's name or current marketing priorities — the user must find the right contact and verify that the brand is actively seeking podcast sponsorships before sending
 - Sponsorship pitches to brands in regulated categories (financial products, health supplements, pharmaceuticals) may require additional legal disclosures; the user is responsible for checking category-specific advertising regulations
 - This skill writes the outreach email, not the full media kit — for brands that request more detailed audience data or format specifications, use the podcast-media-kit-generator skill
 

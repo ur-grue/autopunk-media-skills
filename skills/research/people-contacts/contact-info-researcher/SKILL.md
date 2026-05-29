@@ -24,7 +24,7 @@ Builds a structured research framework for locating publicly available contact r
 
 **Optional:** Country or region they operate in · The type of content you are producing (news article, documentary, podcast, etc.) · Any public platforms you already know they use (LinkedIn, X/Twitter, personal website) · Whether you need a personal contact or an institutional press/PR route
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the person's professional context — their sector, institution type, and seniority level — to determine which contact channels are most likely to exist and be monitored
 2. Maps the most productive public sources in priority order: institutional websites, official press offices, professional association directories, academic databases, conference speaker pages, public social profiles, and journalist-specific contact aggregators
 3. Produces a step-by-step research plan you can execute yourself, with specific URLs, search terms, and search operators to use — without inventing or guessing any contact details
@@ -89,7 +89,7 @@ Dr. Solano is an academic, not a media professional. Her primary audience is pee
 If the direct route yields nothing after two attempts, contact the press office of her institution — most European universities have a media relations team that handles journalist requests and can facilitate introductions.
 
 ## Known Limitations
-- Claude cannot access live databases, directory websites, or real contact records — the output is a research strategy, not a result. You must execute the searches yourself.
+- The assistant cannot access live databases, directory websites, or real contact records — the output is a research strategy, not a result. You must execute the searches yourself.
 - For very private individuals (no institutional affiliation, no public profile), this framework will identify fewer routes; some contacts simply cannot be found through public means.
 - Contact availability changes — an address found via a 2022 conference PDF may no longer be monitored. Always verify currency before sending.
 - This skill is optimised for English-language research contexts; finding contacts in countries with limited English-language web presence may require additional local-language search strategies not covered here.

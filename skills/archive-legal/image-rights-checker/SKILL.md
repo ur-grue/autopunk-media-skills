@@ -32,7 +32,7 @@ Reviews the details of a specific image and flags potential rights clearance iss
 - Whether the image will appear in advertising or sponsored content
 - Whether the subject of the image is a public figure or a private individual
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the rights category of the image based on how it was sourced — stock license, agency wire, Creative Commons, public domain, social media, or unknown — and notes what protections and restrictions typically apply to each category.
 2. Cross-checks your intended use against the known restrictions for that rights category: editorial vs. commercial use, territory limits, attribution requirements, model and property release requirements, and format restrictions (print vs. digital vs. broadcast).
 3. Flags every point where your intended use may conflict with or exceed the likely rights coverage, and assigns each flag a risk level (Low / Medium / High) with a plain-English explanation of what the risk means in practice.

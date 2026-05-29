@@ -23,7 +23,7 @@ Reviews copy against a defined house style guide and returns a structured list o
 **Required:** The draft text (or section) to be reviewed; the house style rules to enforce (paste the relevant rules as a list — e.g., "We use single quotes, not double quotes for all quotations," "Job titles are lowercase when following a name," "Dates: day month year, no commas (15 March 2026)").
 **Optional:** The broader style standard the house style is based on (e.g., "AP base, with the following overrides"); any known problem areas in this specific draft; whether you want a clean corrected version of the text in addition to the flagged list.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Maps each house style rule provided to its category (punctuation, capitalization, date/number format, quotation conventions, etc.) and applies each rule systematically to the full draft.
 2. Flags every instance where the draft deviates from the specified rule — including cases where the writer uses the correct form in some places but not others (inconsistency within the piece, not just violation of the rule).
 3. For each flagged item: quotes the original, gives the corrected form, and cites the specific rule it violates. If a rule could be interpreted two ways, flags the ambiguity and asks for clarification rather than making an arbitrary choice.

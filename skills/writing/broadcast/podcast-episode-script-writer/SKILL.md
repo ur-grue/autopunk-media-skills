@@ -33,7 +33,7 @@ Writes a complete, ready-to-record podcast episode script — including intro, s
 - Any sponsor segments or calls to action to weave in
 - Previous episode transcripts or scripts to match established voice
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the episode's single core argument or narrative thread — every section of the script will serve that thread
 2. Structures the episode into clearly labelled segments (intro, main sections, transitions, outro) with approximate timing for each based on the target length
 3. Writes each segment in natural spoken language — contractions, short sentences, listener address — avoiding the stiff register of written prose
@@ -168,9 +168,9 @@ I'll be back next week. Until then.
 ---
 
 ## Known Limitations
-- Claude cannot accurately calibrate pacing for hosts with unusually fast or slow delivery styles without seeing a sample transcript — the 130–150 words-per-minute estimate is an average and will not suit every presenter
-- If key facts and statistics are not provided by the user, Claude will not invent them; the script will note where data should be inserted, but the user must supply the source material
-- Interview-based episode scripts (where guest audio exists) require the user to provide a transcript or detailed summary of the interview to script framing segments around — Claude cannot invent guest content
+- The assistant cannot accurately calibrate pacing for hosts with unusually fast or slow delivery styles without seeing a sample transcript — the 130–150 words-per-minute estimate is an average and will not suit every presenter
+- If key facts and statistics are not provided by the user, the assistant will not invent them; the script will note where data should be inserted, but the user must supply the source material
+- Interview-based episode scripts (where guest audio exists) require the user to provide a transcript or detailed summary of the interview to script framing segments around — the assistant cannot invent guest content
 - The script will match the register you describe, but tonal nuance (specific comedy timing, idiosyncratic verbal habits) requires sample scripts from previous episodes to calibrate against
 
 ## Related Skills

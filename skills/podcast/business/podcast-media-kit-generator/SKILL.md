@@ -21,7 +21,7 @@ Generates a complete podcast media kit — the document you send to prospective 
 
 ## What You Need To Provide
 **Required:**
-- Show name, tagline (or ask Claude to draft one), and a 2–3 sentence description
+- Show name, tagline (or ask the assistant to draft one), and a 2–3 sentence description
 - Episode format (interview, solo, panel, narrative) and typical episode length
 - Publishing frequency (weekly, bi-weekly, etc.)
 - Listener statistics: downloads per episode (average), monthly downloads, and total episodes published
@@ -32,12 +32,12 @@ Generates a complete podcast media kit — the document you send to prospective 
 - Notable guests who have appeared on the show
 - Press coverage, award nominations or wins, notable reviews
 - Social media following and/or email list size
-- Sponsorship packages and pricing (or ask Claude to suggest industry-standard package structures)
+- Sponsorship packages and pricing (or ask the assistant to suggest industry-standard package structures)
 - Past or current sponsors
 - Any audience survey results (engagement, purchase behavior, listener loyalty data)
 - Website URL and social handles
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a strong show overview that positions the podcast clearly in its category — what kind of show this is, who it is for, and what makes it worth a sponsor's attention
 2. Presents the audience in the most specific terms available — demographics first, then psychographics (why they listen, what they do with the information), then key signals of listener engagement and loyalty
 3. Builds the statistics block: download numbers, growth trend (if provided), social reach, email subscribers — formatted as a clean summary, not a data dump
@@ -160,7 +160,7 @@ Website: workingorders.com · @workingorders
 - Audience behavior data (action rates, purchase intent) in the example is illustrative — the user must substitute real survey data or remove this claim; invented audience behavior statistics are a credibility risk with sophisticated sponsors
 - CPM benchmarks and market rates change frequently — rates in this example should be verified against current industry benchmarks before publishing the media kit
 - This skill produces copy for the media kit text; the actual document will require design and layout (a branded PDF) — the output here is ready for a designer but is not a finished document
-- If no audience demographics are available from podcast host analytics, Claude will write the audience section in more general terms, which is a weaker document; downloading analytics from your podcast host before running this skill significantly improves output quality
+- If no audience demographics are available from podcast host analytics, the assistant will write the audience section in more general terms, which is a weaker document; downloading analytics from your podcast host before running this skill significantly improves output quality
 
 ## Related Skills
 - [sponsorship-pitch-writer](../sponsorship-pitch-writer/SKILL.md)

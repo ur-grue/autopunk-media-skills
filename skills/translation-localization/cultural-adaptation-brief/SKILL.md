@@ -24,7 +24,7 @@ Produces a structured editorial brief that identifies every element in a transla
 
 **Optional:** The publication type and register (broadsheet, tabloid, trade magazine, broadcast, social media). Any specific sensitivities already known (e.g., "avoid references to X political figure"). The audience demographic (age range, profession, general political lean if relevant). Whether the piece is time-sensitive — this affects how much adaptation is realistic before deadline.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the text in full and categorises every element that is culturally anchored: units of measurement, currency, idioms, humour, cultural references (films, sports, events, public figures), legal or regulatory terminology, social norms assumed by the text, and any explicit or implicit political framing.
 2. For each flagged element, assesses the risk level — Low (minor friction for readers), Medium (likely to confuse or alienate), High (likely to offend, mislead, or undermine credibility) — and proposes a concrete adaptation with a rationale.
 3. Produces a brief in table format followed by editorial notes, so a journalist or producer can work through the changes systematically without losing track of what has and hasn't been reviewed.
@@ -95,10 +95,10 @@ If framing as an international feature: add a Canadian dateline note, a brief in
 One item requires local expertise: the tone around "charity shops" carries class connotations in the UK that do not translate directly to the Canadian thrift-store culture. A Canadian editor should assess whether the framing ("one in eight units") reads as decline or normalisation for your specific audience.
 
 ## Known Limitations
-- Claude's cultural knowledge is stronger for English-speaking markets (UK, US, Canada, Australia) and major Western European contexts than for markets in the Global South, Central Asia, or smaller language communities. For those markets, treat this brief as a starting point and have it reviewed by a local editor before relying on it.
-- Claude's translation quality varies by language pair; a cultural adaptation brief is only as useful as the translation it is based on. Always verify the underlying translation with a native speaker before conducting adaptation review.
-- Currency conversions use knowledge available at Claude's training cutoff and will not reflect current exchange rates. Always verify financial figures independently.
-- Claude cannot assess political sensitivities in real time (breaking news, recent controversies, recent elections). For politically sensitive content, local editorial review is essential regardless of this brief's findings.
+- The assistant's cultural knowledge is stronger for English-speaking markets (UK, US, Canada, Australia) and major Western European contexts than for markets in the Global South, Central Asia, or smaller language communities. For those markets, treat this brief as a starting point and have it reviewed by a local editor before relying on it.
+- The assistant's translation quality varies by language pair; a cultural adaptation brief is only as useful as the translation it is based on. Always verify the underlying translation with a native speaker before conducting adaptation review.
+- Currency conversions use knowledge available at the assistant's training cutoff and will not reflect current exchange rates. Always verify financial figures independently.
+- The assistant cannot assess political sensitivities in real time (breaking news, recent controversies, recent elections). For politically sensitive content, local editorial review is essential regardless of this brief's findings.
 
 ## Related Skills
 - [article-translator](../../translation/text/article-translator/SKILL.md)

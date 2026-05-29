@@ -23,7 +23,7 @@ Writes a broadcast-ready radio news bulletin script from raw story notes, struct
 **Required:** A list of story notes (at least 2 stories), the target bulletin duration (e.g. 2 mins, 3 mins), and the name of the programme or station (for tone calibration).
 **Optional:** Story priority order, any clips or actuality that will be included (with durations), presenter name, and whether a specific story should lead.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads all story notes and ranks them by news value — impact, immediacy, audience relevance — to determine the running order
 2. Writes a strong opening sentence for the headline cue that states the top story clearly and without padding; follows with the body of each story in descending importance
 3. Formats each story as a discrete cue — intro line, body copy, and where clips are flagged, a clip label and suggested out-cue — calibrating word count to the target duration (approximately 150 words per minute)

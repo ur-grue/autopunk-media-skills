@@ -21,9 +21,9 @@ Identifies the editorial angle, narrative frame, and implicit assumptions a comp
 
 ## What You Need To Provide
 **Required:** The full text of one or more competitor pieces (paste directly, or provide a detailed summary if the text is unavailable). The story subject or topic.
-**Optional:** The outlet's known editorial stance or typical audience, if you're aware of it — this gives Claude context for reading choices that may reflect house style rather than story-specific decisions. Your own outlet's angle or preliminary thinking, so Claude can flag where you're heading into the same frame or successfully away from it.
+**Optional:** The outlet's known editorial stance or typical audience, if you're aware of it — this gives the assistant context for reading choices that may reflect house style rather than story-specific decisions. Your own outlet's angle or preliminary thinking, so the assistant can flag where you're heading into the same frame or successfully away from it.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the piece for its structural and rhetorical choices: what is foregrounded in the lede, which sources are selected and which are absent, what is treated as established fact versus open question, and what resolution or conclusion the piece moves toward.
 2. Names the frame explicitly — the underlying logic or narrative template the piece uses (e.g. "individual victim vs. systemic failure," "innovation vs. tradition," "accountability vs. complexity") — and identifies where in the piece that frame is applied most visibly.
 3. Maps what the frame includes and excludes: which voices, questions, and perspectives become visible within this frame and which become invisible, and what a reader would need to believe before finding the piece convincing.
@@ -74,9 +74,9 @@ The piece uses an individual rescue-and-escape frame: a competent, sympathetic i
 - A structural or policy frame — asking what workforce attrition costs health systems and who bears accountability for it — would turn this into a different kind of story: less personal, more adversarial, and harder to resolve in 1,400 words.
 
 ## Known Limitations
-- Framing analysis depends on the text you provide. If you supply a summary rather than the full piece, Claude may miss important textual details — source quotes, structural choices, language at the sentence level — that are essential to an accurate reading.
-- This skill reads one piece at a time with depth. For identifying framing patterns across a large volume of coverage, a series of separate analyses will produce more reliable results than asking Claude to generalise from a bulk summary.
-- Some framing choices reflect house style, audience expectations, or word-count constraints rather than deliberate editorial decisions. Claude will describe what is on the page; distinguishing systemic from incidental choices requires your own knowledge of the outlet.
+- Framing analysis depends on the text you provide. If you supply a summary rather than the full piece, the assistant may miss important textual details — source quotes, structural choices, language at the sentence level — that are essential to an accurate reading.
+- This skill reads one piece at a time with depth. For identifying framing patterns across a large volume of coverage, a series of separate analyses will produce more reliable results than asking the assistant to generalise from a bulk summary.
+- Some framing choices reflect house style, audience expectations, or word-count constraints rather than deliberate editorial decisions. The assistant will describe what is on the page; distinguishing systemic from incidental choices requires your own knowledge of the outlet.
 - This analysis is editorial, not academic. It uses the concept of framing in a practical journalism sense, not in the technical sense of framing theory as used in media studies research.
 
 ## Related Skills

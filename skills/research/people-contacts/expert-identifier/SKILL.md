@@ -24,7 +24,7 @@ Generate a structured expert-sourcing strategy for a story — identifying the t
 
 **Optional:** Geographic preference (local, national, international sources); whether academic, industry, government, or civil society experts are preferred; any experts already identified (to avoid duplication); how many expert categories the story needs.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Identifies the distinct knowledge domains the story touches — separating the technical, contextual, and experiential dimensions
 2. For each domain, defines the ideal expert profile: what credentials, experience type, and perspective would make someone credible and useful for this story
 3. Suggests the categories of institution where such experts are typically found — universities, professional associations, government agencies, NGOs, regulatory bodies, industry groups — without naming specific individuals
@@ -94,7 +94,7 @@ Geographic preference: UK-based sources preferred, but international medical res
 Before finalising your source list, confirm: Is more than one gender represented? Are all sources from large institutions, or do you have at least one practitioner or worker voice? Do your medical sources include both researchers and clinicians? Is the employer perspective represented by a company that is not currently under investigation or in litigation (which would constrain what they can say)?
 
 ## Known Limitations
-- This skill produces a SOURCING STRATEGY, not a list of named experts. Claude does not have reliable, up-to-date information about specific individuals' credentials, institutional affiliations, or current availability — the journalist must execute the search strategy
+- This skill produces a SOURCING STRATEGY, not a list of named experts. The assistant does not have reliable, up-to-date information about specific individuals' credentials, institutional affiliations, or current availability — the journalist must execute the search strategy
 - Expert willingness to speak, availability, and institutional restrictions on commenting are not predictable and are outside the scope of this skill
 - The institutional categories suggested are based on general knowledge of how expertise is typically distributed — niche or emerging fields may require a different search approach
 - For stories involving legal proceedings or politically sensitive topics, source vetting requires additional considerations (legal exposure, political affiliation) that this skill does not systematically address

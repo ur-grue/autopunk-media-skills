@@ -23,7 +23,7 @@ Writes a complete, publication-ready newsletter edition — opening hook, main f
 **Required:** The newsletter's name and voice description (tone, register, personality); the main story or topic for the edition with key facts, data, or quotes you want included; any links or brief summaries for a curated section (if applicable)
 **Optional:** Ideal word count range; the newsletter's typical structure (e.g. "we always open with a one-paragraph hook, then the main essay, then 4–5 links with commentary"); any recurring elements like a sign-off catchphrase or named section titles; examples of past editions you liked
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the brief and identifies the edition's central argument or hook — the single insight or revelation that makes this edition worth opening
 2. Drafts the opening paragraph as a standalone hook: specific enough to be credible, surprising or arresting enough to hold attention, and clearly connected to the main piece
 3. Writes the main feature: structured as a cohesive essay or reported piece, not a list of facts. Integrates provided data, quotes, and angles without padding. Maintains the newsletter's stated voice throughout
@@ -95,7 +95,7 @@ I keep coming back to those books in drawers. Some will eventually find their wa
 Until next week.
 
 ## Known Limitations
-- Edition quality depends heavily on the richness of the brief — thin input produces thin drafts. Claude cannot invent specific facts, compelling quotes, or original reported angles; it can only develop what you provide
+- Edition quality depends heavily on the richness of the brief — thin input produces thin drafts. The assistant cannot invent specific facts, compelling quotes, or original reported angles; it can only develop what you provide
 - Voice replication is approximate: the skill can match register and tone from a description, but will not perfectly clone the idiosyncratic style of a long-running newsletter without seeing multiple example editions
 - The skill works best for essay-style newsletters. For data-heavy, listicle-format, or highly templated publications (e.g. "this week's five numbers"), specify the exact structure explicitly or the output will default to prose narrative
 - Curated link commentary requires that you provide at minimum a one-sentence description of each piece; without that input, commentary will be generic

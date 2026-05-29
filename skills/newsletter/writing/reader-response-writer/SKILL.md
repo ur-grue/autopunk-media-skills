@@ -24,8 +24,7 @@ Drafts a thoughtful, on-brand response to a reader letter, subscriber email, or 
 
 **Optional:** The reader's name and how they should be addressed; the context of what prompted the message (which edition, article, or episode they are responding to); any factual background the response needs to account for (e.g., "the statistic they flagged was actually correct — here is the source"); the desired outcome (retain the subscriber, acknowledge and move on, invite further dialogue, issue a correction); whether the response will be private (email reply) or public (published in a letters section or read on air).
 
-## How Claude Approaches This
-
+## How the Assistant Approaches This
 1. **Reads the reader's message for both content and emotional register.** Identifies what the reader is asking for (information, acknowledgment, correction, an apology) and how they are feeling (frustrated, curious, appreciative, hostile). The response must address both — answering the question while matching the emotional context.
 
 2. **Matches the publication's voice, not the reader's.** If a reader writes angrily, the response does not mirror the anger — it responds in the publication's established voice. If the publication is warm and informal, the response is warm and informal even when addressing a complaint. Consistency of voice builds trust.
@@ -79,7 +78,7 @@ Best,
 The Trade Briefing Team
 
 ## Known Limitations
-- Claude cannot verify the factual claims in the reader's message. If a reader says "you got this wrong," the skill takes the user's guidance on whether the reader is correct. Without that context, the response will acknowledge the concern without confirming or denying the error.
+- The assistant cannot verify the factual claims in the reader's message. If a reader says "you got this wrong," the skill takes the user's guidance on whether the reader is correct. Without that context, the response will acknowledge the concern without confirming or denying the error.
 - For legally sensitive situations — defamation claims, threats of legal action, requests for retraction — this skill produces a first draft only. Legal review is essential before sending any response that could have legal implications.
 - The skill matches publication voice based on the description provided, but it cannot replicate a specific editor's personal writing style from a brief description alone. For high-fidelity voice matching, provide a sample of previous reader responses as a style reference.
 

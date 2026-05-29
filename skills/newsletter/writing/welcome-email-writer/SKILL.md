@@ -23,7 +23,7 @@ Writes the automated welcome email that new subscribers receive immediately afte
 **Required:** Newsletter name and a 2–3 sentence description of what it covers and for whom; the publishing cadence (daily, weekly, etc.); the newsletter's tone and voice in your own words
 **Optional:** What prompted you to start the newsletter (if personal origin helps the voice); what you want subscribers to do immediately after reading (reply, whitelist, follow on social, etc.); any paid tier details if applicable; one concrete example of the type of story or insight a subscriber can expect
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Opens with a brief, human acknowledgment of the subscription — not "You've been added to our list" but something that recognises the reader made a deliberate choice and honours that
 2. Delivers the editorial promise in specific, concrete terms: not "we cover the media industry" but "every Monday we give you the one story the media industry spent the week avoiding"; the specificity is what converts a vague interest into an expectation the reader will look forward to
 3. Sets practical expectations: cadence, typical length, what a reader should do if they miss issues (archive links, search tips), and any important logistical notes (whitelist instructions if the newsletter has deliverability issues)

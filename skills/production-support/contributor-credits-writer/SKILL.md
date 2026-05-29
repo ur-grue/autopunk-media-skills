@@ -30,7 +30,7 @@ Drafts the contributor credits block for a multi-author piece, giving each perso
 - Any house style notes (e.g., "use 'photographs by' not 'photography'," "list editors last")
 - Publication name, for tone matching
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Reads the contributor list and groups people by role category (reporting, visuals, data, editing, production) to determine the logical presentation order — reporters first, editors last, unless you specify otherwise
 2. Assigns consistent, plain-English role labels — avoiding internal job titles that readers won't understand (e.g., "supervising producer" becomes "producer" for public-facing credits unless you request otherwise)
 3. Formats the block in the requested style: a single comma-separated line for digital brevity, a role-grouped paragraph for long-form print, or a structured list for documentary packages
@@ -62,9 +62,9 @@ Style: role-grouped short paragraph
 **Reporting:** Yusuf Adebayo (Lagos) and Priya Mathur (Delhi). **Data:** Tomás Reyes. **Photography:** Elin Svensson. **Editing:** Kirra Walsh.
 
 ## Known Limitations
-- Claude relies entirely on the role information you provide. If someone's actual contribution was broader than their listed role (e.g., a photographer who also reported on the ground), that will not appear in the credits unless you include it in the input.
-- For broadcast packages with complex crew hierarchies (line producer, associate producer, field producer), role labels need your review — Claude will simplify where in doubt, which may not match union or guild requirements.
-- Credits for investigative pieces involving confidential sources or protected research contributors are out of scope — those require editorial and legal judgment that Claude cannot supply.
+- The assistant relies entirely on the role information you provide. If someone's actual contribution was broader than their listed role (e.g., a photographer who also reported on the ground), that will not appear in the credits unless you include it in the input.
+- For broadcast packages with complex crew hierarchies (line producer, associate producer, field producer), role labels need your review — the assistant will simplify where in doubt, which may not match union or guild requirements.
+- Credits for investigative pieces involving confidential sources or protected research contributors are out of scope — those require editorial and legal judgment that the assistant cannot supply.
 
 ## Related Skills
 - [author-bio-writer](../formatting/author-bio-writer/SKILL.md)

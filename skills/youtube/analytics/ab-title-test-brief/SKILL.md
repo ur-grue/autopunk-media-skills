@@ -23,7 +23,7 @@ Generates 4–5 title variants for A/B testing — each on a different click-psy
 **Required:** The video topic and main argument or value proposition; the target viewer's primary reason to click (what problem does this video solve or what curiosity does it satisfy); your current title or working title.
 **Optional:** Channel niche and audience description; current CTR if this is an optimization test on a live video; titles that have performed well on your channel; your main competitor titles on this topic.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Analyzes the current or working title to identify what click psychology principle it's using (or failing to use) — search intent match, curiosity gap, benefit promise, social proof, urgency, specificity.
 2. Generates 4–5 title variants, each deliberately testing one distinct principle: one optimized for search (exact-match language), one optimized for social/browse (emotion and curiosity), one with a specific number or data point, one with a "mistake" or "warning" frame if it fits the topic, and one that leads with the viewer's desire rather than the topic.
 3. For each variant: states the principle being tested, rates the estimated CTR potential (relative, not absolute), and notes which audience segment is most likely to respond to it. Ends with a testing hypothesis: which variant to test first and why.

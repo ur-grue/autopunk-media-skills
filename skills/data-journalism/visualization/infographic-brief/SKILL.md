@@ -23,7 +23,7 @@ Writes a detailed, production-ready brief for an infographic designer from raw d
 **Required:** The main finding or story the infographic must communicate. The key data points (exact figures). The intended publication format (digital article, print page, social card, etc.) and approximate dimensions or aspect ratio.
 **Optional:** The publication's house style (colours, typefaces); any data points that are secondary and should be subordinate; reference examples of infographics the team likes; deadline.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Establishes the single headline message the infographic must communicate — everything else is subordinate to this.
 2. Recommends a chart or visual type appropriate for the data structure, and gives reasons (e.g. "A bar chart rather than a pie chart because you have seven categories and relative magnitude matters more than proportions").
 3. Produces a structured brief covering: headline message, visual type recommendation, data hierarchy (primary / secondary / tertiary), copy requirements (title, labels, source, notes), format and dimensions, and design notes.

@@ -24,7 +24,7 @@ Writes a cold outreach email to a broadcaster, distributor, or platform executiv
 
 **Optional:** Any existing connection (mutual contact, met at a market, saw their recent commission), what you are asking for specifically (a call, a read of a treatment, a meeting at an upcoming market), the project's current stage and any talent or co-producers already attached.
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Writes a subject line that is specific and professional — it names the project and the format, nothing more. No clickbait, no overstatement
 2. Opens the email body by briefly establishing any connection or context, then delivers the project's core proposition in two sentences maximum: what it is and why it matters right now
 3. Closes with a clear, single ask — one specific next step — and makes it easy for the recipient to say yes: a brief meeting, a one-page read, a call at a time of their choosing

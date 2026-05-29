@@ -24,7 +24,7 @@ Produces a structured monitoring brief that tells a reporter or editor exactly w
 
 **Optional:** Geographic scope; any sources or outlets you are already tracking; specific sub-angles you want flagged; how you will receive alerts (email, Slack, RSS, manual checks)
 
-## How Claude Approaches This
+## How the Assistant Approaches This
 1. Defines the story's core monitoring questions — the specific developments that would constitute news — so you know what a meaningful update looks like versus routine noise
 2. Maps the landscape of sources into tiers: primary sources (official statements, public records, direct contacts), secondary sources (specialist outlets, trade press, academic or NGO trackers), and ambient signals (social media, aggregators, court filings)
 3. Recommends a checking cadence for each tier based on how fast the story moves, then packages everything as a one-page brief you can pin to your desk or share with a colleague
@@ -110,7 +110,7 @@ The government has launched a formal six-month regulatory review of online food 
 ## Known Limitations
 - This brief is built from the information you provide. If you omit a key stakeholder or source category, it will not appear in the source map — review the output against your own knowledge of the beat before using it.
 - Checking cadences assume a single-reporter workload. If you are on a team, redistribute tasks explicitly rather than assuming shared coverage.
-- Claude cannot access live monitoring tools, set up RSS feeds, or create alerts — the brief tells you what to watch, but you must set up the actual tools yourself.
+- The assistant cannot access live monitoring tools, set up RSS feeds, or create alerts — the brief tells you what to watch, but you must set up the actual tools yourself.
 - For highly technical regulatory topics (financial regulation, pharmaceutical approvals), the monitoring questions may need review by a subject-matter specialist before use.
 
 ## Related Skills
