@@ -30,5 +30,8 @@ Thumbs.db
 # OS
 Desktop.ini
 
+# Generated build artifacts (OpenAI Knowledge bundles)
+dist/
+
 # Internal sales/marketing material — never publish
 .local/
