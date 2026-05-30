@@ -194,7 +194,7 @@ These skills give you strong drafts for specific tasks. If you need strategic gu
 
 **[thepitchdoctor.io](https://thepitchdoctor.io)** offers one-on-one pitch consulting for documentary filmmakers, series creators, and media professionals who have a project worth making and need expert guidance to get it funded.
 
-The skills are free. The strategic advice is not. → [Learn more](go-deeper.md)
+The skills are free. The broadcaster-ready exposé is the paid product. → [Learn more](go-deeper.md)
 
 ## Want To Chain Skills Together?
 

@@ -29,3 +29,6 @@ Thumbs.db
 
 # OS
 Desktop.ini
+
+# Internal sales/marketing material — never publish
+.local/

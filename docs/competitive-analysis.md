@@ -190,7 +190,7 @@ These compose with existing skills (ai-writing-detox, passive-voice-checker, web
 These are the things peers do that we should continue NOT to do.
 
 - **No dev / security / programming skills.** ECC and jamditis both ship them. Wrong audience for us. Keep the anti-recommendation in CLAUDE.md.
-- **No skill paywalls.** Library stays MIT-complete. Monetization is in adjacent products (consulting via thepitchdoctor.io), not gated skill access.
+- **No skill paywalls.** Library stays MIT-complete. Monetization is in adjacent products (the thepitchdoctor.io exposé generator), not gated skill access.
 - **No installer proliferation.** ECC ships `install.sh`, `install.ps1`, `npx ecc-install`, `/plugin install`, manual rules copy — and warns users not to stack them. One install path per harness is the rule.
 - **No replacement of G-Eval with frontmatter linting.** A skill-lint CI workflow is fine (and on our roadmap as an auto-validator) — but it does not substitute for G-Eval. They serve different layers.
 - **No Svelte-component skills like buriedsignals's `scrolly`.** Production-tool skills belong in a different library; ours is editorial.
