@@ -3,10 +3,10 @@ articles: 7 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE
   2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] secret missing -> skip
   2026-05-claude-foia-letters-for-journalists [devto] already published -> skip
   2026-05-claude-foia-letters-for-journalists [hashnode] secret missing -> skip
-  2026-05-claude-youtube-hook-generator scheduled for 2026-06-05 (today 2026-05-29) -> hold
-  2026-05-narrow-skills-vs-one-big-prompt scheduled for 2026-06-12 (today 2026-05-29) -> hold
+  2026-05-claude-youtube-hook-generator scheduled for 2026-06-05 (today 2026-06-02) -> hold
+  2026-05-narrow-skills-vs-one-big-prompt scheduled for 2026-06-12 (today 2026-06-02) -> hold
   2026-05-scoring-non-code-llm-output [devto] already published -> skip
   2026-05-scoring-non-code-llm-output [hashnode] secret missing -> skip
-  2026-06-claude-podcast-show-notes scheduled for 2026-06-19 (today 2026-05-29) -> hold
-  2026-06-quality-tested-claude-skills scheduled for 2026-06-26 (today 2026-05-29) -> hold
+  2026-06-claude-podcast-show-notes scheduled for 2026-06-19 (today 2026-06-02) -> hold
+  2026-06-quality-tested-claude-skills scheduled for 2026-06-26 (today 2026-06-02) -> hold
 done: nothing to publish
