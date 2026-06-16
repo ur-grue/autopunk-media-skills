@@ -3,11 +3,12 @@ articles: 7 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE
   2026-05-ai-writing-that-doesnt-sound-like-ai [hashnode] secret missing -> skip
   2026-05-claude-foia-letters-for-journalists [devto] already published -> skip
   2026-05-claude-foia-letters-for-journalists [hashnode] secret missing -> skip
-  2026-05-claude-youtube-hook-generator [devto] PUBLISHED -> https://dev.to/urgrue/the-first-15-seconds-decide-your-video-heres-how-to-make-claude-write-them-5d71
+  2026-05-claude-youtube-hook-generator [devto] already published -> skip
   2026-05-claude-youtube-hook-generator [hashnode] secret missing -> skip
-  2026-05-narrow-skills-vs-one-big-prompt scheduled for 2026-06-12 (today 2026-06-09) -> hold
+  2026-05-narrow-skills-vs-one-big-prompt [devto] PUBLISHED -> https://dev.to/urgrue/why-i-built-394-narrow-claude-skills-instead-of-one-big-media-prompt-fkp
+  2026-05-narrow-skills-vs-one-big-prompt [hashnode] secret missing -> skip
   2026-05-scoring-non-code-llm-output [devto] already published -> skip
   2026-05-scoring-non-code-llm-output [hashnode] secret missing -> skip
-  2026-06-claude-podcast-show-notes scheduled for 2026-06-19 (today 2026-06-09) -> hold
-  2026-06-quality-tested-claude-skills scheduled for 2026-06-26 (today 2026-06-09) -> hold
+  2026-06-claude-podcast-show-notes scheduled for 2026-06-19 (today 2026-06-16) -> hold
+  2026-06-quality-tested-claude-skills scheduled for 2026-06-26 (today 2026-06-16) -> hold
 done: 1/1 published

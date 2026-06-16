@@ -8,7 +8,9 @@
   "2026-05-claude-youtube-hook-generator": {
     "devto": "https://dev.to/urgrue/the-first-15-seconds-decide-your-video-heres-how-to-make-claude-write-them-5d71"
   },
-  "2026-05-narrow-skills-vs-one-big-prompt": {},
+  "2026-05-narrow-skills-vs-one-big-prompt": {
+    "devto": "https://dev.to/urgrue/why-i-built-394-narrow-claude-skills-instead-of-one-big-media-prompt-fkp"
+  },
   "2026-05-scoring-non-code-llm-output": {
     "devto": "https://dev.to/urgrue/how-do-you-eval-llm-output-that-isnt-code-1gp8"
   },
