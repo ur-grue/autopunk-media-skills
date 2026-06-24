@@ -8,8 +8,7 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# Claude Code local settings (keep .claude/skills/ — skills are repo content)
-.claude/settings.json
+# Claude Code local settings (keep .claude/skills/ + .claude/settings.json — those are repo content)
 .claude/settings.local.json
 .claude/*.local.*
 .claude/todos/
