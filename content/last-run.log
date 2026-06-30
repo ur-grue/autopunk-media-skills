@@ -9,7 +9,8 @@ articles: 7 | live=True | devto=yes | hashnode=off (needs Pro plan; set HASHNODE
   2026-05-narrow-skills-vs-one-big-prompt [hashnode] secret missing -> skip
   2026-05-scoring-non-code-llm-output [devto] already published -> skip
   2026-05-scoring-non-code-llm-output [hashnode] secret missing -> skip
-  2026-06-claude-podcast-show-notes [devto] PUBLISHED -> https://dev.to/urgrue/show-notes-in-under-a-minute-without-the-ai-tell-4g3h
+  2026-06-claude-podcast-show-notes [devto] already published -> skip
   2026-06-claude-podcast-show-notes [hashnode] secret missing -> skip
-  2026-06-quality-tested-claude-skills scheduled for 2026-06-26 (today 2026-06-23) -> hold
+  2026-06-quality-tested-claude-skills [devto] PUBLISHED -> https://dev.to/urgrue/what-quality-tested-actually-means-for-a-library-of-394-ai-skills-g0d
+  2026-06-quality-tested-claude-skills [hashnode] secret missing -> skip
 done: 1/1 published
