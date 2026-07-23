@@ -1,0 +1,24 @@
+---
+layout: default
+title: Agents
+---
+
+<h1>Agents</h1>
+<p>Agents chain multiple skills into complete workflows. Give one instruction, get a full editorial pipeline.</p>
+
+{% if site.data.agents and site.data.agents.size > 0 %}
+<div class="agent-grid">
+  {% for agent in site.data.agents %}
+  <a href="{{ '/agents/' | append: agent.name | append: '/' | relative_url }}" class="agent-card">
+    <h3>{{ agent.agent_title }}</h3>
+    <div class="agent-meta">
+      <span class="badge badge--{{ agent.status }}">{{ agent.status }}</span>
+      {% if agent.eval_score %}<span class="agent-score">G-Eval: {{ agent.eval_score }}/5</span>{% endif %}
+    </div>
+    <p>{{ agent.skills | size }} skills chained</p>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p>No agents published yet.</p>
+{% endif %}

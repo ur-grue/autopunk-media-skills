@@ -1,6 +1,28 @@
 title: autopunk-media-skills
-description: 394 free AI skills for media professionals
-baseurl: /autopunk-media-skills
-remote_theme: pages-themes/minimal@v0.2.0
+description: "The most comprehensive Claude skill library for media professionals — 394 skills for journalists, producers, podcasters, and creators."
+url: "https://ur-grue.github.io"
+baseurl: "/autopunk-media-skills"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,11 @@
+<article class="skill-card" aria-label="{{ skill.skill_title }}">
+  <div class="skill-card-header">
+    <h3><a href="{{ '/skills/' | append: skill.category | append: '/' | append: skill.name | append: '/' | relative_url }}">{{ skill.skill_title }}</a></h3>
+    <span class="badge badge--{{ skill.status }}">{{ skill.status }}</span>
+  </div>
+  <p class="skill-card-desc">{{ skill.description | truncatewords: 25 }}</p>
+  <div class="skill-card-meta">
+    <span class="skill-card-category">{{ skill.category | replace: "-", " " }}</span>
+    {% if skill.eval_score %}<span class="skill-card-score">{{ skill.eval_score }}/5</span>{% endif %}
+  </div>
+</article>

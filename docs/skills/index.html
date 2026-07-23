@@ -1,0 +1,17 @@
+---
+layout: default
+title: All Skills
+---
+
+<h1>All Skills</h1>
+<p>{{ site.data.skill_count }} skills across {{ site.data.categories | size }} categories.</p>
+
+<div class="category-grid">
+  {% for cat in site.data.categories %}
+  <a href="{{ '/skills/' | append: cat.slug | append: '/' | relative_url }}" class="category-card">
+    <h3>{{ cat.name }}</h3>
+    <p class="category-count">{{ cat.count }} skills</p>
+    <p class="category-desc">{{ cat.description }}</p>
+  </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="skill-page">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
+      <li><a href="{{ '/skills/' | append: page.category | append: '/' | relative_url }}">{{ page.category | replace: "-", " " | capitalize }}</a></li>
+      <li aria-current="page">{{ page.skill_title }}</li>
+    </ol>
+  </nav>
+
+  <header class="skill-header">
+    <h1>{{ page.skill_title }}</h1>
+    <div class="skill-meta">
+      <span class="badge badge--{{ page.status }}">{{ page.status }}</span>
+      {% if page.eval_score %}<span class="eval-score">G-Eval: {{ page.eval_score }}/5</span>{% endif %}
+      <span class="skill-category">{{ page.category | replace: "-", " " }}</span>
+      {% if page.subcategory %}<span class="skill-subcategory">{{ page.subcategory | replace: "-", " " }}</span>{% endif %}
+    </div>
+    {% if page.tags and page.tags.size > 0 %}
+    <div class="skill-tags" aria-label="Tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="skill-body">
+    {{ page.content | markdownify }}
+  </div>
+
+  <footer class="skill-footer">
+    <p class="skill-source">Source: <a href="https://github.com/ur-grue/autopunk-media-skills/blob/main/{{ page.source_path }}"><code>{{ page.source_path }}</code></a></p>
+    <button class="copy-btn" data-source="{{ page.source_path }}" aria-label="Copy skill path">Copy path</button>
+  </footer>
+</article>

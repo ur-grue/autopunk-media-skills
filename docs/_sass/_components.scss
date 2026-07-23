@@ -1,0 +1,334 @@
+.hero {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-2xl);
+
+  h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+}
+
+.hero-tagline {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+}
+
+.hero-sub {
+  color: var(--color-text-secondary);
+  max-width: 36rem;
+  margin: 0 auto var(--space-lg);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn--primary {
+  background: var(--color-link);
+  color: #fff;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--color-link-hover);
+    color: #fff;
+  }
+}
+
+.btn--secondary {
+  background: var(--color-bg-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--color-link);
+    color: var(--color-link);
+  }
+}
+
+// Badges
+
+.badge {
+  display: inline-block;
+  padding: 0.125em 0.5em;
+  border-radius: var(--radius);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.badge--stable { background: var(--color-badge-stable); color: #fff; }
+.badge--beta { background: var(--color-badge-beta); color: #fff; }
+.badge--draft { background: var(--color-badge-draft); color: #fff; }
+.badge--planned { background: var(--color-badge-planned); color: #fff; }
+
+// Category grid
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.category-card {
+  display: block;
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--color-link);
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-xs);
+    font-size: 1.125rem;
+  }
+}
+
+.category-count {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.category-desc {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0;
+}
+
+// Skill grid
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+// Skill card
+
+.skill-card {
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--color-link);
+  }
+}
+
+.skill-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-sm);
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+.skill-card-desc {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: var(--space-sm) 0;
+}
+
+.skill-card-meta {
+  display: flex;
+  gap: var(--space-md);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+}
+
+// Skill page
+
+.skill-header {
+  margin-bottom: var(--space-xl);
+
+  h1 { margin-top: 0; }
+}
+
+.skill-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-top: var(--space-sm);
+}
+
+.eval-score {
+  font-weight: 600;
+  color: var(--color-badge-stable);
+}
+
+.skill-category,
+.skill-subcategory {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  text-transform: capitalize;
+}
+
+.skill-tags {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  margin-top: var(--space-sm);
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.125em 0.5em;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text-secondary);
+}
+
+.skill-body {
+  max-width: var(--content-width);
+}
+
+.skill-footer,
+.agent-footer {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
+}
+
+.copy-btn {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 0.8125rem;
+
+  &:hover {
+    border-color: var(--color-link);
+  }
+}
+
+// Agent pages
+
+.agent-header {
+  margin-bottom: var(--space-xl);
+
+  h1 { margin-top: 0; }
+}
+
+.agent-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+.agent-score {
+  font-weight: 600;
+  color: var(--color-badge-stable);
+}
+
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.agent-card {
+  display: block;
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--color-link);
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+  }
+}
+
+.pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--space-lg);
+}
+
+.pipeline-step {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+
+  &:not(:last-child)::after {
+    content: "\2192";
+    margin-left: var(--space-md);
+    color: var(--color-text-secondary);
+  }
+}
+
+.agent-body {
+  max-width: var(--content-width);
+}
+
+// Category page
+
+.category-header {
+  margin-bottom: var(--space-xl);
+
+  h1 { margin-top: 0; }
+}
+
+.subcategory-section {
+  margin-bottom: var(--space-2xl);
+}
+
+// Install section
+
+.install {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border);
+}

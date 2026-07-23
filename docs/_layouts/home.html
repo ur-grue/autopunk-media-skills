@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<section class="hero" aria-label="Introduction">
+  <h1>{{ site.title }}</h1>
+  <p class="hero-tagline">{{ site.data.skill_count }} free AI skills for media professionals.</p>
+  <p class="hero-sub">For journalists, documentary producers, podcasters, YouTubers, and creators. No technical knowledge required.</p>
+  <div class="hero-actions">
+    <a href="{{ '/getting-started' | relative_url }}" class="btn btn--primary">Get Started</a>
+    <a href="{{ '/skills/' | relative_url }}" class="btn btn--secondary">Browse Skills</a>
+  </div>
+</section>
+
+<section class="categories" aria-label="Skill categories">
+  <h2>Skills by Category</h2>
+  <div class="category-grid">
+    {% for cat in site.data.categories %}
+    <a href="{{ '/skills/' | append: cat.slug | append: '/' | relative_url }}" class="category-card">
+      <h3>{{ cat.name }}</h3>
+      <p class="category-count">{{ cat.count }} skills</p>
+      <p class="category-desc">{{ cat.description }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% if site.data.agents and site.data.agents.size > 0 %}
+<section class="agents-preview" aria-label="Agents">
+  <h2>Agents</h2>
+  <p>Agents chain multiple skills into complete workflows. One instruction, full editorial pipeline.</p>
+  <div class="agent-grid">
+    {% for agent in site.data.agents %}
+    <a href="{{ '/agents/' | append: agent.name | append: '/' | relative_url }}" class="agent-card">
+      <h3>{{ agent.agent_title }}</h3>
+      <div class="agent-meta">
+        <span class="badge badge--{{ agent.status }}">{{ agent.status }}</span>
+        {% if agent.eval_score %}<span class="agent-score">G-Eval: {{ agent.eval_score }}/5</span>{% endif %}
+      </div>
+      <p>{{ agent.skills | size }} skills chained</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="install" aria-label="How to use">
+  <h2>How to Use</h2>
+  <p>No install needed on <a href="https://claude.ai">claude.ai</a> — open a skill file, copy the text, paste it into Claude.</p>
+  <p>To use the full library locally with a coding agent:</p>
+  <pre><code>git clone https://github.com/ur-grue/autopunk-media-skills.git</code></pre>
+  <p>Each skill is a self-contained markdown file. Copy the ones you need, or paste a skill's text into any chat.</p>
+</section>
+
+{{ content }}
