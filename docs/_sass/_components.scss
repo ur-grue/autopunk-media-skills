@@ -104,7 +104,7 @@
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px var(--color-shadow);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -436,6 +436,81 @@
 
 .subcategory-section {
   margin-bottom: var(--space-2xl);
+}
+
+// Role picker
+
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.role-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-xl) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: var(--color-link);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+  }
+
+  h3 {
+    margin: var(--space-sm) 0 var(--space-xs);
+    font-size: 1.125rem;
+  }
+}
+
+.role-card-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.role-card-hook {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-sm);
+}
+
+.role-card-count {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-link);
+}
+
+// Role page header
+
+.role-header {
+  margin-bottom: var(--space-xl);
+
+  h1 { margin-top: 0; }
+}
+
+.role-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.role-hook {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.role-count {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
 }
 
 // Install section

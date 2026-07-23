@@ -11,6 +11,7 @@
   --color-badge-beta: #2563eb;
   --color-badge-draft: #d97706;
   --color-badge-planned: #6b7280;
+  --color-shadow: rgba(0, 0, 0, 0.1);
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
@@ -40,5 +41,6 @@
     --color-badge-beta: #60a5fa;
     --color-badge-draft: #fbbf24;
     --color-badge-planned: #9ca3af;
+    --color-shadow: rgba(0, 0, 0, 0.3);
   }
 }

@@ -12,6 +12,23 @@ layout: default
   </div>
 </section>
 
+{% if site.data.roles and site.data.roles.size > 0 %}
+<section class="roles" id="roles" aria-label="Find skills for your role">
+  <h2>I'm a&hellip;</h2>
+  <p>Pick your role and see the skills that matter most to you.</p>
+  <div class="role-grid">
+    {% for role in site.data.roles %}
+    <a href="{{ '/roles/' | append: role.slug | append: '/' | relative_url }}" class="role-card">
+      <span class="role-card-icon" aria-hidden="true">{{ role.icon }}</span>
+      <h3>{{ role.title }}</h3>
+      <p class="role-card-hook">{{ role.hook }}</p>
+      <span class="role-card-count">{{ role.skill_count }} skills</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <section class="categories" aria-label="Skill categories">
   <h2>Skills by Category</h2>
   <div class="category-grid">
