@@ -1,9 +1,9 @@
 ---
 name: magazine-editor-agent
 type: agent
-status: draft
+status: stable
 version: 1.0
-eval_score: null
+eval_score: 4.96
 maxTurns: 25
 allowedTools:
   - Read
