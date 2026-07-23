@@ -65,6 +65,95 @@
   }
 }
 
+// Search
+
+.search-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 20rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--space-xs) var(--space-md);
+  font-size: 0.875rem;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  outline: none;
+
+  &:focus {
+    border-color: var(--color-link);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  }
+
+  &::placeholder {
+    color: var(--color-text-secondary);
+  }
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  left: 0;
+  right: 0;
+  max-height: 24rem;
+  overflow-y: auto;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 50;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.search-result {
+  a {
+    display: block;
+    padding: var(--space-sm) var(--space-md);
+    color: var(--color-text);
+    text-decoration: none;
+
+    &:hover {
+      background: var(--color-bg-secondary);
+    }
+  }
+
+  &--active a {
+    background: var(--color-bg-secondary);
+    outline: 2px solid var(--color-link);
+    outline-offset: -2px;
+  }
+}
+
+.sr-title {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.sr-meta {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  text-transform: capitalize;
+}
+
+@media (max-width: 48rem) {
+  .search-wrapper {
+    max-width: 100%;
+    order: 3;
+  }
+}
+
 // Badges
 
 .badge {
@@ -132,9 +221,10 @@
   margin-top: var(--space-md);
 }
 
-// Skill card
+// Skill card — fully clickable via ::after stretch
 
 .skill-card {
+  position: relative;
   padding: var(--space-md) var(--space-lg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -142,6 +232,21 @@
 
   &:hover {
     border-color: var(--color-link);
+  }
+}
+
+.skill-card-link {
+  color: var(--color-text);
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  &:hover {
+    color: var(--color-link);
+    text-decoration: none;
   }
 }
 
@@ -289,10 +394,24 @@
 .pipeline {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--space-sm);
   list-style: none;
   padding: 0;
   margin-bottom: var(--space-lg);
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  li:not(:last-child)::after {
+    content: "\2192";
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    flex-shrink: 0;
+  }
 }
 
 .pipeline-step {
@@ -301,12 +420,6 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   font-size: 0.875rem;
-
-  &:not(:last-child)::after {
-    content: "\2192";
-    margin-left: var(--space-md);
-    color: var(--color-text-secondary);
-  }
 }
 
 .agent-body {

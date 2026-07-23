@@ -1,6 +1,7 @@
 <header class="site-header" role="banner">
   <nav class="site-nav" aria-label="Main navigation">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% include search.html %}
     <ul class="nav-links">
       <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
       <li><a href="{{ '/agents/' | relative_url }}">Agents</a></li>

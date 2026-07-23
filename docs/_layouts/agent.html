@@ -24,7 +24,7 @@ layout: default
     <h2>Skills Pipeline</h2>
     <ol class="pipeline">
       {% for skill_name in page.skills %}
-      <li class="pipeline-step">{{ skill_name | replace: "-", " " | capitalize }}</li>
+      <li><span class="pipeline-step">{{ skill_name | replace: "-", " " | capitalize }}</span></li>
       {% endfor %}
     </ol>
   </section>

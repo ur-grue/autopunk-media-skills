@@ -1,3 +1,8 @@
+---
+layout: default
+title: Getting Started
+---
+
 # Getting Started
 
 You've found a library of 394 ready-to-use skills for media professionals. Here's how to get value from it in under five minutes.

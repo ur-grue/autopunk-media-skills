@@ -95,7 +95,9 @@
   }
 
   .nav-links {
-    gap: var(--space-md);
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-md);
+    font-size: 0.875rem;
   }
 
   .site-content {

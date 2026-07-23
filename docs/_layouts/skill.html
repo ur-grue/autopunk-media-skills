@@ -35,6 +35,19 @@ layout: default
 
   <footer class="skill-footer">
     <p class="skill-source">Source: <a href="https://github.com/ur-grue/autopunk-media-skills/blob/main/{{ page.source_path }}"><code>{{ page.source_path }}</code></a></p>
-    <button class="copy-btn" data-source="{{ page.source_path }}" aria-label="Copy skill path">Copy path</button>
+    <button class="copy-btn" aria-label="Copy skill path">Copy path</button>
   </footer>
 </article>
+<script>
+(function () {
+  var btn = document.querySelector('.copy-btn');
+  if (!btn || !navigator.clipboard) return;
+  btn.addEventListener('click', function () {
+    var path = '{{ page.source_path }}';
+    navigator.clipboard.writeText(path).then(function () {
+      btn.textContent = 'Copied!';
+      setTimeout(function () { btn.textContent = 'Copy path'; }, 1500);
+    });
+  });
+})();
+</script>

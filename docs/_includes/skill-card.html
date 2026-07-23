@@ -1,6 +1,6 @@
-<article class="skill-card" aria-label="{{ skill.skill_title }}">
+<article class="skill-card">
   <div class="skill-card-header">
-    <h3><a href="{{ '/skills/' | append: skill.category | append: '/' | append: skill.name | append: '/' | relative_url }}">{{ skill.skill_title }}</a></h3>
+    <h3><a class="skill-card-link" href="{{ '/skills/' | append: skill.category | append: '/' | append: skill.name | append: '/' | relative_url }}">{{ skill.skill_title }}</a></h3>
     <span class="badge badge--{{ skill.status }}">{{ skill.status }}</span>
   </div>
   <p class="skill-card-desc">{{ skill.description | truncatewords: 25 }}</p>
