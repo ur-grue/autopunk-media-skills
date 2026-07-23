@@ -11,94 +11,88 @@ allowedTools:
   - Edit
   - Glob
   - Grep
-disallowedTools:
-  - Bash
-  - WebFetch
-  - NotebookEdit
+disallowedTools: []
 skills:
   - structure-checker
+  - ai-writing-detox
   - copy-editor-assistant
-  - fact-check-prompt
   - house-style-enforcer
+  - fact-check-prompt
   - headline-generator
   - pull-quote-selector
-  - ai-writing-detox
-tags: [journalism, editing, magazine, workflow, copy-editing, fact-checking, agent]
+tags: [journalism, editing, magazine, workflow, agent, copy-editing, fact-checking]
 ---
 
 # Magazine Editor Agent
 
 ## What this agent does
-Takes a draft magazine article and runs it through a full editorial pipeline — structural diagnosis, copy editing, fact-check preparation, house style enforcement, headline generation, pull quote selection, and AI-language cleanup — producing an editor's package that a section editor can act on immediately.
+Takes a draft magazine article and produces a complete editorial package — structural diagnosis, register cleanup, copy edits, house style compliance, fact-check checklist, headline options, and pull quotes — ready for the editor to sign off before layout.
 
 ## When to use this agent
-- You have a draft feature, profile, or investigative piece that needs a complete editorial pass before it goes to a section editor or to print
-- A writer has filed a piece and you want a structured first read that separates structural problems from line-level issues from factual questions — instead of a single vague "needs work" note
-- You are editing on deadline and need to triage the most critical issues across all editorial dimensions in one pass
-- You want to prepare a package for a section editor or editor-in-chief that includes the article, a diagnostic, suggested headlines, and pull quotes — everything they need to make a decision
+- You have a near-finished draft and want to run the full editorial pass before submitting to your editor or going to layout
+- You are a commissioning editor receiving a freelancer's draft and want a structured first-pass edit with all the standard checks in one run
+- You are working on deadline and need to compress what would normally be three or four separate editing passes into one orchestrated sequence
+- You want to ensure a piece that was partly AI-assisted reads like it was written by a human professional before it reaches any reader
 
 ## What you need to provide
 **Required:**
 - The full draft article text
-- The publication name or type (broadsheet newspaper, glossy magazine, digital longform, trade publication)
-- The article type (feature, profile, investigative, opinion, explainer, review)
+- The article type: news report, feature, investigative, profile, opinion, explainer, or interview
 
 **Optional:**
-- The publication's house style guide or key rules (if not provided, the agent applies general professional journalism standards)
-- Style standard for copy editing (AP, Chicago, Guardian — defaults to AP if not specified)
-- Target word count or section (helps calibrate the structural assessment)
-- Specific concerns from the commissioning editor ("the middle section drags," "check the statistics," "the ending doesn't land")
-- Whether the draft was written with AI assistance (triggers more aggressive ai-writing-detox)
+- The target publication and its house style rules (if submitting to a publication with a specific style sheet — paste the relevant rules as a list)
+- The base style standard: AP, Chicago, Guardian, or "general professional journalism" (default: AP)
+- The audience: general public, specialist/trade, or academic
+- Specific editorial concerns (e.g., "the middle section drags," "I'm not sure about the ending," "this was partly drafted with AI")
+- Whether the piece needs headlines (default: yes) — skip if the publication assigns headlines separately
+- Whether pull quotes are needed (default: yes for pieces over 800 words)
+- Word count target if the piece needs to hit a specific length
 
 ## Skills this agent composes
 
 | Step | Skill | What it produces | Condition |
 |------|-------|-----------------|-----------|
-| 1 | [structure-checker](../skills/magazine-journalism/editing/structure-checker/SKILL.md) | Structural map, issue diagnosis, suggested paragraph order | Always |
-| 2 | [copy-editor-assistant](../skills/magazine-journalism/editing/copy-editor-assistant/SKILL.md) | Tiered list of grammatical errors, style issues, and clarity suggestions | Always |
-| 3 | [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) | Categorised fact-checking checklist with verification questions and source recommendations | Always |
-| 4 | [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer/SKILL.md) | List of deviations from the stated house style with corrections | Only if house style rules are provided |
-| 5 | [headline-generator](../skills/magazine-journalism/ideation/headline-generator/SKILL.md) | 6–8 headline and subheadline options across registers | Always |
-| 6 | [pull-quote-selector](../skills/writing/articles/pull-quote-selector/SKILL.md) | 3–5 strongest pull quotes with rationale | Always |
-| 7 | [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) | Flagged AI-language tells with rewrites | Always, with intensity adjusted based on the draft's AI-flavour level |
+| 1 | [structure-checker](../skills/magazine-journalism/editing/structure-checker/SKILL.md) | Paragraph-by-paragraph structural map, flagged issues, suggested reorder | Always |
+| 2 | [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) | Clean rewrite with AI tells stripped, changes table, soft-warn flags | Only if the draft shows AI-register tells or the user flags AI involvement |
+| 3 | [copy-editor-assistant](../skills/magazine-journalism/editing/copy-editor-assistant/SKILL.md) | Tiered list of grammatical errors, style inconsistencies, and clarity fixes | Always |
+| 4 | [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer/SKILL.md) | Deviations list with corrected forms and rule citations | Only if house style rules are provided |
+| 5 | [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) | Prioritised fact-checking checklist with verification questions and source types | Always for reported pieces; skipped for pure opinion/commentary |
+| 6 | [headline-generator](../skills/magazine-journalism/ideation/headline-generator/SKILL.md) | 6–10 headline and dek options across registers and formats | Unless the user specifies headlines are not needed |
+| 7 | [pull-quote-selector](../skills/writing/articles/pull-quote-selector/SKILL.md) | 3–5 strongest pull quotes with attributions and rationale | Only for pieces over 800 words, unless user requests otherwise |
 
 ## How the agent works
 
 ### PLANNING mode
 
 When the agent receives a draft, it:
-1. Reads the full article and assesses the editorial dimensions that need attention — structure, copy, facts, style, presentation
-2. Decides whether to include step 4 (house-style-enforcer) based on whether the user provided style rules
-3. Gauges the draft's AI-language saturation to calibrate step 7 intensity
-4. Flags any information gaps that will limit specific steps (e.g., no house style provided, article type unclear)
-5. Presents a numbered plan showing each step, the skill it uses, what it will produce, and estimated issue density
-6. Waits for user approval before proceeding
+1. Reads the draft and identifies the article type, approximate word count, whether it contains AI-register tells, and whether it includes verifiable claims
+2. Determines which of the seven skills to invoke — all seven for a full feature with house style rules, fewer for a short opinion piece or a draft that reads cleanly
+3. Flags any information gaps that will affect specific steps — missing house style rules, no publication context for headlines, a piece too short for pull quotes
+4. Presents a numbered plan showing each step, the skill it uses, what it will produce, and which steps are conditional
+5. Waits for user approval before proceeding
 
 The plan output looks like this:
 ```
-EDITORIAL PLAN for "[article working title or first-line summary]"
+EDITORIAL PLAN for [article title or topic summary]
 
-Article type: [feature / profile / investigative / opinion / explainer / review]
-Publication context: [publication name or type]
-Draft length: [word count]
-Style standard: [AP / Chicago / Guardian / house style]
+Article type: [feature / news / investigative / profile / opinion / explainer]
+Word count: ~[X] words
+Style standard: [AP / Chicago / house style provided]
 
-Step 1: structure-checker — Structural map and reordering recommendations
-        Initial read suggests: [brief note on structural health]
-Step 2: copy-editor-assistant — Tiered copy edit (errors, inconsistencies, suggestions)
-Step 3: fact-check-prompt — Fact-checking checklist for all verifiable claims
-Step 4: house-style-enforcer — House style compliance check [INCLUDED / SKIPPED: no style guide provided]
-Step 5: headline-generator — 6–8 headline options across registers
-Step 6: pull-quote-selector — 3–5 pull quotes for layout
-Step 7: ai-writing-detox — AI-language scan and rewrites
-        AI-flavour level: [low / moderate / high]
+Step 1: structure-checker — Structural diagnosis and reorder recommendations
+Step 2: ai-writing-detox — Register cleanup [INCLUDED / SKIPPED: no AI tells detected]
+Step 3: copy-editor-assistant — Line-level copy edit against [style standard]
+Step 4: house-style-enforcer — House style compliance check [INCLUDED / SKIPPED: no house style provided]
+Step 5: fact-check-prompt — Fact-checking checklist [INCLUDED / SKIPPED: opinion piece with no reported elements]
+Step 6: headline-generator — Headline and dek options for [publication type]
+Step 7: pull-quote-selector — Pull quotes for layout [INCLUDED / SKIPPED: piece under 800 words]
 
-Information gaps:
-- [any missing inputs noted here]
+Gaps that may affect output quality:
+- [any missing inputs flagged here]
 
-Estimated output: A complete editor's package containing structural diagnosis,
-copy edit report, fact-check checklist, [house style report,] headline options,
-pull quotes, and AI-language cleanup — ready to hand to a section editor.
+Estimated output: A complete editorial package containing [list of deliverables].
+Each step builds on the previous — structural fixes inform the copy edit,
+the copy edit produces clean text for headline and pull quote selection.
 
 Approve this plan? (yes / adjust / skip steps)
 ```
@@ -106,96 +100,121 @@ Approve this plan? (yes / adjust / skip steps)
 ### EXECUTION mode
 
 After the user approves the plan, the agent:
-1. Runs structure-checker on the full draft and presents the structural map and recommendations — the user can choose to apply structural changes before continuing or proceed with the current draft
-2. Runs copy-editor-assistant on the draft (original or restructured, depending on step 1), using the stated style standard
-3. Runs fact-check-prompt to generate the verification checklist — flags this as a to-do list for a human fact-checker, not a completed fact-check
-4. If house style rules were provided, runs house-style-enforcer and merges any overlapping findings with the copy edit report (avoids flagging the same issue twice)
-5. Runs headline-generator using the article text and publication context to produce options across registers
-6. Runs pull-quote-selector on the article to identify the strongest passages for layout
-7. Runs ai-writing-detox, calibrated to the draft's AI-flavour level — light pass for lightly AI-touched drafts, aggressive rewrite suggestions for heavy AI prose
-8. Assembles all outputs into a single editor's package with a cover summary and a recommended action sequence
+1. Runs structure-checker on the full draft — presents the structural map, flagged issues, and suggested paragraph order. If the user wants to apply structural changes before proceeding, they can do so; otherwise the agent notes the recommendations and continues
+2. If included, runs ai-writing-detox on the draft (or on the restructured version if the user applied changes). Presents the rewrite, changes table, and soft-warn flags. The user can accept the rewrite, adjust specific changes, or keep the original
+3. Runs copy-editor-assistant on the current version of the text, using the specified style standard. Presents the tiered issue list. The user can apply corrections or note them for later
+4. If house style rules were provided, runs house-style-enforcer. Presents deviations and consistency issues
+5. If the piece contains reported elements, runs fact-check-prompt. Presents the prioritised checklist — the user takes this away to verify; the agent does not check facts itself
+6. Runs headline-generator using the article summary and publication context. Presents options across registers
+7. If the piece is long enough, runs pull-quote-selector on the final text. Presents 3–5 quotes with rationale
 
-The user can interrupt between any two steps to adjust direction, apply fixes from a previous step, or skip a step entirely.
+The agent assembles all outputs into a single editorial package. The user can interrupt between any two steps to adjust direction, apply changes from an earlier step, or skip a remaining step.
 
 ## Output format
-A single assembled document titled **EDITOR'S PACKAGE: [Article Title or Working Title]**, containing:
+A single assembled document titled **EDITORIAL PACKAGE: [Article Title or Topic]**, containing:
 
-1. **Cover Summary** (100–150 words) — what the package contains, the draft's overall editorial health, and the recommended order of action
-2. **Structural Diagnosis** — the structure-checker output: paragraph map, flagged issues, suggested order
-3. **Copy Edit Report** — the copy-editor-assistant output: tiered issue list with corrections and rationale
-4. **Fact-Check Checklist** — the fact-check-prompt output: categorised claims with verification questions (clearly marked as a to-do list, not a completed check)
-5. **House Style Report** — if applicable, the house-style-enforcer output (deduplicated against the copy edit report)
-6. **Headlines** — 6–8 headline and subheadline options
-7. **Pull Quotes** — 3–5 selected passages with rationale
-8. **AI-Language Report** — flagged tells and suggested rewrites from ai-writing-detox
-9. **Recommended Action Sequence** — a brief closing note advising: address structural issues first, then apply copy edits, then complete fact-checking, then select headline and pull quotes for layout
+1. **Editorial summary** (80–120 words) — what the package contains, which steps were run, and the overall editorial verdict on the draft's readiness
+2. **Structural diagnosis** — the structural map, flagged issues, and suggested paragraph order from step 1
+3. **Register cleanup** — if run: the ai-writing-detox rewrite, changes table, and soft-warn flags
+4. **Copy edit report** — the tiered issue list from step 3, with summary and readiness verdict
+5. **House style check** — if run: the deviations list and consistency notes from step 4
+6. **Fact-check checklist** — if run: the prioritised verification list from step 5
+7. **Headline options** — the headline and dek clusters from step 6, with register annotations
+8. **Pull quotes** — if run: the selected quotes with attributions and rationale from step 7
+9. **Next steps** — a closing note recommending the order of actions: apply structural changes first, then copy edits, then fact-check the high-priority items, then choose a headline and pull quotes for layout
 
-Total length: 1,500–3,500 words depending on the draft's issue density and length. Tone is professional and direct — reads like notes from a skilled section editor, not a software report.
+Total length: 2,000–5,000 words depending on the draft length and how many steps were included. Tone is direct and practical throughout — written for an editor who will sign off the piece, not a writer who needs encouragement.
 
 ## Quality criteria
 - [ ] Each skill output meets its own quality standard independently
-- [ ] The assembled package reads as a coherent editorial assessment, not a stack of separate tool outputs
-- [ ] Structural recommendations and copy edit flags do not contradict each other
-- [ ] The fact-check checklist is clearly labelled as a to-do list — the agent does not claim to have verified any facts
-- [ ] House style findings are deduplicated against copy edit findings — no issue flagged twice
-- [ ] Headlines are appropriate to the stated publication context and article type
-- [ ] Pull quotes are drawn from the actual draft text — no fabricated or paraphrased quotes
-- [ ] AI-language intensity is calibrated to the actual draft — light drafts get a light pass, not an overreaction
-- [ ] The recommended action sequence is specific to this draft's issues, not generic advice
-- [ ] Tone across the package is consistent — professional, direct, constructive
+- [ ] The assembled package reads as a coherent editorial workflow, not a stack of separate outputs
+- [ ] The structural diagnosis informs the copy edit — issues flagged in step 1 are not repeated as copy-edit items in step 3
+- [ ] AI-writing-detox (if run) preserves every fact, name, number, and quote from the original
+- [ ] The copy edit uses the correct style standard throughout — AP rules not applied when Chicago was specified
+- [ ] House style deviations cite the specific rule provided by the user, not generic style guidance
+- [ ] The fact-check checklist covers every verifiable claim — no claims omitted because they "seem obviously correct"
+- [ ] Headlines are calibrated to the specified publication type and do not fabricate claims beyond the article's content
+- [ ] Pull quotes are drawn from different sections of the article and do not reveal the conclusion
+- [ ] Tone, register, and terminology are consistent across all sections of the package
 - [ ] The agent stayed within its declared skills array — no undeclared skill invocations
 - [ ] Output is free of generic AI-template phrasing
+- [ ] Steps were correctly included or skipped based on the conditions in the skills table
+- [ ] The next-steps section gives specific, actionable recommendations — not generic editing advice
 
 ## Example
 
 ### Brief (user input)
-I have a 600-word feature draft about a community radio station that went off the air after forty years. It's for a regional magazine — mid-market, general audience, monthly print. The draft was written quickly and I think the structure might be off. We use AP style. No house style guide. I suspect there's some AI-ish language in there — a colleague used ChatGPT for part of the first draft.
+I have a 900-word feature about the last independent bookshop in a mid-sized English city. It's for a regional magazine — serious but warm, think a well-edited county magazine. The piece profiles the owner, has some quotes, and covers the economics of independent retail. I wrote it with some AI assistance and I'm not confident about the structure or the register. Here are our house style rules: single quotation marks for all direct quotes; dates in day-month-year format with no commas; job titles lowercase after names; "per cent" as two words; Oxford comma in lists of three or more.
+
+**Article type:** Feature
+**Style standard:** AP base with house style overrides (provided above)
 
 **Draft:**
 
-[1] In the heart of a small coastal community, WKRL-FM was more than just a radio station — it was the connective tissue that held the town together for over four decades.
+---
 
-[2] The station signed off for the last time on March 15, broadcasting its final segment to an audience that had been shrinking for years. Station manager Tom Oliveira, who had been with WKRL since 1998, described the final broadcast as "quiet — not dramatic. We played the last song, I said goodnight, and that was it."
+In today's rapidly changing retail landscape, independent bookshops face an unprecedented challenge. But one shop in the cathedral city of Dunminster is not just surviving — it is thriving, proving that bricks and mortar can still compete in the age of Amazon.
 
-[3] Founded in 1983 by a group of local educators and musicians, WKRL operated from a converted garage on Beachfront Road. It held an FCC community broadcasting license and ran on a combination of listener donations, local business sponsorships, and volunteer labor. At its peak in the early 2000s, the station had 35 regular volunteers and an estimated weekly listenership of 12,000.
+Elaine Woodward, Owner of The Barley Bookshop, has run the shop for twenty-three years. She took it over from her father, who opened the original premises on Castle Street in 1971. The shop moved to its current location on Minster Row in 2003, when the Castle Street building was sold to a chain pharmacy.
 
-[4] The decline was gradual. Podcast platforms and streaming services eroded the listener base. Younger volunteers stopped showing up. Sponsorship revenue fell by roughly 60% between 2015 and 2023. The station's annual fundraiser, which once raised $45,000, brought in just $11,000 last year.
+"People tell me bookshops are dying," Woodward said. "I tell them this one had its best year in 2024."
 
-[5] It's important to note that WKRL's closure is part of a broader national trend. According to the FCC, the number of licensed community radio stations in the United States has decreased by approximately 18 percent since 2010. Media analysts point to the same factors: listener migration to digital platforms, declining volunteer bases, and the difficulty of competing for local advertising dollars against social media.
+The economics of independent bookselling are challenging. Publishers' wholesale discounts have tightened over the past decade, from roughly 45 percent to between 35 and 40 percent for small retailers. Rents in Dunminster's commercial centre have risen by 18% since 2019, according to the local chamber of commerce. Woodward says her margins are thinner now than at any point in her tenure.
 
-[6] However, the loss of WKRL resonates on a deeply personal level for many residents. "That station was where I heard my first local news," said longtime listener Diane Crowell, 67. "It's not just about radio. It's about knowing your neighbor's voice."
+What keeps The Barley Bookshop viable is a business model that leverages multiple revenue streams. Woodward hosts author events — roughly 30 per year — charging a £5 entry fee that includes a £5 voucher redeemable against any purchase. She runs a children's reading group on Saturday mornings, a book club for adults on the first Wednesday of each month, and a subscription service that delivers a hand-picked book to local customers for £12.99 per month.
 
-[7] The station's equipment has been donated to a nearby high school's media program. The garage on Beachfront Road is currently for sale. Whether the community finds a new way to fill the silence remains to be seen.
+The shop also benefits from its position in a city that has lost most of its other independent retailers. "When the greengrocer closed and the record shop closed and the haberdashery closed, people started to notice," Woodward said. "They realised that if they didn't use this shop, it would go too."
+
+Footfall data from the Dunminster Business Improvement District shows that Minster Row's pedestrian traffic dropped by 14 percent between 2017 and 2022, but The Barley Bookshop's customer numbers rose by 9 percent over the same period. Woodward attributes this to the events programme and the subscription service, which bring people through the door who might not otherwise visit the high street.
+
+Not every independent bookshop has this option. Woodward acknowledges that her situation is specific: a freehold building inherited from her father, no commercial rent to pay, and a city with enough cultural infrastructure — a cathedral, a theatre, two schools — to sustain an events-driven model. "I'm not a template," she said. "I'm an exception that proves you need to find your own exception."
+
+The question for Dunminster is whether one bookshop can anchor a high street that has otherwise hollowed out. Woodward is cautiously optimistic. She has invested in a café space at the back of the shop, due to open in March 2026, which she hopes will increase dwell time and attract customers who might not come in for books alone.
+
+"A bookshop is a place," Woodward said. "That's the thing Amazon can't replicate. You can't browse a place that doesn't exist."
+
+---
 
 ### Plan (PLANNING mode output)
 
 ```
-EDITORIAL PLAN for "WKRL-FM community radio closure feature"
+EDITORIAL PLAN for "The Last Bookshop on the High Street"
 
 Article type: Feature
-Publication context: Regional magazine — mid-market, general audience, monthly print
-Draft length: ~600 words
-Style standard: AP
+Word count: ~910 words
+Style standard: AP base with house style overrides (5 rules provided)
 
-Step 1: structure-checker — Structural map and reordering recommendations
-        Initial read suggests: strong opening scene, but the middle
-        front-loads context before the human impact; ending is soft.
-Step 2: copy-editor-assistant — Tiered copy edit (errors, inconsistencies, suggestions)
-Step 3: fact-check-prompt — Fact-checking checklist for all verifiable claims
-Step 4: house-style-enforcer — SKIPPED: no house style guide provided
-Step 5: headline-generator — 6–8 headline options for regional magazine register
-Step 6: pull-quote-selector — 3–5 pull quotes for layout
-Step 7: ai-writing-detox — AI-language scan and rewrites
-        AI-flavour level: moderate (several tells detected in opening and para 5)
+Step 1: structure-checker — Structural diagnosis of the feature's architecture,
+        pacing, and paragraph order. Will evaluate against feature conventions
+        (narrative arc, scene-setting, tension and resolution).
 
-Information gaps:
-- No house style guide — copy edit will use AP standard only
-- No target word count specified — structural advice will assume
-  current length is approximately right
+Step 2: ai-writing-detox — Register cleanup. The opening paragraph contains
+        multiple hard-ban hits ("landscape," "unprecedented," "not just X — Y,"
+        "bricks and mortar... age of Amazon"). Full pass warranted.
 
-Estimated output: A complete editor's package containing structural
-diagnosis, copy edit report, fact-check checklist, headline options,
-pull quotes, and AI-language cleanup.
+Step 3: copy-editor-assistant — Line-level copy edit against AP with house
+        style overrides applied in Step 4.
+
+Step 4: house-style-enforcer — Compliance check against the 5 house style
+        rules provided (single quotes, day-month-year dates, lowercase titles,
+        "per cent," Oxford comma).
+
+Step 5: fact-check-prompt — Fact-checking checklist. The piece contains
+        statistical claims (wholesale discounts, rent increases, footfall data),
+        named sources, and institutional references that require verification.
+
+Step 6: headline-generator — Headline and dek options calibrated to a regional
+        magazine register (serious, warm, not tabloid).
+
+Step 7: pull-quote-selector — Pull quotes for layout. The piece is ~910 words
+        with several strong direct quotes from Woodward.
+
+Gaps that may affect output quality:
+- The magazine's name is not given — headline register will be calibrated
+  to "well-edited county magazine" as described in the brief.
+
+Estimated output: A seven-section editorial package covering structure,
+register, copy, house style, fact-checking, headlines, and pull quotes.
 
 Approve this plan? (yes / adjust / skip steps)
 ```
@@ -204,152 +223,243 @@ Approve this plan? (yes / adjust / skip steps)
 
 ---
 
-**EDITOR'S PACKAGE: WKRL-FM CLOSURE FEATURE**
+**EDITORIAL PACKAGE: THE LAST BOOKSHOP ON THE HIGH STREET**
 
 ---
 
-**Cover Summary**
+**Editorial Summary**
 
-This package covers a 600-word feature on the closure of WKRL-FM, a community radio station that broadcast for forty years. The draft has solid reporting — good quotes, specific data, clear narrative. Three areas need attention before it goes to layout: the structure front-loads background before the emotional turn, the opening paragraph carries several AI-language tells that undermine the voice, and the fact-check list has six claims that need verification against primary sources. Copy is clean by AP standards with a few corrections. Headlines and pull quotes are included for layout.
-
-**Recommended action sequence:** Fix the structural ordering first (one move), apply the AI-language rewrites, run through the copy edit corrections, then hand to a fact-checker with the checklist. Select a headline and pull quotes for layout once the text is finalised.
+This package covers a 910-word feature about The Barley Bookshop in Dunminster. All seven editorial steps were run. The draft has strong reporting and good quotes, but the opening paragraph is heavy with AI-register language and the structure front-loads economic context before establishing the human story. The copy is mostly clean with a handful of AP and house style issues. Eight claims require fact-checking, two at high priority. Three headline clusters and four pull quotes are provided for layout. Overall verdict: publishable after the structural adjustment, register cleanup on the opening, and Tier 1 copy corrections. One editing pass, not a rewrite.
 
 ---
 
-**Structural Diagnosis**
+**1. Structural Diagnosis**
 
 **Structural Map**
-- Para 1: Scene-setting — establishes WKRL's role in the community (framing statement)
-- Para 2: Narrative event — the final broadcast, with source quote from station manager
-- Para 3: Background — founding history, operations, peak figures
-- Para 4: Decline narrative — specific data on the erosion of listeners, volunteers, revenue
-- Para 5: Contextualisation — national trend data, FCC statistics
-- Para 6: Emotional impact — resident's quote on personal loss
-- Para 7: Coda — equipment donated, building for sale, open question
+- Para 1: Scene-setting — positions the piece in a retail-decline narrative (AI-register framing)
+- Para 2: Character introduction — Elaine Woodward, background, shop history
+- Para 3: Quote — Woodward's best-year claim, creates surprise
+- Para 4: Economic context — publisher discounts, rent, margins
+- Para 5: Business model — events, book club, subscription service
+- Para 6: Community context — loss of other independents, quote from Woodward
+- Para 7: Data — footfall vs. customer numbers, Woodward's explanation
+- Para 8: Qualification — Woodward's specific advantages (freehold, no rent)
+- Para 9: Forward-looking — café investment, cautious optimism
+- Para 10: Closing quote — "A bookshop is a place"
 
 **Issues & Recommendations** (ordered by priority)
 
-1. **Para 6 arrives too late.** The human-impact quote from Diane Crowell is the emotional core of the piece, but it sits after three consecutive context paragraphs (3, 4, 5). By the time the reader reaches Crowell's voice, the feature reads like a report, not a story. → **Move para 6 to follow para 2.** This places both human voices together (Oliveira's farewell, Crowell's loss) before the background and data. The reader connects emotionally first, then absorbs the context with stakes already established.
+1. **Opening paragraph is generic framing, not scene-setting.** The feature opens with "In today's rapidly changing retail landscape" — an abstract claim about the sector, not a scene. The reader meets the subject in para 2 and gets the surprise in para 3. For a character-led feature, the reader should meet Woodward sooner. → **Move para 3 to the top** ("People tell me bookshops are dying. I tell them this one had its best year in 2024.") as the opening line, then introduce Woodward in the current para 2. Cut or radically rewrite para 1 — the retail-decline context can be folded into para 4 or para 6 where it has more force.
 
-2. **Para 5 is expendable or should be trimmed.** The national trend context is useful but interrupts the article's local focus. At 600 words, spending 90 words on FCC statistics dilutes the piece. → **Cut para 5 to two sentences maximum** and fold it into para 4 as a brief national-trend aside, or move it to a sidebar/fact box if the layout supports one.
+2. **Economic context front-loaded before the reader is invested.** Paras 4–5 deliver dense economic data (wholesale discounts, rent, margins, revenue streams) before the community story in para 6. The data is more meaningful after the reader understands why this shop matters to Dunminster. → **Move para 6 ("When the greengrocer closed...") to follow para 3**, then place paras 4–5 after it. This creates: human story → community stakes → economic detail → business model — a sequence that earns the reader's attention before spending it on numbers.
 
-3. **Para 7 ending is soft.** "Whether the community finds a new way to fill the silence remains to be seen" is a cliché closer. The equipment donation and building sale are strong concrete details — let the image carry the ending instead of the rhetorical question. → **End on the image.** "The garage on Beachfront Road is for sale" is a stronger final sentence than the current one.
+3. **No issue with paras 8, 9, or 10.** The qualification, forward-looking section, and closing quote are correctly positioned in the final act.
 
-**Suggested Paragraph Order:** 1, 2, 6, 3, 4 (absorbing trimmed 5), 7 (revised ending)
+**Suggested Paragraph Order:** 3, 2, 6, 4, 5, 7, 8, 9, 10 (para 1 cut or rewritten as transition)
 
-**Overall Assessment:** Good material, but the structure buries the emotional turn under context. One reordering move and a trimmed ending transform the pacing.
-
----
-
-**Copy Edit Report**
-
-*Style standard: AP | Draft stage: first draft*
-
-1. **[Tier 1] Para 2:** "March 15" → "March 15, 2024" (or the correct year) — *AP requires the year when the date is not in the current calendar week; a magazine feature read months later needs the year for clarity.*
-
-2. **[Tier 1] Para 3:** "Founded in 1983 by a group of local educators and musicians, WKRL operated from a converted garage" — *No error, but verify the founding year against the "four decades" claim in para 1. 1983 to 2024 is 41 years — consistent. If the sign-off was in 2025, this becomes 42 years and "four decades" still holds.*
-
-3. **[Tier 1] Para 5:** "United States" — *AP style: spell out on first reference (correct here). Verify consistency if "U.S." appears elsewhere in the full piece.*
-
-4. **[Tier 2] Para 4:** "60%" → "60 percent" — *AP spells out "percent" rather than using the % symbol in running text.*
-
-5. **[Tier 2] Para 4:** "$45,000" and "$11,000" — *AP uses the $ sign with numerals (correct), but verify comma placement is consistent with any other dollar figures in the full piece.*
-
-6. **[Tier 3] Para 7:** "currently for sale" → "for sale" — *"Currently" is redundant in a present-tense sentence; cutting it tightens the sentence.*
-
-**Summary:** 3 Tier 1 items, 2 Tier 2 items, 1 Tier 3 suggestion. The draft is clean — issues are mostly style-standard compliance and one date verification. Ready for submission after corrections.
+**Overall Assessment:** Strong material, wrong sequence. The opening paragraph is the weakest in the piece and the strongest material (Woodward's voice, the community story) is buried behind generic framing and economic data. One structural move — leading with the quote and the person — transforms the pacing.
 
 ---
 
-**Fact-Check Checklist**
+**2. Register Cleanup (AI Writing Detox)**
 
-*Status: TO-DO LIST — no claims have been verified. A human fact-checker must complete this list before publication.*
+**Rewrite of affected passages:**
 
-| # | Claim | Type | Priority | Verification question | Recommended source |
-|---|-------|------|----------|----------------------|-------------------|
-| 1 | Station signed off March 15 | Date | High | What was the exact date of WKRL's final broadcast? | Station records, local news coverage of the event |
-| 2 | Tom Oliveira with WKRL since 1998 | Attribution | High | When did Oliveira join the station? | Oliveira directly, station employment records |
-| 3 | Founded in 1983 | Date | High | When was WKRL founded? | FCC license records, station archives |
-| 4 | 35 regular volunteers at peak | Statistic | Medium | What was the peak volunteer count and when? | Station records, Oliveira or founding members |
-| 5 | Weekly listenership of 12,000 at peak | Statistic | Medium | What was peak listenership and how was it measured? | Arbitron/Nielsen data, station pledge drive figures |
-| 6 | Sponsorship revenue fell ~60% between 2015 and 2023 | Statistic | High | What were actual sponsorship revenue figures for 2015 and 2023? | Station financial records |
-| 7 | Annual fundraiser raised $45,000 (peak) and $11,000 (last year) | Statistic | High | What were actual fundraiser totals? Which years? | Station financial records |
-| 8 | FCC: community radio stations decreased ~18% since 2010 | Statistic | High | Does the FCC publish this figure? What is the exact number? | FCC annual reports, FCC database |
-| 9 | Diane Crowell, 67 | Attribution | Medium | Is the name spelled correctly? Is the age accurate? | Crowell directly |
-| 10 | Equipment donated to nearby high school's media program | Fact | Medium | Which high school? Was the donation completed? | School district, Oliveira |
+The only paragraph requiring a full rewrite is para 1. The rest of the draft reads in a natural editorial register.
 
-**Note:** Claims 6, 7, and 8 are the highest-risk items. Revenue percentages and FCC trend data are the kind of figures that get challenged by readers and picked up by corrections desks.
+> **Original (para 1):** In today's rapidly changing retail landscape, independent bookshops face an unprecedented challenge. But one shop in the cathedral city of Dunminster is not just surviving — it is thriving, proving that bricks and mortar can still compete in the age of Amazon.
 
----
+> **Rewrite:** Cut entirely. If a scene-setting transition is needed between the opening quote and Woodward's introduction, try: "The Barley Bookshop on Minster Row in Dunminster is one of the last independent bookshops in the county." One sentence, no framing, no claim beyond what the piece will demonstrate.
 
-**Headlines**
+**Changes:**
 
-*Publication context: regional magazine, general audience, monthly print*
+| Original | Replacement | Lens |
+|---|---|---|
+| `In today's rapidly changing retail landscape` | (cut) | Cut the meta |
+| `unprecedented challenge` | (cut — the challenge is described concretely in paras 4–5) | Honest hedging |
+| `not just surviving — it is thriving` | (cut — false-pivot construction) | Plain-language default |
+| `bricks and mortar can still compete in the age of Amazon` | (cut — cliché pairing) | Reader respect |
 
-1. **Forty Years of Static** — *Metaphor: captures both the radio medium and the end-state. Works for a feature layout with a strong photo.*
-2. **The Last Song on WKRL** — *Narrative: references the final-broadcast moment from the draft. Warm, specific.*
-3. **Off the Air** — *Short, declarative. Works well as a section-front headline with a subhead carrying the detail.*
-4. **When the Station Went Quiet** — *Scene-setting. Suits the feature register. Pairs with a subhead like: "WKRL-FM broadcast for four decades. Then the money ran out."*
-5. **Dead Air** — *Industry term repurposed. Punchy for a younger-skewing publication. Might be too blunt for the tone of the piece.*
-6. **A Town Loses Its Voice** — *Thematic. Connects to Crowell's quote about "knowing your neighbor's voice." Strong if the piece is positioned as a community-impact story.*
+**Additional flag (para 5):** `leverages multiple revenue streams` → `draws on several income sources` — `leverage` is a hard-ban term; `revenue streams` is corporate register for a county magazine feature.
 
-**Subheadline options** (to pair with any of the above):
-- WKRL-FM broadcast to a coastal town for forty years. Its silence says as much as its signal ever did.
-- A community radio station signs off after four decades — and a town reckons with what filled the gap.
+**Soft-warn flags:**
+- Para 4: "The economics of independent bookselling are challenging" — throat-clearing opener. Consider cutting the sentence and leading directly with the data: "Publishers' wholesale discounts have tightened..."
 
 ---
 
-**Pull Quotes**
+**3. Copy Edit Report**
 
-1. **"We played the last song, I said goodnight, and that was it."** — Tom Oliveira, station manager. *Rationale: The understatement carries weight. A reader scanning the page stops here because the simplicity is unexpected — no drama, no farewell speech, just a quiet ending.*
+*Style standard: AP base | Draft stage: near-final*
 
-2. **"It's not just about radio. It's about knowing your neighbor's voice."** — Diane Crowell, listener. *Rationale: This is the thematic line of the whole piece. It reframes the story from industry decline to community loss in one sentence.*
+1. **[Tier 1] Para 2:** "Elaine Woodward, Owner of The Barley Bookshop" → "Elaine Woodward, owner of the Barley Bookshop" — *AP: job titles lowercase after a name. House style rule 3 confirms.*
 
-3. **"The station's annual fundraiser, which once raised $45,000, brought in just $11,000 last year."** — *Rationale: The contrast between the two numbers tells the decline story in a single data point. Works well as a pull quote because it needs no context — the gap speaks for itself.*
+2. **[Tier 1] Para 4:** "18%" → "18 per cent" — *House style: "per cent" as two words. AP would use "percent" but house style overrides.*
+
+3. **[Tier 2] Para 4:** "45 percent" / "35 and 40 percent" — inconsistent with house style "per cent" used elsewhere. Correct all instances to "per cent."
+
+4. **[Tier 1] Para 3:** `"People tell me bookshops are dying," Woodward said.` — *House style rule 1: single quotation marks. All direct quotes in the piece use double quotes and must be converted.*
+
+5. **[Tier 2] Paras 3, 6, 8, 10:** All direct quotes use double quotation marks. Convert all to single quotation marks per house style.
+
+6. **[Tier 3] Para 5:** "roughly 30 per year" — consider "about 30 a year" for a warmer register in a county magazine feature. Not an error.
+
+7. **[Tier 1] Para 5:** "a £5 entry fee that includes a £5 voucher" — not a copy error, but verify this is correct. If the entry fee equals the voucher, the event is effectively free with a purchase. Flag for fact-check.
+
+8. **[Tier 2] Para 5:** "a children's reading group on Saturday mornings, a book club for adults on the first Wednesday of each month, and a subscription service" — Oxford comma present and correct per house style rule 5.
+
+9. **[Tier 3] Para 9:** "due to open in March 2026" — verify whether "March 2026" is still accurate at publication date. If the magazine publishes after March 2026, this sentence will read as a missed deadline or an already-happened event.
+
+**Summary**
+
+4 Tier 1 items (must correct), 3 Tier 2 items (verify consistency), 2 Tier 3 items (optional). The draft is clean at the sentence level — the main issues are house style compliance (quotation marks, "per cent") rather than grammar or clarity.
+
+---
+
+**4. House Style Check**
+
+**Deviations**
+
+1. **Paras 3, 6, 8, 10:** Double quotation marks on all direct quotes → single quotation marks — *Rule 1.*
+2. **Para 4:** `18%` → `18 per cent` — *Rule 5: "per cent" as two words. Also violates the "no %" convention.*
+3. **Para 4:** `45 percent` → `45 per cent`; `35 and 40 percent` → `35 and 40 per cent` — *Rule 5.*
+4. **Para 2:** `Owner of The Barley Bookshop` → `owner of the Barley Bookshop` — *Rule 3: job titles lowercase after names.*
+
+**Consistency Check**
+- *Quotation marks (Rule 1):* Consistently double throughout — consistent but consistently wrong. This writer defaults to double quotes.
+- *"Per cent" (Rule 5):* Mixed — "percent" in para 4, "%" also in para 4. Inconsistent and both wrong per house style.
+
+**Rules Checked With No Deviations Found**
+- Rule 2 (day-month-year dates): No dates appear in a format that violates this rule. "March 2026" in para 9 is month-year only, which is acceptable.
+- Rule 6 (Oxford comma): Correctly used in para 5's list of three items.
 
 ---
 
-**AI-Language Report**
+**5. Fact-Check Checklist**
 
-*AI-flavour level: moderate. Two passages carry recognisable LLM tells; the rest of the draft reads naturally.*
+**HIGH PRIORITY**
 
-| # | Location | Flagged text | Issue | Suggested rewrite |
-|---|----------|-------------|-------|-------------------|
-| 1 | Para 1 | "In the heart of a small coastal community" | Stock LLM scene-setter. "In the heart of" is one of the most common AI opening phrases. | "On Beachfront Road in [town name]" — anchor to the specific location named later in the draft. |
-| 2 | Para 1 | "was more than just a radio station — it was the connective tissue that held the town together" | "More than just X — it was Y" is a signature AI rhetorical structure. "Connective tissue" is a mixed metaphor applied to a radio station. | "WKRL-FM was the town's radio station for forty-one years. For most of that time, it was also its public square." — State the fact, then the metaphor. |
-| 3 | Para 5 | "It's important to note that" | Throat-clearing filler. Adds no information. | Delete. Start the sentence at "WKRL's closure is part of..." |
-| 4 | Para 6 | "resonates on a deeply personal level" | Vague intensifier chain. "Deeply personal level" is the kind of phrase that sounds meaningful but communicates nothing specific. | "matters to residents who grew up with the station" — concrete, tied to what Crowell actually says. |
-| 5 | Para 7 | "Whether the community finds a new way to fill the silence remains to be seen" | Stock AI closer. "Remains to be seen" is a non-ending. | Cut the sentence. End on "The garage on Beachfront Road is for sale." — The image is the ending. |
+1. **Claim:** "Publishers' wholesale discounts have tightened over the past decade, from roughly 45 per cent to between 35 and 40 per cent for small retailers"
+   **Check:** Are these discount ranges accurate for UK independent booksellers? The Booksellers Association or Publishers Association may have published data.
+   **Source type:** Trade body reports; Independent Publishers Guild data.
 
-**Assessment:** Five flags, concentrated in the opening and closing. The middle of the draft (paras 2–4) reads like a journalist wrote it — specific, data-grounded, source-attributed. The opening and closing read like an LLM framed the piece around the reporter's material. Applying these five rewrites brings the whole draft into the same register.
+2. **Claim:** "Rents in Dunminster's commercial centre have risen by 18 per cent since 2019, according to the local chamber of commerce"
+   **Check:** Verify the 18 per cent figure and the attribution. Is there a named report or press release from the Dunminster chamber?
+   **Source type:** Dunminster Chamber of Commerce — request the specific data source.
+
+3. **Claim:** "Footfall data from the Dunminster Business Improvement District shows that Minster Row's pedestrian traffic dropped by 14 per cent between 2017 and 2022, but The Barley Bookshop's customer numbers rose by 9 per cent over the same period"
+   **Check:** Two figures from two different sources — verify both. Is the BID data publicly available? Are Woodward's customer figures from her own records?
+   **Source type:** Dunminster BID for footfall; Woodward's own records for customer numbers. Clarify attribution in the text.
+
+**MEDIUM PRIORITY**
+
+4. **Claim:** Woodward's father "opened the original premises on Castle Street in 1971"
+   **Check:** Confirm the year and the street with Woodward. Local newspaper archive may corroborate.
+   **Source type:** Direct confirmation with source; local archive.
+
+5. **Claim:** "a £5 entry fee that includes a £5 voucher redeemable against any purchase"
+   **Check:** Is this the current pricing? Confirm the voucher mechanism with Woodward.
+   **Source type:** Direct confirmation; event listing if available.
+
+6. **Claim:** "a subscription service that delivers a hand-picked book to local customers for £12.99 per month"
+   **Check:** Confirm the current price. Subscription pricing changes frequently.
+   **Source type:** The Barley Bookshop website or direct confirmation.
+
+7. **Claim:** Café space "due to open in March 2026"
+   **Check:** Is this date still accurate? If the publication date is near or after March 2026, confirm the café has opened or update the language.
+   **Source type:** Direct confirmation with Woodward.
+
+**LOW PRIORITY**
+
+8. **Claim:** "cathedral city of Dunminster"
+   **Check:** Confirm Dunminster has a cathedral and holds city status. (If fictional, note for the editor.)
+   **Source type:** Public record.
+
+**Summary**
+
+8 claims flagged: 3 High Priority, 4 Medium, 1 Low. Estimated checking time: 2–3 hours. Structural concern: the footfall-vs-customer-numbers comparison (item 3) uses two different data sources — the article should make the attribution clearer so the reader knows which figure comes from which source.
 
 ---
 
-**Recommended Action Sequence**
+**6. Headline Options**
 
-1. **Structure first.** Move para 6 (Crowell quote) to follow para 2. Trim para 5 and fold into para 4. Revise para 7 ending. This takes ten minutes and transforms the pacing.
-2. **AI-language cleanup.** Apply the five rewrites from the AI-Language Report — particularly the opening paragraph, which is the first thing a reader and an editor see.
-3. **Copy edit corrections.** Work through the six items in document order. The date verification (item 1) should happen at the same time as fact-checking.
-4. **Fact-checking.** Hand the checklist to a fact-checker or work through it yourself. Prioritise the revenue and FCC statistics (items 6, 7, 8) — these are the claims most likely to draw a correction.
-5. **Layout decisions.** Select a headline and pull quotes once the text is finalised. "The Last Song on WKRL" paired with the Crowell pull quote is the strongest combination for a feature layout.
+**Direct / News Register**
+
+1. **The Last Bookshop on the High Street**
+*Dek: In Dunminster, every other independent retailer has closed. Elaine Woodward's shop just had its best year.*
+*(Best for: print cover or section opener; clear, earns the reader without overselling)*
+
+2. **How One Bookshop Outlasted an Entire High Street**
+*Dek: Dunminster has lost its greengrocer, its record shop, and its haberdashery. The Barley Bookshop is still here — and expanding.*
+*(Best for: digital; SEO-aware; action verb in the head)*
 
 ---
+
+**Analytical / Warm Register**
+
+3. **A Bookshop Is a Place**
+*Dek: Elaine Woodward has run the Barley Bookshop for twenty-three years. She is not a template for saving the high street. She is an exception — and she knows it.*
+*(Best for: print feature; literary register; uses Woodward's own words)*
+
+4. **Twenty-Three Years on Minster Row**
+*Dek: The independent shops around her closed one by one. Elaine Woodward stayed, adapted, and is now building a café at the back.*
+*(Best for: county magazine print; quiet confidence; rewards local readers who know the street)*
+
+---
+
+**Short Form**
+
+5. **The Exception** *(Cover line; requires dek for context)*
+6. **Best Year Yet** *(Social card; punchy, positive, invites the click)*
+
+---
+
+*Notes: Options 3 and 4 best suit the warm-serious register of a county magazine. Option 1 is the safest all-purpose choice. Option 2 works for a digital version or newsletter teaser.*
+
+---
+
+**7. Pull Quotes**
+
+**1.** 'People tell me bookshops are dying. I tell them this one had its best year in 2024.'
+*Attribution: Elaine Woodward, owner of the Barley Bookshop*
+*Why it works: Self-contained, punchy, and immediately creates a question — how? Sets up the whole article in two sentences without giving the answer away.* (88 characters)
+
+**2.** 'When the greengrocer closed and the record shop closed and the haberdashery closed, people started to notice. They realised that if they didn't use this shop, it would go too.'
+*Attribution: Elaine Woodward*
+*Why it works: The repetition of "closed" builds rhythm and emotional weight. The second sentence turns the reader from observer to participant — it implicates the community in the shop's survival.* (174 characters)
+
+**3.** 'I'm not a template. I'm an exception that proves you need to find your own exception.'
+*Attribution: Elaine Woodward*
+*Why it works: Undercuts any temptation to read this as a how-to. Honest, self-aware, and structurally tight — works as a standalone quote card.* (85 characters)
+
+**4.** 'A bookshop is a place. That's the thing Amazon can't replicate. You can't browse a place that doesn't exist.'
+*Attribution: Elaine Woodward*
+*Why it works: The closing quote of the article, but it functions independently as a statement about physical retail. Strong enough for a cover pull quote or social card.* (108 characters)
+
+---
+
+**Next Steps**
+
+1. **Structure first.** Lead with the "bookshops are dying" quote (current para 3), introduce Woodward second, then the community story (current para 6). Cut or rewrite para 1 — it is the weakest sentence in the piece.
+2. **Register cleanup.** Apply the ai-writing-detox changes to para 1 and the "leverages" fix in para 5. One pass, five minutes.
+3. **Copy corrections.** Convert all double quotation marks to single (house style), change all "percent"/% to "per cent," lowercase "Owner." These are mechanical — 15 minutes.
+4. **Fact-check the high-priority items.** Start with the wholesale discount figures (item 1) and the footfall-vs-customer comparison (item 3) — these are the claims that carry the argument. Estimated: 2–3 hours.
+5. **Choose a headline.** Options 3 or 4 best suit the publication's register. Send to the editor with the dek.
+6. **Select pull quotes for layout.** Quotes 1 and 3 are the strongest pair — one opens the story, the other complicates it.
 
 ## Known limitations
-- The agent runs each skill on the draft text provided. If the user applies structural changes after step 1, subsequent skills still analyse the original draft unless the user provides the revised version. For the best results, apply structural fixes before proceeding — or accept that the copy edit and fact-check will reference original paragraph numbers.
-- The fact-check step produces a checklist, not a completed fact-check. The agent cannot verify claims against external sources. A human fact-checker must complete the checklist before publication.
-- House style enforcement requires the user to provide the specific style rules. Without them, the agent applies AP Style or another standard, which may not match the publication's preferences on matters like Oxford commas, capitalisation of job titles, or number thresholds.
-- The AI-language scan is calibrated by the agent's assessment of the draft's AI-flavour level. A draft with subtle AI influence may receive a lighter pass than warranted. If you know the draft was AI-generated or heavily AI-assisted, say so in the brief to trigger a more aggressive scan.
-- Pull quote selection works best on features of 800+ words. For shorter pieces, fewer pull quotes may be viable for layout — the agent may return only 2–3 selections.
-- The agent produces editorial diagnostics, not final copy. The output is a working document for an editor, not a finished article. The editor makes the final decisions.
+- The agent runs skills in sequence, and each skill sees the draft as provided — not as modified by earlier steps. If the structure-checker recommends reordering paragraphs, the copy-editor-assistant still edits the original paragraph order. The user must apply structural changes between steps for downstream skills to benefit from them.
+- House-style-enforcer requires the user to provide the rules. Without a style sheet, this step is skipped entirely. The agent cannot infer house style from a publication name alone.
+- The fact-check-prompt produces a checklist, not verified facts. No claims are checked against external sources — the human must execute every verification.
+- AI-writing-detox works on language register, not AI-generated facts. A draft that reads naturally but contains hallucinated statistics will pass the detox step without flagging the invented data. Always run fact-check-prompt on AI-assisted drafts.
+- Pull-quote-selector works only on articles with strong quotable material. Data-heavy pieces with few direct quotes may not yield usable pull quotes — consider a data callout or statistic panel instead.
+- The agent produces a diagnostic package, not a finished article. The editor must apply the recommended changes, verify the facts, and make final judgment calls. The package is a first-pass tool, not a replacement for editorial judgment.
 
 ## Related agents and skills
-- [documentary-development-agent](../agents/documentary-development-agent.md) — produces pitch packages for documentaries; different workflow, similar quality standard
-- [investigative-reporter-agent](../agents/investigative-reporter-agent.md) — covers investigation and reporting; the magazine-editor-agent covers editing after the reporting is done
-- [structure-checker](../skills/magazine-journalism/editing/structure-checker/SKILL.md) — standalone structural diagnosis
-- [copy-editor-assistant](../skills/magazine-journalism/editing/copy-editor-assistant/SKILL.md) — standalone copy edit
-- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) — standalone fact-check checklist
-- [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer/SKILL.md) — standalone house style enforcement
-- [headline-generator](../skills/magazine-journalism/ideation/headline-generator/SKILL.md) — standalone headline generation
-- [pull-quote-selector](../skills/writing/articles/pull-quote-selector/SKILL.md) — standalone pull quote selection
-- [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) — standalone AI-language cleanup
+- [documentary-development-agent](../agents/documentary-development-agent.md) — agent for documentary pitch packages, different deliverable and skills set
+- [structure-checker](../skills/magazine-journalism/editing/structure-checker/SKILL.md) — standalone skill for users who need only a structural diagnosis
+- [copy-editor-assistant](../skills/magazine-journalism/editing/copy-editor-assistant/SKILL.md) — standalone skill for users who need only a copy edit
+- [fact-check-prompt](../skills/magazine-journalism/editing/fact-check-prompt/SKILL.md) — standalone skill for users who need only a fact-check checklist
+- [house-style-enforcer](../skills/magazine-journalism/editing/house-style-enforcer/SKILL.md) — standalone skill for users who need only a house style check
+- [headline-generator](../skills/magazine-journalism/ideation/headline-generator/SKILL.md) — standalone skill for users who need only headline options
+- [pull-quote-selector](../skills/writing/articles/pull-quote-selector/SKILL.md) — standalone skill for users who need only pull quotes
+- [ai-writing-detox](../skills/editing/ai-writing-detox/SKILL.md) — standalone skill for users who need only an AI-register cleanup
