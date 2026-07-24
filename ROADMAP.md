@@ -201,7 +201,7 @@ The peer library is a useful mirror. These are the things we deliberately did NO
 ### investigation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | ✅ stable (4.5/5) ↻ refactor planned (see *Refactor Targets*) |
+| foia-request-writer | Draft legally complete public records requests (federal FOIA + all 50 state laws), administrative appeals, and redaction challenge strategies | ✅ stable (4.81/5) |
 | source-research-brief | Produce a structured research brief on a potential source before an interview | ✅ stable (4.4/5) |
 | expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | ✅ stable (4.3/5) |
 | document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | ✅ stable (4.5/5) |
@@ -704,16 +704,16 @@ Specialist orchestrators that compose multiple skills into multi-step deliverabl
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
 | documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | ✅ stable (4.81/5) ([AUT-22](/AUT/issues/AUT-22)) |
-| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔵 beta ([AUT-23](/AUT/issues/AUT-23)) |
+| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | ✅ stable (4.96/5) ([AUT-23](/AUT/issues/AUT-23)) |
 
-### planned (held until pilots prove the pattern)
+### production
 
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
-| magazine-editor-agent | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | End-to-end editing pass on a submitted draft | 🔲 planned |
-| youtube-channel-operator-agent | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | Full video pipeline from topic to publish-ready package | 🔲 planned |
-| podcast-producer-agent | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | Episode end-to-end | 🔲 planned |
-| pr-crisis-response-agent | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | Crisis response package | 🔲 planned |
+| magazine-editor-agent | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | End-to-end editing pass on a submitted draft | ✅ stable (4.96/5) |
+| youtube-channel-operator-agent | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | Full video pipeline from topic to publish-ready package | ✅ stable (4.48/5) |
+| podcast-producer-agent | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | Episode end-to-end | ✅ stable (4.78/5) |
+| pr-crisis-response-agent | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | Crisis response package | ✅ stable (4.56/5) |
 
 ---
 
