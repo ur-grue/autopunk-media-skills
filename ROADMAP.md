@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 394 stable skills · 20 locale variants · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 414 total skill files
+**Summary:** 394 stable skills · 30 locale variants (DE/ES/FR) · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 424 total skill files
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -50,7 +50,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 **Community:**
 - [x] "Good first issue" labels + 5 starter issues (#29–#33) — completed 2026-07-24
 - [ ] First external PRs
-- [ ] Localized skill variants (DE, FR, ES) for European broadcasters
+- [x] Localized skill variants (DE, FR, ES) for European broadcasters — 10 skills per language, 30 total — completed 2026-07-24
 
 ---
 
