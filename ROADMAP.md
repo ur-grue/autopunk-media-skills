@@ -38,8 +38,8 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [x] Role→Agent UX fix (role pages show agents, not just skills) — completed 2026-07-24
 
 **Depth & quality:**
-- [ ] Refactor: deepen foia-request-writer (50-state statute table, federal template, appeal template)
-- [ ] Integrate Scoop review notes into youtube and podcast agents
+- [x] Refactor: deepen foia-request-writer (50-state table, federal template, appeal template, redaction analysis) — v2.0, 4.81/5 G-Eval — completed 2026-07-24
+- [x] Integrate Scoop review notes into youtube and podcast agents — competitive review, title-first, pre-interview brief, recording consent — completed 2026-07-24
 - [ ] Expanded test inputs for top 50 skills
 
 **Infrastructure:**
