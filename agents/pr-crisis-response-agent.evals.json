@@ -1,0 +1,60 @@
+{
+  "agent_name": "pr-crisis-response-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.56,
+  "editorial_naturalness_mean": 4.00,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Greenfield Foods undeclared allergen recall — mid-sized food manufacturer, FSA-notified voluntary recall, full 7-step pipeline with proactive media outreach and press release — existing example",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Two minor tells — one stock crisis phrase and one boilerplate internal-memo close; otherwise the package inhabits each document's genre conventions with precision, particularly the spokesperson landmines which read as operational comms advice rather than template output.",
+      "case_mean": 4.78
+    },
+    {
+      "id": 2,
+      "brief_summary": "NovaPay fintech data breach — 12,000 customer records accessed, ICO notified, CEO as spokesperson, no proactive media outreach (minimize attention), press release warranted — simulated deliverable",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One mildly aphoristic line in the FAQ ('Trust is rebuilt through actions'); otherwise the data-breach register is inhabited correctly, with the spokesperson landmines standing out as genuine communications craft.",
+      "case_mean": 4.56
+    },
+    {
+      "id": 3,
+      "brief_summary": "Westgate University research fraud allegations — professor accused by former PhD students on social media, internal investigation underway, Vice-Chancellor as spokesperson, proactive media outreach, no press release — simulated deliverable",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 3,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Two stock institutional phrases ('committed to maintaining the highest standards,' 'we take all concerns seriously') that are genre conventions but also AI defaults; the internal memo's pre-emptive defense of the 'cannot comment' constraint is the strongest piece of editorial craft.",
+      "case_mean": 4.33
+    }
+  ]
+}

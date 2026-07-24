@@ -1,9 +1,9 @@
 ---
 name: youtube-channel-operator-agent
 type: agent
-status: draft
+status: stable
 version: 1.0
-eval_score: null
+eval_score: 4.48
 maxTurns: 25
 allowedTools:
   - Read

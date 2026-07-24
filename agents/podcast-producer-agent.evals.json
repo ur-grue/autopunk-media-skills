@@ -1,0 +1,60 @@
+{
+  "agent_name": "podcast-producer-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.78,
+  "editorial_naturalness_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Tech podcast 'Build Mode' interview with Priya Sharma (bootstrapped SaaS founder), conversational/direct tone, two sponsors, 50 minutes — existing example",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One slightly theatrical question framing ('the question you have not answered publicly') that reads more written than spoken; otherwise the package inhabits each section's genre conventions with precision, particularly the ad reads.",
+      "case_mean": 4.89
+    },
+    {
+      "id": 2,
+      "brief_summary": "History podcast 'The Long Game' solo episode on Japan's Shinkansen, analytical/storytelling tone, no sponsors, 25 minutes — simulated deliverable, solo-episode-script path",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One repeated construction across episode descriptions ('This episode traces...'); otherwise the outline transitions demonstrate strong spoken-register craft.",
+      "case_mean": 4.78
+    },
+    {
+      "id": 3,
+      "brief_summary": "Wellness podcast 'Held Space' interview with therapist Dr. Amara Osei, intimate tone, concept generation required, one sponsor (Calm), 40 minutes — simulated deliverable, full pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 4,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Repeated 'permission gap' phrasing across sections and uniform 4-4-4-4 question distribution; otherwise the package inhabits the intimate wellness-podcast register with notable precision.",
+      "case_mean": 4.67
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
 name: pr-crisis-response-agent
 type: agent
-status: draft
+status: stable
 version: 1.0
-eval_score: null
+eval_score: 4.56
 maxTurns: 25
 allowedTools:
   - Read
