@@ -86,6 +86,14 @@ Every skill is a plain markdown prompt file — there's nothing to compile and n
 
 Claude then auto-loads the right skill for the task at hand. Browse or manage them anytime with `/plugin`.
 
+**npm (one command, all skills):**
+
+```bash
+npx autopunk-media-skills install --all
+```
+
+Copies skills, agents, and hooks into `.claude/skills/autopunk-media-skills/` in your current project. Run `npx autopunk-media-skills list` to browse categories first.
+
 **Use the files directly (Cursor, Codex CLI, Gemini CLI, OpenCode, or any AI assistant):**
 
 ```bash

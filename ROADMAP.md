@@ -31,7 +31,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [x] Awesome-list submissions — 3 PRs submitted 2026-07-24: travisvn/awesome-claude-skills (#1034), e2b-dev/awesome-ai-agents (#1302), steven2358/awesome-generative-ai (#1108)
 - [x] GitHub topics optimization — 20 topics set (journalism, investigative-journalism, data-journalism, fact-checking, generative-ai, ai-agents, etc.) — completed 2026-07-24
 - [ ] Skill directory listings (SkillsMP, SkillHub)
-- [ ] npm package for one-command installation
+- [x] npm package for one-command installation — `npx autopunk-media-skills install --all` — completed 2026-07-24
 
 **Accessibility & onboarding:**
 - [x] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed — completed 2026-07-24

@@ -3,7 +3,7 @@
 Track submissions to skill directories and AI tool aggregators for autopunk-media-skills.
 
 Repo: https://github.com/ur-grue/autopunk-media-skills
-Last updated: 2026-05-27
+Last updated: 2026-07-24
 
 ---
 
@@ -82,7 +82,7 @@ These crawl GitHub automatically. Ensure the repo is public, has a clear README,
 ### awesomeclaude.ai (via GitHub PR)
 
 - **How to submit:** Fork github.com/travisvn/awesome-claude-skills, add entry to appropriate section, submit PR. See CONTRIBUTING.md in the repo.
-- **Status:** Ready to submit.
+- **Status:** Submitted — PR #1034 open (2026-07-24). See `awesome-list-prs.md` tracker.
 - **Listing URL:** —
 
 **PR entry to add:**
