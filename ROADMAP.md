@@ -48,7 +48,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [x] CODEOWNERS file — completed 2026-07-24
 
 **Community:**
-- [ ] "Good first issue" labels on GitHub
+- [x] "Good first issue" labels + 5 starter issues (#29–#33) — completed 2026-07-24
 - [ ] First external PRs
 - [ ] Localized skill variants (DE, FR, ES) for European broadcasters
 
