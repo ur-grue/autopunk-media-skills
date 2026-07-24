@@ -25,6 +25,26 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Platform: All of them. Content: We have a new thing. Intended effect: Get people interested."
+    },
+    {
+      "id": "input-06",
+      "description": "South Asian cultural event",
+      "prompt": "Platform: Instagram and YouTube Community. Content: Behind-the-scenes photo set from a two-day outdoor music festival celebrating classical and folk fusion in Rajasthan — images show musicians performing at dusk in a sandstone courtyard, close-ups of instruments (sitar, dholak, sarangi), and crowds seated on the ground under string lights. Account type: Independent music festival. Voice: Warm, inviting, culturally grounded but accessible to international audiences. Intended effect: Drive ticket sales for next year's edition and attract international press coverage."
+    },
+    {
+      "id": "input-07",
+      "description": "Adversarial — sensitive/tragic content",
+      "prompt": "Platform: Twitter/X and Instagram. Content: A photo from the aftermath of a factory collapse in which 14 workers died. The image shows rescue workers at the site — no victims are visible, but the scale of destruction is clear. Account type: Regional news outlet covering labour rights. Voice: Must be factual and dignified — no sensationalism, no exploitation of grief, no graphic language. Intended effect: Inform the public and direct attention to a longstanding pattern of safety violations at industrial sites in the region, without reducing the event to engagement bait."
+    },
+    {
+      "id": "input-08",
+      "description": "Latin American context",
+      "prompt": "Platform: Instagram, TikTok, and Twitter/X. Content: A short documentary clip (90 seconds) about a community radio station in a rural mountain village that broadcasts agricultural weather forecasts, local news, and indigenous-language programming to farmers who have no internet access. The clip shows the broadcaster, the antenna on a hillside, and farmers listening on handheld radios in the field. Account type: Media development nonprofit. Voice: Respectful, grounded, non-patronising — the community is the protagonist, not the nonprofit. Intended effect: Drive donations to the nonprofit's rural media programme and attract media partnership enquiries."
+    },
+    {
+      "id": "input-09",
+      "description": "Accessibility-focused — audio description integration",
+      "prompt": "Platform: Instagram and LinkedIn. Content: A carousel post (6 slides) showcasing the visual identity redesign of a public library system — new signage, wayfinding icons, large-print section branding, and tactile map installations. Each slide contains significant visual information (colour palettes, typography samples, spatial layouts) that must be conveyed in the caption for users who rely on screen readers. Account type: Design studio specialising in public-space accessibility. Voice: Professional, precise, inclusive. Intended effect: Attract municipal and institutional clients, and demonstrate the studio's commitment to accessible design by making the post itself a model of accessibility. Caption must include or reference alt-text guidance for each carousel slide."
     }
   ]
 }
