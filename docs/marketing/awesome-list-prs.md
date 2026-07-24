@@ -35,13 +35,13 @@ Check this file before submitting anything to avoid duplicate outreach.
 
 ---
 
-## Skill Directories (not yet submitted)
+## Skill Directories
 
-| Directory | URL | Status |
-|-----------|-----|--------|
-| SkillsMP | skillsmp.com | Not submitted |
-| SkillHub | skillhub.club | Not submitted |
-| Awesome Claude Skills (web) | awesomeclaude.ai | Not submitted |
+| Directory | URL | Status | Notes |
+|-----------|-----|--------|-------|
+| SkillsMP | skillsmp.com | ✅ Auto-indexing | Added `skillsmp`, `skill-md-skillsmp`, `skill-md`, `agent-skills` GitHub topics (2026-07-24). Removed `chatgpt`, `ai-tools`, `media-professionals`, `investigative-journalism` to stay within 20-topic limit. |
+| SkillHub | skillhub.club | ✅ Auto-indexing | Added root `SKILL.md` for auto-indexing (2026-07-24). |
+| Awesome Claude Skills (web) | awesomeclaude.ai | ❌ Do not submit | Same maintainer as BehiSecc/awesome-claude-skills (#323 closed without merge). |
 
 ---
 
