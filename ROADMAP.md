@@ -34,7 +34,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [ ] npm package for one-command installation
 
 **Accessibility & onboarding:**
-- [ ] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed
+- [x] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed — completed 2026-07-24
 - [x] Role→Agent UX fix (role pages show agents, not just skills) — completed 2026-07-24
 
 **Depth & quality:**
