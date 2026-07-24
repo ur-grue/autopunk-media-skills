@@ -14,12 +14,14 @@ allowedTools:
 disallowedTools: []
 skills:
   - niche-video-idea-generator
+  - competitive-landscape-review
   - hook-generator
   - full-script-writer
   - seo-title-optimizer
   - thumbnail-concept-brief
   - description-seo-writer
   - chapter-timestamps
+roles: [youtuber]
 tags: [youtube, video, content-creation, workflow, agent, seo, scripting]
 ---
 
@@ -40,7 +42,7 @@ Takes a video concept — from a loose topic or a fully formed idea — and prod
 - Either a specific video topic or a request to generate ideas in the niche
 
 **Optional:**
-- Video topic or working title (if you already have one — skips idea generation)
+- Video topic or working title (if you already have one — skips idea generation). If you provide a working title, the agent treats it as an intentional creative decision and builds the package around it rather than generating alternatives from scratch
 - Existing script text (if you have one — skips scripting)
 - Target video length (default: 8-12 minutes)
 - Channel tone and style (e.g., "educational, dry humor," "enthusiastic and beginner-friendly," "calm and visual")
@@ -55,9 +57,10 @@ Takes a video concept — from a loose topic or a fully formed idea — and prod
 | Step | Skill | What it produces | Condition |
 |------|-------|-----------------|-----------|
 | 1 | [niche-video-idea-generator](../skills/youtube/pre-production/niche-video-idea-generator/SKILL.md) | 10 ranked video concepts with working titles, hooks, and differentiation angles | Only if the user has no specific topic — skipped when a topic or title is provided |
-| 2 | [hook-generator](../skills/youtube/pre-production/hook-generator/SKILL.md) | 3 opening hook options (provocative question, surprising fact, bold claim) for the selected concept | Always |
+| 1b | [competitive-landscape-review](../skills/youtube/pre-production/competitive-landscape-review/SKILL.md) | Summary of the top 5-8 existing videos on this topic: what angles they take, what they miss, where the gap is for this creator | Always when a topic is defined — runs after idea selection or when the user provides a topic directly |
+| 2 | [hook-generator](../skills/youtube/pre-production/hook-generator/SKILL.md) | 3 opening hook options (provocative question, surprising fact, bold claim) for the selected concept, informed by competitive gaps | Always |
 | 3 | [full-script-writer](../skills/youtube/scripting/full-script-writer/SKILL.md) | Complete video script with hook, sectioned body, CTA, and delivery notes | Only if the user has no existing script — skipped when script text is provided |
-| 4 | [seo-title-optimizer](../skills/youtube/pre-production/seo-title-optimizer/SKILL.md) | 8-10 optimized title variants ranked by click-through potential with keyword analysis | Always |
+| 4 | [seo-title-optimizer](../skills/youtube/pre-production/seo-title-optimizer/SKILL.md) | 8-10 optimized title variants ranked by click-through potential with keyword analysis. If the user provided a working title, it is included as option 1 with a note on its SEO strengths and weaknesses — the remaining options are alternatives and variations, not replacements | Always |
 | 5 | [thumbnail-concept-brief](../skills/youtube/pre-production/thumbnail-concept-brief/SKILL.md) | 2-3 visual concepts with composition, text overlay, emotion, and color direction | Always |
 | 6 | [description-seo-writer](../skills/youtube/post-production/description-seo-writer/SKILL.md) | SEO-optimized description with keyword placement, links section, and hashtags | Always |
 | 7 | [chapter-timestamps](../skills/youtube/post-production/chapter-timestamps/SKILL.md) | Timestamped chapter markers aligned to script sections | Always |
@@ -106,12 +109,13 @@ Approve this plan? (yes / adjust / skip steps)
 
 After the user approves the plan, the agent:
 1. If included, runs niche-video-idea-generator using the channel niche, audience, and any example videos provided. Presents the 10 concepts. The user selects one (or the agent recommends the strongest candidate if the user asks). The selected concept becomes the topic for all subsequent steps.
-2. Runs hook-generator on the selected topic. Presents 3 hook options — provocative question, surprising fact, bold claim. The user picks one, or the agent carries the strongest into the script.
-3. If included, runs full-script-writer using the selected topic, chosen hook, talking points, target length, and channel tone. Delivers the complete script with section headers, delivery notes, and CTA. The user can adjust before proceeding.
-4. Runs seo-title-optimizer using the video topic, audience, and script content. Delivers 8-10 ranked title options with keyword analysis and structural annotations. The user can select a title or carry multiple options for A/B testing.
-5. Runs thumbnail-concept-brief using the selected title (or top title candidate), the video's core visual idea, and any channel style guidelines. Delivers 2-3 distinct concept directions with full composition specs.
-6. Runs description-seo-writer using the selected title, script summary, primary keyword from the title analysis, and any channel links. Delivers the complete description ready to paste into YouTube Studio.
-7. Runs chapter-timestamps using the full script and target video length. Delivers the timestamp list in YouTube's paste-ready format.
+2. Runs competitive-landscape-review on the selected topic (or user-provided topic). Summarizes the top 5-8 existing videos on this topic: what angles they take, what they miss, and where the gap is for this creator. The competitive gaps identified here feed directly into hook generation and script structure — the agent uses them to differentiate the creator's video from what already exists.
+3. Runs hook-generator on the selected topic, informed by the competitive gaps from step 2. Presents 3 hook options — provocative question, surprising fact, bold claim — each positioned against the angles competitors have already covered. The user picks one, or the agent carries the strongest into the script.
+4. If included, runs full-script-writer using the selected topic, chosen hook, competitive gaps, talking points, target length, and channel tone. Delivers the complete script with section headers, delivery notes, and CTA. The user can adjust before proceeding.
+5. If the user provided a working title, the agent acknowledges it as an intentional creative decision before running seo-title-optimizer. The provided title is analyzed for SEO strengths and weaknesses and presented as option 1. The remaining 7-9 options are alternatives and variations — not replacements. If no working title was provided, the agent runs seo-title-optimizer using the video topic, audience, and script content to generate 8-10 ranked title options with keyword analysis and structural annotations. The user can select a title or carry multiple options for A/B testing.
+6. Runs thumbnail-concept-brief using the selected title (or top title candidate), the video's core visual idea, and any channel style guidelines. Delivers 2-3 distinct concept directions with full composition specs.
+7. Runs description-seo-writer using the selected title, script summary, primary keyword from the title analysis, and any channel links. Delivers the complete description ready to paste into YouTube Studio.
+8. Runs chapter-timestamps using the full script and target video length. Delivers the timestamp list in YouTube's paste-ready format.
 
 The agent assembles all outputs into a single production package. The user can interrupt between any two steps to adjust direction, revise an earlier output, or skip a remaining step.
 
@@ -120,12 +124,13 @@ A single assembled document titled **PRODUCTION PACKAGE: [Video Title or Topic]*
 
 1. **Production summary** (60-100 words) — what the package contains, which steps were run, and whether the video is ready for production
 2. **Video concept** — if idea generation was run: the selected concept with title, hook, and angle. If the user provided the topic: a restated summary
-3. **Opening hooks** — the 3 hook options from step 2, with the recommended choice marked
-4. **Full script** — the complete script from step 3, or the user's provided script with a note confirming it was used as the base for metadata
-5. **Title options** — the ranked title list from step 4 with keyword annotations
-6. **Thumbnail brief** — the 2-3 concept directions from step 5 with full visual specs
-7. **Video description** — the complete description from step 6, paste-ready for YouTube Studio
-8. **Chapter timestamps** — the timestamp list from step 7, paste-ready for the description
+3. **Competitive landscape** — summary of existing videos on this topic: angles already covered, gaps identified, and the differentiation strategy for this video
+4. **Opening hooks** — the 3 hook options from step 3, with the recommended choice marked and a note on how each positions against the competitive landscape
+5. **Full script** — the complete script from step 4, or the user's provided script with a note confirming it was used as the base for metadata
+6. **Title options** — the ranked title list from step 5 with keyword annotations. If the user provided a working title, it appears as option 1 with an SEO analysis
+7. **Thumbnail brief** — the 2-3 concept directions from step 6 with full visual specs
+8. **Video description** — the complete description from step 7, paste-ready for YouTube Studio
+9. **Chapter timestamps** — the timestamp list from step 8, paste-ready for the description
 9. **Next steps** — a closing note listing what to do now: choose a title, brief the thumbnail to a designer or open Canva, do a timed read-through of the script, and paste the description and chapters into YouTube Studio at upload
 
 Total length: 3,000-6,000 words depending on script length and how many steps were included. Tone is direct throughout — written for a creator who wants to move from package to production, not for someone who needs persuading that the process works.
@@ -133,7 +138,10 @@ Total length: 3,000-6,000 words depending on script length and how many steps we
 ## Quality criteria
 - [ ] Each skill output meets its own quality standard independently
 - [ ] The assembled package reads as a coherent production workflow, not a stack of separate outputs
+- [ ] The competitive landscape review identifies specific gaps and angles — not a generic summary of "what's out there"
+- [ ] The hooks are positioned against the competitive gaps — each hook exploits a specific angle that existing videos miss
 - [ ] The script's opening uses the selected hook — not a generic intro unrelated to the hook options
+- [ ] If the user provided a working title, it is acknowledged as option 1 with an honest SEO analysis before alternatives are offered — not buried among generated options or silently replaced
 - [ ] Title options contain the primary keyword identified in the SEO analysis
 - [ ] Thumbnail concepts are visually distinct from each other — not three variations of the same composition
 - [ ] The description's first 100 characters contain the primary keyword and work as a standalone read above the fold

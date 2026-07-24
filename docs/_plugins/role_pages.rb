@@ -29,6 +29,15 @@ module AutopunkSkills
       all_skills = site.data["skills"] || []
       skills_by_cat = all_skills.group_by { |s| s["category"] }
 
+      all_agents = site.data["agents"] || []
+      agents_by_role = {}
+      all_agents.each do |agent|
+        (agent["roles"] || []).each do |role_slug|
+          agents_by_role[role_slug] ||= []
+          agents_by_role[role_slug] << agent
+        end
+      end
+
       roles_data.each do |role|
         role_categories = []
         role_skill_count = 0
@@ -50,6 +59,7 @@ module AutopunkSkills
 
         role["skill_count"] = role_skill_count
         role["role_categories"] = role_categories
+        role["agents"] = (agents_by_role[role["slug"]] || []).sort_by { |a| -(a["eval_score"] || 0) }
 
         site.pages << RolePage.new(
           site, site.source, "roles/#{role['slug']}",

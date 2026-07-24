@@ -21,6 +21,7 @@ skills:
   - ad-read-script
   - show-notes-generator
   - episode-summary-writer
+roles: [podcaster]
 tags: [podcast, audio, interview, workflow, agent, production, show-notes]
 ---
 
@@ -57,12 +58,13 @@ Takes a topic or guest and produces a complete episode package — concept, rese
 |------|-------|-----------------|-----------|
 | 1 | [episode-concept-generator](../skills/podcast/pre-production/episode-concept-generator/SKILL.md) | 3-5 episode angle options with target audience and differentiation | Skipped if the user already has a specific episode topic |
 | 2 | [guest-research-brief](../skills/podcast/pre-production/guest-research-brief/SKILL.md) | Background dossier on the guest — bio, past interviews, talking points, angles to avoid | Skipped for solo episodes |
-| 3a | [interview-question-builder](../skills/podcast/pre-production/interview-question-builder/SKILL.md) | 15-20 questions organized by topic arc with follow-up prompts | Interview episodes only |
-| 3b | [solo-episode-script](../skills/podcast/scripting/solo-episode-script/SKILL.md) | Structured episode outline with talking points, transitions, and segment breakdowns | Solo episodes only |
-| 4 | [intro-outro-writer](../skills/podcast/scripting/intro-outro-writer/SKILL.md) | Show intro and outro scripts matched to the episode topic and podcast brand | Always |
-| 5 | [ad-read-script](../skills/podcast/scripting/ad-read-script/SKILL.md) | Natural-sounding ad read scripts for sponsor integrations | Skipped if the podcast has no sponsors |
-| 6 | [show-notes-generator](../skills/podcast/post-production/show-notes-generator/SKILL.md) | Structured show notes with timestamps, links, guest bio, and key takeaways | Always |
-| 7 | [episode-summary-writer](../skills/podcast/post-production/episode-summary-writer/SKILL.md) | Short and long episode descriptions for podcast platforms and social media | Always |
+| 3 | pre-interview brief | Talking points for the host's pre-interview conversation — topics to confirm, angles to avoid, rapport notes, recording consent reminder | Interview episodes only |
+| 4a | [interview-question-builder](../skills/podcast/pre-production/interview-question-builder/SKILL.md) | 15-20 questions organized by topic arc with follow-up prompts | Interview episodes only |
+| 4b | [solo-episode-script](../skills/podcast/scripting/solo-episode-script/SKILL.md) | Structured episode outline with talking points, transitions, and segment breakdowns | Solo episodes only |
+| 5 | [intro-outro-writer](../skills/podcast/scripting/intro-outro-writer/SKILL.md) | Show intro and outro scripts matched to the episode topic and podcast brand | Always |
+| 6 | [ad-read-script](../skills/podcast/scripting/ad-read-script/SKILL.md) | Natural-sounding ad read scripts for sponsor integrations | Skipped if the podcast has no sponsors |
+| 7 | [show-notes-generator](../skills/podcast/post-production/show-notes-generator/SKILL.md) | Structured show notes with timestamps, links, guest bio, and key takeaways | Always |
+| 8 | [episode-summary-writer](../skills/podcast/post-production/episode-summary-writer/SKILL.md) | Short and long episode descriptions for podcast platforms and social media | Always |
 
 ## How the agent works
 
@@ -89,13 +91,17 @@ Step 1: episode-concept-generator — Generate [N] episode angles
         [INCLUDED / SKIPPED: specific topic provided]
 Step 2: guest-research-brief — Background dossier on [guest name]
         [INCLUDED / SKIPPED: solo episode]
-Step 3: interview-question-builder — Interview questions organized by topic arc
+Step 3: pre-interview brief — Talking points for the host's pre-interview
+        conversation with the guest (topics to confirm, angles to avoid,
+        rapport-building notes, recording consent reminder)
+        [INCLUDED — interview episode / SKIPPED: solo episode]
+Step 4: interview-question-builder — Interview questions organized by topic arc
         [INCLUDED — interview episode / REPLACED: solo-episode-script — solo episode]
-Step 4: intro-outro-writer — Intro and outro scripts for [podcast name]
-Step 5: ad-read-script — Ad reads for [sponsor names]
+Step 5: intro-outro-writer — Intro and outro scripts for [podcast name]
+Step 6: ad-read-script — Ad reads for [sponsor names]
         [INCLUDED / SKIPPED: no sponsors]
-Step 6: show-notes-generator — Structured show notes with timestamps and links
-Step 7: episode-summary-writer — Platform descriptions (short + long)
+Step 7: show-notes-generator — Structured show notes with timestamps and links
+Step 8: episode-summary-writer — Platform descriptions (short + long)
 
 Gaps that may affect output quality:
 - [any missing inputs flagged here]
@@ -115,15 +121,17 @@ After the user approves the plan, the agent:
 
 2. If included, runs guest-research-brief on the named guest. Presents the dossier — bio, career timeline, past interview appearances, published positions, potential talking points, and angles to avoid (topics they have refused to discuss, areas of known sensitivity, questions they have answered too many times). The user can flag corrections or add context.
 
-3. For interview episodes, runs interview-question-builder using the episode topic, guest research, and the podcast's tone. Produces 15-20 questions organized into a topic arc (opening, core exploration, pivot sections, closing) with follow-up prompts for each. For solo episodes, runs solo-episode-script instead — produces a structured outline with talking points, transitions, and segment breakdowns matched to the target length.
+3. For interview episodes, the agent generates a **pre-interview brief** — a short document the host uses for a 5-10 minute conversation with the guest before the recording session. The brief covers: confirming the topics the guest is comfortable discussing, flagging the angles to avoid from the research, setting expectations on episode length and format, and establishing rapport so the recorded conversation starts warm rather than cold. This is not a recorded segment — it is preparation that happens before the microphone turns on.
 
-4. Runs intro-outro-writer using the episode topic, guest name (if applicable), and podcast brand voice. Produces an intro script (cold open hook, show introduction, episode teaser, guest introduction) and an outro script (episode recap, call to action, next episode preview, sign-off). Scripts are written for the host to read naturally, not as rigid teleprompter copy.
+4. For interview episodes, runs interview-question-builder using the episode topic, guest research, pre-interview context, and the podcast's tone. Produces 15-20 questions organized into a topic arc (opening, core exploration, pivot sections, closing) with follow-up prompts for each. For solo episodes, runs solo-episode-script instead — produces a structured outline with talking points, transitions, and segment breakdowns matched to the target length.
 
-5. If included, runs ad-read-script for each sponsor. Produces ad reads that sound like the host talking about a product they use — conversational, specific to the episode context where possible, with clear sponsor messaging and required disclosures. Each read includes a natural transition in and out.
+5. Runs intro-outro-writer using the episode topic, guest name (if applicable), and podcast brand voice. Produces an intro script (cold open hook, show introduction, episode teaser, guest introduction) and an outro script (episode recap, call to action, next episode preview, sign-off). Scripts are written for the host to read naturally, not as rigid teleprompter copy.
 
-6. Runs show-notes-generator using all previous outputs. Produces structured show notes with: episode title, guest bio (if applicable), episode summary, timestamp placeholders (marked for the host to fill after recording), links mentioned in the questions or scripts, key takeaways, and guest contact/social links.
+6. If included, runs ad-read-script for each sponsor. Produces ad reads that sound like the host talking about a product they use — conversational, specific to the episode context where possible, with clear sponsor messaging and required disclosures. Each read includes a natural transition in and out.
 
-7. Runs episode-summary-writer using the episode topic, guest info, and key angles. Produces a short description (under 160 characters for Spotify), a medium description (2-3 sentences for Apple Podcasts), and a long description (full paragraph for YouTube and the podcast website) — each calibrated to the platform's conventions.
+7. Runs show-notes-generator using all previous outputs. Produces structured show notes with: episode title, guest bio (if applicable), episode summary, timestamp placeholders (marked for the host to fill after recording), links mentioned in the questions or scripts, key takeaways, and guest contact/social links.
+
+8. Runs episode-summary-writer using the episode topic, guest info, and key angles. Produces a short description (under 160 characters for Spotify), a medium description (2-3 sentences for Apple Podcasts), and a long description (full paragraph for YouTube and the podcast website) — each calibrated to the platform's conventions.
 
 The agent assembles all outputs into a single episode package. The user can interrupt between any two steps to adjust direction, swap the episode angle, or skip a remaining step.
 
@@ -133,13 +141,14 @@ A single assembled document titled **EPISODE PACKAGE: [Podcast Name] — [Episod
 1. **Production summary** (80-120 words) — what the package contains, which steps were run, and any flags for the host's attention
 2. **Episode concept** — if generated: the selected angle, target audience, and differentiation (from step 1)
 3. **Guest research brief** — if run: the dossier with bio, past appearances, talking points, and angles to avoid (from step 2)
-4. **Interview questions** or **Solo episode outline** — the question arc with follow-ups, or the structured outline with talking points (from step 3)
-5. **Intro script** — cold open, show intro, episode teaser, guest introduction (from step 4)
-6. **Outro script** — recap, CTA, next episode preview, sign-off (from step 4)
-7. **Ad read scripts** — if run: one script per sponsor with transitions (from step 5)
-8. **Show notes** — structured notes with timestamps, links, bio, and takeaways (from step 6)
-9. **Episode descriptions** — short, medium, and long versions for each platform (from step 7)
-10. **Pre-recording checklist** — a closing note with the host's action items before hitting record: confirm guest availability, test recording setup, review questions for flow, fill in any placeholder timestamps after recording
+4. **Pre-interview brief** — if interview episode: a short document for the host's pre-interview conversation with the guest, covering topics to confirm, expectations to set, and rapport-building notes (from step 3)
+5. **Interview questions** or **Solo episode outline** — the question arc with follow-ups, or the structured outline with talking points (from step 4)
+6. **Intro script** — cold open, show intro, episode teaser, guest introduction (from step 5)
+7. **Outro script** — recap, CTA, next episode preview, sign-off (from step 5)
+8. **Ad read scripts** — if run: one script per sponsor with transitions (from step 6)
+9. **Show notes** — structured notes with timestamps, links, bio, and takeaways (from step 7)
+10. **Episode descriptions** — short, medium, and long versions for each platform (from step 8)
+11. **Pre-recording checklist** — a closing note with the host's action items before hitting record: confirm recording consent with the guest (required in two-party consent jurisdictions — California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Montana, New Hampshire, Oregon, Pennsylvania, Washington), confirm guest availability, schedule the pre-interview call, test recording setup, review questions for flow, fill in any placeholder timestamps after recording
 
 Total length: 3,000-7,000 words depending on episode type and how many steps were included. Tone is direct and production-oriented — written for a host who wants to prepare well and record confidently, not for a listener.
 
@@ -147,6 +156,7 @@ Total length: 3,000-7,000 words depending on episode type and how many steps wer
 - [ ] Each skill output meets its own quality standard independently
 - [ ] The assembled package reads as a coherent production workflow, not a stack of separate outputs
 - [ ] Guest research informs the interview questions — questions reference specific guest experiences, not generic prompts
+- [ ] The pre-interview brief gives the host specific topics to confirm with the guest and flags any angles to avoid — not a generic "get to know your guest" template
 - [ ] Interview questions follow a natural conversational arc, not a random list of topics
 - [ ] Solo episode outlines include transitions between sections that sound like natural speech
 - [ ] Intro and outro scripts match the podcast's stated tone and do not default to a generic "welcome back to the show" register
@@ -157,6 +167,7 @@ Total length: 3,000-7,000 words depending on episode type and how many steps wer
 - [ ] Steps were correctly included or skipped based on the conditions in the skills table
 - [ ] The agent stayed within its declared skills array — no undeclared skill invocations
 - [ ] Output is free of generic AI-template phrasing — no "dive deep," "unpack," "without further ado," "in this episode we explore"
+- [ ] The pre-recording checklist includes recording consent confirmation and lists the two-party consent jurisdictions relevant to the host and guest locations
 - [ ] The pre-recording checklist gives specific action items, not generic preparation advice
 
 ## Example
@@ -470,13 +481,15 @@ Whether you are building a SaaS product, considering bootstrapping vs raising, o
 
 **Pre-Recording Checklist**
 
-1. **Confirm recording logistics.** Verify date, time, and platform with Priya. If recording remotely, confirm she has a decent microphone and a quiet room — ask in advance, not five minutes before.
-2. **Review the guest research brief.** Note the angles to avoid: do not frame Plansmith as "anti-Jira," do not ask about the acquirer's name or the acquisition number. She has been clear on both.
-3. **Read the questions aloud.** Check that the arc feels conversational, not like a Q&A. Rearrange or cut questions based on what feels natural in your voice.
-4. **Prepare the ad transitions.** The Lemon Squeezy read lands after the pricing discussion (around minute 22) and the Tuple read lands before the trade-offs section (around minute 38). Mark these in your notes.
-5. **Decide on the cold open.** The scripted cold open summarizes three story beats — pricing mistake, seed round, acquisition offer. If Priya surprises you with something better in the conversation, consider re-recording the cold open after the interview.
-6. **Update timestamps after editing.** The show notes timestamps are estimates based on a 50-minute episode. Replace them with actual times from the final edit.
-7. **Send Priya the show notes draft before publishing.** Not for approval — for accuracy. Guest names, titles, URLs, and career dates should be confirmed.
+1. **Confirm recording consent.** Before the pre-interview call, confirm that Priya consents to being recorded. If either party is in a two-party consent jurisdiction (California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Montana, New Hampshire, Oregon, Pennsylvania, Washington), verbal consent must be obtained on-record at the start of the session. Priya is based in Melbourne, Australia — check Australian recording consent law if recording remotely across jurisdictions.
+2. **Schedule the pre-interview call.** A 5-10 minute conversation before the recording session — confirm she is comfortable with the topics in the question arc, flag the angles to avoid (no "anti-Jira" framing, no acquirer name or number), and set expectations on episode length and format. This is not recorded — it is rapport-building and alignment.
+3. **Confirm recording logistics.** Verify date, time, and platform with Priya. If recording remotely, confirm she has a decent microphone and a quiet room — ask in advance, not five minutes before.
+4. **Review the guest research brief.** Note the angles to avoid: do not frame Plansmith as "anti-Jira," do not ask about the acquirer's name or the acquisition number. She has been clear on both.
+5. **Read the questions aloud.** Check that the arc feels conversational, not like a Q&A. Rearrange or cut questions based on what feels natural in your voice.
+6. **Prepare the ad transitions.** The Lemon Squeezy read lands after the pricing discussion (around minute 22) and the Tuple read lands before the trade-offs section (around minute 38). Mark these in your notes.
+7. **Decide on the cold open.** The scripted cold open summarizes three story beats — pricing mistake, seed round, acquisition offer. If Priya surprises you with something better in the conversation, consider re-recording the cold open after the interview.
+8. **Update timestamps after editing.** The show notes timestamps are estimates based on a 50-minute episode. Replace them with actual times from the final edit.
+9. **Send Priya the show notes draft before publishing.** Not for approval — for accuracy. Guest names, titles, URLs, and career dates should be confirmed.
 
 ## Known limitations
 - The agent builds the interview questions from the guest research brief, but the research brief is constructed from publicly available information provided in the user's input — it does not search the internet or access podcast databases. If the user provides minimal guest information, the questions will be generic. The quality of step 3 is directly proportional to the depth of step 2's input.

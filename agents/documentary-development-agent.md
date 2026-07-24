@@ -18,6 +18,7 @@ skills:
   - series-bible-generator
   - broadcaster-pitch-writer
   - festival-synopsis-writer
+roles: [documentary-producer]
 tags: [documentary, development, pitching, agent, workflow]
 ---
 

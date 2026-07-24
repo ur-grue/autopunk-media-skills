@@ -20,6 +20,7 @@ skills:
   - fact-check-prompt
   - headline-generator
   - pull-quote-selector
+roles: [journalist]
 tags: [journalism, editing, magazine, workflow, agent, copy-editing, fact-checking]
 ---
 
