@@ -1,0 +1,60 @@
+{
+  "agent_name": "youtube-channel-operator-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.48,
+  "editorial_naturalness_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Educational urban gardening channel (45K subs), balcony tomatoes video, calm/practical tone, 10 minutes — existing example, idea generation skipped",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Zero tells; the script inhabits the calm educational YouTube register with precision, particularly the section openers that lead with the core claim before developing it.",
+      "case_mean": 4.89
+    },
+    {
+      "id": 2,
+      "brief_summary": "Tech review channel (300K subs), portable projector review, fast-paced/opinionated tone, 12 minutes — simulated deliverable, idea generation skipped",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 3,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Two minor tells — one flat section opener and a slightly measured opinionated register that doesn't fully match the intensity of a 300K-sub tech reviewer's voice.",
+      "case_mean": 4.11
+    },
+    {
+      "id": 3,
+      "brief_summary": "College cooking channel (8K subs), ramen upgrades, casual/fun tone, 7 minutes — simulated deliverable, idea generation included (full 7-step pipeline)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One minor structural tell ('OK so here's the thing' as generic casual-YouTube transition); the casual register is competent but slightly more polished than an authentic small-channel college creator would write.",
+      "case_mean": 4.44
+    }
+  ]
+}
