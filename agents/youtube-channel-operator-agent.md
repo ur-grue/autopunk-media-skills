@@ -14,12 +14,14 @@ allowedTools:
 disallowedTools: []
 skills:
   - niche-video-idea-generator
+  - competitive-landscape-review
   - hook-generator
   - full-script-writer
   - seo-title-optimizer
   - thumbnail-concept-brief
   - description-seo-writer
   - chapter-timestamps
+roles: [youtuber]
 tags: [youtube, video, content-creation, workflow, agent, seo, scripting]
 ---
 
@@ -40,7 +42,7 @@ Takes a video concept — from a loose topic or a fully formed idea — and prod
 - Either a specific video topic or a request to generate ideas in the niche
 
 **Optional:**
-- Video topic or working title (if you already have one — skips idea generation)
+- Video topic or working title (if you already have one — skips idea generation). If you provide a working title, the agent treats it as an intentional creative decision and builds the package around it rather than generating alternatives from scratch
 - Existing script text (if you have one — skips scripting)
 - Target video length (default: 8-12 minutes)
 - Channel tone and style (e.g., "educational, dry humor," "enthusiastic and beginner-friendly," "calm and visual")
@@ -55,9 +57,10 @@ Takes a video concept — from a loose topic or a fully formed idea — and prod
 | Step | Skill | What it produces | Condition |
 |------|-------|-----------------|-----------|
 | 1 | [niche-video-idea-generator](../skills/youtube/pre-production/niche-video-idea-generator/SKILL.md) | 10 ranked video concepts with working titles, hooks, and differentiation angles | Only if the user has no specific topic — skipped when a topic or title is provided |
-| 2 | [hook-generator](../skills/youtube/pre-production/hook-generator/SKILL.md) | 3 opening hook options (provocative question, surprising fact, bold claim) for the selected concept | Always |
+| 1b | [competitive-landscape-review](../skills/youtube/pre-production/competitive-landscape-review/SKILL.md) | Summary of the top 5-8 existing videos on this topic: what angles they take, what they miss, where the gap is for this creator | Always when a topic is defined — runs after idea selection or when the user provides a topic directly |
+| 2 | [hook-generator](../skills/youtube/pre-production/hook-generator/SKILL.md) | 3 opening hook options (provocative question, surprising fact, bold claim) for the selected concept, informed by competitive gaps | Always |
 | 3 | [full-script-writer](../skills/youtube/scripting/full-script-writer/SKILL.md) | Complete video script with hook, sectioned body, CTA, and delivery notes | Only if the user has no existing script — skipped when script text is provided |
-| 4 | [seo-title-optimizer](../skills/youtube/pre-production/seo-title-optimizer/SKILL.md) | 8-10 optimized title variants ranked by click-through potential with keyword analysis | Always |
+| 4 | [seo-title-optimizer](../skills/youtube/pre-production/seo-title-optimizer/SKILL.md) | 8-10 optimized title variants ranked by click-through potential with keyword analysis. If the user provided a working title, it is included as option 1 with a note on its SEO strengths and weaknesses — the remaining options are alternatives and variations, not replacements | Always |
 | 5 | [thumbnail-concept-brief](../skills/youtube/pre-production/thumbnail-concept-brief/SKILL.md) | 2-3 visual concepts with composition, text overlay, emotion, and color direction | Always |
 | 6 | [description-seo-writer](../skills/youtube/post-production/description-seo-writer/SKILL.md) | SEO-optimized description with keyword placement, links section, and hashtags | Always |
 | 7 | [chapter-timestamps](../skills/youtube/post-production/chapter-timestamps/SKILL.md) | Timestamped chapter markers aligned to script sections | Always |

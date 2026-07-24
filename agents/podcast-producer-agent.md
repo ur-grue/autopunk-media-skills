@@ -21,6 +21,7 @@ skills:
   - ad-read-script
   - show-notes-generator
   - episode-summary-writer
+roles: [podcaster]
 tags: [podcast, audio, interview, workflow, agent, production, show-notes]
 ---
 

@@ -17,6 +17,25 @@ layout: default
   <p class="role-count">{{ page.skill_count }} skills across {{ page.role_categories | size }} categories</p>
 </header>
 
+{% if page.agents and page.agents.size > 0 %}
+<section class="role-agents" aria-label="Agents for this role">
+  <h2>Agents</h2>
+  <p>Agents chain multiple skills into a single workflow. Give one instruction, get a complete deliverable.</p>
+  <div class="agent-grid">
+    {% for agent in page.agents %}
+    <a href="{{ '/agents/' | append: agent.name | append: '/' | relative_url }}" class="agent-card">
+      <h3>{{ agent.agent_title }}</h3>
+      <div class="agent-meta">
+        <span class="badge badge--{{ agent.status }}">{{ agent.status }}</span>
+        {% if agent.eval_score %}<span class="agent-score">G-Eval: {{ agent.eval_score }}/5</span>{% endif %}
+      </div>
+      <p>{{ agent.skills | size }} skills chained</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% for cat in page.role_categories %}
 <section class="subcategory-section" aria-label="{{ cat.name }}">
   <h2><a href="{{ '/skills/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a></h2>

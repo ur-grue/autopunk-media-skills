@@ -23,6 +23,7 @@ skills:
   - claim-verification-checklist
   - libel-check-brief
   - lede-writer
+roles: [journalist]
 tags: [journalism, investigation, long-form, reporting, legal-review, fact-checking]
 ---
 

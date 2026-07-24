@@ -42,9 +42,11 @@ module AutopunkSkills
           "status" => frontmatter["status"] || "planned",
           "eval_score" => frontmatter["eval_score"],
           "skills" => frontmatter["skills"] || [],
+          "roles" => frontmatter["roles"] || [],
           "tags" => frontmatter["tags"] || [],
           "content" => body,
           "source_path" => "agents/#{File.basename(agent_file)}",
+          "slug" => basename,
           "layout" => "agent",
         }
 

@@ -20,6 +20,7 @@ skills:
   - internal-memo-writer
   - journalist-pitch-email
   - press-release-writer
+roles: [pr-comms]
 tags: [pr, crisis-communications, media-relations, workflow, agent, press-office, corporate-comms]
 ---
 
