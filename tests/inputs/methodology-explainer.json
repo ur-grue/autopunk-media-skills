@@ -15,15 +15,53 @@
       "data": "City crime statistics for 2020-2025, obtained from police department annual reports.",
       "analysis": "Calculated year-over-year change in reported burglaries and per-capita rates.",
       "finding": "Reported burglaries fell 16% but per-capita rate fell 22% due to population growth.",
-      "limitations": "Figures are reported crimes only \u2014 actual rates may differ."
+      "limitations": "Figures are reported crimes only — actual rates may differ."
     },
     {
       "label": "european",
       "data": "Press freedom index scores for all 27 EU member states, obtained from the European Journalism Centre's annual reports for 2020, 2023, and 2025. Supplemented with data on journalist detentions from Reporters Without Borders' annual tracker.",
       "analysis": "Calculated mean press freedom score across all 27 states for each year. Ranked states by change between 2020 and 2025. Grouped states by EU accession date (pre-2004, 2004-2013, post-2013) to test whether newer member states show different trends. Cross-referenced with journalist detention counts.",
       "finding": "Press freedom scores declined in 14 of 27 member states. The average score fell from 76.8 to 73.1. States that joined the EU after 2004 showed larger average declines than founding members.",
-      "limitations": "The two data sources use different methodologies \u2014 the press freedom index is perception-based while detention counts are factual events. Combining them requires caution. Three states changed their media law frameworks during the period, which may affect comparability.",
+      "limitations": "The two data sources use different methodologies — the press freedom index is perception-based while detention counts are factual events. Combining them requires caution. Three states changed their media law frameworks during the period, which may affect comparability.",
       "tools": "R (tidyverse), verified in Excel"
+    },
+    {
+      "label": "edge-case",
+      "data": "Three separate datasets were merged: (1) satellite imagery of urban tree canopy coverage purchased from a commercial provider, covering the 50 largest cities at 1-meter resolution for 2020 and 2024; (2) census block-level income data from the national census bureau (2020 census, 5-year estimates); (3) hospital admission records for heat-related illness obtained via FOI from 38 of the 50 cities' public health departments (12 cities refused or did not respond). The satellite data uses a proprietary algorithm to classify tree coverage that the provider will not fully disclose.",
+      "analysis": "Calculated tree canopy coverage change per census block between 2020 and 2024. Grouped census blocks into income quintiles. Calculated median canopy change by income quintile for each city. Correlated canopy loss by income quintile with heat-related hospital admission rates using Spearman rank correlation.",
+      "finding": "The lowest-income quintile of census blocks lost an average of 4.1 percentage points of tree canopy coverage, compared to 0.8 percentage points in the highest-income quintile. Census blocks with the greatest canopy loss showed a statistically significant correlation with higher heat-related hospital admissions (rho = 0.42, p < 0.01).",
+      "limitations": "Twelve of 50 cities did not provide hospital data. The satellite classification algorithm is proprietary — we cannot fully verify how tree canopy is defined. Census income data is from 2020 and may not reflect current income distribution. Correlation does not establish causation — canopy loss may correlate with other factors (housing density, air conditioning access) that independently affect heat illness. Heat-related hospital admissions undercount total heat illness (many cases are treated at home or not at all).",
+      "tools": "Python (geopandas, scipy), QGIS for visual verification"
+    },
+    {
+      "label": "non-english-cultural",
+      "data": "Water supply and cholera outbreak records for 28 districts in a West African country, obtained from the national Ministry of Health and the UNICEF WASH programme. Dataset covers January 2021 through December 2025. Water supply data includes borehole functionality, piped water coverage, and estimated population served. Cholera data includes confirmed and suspected cases by district by month.",
+      "analysis": "Calculated per-district cholera incidence rates per 100,000 population. Ranked districts by percentage of population with access to improved water sources. Divided districts into three tiers by water access and compared median cholera incidence across tiers.",
+      "finding": "Districts in the lowest tier of water access (below 35% of population served by improved sources) experienced cholera incidence rates 4.7 times higher than districts in the highest tier (above 70% coverage).",
+      "limitations": "Cholera case definitions varied by district — some reported only confirmed cases, others included suspected. Population figures are estimates from the most recent census (2019), projected forward, and may be inaccurate in districts with significant internal displacement. UNICEF water access data relies partly on self-reporting by local authorities.",
+      "tools": "R (tidyverse), verified manually against ministry reports"
+    },
+    {
+      "label": "different-format",
+      "data": "Podcast listening data from a podcast hosting platform's anonymized analytics API, covering 2,400 active podcasts in the true crime genre over 24 months (January 2024 - December 2025). Data includes episode-level metrics: downloads, completion rate, listener drop-off timestamp, and subscriber retention.",
+      "analysis": "Calculated median completion rate by episode length bracket (under 30 min, 30-60 min, 60-90 min, over 90 min). Measured subscriber churn rate in the 7 days following episodes longer than 90 minutes versus episodes under 60 minutes. Compared these metrics between weekly and bi-weekly release schedules.",
+      "finding": "Episodes over 90 minutes had a median completion rate of 38%, compared to 71% for episodes under 60 minutes. Podcasts that released weekly showed 15% lower subscriber churn than bi-weekly shows, regardless of episode length.",
+      "limitations": "Data comes from a single hosting platform and may not represent the full podcast market. Download counts are an imperfect proxy for listens — some downloads are never played. Completion rate measurement varies by app. Genre-specific findings (true crime) may not generalise."
+    },
+    {
+      "label": "adversarial",
+      "data": "Some data from government websites and also some stuff I scraped myself. Covers a few years.",
+      "analysis": "I looked at the numbers and noticed some patterns and did some calculations.",
+      "finding": "Things are getting worse in some areas and better in others.",
+      "limitations": "There are probably some issues with the data."
+    },
+    {
+      "label": "stress-scenario",
+      "data": "Emergency shelter capacity records and 911 dispatch logs obtained under emergency public records provisions from the city's Office of Emergency Management. Dataset covers the 72 hours following the tornado that struck the city's east side on March 14, 2026. Shelter records include facility name, capacity, occupancy at hourly intervals, and demographics of evacuees. Dispatch logs include call time, location, call type, and response time.",
+      "analysis": "Mapped shelter occupancy against rated capacity hour by hour. Identified the point at which shelters exceeded capacity. Cross-referenced 911 dispatch locations with shelter locations to measure response coverage gaps. Calculated median emergency response times by neighborhood, controlling for call volume.",
+      "finding": "Three of seven emergency shelters exceeded capacity within 6 hours. Median 911 response time in the hardest-hit neighborhood was 47 minutes, compared to 12 minutes in adjacent areas. The east side — the most damaged area — had the fewest shelter beds per capita.",
+      "limitations": "Data covers only 72 hours. Dispatch logs may not capture all emergency calls (cell network was partially down). Shelter occupancy counts were taken by volunteers and may have gaps. We have not verified whether the city's emergency plan designated additional overflow facilities that were not activated.",
+      "tools": "Python (pandas, folium for mapping)"
     }
   ]
 }

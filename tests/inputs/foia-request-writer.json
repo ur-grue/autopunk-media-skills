@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Agency: Some government agency. Records wanted: Information about spending. Purpose: A story. Name: Pat Johnson. Contact: pat@email.com."
+    },
+    {
+      "id": "input-06",
+      "description": "Edge case — parallel federal and state request with conflicting exemption regimes",
+      "prompt": "Agency: U.S. Army Corps of Engineers (federal) AND Tennessee Department of Environment and Conservation (state). Records wanted: All environmental impact assessments, permit applications, correspondence, and inspection reports related to a proposed lithium mine in rural eastern Tennessee between March 2023 and June 2026. I need to file parallel requests to both agencies for the same investigation. State: Tennessee. Purpose: Investigating whether federal and state regulators reached conflicting conclusions about groundwater contamination risk from the same mine proposal. Organization: Freelance investigative reporter without a formal publication affiliation. Name: Jenna Whitfield. Contact: j.whitfield@protonmail.com. Note: Tennessee has a residency restriction — I am based in North Carolina."
+    },
+    {
+      "id": "input-07",
+      "description": "Non-English cultural context — U.S. military operations in Okinawa, Japan",
+      "prompt": "Agency: U.S. Department of Defense, U.S. Forces Japan. Records wanted: All environmental contamination complaints and remediation reports filed by or on behalf of residents of communities adjacent to Marine Corps Air Station Futenma and Camp Foster in Okinawa, Japan, between January 2020 and December 2025, including any PFAS testing data for groundwater and drinking water wells within a 3-kilometer radius of both bases. Purpose: Investigating environmental contamination from U.S. military bases affecting Japanese civilian communities, for a joint reporting project between a U.S. investigative outlet and a Japanese newspaper. Organization: Investigative correspondent, Pacific-region news cooperative. Name: Yuki Nakamura. Contact: y.nakamura@pacificnews.org."
+    },
+    {
+      "id": "input-08",
+      "description": "Different media format — administrative appeal after partial denial with redactions",
+      "prompt": "Original request: Filed January 8, 2026, tracking number EPA-HQ-2026-001193, to the EPA Office of Chemical Safety and Pollution Prevention regarding internal risk assessments for a class of industrial solvents. Denial: Received March 14, 2026. EPA released 29 pages with heavy redactions under (b)(4) (confidential commercial information) and (b)(5) (deliberative process). 84 pages withheld entirely under (b)(4). FOIA officer: Regional Director Sandra M. Walsh. Why improper: The risk assessments are government-generated scientific analyses, not information obtained from the regulated companies — (b)(4) does not apply to government-generated data. The (b)(5) redactions cover the conclusions section of finalized risk assessments that informed a published regulatory decision in November 2025 — the deliberative process privilege does not protect final agency decisions."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — misspellings, contradictory details, vague scope",
+      "prompt": "Agency: The Deparment of Healt and Human Servises (or maybe the CDC, not sure which one handles this). Records wanted: Everything about the vacine approval proccess and also all emails between officials and pharma companys about side effects, for all vacines approved in the last ten years. Also I want records about a specfic drug but I don't remeber the name, it was in the news. Purpose: Resarch for a blog. I am a citizen journalist. Name: Mike. Contact: truthseeker2025@gmail.com. Note: I also want this expedited because its urgent and I want all fees waived because the public has a right to know."
+    },
+    {
+      "id": "input-10",
+      "description": "Professional stress — breaking news with imminent publication deadline",
+      "prompt": "Agency: Federal Aviation Administration, Office of Accident Investigation and Prevention. Records wanted: All preliminary incident reports, maintenance deferral records, and internal safety communications related to a specific aircraft type (narrowbody commercial jet, unnamed manufacturer) that experienced two uncommanded nose-down events within the past 72 hours. Publication is running a story in 5 days. Purpose: Urgent investigation tied to breaking aviation safety news with immediate public safety implications. Organization: National aviation safety correspondent, major daily newspaper. Name: Rachel Dominguez. Contact: r.dominguez@newspaper.com. Note: I need expedited processing — there is an urgent need to inform the public about an actual threat to public safety. I am aware the 20-day statutory window exists but am requesting the FAA treat this as an emergency release given the active safety risk."
     }
   ]
 }

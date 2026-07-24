@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Subject: Someone important. Role in documentary: Main person in the film. Editorial angle: Their story. Known facts: They did something interesting."
+    },
+    {
+      "id": "input-06",
+      "description": "Edge case — hostile subject who has agreed to only 20 minutes on camera",
+      "prompt": "Subject: The CEO of a mining company whose operations have been linked to severe water contamination in three communities. He has agreed to a single 20-minute on-camera interview on the condition that questions are limited to the company's environmental remediation efforts — not the contamination itself. Role in documentary: Institutional counterpoint — the voice of the entity the film is investigating. Editorial angle: Corporate accountability in the extractive industries; the film argues that remediation promises are rarely fulfilled. Known facts: The company settled two contamination lawsuits out of court; a third is pending; the CEO has given only one prior media interview (a friendly profile in an industry trade magazine); the company's remediation budget was cut by 60% last quarter. Guarded about: Everything beyond the pre-agreed scope. The subject has a media handler who will be present during filming."
+    },
+    {
+      "id": "input-07",
+      "description": "Non-English cultural context — Korean comfort women survivor",
+      "prompt": "Subject: A 96-year-old Korean woman who is one of the last surviving 'comfort women' — forced into sexual slavery by the Japanese military during World War II. She has been an activist for recognition and apology for 30 years. Role in documentary: The film's central witness — the person whose testimony anchors the historical and moral argument. Editorial angle: What justice means when the perpetrators and most witnesses are dead, and whether official apologies have any weight for survivors. Known facts: She was taken from her village at age 14; she first spoke publicly about her experience in 1993; she has testified before the UN Human Rights Council; the Japanese government issued a statement of apology in 2015 that she rejected as insufficient. Guarded about: Specific details of the abuse she endured — she has discussed them publicly but finds each retelling retraumatizing. The interview must be conducted in Korean through an interpreter."
+    },
+    {
+      "id": "input-08",
+      "description": "Different media format — audio-only interview for podcast documentary",
+      "prompt": "Subject: A former air traffic controller who was on duty during a near-miss incident between two commercial aircraft that was never publicly reported. Role in documentary: Primary source for a podcast investigation into unreported near-miss incidents. Editorial angle: How aviation safety reporting systems allow serious incidents to be buried. Known facts: The incident occurred 4 years ago at a major U.S. airport; the controller filed an internal safety report that was reclassified to a lower severity; the controller resigned 8 months later; no passengers were ever informed. Guarded about: Identifying the specific airport or airlines involved, due to a non-disclosure agreement with the former employer. Note: This is an audio-only interview for a narrative podcast — there is no camera. Questions should be designed to elicit vivid, descriptive language that works in audio without visual support."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — contradictory instructions and missing key details",
+      "prompt": "Subject: A politican or maybe a buisness person, they were invovled in some kind of scandle. Role in documentary: Not sure, maybe the main subject or maybe just a side interview. Editorial angle: We want to expose the truth but also be fair and balanced. The director says ask really tough questions but the producer says dont make them uncomfortable. Known facts: They're well-known in their field. Something happened recently that was in the news. Guarded about: Probably everything, they have lawyers."
+    },
+    {
+      "id": "input-10",
+      "description": "Professional stress — interview is tomorrow, subject is a grieving parent",
+      "prompt": "Subject: The father of a 12-year-old girl who died by suicide after prolonged cyberbullying on a social media platform. He has since become an advocate for platform accountability legislation. Role in documentary: The emotional and moral center of a film about social media regulation and child safety. Editorial angle: The gap between what platforms promise about child safety and what they actually do — told through the families left behind. Known facts: His daughter died 14 months ago; the platform deleted the bullying accounts only after media coverage of her death; he testified before a Senate committee; he is currently suing the platform. The interview is scheduled for tomorrow morning. Guarded about: He is willing to discuss everything but may become emotional when discussing his daughter directly. His therapist has advised that he be given time if he needs to stop. The production has a duty-of-care protocol. Note: This is the single most important interview in the film. The director has warned that pushing too hard could lose the subject's trust and end the production's access to the family."
     }
   ]
 }

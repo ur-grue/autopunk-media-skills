@@ -21,6 +21,40 @@
       "context": "Eurostat annual income distribution report covering all 27 EU member states. The EU's Gini coefficient has historically ranged between 0.28 and 0.31 over the past two decades.",
       "audience": "General European news readers",
       "publication": "European broadsheet"
+    },
+    {
+      "label": "edge-case",
+      "statistic": "The treatment group showed a 200% increase in survival rate compared to placebo (3 of 150 patients survived vs 1 of 150 in the control group), but the absolute risk reduction was only 1.3 percentage points (p=0.62).",
+      "context": "A Phase II clinical trial for a rare pediatric cancer. The press release headline reads 'Drug triples survival rate in childhood cancer trial.' The finding did not reach statistical significance.",
+      "audience": "Health reporters at a press briefing who need to file within 2 hours",
+      "publication": "Wire service"
+    },
+    {
+      "label": "non-english-cultural",
+      "statistic": "Japan's total fertility rate fell to 1.20 in 2024, down from 1.26 in 2023, while the absolute number of births dropped below 730,000 for the first time since records began in 1899.",
+      "context": "Japan's Ministry of Health annual demographic report. The government's target fertility rate is 1.80. The replacement-level fertility rate is 2.1.",
+      "audience": "General international news readers unfamiliar with demographic statistics",
+      "publication": "International wire service"
+    },
+    {
+      "label": "different-format",
+      "statistic": "The index of consumer sentiment fell from 72.6 to 64.7 in a single month, a decline of 10.9% — the largest one-month drop since the 2008 financial crisis. The expectations subindex fell even more sharply, dropping 14.2%.",
+      "context": "University of Michigan Consumer Sentiment Index, a monthly survey of 500 households. The index is benchmarked to 1966 = 100. It is often cited alongside GDP and unemployment as an indicator of economic direction.",
+      "audience": "Listeners of a business podcast with moderate economic literacy",
+      "publication": "Podcast script"
+    },
+    {
+      "label": "adversarial",
+      "statistic": "Crime went up 40% but also the crime rate went down because of more people. The police said violent crime is up but property crime is down and overall crime is basically flat.",
+      "context": "A city council press conference about annual crime statistics. The journalist is unsure which figures are correct.",
+      "audience": "General news readers"
+    },
+    {
+      "label": "stress-scenario",
+      "statistic": "Preliminary data from the WHO indicates a case fatality rate of 3.2% (95% CI: 1.8-5.1%) among confirmed cases, but testing capacity in the affected region is estimated at only 15-20% of symptomatic individuals, and the majority of confirmed cases are hospital-presenting (severe) cases.",
+      "context": "An emerging infectious disease outbreak in a densely populated region. The WHO has declared a Public Health Emergency of International Concern. Reporting is live and there is intense public fear. The 3.2% figure is being compared to COVID-19's early CFR.",
+      "audience": "General public during a public health emergency",
+      "publication": "Live broadcast news ticker and website"
     }
   ]
 }

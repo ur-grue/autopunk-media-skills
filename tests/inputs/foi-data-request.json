@@ -20,8 +20,43 @@
       "label": "european",
       "body": "European Medicines Agency",
       "data": "I believe the EMA holds a database of all clinical trial applications submitted for EU marketing authorization since 2018, including trial sponsor name, therapeutic area, trial phase, submission date, and approval/rejection status. Summary data appears in the EMA annual report but the underlying trial-level records have not been published.",
-      "jurisdiction": "EU institution \u2014 request under Regulation (EC) No 1049/2001 (access to EU institution documents)",
+      "jurisdiction": "EU institution — request under Regulation (EC) No 1049/2001 (access to EU institution documents)",
       "name": "A journalist at a European health policy publication"
+    },
+    {
+      "label": "edge-case",
+      "body": "Ministry of Defence",
+      "data": "I want all contracts awarded by the Ministry of Defence to private military and security contractors since 2015, including contractor names, contract values, scope of services, and deployment locations. I am aware that some of this information may be classified or subject to national security exemptions, and I am specifically requesting the unclassified portions of each contract record — not the full contracts themselves. I previously submitted a request for this data in 2024 and received a full refusal citing national security. I believe a partial disclosure is possible.",
+      "jurisdiction": "UK — request under the Freedom of Information Act 2000, with reference to Section 24 (national security) and Section 26 (defence) exemptions and the public interest test",
+      "name": "An investigative journalist at a national newspaper"
+    },
+    {
+      "label": "non-english-cultural",
+      "body": "Agencia Nacional de Aguas y Saneamiento Basico (ANA)",
+      "data": "I believe ANA holds a central database of water quality monitoring results for all major rivers and reservoirs in Brazil, including testing dates, locations, contaminant readings (heavy metals, bacteria, pesticide residues), and whether readings exceeded national safety thresholds. The agency's annual water quality report presents aggregated regional data but not the underlying station-level readings.",
+      "jurisdiction": "Brazil — request under Lei de Acesso a Informacao (Law No. 12.527/2011)",
+      "name": "A journalist at a Brazilian investigative news outlet"
+    },
+    {
+      "label": "different-format",
+      "body": "National Broadcasting Authority",
+      "data": "I believe the Authority holds records of all formal complaints received about broadcast content over the past three years, including the broadcaster name, programme title, date of broadcast, nature of complaint (accuracy, bias, harm, offence), and the outcome (upheld, not upheld, resolved). I have seen summary statistics in the Authority's annual report but not the individual complaint-level records.",
+      "jurisdiction": "EU member state with national FOI legislation",
+      "name": "A media researcher at a university, submitting for a peer-reviewed study"
+    },
+    {
+      "label": "adversarial",
+      "body": "The government or whoever is in charge of hospitals",
+      "data": "I want to know how much money hospitals waste. Like all the stuff about budgets and spending and contracts and also executive salaries and bonuses if possible. Going back as far as you have data.",
+      "jurisdiction": "Not sure — I'm in the US but I don't know if this is federal or state",
+      "name": "A concerned citizen who writes a local blog"
+    },
+    {
+      "label": "stress-scenario",
+      "body": "Environmental Protection Agency — Regional Office",
+      "data": "I am requesting all water quality testing results, inspection reports, and enforcement actions related to the chemical spill at the Greenfield Industrial Park on July 15, 2026. Specifically: (1) all water samples taken from the River Elm downstream of the site since the spill; (2) any communications between the EPA and the facility operator regarding the spill; (3) any previously documented violations at the facility in the past five years. This is an urgent public health matter — residents in three downstream communities have been told not to drink tap water and have no timeline for when the advisory will be lifted.",
+      "jurisdiction": "US — request under the Freedom of Information Act, 5 U.S.C. § 552, with request for expedited processing under 40 CFR 2.104(e) due to imminent threat to public health",
+      "name": "A reporter at the regional daily newspaper"
     }
   ]
 }

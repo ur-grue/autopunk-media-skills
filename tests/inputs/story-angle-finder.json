@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Topic: Something about young people and mental health. Publication type: Not sure yet."
+    },
+    {
+      "id": "input-06",
+      "description": "Edge case — conflicting constraints: must be hyper-local yet globally relevant, extremely narrow word count",
+      "prompt": "Topic: A single elementary school in rural Vermont that adopted an experimental AI tutoring system and saw test scores rise 30% in one year, but three teachers resigned in protest. Publication type: Both a 600-word op-ed for a national education trade journal AND a 4,000-word feature for a technology magazine. I need angles that could work for both lengths. Avoid: Any angle that is straightforwardly pro-technology or anti-technology — the editor wants nuance. Geographic scope: Hyper-local (one school) but the angles must have national or international resonance."
+    },
+    {
+      "id": "input-07",
+      "description": "Non-English cultural context — West African migration and diaspora economies",
+      "prompt": "Topic: The growth of mobile money remittance corridors between West African diaspora communities in Europe and their home villages, where remittances now fund more infrastructure (wells, clinics, school buildings) than government budgets in some regions of Senegal and Mali. Publication type: International development magazine or long-form for a European broadsheet's foreign desk. Geographic scope: Senegal, Mali, and diaspora communities in France and Italy."
+    },
+    {
+      "id": "input-08",
+      "description": "Different media format — investigative podcast series rather than print",
+      "prompt": "Topic: The rise of unlicensed online therapy platforms that operate across state lines in the U.S., staffed by counselors with unverifiable credentials and no malpractice insurance. Several patient suicides have been linked to these platforms in wrongful death lawsuits. Publication type: Investigative podcast series (8-10 episodes). I need angles that work as audio narrative arcs, not just print story structures."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — contradictory requirements and misspellings",
+      "prompt": "Topic: Somthing about artifical inteligence, maybe in healthcare or maybe in the military, or posibly in education. I want angles that are totaly unique and never been done before but also familar enough that a general audience will click. Publication type: Its for a presitgious magazine but also needs to go viral on social media. Avoid: Anything boring. Geographic scope: Global but also very specific."
+    },
+    {
+      "id": "input-10",
+      "description": "Professional stress — breaking environmental disaster, editor wants angles in 2 hours",
+      "prompt": "Topic: A chemical plant explosion 6 hours ago in a residential area of Houston released a cloud of vinyl chloride. Three confirmed dead, 200+ evacuated, EPA emergency response is on site. The story is being covered as breaking news by every outlet. My editor wants me to find angles for follow-up enterprise coverage that go beyond the daily breaking news. Publication type: National investigative magazine (we publish weekly, next issue closes in 4 days). I have access to EPA databases, local court records, and a source inside the plant's parent company. Geographic scope: Houston, but the parent company operates 14 plants nationally."
     }
   ]
 }
