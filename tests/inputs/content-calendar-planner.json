@@ -31,5 +31,57 @@
       "best_performers": "Beginner explainer videos and city-specific cultural guides",
       "formats_to_test": "One YouTube Short this month"
     }
+  },
+  {
+    "id": "middle_eastern",
+    "label": "Middle Eastern context — Ramadan-aware food channel",
+    "input": {
+      "niche": "Home cooking and traditional recipes from across the Middle East and North Africa",
+      "frequency": "Three times a week (Sunday, Tuesday, Thursday)",
+      "ideas": ["Iftar meal prep for working parents", "Regional variations of kunafa across five countries", "The science behind perfect falafel", "How to stock a Middle Eastern pantry on a budget", "One-pot Ramadan suhoor recipes", "Eid al-Fitr feast planning guide", "Street food recreations at home"],
+      "fixed_dates": "Month includes the final two weeks of Ramadan and Eid al-Fitr. Content must respect the rhythm of fasting — no daytime eating content during Ramadan; iftar and suhoor content timed appropriately.",
+      "best_performers": "Recipe tutorials with cultural history context and holiday meal planning videos",
+      "preferred_filming_days": "Fridays and Saturdays",
+      "constraints": "Thumbnails and titles must avoid imagery that could be seen as disrespectful during the holy month. No clickbait around fasting or weight loss."
+    }
+  },
+  {
+    "id": "adversarial_unrealistic",
+    "label": "Adversarial — unrealistic posting frequency",
+    "input": {
+      "niche": "In-depth investigative journalism explainers — each video requires weeks of research, FOI requests, and expert interviews",
+      "frequency": "Daily uploads, seven days a week",
+      "ideas": ["How shell companies hide political donations", "The offshore waste dumping pipeline", "Exposed: ghost employees in municipal government", "Pharmaceutical pricing manipulation explained", "Why building inspectors miss structural failures"],
+      "fixed_dates": "None",
+      "best_performers": "Deep-dive explainers over 20 minutes",
+      "preferred_filming_days": "Any day",
+      "constraints": "Solo creator, no team. Each video requires legal review before publishing."
+    }
+  },
+  {
+    "id": "african_multi_country",
+    "label": "African context — multi-country social media presence",
+    "input": {
+      "niche": "Pan-African tech startup culture and entrepreneurship stories",
+      "frequency": "Twice a week (Monday and Thursday)",
+      "ideas": ["Founder spotlight: building a fintech in a cash-first economy", "Why Lagos and Nairobi are not the only tech hubs", "Lessons from failed startups nobody talks about", "How mobile money changed everyday commerce", "Navigating investor bias as an African founder", "The infrastructure gap that shapes African software"],
+      "fixed_dates": "Week 3 includes Africa Industrialization Day (November 20)",
+      "best_performers": "Founder interview clips and myth-busting videos about African markets",
+      "preferred_filming_days": "Weekends",
+      "constraints": "Audience spans Nigeria, Kenya, South Africa, Ghana, and Rwanda. Time zones, languages (English and French-speaking audiences), and platform preferences (YouTube dominates in some markets, TikTok in others) vary. Content must resonate across multiple national contexts without defaulting to a single country's perspective."
+    }
+  },
+  {
+    "id": "east_asian_censorship",
+    "label": "East Asian context — content navigating platform restrictions",
+    "input": {
+      "niche": "Independent documentary filmmaking techniques and behind-the-scenes production diaries",
+      "frequency": "Once a week (Wednesdays)",
+      "ideas": ["How to shoot a documentary on a phone and make it look professional", "Guerrilla filmmaking in crowded cities", "Finding stories in everyday life — observational documentary techniques", "Working with non-professional subjects ethically", "Sound design on a zero budget", "Editing rhythms that keep viewers watching"],
+      "fixed_dates": "Week 4 aligns with an international short film festival submission deadline — content should reference festival preparation",
+      "best_performers": "Practical technique tutorials with before-and-after examples",
+      "preferred_filming_days": "Weekdays",
+      "constraints": "Creator publishes on both international platforms (YouTube) and a domestic platform with content moderation guidelines that restrict certain political and social topics. Calendar must ensure no content triggers review or removal on the domestic platform. Topics must focus on craft and technique rather than subject matter that could be flagged. No explicit references to censorship itself."
+    }
   }
 ]

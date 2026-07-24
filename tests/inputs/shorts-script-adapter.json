@@ -25,6 +25,26 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Source material: 'There are some interesting things about how habits work. People often struggle with habits. It takes time. Consistency is important. You should start small.' Core point: Something about habits. Target length: 45 seconds."
+    },
+    {
+      "id": "input-06",
+      "description": "Sensitive topic — mental health",
+      "prompt": "Source material: 'The suicide rate among veterinarians is three times higher than the general population. They deal with euthanasia decisions daily. Many enter the profession because they love animals, only to discover that a significant part of the job involves ending lives. Financial stress compounds the problem — the average vet school debt in the US exceeds $180,000, while starting salaries are often under $90,000. Professional culture discourages vulnerability. Colleagues who seek help are sometimes seen as not tough enough for the job.' Core point: Veterinarians face a silent mental health crisis driven by euthanasia decisions, debt, and professional stigma. Target length: 55 seconds. Note: Handle with care — no shock hooks, no trivialising."
+    },
+    {
+      "id": "input-07",
+      "description": "Source material in bullet points, not prose",
+      "prompt": "Source material:\n- Average person checks phone 96 times per day (Asurion 2023)\n- Each check averages 3 minutes 15 seconds\n- Total: ~5.2 hours daily on phone\n- 73% of checks are habitual, not intentional\n- Greyscale mode reduces phone usage by ~37% (Duke University)\n- Most effective intervention: charging phone in a different room overnight\nCore point: You check your phone 96 times a day and most of it is unconscious — but greyscale mode cuts usage by a third. Target length: 40 seconds."
+    },
+    {
+      "id": "input-08",
+      "description": "Brazilian Portuguese cultural context",
+      "prompt": "Source material: 'The favelas of Rio de Janeiro have produced some of the world's most innovative urban solutions. Residents built their own water systems, electricity networks, and waste collection cooperatives decades before the government acknowledged these communities existed. The baile funk scene generates more economic activity per square metre than most formal entertainment districts. Now, tech startups are emerging from favelas — Cufa, a community organisation, trained 15,000 favela residents in digital skills during the pandemic. The favela is not a problem to be solved. It is a laboratory of resilience.' Core point: Favelas are innovation hubs, not just poverty zones. Target length: 50 seconds."
+    },
+    {
+      "id": "input-09",
+      "description": "Very long source needing aggressive compression",
+      "prompt": "Source material: [2,500-word transcript from a 20-minute interview about the history of containerised shipping, covering Malcolm McLean's invention of the standardised container in 1956, the resistance from dock workers' unions, the transformation of port cities, the environmental cost of global shipping, the Ever Given Suez Canal blockage as a wake-up call, and current efforts to develop zero-emission container ships using ammonia fuel cells. The interviewee is a maritime historian.] Core point: One metal box changed the world economy — and now the industry it created has to reinvent itself to survive. Target length: 55 seconds. Drive to full video: Yes."
     }
   ]
 }

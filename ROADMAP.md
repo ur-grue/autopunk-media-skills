@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 394 stable skills · 20 locale variants · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 414 total skill files
+**Summary:** 394 stable skills · 30 locale variants (DE/ES/FR) · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 424 total skill files
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -31,7 +31,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [x] Awesome-list submissions — 3 PRs submitted 2026-07-24: travisvn/awesome-claude-skills (#1034), e2b-dev/awesome-ai-agents (#1302), steven2358/awesome-generative-ai (#1108)
 - [x] GitHub topics optimization — 20 topics set (journalism, investigative-journalism, data-journalism, fact-checking, generative-ai, ai-agents, etc.) — completed 2026-07-24
 - [ ] Skill directory listings (SkillsMP, SkillHub)
-- [ ] npm package for one-command installation
+- [x] npm package for one-command installation — `npx autopunk-media-skills install --all` — completed 2026-07-24
 
 **Accessibility & onboarding:**
 - [x] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed — completed 2026-07-24
@@ -50,7 +50,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 **Community:**
 - [x] "Good first issue" labels + 5 starter issues (#29–#33) — completed 2026-07-24
 - [ ] First external PRs
-- [ ] Localized skill variants (DE, FR, ES) for European broadcasters
+- [x] Localized skill variants (DE, FR, ES) for European broadcasters — 10 skills per language, 30 total — completed 2026-07-24
 
 ---
 
@@ -201,7 +201,7 @@ The peer library is a useful mirror. These are the things we deliberately did NO
 ### investigation
 | Skill | Description | Status |
 |-------|-------------|--------|
-| foia-request-writer | Draft a formal Freedom of Information Act request letter to a government agency | ✅ stable (4.5/5) ↻ refactor planned (see *Refactor Targets*) |
+| foia-request-writer | Draft legally complete public records requests (federal FOIA + all 50 state laws), administrative appeals, and redaction challenge strategies | ✅ stable (4.81/5) |
 | source-research-brief | Produce a structured research brief on a potential source before an interview | ✅ stable (4.4/5) |
 | expert-finder-brief | Generate a brief identifying types of experts needed for a story and how to find them | ✅ stable (4.3/5) |
 | document-analysis-summary | Produce a structured summary of a leaked or official document for reporting | ✅ stable (4.5/5) |
@@ -704,16 +704,16 @@ Specialist orchestrators that compose multiple skills into multi-step deliverabl
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
 | documentary-development-agent | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | A complete development package from a one-line idea | ✅ stable (4.81/5) ([AUT-22](/AUT/issues/AUT-22)) |
-| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | 🔵 beta ([AUT-23](/AUT/issues/AUT-23)) |
+| investigative-reporter-agent | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | An investigation from spark to publishable draft | ✅ stable (4.96/5) ([AUT-23](/AUT/issues/AUT-23)) |
 
-### planned (held until pilots prove the pattern)
+### production
 
 | Agent | Composes | Deliverable | Status |
 |-------|----------|-------------|--------|
-| magazine-editor-agent | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | End-to-end editing pass on a submitted draft | 🔲 planned |
-| youtube-channel-operator-agent | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | Full video pipeline from topic to publish-ready package | 🔲 planned |
-| podcast-producer-agent | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | Episode end-to-end | 🔲 planned |
-| pr-crisis-response-agent | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | Crisis response package | 🔲 planned |
+| magazine-editor-agent | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | End-to-end editing pass on a submitted draft | ✅ stable (4.96/5) |
+| youtube-channel-operator-agent | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | Full video pipeline from topic to publish-ready package | ✅ stable (4.48/5) |
+| podcast-producer-agent | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | Episode end-to-end | ✅ stable (4.78/5) |
+| pr-crisis-response-agent | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | Crisis response package | ✅ stable (4.56/5) |
 
 ---
 

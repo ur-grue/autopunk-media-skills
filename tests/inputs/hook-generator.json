@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Topic: Something about how technology is changing things. Format: Podcast. Audience: general."
+    },
+    {
+      "id": "input-06",
+      "description": "African context — investigative",
+      "prompt": "Topic: How Kenya's M-Pesa mobile money system created a parallel financial infrastructure that the formal banking sector is now trying to absorb. Format: YouTube long-form. Tone: business journalism. Audience: fintech professionals and emerging market investors."
+    },
+    {
+      "id": "input-07",
+      "description": "Sensitive/crisis topic",
+      "prompt": "Topic: The psychological toll on first responders who repeatedly encounter child abuse cases. Format: Documentary opening. Tone: sombre, respectful, no sensationalism. Audience: social workers, police, healthcare professionals."
+    },
+    {
+      "id": "input-08",
+      "description": "Contradictory requirements",
+      "prompt": "Topic: Why nuclear energy is both the safest and most dangerous power source. Format: YouTube Shorts (under 60 seconds). Tone: be funny AND scientifically rigorous. Audience: Gen Z climate activists."
+    },
+    {
+      "id": "input-09",
+      "description": "East Asian cultural context",
+      "prompt": "Topic: How South Korea's hagwon (private tutoring academy) industry shapes childhood, family finances, and national anxiety about education. Format: YouTube long-form. Tone: empathetic cultural reportage. Audience: international educators and parents."
+    },
+    {
+      "id": "input-10",
+      "description": "Very long/detailed input",
+      "prompt": "Topic: The complete history and current state of desalination technology, from ancient Greek sailors boiling seawater through 1960s reverse osmosis breakthroughs to modern Israeli membrane factories, including energy costs per cubic metre, brine disposal environmental impact, the Saudi NEOM megaproject's planned solar-powered desalination, and why most African coastal cities still lack desalination capacity despite water scarcity. Format: YouTube long-form (target 25 minutes). Tone: measured, optimistic but honest. Audience: engineering students and water policy professionals aged 22-40."
     }
   ]
 }

@@ -29,6 +29,14 @@ You don't install anything. You don't need a developer. You just:
 
 That's the entire process.
 
+**If you use Claude Code, Cursor, or another AI coding tool:** you can install the full library with one command instead:
+
+```bash
+npx autopunk-media-skills install --all
+```
+
+This copies all skills, agents, and hooks into your project. Run `npx autopunk-media-skills list` to browse categories.
+
 ---
 
 ## Find Your Starting Point

@@ -40,5 +40,47 @@
       "connection": "She appeared on a sister podcast in the network last year and our producer has her contact details",
       "notable_recent_guests": "Former UK trade negotiators, European Commission officials, senior Westminster journalists"
     }
+  },
+  {
+    "id": "celebrity-adjacent",
+    "label": "High-profile guest with gatekeepers",
+    "input": {
+      "guest_name": "Chef Amara Osei",
+      "guest_background": "Award-winning Ghanaian-British chef who runs two Michelin-starred restaurants in London and has a Netflix series. She is vocal about decolonising fine dining and has pushed back against the term 'ethnic food.'",
+      "show_name": "The Culture Kitchen",
+      "show_description": "A food and culture podcast exploring how cuisine reflects identity, migration, and power. 22,000 downloads per episode.",
+      "downloads_per_episode": 22000,
+      "why_this_guest": "Her new cookbook explicitly rejects the Western fine dining canon and builds a new framework rooted in West African culinary tradition",
+      "specific_hook": "Why she returned her Michelin stars — and what she thinks should replace the rating system",
+      "reference_work": "Her cookbook 'The New Table' and her Guardian long-read about the politics of fine dining",
+      "connection": "No prior contact — this is a cold outreach. Her publicist is known to be protective and selective."
+    }
+  },
+  {
+    "id": "south-asian-academic",
+    "label": "Indian academic — different email conventions",
+    "input": {
+      "guest_name": "Professor Ananya Chatterjee",
+      "guest_background": "Economist at the Indian Statistical Institute, Kolkata. Leading researcher on informal labour markets in South Asia. Her work quantifies the economic contribution of street vendors, domestic workers, and rickshaw drivers — the workforce that doesn't appear in GDP statistics.",
+      "show_name": "The Invisible Economy",
+      "show_description": "A podcast about the economic activity that statistics miss. Audience: development economists, NGO workers, policy students. 4,500 downloads per episode.",
+      "downloads_per_episode": 4500,
+      "why_this_guest": "Her dataset of 45,000 informal workers across 12 Indian cities is the largest of its kind and challenges the ILO's standard measurement framework",
+      "specific_hook": "What happens to an economy when you accurately count the people it pretends don't exist"
+    }
+  },
+  {
+    "id": "return-guest-different-topic",
+    "label": "Re-inviting a previous guest",
+    "input": {
+      "guest_name": "Dr. James Okafor",
+      "guest_background": "Climate scientist who appeared on the show 18 months ago discussing ocean acidification. Since then, he has shifted his research focus entirely to climate grief — the psychological impact on climate scientists who spend their careers documenting environmental destruction.",
+      "show_name": "Deep Currents",
+      "show_description": "A science podcast that goes beyond the paper — exploring the human side of research. 8,000 downloads per episode.",
+      "downloads_per_episode": 8000,
+      "why_this_guest": "His first appearance was our highest-performing episode. His career pivot from hard science to the psychology of scientists is a story our audience will connect with deeply.",
+      "specific_hook": "Why a climate scientist stopped studying the climate — and started studying what studying the climate does to people",
+      "previous_episode": "Episode 47: 'The pH of Panic' — 23,000 downloads (our record)"
+    }
   }
 ]

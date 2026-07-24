@@ -33,5 +33,41 @@
       "topics_to_avoid": "He has asked not to discuss the political controversy around one specific city's implementation",
       "prior_work": "His book 'Beyond the Bike Lane: Why Urban Cycling Is About Cities, Not Bicycles' published last year"
     }
+  },
+  {
+    "id": "trauma-survivor",
+    "label": "Sensitive — interviewing a trauma survivor",
+    "input": {
+      "guest_name": "Maria Gutierrez",
+      "guest_background": "A climate migration researcher who is also personally a climate refugee — her family lost their home in Honduras to Hurricane Eta. She now studies the policy frameworks that failed her family. She is comfortable discussing her personal experience but has said she does not want to be treated primarily as a victim.",
+      "episode_focus": "How climate migration policy looks different when the researcher has lived it",
+      "show_tone": "Serious public affairs audience, respectful, evidence-based",
+      "episode_length": "40 minutes",
+      "specific_moments": "She has publicly criticised the UN refugee framework for not recognising climate migrants"
+    }
+  },
+  {
+    "id": "hostile-viewpoint",
+    "label": "Guest the host disagrees with",
+    "input": {
+      "guest_name": "Professor Alan Whitfield",
+      "guest_background": "An economist who argues that remote work is a net negative for the economy, productivity, and worker wellbeing. His position is backed by data but is deeply unpopular with the podcast's audience (90% remote workers). He is articulate and experienced in hostile interviews.",
+      "episode_focus": "Steel-manning the case against remote work — the data, the arguments, and the blind spots",
+      "show_tone": "Intellectually honest business audience that values being challenged, not just confirmed",
+      "episode_length": "60 minutes",
+      "specific_moments": "His viral paper showed that remote workers are promoted 35% less often than in-office peers, even controlling for performance"
+    }
+  },
+  {
+    "id": "non-english-speaker",
+    "label": "Guest speaking through a translator",
+    "input": {
+      "guest_name": "Kenji Yamamoto",
+      "guest_background": "A Japanese master craftsman (Living National Treasure) who has spent 50 years making traditional lacquerware. He speaks minimal English. The interview will be conducted through a translator.",
+      "episode_focus": "What 50 years of daily practice teaches you about mastery, patience, and the value of slow work",
+      "show_tone": "Contemplative, cultural, mindful — audience interested in craft and philosophy",
+      "episode_length": "35 minutes",
+      "specific_moments": "He reportedly trains one apprentice at a time and has only produced three in his career. His rejection of mass production in favour of 6-month-per-piece craftsmanship is the central tension."
+    }
   }
 ]
