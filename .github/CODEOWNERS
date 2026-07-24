@@ -1,0 +1,18 @@
+# Default owner for all files
+* @ur-grue
+
+# Skills require review
+skills/ @ur-grue
+
+# Agents require review
+agents/ @ur-grue
+
+# Tests and eval framework
+tests/ @ur-grue
+
+# CI and infrastructure
+.github/ @ur-grue
+scripts/ @ur-grue
+
+# Docs site
+docs/ @ur-grue

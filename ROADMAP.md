@@ -43,9 +43,9 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [ ] Expanded test inputs for top 50 skills
 
 **Infrastructure:**
-- [ ] GitHub Actions: auto-validate new skills on PR
-- [ ] GitHub Actions: auto-sync marketplace.json on merge
-- [ ] CODEOWNERS file
+- [x] GitHub Actions: auto-validate new skills on PR — frontmatter, sections, editorial discipline, TBD check — completed 2026-07-24
+- [x] GitHub Actions: auto-sync marketplace.json on merge (drift check in validate workflow) — completed 2026-07-24
+- [x] CODEOWNERS file — completed 2026-07-24
 
 **Community:**
 - [ ] "Good first issue" labels on GitHub
