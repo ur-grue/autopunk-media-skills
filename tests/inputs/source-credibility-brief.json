@@ -28,5 +28,45 @@
       "claims": ["The Common Agricultural Policy reform will reduce small farmer income by 18% in southern member states", "Large agribusiness groups captured the reform process through targeted lobbying in Brussels"],
       "story_context": "Investigative feature on CAP reform winners and losers for a European policy magazine"
     }
+  },
+  {
+    "id": "african",
+    "description": "African: NGO representative claiming mining pollution harming communities",
+    "input": {
+      "source_name": "Adama Diallo",
+      "source_role": "Regional director for West Africa at the Clean Rivers Initiative, a nonprofit funded by a mix of European development agencies and private foundations",
+      "claims": ["Cobalt mining runoff has contaminated the drinking water supply for 14 villages downstream of the Katanga processing site", "Blood lead levels in children under five in those villages are three times the WHO threshold", "The mining company's own environmental impact assessment was conducted by a consultancy that receives 40% of its revenue from the same company"],
+      "story_context": "Investigative feature on environmental and health impacts of cobalt mining for an international affairs magazine"
+    }
+  },
+  {
+    "id": "adversarial_anonymous",
+    "description": "Adversarial: anonymous source making explosive claims with no verifiable trail",
+    "input": {
+      "source_name": "Anonymous (communicating via encrypted messaging app, identity known only to reporter)",
+      "source_role": "Claims to be a former senior analyst at the National Drug Enforcement Agency",
+      "claims": ["The agency's director personally approved a policy of ignoring drug shipments from a specific cartel in exchange for intelligence on rival organizations", "At least three internal reports documenting this arrangement were destroyed on the director's orders", "Two other analysts who raised concerns were transferred to administrative roles within weeks"],
+      "story_context": "Potential front-page investigation into corruption at a federal law enforcement agency"
+    }
+  },
+  {
+    "id": "middle_eastern",
+    "description": "Middle Eastern: Gulf state development authority official on economic diversification",
+    "input": {
+      "source_name": "Dr. Fatima Al-Rashid",
+      "source_role": "Deputy director of the National Economic Diversification Authority, a government body tasked with reducing the country's dependence on oil revenue",
+      "claims": ["Foreign direct investment in the non-oil sector grew 28% year over year, reaching $14.2 billion", "The country will generate 50% of its GDP from non-hydrocarbon sectors by 2035", "Sixty thousand new jobs in technology and renewable energy were created in the past fiscal year, with 45% filled by nationals"],
+      "story_context": "Feature on whether Gulf states can genuinely transition away from oil dependency for a global business publication"
+    }
+  },
+  {
+    "id": "whistleblower",
+    "description": "Whistleblower: pharmaceutical company employee alleging suppressed trial data",
+    "input": {
+      "source_name": "James Okonkwo",
+      "source_role": "Former biostatistician at Veridian Pharmaceuticals (employed for six years, terminated four months ago, has filed a wrongful termination suit)",
+      "claims": ["Phase III trial data for the company's flagship arthritis drug showed a statistically significant increase in cardiac events that was not reported to regulators", "The company's internal statistical team was instructed to use an alternative analysis method that obscured the signal", "He personally compiled a memo documenting the discrepancy and submitted it to the chief medical officer, who acknowledged receipt but took no action"],
+      "story_context": "Investigative feature on drug safety oversight for a health and science publication"
+    }
   }
 ]
