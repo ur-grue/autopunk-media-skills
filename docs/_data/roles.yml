@@ -1,0 +1,64 @@
+- slug: journalist
+  title: Journalist
+  hook: "Investigation, research, and editorial skills for your newsroom"
+  icon: "\U0001F4F0"
+  categories:
+    - magazine-journalism
+    - data-journalism
+    - research
+    - editing
+    - writing
+    - archive-legal
+
+- slug: documentary-producer
+  title: Documentary Producer
+  hook: "From development through post — structure your production pipeline"
+  icon: "\U0001F3AC"
+  categories:
+    - tv-documentary
+    - pre-production
+    - production-support
+    - research
+    - screenwriting
+
+- slug: podcaster
+  title: Podcaster
+  hook: "Plan, produce, and grow your show"
+  icon: "\U0001F3A7"
+  categories:
+    - podcast
+    - radio-audio
+    - editing
+    - audience-distribution
+
+- slug: youtuber
+  title: YouTuber
+  hook: "Scripts, thumbnails, SEO, and channel growth"
+  icon: "\U0001F3AC"
+  categories:
+    - youtube
+    - social-media
+    - image-prompting
+    - editing
+    - audience-distribution
+
+- slug: pr-comms
+  title: PR / Comms
+  hook: "Media relations, crisis response, and strategic messaging"
+  icon: "\U0001F4E3"
+  categories:
+    - pr-communications
+    - media-business
+    - writing
+    - social-media
+
+- slug: newsletter-writer
+  title: Newsletter Writer
+  hook: "Write, edit, and grow your subscriber base"
+  icon: "✍"
+  categories:
+    - newsletter
+    - writing
+    - editing
+    - audience-distribution
+    - research

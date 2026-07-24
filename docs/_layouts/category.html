@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
+    <li aria-current="page">{{ page.category_name }}</li>
+  </ol>
+</nav>
+
+<header class="category-header">
+  <h1>{{ page.category_name }}</h1>
+  <p class="category-count">{{ page.skills | size }} skills</p>
+</header>
+
+{% assign subcategories = page.skills | map: "subcategory" | compact | uniq | sort %}
+
+{% if subcategories.size > 0 %}
+  {% for sub in subcategories %}
+  <section class="subcategory-section" aria-label="{{ sub | replace: '-', ' ' | capitalize }}">
+    <h2>{{ sub | replace: "-", " " | capitalize }}</h2>
+    <div class="skill-grid">
+      {% assign sub_skills = page.skills | where: "subcategory", sub %}
+      {% for skill in sub_skills %}
+        {% include skill-card.html skill=skill %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  {% assign no_sub = page.skills | where: "subcategory", nil %}
+  {% if no_sub.size > 0 %}
+  <section class="subcategory-section" aria-label="Other">
+    <h2>Other</h2>
+    <div class="skill-grid">
+      {% for skill in no_sub %}
+        {% include skill-card.html skill=skill %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+{% else %}
+  <div class="skill-grid">
+    {% for skill in page.skills %}
+      {% include skill-card.html skill=skill %}
+    {% endfor %}
+  </div>
+{% endif %}

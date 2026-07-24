@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="agent-page">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/agents/' | relative_url }}">Agents</a></li>
+      <li aria-current="page">{{ page.agent_title }}</li>
+    </ol>
+  </nav>
+
+  <header class="agent-header">
+    <h1>{{ page.agent_title }}</h1>
+    <div class="agent-meta">
+      <span class="badge badge--{{ page.status }}">{{ page.status }}</span>
+      {% if page.eval_score %}<span class="eval-score">G-Eval: {{ page.eval_score }}/5</span>{% endif %}
+    </div>
+  </header>
+
+  {% if page.skills and page.skills.size > 0 %}
+  <section class="agent-skills" aria-label="Skills this agent uses">
+    <h2>Skills Pipeline</h2>
+    <ol class="pipeline">
+      {% for skill_name in page.skills %}
+      <li><span class="pipeline-step">{{ skill_name | replace: "-", " " | capitalize }}</span></li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <div class="agent-body">
+    {{ page.content | markdownify }}
+  </div>
+
+  <footer class="agent-footer">
+    <p class="agent-source">Source: <a href="https://github.com/ur-grue/autopunk-media-skills/blob/main/{{ page.source_path }}"><code>{{ page.source_path }}</code></a></p>
+  </footer>
+</article>

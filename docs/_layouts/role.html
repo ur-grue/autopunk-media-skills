@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/' | relative_url }}#roles">Roles</a></li>
+    <li aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+<header class="role-header">
+  <span class="role-icon" aria-hidden="true">{{ page.icon }}</span>
+  <h1>{{ page.title }}</h1>
+  <p class="role-hook">{{ page.hook }}</p>
+  <p class="role-count">{{ page.skill_count }} skills across {{ page.role_categories | size }} categories</p>
+</header>
+
+{% for cat in page.role_categories %}
+<section class="subcategory-section" aria-label="{{ cat.name }}">
+  <h2><a href="{{ '/skills/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a></h2>
+  <div class="skill-grid">
+    {% for skill in cat.skills %}
+      {% include skill-card.html skill=skill %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

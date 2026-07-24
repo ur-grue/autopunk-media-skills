@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-text: #1a1a2e;
+  --color-text-secondary: #4a4a68;
+  --color-border: #e2e4e8;
+  --color-link: #2563eb;
+  --color-link-hover: #1d4ed8;
+  --color-accent: #f59e0b;
+  --color-badge-stable: #059669;
+  --color-badge-beta: #2563eb;
+  --color-badge-draft: #d97706;
+  --color-badge-planned: #6b7280;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  --max-width: 72rem;
+  --content-width: 48rem;
+  --radius: 0.375rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-bg-secondary: #1e293b;
+    --color-text: #e2e8f0;
+    --color-text-secondary: #94a3b8;
+    --color-border: #334155;
+    --color-link: #60a5fa;
+    --color-link-hover: #93bbfd;
+    --color-badge-stable: #34d399;
+    --color-badge-beta: #60a5fa;
+    --color-badge-draft: #fbbf24;
+    --color-badge-planned: #9ca3af;
+    --color-shadow: rgba(0, 0, 0, 0.3);
+  }
+}
