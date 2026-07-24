@@ -28,14 +28,14 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 
 **Discovery & reach:**
-- [ ] Awesome-list submissions (awesome-claude-skills, awesome-ai-agents)
+- [x] Awesome-list submissions — 3 PRs submitted 2026-07-24: travisvn/awesome-claude-skills (#1034), e2b-dev/awesome-ai-agents (#1302), steven2358/awesome-generative-ai (#1108)
 - [ ] GitHub topics optimization (journalism, podcasting, youtube-creator, media-production, ai-skills)
 - [ ] Skill directory listings (SkillsMP, SkillHub)
 - [ ] npm package for one-command installation
 
 **Accessibility & onboarding:**
 - [ ] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed
-- [ ] Role→Agent UX fix (role pages show agents, not just skills)
+- [x] Role→Agent UX fix (role pages show agents, not just skills) — completed 2026-07-24
 
 **Depth & quality:**
 - [ ] Refactor: deepen foia-request-writer (50-state statute table, federal template, appeal template)
