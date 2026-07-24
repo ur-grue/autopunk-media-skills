@@ -1,8 +1,8 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-[![Skills](https://img.shields.io/badge/skills-394-brightgreen)](skills/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
+[![Skills](https://img.shields.io/badge/skills-394-brightgreen)](skills/) [![Agents](https://img.shields.io/badge/agents-6-brightgreen)](agents/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-**394 free AI skills for media professionals — for Claude, ChatGPT, or any assistant.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
+**394 free AI skills and 6 multi-step agents for media professionals — for Claude, ChatGPT, or any assistant.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
@@ -55,11 +55,11 @@ That's it. You're using a production-grade skill.
 
 ## What Is This?
 
-This is a free collection of **394 AI skills** — ready-to-use prompts and instructions that turn a capable assistant into a specialist for one specific media production task at a time.
+This is a free collection of **394 AI skills** and **6 multi-step agents** — ready-to-use prompts and instructions that turn a capable assistant into a specialist for one specific media production task at a time.
 
 Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
 
-**394 skills across 21 categories** (plus 20 localized ES/FR variants). Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
+**394 skills across 21 categories** (plus 20 localized ES/FR variants) and **6 stable agents** that chain skills into complete workflows. Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
 
 Each skill is a plain markdown prompt file written in model-neutral language ("the assistant," not any one brand), so it works as a copy-paste prompt in **[Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant** — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI. → **[Using the skills with OpenAI](docs/using-with-openai.md)**
 
@@ -259,12 +259,12 @@ Agents compose multiple skills into multi-step workflows that produce complete d
 
 | Agent | What it produces | Skills composed | Status |
 |-------|-----------------|----------------|--------|
-| Documentary Development Agent | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | ✅ stable (4.81/5) |
-| Investigative Reporter Agent | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | 🔵 beta |
-| Magazine Editor Agent | End-to-end editing pass on a submitted draft | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | 🔲 planned |
-| YouTube Channel Operator Agent | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | 🔲 planned |
-| Podcast Producer Agent | Episode end-to-end | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | 🔲 planned |
-| PR Crisis Response Agent | Crisis response package | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | 🔲 planned |
+| [Documentary Development](agents/documentary-development-agent.md) | Complete development package from a one-line idea | logline-creator → pitch-treatment-writer → series-bible-generator → broadcaster-pitch-writer → festival-synopsis-writer | ✅ stable (4.81/5) |
+| [Investigative Reporter](agents/investigative-reporter-agent.md) | Investigation from spark to publishable draft | story-angle-finder → source-research-brief → foia-request-writer → document-analysis-summary → claim-verification-checklist → libel-check-brief → lede-writer | ✅ stable (4.96/5) |
+| [Magazine Editor](agents/magazine-editor-agent.md) | End-to-end editing pass on a submitted draft | structure-checker → copy-editor-assistant → fact-check-prompt → house-style-enforcer → headline-generator → pull-quote-selector → ai-writing-detox | ✅ stable (4.96/5) |
+| [YouTube Channel Operator](agents/youtube-channel-operator-agent.md) | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | ✅ stable (4.48/5) |
+| [Podcast Producer](agents/podcast-producer-agent.md) | Episode end-to-end | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | ✅ stable (4.78/5) |
+| [PR Crisis Response](agents/pr-crisis-response-agent.md) | Crisis response package | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | ✅ stable (4.56/5) |
 
 Each agent operates in two modes: **PLANNING** (reads your brief, presents a step-by-step plan for approval) and **EXECUTION** (runs the approved plan, assembles the outputs into a single deliverable). You can interrupt between steps to adjust direction.
 

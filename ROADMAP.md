@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 454 stable skills · 5 stable hooks · 1 stable agent · 0 beta · 0 draft · 9 planned skills · 5 planned agents · 477 total
+**Summary:** 394 stable skills · 20 locale variants · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 414 total skill files
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -8,7 +8,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 
 ## Project Milestones
 
-### Completed
+### Phase 1 — Completed (2026-07-24)
 - [x] 394 skills across 21 categories (+ 20 locale variants)
 - [x] G-Eval quality framework (7 dimensions, 4.0/5 threshold)
 - [x] SKILL_TEMPLATE.md for contributors
@@ -17,30 +17,40 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [x] AutoResearch binary eval loop (complementing G-Eval)
 - [x] thepitchdoctor.io funnel integration (README, getting-started, workflows, go-deeper page)
 - [x] Developed 4 planned skills to beta: budget-estimator, chart-type-advisor, chart-labels-writer, data-outlier-finder
-
-### In Progress
-- [ ] npm package for one-command installation
-- [ ] Awesome-list submissions (travisvn, ComposioHQ, VoltAgent)
-- [ ] Skill directory listings (SkillsMP, SkillHub)
 - [x] Promote 181 beta skills to stable (batch G-Eval structural eval, all 181 passed at ≥ 4.2/5)
-- [ ] Agents layer foundation — folder, template, README, conventions ([AUT-21](/AUT/issues/AUT-21))
-- [x] Pilot agent: documentary-development-agent ([AUT-22](/AUT/issues/AUT-22)) — stable, eval 4.81/5
-- [x] Pilot agent: investigative-reporter-agent ([AUT-23](/AUT/issues/AUT-23))
-- [x] OSINT and verification category — 7 skills shipped, all stable ([AUT-24](/AUT/issues/AUT-24))
-- [x] Hooks layer — 5 editorial QA hooks ([AUT-25](/AUT/issues/AUT-25))
+- [x] Agents layer foundation — folder, template, README, conventions
+- [x] All 6 agents stable: documentary-development (4.81), investigative-reporter (4.96), magazine-editor (4.96), youtube-channel-operator (4.48), podcast-producer (4.78), pr-crisis-response (4.56)
+- [x] OSINT and verification category — 7 skills shipped, all stable
+- [x] Hooks layer — 5 editorial QA hooks
+- [x] Docs site (GitHub Pages) with interactive skill browser, search, and role picker
 
-### Planned
+### Phase 2 — In Progress: Global Reach
+Goal: Make the repo the worldwide go-to for journalists and producers using AI.
+
+**Discovery & reach:**
+- [ ] Awesome-list submissions (awesome-claude-skills, awesome-ai-agents)
+- [ ] GitHub topics optimization (journalism, podcasting, youtube-creator, media-production, ai-skills)
+- [ ] Skill directory listings (SkillsMP, SkillHub)
+- [ ] npm package for one-command installation
+
+**Accessibility & onboarding:**
+- [ ] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed
+- [ ] Role→Agent UX fix (role pages show agents, not just skills)
+
+**Depth & quality:**
+- [ ] Refactor: deepen foia-request-writer (50-state statute table, federal template, appeal template)
+- [ ] Integrate Scoop review notes into youtube and podcast agents
+- [ ] Expanded test inputs for top 50 skills
+
+**Infrastructure:**
 - [ ] GitHub Actions: auto-validate new skills on PR
 - [ ] GitHub Actions: auto-sync marketplace.json on merge
-- [ ] Docs site (GitHub Pages) with interactive skill browser — per-skill pages with quality badges, modeled on jamditis's skills.amditis.tech
-- [ ] Multi-harness install pages — Claude Code / Cursor / Codex CLI / Gemini CLI / OpenCode / Zed (depends on docs site)
-- [ ] Audience-aligned plugin profiles — `documentary` / `journalism` / `youtube` / `podcast` / `newsletter` / `pr` (depends on docs site)
-- [ ] Remaining 4 pilot agents — magazine-editor / youtube-channel-operator / podcast-producer / pr-crisis-response (held until AUT-22 and AUT-23 prove the pattern)
-- [ ] Expanded test inputs for top 50 skills
-- [ ] Community skill submissions (first external PRs)
+- [ ] CODEOWNERS file
+
+**Community:**
+- [ ] "Good first issue" labels on GitHub
+- [ ] First external PRs
 - [ ] Localized skill variants (DE, FR, ES) for European broadcasters
-- [ ] Refactor: deepen `magazine-journalism/investigation/foia-request-writer` to procedural depth (50-state statute table, federal template, appeal template)
-- [ ] Editorial voice-and-style guide derived from `ai-writing-detox` banned list
 
 ---
 
