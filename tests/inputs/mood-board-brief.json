@@ -25,6 +25,33 @@
       "audience": "Documentary and journalism audiences in Europe aged 25-50",
       "references": "The photography of Josef Koudelka (specifically Exiles), the cinema of Aki Kaurism\u00e4ki, the visual register of ARTE documentaries",
       "avoid": "Political map graphics, barbed-wire clich\u00e9s, passport/checkpoint stock imagery"
+    },
+    {
+      "label": "arabic-calligraphy-modern",
+      "project": "SCRIPT \u2014 a digital magazine about Arabic typography, calligraphy, and the intersection of traditional Islamic art with modern graphic design",
+      "tone": "Reverent toward tradition, excited about innovation. The feeling of a boutique design studio that respects its roots.",
+      "color": "Rich, warm \u2014 deep indigo, burnished gold, ivory, touches of terracotta. Not sterile minimalism.",
+      "audience": "Arabic-speaking designers, typographers, and art directors aged 25-45",
+      "references": "The work of Wissam Shawkat, the geometric patterns of the Alhambra, contemporary Middle Eastern design magazines like Brownbook (RIP) and Kalimat",
+      "avoid": "Orientalist clich\u00e9s, mosque-dome-and-minaret stock images, treating Arabic script as decorative exotica rather than living typography"
+    },
+    {
+      "label": "contradictory-brief",
+      "project": "A true crime podcast that is also somehow cozy and comforting \u2014 listeners say it helps them fall asleep",
+      "tone": "This is the contradiction: it covers murder cases but the audience experiences it as calming background listening. The visual identity must thread that needle without being tasteless.",
+      "color": "Dark but not aggressive \u2014 deep navy, soft black, muted mauve. Warm, not cold.",
+      "audience": "Women 25-45 who listen in bed before sleep",
+      "references": "The visual warmth of a dimly lit living room, not the clinical aesthetic of a crime scene investigation",
+      "avoid": "Crime scene tape, blood spatter, mugshots, anything that looks like a cable TV true crime show"
+    },
+    {
+      "label": "accessibility-first",
+      "project": "SEEN \u2014 a documentary photography exhibition about disability and daily life, touring 6 European cities",
+      "tone": "Dignified, warm, never pitying. The subjects are people, not cases. The exhibition celebrates ordinary moments, not overcoming narratives.",
+      "color": "High contrast for accessibility \u2014 must work for visitors with low vision. Colour palette should be distinguishable to common forms of colour blindness.",
+      "audience": "General public, disability communities, photography enthusiasts, gallery-goers aged 20-70",
+      "references": "The portraiture of Nan Goldin, the design accessibility of the Wellcome Collection, the Centre Pompidou's clear wayfinding system",
+      "avoid": "Wheelchairs as visual shorthand for all disability, inspiration porn, any imagery that centres the viewer's emotion over the subject's agency"
     }
   ]
 }

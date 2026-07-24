@@ -44,6 +44,33 @@
         "budget_tier": "Mid-to-high — requires filming across four countries with translation",
         "intended_territory": "European co-production, international sales"
       }
+    },
+    {
+      "id": "SBG-04",
+      "label": "african_context",
+      "input": {
+        "series_concept": "A six-part documentary series about Africa's megacity generation — young people aged 18-30 building lives in Lagos, Nairobi, Kinshasa, Addis Ababa, Dar es Salaam, and Luanda. Each city is growing by over 1 million people per year. The series follows one young person in each city as they navigate housing, work, creativity, and community in urban environments that formal planning has largely abandoned.",
+        "episodes": "6 x 48 minutes",
+        "episode_focus": [
+          "Ep 1: Lagos — a fashion designer building a brand from a single sewing machine in Yaba",
+          "Ep 2: Nairobi — a software developer in Silicon Savannah whose parents are pastoralists in rural Kenya",
+          "Ep 3: Kinshasa — a musician navigating the world's most vibrant music scene with no formal industry infrastructure",
+          "Ep 4: Addis Ababa — an architect trying to preserve historic buildings as the city demolishes entire neighborhoods",
+          "Ep 5: Dar es Salaam — a woman running a boda-boda delivery fleet in a city with no address system",
+          "Ep 6: Luanda — a tech entrepreneur building an app for a country where mobile data costs more than food"
+        ],
+        "target_broadcaster": "Al Jazeera English, Netflix Africa, or BBC Africa Eye",
+        "comparable_series": "Welcome to Lagos (BBC), City of Joy (Netflix)",
+        "budget_tier": "Mid — requires filming crews in 6 countries over 12+ months"
+      }
+    },
+    {
+      "id": "SBG-05",
+      "label": "limited_information",
+      "input": {
+        "series_concept": "Something about the ocean. Maybe three or four episodes. For TV.",
+        "episodes": "3-4 episodes, length TBD"
+      }
     }
   ]
 }
