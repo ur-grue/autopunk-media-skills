@@ -1,9 +1,9 @@
 ---
 name: data-journalism-investigator-agent
 type: agent
-status: beta
+status: stable
 version: 1.0
-eval_score: null
+eval_score: 4.72
 maxTurns: 25
 allowedTools:
   - Read
