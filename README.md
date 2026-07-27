@@ -10,7 +10,33 @@
 
 ---
 
-## What Does It Produce?
+## What is this?
+
+A free collection of **394 AI skills** and **6 multi-step agents** — ready-to-use prompts that turn a capable assistant into a specialist for one specific media production task at a time.
+
+Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
+
+**394 skills across 21 categories**, plus 30 localized variants (DE/ES/FR) and **6 stable agents** that chain skills into complete workflows. Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
+
+Each skill is a plain markdown file written in model-neutral language, so it works as a copy-paste prompt in **[Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant** — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI. → **[Using the skills with OpenAI](docs/using-with-openai.md)**
+
+---
+
+## Who is this for?
+
+TV documentary producers · magazine journalists · YouTube creators · podcast producers · screenwriters · data journalists · radio producers · newsletter writers · PR professionals · researchers · social media managers · visual content creators · editors and production teams.
+
+| I work in… | Start here |
+|---|---|
+| 📺 TV Documentary | [Documentary Producer guide](docs/for/documentary-producer.md) |
+| 📰 Journalism | [Magazine Journalist guide](docs/for/magazine-journalist.md) |
+| 📹 YouTube | [YouTube Creator guide](docs/for/youtuber.md) |
+| 🎙️ Podcasting | [Podcaster guide](docs/for/podcaster.md) |
+| ✉️ Newsletters | [Newsletter Writer guide](docs/for/newsletter-writer.md) |
+
+---
+
+## What does it produce?
 
 Three real outputs, unedited, from stable skills in the library:
 
@@ -30,146 +56,39 @@ That is the quality level across the library. Production-ready. Usable without e
 
 ---
 
-## Start In 60 Seconds
+## Get started
 
-**No technical setup. No account. No install.**
+**You don't write the prompt — the skill *is* the prompt, already written.** You paste it and add your topic. Works in [Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant — free accounts are fine.
 
-1. Open [claude.ai](https://claude.ai) or [ChatGPT](https://chat.openai.com) (free account — takes 30 seconds)
-2. Browse [`skills/`](skills/) on this page and click the skill you want
-3. Read the **"What You Need To Provide"** section
-4. Copy the skill text and paste it into the assistant with your own material
+**Copy and paste** (no technical setup needed):
 
-That's it. You're using a production-grade skill.
+1. Browse the [`skills/`](skills/) folder — click any folder to open it, then click the skill file
+2. Read the **"What You Need To Provide"** section so you know what to include
+3. Copy the skill text and paste it into your assistant with your own material
 
-**Pick your role** for a curated starting point:
-
-| I work in… | Start here |
-|---|---|
-| 📺 TV Documentary | [Documentary Producer guide](docs/for/documentary-producer.md) |
-| 📰 Journalism | [Magazine Journalist guide](docs/for/magazine-journalist.md) |
-| 📹 YouTube | [YouTube Creator guide](docs/for/youtuber.md) |
-| 🎙️ Podcasting | [Podcaster guide](docs/for/podcaster.md) |
-| ✉️ Newsletters | [Newsletter Writer guide](docs/for/newsletter-writer.md) |
-
----
-
-## What Is This?
-
-This is a free collection of **394 AI skills** and **6 multi-step agents** — ready-to-use prompts and instructions that turn a capable assistant into a specialist for one specific media production task at a time.
-
-Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
-
-**394 skills across 21 categories** (plus 20 localized ES/FR variants) and **6 stable agents** that chain skills into complete workflows. Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
-
-Each skill is a plain markdown prompt file written in model-neutral language ("the assistant," not any one brand), so it works as a copy-paste prompt in **[Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant** — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI. → **[Using the skills with OpenAI](docs/using-with-openai.md)**
-
----
-
-## Install
-
-Every skill is a plain markdown prompt file — there's nothing to compile and no account required.
-
-**Easiest — no install (Claude, ChatGPT, or any AI assistant):**
-
-1. Open the skill you want in the [`skills/`](skills/) folder.
-2. Copy its text.
-3. Paste it into your assistant with your own material. Done.
-
-**On OpenAI** — copy-paste into ChatGPT, build a reusable Custom GPT, or use a skill as the `system` prompt via the API. Full guide + a one-command bundler that turns the library into a Custom GPT: **[Using the skills with OpenAI](docs/using-with-openai.md)**.
-
-**One command in Claude Code** (installs the whole library as a plugin):
-
-```
-/plugin marketplace add ur-grue/autopunk-media-skills
-/plugin install autopunk-media-skills@autopunk-media-skills
-```
-
-Claude then auto-loads the right skill for the task at hand. Browse or manage them anytime with `/plugin`.
-
-**npm (one command, all skills):**
-
-```bash
-npx autopunk-media-skills install --all
-```
-
-Copies skills, agents, and hooks into `.claude/skills/autopunk-media-skills/` in your current project. Run `npx autopunk-media-skills list` to browse categories first.
-
-**Use the files directly (Cursor, Codex CLI, Gemini CLI, OpenCode, or any AI assistant):**
-
-```bash
-git clone https://github.com/ur-grue/autopunk-media-skills.git
-```
-
-Each skill is a self-contained `SKILL.md`: open the file, copy it into your tool's prompt/skills location, or paste it straight into the chat. Because the skills are just markdown, they work in **any** AI assistant.
-
----
-
-## Who Is This For?
-
-TV documentary producers · magazine journalists · YouTube creators · podcast producers · screenwriters · data journalists · radio producers · newsletter writers · PR professionals · researchers · social media managers · visual content creators · editors and production teams.
-
----
-
-## Quick Start
-
-**You don't write the prompt — the skill *is* the prompt, already written.** You just paste it and add your topic. Works in [Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant — free accounts are fine.
-
-Three steps, about 60 seconds:
-
-1. **Open a skill** — e.g. [`hook-generator`](skills/youtube/pre-production/hook-generator/SKILL.md). Copy its text.
-2. **Paste it** into Claude or ChatGPT.
-3. **Add your material** in one line — the skill's "What You Need To Provide" tells you exactly what:
+That's the whole process. Here's an example input for `hook-generator`:
 
 ```
 Topic: why most adults fail to learn a language — and why "immersion" advice is wrong.
 Format: YouTube long-form. Audience: frustrated adult learners, 28–45. Tone: direct, science-backed.
 ```
 
-That's the whole input. Here's what the skill writes back:
+**Other install options:**
 
-### Example output:
+| Method | Command | Best for |
+|--------|---------|----------|
+| Claude Code plugin | `/plugin marketplace add ur-grue/autopunk-media-skills` | Claude Code users |
+| npm | `npx autopunk-media-skills install --all` | Any project |
+| Git clone | `git clone https://github.com/ur-grue/autopunk-media-skills.git` | Cursor, Codex CLI, Gemini CLI |
+| OpenAI | Copy-paste or build a Custom GPT — [full guide](docs/using-with-openai.md) | ChatGPT users |
 
----
-
-**Hook A — The Broken Promise**
-
-"Every language app, every tutor, every Reddit thread told you the same thing: immerse yourself. Surround yourself with the language. Just listen. Just watch. Just live it.
-
-You did that. For months. And you still can't hold a conversation.
-
-Here's what they didn't tell you — and what the research has known since 1985."
-
-*Mechanism: Validates the viewer's failure as a systemic problem, not personal inadequacy. Creates urgency to hear the explanation.*
+Add a skill path to your project's `CLAUDE.md` or agent config so it loads automatically whenever you work in that project.
 
 ---
 
-**Hook B — The Number**
+## What's in the library
 
-"94% of adult language learners plateau within six months. Not because they quit. Because they're doing the one thing every expert recommends — and it is actively working against how the adult brain acquires language.
-
-The science on this is twenty years old. Nobody taught it to you."
-
-*Mechanism: Specific statistic creates credibility shock. "Nobody taught you" frames the video as access to suppressed information.*
-
----
-
-**Hook C — The Confession**
-
-"I spent three years living in a country where I didn't speak the language. By the end, I could order coffee and ask for directions. That's it. Three years.
-
-Turns out, immersion without one specific ingredient is just expensive confusion. Here's the ingredient."
-
-*Mechanism: First-person failure story creates identification, then reframes failure as solvable. "Expensive confusion" is memorable.*
-
----
-
-That's the quality level you get from every stable skill in this library.
-
----
-
-## What's In The Library
-
-| Category | Skills | What It Covers |
+| Category | Skills | What it covers |
 |----------|--------|----------------|
 | Research | 73 skills | people · background · fact-checking · academic · data & statistics · competitive · logistics |
 | Writing | 57 skills | articles · broadcast · digital & social · institutional |
@@ -192,72 +111,9 @@ That's the quality level you get from every stable skill in this library.
 | Archive & Legal | 7 skills | archive research · rights & clearances |
 | Audience & Distribution | 7 skills | audience growth · publishing |
 | Translation & Localization | 4 skills | localization · cultural adaptation |
-| **Total** | **394 skills** | + 20 localized ES/FR variants |
+| **Total** | **394 skills** | + 30 localized DE/ES/FR variants |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
-
----
-
-## Hooks
-
-Hooks are write-time editorial guardrails. They run automatically while you work and surface non-blocking warnings when your text has common quality gaps — AI-flavoured language, missing attribution, unarchived URLs, or excessive passive voice.
-
-Hooks advise. They never block your work or revert your edits.
-
-| Hook | Fires on | What it catches |
-|------|----------|-----------------|
-| [ai-slop-detector](hooks/ai-slop-detector.md) | Every edit | Banned words, throat-clearing intros, "not just X — Y" constructions |
-| [attribution-check](hooks/attribution-check.md) | Every edit | Quotes, statistics, or claims without a named source |
-| [archive-on-cite-reminder](hooks/archive-on-cite-reminder.md) | Every edit | URLs added without an archive confirmation |
-| [passive-voice-warning](hooks/passive-voice-warning.md) | Every edit | Passive voice frequency above 25% (configurable) |
-| [pre-publish-checklist](hooks/pre-publish-checklist.md) | Session end | 6-item editorial checklist before you push |
-
-Hooks compose with skills. The `ai-slop-detector` reads its word lists from the `ai-writing-detox` skill. The `passive-voice-warning` points you to the `passive-voice-checker` for a full audit with rewrites. The `pre-publish-checklist` ties them all together at session end.
-
----
-
-## Quality Badges
-
-Every skill displays a status badge so you know exactly how production-ready it is.
-
-| Badge | Status | What It Means |
-|-------|--------|---------------|
-| 🔲 `planned` | Coming soon | On the roadmap but not written yet |
-| 🟡 `draft` | Written, not tested | Do not use in production |
-| 🔵 `beta` | Tested at least once | Usable — may have rough edges |
-| ✅ `stable` | Scored ≥ 4.0/5 on quality eval | Safe to use without supervision |
-
-Only skills that pass a rigorous six-dimension quality evaluation earn `stable` status. The evaluation tests coherence, consistency, fluency, relevance, professionalism, and actionability — scored by Claude against a rubric aligned to real media industry standards.
-
-See `tests/EVAL_FRAMEWORK.md` for the full process.
-
----
-
-## Example Outputs
-
-Two short examples showing the quality standard across different categories. Each is a real output from the skill, generated with a generic input.
-
----
-
-### Logline · `logline-creator` · TV Documentary
-
-**Input:** Feature documentary about a team of forensic archivists who recover destroyed government records from degraded magnetic tape.
-
-**Output:**
-
-> "In a basement lab outside Washington, three archivists race to recover government records that were officially destroyed — before the statute of limitations runs out on the people who ordered the erasure."
-
----
-
-### Press Release Opening · `press-kit-generator` · TV Documentary
-
-**Input:** Nature documentary series, six parts, following migrating bird species across three continents. Tone: prestigious, PBS-adjacent.
-
-**Output:**
-
-> "Seven years in production. Forty-two filming locations across three continents. One question that ornithologists have debated for a century: where do they actually go?
->
-> *On The Wing* is a six-part natural history series that follows the Arctic Tern — the animal that experiences more daylight than any other creature on Earth — across the full length of its annual migration. For the first time, miniaturized tracking technology reveals a route that defies every existing model."
 
 ---
 
@@ -276,52 +132,13 @@ Agents compose multiple skills into multi-step workflows that produce complete d
 
 Each agent operates in two modes: **PLANNING** (reads your brief, presents a step-by-step plan for approval) and **EXECUTION** (runs the approved plan, assembles the outputs into a single deliverable). You can interrupt between steps to adjust direction.
 
-Agents follow the same quality badge system as skills. See `agents/AGENT_TEMPLATE.md` for the full specification.
-
----
-
-## How To Use A Skill
-
-**Option A — Copy and paste** (no technical setup needed)
-
-1. Browse the [`skills/`](skills/) folder on this page — click any folder to open it, then click the skill file you want
-2. Read the **"What You Need To Provide"** section so you know what info to include
-3. Copy everything from the **"# Skill Title"** heading down to **"Known Limitations"** — skip the grey metadata block at the very top of the file
-4. Paste it into [Claude](https://claude.ai) along with your own material
-
-**Option B — Clone the library** (for coding agents like Claude Code, Cursor, Codex CLI)
-
-```bash
-git clone https://github.com/ur-grue/autopunk-media-skills.git
-```
-
-Each skill is a self-contained markdown file. Copy the ones you want into your tool's prompt or skills location, or paste a skill's text straight into the chat.
-
-**Option C — Reference from your project**
-
-Add a skill path to your project's `CLAUDE.md` or agent config so it loads automatically whenever you work in that project.
-
----
-
-## First Time Here?
-
-Not sure where to start? These guides will get you up and running fast.
-
-| Guide | What It Does |
-|-------|-------------|
-| [**Getting Started**](docs/getting-started.md) | Pick your role, get 3 starter skills, start producing |
-| [**Writing Better Inputs**](docs/writing-better-inputs.md) | How to brief Claude so output is usable on the first try |
-| [**Skill Index**](docs/skill-index.md) | Find any skill by what you need to do — not by category |
-| [**Troubleshooting**](docs/troubleshooting.md) | Output not right? Common fixes for common problems |
-| [**Roadmap**](ROADMAP.md) | What's done, in progress, and planned next |
-
 ---
 
 ## Workflows
 
-Most real projects use multiple skills in sequence. These step-by-step workflows walk you through an entire project from start to finish.
+Most real projects use multiple skills in sequence. These workflows walk you through an entire project from start to finish.
 
-| Workflow | Skills | Who It's For |
+| Workflow | Skills | Who it's for |
 |----------|--------|-------------|
 | [YouTube Video Launch](docs/workflows/youtube-video-launch.md) | 8 skills | YouTube creators |
 | [Investigative Journalism Project](docs/workflows/investigative-journalism-project.md) | 10 skills | Investigative reporters |
@@ -332,11 +149,58 @@ Most real projects use multiple skills in sequence. These step-by-step workflows
 
 ---
 
-## How To Contribute
+## Hooks
+
+Hooks are write-time editorial guardrails. They run automatically while you work and surface non-blocking warnings when your text has common quality gaps — AI-flavoured language, missing attribution, unarchived URLs, or excessive passive voice.
+
+Hooks advise. They never block your work or revert your edits.
+
+| Hook | Fires on | What it catches |
+|------|----------|-----------------|
+| [ai-slop-detector](hooks/ai-slop-detector.md) | Every edit | Banned words, throat-clearing intros, "not just X — Y" constructions |
+| [attribution-check](hooks/attribution-check.md) | Every edit | Quotes, statistics, or claims without a named source |
+| [archive-on-cite-reminder](hooks/archive-on-cite-reminder.md) | Every edit | URLs added without an archive confirmation |
+| [passive-voice-warning](hooks/passive-voice-warning.md) | Every edit | Passive voice frequency above 25% (configurable) |
+| [pre-publish-checklist](hooks/pre-publish-checklist.md) | Session end | 6-item editorial checklist before you push |
+
+---
+
+## Quality
+
+Every skill carries a quality score in its metadata. The library mean is **4.38/5**, and 4.0 is the minimum to ship.
+
+| Badge | Status | What it means |
+|-------|--------|---------------|
+| 🔲 `planned` | Coming soon | On the roadmap but not written yet |
+| 🟡 `draft` | Written, not tested | Do not use in production |
+| 🔵 `beta` | Tested at least once | Usable — may have rough edges |
+| ✅ `stable` | Scored ≥ 4.0/5 on quality eval | Safe to use without supervision |
+
+Only skills that pass a seven-dimension quality evaluation earn `stable` status. The evaluation tests coherence, consistency, fluency, relevance, professionalism, actionability, and editorial naturalness — scored against a rubric aligned to real media industry standards. See [`tests/EVAL_FRAMEWORK.md`](tests/EVAL_FRAMEWORK.md) for the full process.
+
+Our assertion suite ran **226 skills** against binary checks using diverse inputs (standard, minimal, European context): **2,354 / 2,390 checks passed (98.5%).** All 36 misses occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
+
+Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [`tests/README.md`](tests/README.md)
+
+---
+
+## Guides
+
+| Guide | What it does |
+|-------|-------------|
+| [**Getting Started**](docs/getting-started.md) | Pick your role, get 3 starter skills, start producing |
+| [**Writing Better Inputs**](docs/writing-better-inputs.md) | How to brief the assistant so output is usable on the first try |
+| [**Skill Index**](docs/skill-index.md) | Find any skill by what you need to do — not by category |
+| [**Troubleshooting**](docs/troubleshooting.md) | Output not right? Common fixes for common problems |
+| [**Roadmap**](ROADMAP.md) | What's done, in progress, and planned next |
+
+---
+
+## Contributing
 
 Got an idea for a skill? Found one that gave bad output? Want to improve an existing skill?
 
-See `CONTRIBUTING.md` — there's a plain-English section at the top written for non-developers.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) — there's a plain-English section at the top written for non-developers.
 
 Short version:
 1. Open a GitHub Issue describing the skill you want
@@ -346,17 +210,7 @@ Short version:
 
 ---
 
-## Quality Testing
-
-**Every skill carries a quality score** in its metadata — the library mean is **4.38/5**, and 4.0 is the minimum to ship. See the auto-generated [`tests/EVAL_SUMMARY.md`](tests/EVAL_SUMMARY.md) for the score of every category.
-
-On top of that, our documented assertion suite ran **226 skills** against binary checks using diverse inputs (standard, minimal, European context): **2,354 / 2,390 checks passed (98.5%).** All 36 misses occurred on deliberately minimal inputs where skills correctly refused to fabricate content — the desired professional behavior. No skill failed on a well-specified input.
-
-Full results: [`tests/EVAL_RESULTS.md`](tests/EVAL_RESULTS.md) · Methodology: [`tests/README.md`](tests/README.md)
-
----
-
-## Related Projects
+## Related projects
 
 This repo exists within a growing ecosystem of agent skills for media, journalism, writing, and marketing. We maintain a curated list of 25+ related projects — peers, infrastructure, and inspiration.
 
@@ -364,24 +218,12 @@ This repo exists within a growing ecosystem of agent skills for media, journalis
 
 ---
 
-## Need help with your specific project?
-
-These skills produce strong drafts in any AI. But for one high-stakes job — getting a documentary commissioned — the draft is only half of it. The pitch has to be *broadcast-ready*: formatted for the specific broadcaster, sourced well enough to survive an editor, positioned against what's already in development.
-
-**[thepitchdoctor.io](https://thepitchdoctor.io)** is an AI system built for exactly that: it turns a documentary idea into a broadcaster-format exposé — 98 broadcaster profiles, confidence-tagged sourcing — in about twelve minutes. The skills here are the free, general-purpose layer; the Pitch Doctor is the specialized paid product for the pitch that has to land. Your first exposé is free.
-
-→ [Learn more](docs/go-deeper.md)
-
----
-
 ## License
 
-MIT — free to use, fork, and adapt. See `LICENSE`.
+MIT — free to use, fork, and adapt. See [`LICENSE`](LICENSE).
 
 ---
 
-Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers, from the team behind [thepitchdoctor.io](https://thepitchdoctor.io).
-
-These skills encode real production knowledge from documentary development, magazine journalism, broadcast scripting, and international co-productions.
+Maintained by [Autopunk](https://github.com/ur-grue) — AI workflows for media producers.
 
 Want to contribute? See [CONTRIBUTING.md](CONTRIBUTING.md). Found a bug? [Open an issue](https://github.com/ur-grue/autopunk-media-skills/issues).
