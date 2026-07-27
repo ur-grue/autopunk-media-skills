@@ -6,7 +6,7 @@
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
-**Jump to your role:** [Documentary Producer](docs/for/documentary-producer.md) · [Journalist](docs/for/magazine-journalist.md) · [YouTube Creator](docs/for/youtuber.md) · [Podcaster](docs/for/podcaster.md) · [Newsletter Writer](docs/for/newsletter-writer.md)
+**Jump to your role:** [Documentary Producer](docs/for/documentary-producer.md) · [Journalist](docs/for/magazine-journalist.md) · [Data Journalist](docs/for/data-journalist.md) · [YouTube Creator](docs/for/youtuber.md) · [Podcaster](docs/for/podcaster.md) · [Screenwriter](docs/for/screenwriter.md) · [Newsletter Writer](docs/for/newsletter-writer.md)
 
 ---
 
@@ -30,8 +30,10 @@ TV documentary producers · magazine journalists · YouTube creators · podcast 
 |---|---|
 | 📺 TV Documentary | [Documentary Producer guide](docs/for/documentary-producer.md) |
 | 📰 Journalism | [Magazine Journalist guide](docs/for/magazine-journalist.md) |
+| 📊 Data Journalism | [Data Journalist guide](docs/for/data-journalist.md) |
 | 📹 YouTube | [YouTube Creator guide](docs/for/youtuber.md) |
 | 🎙️ Podcasting | [Podcaster guide](docs/for/podcaster.md) |
+| 🎬 Screenwriting | [Screenwriter guide](docs/for/screenwriter.md) |
 | ✉️ Newsletters | [Newsletter Writer guide](docs/for/newsletter-writer.md) |
 
 ---
@@ -53,6 +55,21 @@ Three real outputs, unedited, from stable skills in the library:
 > "Seven years in production. Forty-two filming locations across three continents. One question that ornithologists have debated for a century: where do they actually go?"
 
 That is the quality level across the library. Production-ready. Usable without editing.
+
+---
+
+## How people use it
+
+| Role | Workflow | Skills used |
+|------|----------|-------------|
+| Investigative reporter | FOIA request → document analysis → fact-check → publishable draft | [Investigative Reporter Agent](agents/investigative-reporter-agent.md) (7 skills) |
+| YouTube creator | SEO title → hook → full script → thumbnail brief → description | [YouTube Channel Operator Agent](agents/youtube-channel-operator-agent.md) (8 skills) |
+| Managing editor | AI policy → beat setup → editorial calendar → ethics review | [Newsroom Operations Agent](agents/newsroom-operations-agent.md) (5 skills) |
+| Podcast producer | Guest research → interview questions → ad reads → show notes | [Podcast Producer Agent](agents/podcast-producer-agent.md) (6 skills) |
+| Data journalist | Find the story → clean data → statistics → chart descriptions → methodology | [Data Journalism Investigator Agent](agents/data-journalism-investigator-agent.md) (7 skills) |
+| Documentary filmmaker | One-line idea → logline → treatment → series bible → broadcaster pitch | [Documentary Development Agent](agents/documentary-development-agent.md) (5 skills) |
+
+Each agent chains multiple skills into a single pipeline — paste the agent file, provide your brief, and get a complete deliverable. Or use individual skills one at a time.
 
 ---
 
