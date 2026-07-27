@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 394 stable skills · 30 locale variants (DE/ES/FR) · 5 stable hooks · 6 stable agents · 0 beta · 0 draft · 424 total skill files
+**Summary:** 394 stable skills · 30 locale variants (DE/ES/FR) · 5 stable hooks · 6 stable agents · 2 beta agents · 0 draft · 424 total skill files
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -66,13 +66,13 @@ Goal: Make the library undeniable — fix every rough edge, prove quality with d
 - [x] Fix 2 malformed test input JSON files (historical-precedent-finder, scientific-paper-summarizer)
 - [x] Close 5 good-first-issues (#29–#33) — 3 already resolved, 1 done in Phase 2, 1 fixed
 - [x] Remove banned AI words from 4 skills (series-bible-generator, archival-footage-brief, statistics-explainer, referral-copy-writer)
-- [ ] Deepen source-verification to foia-request-writer depth (v2.0)
-- [ ] Deepen fact-check-prompt to foia-request-writer depth (v2.0)
-- [ ] Deepen interview-transcript-editor to foia-request-writer depth (v2.0)
+- [x] Deepen source-verification to foia-request-writer depth (v2.0) — 146 → 590 lines, 5 verification modes, SIFT framework, tools table, red flags reference
+- [x] Deepen fact-check-prompt to foia-request-writer depth (v2.0) — 146 → 691 lines, 6 claim categories, verification chain methodology, red flags tables
+- [x] Deepen interview-transcript-editor to foia-request-writer depth (v2.0) — 100 → 495 lines, 6 editing modes, editing ethics, style guide, before/after examples
 
-**3C — Agent composition:**
-- [ ] New agent: data-journalism-investigator (7-skill pipeline)
-- [ ] New agent: newsletter-launch (5-skill pipeline)
+**3C — Agent composition (completed 2026-07-27):**
+- [x] New agent: data-journalism-investigator (7-skill pipeline) — 473 lines, beta
+- [x] New agent: newsletter-launch (5-skill pipeline) — 430 lines, beta
 
 **3D — Infrastructure:**
 - [ ] GitHub Release with changelog (v2.1.0 for Phase 2, v3.0.0 for Phase 3)
