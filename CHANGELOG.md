@@ -4,6 +4,28 @@ All notable changes to autopunk-media-skills are documented here.
 
 ---
 
+## [4.0.0] — 2026-07-27
+
+### Added
+- MCP server: `mcp-server/` exposes all skills and agents as native tools for Cursor, VS Code, Windsurf, Zed, and any MCP client (6 tools: list_skills, get_skill, search_skills, list_agents, get_agent, list_categories)
+- Newsroom operations agent: 5-skill pipeline for editorial team setup (newsroom-ai-policy → editorial-calendar-planner → beat-setup-guide → ethics-review-checklist → content-arc-planner)
+- 8 new skills: newsroom-ai-policy, editorial-calendar-planner, beat-setup-guide, ethics-review-checklist, breaking-news-brief, project-memory, project-retrospective, template-selector
+- 20 new locale variants: Portuguese (10) and Italian (10), bringing total locales to 50 across 5 languages (DE/ES/FR/IT/PT)
+
+### Changed
+- Data journalism investigator agent promoted: beta → stable (4.72/5)
+- Newsletter launch agent promoted: beta → stable (4.68/5)
+- Agent count: 8 → 9 (all stable, zero beta)
+- Skill count: 394 → 402
+- Locale count: 30 → 50
+- README updated with MCP install option and corrected agent/skill/locale counts
+
+### Fixed
+- Closed 2 stale PRs (#5, #6) superseded by later work
+- ROADMAP summary line corrected to reflect actual stable counts
+
+---
+
 ## [3.0.0] — 2026-07-27
 
 ### Added

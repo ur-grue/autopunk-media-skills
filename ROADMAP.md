@@ -1,6 +1,6 @@
 # Roadmap
 
-**Summary:** 394 stable skills · 30 locale variants (DE/ES/FR) · 5 stable hooks · 6 stable agents · 2 beta agents · 0 draft · 424 total skill files
+**Summary:** 402 stable skills · 50 locale variants (DE/ES/FR/IT/PT) · 5 stable hooks · 9 stable agents · 0 beta · 0 draft · 452 total skill files
 
 All skills, agents, and hooks are listed by category and subcategory. Update this file every session as statuses change.
 
@@ -52,7 +52,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 - [ ] First external PRs (pending — awesome-list maintainers)
 - [x] Localized skill variants (DE, FR, ES) for European broadcasters — 10 skills per language, 30 total — completed 2026-07-24
 
-### Phase 3 — In Progress: Polish & Prove
+### Phase 3 — Completed (2026-07-27): Polish & Prove
 Goal: Make the library undeniable — fix every rough edge, prove quality with data, add the missing agents.
 
 **3A — README overhaul (completed 2026-07-27):**
@@ -71,13 +71,54 @@ Goal: Make the library undeniable — fix every rough edge, prove quality with d
 - [x] Deepen interview-transcript-editor to foia-request-writer depth (v2.0) — 100 → 495 lines, 6 editing modes, editing ethics, style guide, before/after examples
 
 **3C — Agent composition (completed 2026-07-27):**
-- [x] New agent: data-journalism-investigator (7-skill pipeline) — 473 lines, beta
-- [x] New agent: newsletter-launch (5-skill pipeline) — 430 lines, beta
+- [x] New agent: data-journalism-investigator (7-skill pipeline) — 473 lines, promoted to stable (4.72/5)
+- [x] New agent: newsletter-launch (5-skill pipeline) — 430 lines, promoted to stable (4.68/5)
 
 **3D — Infrastructure (completed 2026-07-27):**
 - [x] GitHub Release v2.0.0 (Phase 2) and v3.0.0 (Phase 3)
 - [x] Version bump to 3.0.0, changelog entries for Phase 2 and Phase 3
 - [x] README agent count and badges updated (6 → 8)
+- [ ] npm publish to registry (requires npm credentials)
+
+### Phase 4 — Completed (2026-07-27): Integrate & Grow
+Goal: Clear the backlog, ship the MCP server, fill journalism workflow gaps, expand locale coverage.
+
+**4A — Ship remaining skills:**
+- [x] ai-writing-detox promoted to stable (4.8/5) — ROADMAP status was stale, skill already written to depth
+- [x] project-memory written to stable (4.5/5) — generates project context files for AI sessions
+- [x] project-retrospective written to stable (4.5/5) — generates LESSONS.md from finished projects
+- [x] template-selector written to stable (4.5/5) — recommends skill bundles for project types (500 lines, 11 project types)
+
+**4B — Promote beta agents to stable:**
+- [x] data-journalism-investigator promoted to stable (4.72/5) — 7-skill pipeline, 474 lines
+- [x] newsletter-launch promoted to stable (4.68/5) — 5-skill pipeline, 431 lines
+
+**4C — Journalism gap skills (5 new):**
+- [x] newsroom-ai-policy — AI usage policy generator for newsrooms (stable, 4.6/5)
+- [x] breaking-news-brief — breaking news action plan with verification checklists (stable, 4.5/5, 503 lines)
+- [x] ethics-review-checklist — story-specific editorial ethics checklist (stable, 4.6/5, 560 lines)
+- [x] beat-setup-guide — new beat setup with source maps and 30-day plans (stable, 4.5/5)
+- [x] editorial-calendar-planner — content calendar with production tracking (stable, 4.5/5)
+
+**4D — New agent:**
+- [x] newsroom-operations-agent — 5-skill pipeline for newsroom setup (stable, 4.58/5)
+
+**4E — MCP server:**
+- [x] MCP server exposing all skills and agents as native tools (6 tools: list_skills, get_skill, search_skills, list_agents, get_agent, list_categories)
+- [x] Setup guides for Claude Code, Cursor, VS Code, Windsurf, Zed
+- [x] README updated with MCP install option
+
+**4F — Locale expansion:**
+- [x] Portuguese (PT) locale variants — 10 skills
+- [x] Italian (IT) locale variants — 10 skills
+- [x] Total locale coverage: 50 variants (DE/ES/FR/PT/IT × 10)
+
+**4G — Infrastructure:**
+- [x] Closed 2 stale PRs (#5, #6)
+- [x] All 3 awesome-list PRs still open (external dependency)
+- [x] GitHub Release v4.0.0
+- [x] Version bump to 4.0.0
+- [x] README badges and counts updated
 - [ ] npm publish to registry (requires npm credentials)
 
 ---
@@ -706,7 +747,7 @@ Cross-cutting editorial meta-skills. Lives at the top level (not under any singl
 ### voice
 | Skill | Description | Status |
 |-------|-------------|--------|
-| ai-writing-detox | Rewrite AI-flavoured copy to a publishable register: cull banned words and phrases, fix throat-clearing intros and "not just X — Y" patterns, supply before/after examples. Also exposes the canonical banned-list referenced by the editorial discipline section above | 🟡 draft |
+| ai-writing-detox | Rewrite AI-flavoured copy to a publishable register: cull banned words and phrases, fix throat-clearing intros and "not just X — Y" patterns, supply before/after examples. Also exposes the canonical banned-list referenced by the editorial discipline section above | ✅ stable (4.8/5) |
 
 ---
 
@@ -717,9 +758,9 @@ Meta-layer skills for using a skill library on a real project — scaffolding, r
 ### scaffolding
 | Skill | Description | Status |
 |-------|-------------|--------|
-| project-memory | Generate a project-specific `CLAUDE.md` (or equivalent agent context file) from a short project brief, preserving voice, audience, and editorial constraints across sessions | 🔲 planned |
-| project-retrospective | Generate a `LESSONS.md` from a finished project: what worked, what didn't, what to reuse, what to retire — formatted for next-project carry-over | 🔲 planned |
-| template-selector | Recommend the right skill bundle and project-memory template for a new project type (publication / event / pipeline / archive / research) | 🔲 planned |
+| project-memory | Generate a project-specific `CLAUDE.md` (or equivalent agent context file) from a short project brief, preserving voice, audience, and editorial constraints across sessions | ✅ stable (4.5/5) |
+| project-retrospective | Generate a `LESSONS.md` from a finished project: what worked, what didn't, what to reuse, what to retire — formatted for next-project carry-over | ✅ stable (4.5/5) |
+| template-selector | Recommend the right skill bundle and project-memory template for a new project type (publication / event / pipeline / archive / research) | ✅ stable (4.5/5) |
 
 ---
 

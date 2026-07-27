@@ -1,8 +1,8 @@
 ![autopunk-media-skills](.github/banner.svg?v=2)
 
-[![Skills](https://img.shields.io/badge/skills-394-brightgreen)](skills/) [![Agents](https://img.shields.io/badge/agents-8-brightgreen)](agents/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
+[![Skills](https://img.shields.io/badge/skills-402-brightgreen)](skills/) [![Agents](https://img.shields.io/badge/agents-9-brightgreen)](agents/) [![Quality](https://img.shields.io/badge/mean_eval-4.38%2F5-brightgreen)](tests/EVAL_SUMMARY.md) [![Eval](https://img.shields.io/badge/eval-98.5%25_pass_rate-brightgreen)](tests/EVAL_RESULTS.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ur-grue/autopunk-media-skills?style=social)](https://github.com/ur-grue/autopunk-media-skills/stargazers)
 
-**394 free AI skills and 8 multi-step agents for media professionals — for Claude, ChatGPT, or any assistant.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
+**400+ free AI skills and 9 multi-step agents for media professionals — for Claude, ChatGPT, or any assistant.** TV producers, journalists, podcasters, YouTubers, radio producers, newsletter writers, PR teams, screenwriters — every skill quality-tested. No coding required.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/ur-grue/autopunk-media-skills/stargazers)** — it helps other media professionals find it.
 
@@ -12,11 +12,11 @@
 
 ## What is this?
 
-A free collection of **394 AI skills** and **8 multi-step agents** — ready-to-use prompts that turn a capable assistant into a specialist for one specific media production task at a time.
+A free collection of **400+ AI skills** and **9 multi-step agents** — ready-to-use prompts that turn a capable assistant into a specialist for one specific media production task at a time.
 
 Each skill encodes real production knowledge: the format conventions, the quality bar, the specific inputs a professional would know to provide. The output reads like it came from someone who has worked in the medium — not from a generic chatbot.
 
-**394 skills across 21 categories**, plus 30 localized variants (DE/ES/FR) and **8 agents** (6 stable, 2 beta) that chain skills into complete workflows. Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
+**402 skills across 21 categories**, plus 50 localized variants (DE/ES/FR/IT/PT) and **9 agents** — all stable — that chain skills into complete workflows. Every skill is quality-scored on a seven-dimension G-Eval rubric — library mean **4.38/5**, with 4.0 the minimum to ship. MIT licensed.
 
 Each skill is a plain markdown file written in model-neutral language, so it works as a copy-paste prompt in **[Claude](https://claude.ai), [ChatGPT](https://chat.openai.com), or any AI assistant** — and the files drop straight into coding agents like Claude Code, Cursor, Codex CLI, and Gemini CLI. → **[Using the skills with OpenAI](docs/using-with-openai.md)**
 
@@ -78,9 +78,12 @@ Format: YouTube long-form. Audience: frustrated adult learners, 28–45. Tone: d
 | Method | Command | Best for |
 |--------|---------|----------|
 | Claude Code plugin | `/plugin marketplace add ur-grue/autopunk-media-skills` | Claude Code users |
+| MCP server | `cd mcp-server && npm install` — [setup guide](mcp-server/README.md) | Cursor, VS Code, Windsurf, Zed |
 | npm | `npx autopunk-media-skills install --all` | Any project |
 | Git clone | `git clone https://github.com/ur-grue/autopunk-media-skills.git` | Cursor, Codex CLI, Gemini CLI |
 | OpenAI | Copy-paste or build a Custom GPT — [full guide](docs/using-with-openai.md) | ChatGPT users |
+
+**MCP integration:** The included [MCP server](mcp-server/) exposes every skill and agent as native tools — browse, search, and retrieve skills directly from Cursor, VS Code, Windsurf, Zed, or any MCP client. See [`mcp-server/README.md`](mcp-server/README.md) for setup.
 
 Add a skill path to your project's `CLAUDE.md` or agent config so it loads automatically whenever you work in that project.
 
@@ -92,13 +95,13 @@ Add a skill path to your project's `CLAUDE.md` or agent config so it loads autom
 |----------|--------|----------------|
 | Research | 73 skills | people · background · fact-checking · academic · data & statistics · competitive · logistics |
 | Writing | 57 skills | articles · broadcast · digital & social · institutional |
-| Magazine Journalism | 38 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
+| Magazine Journalism | 43 skills | ideation · writing · editing · investigation · fact-checking · legal · distribution |
 | TV Documentary | 27 skills | development · pre-production · scripting · post-production · localization · business |
 | Media Business | 18 skills | pitching · distribution · funding · legal |
 | YouTube | 18 skills | pre-production · scripting · post-production · channel strategy · business · analytics |
 | Data Journalism | 18 skills | analysis · investigation · visualization · publishing |
 | Production Support | 16 skills | formatting · reference |
-| Editing | 14 skills | line, structure & voice editing |
+| Editing | 17 skills | line, structure & voice editing · project workflows |
 | PR / Communications | 13 skills | press office · crisis comms · media relations · content |
 | Newsletter | 13 skills | writing · strategy · growth · monetization |
 | Podcast | 12 skills | pre-production · scripting · post-production · business |
@@ -111,7 +114,7 @@ Add a skill path to your project's `CLAUDE.md` or agent config so it loads autom
 | Archive & Legal | 7 skills | archive research · rights & clearances |
 | Audience & Distribution | 7 skills | audience growth · publishing |
 | Translation & Localization | 4 skills | localization · cultural adaptation |
-| **Total** | **394 skills** | + 30 localized DE/ES/FR variants |
+| **Total** | **402 skills** | + 50 localized DE/ES/FR/IT/PT variants |
 
 Browse the full library in the `skills/` folder. Skills are organized by media format, then by production stage.
 
@@ -129,8 +132,9 @@ Agents compose multiple skills into multi-step workflows that produce complete d
 | [YouTube Channel Operator](agents/youtube-channel-operator-agent.md) | Full video pipeline from topic to publish-ready package | niche-video-idea-generator → seo-title-optimizer → hook-generator → full-script-writer → b-roll-shot-list → thumbnail-concept-brief → description-seo-writer → chapter-timestamps | ✅ stable (4.48/5) |
 | [Podcast Producer](agents/podcast-producer-agent.md) | Episode end-to-end | episode-concept-generator → guest-research-brief → interview-question-builder → ad-read-script → show-notes-generator → episode-summary-writer | ✅ stable (4.78/5) |
 | [PR Crisis Response](agents/pr-crisis-response-agent.md) | Crisis response package | holding-statement-writer → crisis-statement-writer → faq-document-writer → journalist-pitch-email → spokesperson-briefing-note | ✅ stable (4.56/5) |
-| [Data Journalism Investigator](agents/data-journalism-investigator-agent.md) | Complete data investigation package from dataset to publishable findings | data-story-finder → scraper-brief → data-cleaning-brief → basic-statistics-calculator → statistics-explainer → chart-description-writer → methodology-explainer | 🔵 beta |
-| [Newsletter Launch](agents/newsletter-launch-agent.md) | Full launch package from concept to signup page | niche-positioning-brief → edition-writer → subject-line-writer → welcome-email-writer → landing-page-copy-writer | 🔵 beta |
+| [Data Journalism Investigator](agents/data-journalism-investigator-agent.md) | Complete data investigation package from dataset to publishable findings | data-story-finder → scraper-brief → data-cleaning-brief → basic-statistics-calculator → statistics-explainer → chart-description-writer → methodology-explainer | ✅ stable (4.72/5) |
+| [Newsletter Launch](agents/newsletter-launch-agent.md) | Full launch package from concept to signup page | niche-positioning-brief → edition-writer → subject-line-writer → welcome-email-writer → landing-page-copy-writer | ✅ stable (4.68/5) |
+| [Newsroom Operations](agents/newsroom-operations-agent.md) | Complete newsroom setup: policy, beats, calendar, arcs, ethics | newsroom-ai-policy → editorial-calendar-planner → beat-setup-guide → ethics-review-checklist → content-arc-planner | ✅ stable (4.58/5) |
 
 Each agent operates in two modes: **PLANNING** (reads your brief, presents a step-by-step plan for approval) and **EXECUTION** (runs the approved plan, assembles the outputs into a single deliverable). You can interrupt between steps to adjust direction.
 

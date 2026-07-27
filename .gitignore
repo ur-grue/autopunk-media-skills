@@ -30,6 +30,7 @@ Thumbs.db
 # Node
 node_modules/
 package-lock.json
+!mcp-server/package-lock.json
 
 # OS
 Desktop.ini

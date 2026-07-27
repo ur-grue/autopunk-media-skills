@@ -1,0 +1,17 @@
+{
+  "name": "autopunk-media-skills-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for autopunk-media-skills — use 400+ journalism AI skills from any MCP client",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "autopunk-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "yaml": "^2.7.1"
+  }
+}
