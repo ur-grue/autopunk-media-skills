@@ -74,10 +74,11 @@ Goal: Make the library undeniable — fix every rough edge, prove quality with d
 - [x] New agent: data-journalism-investigator (7-skill pipeline) — 473 lines, beta
 - [x] New agent: newsletter-launch (5-skill pipeline) — 430 lines, beta
 
-**3D — Infrastructure:**
-- [ ] GitHub Release with changelog (v2.1.0 for Phase 2, v3.0.0 for Phase 3)
-- [ ] npm publish to registry
-- [ ] Update README agent count and badges after new agents land
+**3D — Infrastructure (completed 2026-07-27):**
+- [x] GitHub Release v2.0.0 (Phase 2) and v3.0.0 (Phase 3)
+- [x] Version bump to 3.0.0, changelog entries for Phase 2 and Phase 3
+- [x] README agent count and badges updated (6 → 8)
+- [ ] npm publish to registry (requires npm credentials)
 
 ---
 
