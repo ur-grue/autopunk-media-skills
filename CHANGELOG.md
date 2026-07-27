@@ -4,6 +4,43 @@ All notable changes to autopunk-media-skills are documented here.
 
 ---
 
+## [3.0.0] — 2026-07-27
+
+### Added
+- 2 new agents: data-journalism-investigator (7-skill pipeline), newsletter-launch (5-skill pipeline)
+- Phase 3 section in ROADMAP with full tracking
+
+### Changed
+- README overhauled: fixed locale count (20 → 30), eval dimensions (6 → 7), removed 2 dead URLs, consolidated 3 getting-started sections into one, reordered sections for better first-impression flow (388 → 230 lines)
+- 3 skills deepened to foia-request-writer depth: source-verification (590 lines), fact-check-prompt (691 lines), interview-transcript-editor (495 lines)
+- Banned AI words removed from 4 skills (series-bible-generator, archival-footage-brief, statistics-explainer, referral-copy-writer)
+- Agent count updated: 6 → 8 (6 stable, 2 beta)
+- Package version bumped to 3.0.0
+
+### Fixed
+- 2 malformed JSON test input files (historical-precedent-finder, scientific-paper-summarizer)
+- Dead GitHub repo homepage URL (autopunk.io → removed)
+- 5 good-first-issues resolved (#29–#33)
+
+---
+
+## [2.0.0] — 2026-07-24
+
+### Added
+- npm package: `npx autopunk-media-skills install --all`
+- Localized skill variants: 30 total (DE/ES/FR, 10 each)
+- 50 expanded test input suites (7-10 diverse cases each)
+- SKILL.md for SkillHub auto-indexing
+- Multi-harness install pages (Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, Zed)
+- 5 good-first-issues for contributors (#29–#33)
+- GitHub Actions: auto-validate skills on PR, auto-sync marketplace.json
+
+### Changed
+- foia-request-writer deepened: 50-state table, appeal template, redaction analysis (v2.0)
+- YouTube and podcast agents updated with Scoop review notes
+
+---
+
 ## [1.0.0] — 2026-03-23
 
 ### Added

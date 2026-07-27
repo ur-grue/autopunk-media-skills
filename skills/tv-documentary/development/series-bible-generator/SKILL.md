@@ -158,7 +158,7 @@ American housing is the social story your audience is already living. *Common Gr
 Une série en quatre parties sur la promesse et la destruction d'une expérience américaine de logement social populaire — racontée par les organisateurs qui l'ont construite et les familles qu'elle a abritées pendant vingt ans. *Common Ground* propose une lecture politique accessible à un public européen confronté aux mêmes pressions immobilières, avec un point de vue d'auteur clair et une structure narrative qui voyage. Co-production envisageable; sortie envisagée en festival international avant diffusion.
 
 *Documentary funds (Sundance Doc Fund / IDFA Bertha / Doc Society):*
-*Common Ground* is in late development, with seed funding committed and access secured to the founding organizers. We are seeking development or production support to complete the archival research and principal photography across four episodes. The film aligns with the fund's commitment to social-issue documentary with strong authorial voice, and we propose a robust outreach and impact plan in partnership with national community land trust networks. Comparable past grantees: [titles to be inserted by the producer].
+*Common Ground* is in late development, with seed funding committed and access secured to the founding organizers. We are seeking development or production support to complete the archival research and principal photography across four episodes. The film aligns with the fund's commitment to social-issue documentary with strong authorial voice, and we propose a detailed outreach and impact plan in partnership with national community land trust networks. Comparable past grantees: [titles to be inserted by the producer].
 
 ---
 

@@ -50,7 +50,7 @@ Audience: General news readers. Publication: national broadsheet health section.
 
 Option 1: "In the trial, people who took the medication were significantly less likely to fall ill again within a year. Of every 100 people on the medication, about 12 had a recurrence — compared to 20 out of 100 who received no treatment."
 
-Option 2: "The medication reduced the chance of falling ill again within a year from 20 in 100 people down to about 12 in 100. Researchers said the result was statistically robust and unlikely to be a chance finding."
+Option 2: "The medication reduced the chance of falling ill again within a year from 20 in 100 people down to about 12 in 100. Researchers said the result was statistically reliable and unlikely to be a chance finding."
 
 Option 3 (most conservative): "Among trial participants, recurrence dropped from roughly 1 in 5 people in the untreated group to around 1 in 8 in the treated group over a 12-month period."
 
