@@ -9,7 +9,7 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 ## Project Milestones
 
 ### Phase 1 — Completed (2026-07-24)
-- [x] 394 skills across 21 categories (+ 20 locale variants)
+- [x] 394 skills across 21 categories (+ 30 locale variants DE/ES/FR)
 - [x] G-Eval quality framework (7 dimensions, 4.0/5 threshold)
 - [x] SKILL_TEMPLATE.md for contributors
 - [x] CONTRIBUTING.md (non-technical + technical sections)
@@ -24,13 +24,13 @@ All skills, agents, and hooks are listed by category and subcategory. Update thi
 - [x] Hooks layer — 5 editorial QA hooks
 - [x] Docs site (GitHub Pages) with interactive skill browser, search, and role picker
 
-### Phase 2 — In Progress: Global Reach
+### Phase 2 — Completed (2026-07-27): Global Reach
 Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 
 **Discovery & reach:**
 - [x] Awesome-list submissions — 3 PRs submitted 2026-07-24: travisvn/awesome-claude-skills (#1034), e2b-dev/awesome-ai-agents (#1302), steven2358/awesome-generative-ai (#1108)
 - [x] GitHub topics optimization — 20 topics set (journalism, investigative-journalism, data-journalism, fact-checking, generative-ai, ai-agents, etc.) — completed 2026-07-24
-- [ ] Skill directory listings (SkillsMP, SkillHub)
+- [x] Skill directory listings (SkillsMP, SkillHub) — SKILL.md created 2026-07-24
 - [x] npm package for one-command installation — `npx autopunk-media-skills install --all` — completed 2026-07-24
 
 **Accessibility & onboarding:**
@@ -40,7 +40,7 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 **Depth & quality:**
 - [x] Refactor: deepen foia-request-writer (50-state table, federal template, appeal template, redaction analysis) — v2.0, 4.81/5 G-Eval — completed 2026-07-24
 - [x] Integrate Scoop review notes into youtube and podcast agents — competitive review, title-first, pre-interview brief, recording consent — completed 2026-07-24
-- [ ] Expanded test inputs for top 50 skills
+- [x] Expanded test inputs for top 50 skills — 7-10 diverse cases each (standard, minimal, European, adversarial) — completed 2026-07-24
 
 **Infrastructure:**
 - [x] GitHub Actions: auto-validate new skills on PR — frontmatter, sections, editorial discipline, TBD check — completed 2026-07-24
@@ -49,8 +49,35 @@ Goal: Make the repo the worldwide go-to for journalists and producers using AI.
 
 **Community:**
 - [x] "Good first issue" labels + 5 starter issues (#29–#33) — completed 2026-07-24
-- [ ] First external PRs
+- [ ] First external PRs (pending — awesome-list maintainers)
 - [x] Localized skill variants (DE, FR, ES) for European broadcasters — 10 skills per language, 30 total — completed 2026-07-24
+
+### Phase 3 — In Progress: Polish & Prove
+Goal: Make the library undeniable — fix every rough edge, prove quality with data, add the missing agents.
+
+**3A — README overhaul (completed 2026-07-27):**
+- [x] Fix locale count (20 → 30 DE/ES/FR) and eval dimensions (six → seven)
+- [x] Remove dead external URLs (autopunk.io 402, thepitchdoctor.io 402)
+- [x] Consolidate 3 overlapping getting-started sections into one flow
+- [x] Reorder sections: What → Who → Examples → Install → Library → Agents → Quality → Contribute
+- [x] README 388 → 230 lines, no content lost — PR #35 merged
+
+**3B — Quality deepening (in progress):**
+- [x] Fix 2 malformed test input JSON files (historical-precedent-finder, scientific-paper-summarizer)
+- [x] Close 5 good-first-issues (#29–#33) — 3 already resolved, 1 done in Phase 2, 1 fixed
+- [x] Remove banned AI words from 4 skills (series-bible-generator, archival-footage-brief, statistics-explainer, referral-copy-writer)
+- [ ] Deepen source-verification to foia-request-writer depth (v2.0)
+- [ ] Deepen fact-check-prompt to foia-request-writer depth (v2.0)
+- [ ] Deepen interview-transcript-editor to foia-request-writer depth (v2.0)
+
+**3C — Agent composition:**
+- [ ] New agent: data-journalism-investigator (7-skill pipeline)
+- [ ] New agent: newsletter-launch (5-skill pipeline)
+
+**3D — Infrastructure:**
+- [ ] GitHub Release with changelog (v2.1.0 for Phase 2, v3.0.0 for Phase 3)
+- [ ] npm publish to registry
+- [ ] Update README agent count and badges after new agents land
 
 ---
 
@@ -98,7 +125,7 @@ The peer library is a useful mirror. These are the things we deliberately did NO
 - **Don't downgrade frontmatter to the peer's minimalist `name` + `description` only.** Our `status` / `category` / `subcategory` / `version` / `eval_score` / `tags` block is the public quality signal. A reader can tell at a glance which skills are stable and how they scored. Remove that and we're indistinguishable from any unscored skill repo.
 - **Don't reorganise to one-folder-per-skill at root.** Production-stage taxonomy (development → pre-production → scripting → post-production → distribution → analytics) is a discoverability win. Peer's flat `skill-name/SKILL.md` layout works at 37 skills; it would collapse at 394.
 - **Don't ship dev / security / programming skills.** Wrong audience. Skills like `test-first-bugs`, `vibe-coding`, `secure-auth`, `electron-dev`, `mobile-debugging` belong in a developer skill library. Adding them here dilutes the editorial focus and confuses the target user (working journalists, producers, podcasters).
-- **Don't replace G-Eval with a lint-only check.** Peer's `skill-lint.yml` validates that frontmatter exists and the file is listed in their README. Useful, but not a quality bar. Our G-Eval (6 dimensions × 4.0/5 threshold) is what makes `stable` mean something.
+- **Don't replace G-Eval with a lint-only check.** Peer's `skill-lint.yml` validates that frontmatter exists and the file is listed in their README. Useful, but not a quality bar. Our G-Eval (7 dimensions × 4.0/5 threshold, Editorial Naturalness hard floor) is what makes `stable` mean something.
 
 ---
 

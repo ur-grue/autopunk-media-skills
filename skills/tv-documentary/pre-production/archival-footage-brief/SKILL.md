@@ -196,7 +196,7 @@ At standard broadcast rates, with the rights window assumptions above (broadcast
 - Category 4 (national context, ~3–4 minutes): $11,000–$40,000 (or batch-licensed with category 2 to reduce rate by 10–20%)
 - Rights research labor (80–200 hours @ $50–$100/hr): $4,000–$20,000
 
-**Total estimated archive budget: $45,000–$190,000.** The realistic mid-case for a standard broadcast feature is $70,000–$110,000 with batch licensing across categories 2 and 4 and category 3 in its fallback (stills/audio) configuration. The largest cost variable remains the volume of network news footage licensed and the rights window negotiated. Specifying a tighter rights window (5 years vs. perpetuity) is the single highest-leverage cost lever the producer controls.
+**Total estimated archive budget: $45,000–$190,000.** The realistic mid-case for a standard broadcast feature is $70,000–$110,000 with batch licensing across categories 2 and 4 and category 3 in its fallback (stills/audio) configuration. The largest cost variable remains the volume of network news footage licensed and the rights window negotiated. Specifying a tighter rights window (5 years vs. perpetuity) is the single most effective cost lever the producer controls.
 
 These figures assume 2024–2025 market rates; renegotiate against current rate cards before locking the budget.
 

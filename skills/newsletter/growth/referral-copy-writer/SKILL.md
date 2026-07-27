@@ -27,7 +27,7 @@ Writes the in-email referral section that asks existing subscribers to share the
 1. Opens with the value-first framing: before the ask, gives the reader a brief reminder of why they find the newsletter worthwhile — this activates the psychological state most likely to lead to sharing
 2. Makes the ask specific and personal: "forward this to one colleague who..." is consistently more effective than "share with your network"; the copy names the ideal recipient to help the reader picture a real person
 3. If there are referral rewards, presents them simply and concretely — a table or a brief tier list, not a paragraph of programme mechanics. Avoids making the rewards sound like the primary reason to share (this backfires by making sharing feel transactional)
-4. Provides 2–3 lines of ready-to-copy share text that subscribers can paste into a message, email, or social post — removing the effort of composing their own recommendation is the single highest-leverage referral conversion technique
+4. Provides 2–3 lines of ready-to-copy share text that subscribers can paste into a message, email, or social post — removing the effort of composing their own recommendation is the single most effective referral conversion technique
 5. Closes with the referral link placeholder and a low-pressure sign-off
 
 ## Output Format
