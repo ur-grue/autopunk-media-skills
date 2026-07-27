@@ -25,5 +25,44 @@
       "has_cold_open": true,
       "chapter_naming_style": "Location-focused, descriptive"
     }
+  },
+  {
+    "id": "podcast_interview",
+    "label": "Podcast interview — long-form conversation with a guest",
+    "input": {
+      "script": "Intro (~120 words): Host introduces the guest, a retired war correspondent who spent 30 years covering conflicts across three continents. Brief overview of the conversation ahead.\n\nPart 1: Early Career (~600 words): How the guest got into journalism, first assignment covering a border dispute in Central America, the moment that hooked them on conflict reporting.\n\nPart 2: The Ethics of Proximity (~500 words): Discussion of when to put the camera down, a story about choosing not to publish a photograph, the tension between bearing witness and exploiting suffering.\n\nPart 3: Physical and Psychological Cost (~450 words): Injuries sustained in the field, PTSD diagnosis, how the profession has changed its approach to mental health support.\n\nPart 4: The Digital Shift (~400 words): How social media changed war reporting, citizen journalism versus professional coverage, misinformation on the front lines.\n\nPart 5: Life After the Field (~350 words): Teaching the next generation, writing a memoir, what they miss and what they do not.\n\nOutro (~100 words): Host wraps up, plugs the guest's book, asks listeners to subscribe and leave a review.",
+      "total_length": "~55 minutes",
+      "has_cold_open": false,
+      "chapter_naming_style": "Topic-focused, conversational"
+    }
+  },
+  {
+    "id": "adversarial_unclear",
+    "label": "Adversarial — script with unclear transitions and overlapping topics",
+    "input": {
+      "script": "The video starts mid-sentence with the host talking about supply chains while unboxing a product. Then they pivot to their sponsor without a clear break. After the ad read they return to the product but start comparing it to a competitor, which leads into a tangent about manufacturing processes in general. They show some factory footage and talk about environmental impact, then circle back to the product review with a spec comparison table on screen. There is a brief aside about a viewer comment from last week's video, then back to testing the product. The host does a drop test, a scratch test, and a water resistance test in quick succession while telling an anecdote about breaking their phone last month. Final thoughts blend into the outro where they simultaneously summarize their verdict and promote their Patreon.",
+      "total_length": "~18 minutes",
+      "has_cold_open": true
+    }
+  },
+  {
+    "id": "south_asian_cooking",
+    "label": "South Asian cooking show — multi-dish traditional meal",
+    "input": {
+      "script": "Cold open (~60 words): Close-up of a finished thali plate with seven small bowls. 'This is what Sunday lunch looks like in my grandmother's kitchen.'\n\nIntro (~80 words): Host explains the concept of a thali — a balanced meal with multiple dishes served together. Today they will cook five components from scratch.\n\nDish 1: Dal Tadka (~350 words): Washing and cooking yellow lentils, preparing the tempering with cumin, mustard seeds, dried chilies, and garlic in ghee. Technique for getting the right consistency.\n\nDish 2: Aloo Gobi (~300 words): Dry-roasting spices, cutting cauliflower and potato to the right size, cooking without making it mushy. Tips for color and texture.\n\nDish 3: Raita (~150 words): Quick cucumber and mint yogurt side. Emphasis on seasoning and chilling.\n\nDish 4: Chapati (~400 words): Making the dough by hand, resting time, rolling technique, cooking on a tawa, puffing on open flame. Common mistakes and fixes.\n\nDish 5: Mango Pickle (~200 words): Quick version of achaar using raw mango, mustard oil, and fenugreek. Host explains this is a shortcut compared to the traditional weeks-long method.\n\nAssembly (~150 words): Plating the thali, explaining the logic of how dishes are arranged — sweet, sour, spicy, mild in specific positions.\n\nOutro (~100 words): Host eats on camera, invites viewers to share photos of their own thali, previews next episode on street food.",
+      "total_length": "~25 minutes",
+      "has_cold_open": true,
+      "chapter_naming_style": "Dish-focused, numbered"
+    }
+  },
+  {
+    "id": "long_documentary",
+    "label": "Very long documentary-style video — history of a city (2+ hours)",
+    "input": {
+      "script": "Cold open (~200 words): Aerial footage of a sprawling coastal city at dawn. Narrator sets up the central question: how does a city survive when the industry that built it disappears?\n\nIntro (~150 words): Title sequence, credits, overview of the four-part structure.\n\nPart 1 — The Founding Era (1820-1900) (~1500 words): The natural harbor that attracted settlers, early fishing and timber industries, the arrival of the railroad, first wave of immigration, how the street grid was laid out, establishment of civic institutions.\n\nPart 2 — The Boom Years (1900-1960) (~1800 words): Industrialization and the shipyard economy, population explosion, the role the city played in two world wars, labor unions and the 1934 strike, post-war suburban expansion, cultural golden age with jazz clubs and theaters.\n\nPart 3 — The Decline (1960-2000) (~1600 words): Shipyard closures beginning in 1962, white flight and urban decay, the crack epidemic of the late 1980s, failed urban renewal projects, the waterfront district that sat empty for 20 years, population dropping from 320,000 to 185,000.\n\nPart 4 — Reinvention (2000-Present) (~1400 words): Tech companies moving into converted warehouses, the craft brewery and restaurant scene, tensions between newcomers and longtime residents, a public housing development demolished and replaced with mixed-income condos, the homelessness crisis, a new light rail line.\n\nEpilogue (~400 words): Interviews with three residents — a retired shipyard worker, a tech founder, a high school student — each giving their vision of the city's future. Narrator reflects on what cities owe their past.\n\nCredits and Sources (~100 words): Acknowledgments, archive footage credits, bibliography.",
+      "total_length": "~2 hours 15 minutes",
+      "has_cold_open": true,
+      "chapter_naming_style": "Era-based, with date ranges"
+    }
   }
 ]

@@ -18,6 +18,30 @@
       "input": {
         "text": "Germany's Federal Constitutional Court has ruled that the government's 2024 supplementary budget was unconstitutional, finding that the transfer of 60 billion euros in unused pandemic emergency funds to the Climate and Transformation Fund violated the constitutional debt brake. The ruling forces the government to find alternative financing for key climate and industrial policy programmes, including building insulation subsidies, electric vehicle incentives, and semiconductor factory investments. Coalition partners disagree on how to close the gap, with the Greens pushing for a reform of the debt brake itself and the FDP insisting on spending cuts. Opposition parties have called for a confidence vote. The ruling affects not only the federal budget but also several state-level programmes that relied on similar fund transfers."
       }
+    },
+    {
+      "id": "very-long",
+      "input": {
+        "text": "The global rare earth supply chain is undergoing a structural transformation that could reshape technology manufacturing for decades. China currently controls approximately 60% of global rare earth mining and 90% of processing capacity. The 17 elements classified as rare earths are essential components in electric vehicle motors, wind turbines, smartphones, MRI machines, and military guidance systems. In response to geopolitical tensions, the United States, European Union, Australia, and Canada have each launched separate initiatives to develop domestic rare earth mining and processing capabilities. The US Department of Energy has committed $3.5 billion to building a domestic supply chain, including two processing facilities in Texas and a recycling plant in Nevada. The EU's Critical Raw Materials Act requires member states to meet 10% of consumption through domestic extraction and 40% through domestic processing by 2030. However, experts note that building a mine from exploration to production typically takes 15-20 years, meaning current initiatives will not produce results until the 2040s at the earliest. Environmental concerns further complicate expansion, as rare earth mining generates radioactive waste and requires large volumes of acid. Several proposed mine sites in Sweden, Portugal, and Greenland face significant local opposition. Meanwhile, recycling technologies that could recover rare earths from electronic waste remain commercially unviable at scale, though a Japanese consortium claims to have achieved a 95% recovery rate in laboratory conditions. Some manufacturers are pursuing rare-earth-free alternatives, with one major automaker announcing a neodymium-free electric motor design that uses ferrite magnets instead, accepting a 10% performance penalty. The International Energy Agency projects that demand for rare earths will quadruple by 2040 under its stated policies scenario, driven primarily by the energy transition."
+      }
+    },
+    {
+      "id": "adversarial-jargon",
+      "input": {
+        "text": "Leveraging synergistic cross-platform engagement methodologies, the organisation has pivoted its core value proposition to encompass a holistic, end-to-end solution architecture that drives transformative outcomes across the stakeholder ecosystem. By operationalising agile frameworks within a DevSecOps paradigm, the team has achieved a 340% improvement in time-to-value metrics whilst maintaining best-in-class compliance posture. Going forward, the roadmap envisions a quantum-ready infrastructure layer that will democratise access to next-generation compute resources."
+      }
+    },
+    {
+      "id": "south-asian-context",
+      "input": {
+        "text": "India's Unified Payments Interface (UPI) processed 14.04 billion transactions worth 20.64 lakh crore rupees (approximately $248 billion) in December 2025, marking a 45% year-on-year increase. The National Payments Corporation of India (NPCI) attributes the growth to expansion into rural areas, where smartphone penetration crossed 60% for the first time. UPI has effectively replaced cash for small transactions in urban India and is now the default payment method at street vendors, autorickshaw drivers, and temple donation boxes. The system has been adopted by Singapore, the UAE, and Sri Lanka, with negotiations ongoing with France and Brazil. Critics point out that the zero-merchant-discount-rate model means banks lose money on every UPI transaction, creating a sustainability question. The Reserve Bank of India has signalled it may introduce tiered pricing for high-value commercial transactions."
+      }
+    },
+    {
+      "id": "single-sentence",
+      "input": {
+        "text": "The bridge collapsed."
+      }
     }
   ]
 }

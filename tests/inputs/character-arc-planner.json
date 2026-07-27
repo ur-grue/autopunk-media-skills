@@ -33,6 +33,30 @@
         "film_tone": "Observational, intimate, structurally ambitious",
         "known_events": "Yara's asylum hearing is scheduled for three months after filming begins; she has been offered informal translation work at the reception centre"
       }
+    },
+    {
+      "id": "CAP-04",
+      "label": "antagonist_arc",
+      "input": {
+        "documentary_subject": "A documentary about the closure of a profitable factory and its impact on a small town",
+        "subject_description": "The CEO who made the closure decision. He is not a villain — the economics genuinely forced his hand — but the town sees him as one. He agreed to be filmed because he believes the public narrative is unfair. He is articulate, sympathetic in person, and the decision has visibly cost him personally.",
+        "film_central_subject": "What happens when the person responsible for a community's devastation is not actually a bad person",
+        "format": "Single 75-minute feature",
+        "film_tone": "Morally complex, refuses easy answers",
+        "known_events": "The factory closure is in 4 months. Community protests are planned. The CEO has offered to meet with workers on camera."
+      }
+    },
+    {
+      "id": "CAP-05",
+      "label": "child_subject",
+      "input": {
+        "documentary_subject": "A year in the life of a school for deaf children in rural India, focusing on three children learning sign language for the first time",
+        "subject_description": "Priya, 8 years old, deaf since birth. She grew up in a village where no one knows sign language. She communicated with her family through gestures they invented together. At the residential school, she is learning Indian Sign Language and discovering that there are words for concepts she has felt but never been able to express.",
+        "film_central_subject": "The moment a child gains language — and how that changes their relationship with the world and with themselves",
+        "format": "Single 90-minute feature for international festival circuit",
+        "film_tone": "Observational, joyful, deeply patient. The audience should feel the before-and-after of language acquisition.",
+        "ethical_considerations": "Filming a child who cannot yet consent in a meaningful way. Parents have consented. The school's ethics board has approved filming. The filmmaker must balance capturing Priya's transformation with protecting her dignity — no 'pity' framing, no inspiration porn."
+      }
     }
   ]
 }

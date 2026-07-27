@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Article summary: Something happened at a meeting. Target publication: a newspaper."
+    },
+    {
+      "id": "input-06",
+      "description": "Sensitive human interest",
+      "prompt": "Article summary: A 14-year-old Syrian refugee who arrived in a small Welsh town three years ago speaking no English has been accepted to study medicine at Cardiff University after achieving the highest A-level results in her school's history. Her family fled Aleppo in 2020. Her teacher describes her as 'quietly relentless.' She plans to specialise in trauma surgery. Target publication: national broadsheet feature section."
+    },
+    {
+      "id": "input-07",
+      "description": "Financial/data-heavy story",
+      "prompt": "Article summary: Analysis of filings from 47 publicly listed companies reveals that CEO compensation at firms that conducted mass layoffs in 2025 rose by an average of 18%, while median employee wages at the same companies fell 2.3% in real terms. The widest gap was at a logistics company where the CEO received a 34% raise while laying off 4,100 warehouse workers. The data was compiled by an independent labour research institute. Target publication: business investigative long-read."
+    },
+    {
+      "id": "input-08",
+      "description": "African context — climate",
+      "prompt": "Article summary: Lake Chad has lost 90% of its surface area since the 1960s. A new satellite analysis shows the rate of shrinkage has accelerated in the past five years. The lake supports the livelihoods of 30 million people across four countries. A proposed inter-basin water transfer from the Congo River has been discussed for decades but remains unfunded. Researchers warn the lake could functionally disappear within 20 years. Target publication: international environment desk, broadsheet."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — two contradictory framings",
+      "prompt": "Article summary: A study found that working from home increases productivity by 13% and also found that working from home decreases team innovation by 20%. Both findings are statistically significant. The study's authors refuse to recommend either arrangement. Target publication: business magazine cover story."
+    },
+    {
+      "id": "input-10",
+      "description": "Breaking news — very short",
+      "prompt": "Article summary: Earthquake, magnitude 6.4, hit central Turkey. No casualty reports yet. Target publication: wire service, breaking news alert."
     }
   ]
 }

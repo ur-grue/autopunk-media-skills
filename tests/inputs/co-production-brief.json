@@ -48,6 +48,77 @@
         "rights_offered": "Italian and Swiss Italian-language rights; co-producer credit; editorial consultation on Lampedusa storyline",
         "comparable_co_productions": "Human Flow (2017), Fire at Sea (2016)"
       }
+    },
+    {
+      "id": "CPB-04",
+      "label": "middle_eastern_context",
+      "input": {
+        "title": "The Falconers",
+        "description": "A documentary following three generations of falconry families across the Arabian Peninsula — tracing the tradition from Bedouin subsistence hunting to the contemporary world of competitive falconry, where a single bird can sell for over a million dollars. The film explores how an ancient practice has become a symbol of national identity and a multi-billion-dollar industry.",
+        "producing_country": "Jordan",
+        "production_company": "Desert Iris Films (Amman)",
+        "target_partner": "Abu Dhabi Media (UAE)",
+        "format": "2-part film, 2 x 52 minutes",
+        "co_production_structure": "Majority Jordanian / minority UAE co-production",
+        "budget": "$1.4M total, UAE share: $490K (35%)",
+        "in_place": "Royal Film Commission of Jordan development grant, director with access to Jordanian falconry community, DP with desert cinematography experience",
+        "uae_angle": "The UAE storyline follows the international falconry auction in Abu Dhabi and a young Emirati woman training her first bird; access to Abu Dhabi Falconry Club pending co-production partner involvement",
+        "rights_offered": "GCC rights; co-producer credit; editorial consultation on UAE and Gulf storylines"
+      }
+    },
+    {
+      "id": "CPB-05",
+      "label": "adversarial_politically_hostile",
+      "input": {
+        "title": "The Border Frequency",
+        "description": "A documentary about pirate radio operators broadcasting across a militarised border between two countries with no diplomatic relations. On each side, underground DJs risk imprisonment to transmit music, news, and personal messages to listeners they will never meet. The film alternates between both sides of the border, shot by separate crews who cannot cross, creating a split-screen portrait of connection under prohibition.",
+        "producing_country": "Country A (democratic, press freedom)",
+        "production_company": "Signal Bridge Productions",
+        "target_partner": "Independent production company in Country B (authoritarian, restricted press)",
+        "format": "Single film, 90 minutes",
+        "co_production_structure": "Parallel production with post-production co-assembly; no formal treaty structure available due to absence of diplomatic relations",
+        "budget": "$920K total, Country B share: $280K (30%) — routed through a third-country fiscal sponsor",
+        "in_place": "Director in Country A with two years of remote contact with DJs in both countries; Country A public broadcaster interested as pre-buyer; legal counsel on sanctions compliance",
+        "country_b_angle": "Approximately 45% of the film; all Country B footage captured by a local crew operating under safety protocols; no crew names to appear in credits during production phase",
+        "rights_offered": "Country B rights held in escrow until political conditions permit safe distribution; co-producer credit anonymised during production",
+        "risks": "Crew safety in Country B is paramount. Production requires exfiltration plan for footage, encrypted communication protocols, and editorial review to ensure no identifying information of Country B participants is visible until they consent to being named."
+      }
+    },
+    {
+      "id": "CPB-06",
+      "label": "latin_american_context",
+      "input": {
+        "title": "The Seed Keepers",
+        "description": "A documentary following indigenous women in the highlands of South America who maintain seed banks of ancestral crop varieties — potatoes, quinoa, amaranth — that commercial agriculture has abandoned. As climate change makes industrial monocultures increasingly fragile, their traditional knowledge becomes a strategic resource, attracting attention from international gene banks and agribusiness companies who want access on very different terms.",
+        "producing_country": "Colombia",
+        "production_company": "Raíz Documental (Bogotá)",
+        "target_partner": "Brazilian public broadcaster (TV Cultura or equivalent)",
+        "format": "3-part series, 52 minutes each",
+        "co_production_structure": "Majority Colombian / minority Brazilian co-production under IBERMEDIA framework",
+        "budget": "$1.1M total, Brazilian share: $275K (25%)",
+        "in_place": "IBERMEDIA development funding approved, director with five years of access to seed-keeping communities in Colombia, ethnobotanist advisor attached",
+        "brazilian_angle": "Episode two follows a parallel seed-keeping tradition among Guaraní communities in southern Brazil; requires Brazilian co-production partner for community access and indigenous consultation protocols",
+        "rights_offered": "Brazilian and Portuguese-language rights worldwide; co-producer credit; editorial consultation on Brazilian storylines",
+        "comparable_co_productions": "Embrace of the Serpent (2015, Colombian-Venezuelan), The Pearl Button (2015, Chilean-French-Spanish)"
+      }
+    },
+    {
+      "id": "CPB-07",
+      "label": "multi_party_four_plus_countries",
+      "input": {
+        "title": "The Shipping Forecast",
+        "description": "A documentary series recording life at five major container ports — one each in East Asia, South Asia, East Africa, Northern Europe, and South America — during a single month, revealing the human infrastructure behind global trade. Dockworkers, crane operators, customs officials, truck drivers, and stowaways tell the story of globalisation from the waterline.",
+        "producing_country": "United Kingdom",
+        "production_company": "Dockside Films (London)",
+        "target_partner": "Multi-party: seeking co-producers in South Korea, India, Kenya, and Brazil",
+        "format": "5-part series, 50 minutes each",
+        "co_production_structure": "UK majority producer; four minority co-producers each contributing local crew, access, and territorial financing. Structure designed to qualify under UK-Korea bilateral treaty, UK-India bilateral treaty, IBERMEDIA (via Brazilian partner), and a direct co-production agreement with Kenyan partner outside treaty framework.",
+        "budget": "$4.8M total. UK share: $1.92M (40%). Korean share: $720K (15%). Indian share: $720K (15%). Kenyan share: $480K (10%). Brazilian share: $480K (10%). Gap: $480K (10%) sought from international pre-sales.",
+        "in_place": "BFI development funding, UK director attached, Korean and Indian production companies in letter-of-intent stage",
+        "partner_angles": "Each co-producer anchors one episode set in their port city. Korean partner provides access to a major port facility. Indian partner provides access to a shipbreaking yard. Kenyan partner provides access to a port undergoing expansion. Brazilian partner provides access to a commodities export terminal.",
+        "rights_offered": "Each co-producer receives home territory rights and co-producer credit. International rights pooled and managed by UK producer with revenue share proportional to investment.",
+        "risks": "Coordinating four co-production treaties with different compliance requirements. Production schedules must align to the same calendar month across five time zones. Currency fluctuation risk across five currencies."
+      }
     }
   ]
 }

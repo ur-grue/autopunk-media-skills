@@ -46,6 +46,42 @@
         "budget_tier": "High-end broadcast co-production",
         "editorial_function": "The archive is the narrative spine — the film is built around the contrast between what was promised and what was delivered"
       }
+    },
+    {
+      "id": "AFB-04",
+      "label": "pre_digital_era",
+      "input": {
+        "documentary_subject": "The history of Indian cinema's song-and-dance tradition from the 1950s golden age through the 1990s Bollywood explosion",
+        "period": "1950-1999",
+        "geographic_focus": "Mumbai (Bombay), Chennai (Madras), Kolkata (Calcutta)",
+        "key_archive_sequences": [
+          "Song sequences from landmark films across Hindi, Tamil, and Bengali cinema — not the famous ones, but the ones that introduced new choreographic or musical techniques",
+          "Behind-the-scenes production footage from film studios, particularly Film City and AVM Studios",
+          "Television interviews with playback singers, choreographers, and music directors from the era",
+          "Street-level footage of cinema culture — theatre queues, poster painting workshops, music cassette shops"
+        ],
+        "format": "3 x 60-minute series",
+        "budget_tier": "High — archive licensing from multiple Indian studios is expensive and rights are fragmented across production houses, some defunct",
+        "editorial_function": "The archive should reveal the craft and labour behind what audiences experienced as effortless spectacle"
+      }
+    },
+    {
+      "id": "AFB-05",
+      "label": "very_recent_digital_archive",
+      "input": {
+        "documentary_subject": "A documentary about the COVID-19 pandemic's impact on live music venues, focusing on the period when venues were closed and musicians performed to empty rooms or via livestream",
+        "period": "March 2020 - June 2021",
+        "geographic_focus": "Global — with focus on New York, London, Berlin, Lagos, and Tokyo",
+        "key_archive_sequences": [
+          "Livestream performances from empty venues — particularly the raw, unpolished early attempts",
+          "Social media posts from venue owners announcing closures, fundraising campaigns, and reopenings",
+          "News coverage of government support (or lack thereof) for the live music industry in different countries",
+          "Fan-recorded footage of the first live shows with audiences after restrictions lifted"
+        ],
+        "format": "Single 90-minute feature",
+        "budget_tier": "Low — most archive is digital and recent, but rights clearance for music performances is the main cost driver",
+        "editorial_function": "The contrast between the polished pre-pandemic live experience and the desperate, beautiful, imperfect pandemic performances IS the story"
+      }
     }
   ]
 }

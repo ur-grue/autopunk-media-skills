@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Article summary: Something about schools and technology. Publication: Online magazine."
+    },
+    {
+      "id": "input-06",
+      "description": "Edge case — conflicting tone requirements and extreme character limit",
+      "prompt": "Article summary: A deeply reported 8,000-word feature about a family that lost their 16-year-old son to a fentanyl overdose, intercut with a forensic investigation into the supply chain that moved the fentanyl from a Chinese precursor lab through a Mexican cartel to a suburban high school parking lot. The piece is simultaneously a grief narrative, a criminal justice investigation, and a policy analysis. Publication: A magazine that wants the headline to work for both its literary print cover AND its social-media-first digital audience. Dek needed: Yes. Character limit: 45 characters maximum for the main headline. Tone: Must be neither sensationalist nor clinical — the family cooperated on the condition that the headline not reduce their son to a statistic."
+    },
+    {
+      "id": "input-07",
+      "description": "Non-English cultural context — Brazilian Amazon deforestation and Indigenous resistance",
+      "prompt": "Article summary: An investigation into how an Indigenous Yanomami community in the Brazilian Amazon used satellite imagery and drone technology to document illegal gold mining on their territory, generating evidence that led to a federal court injunction against three mining companies. The community trained its own members to operate the drones after government environmental agencies failed to act on their complaints for four years. Publication: International environmental magazine with readership in Europe and the Americas. Dek needed: Yes. Note: The Indigenous community leaders have asked that headlines not portray them as victims but as active agents."
+    },
+    {
+      "id": "input-08",
+      "description": "Different media format — podcast episode title and description",
+      "prompt": "Article summary: A podcast episode investigating the booming market for fake academic credentials — specifically, a network of offshore 'universities' that sell master's degrees and PhDs used by professionals in healthcare, engineering, and education to secure jobs they are unqualified for. The episode includes undercover audio of a credential mill salesperson. Publication: An investigative journalism podcast (audio-first, not print). Dek needed: Yes, but as a podcast episode description (2-3 sentences for the show notes). Tone: Serious but accessible, the podcast has a narrative storytelling style."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — misspellings, contradictory guidance, and vague content",
+      "prompt": "Artcile summary: Its about how the goverment is doing bad things with peoples data, problably the NSA or maybe another agancy, theres some new leaks or somthing. Publication: A very seroius newspaper but also it needs to be clickbaity for online. Dek needed: Maybe. Tone: Seroius but also fun and engaging. Avoid: Anything that sounds like news."
+    },
+    {
+      "id": "input-10",
+      "description": "Professional stress — breaking news, editor needs headlines in 30 minutes for homepage",
+      "prompt": "Article summary: Exclusive: The nation's second-largest health insurance company has been using an AI system to automatically deny claims for post-surgical rehabilitation. Internal documents obtained by this publication show the system was calibrated to deny 90% of claims on first submission, regardless of medical necessity, under the assumption that most patients would not appeal. The company's CEO testified to Congress last month that claim decisions were made on a 'case-by-case basis by qualified medical professionals.' The story publishes in 45 minutes. Publication: Major national newspaper, digital homepage placement. Dek needed: Yes. No character limit but shorter is better — this will be the lead story on the homepage. Tone: The reporting is rock-solid; the headline can be direct and declarative."
     }
   ]
 }

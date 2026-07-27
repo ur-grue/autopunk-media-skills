@@ -23,6 +23,37 @@
         "target_tone": "Plain-language explainer for a general audience",
         "source_tone": "EU regulatory language"
       }
+    },
+    {
+      "id": "academic-to-tabloid",
+      "input": {
+        "text": "Our longitudinal cohort study (n=12,847) demonstrates a statistically significant inverse correlation (r=-0.34, p<0.001) between daily screen time exceeding 4 hours and hippocampal volume in adolescents aged 13-17, after controlling for socioeconomic status, sleep duration, and physical activity levels. The effect size, while modest, is comparable to the volumetric differences observed in subjects with early-stage mild cognitive impairment.",
+        "target_tone": "Tabloid headline and opening paragraph — punchy, alarming but not inaccurate",
+        "source_tone": "Academic medical journal"
+      }
+    },
+    {
+      "id": "crisis-to-empathetic",
+      "input": {
+        "text": "Due to unforeseen operational challenges, flight BA2847 from London Heathrow to Lagos has been cancelled. Affected passengers are advised to contact our customer service team on +44 20 7000 0000 or visit the rebooking desk in Terminal 5. We apologise for any inconvenience caused.",
+        "target_tone": "Warm, genuinely empathetic — acknowledge that 'inconvenience' understates what passengers are experiencing (missed connections, lost business meetings, family emergencies)",
+        "source_tone": "Corporate template"
+      }
+    },
+    {
+      "id": "arabic-formal-to-western-casual",
+      "input": {
+        "text": "In the Name of God, the Most Gracious, the Most Merciful. His Excellency the Minister of Culture has graciously issued Ministerial Decree No. 847 of the Year 1446 AH, establishing the National Centre for Manuscript Preservation. The Centre shall be entrusted with the sacred duty of safeguarding the literary heritage of the nation. All government departments are hereby directed to extend their fullest cooperation.",
+        "target_tone": "Western arts journalism — neutral, informative, no religious framing but respectful of cultural context",
+        "source_tone": "Arabic ministerial decree (translated)"
+      }
+    },
+    {
+      "id": "contradictory-tones",
+      "input": {
+        "text": "The company's annual report shows record revenue of $4.2 billion, up 23% year-over-year. Net income rose to $890 million. The company also announced it would lay off 3,200 employees, approximately 15% of its workforce, citing the need to 'invest in AI capabilities.' The CEO received a $47 million compensation package, a 31% increase.",
+        "target_tone": "Be simultaneously celebratory about the business results AND critical about the layoffs — the reader should feel both emotions"
+      }
     }
   ]
 }

@@ -32,5 +32,42 @@
       "recent_work": "A policy paper titled 'The 2035 Gap: Why Europe's Energy Targets Don't Match Its Political Reality', published by a major Berlin-based think tank; a panel appearance at the Brussels Energy Forum last month",
       "topics_to_avoid": "She has requested not to discuss her previous role advising a specific national government"
     }
+  },
+  {
+    "id": "controversial-guest",
+    "label": "Controversial figure — needs careful framing",
+    "input": {
+      "guest_name": "Dr. Robert Hale",
+      "professional_role": "Former pharmaceutical executive turned whistleblower. He exposed pricing practices at his former company and was subsequently fired and sued. He won the lawsuit but lost his marriage and career. Now writes and speaks about corporate ethics.",
+      "show_topic": "Business ethics podcast for MBA students and corporate professionals",
+      "booking_reason": "He can speak from both sides — he participated in the system he later exposed, which makes his perspective more credible and more complicated than a simple hero narrative",
+      "recent_work": "His book 'The Price of Speaking Up' published last month; testimony before a Senate committee",
+      "topics_to_avoid": "The ongoing litigation with his former employer — his lawyers have specifically restricted what he can discuss. Also avoid personal life — the divorce is off limits."
+    }
+  },
+  {
+    "id": "nigerian-context",
+    "label": "Nigerian tech ecosystem — founder interview",
+    "input": {
+      "guest_name": "Olumide Adeyemi",
+      "professional_role": "Co-founder of a Lagos-based agritech startup that uses satellite imagery and SMS-based alerts to help smallholder farmers in West Africa predict crop diseases. The company serves 800,000 farmers across Nigeria, Ghana, and Côte d'Ivoire.",
+      "show_topic": "Emerging markets technology podcast focused on African innovation",
+      "booking_reason": "His company solved the smartphone assumption problem — most agritech fails because it assumes smartphone access. His SMS-first approach works on $15 feature phones and has a 94% farmer retention rate.",
+      "recent_work": "Series A funding of $12 million from a pan-African VC; partnership with the Nigerian Ministry of Agriculture",
+      "topics_to_avoid": "Competitor comparisons — the space is small and relationships matter"
+    }
+  },
+  {
+    "id": "very-famous-limited-time",
+    "label": "High-profile guest with strict time constraint",
+    "input": {
+      "guest_name": "Dame Patricia Wells",
+      "professional_role": "Pulitzer Prize-winning journalist and former foreign correspondent. Covered six wars over 30 years. Just published what she says will be her final book, about the psychological cost of conflict journalism.",
+      "show_topic": "Journalism and media podcast for working journalists",
+      "booking_reason": "She is the most decorated living war correspondent and her retirement book is generating massive industry interest",
+      "recent_work": "Her book 'The Last Dispatch' published this week; a viral essay in a major magazine about why she stopped going to war zones",
+      "topics_to_avoid": "She will not discuss specific intelligence sources. She will not comment on current military operations. She has limited patience for questions she considers naive about the realities of conflict reporting.",
+      "time_constraint": "15 minutes maximum — her publicist was very firm about this"
+    }
   }
 ]

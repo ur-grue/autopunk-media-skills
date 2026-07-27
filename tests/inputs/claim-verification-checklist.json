@@ -22,5 +22,37 @@
       "draft_text": "Since the GDPR took effect in May 2018, European data protection authorities have issued fines totalling more than €4.2 billion. The Irish Data Protection Commission, which oversees most major US tech companies operating in the EU, has been responsible for 60 percent of total fine value. Meta was fined €1.2 billion in May 2023, the largest GDPR penalty to date. Privacy advocate Max Schrems has filed 14 formal complaints against tech companies through his organization noyb. German regulators have been the most prolific enforcers by number of cases, with over 900 enforcement actions since 2018.",
       "publication_type": "magazine feature"
     }
+  },
+  {
+    "id": "middle_eastern_development",
+    "description": "Middle Eastern context: development statistics in a Gulf state modernization article",
+    "input": {
+      "draft_text": "The country's economic diversification program has reduced oil's share of GDP from 87 percent in 2010 to 52 percent in 2025, according to government figures. Tourism revenue has grown by 340 percent since the launch of the national vision strategy. The sovereign wealth fund now manages assets worth $1.2 trillion, making it the world's second largest. Female workforce participation has risen from 17 percent to 33 percent over the past decade. The government claims to have built 14 new universities and attracted 42 international branch campuses since 2015. Critics argue that GDP diversification figures are inflated by counting government-owned non-oil enterprises that are effectively subsidized by oil revenue.",
+      "publication_type": "international affairs feature"
+    }
+  },
+  {
+    "id": "adversarial_viral_claim",
+    "description": "Adversarial: viral social media claim with emotional appeal and mixed true/false elements",
+    "input": {
+      "draft_text": "A viral post shared over 2 million times claims that a children's hospital in a war-affected region was deliberately targeted in an airstrike, killing 38 children and 12 medical staff. The post includes a photograph showing a destroyed building with a visible red cross emblem. It states that the attack violated the Fourth Geneva Convention and that the International Criminal Court has opened an investigation. A second claim in the same post alleges that the attacking nation's military has destroyed 14 hospitals in the past six months. The post concludes by stating that no major Western media outlet has covered the story, attributing this to political bias.",
+      "publication_type": "fact-check article"
+    }
+  },
+  {
+    "id": "south_asian_economic",
+    "description": "South Asian context: Indian economic data in a development article",
+    "input": {
+      "draft_text": "The country's GDP growth rate reached 8.2 percent in the most recent fiscal year, the fastest among major economies. Foreign direct investment inflows totaled $71 billion, a 14 percent increase over the previous year. The government's digital payments infrastructure now processes 12 billion transactions per month, up from 1 billion five years ago. The national poverty rate has fallen to 5 percent according to a government-commissioned survey, though independent economists using the same methodology estimate it at closer to 12 percent. Manufacturing's share of GDP remains at 17 percent despite a target of 25 percent set a decade ago. Rural unemployment has risen to 9.2 percent according to the latest periodic labor force survey.",
+      "publication_type": "economics reporting"
+    }
+  },
+  {
+    "id": "african_health",
+    "description": "African context: health intervention effectiveness claims",
+    "input": {
+      "draft_text": "A new malaria vaccine rollout across four West African countries has reduced child mortality from malaria by 62 percent in the first 18 months, according to the health ministry of the lead implementing country. The program has vaccinated 4.3 million children under five. The World Health Organization endorsed the vaccine in 2023 but has not yet published independent efficacy data from the African deployment. A parallel bed net distribution campaign claims to have reached 90 percent household coverage in target regions, though a survey by an international health NGO found actual usage rates of 41 percent. The cost per life saved is estimated at $3,200 by the implementing governments, compared to an estimate of $5,800 by an independent global health research group. Three countries have committed to incorporating the vaccine into their routine immunization schedules by next year.",
+      "publication_type": "global health reporting"
+    }
   }
 ]

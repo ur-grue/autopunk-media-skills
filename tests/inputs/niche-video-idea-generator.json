@@ -31,5 +31,43 @@
       "preferred_formats": "Tactical breakdown with match footage analysis, comparison, explainer",
       "audience_pain_points": "Comments frequently ask 'why did the manager make that substitution?' and 'what is a false 9 actually supposed to do?'"
     }
+  },
+  {
+    "id": "saturated-niche",
+    "label": "Extremely saturated niche — needs differentiation",
+    "input": {
+      "niche": "Personal finance for beginners — budgeting, saving, investing basics",
+      "audience": "Adults 22-35 who are intimidated by finance and have never invested",
+      "example_videos": ["I Saved $10,000 in 6 Months on a $45K Salary", "Index Funds Explained in 5 Minutes", "The Budget That Actually Works"],
+      "already_covered": "50/30/20 rule, emergency fund basics, index fund intro, credit score explainer",
+      "preferred_formats": "Story-driven, experiment, challenge",
+      "upload_frequency": "Twice weekly",
+      "audience_pain_points": "Viewers say every finance channel says the same thing. They want someone who acknowledges that advice like 'just stop buying coffee' is insulting when rent takes 60% of your income."
+    }
+  },
+  {
+    "id": "nigerian-creator",
+    "label": "Nigerian creator — local audience with global potential",
+    "input": {
+      "niche": "Nigerian street food and market cooking — documenting recipes, vendors, and food culture across Nigerian states",
+      "audience": "Nigerians aged 18-40 who are interested in their own food heritage, plus diaspora viewers who miss home cooking, plus international food enthusiasts discovering Nigerian cuisine",
+      "example_videos": ["Suya Master in Abuja — 30 Years of Perfect Spice", "Bole and Fish in Port Harcourt: The Recipe Nobody Writes Down", "I Tried Every Jollof Rice Recipe in Lagos Market"],
+      "already_covered": "Jollof rice debate, suya profiles, amala spots in Lagos, palm wine tapping",
+      "preferred_formats": "Documentary-style vendor profiles, recipe recreations, regional food tours",
+      "upload_frequency": "Weekly"
+    }
+  },
+  {
+    "id": "dying-channel",
+    "label": "Channel in decline — needs revival strategy",
+    "input": {
+      "niche": "DIY electronics and Arduino projects for hobbyists",
+      "audience": "Tech hobbyists 30-55 who enjoy building physical projects",
+      "example_videos": ["Build a Weather Station for $25", "Arduino-Powered Plant Watering System", "Soldering for Absolute Beginners"],
+      "already_covered": "Arduino basics, Raspberry Pi intro, 15+ project tutorials, soldering fundamentals",
+      "preferred_formats": "Tutorial, build-along",
+      "upload_frequency": "Biweekly",
+      "audience_pain_points": "Views have dropped 60% in the past year. The algorithm seems to have deprioritised the channel. Comments suggest viewers have moved to TikTok for shorter project videos. The creator is considering quitting."
+    }
   }
 ]

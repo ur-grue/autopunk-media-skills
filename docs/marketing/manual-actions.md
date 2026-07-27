@@ -16,13 +16,15 @@ Actions that require human intervention — cannot be automated by CI/CD.
   - [X] `anthropics/skills`
   - [X] `Orchestra-Research/AI-Research-SKILLs`
 - [X] Open friendly cross-link issue on `jamditis/claude-skills-journalism`:
-  - https://github.com/jamditis/claude-skills-journalism/issues/90
-- [X] Submit awesome-list PRs (see `docs/marketing/awesome-list-prs.md`):
-  - https://github.com/travisvn/awesome-claude-skills/pull/776
-  - https://github.com/ComposioHQ/awesome-claude-skills/pull/931
-  - https://github.com/BehiSecc/awesome-claude-skills/pull/323
-  - https://github.com/VoltAgent/awesome-agent-skills/pull/616
-  - https://github.com/sickn33/antigravity-awesome-skills/pull/624
+  - https://github.com/jamditis/claude-skills-journalism/issues/90 — ✅ reciprocal link added
+- [X] Submit awesome-list PRs (see `docs/marketing/awesome-list-prs.md` for full tracker):
+  - travisvn #1034 ⏳ open (replaces closed #776)
+  - ComposioHQ #931 ⏳ open (updated 2026-07-24)
+  - e2b-dev #1302 ⏳ open (CLA signed 2026-07-24)
+  - steven2358 #1108 ⏳ open
+  - BehiSecc #323 ❌ closed — do not resubmit
+  - VoltAgent #616 ❌ closed — do not resubmit
+  - sickn33 #624 ❌ closed — do not resubmit
 - [ ] Submit to directories (see `docs/marketing/directory-submissions.md`)
 
 ## Content Marketing

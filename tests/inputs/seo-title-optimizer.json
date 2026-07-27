@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Video topic: Productivity tips. Target audience: everyone. Primary goal: help people."
+    },
+    {
+      "id": "input-06",
+      "description": "Latin American context",
+      "prompt": "Video topic: How Mexico City is sinking 50 centimetres per year due to groundwater extraction, and what the government is (and isn't) doing about it. Target audience: urban planning enthusiasts and Latin American viewers. Primary goal: inform. Channel tone: visual, dramatic but fact-based."
+    },
+    {
+      "id": "input-07",
+      "description": "User-provided working title",
+      "prompt": "Video topic: Why your résumé gets rejected in 6 seconds. Working title (keep this): 'The 6-Second Rule: Why HR Throws Away Your CV'. Target audience: job seekers 20-35. Primary goal: tutorial. Channel tone: empathetic, practical."
+    },
+    {
+      "id": "input-08",
+      "description": "Middle Eastern context",
+      "prompt": "Video topic: How Qatar built an entire national museum from scratch in under a decade, the controversy around imported cultural artefacts, and what it reveals about soft power strategy in the Gulf states. Target audience: architecture and geopolitics enthusiasts. Primary goal: analysis. Channel niche: cultural geopolitics."
+    },
+    {
+      "id": "input-09",
+      "description": "Highly competitive keyword space",
+      "prompt": "Video topic: Morning routine for productivity. Target audience: entrepreneurs 25-40. Primary goal: tutorial. Channel tone: aspirational but grounded. Note: this keyword is extremely saturated — the title needs to stand out from thousands of similar videos."
+    },
+    {
+      "id": "input-10",
+      "description": "Non-English primary audience",
+      "prompt": "Video topic: Why Japanese train punctuality is measured in seconds, not minutes, and the cultural and engineering systems that make it possible. Target audience: English-speaking viewers with an interest in Japan. Primary goal: cultural explainer. Channel tone: wonder, no exoticism. Consider that Japanese viewers may also watch — avoid clichés."
     }
   ]
 }

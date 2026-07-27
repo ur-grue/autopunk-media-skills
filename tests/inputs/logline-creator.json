@@ -25,6 +25,31 @@
       "id": "input-05",
       "description": "Vague/ambiguous input",
       "prompt": "Project description: It's about climate change and how it affects people. Maybe a series."
+    },
+    {
+      "id": "input-06",
+      "description": "Edge case — multi-strand documentary with no single protagonist, conflicting tones",
+      "prompt": "Project description: A documentary that interweaves three completely unrelated stories in three countries: a retired Japanese whaler who now campaigns against the industry he spent 40 years in, a Kenyan elephant conservationist who receives death threats from poachers, and an Icelandic marine biologist studying whale song patterns in the North Atlantic. There is no shared narrative between the three subjects — the connection is thematic (humanity's relationship to large marine mammals) but not structural. The film is intended to be both scientifically rigorous and emotionally intimate, both a nature film and a human story. Broadcaster context: Both a natural history strand (like BBC Natural History Unit) and an international documentary festival. The commissioner has asked for a single logline that holds all three strands together. Social/press bio line also needed."
+    },
+    {
+      "id": "input-07",
+      "description": "Non-English cultural context — Indian textile workers and fast fashion",
+      "prompt": "Project description: A documentary set in Surat, Gujarat, India, following three generations of a family that has worked in the textile dyeing industry. The grandfather ran a small dyeing unit for local sari makers; the father scaled the business to serve international fast-fashion brands; the daughter — a chemistry graduate — is now documenting the chemical contamination of the Tapi River caused by her own family's factory and hundreds like it. The film is in Hindi and Gujarati with English subtitles. Central tension: The daughter's activism threatens the family business that employed 200 people in the community. Broadcaster context: International co-production for European and South Asian broadcasters."
+    },
+    {
+      "id": "input-08",
+      "description": "Different media format — short-form documentary for social media (under 15 minutes)",
+      "prompt": "Project description: A 12-minute short documentary for YouTube and social media about a single day in the life of a 911 dispatcher in a mid-sized American city. The entire film takes place in real time during one eight-hour shift. No interviews, no voiceover — only observational footage and the audio of calls. The subject has agreed to participate but has requested that no callers be identifiable. Context: This is a standalone short, not a pilot for a longer project. It needs a logline for the YouTube description, a festival submission line, and a social media caption."
+    },
+    {
+      "id": "input-09",
+      "description": "Adversarial — contradictory details and misspellings",
+      "prompt": "Project descrption: Its a documentry about a guy who does somthing with computers, maybe hacking or maybe cybersecurity, hes either a criminal or a hero depending on who you ask. The film is serius but also funny. Its about one person but also about the whole industry. We want it to feel like a thriller but also be compleatly factual. No dramatizations but very cinmatic. Its 90 minutes or maybe a 3-part series, we havent decided. Broadcaster: Netflix or maybe a film festival or maybe both."
+    },
+    {
+      "id": "input-10",
+      "description": "Professional stress — commissioner meeting in 2 hours, logline for a sensitive topic",
+      "prompt": "Project description: A documentary about the opioid crisis in a specific Appalachian community, following a county coroner who processes more overdose deaths than natural deaths. The coroner is also in recovery herself. The film has been in development for two years and has full access — 200 hours of observational footage already shot. The commissioner (PBS) meeting is in 2 hours and the existing logline ('A documentary about the opioid crisis in Appalachia') was rejected at the last meeting as too generic. The commissioner specifically asked for a logline that centers the coroner's personal story rather than the policy issue. Broadcaster context: PBS Independent Lens strand. The subject matter involves suicide, addiction, and death — the logline must be honest about the gravity without being exploitative."
     }
   ]
 }

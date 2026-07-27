@@ -43,6 +43,65 @@
         "budget_requested": "EUR 50,000 development grant",
         "social_case": "UNESCO classifies all three languages as endangered. The film directly addresses European cultural diversity and cross-border heritage — core Creative Europe priorities."
       }
+    },
+    {
+      "id": "GPW-04",
+      "label": "african_context",
+      "input": {
+        "title": "The Seed Keepers",
+        "description": "A documentary following women seed custodians in three East African countries who maintain indigenous crop varieties against the spread of commercial monocultures. The film explores food sovereignty, colonial agricultural legacies, and the quiet resistance of keeping seeds alive.",
+        "funder": "Ford Foundation JustFilms",
+        "fund_priorities": "JustFilms supports documentary films and new media that address inequality, strengthen democratic values, and advance human rights.",
+        "format": "Single film, 85 minutes",
+        "stage": "Production",
+        "production_company": "Firelight Films (Nairobi)",
+        "in_place": "Director and producer attached, access confirmed with seed custodians in three communities, 3 months of footage shot, university agronomist as consultant",
+        "budget_requested": "$120,000 production completion grant"
+      }
+    },
+    {
+      "id": "GPW-05",
+      "label": "adversarial_vague",
+      "input": {
+        "title": "Untitled",
+        "description": "A film about people and their stories. Real people, real stories. Showing the world as it really is.",
+        "funder": "Sundance Documentary Fund",
+        "fund_priorities": "The Sundance Documentary Fund supports non-fiction films on contemporary themes that exhibit originality, artistic risk, and a strong potential for social impact.",
+        "format": "Feature documentary",
+        "stage": "Development",
+        "production_company": "First-time filmmaker, no production company"
+      }
+    },
+    {
+      "id": "GPW-06",
+      "label": "south_asian",
+      "input": {
+        "title": "The Tiffin Line",
+        "description": "A documentary tracing a single day in the dabbawala lunch delivery network of a major Indian city — from suburban kitchens where lunches are prepared at dawn, through the sorting stations and commuter trains, to office desks across the city. The film uses the logistics of 200,000 daily deliveries to explore class, labor, urban infrastructure, and the economics of feeding a megacity.",
+        "funder": "IDFA Bertha Fund",
+        "fund_priorities": "The IDFA Bertha Fund supports creative documentaries from Africa, Asia, the Middle East, Latin America, and Eastern Europe that combine artistic ambition with social relevance.",
+        "format": "Single film, 75 minutes",
+        "stage": "Development",
+        "production_company": "Parallax Documentary Collective (Mumbai)",
+        "in_place": "Director attached, preliminary access to one dabbawala cooperative confirmed, urban logistics researcher as consultant",
+        "budget_requested": "EUR 15,000 development grant"
+      }
+    },
+    {
+      "id": "GPW-07",
+      "label": "latin_american",
+      "input": {
+        "title": "Radio Selva",
+        "description": "A documentary about indigenous community radio stations in the Amazon basin that broadcast in languages with fewer than 5,000 speakers. The stations serve as news source, emergency warning system, cultural archive, and political organizing tool for communities with no internet access and limited mobile coverage.",
+        "funder": "Tribeca Film Institute Latin America Fund",
+        "fund_priorities": "Supports Latin American documentary filmmakers whose work addresses social justice, cultural preservation, and underrepresented perspectives.",
+        "format": "Single film, 70 minutes",
+        "stage": "Production",
+        "production_company": "Río Documental (Bogotá)",
+        "in_place": "Director and sound designer attached, access confirmed to three radio stations across two countries, 2 months of footage and audio recordings, linguistic anthropologist as consultant",
+        "budget_requested": "$80,000 production grant",
+        "social_case": "UNESCO has classified all three broadcast languages as severely endangered. The radio stations are the only media in these languages."
+      }
     }
   ]
 }

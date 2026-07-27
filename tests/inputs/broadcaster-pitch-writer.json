@@ -39,6 +39,62 @@
         "status": "Development. Director attached. Test filming completed on Berlin-Paris route. No financing in place.",
         "awards": "Project selected for Sunny Side of the Doc Forum 2026"
       }
+    },
+    {
+      "id": "BPW-04",
+      "label": "south_asian_context",
+      "input": {
+        "title": "The Water Wives",
+        "description": "A documentary following women in three drought-affected villages in western India who walk up to eight kilometres daily to fetch water. Over two monsoon seasons, the film tracks how a community-led rainwater harvesting initiative changes — or fails to change — their daily reality. Part environmental film, part intimate portrait of labour that remains invisible in national policy debates.",
+        "target_broadcaster": "NDTV Good Times (India)",
+        "format": "Single film, 70 minutes",
+        "production_company": "Monsoon Lens Productions (Mumbai)",
+        "comps": "Watermark (2013), The Great Indian Kitchen (2021)",
+        "status": "Development. Director has shot a 12-minute proof-of-concept. Two villages confirmed access. No financing in place.",
+        "budget_range": "INR 1.8Cr–2.2Cr (approx. $215K–$265K)"
+      }
+    },
+    {
+      "id": "BPW-05",
+      "label": "adversarial_taboo_topic",
+      "input": {
+        "title": "The Business of Death",
+        "description": "A documentary investigating the funeral industry across four countries, exposing predatory pricing, emotional manipulation of grieving families, and the environmental cost of conventional burial practices. The film follows a whistleblower embalmer, a bereaved family pursuing a lawsuit, and an entrepreneur promoting alkaline hydrolysis as an alternative.",
+        "target_broadcaster": "Channel 4 (UK)",
+        "format": "Single film, 90 minutes",
+        "production_company": "Undertow Films",
+        "comps": "Dark Waters (2019), The Bleeding Edge (Netflix, 2018)",
+        "status": "Research phase. Whistleblower source confirmed under anonymity agreement. No footage shot.",
+        "budget_range": "$800K–$1.1M"
+      }
+    },
+    {
+      "id": "BPW-06",
+      "label": "pan_african_context",
+      "input": {
+        "title": "Nollywood Underground",
+        "description": "A documentary series exploring the micro-budget filmmakers operating outside the mainstream of West African cinema — directors who shoot entire features on smartphones, distribute via WhatsApp and Bluetooth, and build audiences in markets and bus stations rather than cinemas or streaming platforms. Each episode follows one filmmaker from script to screening, revealing an alternative film economy that reaches millions without institutional support.",
+        "target_broadcaster": "Africa Magic (Pan-African, MultiChoice)",
+        "format": "4-part series, 45 minutes each",
+        "production_company": "Baobab Story Collective (Lagos/Nairobi)",
+        "comps": "Nollywood Babylon (2008), This Is Nollywood (2007)",
+        "status": "Development. Director has relationships with three filmmakers in Lagos and Accra. Test footage shot on two phones. Applied for Durban FilmMart project funding.",
+        "budget_range": "$450K–$600K"
+      }
+    },
+    {
+      "id": "BPW-07",
+      "label": "format_innovation_interactive",
+      "input": {
+        "title": "The Crossroads",
+        "description": "An interactive documentary that places the viewer in the role of a climate policy advisor in a fictional island nation facing rising sea levels. At seven decision points, the viewer chooses between competing policy options — seawall construction, managed retreat, international litigation, geoengineering — and the documentary branches to show real-world footage of communities where each strategy was attempted. Every path ends with a documentary epilogue showing the actual consequences of that approach in a real location.",
+        "target_broadcaster": "BBC iPlayer / BBC Three (interactive commissioning strand)",
+        "format": "Interactive branching documentary, approximately 120 minutes total content across all paths, 40–50 minutes per viewing",
+        "production_company": "Forked Path Media",
+        "comps": "Black Mirror: Bandersnatch (Netflix, 2018), Bear 71 (NFB Interactive, 2012)",
+        "status": "Prototype. One branching path fully scripted. Technical proof-of-concept built. Two filming locations secured (Fiji and the Netherlands). No broadcaster attached.",
+        "budget_range": "$2.5M–$3.2M"
+      }
     }
   ]
 }
