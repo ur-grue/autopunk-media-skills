@@ -119,6 +119,7 @@ Currently we do not fully understand what Claudia's threatened status means prac
 - This skill produces notes based on dramatic and narrative principles. Some editorial decisions are legitimate creative choices that these notes might flag as problems — the director and editor are the final authority on intent.
 
 ## Related Skills
+- [assembly-cut-notes](../assembly-cut-notes/SKILL.md)
+- [fine-cut-notes](../fine-cut-notes/SKILL.md)
 - [scene-breakdown-writer](../../scripting/scene-breakdown-writer/SKILL.md)
 - [commentary-writer](../../scripting/commentary-writer/SKILL.md)
-- [subtitles-rewriter](../subtitles-rewriter/SKILL.md)
