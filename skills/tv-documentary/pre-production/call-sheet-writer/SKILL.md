@@ -28,7 +28,7 @@ Drafts a complete production call sheet for a documentary shoot day, with crew c
 - List of crew members with roles (e.g., "Director: J. Reeves," "Camera Operator: S. Okoro")
 
 **Optional:**
-- Talent or contributor names and their call/ready times
+- Contributor names and their call/ready times
 - Nearest hospital name and address
 - Parking details
 - Breakfast and lunch arrangements (catering call, restaurant address, or self-catering note)
@@ -101,9 +101,9 @@ NOTES
 - Camera Operator: Sam Okoro
 - Sound Recordist: Lin Cheng
 - Researcher/Runner: Priya Desai
-**Talent:**
-- Margaret Hale (contributor interview, approx 45 min) — available from 09:00
-- David Asante (contributor interview, approx 30 min) — available from 11:00
+**Contributors:**
+- Margaret Hale (interview, approx 45 min) — available from 09:00
+- David Asante (interview, approx 30 min) — available from 11:00
 **Catering:** Tea/coffee provided at location. Lunch at The Old Mill pub, 2 min walk, booked for 13:00.
 **Notes:** Bridgewater CC has asked us to keep the main corridor clear during school pickup (15:30). All crew to wear lanyards.
 
@@ -122,13 +122,13 @@ NOTES
 | Name | Role | Call | Notes |
 |------|------|------|-------|
 | Jamie Alden | Director | 07:30 | |
-| Sam Okoro | Camera Operator | 07:30 | Lighting setup in interview room before talent arrives |
+| Sam Okoro | Camera Operator | 07:30 | Lighting setup in interview room before contributors arrive |
 | Lin Cheng | Sound Recordist | 07:30 | Recce room for sound — flag any issues to Director by 08:15 |
 | Priya Desai | Researcher / Runner | 07:00 | Open location, confirm room access, set up tea/coffee |
 
 ---
 
-**TALENT / CONTRIBUTORS**
+**CONTRIBUTORS**
 
 | Name | Call | Ready | Notes |
 |------|------|-------|-------|
