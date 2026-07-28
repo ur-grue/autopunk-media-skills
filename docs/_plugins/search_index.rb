@@ -7,6 +7,8 @@ module AutopunkSkills
       skills = site.data["skills"] || []
       agents = site.data["agents"] || []
 
+      role_map = build_role_map(site)
+
       index = []
 
       skills.each do |skill|
@@ -21,6 +23,8 @@ module AutopunkSkills
           "type" => "skill",
           "status" => skill["status"],
           "score" => skill["eval_score"],
+          "roles" => role_map[skill["category"]] || [],
+          "when_to_use" => extract_when_to_use(skill["content"] || ""),
         }
       end
 
@@ -36,6 +40,8 @@ module AutopunkSkills
           "type" => "agent",
           "status" => agent["status"],
           "score" => agent["eval_score"],
+          "roles" => (agent["roles"] || []),
+          "when_to_use" => "",
         }
       end
 
@@ -43,6 +49,27 @@ module AutopunkSkills
       index_page.content = JSON.pretty_generate(index)
       index_page.data["layout"] = nil
       site.pages << index_page
+    end
+
+    private
+
+    def build_role_map(site)
+      roles = site.data["roles"]
+      return {} unless roles.is_a?(Array)
+
+      roles.each_with_object({}) do |role, map|
+        (role["categories"] || []).each do |cat|
+          (map[cat] ||= []) << role["slug"]
+        end
+      end
+    end
+
+    def extract_when_to_use(body)
+      match = body.match(/## When To Use This Skill\s*\n(.+?)(?:\n##|\z)/m)
+      return "" unless match
+
+      text = match[1].strip.gsub(/^- /, "").gsub(/\n- /, " · ")
+      text[0, 140]
     end
   end
 end
