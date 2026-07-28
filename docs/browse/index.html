@@ -1,0 +1,81 @@
+---
+layout: default
+title: Browse Skills
+---
+
+<div class="browse-page">
+  <header class="browse-header">
+    <h1>Browse Skills</h1>
+    <p>Filter {{ site.data.skill_count }} skills by role, category, or keyword.</p>
+  </header>
+
+  <div class="browse-filters" role="search" aria-label="Filter skills">
+    <div class="browse-search">
+      <label for="browse-search-input" class="visually-hidden">Search skills</label>
+      <input
+        id="browse-search-input"
+        class="search-input"
+        type="search"
+        placeholder="Search by name, description, or tag..."
+        autocomplete="off"
+        aria-label="Search skills"
+      >
+    </div>
+
+    <fieldset class="filter-group">
+      <legend>Role</legend>
+      <div class="pill-group" id="role-filters" role="group" aria-label="Filter by role">
+        <button class="pill pill--active" data-role="all" aria-pressed="true">All</button>
+        {% for role in site.data.roles %}
+        <button class="pill" data-role="{{ role.slug }}" aria-pressed="false">{{ role.title }}</button>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <div class="filter-row">
+      <div class="filter-select">
+        <label for="category-filter">Category</label>
+        <select id="category-filter">
+          <option value="">All categories</option>
+        </select>
+      </div>
+      <div class="filter-select">
+        <label for="subcategory-filter">Subcategory</label>
+        <select id="subcategory-filter" disabled>
+          <option value="">All subcategories</option>
+        </select>
+      </div>
+    </div>
+
+    <fieldset class="filter-group">
+      <legend>Status</legend>
+      <div class="pill-group" id="status-filters" role="group" aria-label="Filter by status">
+        <button class="pill pill--active" data-status="all" aria-pressed="true">All</button>
+        <button class="pill" data-status="stable" aria-pressed="false">Stable</button>
+        <button class="pill" data-status="beta" aria-pressed="false">Beta</button>
+        <button class="pill" data-status="draft" aria-pressed="false">Draft</button>
+      </div>
+    </fieldset>
+
+    <div class="filter-row">
+      <label for="sort-select">Sort by</label>
+      <select id="sort-select">
+        <option value="alpha">Name (A-Z)</option>
+        <option value="score">Eval score</option>
+        <option value="relevance">Relevance</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="browse-results-meta" aria-live="polite">
+    <span id="result-count">Loading...</span>
+  </div>
+
+  <ul class="browse-grid" id="browse-results" aria-label="Skill results">
+  </ul>
+</div>
+
+<script>
+  window.__ROLES_DATA__ = {{ site.data.roles | jsonify }};
+</script>
+<script src="{{ '/assets/js/browse.js' | relative_url }}" defer></script>
