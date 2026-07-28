@@ -30,6 +30,7 @@ jobs:
         run: bundle exec jekyll build --source docs --destination _site --baseurl /autopunk-media-skills
         env:
           JEKYLL_ENV: production
+          BUNDLE_GEMFILE: docs/Gemfile
 
       - uses: actions/upload-pages-artifact@v3
 
