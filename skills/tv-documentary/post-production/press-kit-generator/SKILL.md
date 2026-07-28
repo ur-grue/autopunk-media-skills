@@ -168,6 +168,7 @@ Ana Lima is a documentary filmmaker whose work focuses on the intersection of en
 - International press kits may need adaptation for specific territories (different synopsis conventions, different broadcast partner formatting requirements). The format produced here follows standard English-language documentary press kit conventions.
 
 ## Related Skills
+- [picture-lock-checklist](../picture-lock-checklist/SKILL.md)
 - [rough-cut-notes](../rough-cut-notes/SKILL.md)
 - [series-bible-generator](../../development/series-bible-generator/SKILL.md)
 - [pitch-treatment-writer](../../development/pitch-treatment-writer/SKILL.md)

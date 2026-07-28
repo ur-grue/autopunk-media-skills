@@ -62,9 +62,9 @@ Target duration: 30 seconds.
 Tone: Hard news, investigative.
 
 ### Output
-Authorities have opened a formal inquiry into contamination at the Harwick Industrial Estate — eighteen months after residents first filed complaints. Local families say they have been living with unexplained health problems, while a former factory worker has told our investigation that chemicals were routinely disposed of in breach of safety regulations. Our correspondent Maria Fontes reports.
+Authorities have this morning opened a formal inquiry into contamination at the Harwick Industrial Estate — eighteen months after residents first raised concerns. Three families living near the site say they have suffered unexplained health problems since moving in. And a former factory worker has now told this programme that chemicals were routinely disposed of in ways that breached safety regulations. No one from the estate's management has agreed to be interviewed. Maria Fontes has been investigating. She reports.
 
-[57 words / approx. 23 sec]
+[78 words / approx. 31 sec]
 
 ## Known Limitations
 - This skill writes the presenter's words only — it cannot verify that the facts in the intro match the final cut of the package; a producer must check them against the edited version before broadcast
