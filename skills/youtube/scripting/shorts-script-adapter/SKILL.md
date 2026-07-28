@@ -1,32 +1,33 @@
 ---
 name: shorts-script-adapter
-description: "Adapts a section of a long-form YouTube script into a self-contained Shorts script under 60 seconds — optimized for vertical format and the Shorts feed."
+description: "Adapts a section of a long-form YouTube script into a self-contained Shorts script (up to 3 minutes, default under 60 seconds) — optimized for vertical format and the Shorts feed."
 status: stable
 category: youtube
 subcategory: scripting
-version: 1.0
+version: 1.1
 eval_score: 4.5
 tags: [youtube, scripting, shorts, vertical-video, short-form, adaptation]
 ---
 # Shorts Script Adapter
 
 ## What This Skill Does
-Adapts a section of a long-form YouTube script into a self-contained Shorts script under 60 seconds — optimized for vertical format and the Shorts feed.
+Adapts a section of a long-form YouTube script into a self-contained Shorts script — optimized for vertical format and the Shorts feed. YouTube Shorts supports videos up to 3 minutes; this skill defaults to under 60 seconds (where engagement peaks) but handles any target length within the limit.
 
 ## When To Use This Skill
 - You've published a long-form video and want to drive discovery by clipping one strong moment as a Short
 - You want to batch-produce Shorts from an existing video library without filming separate content
-- You have a concept that doesn't warrant a full video but has strong standalone value as a 45–60 second Short
+- You have a concept that doesn't warrant a full video but has strong standalone value as a Short (45 seconds to 3 minutes)
 - You're testing a new topic on Shorts before committing to a full video
+- You want a 1–3 minute Short that develops a single idea with more depth than a sub-60-second clip allows
 
 ## What You Need To Provide
 **Required:** The source script section or the specific moment from a long-form video you want to adapt (paste the exact text — 200–600 words works best); the core point or insight you want the Short to land.
-**Optional:** The long-form video title (for cross-promotion framing); whether this Short should drive viewers to the full video; channel tone; maximum target length in seconds (default 55 seconds to allow buffer before the 60-second limit).
+**Optional:** The long-form video title (for cross-promotion framing); whether this Short should drive viewers to the full video; channel tone; maximum target length in seconds (default 55 seconds — Shorts supports up to 3 minutes, but sub-60-second clips consistently outperform longer ones in the feed).
 
 ## How the Assistant Approaches This
 1. Identifies the single sharpest, most self-contained argument or insight in the source material — Shorts work when they make one clear point with no loose threads. If the source section makes multiple points, selects the one with the strongest standalone hook.
 2. Restructures the content for the Shorts format: front-loads the hook in the first 3 seconds (the "don't scroll" moment), delivers the core point efficiently, and ends with a pattern-interrupt or question rather than a traditional outro (Shorts viewers don't watch CTAs).
-3. Strips all transitional language designed for long-form ("as I mentioned earlier," "in the next section") and rewrites for immediacy. Calibrates word count: a 55-second Short at normal speaking pace runs approximately 115–130 words.
+3. Strips all transitional language designed for long-form ("as I mentioned earlier," "in the next section") and rewrites for immediacy. Calibrates word count to the target length at approximately 2.3 words per second (a 55-second Short runs ~115–130 words; a 2-minute Short runs ~260–280 words). For Shorts over 60 seconds, adds a mid-point re-hook to retain viewers past the scroll threshold.
 
 ## Output Format
 Script in two parts:
@@ -94,6 +95,7 @@ The full video on morning routines is linked. I cover three more of these — ev
 - This skill adapts existing material — it cannot manufacture a compelling Short from a source section that doesn't contain a self-contained insight. If the source material is context-dependent (e.g., "as we saw in the previous section"), the adaptation will be limited until that context is rewritten into the Short.
 - On-screen text suggestions are starting points. Timing adjustments are needed based on your actual speaking pace and editing rhythm — treat them as placement guidance, not final copy.
 - Shorts that are fundamentally promotional ("watch my full video on X") perform significantly worse than Shorts that deliver standalone value. This skill prioritizes standalone value and treats the full-video CTA as secondary — if you want a primarily promotional Short, specify that explicitly.
+- YouTube supports Shorts up to 3 minutes (since October 2024), but the algorithm still favors shorter content in the Shorts feed. Shorts over 90 seconds need a stronger hook strategy and mid-point re-engagement to compete with sub-60-second clips.
 
 ## Related Skills
 - [full-script-writer](../full-script-writer/SKILL.md)
