@@ -3,12 +3,12 @@
   "owner": {
     "name": "Ur-grue"
   },
-  "description": "402 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
+  "description": "405 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
   "plugins": [
     {
       "name": "autopunk-media-skills",
       "source": "./",
-      "description": "402 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
+      "description": "405 Claude skills for TV producers, journalists, podcasters, YouTubers and media professionals",
       "version": "1.0.0",
       "author": {
         "name": "Ur-grue"
