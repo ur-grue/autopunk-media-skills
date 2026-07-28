@@ -1,11 +1,11 @@
 ---
 name: fine-cut-notes
 description: "Produces editorial notes for a fine cut — addressing performance, pacing, tone, and sound/music placement after the structural issues identified at rough cut have been resolved."
-status: draft
+status: stable
 category: tv-documentary
 subcategory: post-production
 version: 1.0
-eval_score: null
+eval_score: 4.48
 tags: [documentary, post-production, editing, fine-cut, notes, pacing, tone]
 ---
 # Fine Cut Notes

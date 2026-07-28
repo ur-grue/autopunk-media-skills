@@ -3,6 +3,7 @@
   "eval_type": "workflow",
   "status": "passed",
   "overall_mean": 4.93,
+  "audit_note": "FLAGGED: Highest mean across all 9 agents. TC spread of only 0.11 across three different jurisdictions — scoring may not be differentiating effectively. TC1 uses existing example (protocol violation). TC2 EN=5 note praises domain accuracy (Reynolds defence distinction) rather than examining output for tells — closer to Consistency/Professionalism assessment than Editorial Naturalness. 27 of 27 scores on Coherence/Consistency/Fluency/Relevance are 5 — implausible uniformity. Re-evaluation recommended for TC1 (non-example input) and TC2 EN (tell examination).",
   "editorial_naturalness_mean": 4.67,
   "test_cases": [
     {

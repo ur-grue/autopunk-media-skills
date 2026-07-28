@@ -1,5 +1,53 @@
 {
   "skill_name": "picture-lock-checklist",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.57,
+  "editorial_naturalness_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Single documentary (1x90min) for Netflix, 8 interview contributors, 12 observational contributors, extensive archive from 3 different sources, original score plus 2 licensed tracks, accessibility deliverables required, international delivery spec",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The checklist format inherently suppresses AI prose patterns — the genre convention IS structured, terse, and categorical. Blocker escalation language and sign-off block match what a post-production supervisor would produce. Genre craft, not prose craft.",
+      "case_mean": 5.00
+    },
+    {
+      "id": 2,
+      "input_summary": "6-part series (6x52min) for ZDF/ARTE co-production, different delivery specs per territory, 40+ contributors across episodes, archive from 5 countries, multi-language subtitle requirement, phased lock schedule",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 3,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One structural tell: the skill defaults to single-programme checklist structure. For a multi-territory co-production with phased locks, a PS would produce territory-specific sections and a master lock schedule — the output treats it as a single lock event with caveats.",
+      "case_mean": 4.00
+    },
+    {
+      "id": 3,
+      "input_summary": "Low-budget independent short documentary (1x22min), no broadcaster, self-funded, 3 contributors, no archive, no original score (library music only), festival submission target, no formal delivery spec",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One minor genre tell: the checklist retains broadcaster-grade formality (sign-off block with named roles, technical spec verification) that overshoots the context of a self-funded festival short. Content correct; register slightly too institutional for the context.",
+      "case_mean": 4.71
+    }
+  ]
 }

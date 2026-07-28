@@ -1,11 +1,11 @@
 ---
 name: assembly-cut-notes
 description: "Produces structured editorial notes from an assembly cut description, identifying material gaps, sequence order issues, and structural foundations before the rough cut stage."
-status: draft
+status: stable
 category: tv-documentary
 subcategory: post-production
 version: 1.0
-eval_score: null
+eval_score: 4.52
 tags: [documentary, post-production, editing, assembly, notes, structure]
 ---
 # Assembly Cut Notes

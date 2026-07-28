@@ -1,11 +1,11 @@
 ---
 name: picture-lock-checklist
 description: "Generates a comprehensive picture lock checklist — confirming that all editorial, legal, and technical requirements are met before the cut is locked and downstream work (music, grade, sound mix, titles) begins."
-status: draft
+status: stable
 category: tv-documentary
 subcategory: post-production
 version: 1.0
-eval_score: null
+eval_score: 4.57
 tags: [documentary, post-production, picture-lock, checklist, delivery, compliance]
 ---
 # Picture Lock Checklist

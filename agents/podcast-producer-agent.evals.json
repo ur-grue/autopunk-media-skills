@@ -2,8 +2,9 @@
   "agent_name": "podcast-producer-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.78,
-  "editorial_naturalness_mean": 4.33,
+  "overall_mean": 4.74,
+  "editorial_naturalness_mean": 4.00,
+  "audit_note": "TC1 EN corrected from 5 to 4 — noted tell ('theatrical question framing') violates EN=5 rubric anchor (zero tells required). TC1 also uses existing example input (protocol violation). Recalculated means.",
   "test_cases": [
     {
       "id": 1,
@@ -15,12 +16,12 @@
         "relevance": 5,
         "professionalism": 5,
         "actionability": 4,
-        "editorial_naturalness": 5,
+        "editorial_naturalness": 4,
         "cross_step_consistency": 5,
         "deliverable_completeness": 5
       },
-      "editorial_naturalness_note": "One slightly theatrical question framing ('the question you have not answered publicly') that reads more written than spoken; otherwise the package inhabits each section's genre conventions with precision, particularly the ad reads.",
-      "case_mean": 4.89
+      "editorial_naturalness_note": "One tell: theatrical question framing ('the question you have not answered publicly') reads more written than spoken. Corrected from 5 to 4 — the EN=5 anchor requires zero tells. Otherwise the package inhabits each section's genre conventions with precision, particularly the ad reads.",
+      "case_mean": 4.78
     },
     {
       "id": 2,

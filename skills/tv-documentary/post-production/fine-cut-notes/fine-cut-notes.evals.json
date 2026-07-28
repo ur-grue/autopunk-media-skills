@@ -1,5 +1,53 @@
 {
   "skill_name": "fine-cut-notes",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.48,
+  "editorial_naturalness_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "56-minute fine cut of a social documentary about overnight shelter volunteers, target 52 minutes, three character threads interwoven, original score placed, rough cut notes addressed, lock target in 2 weeks",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. Pacing notes reference specific timecodes and describe editorial effects in sensory terms rather than abstract language. Music notes distinguish between enhancement and compensation. This is fine-cut editorial language a director would act on.",
+      "case_mean": 4.86
+    },
+    {
+      "id": 2,
+      "input_summary": "88-minute fine cut of a feature documentary about competitive pigeon racing, target 90 minutes, 6 characters, competition structure drives narrative, temp score throughout, international co-production (UK/Belgium)",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One structural tell: music notes default to the same diagnostic shape across sections without varying the vocabulary. A human editor would describe different types of musical problems differently — entry timing, dynamic range, and thematic placement each have their own editorial language.",
+      "case_mean": 4.14
+    },
+    {
+      "id": 3,
+      "input_summary": "28-minute fine cut of a short observational documentary about a community garden facing demolition, target 26 minutes, single-character focus, no narration, minimal score, festival target (Sheffield DocFest)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One tonal tell: the lock readiness assessment uses slightly more formal language than the observational-documentary register warrants — reads like notes for a broadcaster commission rather than for a festival short. Minor but detectable register mismatch.",
+      "case_mean": 4.43
+    }
+  ]
 }
