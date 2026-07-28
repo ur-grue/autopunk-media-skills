@@ -3,7 +3,7 @@ name: newsletter-launch-agent
 type: agent
 status: stable
 version: 1.0
-eval_score: 4.68
+eval_score: 4.70
 maxTurns: 25
 allowedTools:
   - Read

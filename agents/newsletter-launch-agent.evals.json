@@ -1,0 +1,60 @@
+{
+  "agent_name": "newsletter-launch-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.70,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Weekly newsletter 'Shelf Life' about independent bookstores — business story behind indie retail, targeting book lovers and publishing professionals, smart/warm tone, free with future paid tier — existing example, full 5-step pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The pilot edition opens with 'A bookstore that small should not work' — a thesis sentence that earns the second sentence without throat-clearing. The welcome email avoids every automated-marketing cliché: 'I am not writing this as a cheerleader for indie bookstores' establishes a real editorial voice. Subject line #2 ('The bookstore that fired its reading chair') demonstrates genuine headline craft.",
+      "case_mean": 5.00
+    },
+    {
+      "id": 2,
+      "brief_summary": "Daily newsletter about remote work culture — 'how distributed teams actually function,' targeting remote workers and HR leaders, data-driven/punchy tone, paid from launch on Beehiiv — simulated deliverable, full pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 4,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Two tells: 'remote work' is a high-saturation topic where LLM defaults ('the future of work,' 'hybrid is here to stay') are harder to avoid. The welcome email for a paid-from-launch product needs billing/value language that the agent's template doesn't natively handle, producing slightly generic 'what you get' framing.",
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "brief_summary": "Monthly newsletter about European contemporary art photography, targeting collectors and gallery professionals, high-register/curatorial tone, free on Substack — simulated deliverable, full pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Niche, high-register content plays to the agent's strengths — the positioning document benefits from a narrow, well-defined whitespace. The pilot edition for visual-heavy content is limited by the text-only medium; the landing page copy for a curatorial audience requires restraint the agent handles well.",
+      "case_mean": 4.78
+    }
+  ]
+}

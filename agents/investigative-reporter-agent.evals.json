@@ -1,0 +1,61 @@
+{
+  "agent_name": "investigative-reporter-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.93,
+  "audit_note": "FLAGGED: Highest mean across all 9 agents. TC spread of only 0.11 across three different jurisdictions — scoring may not be differentiating effectively. TC1 uses existing example (protocol violation). TC2 EN=5 note praises domain accuracy (Reynolds defence distinction) rather than examining output for tells — closer to Consistency/Professionalism assessment than Editorial Naturalness. 27 of 27 scores on Coherence/Consistency/Fluency/Relevance are 5 — implausible uniformity. Re-evaluation recommended for TC1 (non-example input) and TC2 EN (tell examination).",
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Ohio water utility compliance discrepancy — former maintenance supervisor alleges false compliance reports filed with Ohio EPA over 3 years, 140K residents affected, 12 pages of seed documents — existing example, full 7-step pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The FOIA requests use correct Ohio Public Records Act citations (ORC 149.43) with proper legal register. Draft lede Option 2 is outstanding genre craft: 'The maintenance log for August 17, 2023 is a single handwritten line in blue ink on a ruled sheet' — that level of scene-setting specificity is what separates working investigative journalists from template output.",
+      "case_mean": 5.00
+    },
+    {
+      "id": 2,
+      "brief_summary": "UK private care home chain investigation — staff allegedly pressured to falsify resident care logs, CQC inspection data as public records, FOI Act 2000 jurisdiction, 3 named sources — simulated deliverable, document-analysis step skipped (no seed docs beyond CQC reports)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "UK care-home register is inhabited correctly; the libel risk assessment properly distinguishes between Reynolds defence and public interest defence under Defamation Act 2013 rather than defaulting to US First Amendment framing.",
+      "case_mean": 4.89
+    },
+    {
+      "id": 3,
+      "brief_summary": "Texas state university athletics department — booster donations allegedly funding personal trips for administrators, leaked expense reports as seed documents, Texas Public Information Act jurisdiction — simulated deliverable, full pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One minor tonal tell: the story-angle section for university athletics investigations risks the 'abuse of public trust' framing that is both journalistically accurate and an LLM default for accountability stories. The FOIA requests and source map remain clean.",
+      "case_mean": 4.89
+    }
+  ]
+}

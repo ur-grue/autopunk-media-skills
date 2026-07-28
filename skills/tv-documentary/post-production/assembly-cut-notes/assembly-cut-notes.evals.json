@@ -1,0 +1,53 @@
+{
+  "skill_name": "assembly-cut-notes",
+  "status": "passed",
+  "overall_mean": 4.52,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "75-minute assembly of a nature documentary about migratory storks returning to a declining wetland, target 52 minutes, shot over two seasons, three human contributors (conservationist, farmer, local official), drone footage, hide camera material, archive from 1990s survey",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The gap-list format and constructive directorial language inhabit the post-production editorial register precisely. No meta-intro, no hedge fog. Material assessment distinguishes between pickup-shoot gaps and editorial solutions without hedging.",
+      "case_mean": 4.86
+    },
+    {
+      "id": 2,
+      "input_summary": "4-hour assembly for a 3-part investigative series (3x52min) on pharmaceutical pricing, heavy archive and data graphics, 11 interview contributors, no observational footage, narration-driven structure",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 3,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One structural tell: the notes default to single-film assessment patterns rather than series-level structural analysis. Episode-by-episode breakdown lacks the differentiation a series producer would expect — each episode's notes follow the same template shape.",
+      "case_mean": 4.00
+    },
+    {
+      "id": 3,
+      "input_summary": "22-minute assembly of a portrait documentary about a retired boxing trainer, target 15 minutes, observational only (no interviews), festival submission target, shot handheld over 3 days",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "The compressed scope and observational-only format force precision. Notes correctly focus on material coverage and rhythm rather than interview structure. Reads like the kind of notes an editor would tape to the wall above their timeline.",
+      "case_mean": 4.71
+    }
+  ]
+}

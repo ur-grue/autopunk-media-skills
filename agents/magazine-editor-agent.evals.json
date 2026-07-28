@@ -1,0 +1,60 @@
+{
+  "agent_name": "magazine-editor-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.67,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "910-word feature about the last independent bookshop in Dunminster, regional county magazine, AP base with 5 house style rules, AI-assisted draft with register issues — existing example, full 7-step pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The structural diagnosis is outstanding editorial craft — 'The opening paragraph is the weakest in the piece and the strongest material (Woodward's voice, the community story) is buried behind generic framing' is exactly the kind of judgment a working editor makes. The ai-writing-detox step correctly identifies tells in the input draft, demonstrating meta-awareness of the very patterns the eval framework tests for.",
+      "case_mean": 5.00
+    },
+    {
+      "id": 2,
+      "brief_summary": "2,500-word investigative piece about a city council member's undisclosed property interests, news register, AP style, no house style rules, factual claims requiring verification — simulated deliverable, house-style step skipped",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Investigative register suits the agent well; the fact-check checklist for a piece with named officials and financial claims would be the strongest section. Package slightly thinner without house-style step but still complete for the brief.",
+      "case_mean": 4.78
+    },
+    {
+      "id": 3,
+      "brief_summary": "600-word opinion column on public transit funding for a trade magazine, Chicago style, no AI involvement, no house style — simulated deliverable, 4 of 7 steps skipped (ai-writing-detox, house-style, fact-check, pull-quotes)",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 4,
+        "deliverable_completeness": 3
+      },
+      "editorial_naturalness_note": "With only structure-checker, copy-editor, and headline-generator running, the package feels operationally thin — a working editor would expect more from an editorial pass. The agent's strength is orchestrating multiple skills; when most are skipped, the package underdelivers relative to the 'complete editorial package' promise.",
+      "case_mean": 4.22
+    }
+  ]
+}

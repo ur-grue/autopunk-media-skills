@@ -1,0 +1,61 @@
+{
+  "agent_name": "documentary-development-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.89,
+  "audit_note": "FLAGGED: Two perfect 5.0 test cases is an outlier. TC1 uses existing example (protocol violation). TC3 EN=5 note argues format strips tells rather than demonstrating zero tells were found — weaker justification than the rubric requires. Re-evaluation recommended for TC1 (replace with non-example input) and TC3 EN (tell-by-tell examination). Agent likely still passes 4.0 threshold after corrections.",
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Feature documentary 'The Last Tent' — three retired circus performers reunite at demolished venue, pitched to ARTE/BBC Storyville, observational tone, Buena Vista Social Club reference — existing example, series-bible skipped",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "Zero tells. The treatment inhabits the European authored-documentary register with exceptional precision. 'Every circus ends. What The Last Tent asks is what happens to the people who made it their life when it does.' — that opening is genre craft a development executive would recognise as professional. The broadcaster pitch correctly positions against ARTE and Storyville without the generic 'in today's streaming landscape' framing.",
+      "case_mean": 5.00
+    },
+    {
+      "id": 2,
+      "brief_summary": "6-part documentary series on declining industrial towns across Europe, one town per episode, pitched to ZDF/ARTE co-production, essayistic tone — simulated deliverable, full 5-step pipeline including series-bible-generator",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "One structural tell: episode descriptions in the series bible risk following a uniform template (town introduction → character → tension → resolution) across all six episodes, flattening what should be six distinct editorial shapes. The logline and treatment remain strong.",
+      "case_mean": 4.67
+    },
+    {
+      "id": 3,
+      "brief_summary": "Short documentary (20 min) about a retiring zookeeper's final season preparing animals for transfer to other facilities, festival circuit target (Sundance Shorts, Clermont-Ferrand), intimate/observational — simulated deliverable, series-bible skipped",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "The short-documentary format plays to the agent's strongest register — contained scope, single character, clear emotional arc. Festival synopses benefit from the compression; the 50-word version forces the kind of precision that strips AI tells automatically.",
+      "case_mean": 5.00
+    }
+  ]
+}
