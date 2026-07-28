@@ -1,0 +1,60 @@
+{
+  "agent_name": "newsroom-operations-agent",
+  "eval_type": "workflow",
+  "status": "passed",
+  "overall_mean": 4.67,
+  "editorial_naturalness_mean": 4.00,
+  "test_cases": [
+    {
+      "id": 1,
+      "brief_summary": "Digital-first local news outlet, 8 editorial staff (6 reporters, 1 EIC, 1 copy editor), 5 beats, daily M-F, introducing AI tools for first time, no existing policies — existing example, full 5-step pipeline",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 5
+      },
+      "editorial_naturalness_note": "One structural tell: the five beat guides follow an identical template structure (Scope → Source Development → Recurring Story Types → AI Usage → Competitive Landscape) with competitive landscape sections that repeat the same advice pattern ('Your advantage is depth/consistency/follow-up'). The AI policy and ethics template are strong — 'If it did not happen, we do not publish it' is genuine editorial voice.",
+      "case_mean": 4.89
+    },
+    {
+      "id": 2,
+      "brief_summary": "25-person newsroom, weekly print magazine plus daily digital, 8 beats, existing AI tools (ChatGPT, Otter), union constraints on AI usage — simulated deliverable, full pipeline, content-arc-planner included",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 4,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Structural repetition across 8 beat guides becomes more pronounced at scale — the competitive landscape sections for beats like 'environment' and 'health' would lean toward the same generic differentiation advice. The AI policy for a unionized newsroom would need more specific language the agent may default to boilerplate for.",
+      "case_mean": 4.33
+    },
+    {
+      "id": 3,
+      "brief_summary": "3-person digital investigative nonprofit, single beat (government accountability), monthly long-form plus breaking investigations, no AI tools, focused on establishing ethics and editorial protocols — simulated deliverable, content-arc included",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4,
+        "cross_step_consistency": 5,
+        "deliverable_completeness": 4
+      },
+      "editorial_naturalness_note": "Single-beat simplicity helps avoid the structural repetition problem. However, the agent's operations-package framing ('newsroom infrastructure') is slightly over-engineered for a 3-person team — a working investigative editor would produce a leaner document. The ethics template section is the strongest, naturally suited to the accountability focus.",
+      "case_mean": 4.78
+    }
+  ]
+}
