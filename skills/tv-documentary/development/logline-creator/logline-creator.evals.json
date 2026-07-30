@@ -1,44 +1,49 @@
 {
   "skill_name": "logline-creator",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": "Documentary about a community of deaf surfers in a coastal town who compete nationally. The film follows three surfers over one competitive season. Observational style. Festival submission and broadcaster pitch needed.",
-      "output_summary": "Generated 5 loglines including: 'Three deaf surfers. One competitive season. A film about what the ocean sounds like when you can't hear it.' (poetic/festival), 'An observational film following three deaf competitive surfers through one national season — and the question of whether the sport was built for them or despite them.' (broadcaster). All options had distinct emphases. Social short-form included. Annotations accurate.",
+      "output_summary": "Generated 5 loglines including: 'Three deaf surfers. One competitive season. A film about what the ocean sounds like when you can't hear it.' (poetic/festival), 'An observational film following three deaf competitive surfers through one national season \u2014 and the question of whether the sport was built for them or despite them.' (broadcaster). All options had distinct emphases. Social short-form included. Annotations accurate.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
       "input": "Documentary about the history of a specific architectural style (brutalism) and its contested preservation. Multi-subject, no single protagonist. Public broadcaster context. Polemical tone.",
-      "output_summary": "Correctly flagged that without a protagonist, the dramatic spine is the debate itself. Generated loglines structured around the central conflict ('Who decides which buildings survive?') rather than a character arc. Thematic form worked best. One option slightly too academic for the broadcaster context — annotated as such. Social bio line effective.",
+      "output_summary": "Correctly flagged that without a protagonist, the dramatic spine is the debate itself. Generated loglines structured around the central conflict ('Who decides which buildings survive?') rather than a character arc. Thematic form worked best. One option slightly too academic for the broadcaster context \u2014 annotated as such. Social bio line effective.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.33
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
@@ -50,9 +55,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

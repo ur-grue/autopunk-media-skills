@@ -1,15 +1,16 @@
 {
   "skill_name": "call-to-action-generator",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.29,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,37 +23,44 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
       "input": "CTA type: Sponsor read only. Sponsor: A VPN service. Channel: Cybersecurity/privacy, serious and authoritative. Position: Mid-roll, after explaining why public Wi-Fi is dangerous.",
-      "output_summary": "Produced a well-structured mid-roll sponsor read that transitioned naturally from the Wi-Fi danger content. Used 'show not tell' structure: opened with a problem statement the audience just heard about, then positioned the product as the solution. Disclosure ('this video is sponsored') placed at the start of the segment per FTC conventions. One option was slightly over-enthusiastic for a serious cybersecurity channel — minor tone mismatch. Overall strong.",
+      "output_summary": "Produced a well-structured mid-roll sponsor read that transitioned naturally from the Wi-Fi danger content. Used 'show not tell' structure: opened with a problem statement the audience just heard about, then positioned the product as the solution. Disclosure ('this video is sponsored') placed at the start of the segment per FTC conventions. One option was slightly over-enthusiastic for a serious cybersecurity channel \u2014 minor tone mismatch. Overall strong.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.33
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "CTA type: Channel membership CTA (YouTube Memberships). Channel: Independent film criticism, dry and literary tone. Membership perk: Early access to videos and a monthly written essay. Position: End of video.",
-      "output_summary": "Generated 4 membership CTA options. Tone correctly matched the dry, literary register. Best option: 'There's also a membership tier for people who want more — early access to each video and a monthly essay. Details in the description.' Appropriately minimal for the channel's voice. One option was too enthusiastic and felt out of character — correctly flagged in the placement note. Overall well-calibrated to the niche.",
+      "output_summary": "Generated 4 membership CTA options. Tone correctly matched the dry, literary register. Best option: 'There's also a membership tier for people who want more \u2014 early access to each video and a monthly essay. Details in the description.' Appropriately minimal for the channel's voice. One option was too enthusiastic and felt out of character \u2014 correctly flagged in the placement note. Overall well-calibrated to the niche.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.17
+      "case_mean": 4.0,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -2,14 +2,15 @@
   "skill_name": "rough-cut-notes",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Structural note correctly identified that the third act problem was caused by a second-act setup failure, not a third-act content problem. Trim recommendations were specific with estimated time savings."
+      "notes": "Structural note correctly identified that the third act problem was caused by a second-act setup failure, not a third-act content problem. Trim recommendations were specific with estimated time savings.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
@@ -34,9 +38,12 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Notes correctly diagnosed the broadcaster feedback as a protagonist problem — equal screen time was preventing the viewer from investing in any one subject. Structural note recommended a clear hierarchy of subjects rather than parity."
+      "notes": "Notes correctly diagnosed the broadcaster feedback as a protagonist problem \u2014 equal screen time was preventing the viewer from investing in any one subject. Structural note recommended a clear hierarchy of subjects rather than parity.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
@@ -47,9 +54,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Historical period transition problem was correctly identified as a bridge scene problem — the current transition assumed knowledge the viewer hadn't yet been given. Positive observations section was genuinely specific about the strongest archive sequences."
+      "notes": "Historical period transition problem was correctly identified as a bridge scene problem \u2014 the current transition assumed knowledge the viewer hadn't yet been given. Positive observations section was genuinely specific about the strongest archive sequences.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

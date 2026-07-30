@@ -1,6 +1,6 @@
 {
   "skill_name": "grant-narrative-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.3,
   "test_cases": [
     {
@@ -9,7 +9,7 @@
       "input": {
         "title": "The Distance Runners",
         "format": "Feature documentary ~90 min",
-        "subject": "Three East African runners in European marathon circuits — economic infrastructure of elite African athletics",
+        "subject": "Three East African runners in European marathon circuits \u2014 economic infrastructure of elite African athletics",
         "funder": "National arts council, international co-production fund",
         "stage": "Production funding",
         "track_record": "Director's previous doc at Hot Docs and CPH:DOX"
@@ -20,10 +20,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Significance section addresses funder priorities explicitly. Creative approach section describes actual filmmaking choices, not intentions. Impact section names concrete targets."
+      "notes": "Significance section addresses funder priorities explicitly. Creative approach section describes actual filmmaking choices, not intentions. Impact section names concrete targets.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-02",
@@ -31,9 +34,9 @@
       "input": {
         "title": "Night Soil",
         "format": "Short documentary, 18 minutes",
-        "subject": "Elderly night-soil collectors still working in a West African city using pre-industrial methods — their routes unchanged for 60 years",
+        "subject": "Elderly night-soil collectors still working in a West African city using pre-industrial methods \u2014 their routes unchanged for 60 years",
         "funder": "National film institute, new voices development fund",
-        "stage": "Development — script complete, first-time director",
+        "stage": "Development \u2014 script complete, first-time director",
         "what_funded": "Director attachment fee and development travel"
       },
       "scores": {
@@ -42,10 +45,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "New voices fund framing appropriate. Short film format handled well. Impact section appropriately scaled for a short — festival circuit rather than broadcaster."
+      "notes": "New voices fund framing appropriate. Short film format handled well. Impact section appropriately scaled for a short \u2014 festival circuit rather than broadcaster.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     },
     {
       "id": "tc-03",
@@ -53,9 +59,9 @@
       "input": {
         "title": "The Procurement Files",
         "format": "Investigative documentary series, 3 x 52 minutes",
-        "subject": "Three-year investigation into how public infrastructure contracts are awarded in three EU countries — documented through leaked procurement records",
+        "subject": "Three-year investigation into how public infrastructure contracts are awarded in three EU countries \u2014 documented through leaked procurement records",
         "funder": "Journalism foundation, investigative media fund",
-        "stage": "Production — investigation complete, filming begins in 3 months",
+        "stage": "Production \u2014 investigation complete, filming begins in 3 months",
         "what_funded": "Principal photography and post-production"
       },
       "scores": {
@@ -64,12 +70,16 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Foundation register correctly differentiated from arts council language. Significance section addresses public interest journalism mandate. Evidence-based framing appropriate for journalism fund."
+      "notes": "Foundation register correctly differentiated from arts council language. Significance section addresses public interest journalism mandate. Evidence-based framing appropriate for journalism fund.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
   ],
-  "overall_mean": 4.28,
-  "passed": true
+  "overall_mean": 4.24,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

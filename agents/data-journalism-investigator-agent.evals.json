@@ -2,25 +2,25 @@
   "agent_name": "data-journalism-investigator-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.67,
-  "editorial_naturalness_mean": 4.33,
+  "overall_mean": 4.56,
+  "editorial_naturalness_mean": 4.00,
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "Metropolitan building permits dataset (34K rows, 2020-2025), FOI-obtained CSV, investigating processing time disparities across 12 council districts — existing example, full pipeline minus scraper-brief",
+      "brief_summary": "State education department teacher salary dataset (28K records across 850 school districts, 2019-2024), CSV from public records portal, investigating whether teacher pay correlates with district property tax base and whether the gap widened post-pandemic — simulated deliverable, scraper-brief included for Census income merge, full pipeline",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
-        "professionalism": 5,
+        "professionalism": 4,
         "actionability": 4,
-        "editorial_naturalness": 5,
+        "editorial_naturalness": 4,
         "cross_step_consistency": 5,
-        "deliverable_completeness": 5
+        "deliverable_completeness": 4
       },
-      "editorial_naturalness_note": "Zero tells. The methodology statement inhabits the data-journalism register with precision — honest about limitations without generic disclaimers. Chart descriptions lead with findings, not with 'this chart shows.' The strongest craft is the editor's checklist, which gives specific verification steps a working data editor would actually follow.",
-      "case_mean": 4.89
+      "editorial_naturalness_note": "Two minor tells: the statistics-explainer section defaults to 'achievement gap' framing — accurate but an LLM-saturated phrase for education equity stories. The methodology statement uses 'resource allocation' twice where a working data journalist would say 'funding' or 'spending.' Data-cleaning brief and chart descriptions remain clean.",
+      "case_mean": 4.56
     },
     {
       "id": 2,

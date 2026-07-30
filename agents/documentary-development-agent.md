@@ -3,7 +3,7 @@ name: documentary-development-agent
 type: agent
 status: stable
 version: 1.0
-eval_score: 4.89
+eval_score: 4.82
 maxTurns: 20
 allowedTools:
   - Read

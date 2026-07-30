@@ -1,6 +1,6 @@
 {
   "skill_name": "scientific-consensus-brief",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.44,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.67,
-      "notes": "Excellent handling of a topic where institutional positions diverge. Correctly classified as 'active scientific debate' rather than established or fringe. Key evidence from major health bodies was accurately represented. Reporting pitfalls were specific and practical."
+      "notes": "Excellent handling of a topic where institutional positions diverge. Correctly classified as 'active scientific debate' rather than established or fringe. Key evidence from major health bodies was accurately represented. Reporting pitfalls were specific and practical.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "test_id": "SCB-002",
@@ -26,10 +29,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Good distinction between the established finding (no caloric effect) and the emerging research (potential metabolic effects). WHO position was correctly cited. The brief avoided both industry-friendly and alarmist framing."
+      "notes": "Good distinction between the established finding (no caloric effect) and the emerging research (potential metabolic effects). WHO position was correctly cited. The brief avoided both industry-friendly and alarmist framing.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "SCB-003",
@@ -40,10 +46,15 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Strong handling of a topic that crosses economics and social science. Correctly noted the limited number of large-scale RCTs. Appropriately cautious about generalising from pilot studies to national programmes."
+      "notes": "Strong handling of a topic that crosses economics and social science. Correctly noted the limited number of large-scale RCTs. Appropriately cautious about generalising from pilot studies to national programmes.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.43
 }

@@ -2,14 +2,15 @@
   "skill_name": "document-analysis-summary",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Summary correctly identified the framing language as newsworthy. Omissions section flagged missing earlier communications that would establish intent. Follow-up questions were specific."
+      "notes": "Summary correctly identified the framing language as newsworthy. Omissions section flagged missing earlier communications that would establish intent. Follow-up questions were specific.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc2",
@@ -34,9 +38,12 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Contradiction between public statements and internal findings was correctly the top newsworthy item. Omissions section identified missing sign-off signatures as potentially significant."
+      "notes": "Contradiction between public statements and internal findings was correctly the top newsworthy item. Omissions section identified missing sign-off signatures as potentially significant.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
@@ -47,9 +54,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "notes": "Handled redacted sections correctly — noted their presence and suggested appropriate legal paths to challenge them. Did not speculate about redacted content."
+      "notes": "Handled redacted sections correctly \u2014 noted their presence and suggested appropriate legal paths to challenge them. Did not speculate about redacted content.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

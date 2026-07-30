@@ -5,43 +5,53 @@
   "test_cases": [
     {
       "id": "tc1",
-      "description": "Voting intention poll with subgroup data — general election scenario",
+      "description": "Voting intention poll with subgroup data \u2014 general election scenario",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc2",
-      "description": "Consumer confidence survey — economic sentiment tracker with monthly comparison",
+      "description": "Consumer confidence survey \u2014 economic sentiment tracker with monthly comparison",
       "scores": {
         "coherence": 4,
         "consistency": 5,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
-      "description": "Public health survey — vaccination attitudes with age and regional breakdowns",
+      "description": "Public health survey \u2014 vaccination attitudes with age and regional breakdowns",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
   ],
-  "overall_mean": 4.39
+  "overall_mean": 4.34,
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,21 +1,22 @@
 {
   "skill_name": "shorts-script-adapter",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": {
-        "source": "Sleep inertia section from productivity video — 220 words of source material",
+        "source": "Sleep inertia section from productivity video \u2014 220 words of source material",
         "core_point": "Don't do cognitively demanding work in the first 30 minutes after waking",
         "target_length": "55 seconds",
         "drive_to_full_video": true
@@ -26,15 +27,18 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Hook lands in first 3 seconds. Fully self-contained. On-screen text suggestions are specific and usable. CTA is naturally placed."
+      "notes": "Hook lands in first 3 seconds. Fully self-contained. On-screen text suggestions are specific and usable. CTA is naturally placed.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
       "input": {
-        "source": "Section from a personal finance video explaining why most people misunderstand compound interest — the difference between annual and daily compounding",
+        "source": "Section from a personal finance video explaining why most people misunderstand compound interest \u2014 the difference between annual and daily compounding",
         "core_point": "Daily compounding over 30 years makes a $50,000 difference on a $10,000 investment",
         "target_length": "50 seconds",
         "drive_to_full_video": false
@@ -45,15 +49,18 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Stat-driven hook works well for Shorts format. Adaptation correctly drops the comparative setup from the long-form and leads with the surprise number. Self-contained and punchy."
+      "notes": "Stat-driven hook works well for Shorts format. Adaptation correctly drops the comparative setup from the long-form and leads with the surprise number. Self-contained and punchy.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-003",
       "input": {
-        "source": "Section from a video about urban foraging — how to identify safe edible plants versus toxic lookalikes, specifically covering elderflower vs hemlock identification",
+        "source": "Section from a video about urban foraging \u2014 how to identify safe edible plants versus toxic lookalikes, specifically covering elderflower vs hemlock identification",
         "core_point": "One visual check that distinguishes elderflower from hemlock at a glance",
         "target_length": "55 seconds",
         "drive_to_full_video": true
@@ -64,10 +71,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Good adaptation. The safety-critical nature of the topic is handled appropriately — Short correctly recommends additional research. On-screen text suggestions are strong for a visual identification topic. Actionable."
+      "notes": "Good adaptation. The safety-critical nature of the topic is handled appropriately \u2014 Short correctly recommends additional research. On-screen text suggestions are strong for a visual identification topic. Actionable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

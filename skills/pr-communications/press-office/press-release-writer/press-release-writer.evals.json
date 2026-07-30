@@ -1,20 +1,21 @@
 {
   "skill_name": "press-release-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.6,
+  "overall_mean": 4.53,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.6,
     "relevance": 4.7,
     "professionalism": 4.5,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
-      "description": "Non-profit telehealth hub opening — philanthropy-funded, two spokespeople, no embargo",
+      "description": "Non-profit telehealth hub opening \u2014 philanthropy-funded, two spokespeople, no embargo",
       "input_summary": "Meridian Health Network opens $12M telehealth hub in Phoenix serving 400,000 rural patients; quotes from CMO and foundation director; no embargo",
       "scores": {
         "coherence": 5,
@@ -22,14 +23,17 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 5.0,
-      "notes": "Textbook inverted-pyramid structure. Headline states news value clearly. Opening paragraph answers all five Ws. Quotes placed correctly after first paragraph. Wire-ready formatting including dateline, boilerplate, contact block, and end mark."
+      "notes": "Textbook inverted-pyramid structure. Headline states news value clearly. Opening paragraph answers all five Ws. Quotes placed correctly after first paragraph. Wire-ready formatting including dateline, boilerplate, contact block, and end mark.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.86
     },
     {
       "id": "tc-002",
-      "description": "Tech company executive appointment — single spokesperson, no second quote, embargo 7 days",
+      "description": "Tech company executive appointment \u2014 single spokesperson, no second quote, embargo 7 days",
       "input_summary": "Harlow Systems appoints Priya Nair as Chief Technology Officer; previously VP Engineering at a fintech; quote from CEO about strategic hire; embargo until March 23",
       "scores": {
         "coherence": 5,
@@ -37,14 +41,17 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Solid structure and correct embargo formatting. Relevance deduction: output included a generic paragraph about the company's growth trajectory not grounded in the input. Claude flagged the detail as unconfirmed, which is correct behaviour, but the paragraph still appeared in the draft — slight actionability cost. Consistency note: all provided facts reproduced accurately."
+      "notes": "Solid structure and correct embargo formatting. Relevance deduction: output included a generic paragraph about the company's growth trajectory not grounded in the input. Claude flagged the detail as unconfirmed, which is correct behaviour, but the paragraph still appeared in the draft \u2014 slight actionability cost. Consistency note: all provided facts reproduced accurately.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
-      "description": "Industry award win — single spokesperson, data point, trade publication target",
+      "description": "Industry award win \u2014 single spokesperson, data point, trade publication target",
       "input_summary": "Castlebrook Architecture wins Building Industry Association award for sustainable design on a public library project; 40% reduction in energy use; quote from founding partner; targeting trade press",
       "scores": {
         "coherence": 4,
@@ -52,10 +59,14 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Strong trade-register calibration. Technical vocabulary appropriate for architecture press. Coherence slightly lower: transitional sentence between award context and methodology paragraph was awkward. One sentence in body ran to 45 words — borderline for wire style. All facts consistent with input."
+      "notes": "Strong trade-register calibration. Technical vocabulary appropriate for architecture press. Coherence slightly lower: transitional sentence between award context and methodology paragraph was awkward. One sentence in body ran to 45 words \u2014 borderline for wire style. All facts consistent with input.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

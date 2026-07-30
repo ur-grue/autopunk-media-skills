@@ -1,33 +1,37 @@
 {
   "skill_name": "news-article-writer",
   "status": "passed",
-  "overall_mean": 4.83,
+  "overall_mean": 4.72,
   "test_cases": [
     {
       "id": 1,
-      "input_summary": "Local government vote: city council approves 12.6km cycling lane network 7-4, £2.1m active travel grant, two attributed quotes, 350 words, regional newspaper",
+      "input_summary": "Local government vote: city council approves 12.6km cycling lane network 7-4, \u00a32.1m active travel grant, two attributed quotes, 350 words, regional newspaper",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 2,
-      "input_summary": "Business/economic: regional airport announces Frankfurt route, £4.2m economic impact projection, 180 indirect jobs, 400 words, regional business press",
+      "input_summary": "Business/economic: regional airport announces Frankfurt route, \u00a34.2m economic impact projection, 180 indirect jobs, 400 words, regional business press",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 3,
@@ -38,9 +42,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

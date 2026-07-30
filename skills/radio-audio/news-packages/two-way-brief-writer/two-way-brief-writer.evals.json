@@ -1,6 +1,6 @@
 {
   "skill_name": "two-way-brief-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -13,29 +13,35 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Excellent. The Watch Out For section on the CEO attribution issue is a genuine editorial value-add. Actionability: reporter used brief before going live with minor additions from own notes. Consistency: one answer framework included a historical reference to meeting targets — not in the input, flagged for verification."
+      "notes": "Excellent. The Watch Out For section on the CEO attribution issue is a genuine editorial value-add. Actionability: reporter used brief before going live with minor additions from own notes. Consistency: one answer framework included a historical reference to meeting targets \u2014 not in the input, flagged for verification.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "TWB-002",
       "input_summary": "Breakfast show, 2-minute two-way. Environment correspondent reporting on a Supreme Court ruling on planning law affecting green belt development. Legal ruling issued 90 minutes ago. No pre-prepared package. Correspondent has read the judgment summary.",
-      "output_summary": "Story brief correctly adapted for a very recent ruling — focuses on what is known, flags what is still being clarified. Questions are accessible (audience is general). Answer frameworks include a 'plain English explanation' cue for the technical legal question.",
+      "output_summary": "Story brief correctly adapted for a very recent ruling \u2014 focuses on what is known, flags what is still being clarified. Questions are accessible (audience is general). Answer frameworks include a 'plain English explanation' cue for the technical legal question.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Strong professionalism. The 'plain English' cue in framework is well-judged for a breakfast audience. Coherence: the 4th question introduced a secondary legal point that wasn't in the input — editorially defensible but slightly outside scope. Relevance: minor overreach on one answer framework."
+      "notes": "Strong professionalism. The 'plain English' cue in framework is well-judged for a breakfast audience. Coherence: the 4th question introduced a secondary legal point that wasn't in the input \u2014 editorially defensible but slightly outside scope. Relevance: minor overreach on one answer framework.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "TWB-003",
-      "input_summary": "Drive time programme, 4-minute two-way. Science correspondent reporting on a new climate study showing accelerated glacier melt. Study published today. Contentious finding — some scientists have questioned the methodology. Presenter likely to be adversarial.",
+      "input_summary": "Drive time programme, 4-minute two-way. Science correspondent reporting on a new climate study showing accelerated glacier melt. Study published today. Contentious finding \u2014 some scientists have questioned the methodology. Presenter likely to be adversarial.",
       "output_summary": "Story brief includes caveat about contested methodology. Questions anticipate methodological challenge directly. Answer framework for the contested question steers toward 'weight of evidence' framing. Watch Out For section covers adversarial presenter style explicitly.",
       "scores": {
         "coherence": 5,
@@ -43,10 +49,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Watch Out For section is particularly strong — actionable guidance for managing an adversarial presenter without going off-message. Relevance: one question felt slightly redundant given a previous answer framework covered the same ground. Fluency: one bullet in the story brief used an acronym without expansion."
+      "notes": "Watch Out For section is particularly strong \u2014 actionable guidance for managing an adversarial presenter without going off-message. Relevance: one question felt slightly redundant given a previous answer framework covered the same ground. Fluency: one bullet in the story brief used an acronym without expansion.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
   ],
   "dimension_means": {
@@ -55,7 +64,9 @@
     "fluency": 4.67,
     "relevance": 4.33,
     "professionalism": 4.33,
-    "actionability": 4.33
+    "actionability": 4.33,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.4
+  "overall_mean": 4.38,
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,15 +1,16 @@
 {
   "skill_name": "research-brief-creator",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -26,15 +27,18 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Story territory map correctly distinguishes established/contested/unknown. Three angles are genuinely distinct. Source list is ordered correctly — lead author first as the door-opener. Reporting order recommendation is strategically sound. Documents section is specific (EPA AirData portal named). Excellent brief."
+      "notes": "Story territory map correctly distinguishes established/contested/unknown. Three angles are genuinely distinct. Source list is ordered correctly \u2014 lead author first as the door-opener. Reporting order recommendation is strategically sound. Documents section is specific (EPA AirData portal named). Excellent brief.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
       "input": {
-        "assignment": "A major city is planning to remove a historic public market to build a transit hub — the market has operated for 80 years and community groups are fighting the decision",
+        "assignment": "A major city is planning to remove a historic public market to build a transit hub \u2014 the market has operated for 80 years and community groups are fighting the decision",
         "publication": "City magazine / regional general interest",
         "timeline": "2 weeks to report",
         "prior_knowledge": "Know the planning decision was announced last week; have contact for one of the community groups"
@@ -45,10 +49,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Three angles (community loss story, planning process story, comparable cities story) are distinct and well-pitched. Documents section correctly identifies planning commission records, environmental assessment, and market financial records. Source list includes historical society as a less-obvious source. Reporting order accounts for the existing community contact."
+      "notes": "Three angles (community loss story, planning process story, comparable cities story) are distinct and well-pitched. Documents section correctly identifies planning commission records, environmental assessment, and market financial records. Source list includes historical society as a less-obvious source. Reporting order accounts for the existing community contact.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-003",
@@ -64,10 +71,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Profile structure is correctly identified as requiring different angle logic than a reported story — brief adjusts appropriately. Three angles for the profile (the science angle, the career transition angle, the sector/industry angle) are all viable. Source list correctly identifies university colleagues and investors as supporting sources around the subject. Actionable for a 1-week timeline. Passes threshold."
+      "notes": "Profile structure is correctly identified as requiring different angle logic than a reported story \u2014 brief adjusts appropriately. Three angles for the profile (the science angle, the career transition angle, the sector/industry angle) are all viable. Source list correctly identifies university colleagues and investors as supporting sources around the subject. Actionable for a 1-week timeline. Passes threshold.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,6 +1,6 @@
 {
   "skill_name": "elevator-pitch-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -19,10 +19,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Strong hook, natural spoken rhythm, central tension clearly stated. Ends with a forward-leaning call to continue."
+      "notes": "Strong hook, natural spoken rhythm, central tension clearly stated. Ends with a forward-leaning call to continue.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
@@ -30,7 +33,7 @@
       "input": {
         "title": "Below Grade",
         "format": "Podcast series, 8 episodes",
-        "subject": "Each episode examines one infrastructure decision made decades ago that continues to shape a city today — traffic patterns, flood risk, housing access",
+        "subject": "Each episode examines one infrastructure decision made decades ago that continues to shape a city today \u2014 traffic patterns, flood risk, housing access",
         "target": "Podcast listeners, urban professionals, general interest",
         "stage": "Concept, looking for co-producer"
       },
@@ -40,10 +43,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Format and subject land clearly. Hook slightly weaker for an audio-first pitch. Extended version effectively adds production-stage context."
+      "notes": "Format and subject land clearly. Hook slightly weaker for an audio-first pitch. Extended version effectively adds production-stage context.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc-03",
@@ -61,12 +67,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Pitch adapts well to a brand-meeting context rather than a broadcaster meeting. Good differentiation from general history content."
+      "notes": "Pitch adapts well to a brand-meeting context rather than a broadcaster meeting. Good differentiation from general history content.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
   ],
-  "overall_mean": 4.34,
-  "passed": true
+  "overall_mean": 4.28,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

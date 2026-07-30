@@ -3,13 +3,15 @@
   "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.3,
+  "editorial_naturalness_mean": 4.3,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.3,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.3
   },
   "test_cases": [
     {
@@ -21,8 +23,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; imperative voice is direct and operational; sourcing tactics are specific enough to read as a real senior editor's memo to a reporter",
       "notes": "Domains were well-separated: toxicology, environmental law, EPA enforcement, and affected residents. Finding strategies for academic toxicologists and EPA alumni were specific and realistic."
     },
     {
@@ -34,8 +39,11 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "Register correct; one minor tonal tell — approach notes use slightly cautious hedging rather than the direct operational voice seen in tc1",
       "notes": "Brief correctly flagged that HR consultants hired by institutions have inherent conflicts. Finding strategy for labor economists was practical. Approach notes were realistic about faculty willingness to criticize own institution."
     },
     {
@@ -47,8 +55,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Register correct but two minor tells — some finding strategies default to generic patterns rather than story-specific sourcing routes, reading more like a template than a tailored brief",
       "notes": "Domains covered technical forensics, state IT policy, and legal liability. Sourcing risks section correctly warned about vendor NDAs restricting forensics firms. Actionability was slightly lower — some finding strategies were generic."
     }
   ],

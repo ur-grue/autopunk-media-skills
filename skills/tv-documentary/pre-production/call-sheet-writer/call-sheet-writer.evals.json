@@ -1,7 +1,7 @@
 {
   "skill_name": "call-sheet-writer",
-  "status": "complete",
-  "overall_mean": 4.44,
+  "status": "passed",
+  "overall_mean": 4.38,
   "test_cases": [
     {
       "test_id": "CSW-001",
@@ -12,10 +12,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Clean structure, all sections populated. CONFIRM flags correctly placed for missing phone numbers. Schedule timings realistic for documentary interviews."
+      "notes": "Clean structure, all sections populated. CONFIRM flags correctly placed for missing phone numbers. Schedule timings realistic for documentary interviews.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "CSW-002",
@@ -26,10 +29,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Handled multi-location schedule well. Correctly flagged drone restrictions and weather contingency. Travel time between locations was estimated and flagged for confirmation."
+      "notes": "Handled multi-location schedule well. Correctly flagged drone restrictions and weather contingency. Travel time between locations was estimated and flagged for confirmation.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "CSW-003",
@@ -40,10 +46,14 @@
         "fluency": 4.5,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.50,
-      "notes": "Graceful degradation — all missing safety-critical fields flagged as CONFIRM BEFORE DISTRIBUTION. Did not invent details. Applied sensible default schedule offsets."
+      "mean": 4.5,
+      "notes": "Graceful degradation \u2014 all missing safety-critical fields flagged as CONFIRM BEFORE DISTRIBUTION. Did not invent details. Applied sensible default schedule offsets.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

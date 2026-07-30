@@ -1,23 +1,37 @@
 {
   "skill_name": "reportage-structure",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.29,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": {
         "central_argument": "Urban heat islands disproportionately affect renters with no legal recourse",
-        "key_findings": ["4-6C temperature gap in rental vs owner neighborhoods", "ER spike in rental-dense zip codes", "No cooling requirement in rental codes", "Free AC pilot programs show measurable results", "Community cooling center funded by donations only"],
-        "sources": ["Public health researcher", "ER physician", "Two renters", "Landlord association", "Cooling center director", "City council member"],
+        "key_findings": [
+          "4-6C temperature gap in rental vs owner neighborhoods",
+          "ER spike in rental-dense zip codes",
+          "No cooling requirement in rental codes",
+          "Free AC pilot programs show measurable results",
+          "Community cooling center funded by donations only"
+        ],
+        "sources": [
+          "Public health researcher",
+          "ER physician",
+          "Two renters",
+          "Landlord association",
+          "Cooling center director",
+          "City council member"
+        ],
         "format": "General-interest magazine feature, 2500-3500 words"
       },
       "scores": {
@@ -26,17 +40,31 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Opening scene proposal is specific and scene-grounded. Section map assigns sources correctly. Closing strategy note is sophisticated — correctly warns against the common summarizing-quote mistake. Editor pitch summary is usable in a pitch email. Excellent."
+      "notes": "Opening scene proposal is specific and scene-grounded. Section map assigns sources correctly. Closing strategy note is sophisticated \u2014 correctly warns against the common summarizing-quote mistake. Editor pitch summary is usable in a pitch email. Excellent.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
       "input": {
         "central_argument": "A generation of workers trained in manufacturing skills is retiring with no pathway for knowledge transfer to younger workers",
-        "key_findings": ["Average age of skilled manufacturing workers in survey is 54", "70% of apprenticeship programs in the sector closed between 2005 and 2020", "Three companies piloting knowledge-capture programs using video", "One community college relaunching a program after 15-year gap"],
-        "sources": ["Factory worker approaching retirement", "HR director", "Community college program director", "Two apprentices in new program", "Industry analyst"],
+        "key_findings": [
+          "Average age of skilled manufacturing workers in survey is 54",
+          "70% of apprenticeship programs in the sector closed between 2005 and 2020",
+          "Three companies piloting knowledge-capture programs using video",
+          "One community college relaunching a program after 15-year gap"
+        ],
+        "sources": [
+          "Factory worker approaching retirement",
+          "HR director",
+          "Community college program director",
+          "Two apprentices in new program",
+          "Industry analyst"
+        ],
         "format": "Trade publication feature, 2000 words"
       },
       "scores": {
@@ -45,17 +73,31 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Structure correctly adapted for a trade publication (more data-forward, less narrative). Opening scene correctly uses the retiring worker as the human anchor. Section map is well-sequenced from problem through solution."
+      "notes": "Structure correctly adapted for a trade publication (more data-forward, less narrative). Opening scene correctly uses the retiring worker as the human anchor. Section map is well-sequenced from problem through solution.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
       "input": {
         "central_argument": "A small island community is navigating the tension between tourism-dependent income and the environmental degradation that tourism produces",
-        "key_findings": ["Tourism accounts for 70% of local economy", "Coral bleaching has increased 40% in last decade", "Local fishermen have seen catches decline alongside visitor numbers increasing", "Local government has proposed a visitor cap"],
-        "sources": ["Hotel owner", "Environmental scientist", "Two fishermen", "Local government official", "Long-term resident"],
+        "key_findings": [
+          "Tourism accounts for 70% of local economy",
+          "Coral bleaching has increased 40% in last decade",
+          "Local fishermen have seen catches decline alongside visitor numbers increasing",
+          "Local government has proposed a visitor cap"
+        ],
+        "sources": [
+          "Hotel owner",
+          "Environmental scientist",
+          "Two fishermen",
+          "Local government official",
+          "Long-term resident"
+        ],
         "format": "Travel magazine narrative, 3000 words"
       },
       "scores": {
@@ -64,10 +106,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Narrative approach correctly applied for travel magazine format. Opening scene uses the environmental contrast as the hook. The tension between hotel owner and fishermen is correctly identified as the dramatic spine. Passes threshold."
+      "notes": "Narrative approach correctly applied for travel magazine format. Opening scene uses the environmental contrast as the hook. The tension between hotel owner and fishermen is correctly identified as the dramatic spine. Passes threshold.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

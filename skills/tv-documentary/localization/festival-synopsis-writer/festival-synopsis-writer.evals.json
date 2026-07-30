@@ -1,15 +1,16 @@
 {
   "skill_name": "festival-synopsis-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,9 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,23 +39,28 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Title: THE NOISE WE MAKE. Work-in-progress documentary about a protest movement in an unnamed country. Filming ongoing. No resolved ending available. Festival WIP submission.",
-      "output_summary": "Correctly adapted to WIP format — did not fabricate a resolution. Short synopsis framed the subject without an ending. Medium and long synopses described what the film observes and what questions it is pursuing, rather than what it concludes. Usage note flagged WIP conventions correctly. One section of the long synopsis edged toward political statement rather than descriptive language — minor flag for festival neutrality requirements.",
+      "output_summary": "Correctly adapted to WIP format \u2014 did not fabricate a resolution. Short synopsis framed the subject without an ending. Medium and long synopses described what the film observes and what questions it is pursuing, rather than what it concludes. Usage note flagged WIP conventions correctly. One section of the long synopsis edged toward political statement rather than descriptive language \u2014 minor flag for festival neutrality requirements.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.0
+      "case_mean": 4.0,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

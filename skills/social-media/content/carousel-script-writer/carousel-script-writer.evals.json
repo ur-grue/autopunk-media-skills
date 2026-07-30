@@ -1,11 +1,11 @@
 {
   "skill_name": "carousel-script-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
       "id": "tc-01",
-      "description": "LinkedIn carousel — documentary filmmaker insights for communications professionals",
+      "description": "LinkedIn carousel \u2014 documentary filmmaker insights for communications professionals",
       "input": {
         "platform": "LinkedIn",
         "topic": "5 things documentary filmmakers know about storytelling that most corporate communicators don't",
@@ -20,17 +20,20 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Slide 1 hooks immediately with a provocation. Each slide contains one idea only. Progression is logical. CTA slide specific. Accompanying caption works as a standalone post."
+      "notes": "Slide 1 hooks immediately with a provocation. Each slide contains one idea only. Progression is logical. CTA slide specific. Accompanying caption works as a standalone post.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
-      "description": "Instagram carousel — journalism student guide to source verification",
+      "description": "Instagram carousel \u2014 journalism student guide to source verification",
       "input": {
         "platform": "Instagram",
-        "topic": "How to verify a source before you quote them — a practical 6-slide guide",
+        "topic": "How to verify a source before you quote them \u2014 a practical 6-slide guide",
         "slides": 6,
         "account": "Journalism education account",
         "voice": "Educational, direct, accessible to students",
@@ -42,14 +45,17 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Educational carousel format handled well. Slide character counts appropriate for Instagram mobile. Save CTA correctly chosen for educational content."
+      "notes": "Educational carousel format handled well. Slide character counts appropriate for Instagram mobile. Save CTA correctly chosen for educational content.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
-      "description": "LinkedIn carousel — podcast media kit highlights",
+      "description": "LinkedIn carousel \u2014 podcast media kit highlights",
       "input": {
         "platform": "LinkedIn",
         "topic": "Why brands should advertise on independent podcasts instead of radio in 2026",
@@ -64,12 +70,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Commercial argument carousel uses data-per-slide structure correctly. CTA links to external download. Voice maintains confidence without overselling."
+      "notes": "Commercial argument carousel uses data-per-slide structure correctly. CTA links to external download. Voice maintains confidence without overselling.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
   ],
-  "overall_mean": 4.39,
-  "passed": true
+  "overall_mean": 4.33,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

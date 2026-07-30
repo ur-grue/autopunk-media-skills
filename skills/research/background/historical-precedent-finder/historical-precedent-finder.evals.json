@@ -1,6 +1,6 @@
 {
   "skill_name": "historical-precedent-finder",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.56,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.83,
-      "notes": "Structural features were sharply defined. Precedents ranged across industries and decades. Analogy strength assessments were honest — weak analogies were not inflated. Misleading analogies section effectively debunked the most common lazy comparison."
+      "notes": "Structural features were sharply defined. Precedents ranged across industries and decades. Analogy strength assessments were honest \u2014 weak analogies were not inflated. Misleading analogies section effectively debunked the most common lazy comparison.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.71
     },
     {
       "test_id": "HPF-002",
@@ -26,10 +29,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Good range of precedents from alcohol age verification to film classification. Sources were specific and locatable. Acknowledged the novelty of the digital context effectively."
+      "notes": "Good range of precedents from alcohol age verification to film classification. Sources were specific and locatable. Acknowledged the novelty of the digital context effectively.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "HPF-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Solid selection of municipal bankruptcy precedents across different decades and causes. Differences between cases were well-articulated. Could have been slightly more concise."
+      "notes": "Solid selection of municipal bankruptcy precedents across different decades and causes. Differences between cases were well-articulated. Could have been slightly more concise.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.48
 }

@@ -1,33 +1,37 @@
 {
   "skill_name": "pull-quote-selector",
   "status": "passed",
-  "overall_mean": 5.0,
+  "overall_mean": 4.86,
   "test_cases": [
     {
       "id": 1,
-      "input_summary": "Profile interview — Dr Amara Osei, consultant surgeon who left NHS to run a free clinic; four direct quotes from subject available; target: national broadsheet weekend magazine print feature.",
+      "input_summary": "Profile interview \u2014 Dr Amara Osei, consultant surgeon who left NHS to run a free clinic; four direct quotes from subject available; target: national broadsheet weekend magazine print feature.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 2,
-      "input_summary": "Hard news with data — council housing shortage report, 4,700-home shortfall by 2031; quotes from council chair, named resident, and anonymous resident; multiple voices and data points.",
+      "input_summary": "Hard news with data \u2014 council housing shortage report, 4,700-home shortfall by 2031; quotes from council chair, named resident, and anonymous resident; multiple voices and data points.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 3,
@@ -38,9 +42,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

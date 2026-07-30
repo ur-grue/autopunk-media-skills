@@ -1,7 +1,7 @@
 {
   "skill_name": "transcript-timecoder",
-  "status": "complete",
-  "overall_mean": 4.39,
+  "status": "passed",
+  "overall_mean": 4.31,
   "test_cases": [
     {
       "test_id": "TTC-001",
@@ -12,10 +12,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Timecodes placed correctly at speaker changes. Format consistent throughout. Estimation disclaimer clear. Elapsed time plausible for word count."
+      "notes": "Timecodes placed correctly at speaker changes. Format consistent throughout. Estimation disclaimer clear. Elapsed time plausible for word count.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "TTC-002",
@@ -26,10 +29,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Drop-frame semicolon notation correctly applied. Intervals placed at sentence boundaries, not mid-word. Long passage handled without drift beyond stated accuracy range."
+      "notes": "Drop-frame semicolon notation correctly applied. Intervals placed at sentence boundaries, not mid-word. Long passage handled without drift beyond stated accuracy range.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "TTC-003",
@@ -40,10 +46,14 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Combined interval mode worked well. Speaker labels consistent across four speakers. Simplified format applied correctly. Noted that rapid speaker changes in discussion may create very frequent timecodes."
+      "notes": "Combined interval mode worked well. Speaker labels consistent across four speakers. Simplified format applied correctly. Noted that rapid speaker changes in discussion may create very frequent timecodes.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

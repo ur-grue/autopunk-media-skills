@@ -1,15 +1,16 @@
 {
   "skill_name": "welcome-email-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -28,15 +29,18 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.67
+      "mean": 4.67,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
       "input": {
         "newsletter": "Futures Dispatch",
-        "description": "Biweekly newsletter about emerging technology policy — AI regulation, data rights, platform governance — for policy professionals and tech journalists",
+        "description": "Biweekly newsletter about emerging technology policy \u2014 AI regulation, data rights, platform governance \u2014 for policy professionals and tech journalists",
         "cadence": "Every other Wednesday",
         "voice": "Precise, neutral, rigorous. Never breathless. References primary sources.",
         "cta": "Whitelist and save to a reading folder",
@@ -49,15 +53,18 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-03",
       "input": {
         "newsletter": "Good Soil",
-        "description": "Weekly newsletter for small-scale farmers and market gardeners — practical growing advice, crop economics, and stories from people farming under 5 acres",
+        "description": "Weekly newsletter for small-scale farmers and market gardeners \u2014 practical growing advice, crop economics, and stories from people farming under 5 acres",
         "cadence": "Every Thursday morning",
         "voice": "Practical, direct, unpretentious. Occasional dry humor. Reads like advice from someone who's made all the mistakes.",
         "cta": "Reply with your biggest current growing challenge",
@@ -70,9 +77,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

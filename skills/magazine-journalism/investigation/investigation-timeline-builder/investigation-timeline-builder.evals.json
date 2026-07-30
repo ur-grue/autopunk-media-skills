@@ -3,13 +3,15 @@
   "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.4,
+  "editorial_naturalness_mean": 4.7,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.7
   },
   "test_cases": [
     {
@@ -21,8 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; status labels (CONFIRMED, SINGLE SOURCE, UNVERIFIED) are domain jargon, not filler; gap analysis reads as a real reporter's working note",
       "notes": "Correctly applied SINGLE SOURCE and UNVERIFIED flags. Gap analysis identified a three-year period with no documented court challenges, which the reporter had missed."
     },
     {
@@ -34,8 +39,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "No tells; dual-version output maintains professional register in both versions; publishable version is appropriately restrained",
       "notes": "Dual-version output was clean. Publishable version correctly stripped all unverified entries. Gap analysis noted that three OSHA inspections had no follow-up records — a meaningful editorial gap."
     },
     {
@@ -47,8 +55,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Register correct; one structural tell — inconsistent entry length signals template-driven output rather than editor-shaped chronology",
       "notes": "Handled contradictory dates correctly by presenting both accounts and flagging the discrepancy. Did not pick a side. Minor coherence issue: one entry description was longer than others without clear reason."
     }
   ],

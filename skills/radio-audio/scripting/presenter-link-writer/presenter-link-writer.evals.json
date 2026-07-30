@@ -1,6 +1,6 @@
 {
   "skill_name": "presenter-link-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -13,10 +13,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Actionability and fluency high — links went to air without edit in test. Relevance slightly marked: intro link developed the rail story slightly further than the input called for."
+      "notes": "Actionability and fluency high \u2014 links went to air without edit in test. Relevance slightly marked: intro link developed the rail story slightly further than the input called for.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "PLW-002",
@@ -28,10 +31,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Strong consistency and relevance. Coherence slightly marked: the bridge opens with a slightly literary construction that works on page but may need loosening for some presenters. Flagged in Known Limitations."
+      "notes": "Strong consistency and relevance. Coherence slightly marked: the bridge opens with a slightly literary construction that works on page but may need loosening for some presenters. Flagged in Known Limitations.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "PLW-003",
@@ -43,10 +49,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Excellent fluency throughout. Relevance marked slightly: the close ran 35 seconds against a 30-second target — minor overrun easily trimmed."
+      "notes": "Excellent fluency throughout. Relevance marked slightly: the close ran 35 seconds against a 30-second target \u2014 minor overrun easily trimmed.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
   ],
   "dimension_means": {
@@ -55,7 +64,9 @@
     "fluency": 4.67,
     "relevance": 4.33,
     "professionalism": 4.0,
-    "actionability": 4.67
+    "actionability": 4.67,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.4
+  "overall_mean": 4.38,
+  "editorial_naturalness_mean": 4.0
 }

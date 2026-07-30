@@ -1,13 +1,13 @@
 {
   "skill_name": "grant-proposal-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.4,
   "eval_date": "2026-03-16",
   "evaluator": "claude-sonnet-4-6",
   "test_cases": [
     {
       "id": "tc_001",
-      "description": "Feature documentary — public defenders — Sundance Institute Documentary Fund, development stage",
+      "description": "Feature documentary \u2014 public defenders \u2014 Sundance Institute Documentary Fund, development stage",
       "input_summary": "90-min film, 3 subjects (2 confirmed), legal/justice system subject, development workshop already awarded, $35K development ask, fund priorities provided",
       "output_summary": "900-word narrative, opens on specific scene description, maps to fund's 'compelling characters + urgent social issues' criteria, credibility section names prior workshop support, closes with specific use-of-funds breakdown",
       "scores": {
@@ -16,13 +16,16 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc_002",
-      "description": "Short documentary — indigenous language preservation — regional cultural foundation, production stage",
+      "description": "Short documentary \u2014 indigenous language preservation \u2014 regional cultural foundation, production stage",
       "input_summary": "45-min film, full access confirmed, in production, requesting completion funding, foundation priorities: cultural heritage and underrepresented communities",
       "output_summary": "Shorter proposal (600 words) reflecting production-stage confidence, leads with cultural-heritage framing matched to funder language, use-of-funds section specific to post-production and outreach costs",
       "scores": {
@@ -31,13 +34,16 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc_003",
-      "description": "Series pilot — investigative journalism documentary — editorial fund with journalism-specific criteria",
+      "description": "Series pilot \u2014 investigative journalism documentary \u2014 editorial fund with journalism-specific criteria",
       "input_summary": "3-part investigative series, co-produced with a print newsroom, fund priorities emphasize investigative journalism and accountability reporting",
       "output_summary": "Proposal foregrounds newsroom partnership as credibility anchor, uses journalism-specific language (public accountability, editorial independence), flags that series structure requires additional series bible for full evaluation",
       "scores": {
@@ -46,9 +52,12 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
   ],
   "dimension_means": {
@@ -57,9 +66,11 @@
     "fluency": 4.33,
     "relevance": 4.33,
     "professionalism": 4.67,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.4,
+  "overall_mean": 4.34,
   "pass": true,
-  "notes": "Consistency and professionalism are strongest — the output reads as credible professional grant writing. Actionability is the weakest dimension because the proposal always requires user verification of credentials and funder-specific formatting before actual submission."
+  "notes": "Consistency and professionalism are strongest \u2014 the output reads as credible professional grant writing. Actionability is the weakest dimension because the proposal always requires user verification of credentials and funder-specific formatting before actual submission.",
+  "editorial_naturalness_mean": 4.0
 }

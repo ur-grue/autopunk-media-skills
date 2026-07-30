@@ -1,6 +1,6 @@
 {
   "skill_name": "platform-strategy-brief",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.3,
   "test_cases": [
     {
@@ -8,7 +8,7 @@
       "description": "Architecture magazine LinkedIn strategy",
       "input": {
         "platform": "LinkedIn",
-        "brand_type": "Monthly print magazine — architecture and urban design",
+        "brand_type": "Monthly print magazine \u2014 architecture and urban design",
         "current_followers": 1200,
         "goal": "Grow to 5,000 engaged followers, drive website subscriptions",
         "resource": "One staff member part-time on social"
@@ -19,17 +19,20 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Platform fit assessment honest about LinkedIn's content culture bias. Content approach specific to LinkedIn mechanics. Distinctive angle section answers the 'why follow this account' question. Key risk is specific and actionable."
+      "notes": "Platform fit assessment honest about LinkedIn's content culture bias. Content approach specific to LinkedIn mechanics. Distinctive angle section answers the 'why follow this account' question. Key risk is specific and actionable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-02",
       "description": "Investigative podcast TikTok entry strategy",
       "input": {
         "platform": "TikTok",
-        "brand_type": "Investigative podcast — financial crime and corruption",
+        "brand_type": "Investigative podcast \u2014 financial crime and corruption",
         "current_followers": 0,
         "goal": "Build audience and drive podcast listens",
         "resource": "Podcast host creating content solo"
@@ -40,19 +43,22 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "TikTok entry strategy correctly identifies the format-mismatch risk for audio-first content. Distinctive angle section honestly notes that investigation-style TikTok is growing but competitive. 90-day targets realistic for zero base."
+      "notes": "TikTok entry strategy correctly identifies the format-mismatch risk for audio-first content. Distinctive angle section honestly notes that investigation-style TikTok is growing but competitive. 90-day targets realistic for zero base.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc-03",
       "description": "Documentary filmmaker Instagram reset strategy",
       "input": {
         "platform": "Instagram",
-        "brand_type": "Independent documentary filmmaker — social and political subjects",
+        "brand_type": "Independent documentary filmmaker \u2014 social and political subjects",
         "current_followers": 4500,
-        "current_engagement": "Low — 0.5% average",
+        "current_engagement": "Low \u2014 0.5% average",
         "goal": "Re-engage existing audience, build production community",
         "resource": "Filmmaker posting personally, no support"
       },
@@ -62,12 +68,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Reset strategy correctly shifts content mix toward behind-the-scenes and process content. Engagement-rate target more useful than follower target for this situation. Algorithm note about Instagram's Reels prioritisation included."
+      "notes": "Reset strategy correctly shifts content mix toward behind-the-scenes and process content. Engagement-rate target more useful than follower target for this situation. Algorithm note about Instagram's Reels prioritisation included.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
   ],
-  "overall_mean": 4.22,
-  "passed": true
+  "overall_mean": 4.19,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

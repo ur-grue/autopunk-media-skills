@@ -2,25 +2,25 @@
   "agent_name": "youtube-channel-operator-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.48,
-  "editorial_naturalness_mean": 4.33,
+  "overall_mean": 4.37,
+  "editorial_naturalness_mean": 4.00,
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "Educational urban gardening channel (45K subs), balcony tomatoes video, calm/practical tone, 10 minutes — existing example, idea generation skipped",
+      "brief_summary": "Personal finance channel 'Money Honest' (120K subs), video on building a first investment portfolio with 500 pounds, authoritative but approachable tone, 15 minutes — simulated deliverable, idea generation included, full 7-step pipeline",
       "scores": {
         "coherence": 5,
-        "consistency": 5,
+        "consistency": 4,
         "fluency": 5,
         "relevance": 5,
-        "professionalism": 5,
+        "professionalism": 4,
         "actionability": 4,
-        "editorial_naturalness": 5,
+        "editorial_naturalness": 4,
         "cross_step_consistency": 5,
         "deliverable_completeness": 5
       },
-      "editorial_naturalness_note": "Zero tells; the script inhabits the calm educational YouTube register with precision, particularly the section openers that lead with the core claim before developing it.",
-      "case_mean": 4.89
+      "editorial_naturalness_note": "The script would likely default to a generic 'let me break this down for you' YouTube finance register rather than inhabiting the specific voice of an established 120K-sub creator. Thumbnail brief and SEO optimization are strengths — finance content has clear CTR conventions. Financial disclaimers may read as boilerplate rather than naturally integrated.",
+      "case_mean": 4.56
     },
     {
       "id": 2,

@@ -3,13 +3,15 @@
   "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.3,
+  "editorial_naturalness_mean": 4.3,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.3,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.3
   },
   "test_cases": [
     {
@@ -21,8 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; neutral analytical register matches a working fact-checker's internal memo — no editorializing, no hedge stacking",
       "notes": "Correctly separated the factual crime rate claim (verifiable) from the causal attribution claim (opinion). Conflict of interest section noted retirement and institutional identity without overstating its significance."
     },
     {
@@ -34,8 +39,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "Register correct; one structural tell — corroboration section reads slightly templated rather than shaped to the specific anonymous-source scenario",
       "notes": "Handled anonymous source correctly — assessed the documents as primary evidence rather than the anonymous source per se. Corroboration recommendation was appropriately stringent."
     },
     {
@@ -47,8 +55,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Clean register; mild hedge fog around prediction-uncertainty language but editorially defensible in context",
       "notes": "Appropriately calibrated to a low-conflict expert. Correctly noted that economic predictions are inherently uncertain and should be framed as projections, not findings. Verdict was nuanced and useful."
     }
   ],

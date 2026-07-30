@@ -1,13 +1,13 @@
 {
   "skill_name": "ad-read-script",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.5,
   "eval_date": "2026-03-16",
   "evaluator": "claude-sonnet-4-6",
   "test_cases": [
     {
       "id": "tc_001",
-      "description": "Note-taking app — Inkwell — science podcast, warm nerdy host, personal endorsement, pre-roll + mid-roll",
+      "description": "Note-taking app \u2014 Inkwell \u2014 science podcast, warm nerdy host, personal endorsement, pre-roll + mid-roll",
       "input_summary": "B2B-adjacent software, specific audience fit (research-intensive podcast listeners), personal endorsement confirmed, promo code provided, two placement versions requested",
       "output_summary": "Pre-roll at 80 words is clean and direct; mid-roll at 150 words opens with transition, uses specific personal usage story, restates code once clearly at end; compliance note added flagging personal endorsement verification requirement",
       "scores": {
@@ -16,13 +16,16 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.83
+      "mean": 4.83,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.71
     },
     {
       "id": "tc_002",
-      "description": "Online mattress brand — health/wellness podcast, upbeat host, no personal endorsement, mid-roll only",
+      "description": "Online mattress brand \u2014 health/wellness podcast, upbeat host, no personal endorsement, mid-roll only",
       "input_summary": "DTC consumer product, wellness podcast audience, no personal endorsement (host hasn't used it), host required claims provided verbatim by brand",
       "output_summary": "Script avoids endorsement language while remaining warm; required brand claims integrated naturally; one required phrase flagged as slightly awkward in spoken form with alternative offered",
       "scores": {
@@ -31,13 +34,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc_003",
-      "description": "Financial services tool — freelance business podcast, dry professional host, high compliance requirements",
+      "description": "Financial services tool \u2014 freelance business podcast, dry professional host, high compliance requirements",
       "input_summary": "Regulated category (financial product), compliance disclaimers required, host tone is professional and unsentimental",
       "output_summary": "Ad copy is clean and accurate; compliance note flags that financial product ads require specific disclaimers per jurisdiction; delivery note recommends host maintain dry register and avoid any implied financial advice",
       "scores": {
@@ -46,9 +52,12 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
   ],
   "dimension_means": {
@@ -57,9 +66,11 @@
     "fluency": 4.33,
     "relevance": 4.67,
     "professionalism": 4.67,
-    "actionability": 4.33
+    "actionability": 4.33,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "pass": true,
-  "notes": "Highest-scoring podcast skill in this batch. The skill excels when a personal endorsement angle is available — the specificity of 'I use this for X' copy is noticeably stronger than non-endorsement versions. Compliance flagging is a key professionalism differentiator."
+  "notes": "Highest-scoring podcast skill in this batch. The skill excels when a personal endorsement angle is available \u2014 the specificity of 'I use this for X' copy is noticeably stronger than non-endorsement versions. Compliance flagging is a key professionalism differentiator.",
+  "editorial_naturalness_mean": 4.0
 }

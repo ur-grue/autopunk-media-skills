@@ -1,6 +1,6 @@
 {
   "skill_name": "policy-decision-maker-mapper",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.5,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.67,
-      "notes": "Excellent mapping of health regulators, industry groups, and public health campaigners. Pressure points were sharply identified for the consultation stage. Research checklist was immediately actionable."
+      "notes": "Excellent mapping of health regulators, industry groups, and public health campaigners. Pressure points were sharply identified for the consultation stage. Research checklist was immediately actionable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "test_id": "PDM-002",
@@ -26,10 +29,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Good adaptation to local government context. Developer and community group dynamics were well-mapped. Interview priorities were practical. Slightly less detailed on the research checklist than other test cases."
+      "notes": "Good adaptation to local government context. Developer and community group dynamics were well-mapped. Interview priorities were practical. Slightly less detailed on the research checklist than other test cases.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "PDM-003",
@@ -40,10 +46,15 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Strong on the international dimension — correctly identified trade ministries, negotiating teams, and industry advisory committees in both countries. Acknowledged the opacity of trade negotiations. Interview priorities were well-justified."
+      "notes": "Strong on the international dimension \u2014 correctly identified trade ministries, negotiating teams, and industry advisory committees in both countries. Acknowledged the opacity of trade negotiations. Interview priorities were well-justified.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.48
 }

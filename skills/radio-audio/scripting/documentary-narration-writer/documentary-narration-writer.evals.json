@@ -1,6 +1,6 @@
 {
   "skill_name": "documentary-narration-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -13,25 +13,31 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Excellent fluency and emotional calibration. Relevance slightly marked: one narration block included a contextual detail about online banking not explicitly in the input — journalistically appropriate but not sourced from the input. Actionability: script used in edit with minor timing adjustments."
+      "notes": "Excellent fluency and emotional calibration. Relevance slightly marked: one narration block included a contextual detail about online banking not explicitly in the input \u2014 journalistically appropriate but not sourced from the input. Actionability: script used in edit with minor timing adjustments.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "DNW-002",
       "input_summary": "30-minute investigative audio documentary about occupational safety failures in a warehouse distribution sector. 5 clips (injured workers, union rep, company spokesperson, safety regulator). Authoritative, measured narrator. Actuality: factory floor ambient, regulatory hearing room tone.",
-      "output_summary": "Script maintains investigative register throughout. Narration before company spokesperson clip sets up the challenge without pre-framing the audience's response. Regulatory language used accurately. Structure moves through incident → investigation → accountability → systemic question.",
+      "output_summary": "Script maintains investigative register throughout. Narration before company spokesperson clip sets up the challenge without pre-framing the audience's response. Regulatory language used accurately. Structure moves through incident \u2192 investigation \u2192 accountability \u2192 systemic question.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Professionalism and relevance high. Coherence slightly marked: one transition between the injured worker section and the union section felt slightly abrupt — a single bridging sentence would smooth it. Consistency: one figure cited in narration (injury rate) was not in the input; flagged and removed before broadcast."
+      "notes": "Professionalism and relevance high. Coherence slightly marked: one transition between the injured worker section and the union section felt slightly abrupt \u2014 a single bridging sentence would smooth it. Consistency: one figure cited in narration (injury rate) was not in the input; flagged and removed before broadcast.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "DNW-003",
@@ -43,10 +49,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Strongest test. Actuality integration is confident and musical. Relevance marked slightly: one narration passage moved into broader search-and-rescue context that extended marginally beyond the individual portrait brief, though it added genuine editorial value."
+      "notes": "Strongest test. Actuality integration is confident and musical. Relevance marked slightly: one narration passage moved into broader search-and-rescue context that extended marginally beyond the individual portrait brief, though it added genuine editorial value.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     }
   ],
   "dimension_means": {
@@ -55,7 +64,9 @@
     "fluency": 4.67,
     "relevance": 4.33,
     "professionalism": 4.33,
-    "actionability": 4.33
+    "actionability": 4.33,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.4
+  "overall_mean": 4.43,
+  "editorial_naturalness_mean": 4.0
 }

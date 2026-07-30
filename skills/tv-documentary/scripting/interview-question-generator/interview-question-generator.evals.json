@@ -1,30 +1,33 @@
 {
   "skill_name": "interview-question-generator",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": "Subject: A retired Olympic sprinter who suffered a career-ending injury at the peak of her career and who has spent the past decade coaching youth athletics. Editorial angle: the film examines how elite athletes rebuild identity after their sport ends. Known facts: she was favored to win gold, the injury happened publicly at a major event, she has spoken about it before but mainly in inspirational terms. Guarded about: the emotional reality of the injury period.",
-      "output_summary": "Generated 22 questions in correct three-section structure. Opening questions built toward the subject's athletic identity before the injury. Substantive section moved from factual (the injury event) to reflective (the period after) with good sequencing. High-stakes section included: 'What was the version of you that disappeared when you got hurt — and do you miss her?' Production notes on 4 questions. No yes/no questions. Two questions asked for specific scenes.",
+      "output_summary": "Generated 22 questions in correct three-section structure. Opening questions built toward the subject's athletic identity before the injury. Substantive section moved from factual (the injury event) to reflective (the period after) with good sequencing. High-stakes section included: 'What was the version of you that disappeared when you got hurt \u2014 and do you miss her?' Production notes on 4 questions. No yes/no questions. Two questions asked for specific scenes.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,9 +39,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
@@ -50,9 +55,12 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.17
+      "case_mean": 4.0,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

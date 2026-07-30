@@ -1,7 +1,7 @@
 {
   "skill_name": "animated-explainer-script",
-  "status": "complete",
-  "overall_mean": 4.44,
+  "status": "passed",
+  "overall_mean": 4.36,
   "test_cases": [
     {
       "test_id": "AES-001",
@@ -12,24 +12,30 @@
         "fluency": 4.5,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.50,
-      "notes": "Strong two-column format. Visual cues specific enough for animation team. Word count matched duration target. Pauses built in at appropriate moments. Transition from interview handled cleanly."
+      "mean": 4.5,
+      "notes": "Strong two-column format. Visual cues specific enough for animation team. Word count matched duration target. Pauses built in at appropriate moments. Transition from interview handled cleanly.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "AES-002",
-      "input_summary": "Financial system explainer — how money laundering works in 90 seconds, investigative tone, specialist-adjacent audience",
+      "input_summary": "Financial system explainer \u2014 how money laundering works in 90 seconds, investigative tone, specialist-adjacent audience",
       "scores": {
         "coherence": 4.5,
         "consistency": 4.5,
         "fluency": 4.5,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Complex subject broken down clearly. Three-stage process structure effective. Visual metaphors appropriate for investigative tone. One visual cue slightly vague — 'financial flow diagram' could be more specific."
+      "notes": "Complex subject broken down clearly. Three-stage process structure effective. Visual metaphors appropriate for investigative tone. One visual cue slightly vague \u2014 'financial flow diagram' could be more specific.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "AES-003",
@@ -40,10 +46,14 @@
         "fluency": 4.5,
         "relevance": 4.0,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Handled longer duration well without padding. Data points clearly specified. 3D visual direction was competent but noted that a storyboard would be particularly important for 3D work. Standalone opening slightly less strong without interview context to anchor to."
+      "notes": "Handled longer duration well without padding. Data points clearly specified. 3D visual direction was competent but noted that a storyboard would be particularly important for 3D work. Standalone opening slightly less strong without interview context to anchor to.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

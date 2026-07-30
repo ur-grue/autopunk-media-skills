@@ -3,7 +3,7 @@ name: youtube-channel-operator-agent
 type: agent
 status: stable
 version: 1.0
-eval_score: 4.48
+eval_score: 4.37
 maxTurns: 25
 allowedTools:
   - Read

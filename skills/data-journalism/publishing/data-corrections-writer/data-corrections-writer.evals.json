@@ -5,43 +5,53 @@
   "test_cases": [
     {
       "id": "tc1",
-      "description": "Transposed digit error in percentage — does not affect core finding",
+      "description": "Transposed digit error in percentage \u2014 does not affect core finding",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
-      "description": "Wrong comparison year used in analysis — does affect the headline claim",
+      "description": "Wrong comparison year used in analysis \u2014 does affect the headline claim",
       "scores": {
         "coherence": 4,
         "consistency": 5,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc3",
-      "description": "Currency conversion error in contract value — figure off by factor of 1000",
+      "description": "Currency conversion error in contract value \u2014 figure off by factor of 1000",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
   ],
-  "overall_mean": 4.39
+  "overall_mean": 4.33,
+  "editorial_naturalness_mean": 4.0
 }

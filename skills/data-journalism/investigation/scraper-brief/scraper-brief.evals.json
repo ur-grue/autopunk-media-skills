@@ -5,43 +5,53 @@
   "test_cases": [
     {
       "id": "tc1",
-      "description": "Government procurement portal — paginated index, 45k records, weekly updates",
+      "description": "Government procurement portal \u2014 paginated index, 45k records, weekly updates",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc2",
-      "description": "Corporate filings website — company director search, dynamic JS content",
+      "description": "Corporate filings website \u2014 company director search, dynamic JS content",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc3",
-      "description": "Parliamentary voting records — multi-year archive, session and member structure",
+      "description": "Parliamentary voting records \u2014 multi-year archive, session and member structure",
       "scores": {
         "coherence": 4,
         "consistency": 5,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
   ],
-  "overall_mean": 4.28
+  "overall_mean": 4.24,
+  "editorial_naturalness_mean": 4.0
 }

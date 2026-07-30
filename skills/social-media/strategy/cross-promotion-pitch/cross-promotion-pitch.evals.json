@@ -1,15 +1,15 @@
 {
   "skill_name": "cross-promotion-pitch",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
       "id": "tc-01",
       "description": "Newsletter swap between investigative journalism and finance newsletters",
       "input": {
-        "my_account": "PAPER TRAIL — investigative financial crime newsletter/podcast, 14,000 subscribers",
-        "target": "CAPITAL NOTES — financial regulation newsletter, 22,000 subscribers",
-        "proposal": "Newsletter swap — one-issue feature in each other's newsletter",
+        "my_account": "PAPER TRAIL \u2014 investigative financial crime newsletter/podcast, 14,000 subscribers",
+        "target": "CAPITAL NOTES \u2014 financial regulation newsletter, 22,000 subscribers",
+        "proposal": "Newsletter swap \u2014 one-issue feature in each other's newsletter",
         "compatibility": "Both cover financial system failures from different angles",
         "connection": "Quoted their coverage twice, no prior contact"
       },
@@ -19,18 +19,21 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Opening references specific recent piece — not generic praise. Audience compatibility is concrete. Proposal is named (newsletter swap) with explicit terms. Ask is specific and low-friction. Peer-to-peer tone maintained throughout."
+      "notes": "Opening references specific recent piece \u2014 not generic praise. Audience compatibility is concrete. Proposal is named (newsletter swap) with explicit terms. Ask is specific and low-friction. Peer-to-peer tone maintained throughout.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
       "description": "Podcast guest swap between two documentary podcasts",
       "input": {
-        "my_account": "FIELD NOTES — documentary making podcast, 8,000 listeners per episode",
-        "target": "THE LONG FRAME — film criticism podcast focusing on documentary, 15,000 listeners",
-        "proposal": "Guest swap — I appear on their show, their host appears on mine",
+        "my_account": "FIELD NOTES \u2014 documentary making podcast, 8,000 listeners per episode",
+        "target": "THE LONG FRAME \u2014 film criticism podcast focusing on documentary, 15,000 listeners",
+        "proposal": "Guest swap \u2014 I appear on their show, their host appears on mine",
         "compatibility": "Documentary production and documentary criticism are complementary angles on the same world",
         "connection": "Met briefly at a screening event"
       },
@@ -40,10 +43,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "In-person connection reference personalises the pitch appropriately without overstating the relationship. Guest swap format clearly explained. Tone correctly peer-to-peer despite follower size difference."
+      "notes": "In-person connection reference personalises the pitch appropriately without overstating the relationship. Guest swap format clearly explained. Tone correctly peer-to-peer despite follower size difference.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
@@ -51,9 +57,9 @@
       "input": {
         "my_account": "Documentary photographer, 4,200 Instagram followers, urban industrial photography",
         "target": "Photography magazine Instagram account, 45,000 followers, covers documentary and street photography",
-        "proposal": "Instagram story takeover — I take over their stories for one day during my current project",
+        "proposal": "Instagram story takeover \u2014 I take over their stories for one day during my current project",
         "compatibility": "Their audience interested in documentary photography, my work fits their editorial coverage",
-        "connection": "No prior contact — cold pitch"
+        "connection": "No prior contact \u2014 cold pitch"
       },
       "scores": {
         "coherence": 4,
@@ -61,12 +67,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Size asymmetry handled correctly — pitch offers specific value (access/story) rather than simple audience swap. Takeover format proposal includes content preview. Limitation about size gap acknowledged."
+      "notes": "Size asymmetry handled correctly \u2014 pitch offers specific value (access/story) rather than simple audience swap. Takeover format proposal includes content preview. Limitation about size gap acknowledged.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
   ],
-  "overall_mean": 4.33,
-  "passed": true
+  "overall_mean": 4.29,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

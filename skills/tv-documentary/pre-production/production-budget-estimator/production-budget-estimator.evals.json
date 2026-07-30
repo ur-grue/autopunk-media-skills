@@ -1,7 +1,7 @@
 {
   "skill_name": "production-budget-estimator",
-  "status": "complete",
-  "overall_mean": 4.39,
+  "status": "passed",
+  "overall_mean": 4.31,
   "test_cases": [
     {
       "test_id": "PBE-001",
@@ -12,10 +12,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Comprehensive line-item structure. Rate ranges realistic for UK indie market. Budget notes correctly identified archive and score as key cost risks."
+      "notes": "Comprehensive line-item structure. Rate ranges realistic for UK indie market. Budget notes correctly identified archive and score as key cost risks.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "PBE-002",
@@ -26,10 +29,13 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Handled series multiplication well. Union rate acknowledgment present but flagged as needing verification against specific guild minimums. USD currency correctly applied."
+      "notes": "Handled series multiplication well. Union rate acknowledgment present but flagged as needing verification against specific guild minimums. USD currency correctly applied.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "PBE-003",
@@ -40,10 +46,14 @@
         "fluency": 4.0,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Applied reasonable defaults. Flagged missing region as affecting rate accuracy. Post-production section included standard items with a note that requirements should be confirmed."
+      "notes": "Applied reasonable defaults. Flagged missing region as affecting rate accuracy. Post-production section included standard items with a note that requirements should be confirmed.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

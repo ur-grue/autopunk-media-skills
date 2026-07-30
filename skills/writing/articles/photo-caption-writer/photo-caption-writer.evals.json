@@ -2,14 +2,15 @@
   "skill_name": "photo-caption-writer",
   "status": "passed",
   "eval_date": "2026-03-19",
-  "overall_mean": 4.89,
+  "overall_mean": 4.76,
   "dimension_means": {
     "coherence": 5.0,
     "consistency": 4.67,
     "fluency": 5.0,
     "relevance": 4.67,
     "professionalism": 5.0,
-    "actionability": 5.0
+    "actionability": 5.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,37 +23,44 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
       "input": "Documentary still: four elderly women sitting around a folding table covered in fabric swatches, in discussion, one gesturing at fabric. Community centre signage visible. Press kit use for long-form documentary on traditional textile craft preservation. No credit line.",
-      "output_summary": "Adapted correctly to documentary/press kit register — slightly more literary than hard news. Two-part caption structure maintained. Observational description without emotional inference. Verification flags correctly identified consent/release as a press kit distribution concern. Minor: release note slightly outside core captioning scope but practically valuable.",
+      "output_summary": "Adapted correctly to documentary/press kit register \u2014 slightly more literary than hard news. Two-part caption structure maintained. Observational description without emotional inference. Verification flags correctly identified consent/release as a press kit distribution concern. Minor: release note slightly outside core captioning scope but practically valuable.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Magazine feature lead photo: close-up portrait of a woman working at an industrial loom, natural light from left, hands visible on machinery. Feature on revival of small-scale rural manufacturing. Magazine print, long-form. Credit: Paulo Reis, freelance.",
-      "output_summary": "Caption correctly calibrated to magazine register — slightly more expansive than hard news. Lead photo context handled appropriately. Credit line formatted correctly. Verification flags identified the 'past five years' temporal claim as requiring sourcing before publication. All names correctly flagged for consent. Output meets magazine print standards.",
+      "output_summary": "Caption correctly calibrated to magazine register \u2014 slightly more expansive than hard news. Lead photo context handled appropriately. Credit line formatted correctly. Verification flags identified the 'past five years' temporal claim as requiring sourcing before publication. All names correctly flagged for consent. Output meets magazine print standards.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

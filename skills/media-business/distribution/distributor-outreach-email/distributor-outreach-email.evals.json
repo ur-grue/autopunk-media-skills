@@ -1,6 +1,6 @@
 {
   "skill_name": "distributor-outreach-email",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -9,7 +9,7 @@
       "input": {
         "title": "Cartography of the Unseen",
         "format": "Feature documentary, 84 minutes",
-        "logline": "A blind geographer creates tactile maps of places she has never seen — and her maps begin revealing things sighted cartographers missed",
+        "logline": "A blind geographer creates tactile maps of places she has never seen \u2014 and her maps begin revealing things sighted cartographers missed",
         "company": "Coastline Productions",
         "festival": "IDFA 2024 Main Competition, Special Jury Mention",
         "territories": "All excluding Scandinavia",
@@ -21,10 +21,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Subject line contains all key commercial information. Body covers all acquisition essentials in under 200 words. Screener access offered concretely. Single clear ask."
+      "notes": "Subject line contains all key commercial information. Body covers all acquisition essentials in under 200 words. Screener access offered concretely. Single clear ask.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
@@ -32,7 +35,7 @@
       "input": {
         "title": "Seven Hours",
         "format": "Feature drama, 97 minutes",
-        "logline": "A defence lawyer discovers her client is innocent twelve hours before his execution — and cannot reach anyone with the authority to stop it",
+        "logline": "A defence lawyer discovers her client is innocent twelve hours before his execution \u2014 and cannot reach anyone with the authority to stop it",
         "company": "Ironwood Films",
         "festival": "Tribeca 2025, Audience Award winner",
         "territories": "All territories worldwide",
@@ -44,10 +47,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Drama format handled appropriately. Absence of sales agent noted without undermining confidence. Worldwide availability is clear selling point."
+      "notes": "Drama format handled appropriately. Absence of sales agent noted without undermining confidence. Worldwide availability is clear selling point.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
@@ -57,7 +63,7 @@
         "format": "4-part documentary series, 4 x 48 minutes",
         "logline": "Four rural communities across Europe where farming subsidies have been cut, and the very different political choices their residents make in response",
         "company": "Parallel Stories",
-        "festival": "None — no festival history",
+        "festival": "None \u2014 no festival history",
         "territories": "All territories",
         "context": "Direct distributor outreach"
       },
@@ -67,12 +73,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Absence of festival pedigree handled honestly. Series format requires slightly different commercial framing than a feature. Screener-only approach acknowledged as a weaker position."
+      "notes": "Absence of festival pedigree handled honestly. Series format requires slightly different commercial framing than a feature. Screener-only approach acknowledged as a weaker position.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
   ],
-  "overall_mean": 4.33,
-  "passed": true
+  "overall_mean": 4.29,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

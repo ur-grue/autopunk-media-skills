@@ -2,14 +2,15 @@
   "skill_name": "commentary-writer",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Commentary correctly subordinated to image — no description of what was visible. Research facts integrated naturally. Rhythm was suitable for the formal register. Sentence lengths were appropriate for spoken delivery."
+      "notes": "Commentary correctly subordinated to image \u2014 no description of what was visible. Research facts integrated naturally. Rhythm was suitable for the formal register. Sentence lengths were appropriate for spoken delivery.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc2",
@@ -34,22 +38,29 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Archive picture context was well-managed — narration added period detail not visible in the footage. Resident testimony was incorporated without editorializing. Commentary Notes correctly identified two moments where silence was preferable."
+      "notes": "Archive picture context was well-managed \u2014 narration added period detail not visible in the footage. Resident testimony was incorporated without editorializing. Commentary Notes correctly identified two moments where silence was preferable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
-      "input": "Mid-film sequence from a personal documentary. Subject is alone at the site of a childhood home, now demolished. Minimal research notes — emotional content only. Intimate first-person-adjacent register. 80 words.",
+      "input": "Mid-film sequence from a personal documentary. Subject is alone at the site of a childhood home, now demolished. Minimal research notes \u2014 emotional content only. Intimate first-person-adjacent register. 80 words.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "notes": "Handled sparse research notes gracefully — wrote commentary that worked from emotional observation rather than fact. Correctly recommended in Commentary Notes that this sequence may need the subject's own voice rather than third-person narration."
+      "notes": "Handled sparse research notes gracefully \u2014 wrote commentary that worked from emotional observation rather than fact. Correctly recommended in Commentary Notes that this sequence may need the subject's own voice rather than third-person narration.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,21 +1,22 @@
 {
   "skill_name": "beat-sheet-builder",
-  "status": "complete",
-  "overall_mean": 4.5,
+  "status": "passed",
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.7,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": {
         "format": "Feature film, 110 pages",
-        "premise": "A burned-out forensic accountant discovers her firm has been laundering money for a criminal syndicate — and that her mentor set her up to take the fall.",
+        "premise": "A burned-out forensic accountant discovers her firm has been laundering money for a criminal syndicate \u2014 and that her mentor set her up to take the fall.",
         "protagonist": "Nadia Voss. Want: expose the syndicate and clear her name. Need: stop letting loyalty to authority figures override her own judgment.",
         "antagonist": "Senior partner Marcus Drewe",
         "tone": "Grounded thriller. References: Michael Clayton, The Insider."
@@ -26,16 +27,19 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "All 15 beats present, correctly placed, each a concrete scene. Internal arc legible at Midpoint, All Is Lost, Final Image. Structural assessment identifies the specific weak beat with actionable reasoning."
+      "notes": "All 15 beats present, correctly placed, each a concrete scene. Internal arc legible at Midpoint, All Is Lost, Final Image. Structural assessment identifies the specific weak beat with actionable reasoning.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
       "input": {
         "format": "TV pilot, 60 minutes",
-        "premise": "A grief counselor who secretly hasn't processed her own husband's death begins treating a patient who describes the same accident in which her husband died — from the other driver's perspective.",
+        "premise": "A grief counselor who secretly hasn't processed her own husband's death begins treating a patient who describes the same accident in which her husband died \u2014 from the other driver's perspective.",
         "protagonist": "Dr. Sera Malik. Want: understand how the accident really happened. Need: allow herself to grieve rather than manage grief in others.",
         "antagonist": "Her own avoidance and the patient's unreliable memory",
         "tone": "Psychological drama, quiet and unsettling. References: In Treatment, The Affair."
@@ -46,17 +50,20 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Beat placement correctly adapted to 60-minute pilot structure. Internal antagonism handled well. Consistency docked one point: B Story introduced a minor character not present in premise."
+      "notes": "Beat placement correctly adapted to 60-minute pilot structure. Internal antagonism handled well. Consistency docked one point: B Story introduced a minor character not present in premise.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
       "input": {
         "format": "Feature film, 95 pages",
         "premise": "Two estranged brothers reunite to settle their late father's fishing lodge and discover he had a second family living forty miles away.",
-        "protagonist": "Older brother Cal. Want: sell the lodge fast and return to his life. Need: accept that his father was a complicated man — and so is he.",
+        "protagonist": "Older brother Cal. Want: sell the lodge fast and return to his life. Need: accept that his father was a complicated man \u2014 and so is he.",
         "antagonist": "The revelation itself, and the half-sibling who stands to inherit equally",
         "tone": "Quiet drama with dark comedy undertones. References: Nebraska, Ordinary People."
       },
@@ -66,10 +73,14 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Excellent handling of ensemble dynamics. Fun and Games section particularly strong. Coherence docked one point: All Is Lost beat felt underdifferentiated from Break into Three in this lower-stakes premise."
+      "notes": "Excellent handling of ensemble dynamics. Fun and Games section particularly strong. Coherence docked one point: All Is Lost beat felt underdifferentiated from Break into Three in this lower-stakes premise.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

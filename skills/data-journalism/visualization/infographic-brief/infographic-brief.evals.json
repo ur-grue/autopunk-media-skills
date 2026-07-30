@@ -5,43 +5,53 @@
   "test_cases": [
     {
       "id": "tc1",
-      "description": "Government procurement concentration story — multi-format digital and social",
+      "description": "Government procurement concentration story \u2014 multi-format digital and social",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
-      "description": "Climate emissions data — country comparison for magazine feature",
+      "description": "Climate emissions data \u2014 country comparison for magazine feature",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc3",
-      "description": "Healthcare workforce shortage — regional heatmap brief for print supplement",
+      "description": "Healthcare workforce shortage \u2014 regional heatmap brief for print supplement",
       "scores": {
         "coherence": 4,
         "consistency": 5,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
   ],
-  "overall_mean": 4.39
+  "overall_mean": 4.33,
+  "editorial_naturalness_mean": 4.0
 }

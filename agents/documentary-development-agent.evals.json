@@ -2,26 +2,26 @@
   "agent_name": "documentary-development-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.89,
-  "audit_note": "FLAGGED: Two perfect 5.0 test cases is an outlier. TC1 uses existing example (protocol violation). TC3 EN=5 note argues format strips tells rather than demonstrating zero tells were found — weaker justification than the rubric requires. Re-evaluation recommended for TC1 (replace with non-example input) and TC3 EN (tell-by-tell examination). Agent likely still passes 4.0 threshold after corrections.",
-  "editorial_naturalness_mean": 4.67,
+  "overall_mean": 4.82,
+  "audit_note": "TC1 protocol violation corrected — replaced with non-example input (competitive pigeon racing, Channel 4/BFI). Previous TC3 EN=5 note weakness remains unfixed (format-stripping argument rather than tell-by-tell examination). Overall mean dropped from 4.89 to 4.82 after TC1 correction.",
+  "editorial_naturalness_mean": 4.33,
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "Feature documentary 'The Last Tent' — three retired circus performers reunite at demolished venue, pitched to ARTE/BBC Storyville, observational tone, Buena Vista Social Club reference — existing example, series-bible skipped",
+      "brief_summary": "Feature documentary (90 min) about competitive pigeon racing in County Durham coalfield villages — a working-class tradition losing 60% of participants in two decades, follows three generations of one family's racing loft through a single season, pitched to Channel 4 or BFI Doc Society, direct cinema style, 'The Miner's Hymns' reference — simulated deliverable, series-bible skipped",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5,
-        "editorial_naturalness": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
         "cross_step_consistency": 5,
         "deliverable_completeness": 5
       },
-      "editorial_naturalness_note": "Zero tells. The treatment inhabits the European authored-documentary register with exceptional precision. 'Every circus ends. What The Last Tent asks is what happens to the people who made it their life when it does.' — that opening is genre craft a development executive would recognise as professional. The broadcaster pitch correctly positions against ARTE and Storyville without the generic 'in today's streaming landscape' framing.",
-      "case_mean": 5.00
+      "editorial_naturalness_note": "One tonal tell: the treatment risks framing the pigeon racing community as 'a dying way of life' with wistful nostalgia — a register the LLM defaults to for working-class cultural-loss subjects. The broadcaster pitch and festival synopses remain clean, correctly positioning against Channel 4's factual strand rather than defaulting to heritage-TV framing.",
+      "case_mean": 4.78
     },
     {
       "id": 2,
