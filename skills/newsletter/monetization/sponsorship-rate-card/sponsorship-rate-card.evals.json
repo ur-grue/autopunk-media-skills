@@ -1,15 +1,16 @@
 {
   "skill_name": "sponsorship-rate-card",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.3,
     "relevance": 4.3,
     "professionalism": 4.7,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,7 +22,11 @@
         "click_rate": "5.2%",
         "cadence": "Weekly, Wednesday",
         "audience": "Product managers and UX professionals, 60% manager/director, 25% senior IC, 15% founders",
-        "placements": ["top-of-edition sponsored note", "mid-edition mention", "dedicated sponsor edition"],
+        "placements": [
+          "top-of-edition sponsored note",
+          "mid-edition mention",
+          "dedicated sponsor edition"
+        ],
         "rate_preference": "flat fee",
         "exclusivity": "one sponsor per edition, category exclusivity on packages"
       },
@@ -32,9 +37,12 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.67
+      "mean": 4.67,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
@@ -45,9 +53,12 @@
         "click_rate": "6.1%",
         "cadence": "Biweekly, Tuesday",
         "audience": "ESG analysts, sustainability officers, and climate journalists at investment firms, NGOs, and media companies",
-        "placements": ["sponsor note (150 words)", "classified listing (50 words)"],
+        "placements": [
+          "sponsor note (150 words)",
+          "classified listing (50 words)"
+        ],
         "rate_preference": "flat fee",
-        "note": "Small list but highly targeted niche — sponsor should understand value of precision over reach"
+        "note": "Small list but highly targeted niche \u2014 sponsor should understand value of precision over reach"
       },
       "output_summary": "Rate card leading with precise audience quality argument (ESG decision-makers, not general public). Two placement options with CPM calculations shown. Pricing positioned as premium niche rather than apologising for small list size. Terms section included. Honest about list size while making the case for targeting premium.",
       "scores": {
@@ -56,9 +67,12 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
@@ -69,7 +83,10 @@
         "click_rate": "4.8%",
         "cadence": "Weekly, Thursday",
         "audience": "Independent farmers and market gardeners farming under 5 acres. Purchase decisions include seeds, tools, irrigation, soil amendments, direct sales platforms.",
-        "placements": ["top sponsor note (200 words)", "product recommendation (80 words, editor-written)"],
+        "placements": [
+          "top sponsor note (200 words)",
+          "product recommendation (80 words, editor-written)"
+        ],
         "rate_preference": "flat fee",
         "existing_sponsors": "Two seed suppliers and one soil amendment company (can name on request)",
         "exclusivity": "category exclusivity available"
@@ -81,9 +98,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

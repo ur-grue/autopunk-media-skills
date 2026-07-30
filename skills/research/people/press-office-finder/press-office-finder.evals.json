@@ -1,6 +1,6 @@
 {
   "skill_name": "press-office-finder",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.39,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Correctly distinguished between global and regional press offices. Outreach template was professional and appropriately urgent. Pitfalls about external PR agencies were highly relevant."
+      "notes": "Correctly distinguished between global and regional press offices. Outreach template was professional and appropriately urgent. Pitfalls about external PR agencies were highly relevant.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "POF-002",
@@ -26,10 +29,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Fallback strategies were genuinely useful for small organisations. LinkedIn approach was well-explained. Template was appropriately informal for a small NGO context."
+      "notes": "Fallback strategies were genuinely useful for small organisations. LinkedIn approach was well-explained. Template was appropriately informal for a small NGO context.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "POF-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Good adaptation to the government/diplomatic context. Embassy route was correctly prioritised. Time-zone considerations were flagged. Could have been slightly more concise for the tight deadline."
+      "notes": "Good adaptation to the government/diplomatic context. Embassy route was correctly prioritised. Time-zone considerations were flagged. Could have been slightly more concise for the tight deadline.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.34
 }

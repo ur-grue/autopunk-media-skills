@@ -1,22 +1,23 @@
 {
   "skill_name": "edition-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 5.0,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-01",
       "input": {
         "newsletter": "Shelf Life",
-        "voice": "Thoughtful, melancholy, literary — like a letter from a well-read friend in publishing",
+        "voice": "Thoughtful, melancholy, literary \u2014 like a letter from a well-read friend in publishing",
         "main_story": "Publishers quietly cancelling debut novels post-acquisition due to social media controversies; agents advising authors to scrub online histories before querying",
         "links": 3,
         "word_count_target": "~800 words"
@@ -28,9 +29,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.83
+      "mean": 4.83,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.71
     },
     {
       "id": "tc-02",
@@ -40,7 +44,7 @@
         "main_story": "A newly published analysis showing that four major infrastructure bills passed in the last three years contain conflicting regulatory frameworks that will create enforcement gaps. Specifically: two bills passed by different administrations each designated different agencies as lead regulator for the same class of infrastructure asset.",
         "links": 4,
         "word_count_target": "700-900 words",
-        "structure": "No opening hook section — start directly with the main piece. Use subheadings."
+        "structure": "No opening hook section \u2014 start directly with the main piece. Use subheadings."
       },
       "output_summary": "Direct-entry essay with three subheadings, precise analytical register, no emotional framing. Identifies the specific regulatory conflict, explains enforcement implications, contextualises within broader legislative pattern. Four link commentaries are dry and evaluative. Closing is minimal and policy-forward.",
       "scores": {
@@ -49,16 +53,19 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
       "input": {
         "newsletter": "Night Market",
         "voice": "Energetic, scene-focused, first-person. Covers independent food and hospitality businesses. Readers are chefs, restaurateurs, and serious food media people. Tone is like talking to a chef after service.",
-        "main_story": "The rise of private-hire dinner experiences — restaurants operating one-night-only invitation-only dinners at undisclosed locations as a separate revenue stream from their main business. Three operators interviewed. Revenue figures provided.",
+        "main_story": "The rise of private-hire dinner experiences \u2014 restaurants operating one-night-only invitation-only dinners at undisclosed locations as a separate revenue stream from their main business. Three operators interviewed. Revenue figures provided.",
         "links": 2,
         "word_count_target": "600-700 words",
         "recurring_signoff": "Eat well."
@@ -70,9 +77,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,6 +1,6 @@
 {
   "skill_name": "scientific-paper-summarizer",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.56,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.83,
-      "notes": "Methodology was accurately classified as observational with clear explanation of why causation cannot be inferred. Effect sizes were reported clearly. Bottom line was measured and accurate."
+      "notes": "Methodology was accurately classified as observational with clear explanation of why causation cannot be inferred. Effect sizes were reported clearly. Bottom line was measured and accurate.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.71
     },
     {
       "test_id": "SPS-002",
@@ -26,10 +29,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Good explanation of what a meta-analysis is and its strengths. Heterogeneity between studies was correctly flagged as a limitation. Plain-language translations of statistical concepts were clear."
+      "notes": "Good explanation of what a meta-analysis is and its strengths. Heterogeneity between studies was correctly flagged as a limitation. Plain-language translations of statistical concepts were clear.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "SPS-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "RCT design was correctly classified and explained. Effect size was contextualised for the education field. Limitations section correctly identified the short follow-up period and the Hawthorne effect risk."
+      "notes": "RCT design was correctly classified and explained. Effect size was contextualised for the education field. Limitations section correctly identified the short follow-up period and the Hawthorne effect risk.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.48
 }

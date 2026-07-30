@@ -5,43 +5,53 @@
   "test_cases": [
     {
       "id": "tc1",
-      "description": "Residential property transaction register — 7 years, national scope",
+      "description": "Residential property transaction register \u2014 7 years, national scope",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
-      "description": "Police incident log — 3 years, single metropolitan area",
+      "description": "Police incident log \u2014 3 years, single metropolitan area",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "mean": 4.33
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.29
     },
     {
       "id": "tc3",
-      "description": "Company filings dataset — directors and shareholder records",
+      "description": "Company filings dataset \u2014 directors and shareholder records",
       "scores": {
         "coherence": 4,
         "consistency": 5,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.14
     }
   ],
-  "overall_mean": 4.33
+  "overall_mean": 4.29,
+  "editorial_naturalness_mean": 4.0
 }

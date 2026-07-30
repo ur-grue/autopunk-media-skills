@@ -1,6 +1,6 @@
 {
   "skill_name": "bulletin-script-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.5,
   "test_cases": [
     {
@@ -13,10 +13,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Output is bulletin-ready. Clip label format is correct. Running time estimate accurate. Minor: second story could open with a stronger active verb."
+      "notes": "Output is bulletin-ready. Clip label format is correct. Running time estimate accurate. Minor: second story could open with a stronger active verb.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "BSW-002",
@@ -28,10 +31,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Excellent fluency and professionalism. Relevance slightly marked down because the output included a brief contextual sentence not signalled in input — editorial but not strictly required."
+      "notes": "Excellent fluency and professionalism. Relevance slightly marked down because the output included a brief contextual sentence not signalled in input \u2014 editorial but not strictly required.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "BSW-003",
@@ -43,10 +49,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Actionability is high — script went straight to transmission in test. Coherence slightly marked: the supermarket story transitions abruptly from the previous cue without a brief signposting word."
+      "notes": "Actionability is high \u2014 script went straight to transmission in test. Coherence slightly marked: the supermarket story transitions abruptly from the previous cue without a brief signposting word.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     }
   ],
   "dimension_means": {
@@ -55,7 +64,9 @@
     "fluency": 4.67,
     "relevance": 4.67,
     "professionalism": 4.33,
-    "actionability": 4.33
+    "actionability": 4.33,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.5
+  "overall_mean": 4.43,
+  "editorial_naturalness_mean": 4.0
 }

@@ -2,14 +2,15 @@
   "skill_name": "claim-verification-checklist",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.3,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "All six verifiable categories were identified. High-risk flag was correctly applied to the opponent's attributed quote. Evidence requirements were specific and actionable."
+      "notes": "All six verifiable categories were identified. High-risk flag was correctly applied to the opponent's attributed quote. Evidence requirements were specific and actionable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
@@ -34,9 +38,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Correctly distinguished peer-reviewed studies from government data. Flagged that two statistics appeared to use different measurement methodologies, creating an apples-to-oranges comparison risk."
+      "notes": "Correctly distinguished peer-reviewed studies from government data. Flagged that two statistics appeared to use different measurement methodologies, creating an apples-to-oranges comparison risk.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc3",
@@ -47,9 +54,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "notes": "Anonymous source limitation was correctly flagged as high-risk without being overly cautious. Recommended court filing verification for all debt figures. Summary was accurate."
+      "notes": "Anonymous source limitation was correctly flagged as high-risk without being overly cautious. Recommended court filing verification for all debt figures. Summary was accurate.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

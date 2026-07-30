@@ -1,20 +1,21 @@
 {
   "skill_name": "crisis-statement-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.3,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
-      "description": "Industrial gas leak — workers evacuated, minor injuries, cause unknown, afternoon news cycle",
+      "description": "Industrial gas leak \u2014 workers evacuated, minor injuries, cause unknown, afternoon news cycle",
       "input_summary": "Carlyle Food Group; gas leak at processing plant; 340 workers evacuated; 6 treated for minor respiratory symptoms, none hospitalised; cause under investigation; regulatory authorities notified",
       "scores": {
         "coherence": 5,
@@ -22,14 +23,17 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 5.0,
-      "notes": "EAI (Empathy-Action-Information) structure correctly applied. Opens with harm acknowledgement before organisational context. Confirmed facts clearly separated from ongoing investigation. Concrete commitments: regulatory notification, update by 6 p.m., information line. No unsupported reassurances. Does not end with brand messaging. Word count 193 — within target range."
+      "notes": "EAI (Empathy-Action-Information) structure correctly applied. Opens with harm acknowledgement before organisational context. Confirmed facts clearly separated from ongoing investigation. Concrete commitments: regulatory notification, update by 6 p.m., information line. No unsupported reassurances. Does not end with brand messaging. Word count 193 \u2014 within target range.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.86
     },
     {
       "id": "tc-002",
-      "description": "Data breach — customer data exposed, no financial data, investigation at early stage",
+      "description": "Data breach \u2014 customer data exposed, no financial data, investigation at early stage",
       "input_summary": "Praxis Digital; unauthorised access to customer database confirmed; email addresses and names exposed; no financial or password data; 12,000 customers affected; breach contained; law enforcement notified",
       "scores": {
         "coherence": 5,
@@ -37,14 +41,17 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Correctly quantified the number of customers affected and specified what data was and was not exposed. Fluency note: one sentence structured passive voice in a way that could imply the organisation was not responsible — borderline. Professionalism note: included a sentence about investing in cybersecurity infrastructure which, while appropriate in a longer statement, felt premature in an initial crisis response and should have been flagged. Consistency: all confirmed facts reproduced accurately."
+      "notes": "Correctly quantified the number of customers affected and specified what data was and was not exposed. Fluency note: one sentence structured passive voice in a way that could imply the organisation was not responsible \u2014 borderline. Professionalism note: included a sentence about investing in cybersecurity infrastructure which, while appropriate in a longer statement, felt premature in an initial crisis response and should have been flagged. Consistency: all confirmed facts reproduced accurately.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
-      "description": "Executive misconduct allegation — CEO placed on leave, investigation by independent board committee",
+      "description": "Executive misconduct allegation \u2014 CEO placed on leave, investigation by independent board committee",
       "input_summary": "Branton Capital; CEO placed on administrative leave following allegations of workplace misconduct; independent board committee investigating; no further details confirmed; target audience: shareholders and financial media",
       "scores": {
         "coherence": 4,
@@ -52,10 +59,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Appropriately calibrated to financial media register. Correctly noted the independent nature of the investigation as a credibility signal. Coherence note: the three-paragraph structure (acknowledgement / facts / action) broke down slightly — the action paragraph contained a factual statement about the CEO's status, which properly belongs in the facts paragraph. Relevance note: added a general statement about corporate governance values — not wrong, but not grounded in the briefing. Flagged but not removed."
+      "notes": "Appropriately calibrated to financial media register. Correctly noted the independent nature of the investigation as a credibility signal. Coherence note: the three-paragraph structure (acknowledgement / facts / action) broke down slightly \u2014 the action paragraph contained a factual statement about the CEO's status, which properly belongs in the facts paragraph. Relevance note: added a general statement about corporate governance values \u2014 not wrong, but not grounded in the briefing. Flagged but not removed.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

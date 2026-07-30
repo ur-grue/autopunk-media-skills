@@ -1,15 +1,16 @@
 {
   "skill_name": "pitch-treatment-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.29,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,37 +23,44 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
       "input": "Documentary investigating the collapse of a regional fishing industry due to regulatory changes and climate factors. Multiple subjects (fishermen, scientists, regulators). Format: 2-part, 50 min each. Investigative broadcaster strand. Systemic/journalistic tone.",
-      "output_summary": "Produced treatment for 2-part format with structural differentiation between episodes noted. Multi-subject introductions handled well — three characters introduced with specific details. Investigative tone maintained throughout. Visual approach section correctly described a hybrid observational/archive methodology. One character description was slightly thin due to limited input — flagged in a note at end. Why-now section strong.",
+      "output_summary": "Produced treatment for 2-part format with structural differentiation between episodes noted. Multi-subject introductions handled well \u2014 three characters introduced with specific details. Investigative tone maintained throughout. Visual approach section correctly described a hybrid observational/archive methodology. One character description was slightly thin due to limited input \u2014 flagged in a note at end. Why-now section strong.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.33
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Essay film about a photographer who spent 30 years documenting a single rural community. Film blends archive, new interviews, and the photographer's own commentary. Format: Single feature, 65 min. Art house/festival focus. No broadcaster target specified.",
-      "output_summary": "Produced treatment adapted to essay film format — correctly avoided the standard observational treatment structure in favor of a more reflective form. Visual approach section strong: archive treatment and photographer-as-narrator approach clearly described. Narrative arc addressed the challenge of structuring an essay film (no external conflict) by centering the photographer's evolving relationship to the community. Logline variations provided for both festival and press contexts.",
+      "output_summary": "Produced treatment adapted to essay film format \u2014 correctly avoided the standard observational treatment structure in favor of a more reflective form. Visual approach section strong: archive treatment and photographer-as-narrator approach clearly described. Narrative arc addressed the challenge of structuring an essay film (no external conflict) by centering the photographer's evolving relationship to the community. Logline variations provided for both festival and press contexts.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.17
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

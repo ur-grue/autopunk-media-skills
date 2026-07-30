@@ -2,14 +2,15 @@
   "skill_name": "narrator-voice-adapter",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Voice transformation was clear and consistent. Factual content was fully preserved. The adversarial register was applied appropriately without distorting the factual register. Voice Notes accurately described the structural changes."
+      "notes": "Voice transformation was clear and consistent. Factual content was fully preserved. The adversarial register was applied appropriately without distorting the factual register. Voice Notes accurately described the structural changes.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
@@ -34,9 +38,12 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Voice transformation worked well without a sample — the description was sufficient for the register. Warmth was applied without becoming sentimental. One fact was slightly paraphrased in the adaptation; Voice Notes flagged this for the producer to check."
+      "notes": "Voice transformation worked well without a sample \u2014 the description was sufficient for the register. Warmth was applied without becoming sentimental. One fact was slightly paraphrased in the adaptation; Voice Notes flagged this for the producer to check.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
@@ -47,9 +54,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "First-to-third person transformation required more structural changes than simple re-voicing. The adapted version maintained factual integrity. Voice Notes correctly flagged that the emotional subjectivity of the original does not translate cleanly to a detached third-person register."
+      "notes": "First-to-third person transformation required more structural changes than simple re-voicing. The adapted version maintained factual integrity. Voice Notes correctly flagged that the emotional subjectivity of the original does not translate cleanly to a detached third-person register.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,15 +1,16 @@
 {
   "skill_name": "cinematic-shot-prompt",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,9 +23,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,9 +39,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
@@ -50,9 +55,12 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.17
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

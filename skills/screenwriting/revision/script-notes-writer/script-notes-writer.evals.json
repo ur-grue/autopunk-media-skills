@@ -1,14 +1,15 @@
 {
   "skill_name": "script-notes-writer",
-  "status": "complete",
-  "overall_mean": 4.4,
+  "status": "passed",
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.0,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.7,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -27,10 +28,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Root issue stated in a single clear paragraph. All structural notes cite specific act breaks or page ranges. Scene notes include both problem and suggested direction. Priority list is ordered and the first item matches the Root Issue. Character notes acknowledge what is working. Consistency docked: one structural note referenced a scene slightly outside the page range described in the breakdown."
+      "notes": "Root issue stated in a single clear paragraph. All structural notes cite specific act breaks or page ranges. Scene notes include both problem and suggested direction. Priority list is ordered and the first item matches the Root Issue. Character notes acknowledge what is working. Consistency docked: one structural note referenced a scene slightly outside the page range described in the breakdown.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-002",
@@ -40,7 +44,7 @@
         "draft": "First draft",
         "genre": "Dark comedy",
         "writer_concern": "Ensemble is too large for a pilot. Not sure which character is the lead.",
-        "breakdown": "A hospital pharmacy at night, staffed by three pharmacists and an intern. A controlled medication goes missing mid-shift. The pilot follows the search through four characters' perspectives. No clear resolution — intended to be the series hook."
+        "breakdown": "A hospital pharmacy at night, staffed by three pharmacists and an intern. A controlled medication goes missing mid-shift. The pilot follows the search through four characters' perspectives. No clear resolution \u2014 intended to be the series hook."
       },
       "scores": {
         "coherence": 5,
@@ -48,10 +52,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Root Issue correctly identified the lead character problem without imposing a single answer — offered two structural paths (identify the lead, or commit fully to ensemble). Pilot-format structural notes appropriately scaled to 30-minute structure. All five sections present. Consistency docked: Character Notes listed four characters but the input mentioned only three pharmacists plus an intern."
+      "notes": "Root Issue correctly identified the lead character problem without imposing a single answer \u2014 offered two structural paths (identify the lead, or commit fully to ensemble). Pilot-format structural notes appropriately scaled to 30-minute structure. All five sections present. Consistency docked: Character Notes listed four characters but the input mentioned only three pharmacists plus an intern.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-003",
@@ -69,10 +76,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Root Issue correctly identified the climax pacing problem. Structural notes gave specific page-range guidance. Genre-appropriate advice — acknowledged that 20-page action climaxes are conventional and the problem is structural (no tension arc within the sequence), not length per se. Coherence docked: Scene Notes section had four items of uneven depth — one note was significantly shorter than the others without justification. Actionability slightly lower due to generic 'raise the emotional stakes' advice in one Priority List item."
+      "notes": "Root Issue correctly identified the climax pacing problem. Structural notes gave specific page-range guidance. Genre-appropriate advice \u2014 acknowledged that 20-page action climaxes are conventional and the problem is structural (no tension arc within the sequence), not length per se. Coherence docked: Scene Notes section had four items of uneven depth \u2014 one note was significantly shorter than the others without justification. Actionability slightly lower due to generic 'raise the emotional stakes' advice in one Priority List item.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

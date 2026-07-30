@@ -1,24 +1,29 @@
 {
   "skill_name": "audience-persona-builder",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.29,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": {
-        "niche": "Mechanical keyboard hobby — reviews, builds, typing sound comparisons",
-        "audience_read": "Developers, writers, office workers — mix of practical buyers and hobby enthusiasts",
+        "niche": "Mechanical keyboard hobby \u2014 reviews, builds, typing sound comparisons",
+        "audience_read": "Developers, writers, office workers \u2014 mix of practical buyers and hobby enthusiasts",
         "analytics": "68% male, 22-34 age bracket, avg view duration 7.2 min on 14-min videos",
-        "top_performers": ["Budget build under $150", "Cherry MX Red vs Brown comparison", "30-day use review"],
+        "top_performers": [
+          "Budget build under $150",
+          "Cherry MX Red vs Brown comparison",
+          "30-day use review"
+        ],
         "channel_problem_solved": "Cutting through overwhelming information to make a confident buying decision"
       },
       "scores": {
@@ -27,10 +32,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Persona is specific and well-grounded. Five dimensions are distinct. Content implications are genuinely actionable and directly derived from the persona. Excellent output."
+      "notes": "Persona is specific and well-grounded. Five dimensions are distinct. Content implications are genuinely actionable and directly derived from the persona. Excellent output.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
@@ -38,7 +46,11 @@
         "niche": "Sourdough baking and long-fermentation bread for home bakers",
         "audience_read": "People who want to bake good bread at home, frustrated with store-bought, range from beginners to intermediate",
         "analytics": "60% female, 35-54 most common, comments often ask 'why did my starter die?' and 'can I do this around a work schedule?'",
-        "top_performers": ["Same-day sourdough workaround", "Fixing a dead starter", "Overnight schedule for working people"],
+        "top_performers": [
+          "Same-day sourdough workaround",
+          "Fixing a dead starter",
+          "Overnight schedule for working people"
+        ],
         "channel_problem_solved": "Making sourdough achievable for people without flexible schedules or baking experience"
       },
       "scores": {
@@ -47,17 +59,20 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Persona correctly captures the schedule-constraint angle that the top performers reveal. Trust and avoidance sections are specific. Content implications are practical."
+      "notes": "Persona correctly captures the schedule-constraint angle that the top performers reveal. Trust and avoidance sections are specific. Content implications are practical.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
       "input": {
         "niche": "Landscape photography for hobbyists",
         "audience_read": "People who already own a camera and want to take better landscape photos on weekends and vacations",
-        "analytics": "No analytics data available — new channel",
+        "analytics": "No analytics data available \u2014 new channel",
         "top_performers": null,
         "channel_problem_solved": "Learning to see and shoot landscapes more intentionally"
       },
@@ -67,10 +82,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "No analytics data available — skill correctly works from the niche and problem statement alone. Persona is less specific than TC-001 due to data scarcity but is still grounded and usable. Content implications are appropriate for a new channel. Passes threshold."
+      "notes": "No analytics data available \u2014 skill correctly works from the niche and problem statement alone. Persona is less specific than TC-001 due to data scarcity but is still grounded and usable. Content implications are appropriate for a new channel. Passes threshold.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

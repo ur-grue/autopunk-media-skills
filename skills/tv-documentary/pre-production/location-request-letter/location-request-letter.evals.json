@@ -1,7 +1,7 @@
 {
   "skill_name": "location-request-letter",
-  "status": "complete",
-  "overall_mean": 4.47,
+  "status": "passed",
+  "overall_mean": 4.38,
   "test_cases": [
     {
       "test_id": "LRL-001",
@@ -12,10 +12,13 @@
         "fluency": 4.5,
         "relevance": 4.5,
         "professionalism": 5.0,
-        "actionability": 4.5
+        "actionability": 4.5,
+        "editorial_naturalness": 4
       },
       "mean": 4.58,
-      "notes": "Professional tone throughout. Proactively addressed disruption concerns. Clear next step proposed. Correctly used UK letter conventions."
+      "notes": "Professional tone throughout. Proactively addressed disruption concerns. Clear next step proposed. Correctly used UK letter conventions.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.5
     },
     {
       "test_id": "LRL-002",
@@ -26,10 +29,13 @@
         "fluency": 4.5,
         "relevance": 4.5,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.42,
-      "notes": "Appropriately acknowledged sensitivity of hospital environment. Flagged that additional documentation (DBS checks, safeguarding protocols) would be needed. Tone respectful without being obsequious."
+      "notes": "Appropriately acknowledged sensitivity of hospital environment. Flagged that additional documentation (DBS checks, safeguarding protocols) would be needed. Tone respectful without being obsequious.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.36
     },
     {
       "test_id": "LRL-003",
@@ -40,10 +46,14 @@
         "fluency": 4.5,
         "relevance": 4.0,
         "professionalism": 4.5,
-        "actionability": 4.0
+        "actionability": 4.0,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Handled missing details gracefully with bracketed placeholders. Tone appropriate for private homeowner approach — less formal than institutional letter. Flagged insurance as something to confirm before sending."
+      "notes": "Handled missing details gracefully with bracketed placeholders. Tone appropriate for private homeowner approach \u2014 less formal than institutional letter. Flagged insurance as something to confirm before sending.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,6 +1,6 @@
 {
   "skill_name": "publication-history-finder",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.44,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Excellent coverage of academic-to-government transition. Correctly identified pre-print servers and government testimony archives. Red flags section was particularly sharp on position shifts."
+      "notes": "Excellent coverage of academic-to-government transition. Correctly identified pre-print servers and government testimony archives. Red flags section was particularly sharp on position shifts.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "PHF-002",
@@ -26,10 +29,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Strong on the political-to-industry pivot angle. Hansard/parliamentary record searches were correctly specified. Tracking framework was immediately usable."
+      "notes": "Strong on the political-to-industry pivot angle. Hansard/parliamentary record searches were correctly specified. Tracking framework was immediately usable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "PHF-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Good coverage of legal databases and bar association records. Search syntax tips were practical. Slightly less adapted to the legal field than the other test cases — some generic source categories."
+      "notes": "Good coverage of legal databases and bar association records. Search syntax tips were practical. Slightly less adapted to the legal field than the other test cases \u2014 some generic source categories.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.38
 }

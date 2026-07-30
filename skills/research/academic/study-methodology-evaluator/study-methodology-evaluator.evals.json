@@ -1,6 +1,6 @@
 {
   "skill_name": "study-methodology-evaluator",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.5,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.83,
-      "notes": "Correctly identified the causal inference limitation of cross-sectional design. Self-reported screen time weakness was well-explained. Bottom line verdict was clear and directly useful for editorial decision-making."
+      "notes": "Correctly identified the causal inference limitation of cross-sectional design. Self-reported screen time weakness was well-explained. Bottom line verdict was clear and directly useful for editorial decision-making.",
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.71
     },
     {
       "test_id": "SME-002",
@@ -26,10 +29,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Sample size concerns were explained with appropriate statistical context. Supplement industry funding was correctly flagged. The distinction between the RCT design strength and the specific implementation weaknesses was well-drawn."
+      "notes": "Sample size concerns were explained with appropriate statistical context. Supplement industry funding was correctly flagged. The distinction between the RCT design strength and the specific implementation weaknesses was well-drawn.",
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.29
     },
     {
       "test_id": "SME-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Confounding by socioeconomic status was correctly identified as the key methodological concern. The selection bias issue (healthier people choose greener neighbourhoods) was well-explained. Bottom line was appropriately cautious."
+      "notes": "Confounding by socioeconomic status was correctly identified as the key methodological concern. The selection bias issue (healthier people choose greener neighbourhoods) was well-explained. Bottom line was appropriately cautious.",
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'comprehensive'). Within EN=4 threshold.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.43
 }

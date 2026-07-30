@@ -1,6 +1,6 @@
 {
   "skill_name": "streaming-platform-pitch",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -20,10 +20,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Opening proposition is platform-specific and names a comparable already on MUBI. Audience section specific and not generic. No marketing language."
+      "notes": "Opening proposition is platform-specific and names a comparable already on MUBI. Audience section specific and not generic. No marketing language.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
@@ -42,10 +45,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Series format handled with episode count clarity. Netflix true crime positioning strong. Comparable titles include titles already on Netflix platform."
+      "notes": "Series format handled with episode count clarity. Netflix true crime positioning strong. Comparable titles include titles already on Netflix platform.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-03",
@@ -64,12 +70,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Regional streamer positioning requires knowledge of specific platform's programming focus. Walter Presents framing correctly oriented around subtitled European content. Comedy-drama tonal balance maintained."
+      "notes": "Regional streamer positioning requires knowledge of specific platform's programming focus. Walter Presents framing correctly oriented around subtitled European content. Comedy-drama tonal balance maintained.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
   ],
-  "overall_mean": 4.33,
-  "passed": true
+  "overall_mean": 4.29,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

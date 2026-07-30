@@ -1,15 +1,16 @@
 {
   "skill_name": "chapter-timestamps",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.6,
+  "overall_mean": 4.52,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.7
+    "actionability": 4.7,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,9 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,23 +39,28 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Script for a 7-minute video on one specific photography technique (bokeh). Three sections: what bokeh is, how to achieve it, three common mistakes. ~900 words total.",
-      "output_summary": "Generated 4 chapters (including intro) with correct timestamps. Flagged that for a 7-minute video with only 3 content sections, chapters are sparse but still useful for navigation. Chapter names specific and viewer-facing. Correctly noted YouTube's 3-chapter minimum is met. One chapter name slightly generic ('Introduction') — minor issue; skill did not fully apply the 'avoid weak internal labels' criterion here.",
+      "output_summary": "Generated 4 chapters (including intro) with correct timestamps. Flagged that for a 7-minute video with only 3 content sections, chapters are sparse but still useful for navigation. Chapter names specific and viewer-facing. Correctly noted YouTube's 3-chapter minimum is met. One chapter name slightly generic ('Introduction') \u2014 minor issue; skill did not fully apply the 'avoid weak internal labels' criterion here.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.0
+      "case_mean": 4.0,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

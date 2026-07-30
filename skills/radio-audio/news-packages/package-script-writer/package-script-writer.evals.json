@@ -1,6 +1,6 @@
 {
   "skill_name": "package-script-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -13,10 +13,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Strong. Back announcement accurately reflects company statement. Minor consistency note: Track 3 used the phrase 'abstract dispute' which slightly elevated the register beyond the rest of the script — easily adjusted. Actionability: script submitted to edit without structural changes."
+      "notes": "Strong. Back announcement accurately reflects company statement. Minor consistency note: Track 3 used the phrase 'abstract dispute' which slightly elevated the register beyond the rest of the script \u2014 easily adjusted. Actionability: script submitted to edit without structural changes.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "PSW-002",
@@ -28,10 +31,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "Good balance and consistency. Coherence: the opening track ran slightly long before the first clip — could be tightened by 5 seconds. Fluency: one sentence in Track 2 opened with a participle phrase that sounds slightly bookish on air."
+      "notes": "Good balance and consistency. Coherence: the opening track ran slightly long before the first clip \u2014 could be tightened by 5 seconds. Fluency: one sentence in Track 2 opened with a participle phrase that sounds slightly bookish on air.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "PSW-003",
@@ -43,10 +49,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Strongest test. Breaking news pacing excellent. Key reassurance fact ('no injuries') placed correctly in presenter intro as well as confirmed in closing track. Minor consistency: fire service spokesperson's title slightly varied between intro and back anno."
+      "notes": "Strongest test. Breaking news pacing excellent. Key reassurance fact ('no injuries') placed correctly in presenter intro as well as confirmed in closing track. Minor consistency: fire service spokesperson's title slightly varied between intro and back anno.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     }
   ],
   "dimension_means": {
@@ -55,7 +64,9 @@
     "fluency": 4.67,
     "relevance": 4.67,
     "professionalism": 4.33,
-    "actionability": 4.33
+    "actionability": 4.33,
+    "editorial_naturalness": 4.0
   },
-  "overall_mean": 4.4
+  "overall_mean": 4.43,
+  "editorial_naturalness_mean": 4.0
 }

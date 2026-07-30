@@ -1,6 +1,6 @@
 {
   "skill_name": "jargon-translator",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.56,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.83,
-      "notes": "Every piece of central banking jargon was identified and accurately translated. The rewrite preserved the policy implications without distortion. Trade-off notes were genuinely useful — flagged where simplification lost important nuance."
+      "notes": "Every piece of central banking jargon was identified and accurately translated. The rewrite preserved the policy implications without distortion. Trade-off notes were genuinely useful \u2014 flagged where simplification lost important nuance.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.71
     },
     {
       "test_id": "JT-002",
@@ -26,10 +29,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Legal Latin and procedural terms were well-handled. The distinction between the ruling's legal significance and its practical impact was preserved. One-sentence summary was usable as a headline."
+      "notes": "Legal Latin and procedural terms were well-handled. The distinction between the ruling's legal significance and its practical impact was preserved. One-sentence summary was usable as a headline.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "JT-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Scientific concepts were translated without dumbing down. The feedback loop concept was explained with an effective analogy. Trade-off flag correctly noted where the simplified version lost quantitative precision."
+      "notes": "Scientific concepts were translated without dumbing down. The feedback loop concept was explained with an effective analogy. Trade-off flag correctly noted where the simplified version lost quantitative precision.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.43
 }

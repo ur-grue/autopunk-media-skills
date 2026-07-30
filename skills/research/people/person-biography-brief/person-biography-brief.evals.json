@@ -1,6 +1,6 @@
 {
   "skill_name": "person-biography-brief",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.5,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Source checklist was comprehensive and well-prioritised for the investigative angle. Key questions were specific to the academic/financial context. Verification priorities correctly targeted credential and funding claims."
+      "notes": "Source checklist was comprehensive and well-prioritised for the investigative angle. Key questions were specific to the academic/financial context. Verification priorities correctly targeted credential and funding claims.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "PBB-002",
@@ -26,10 +29,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.67,
-      "notes": "Strong adaptation to the tech/startup context. Patent and IP searches were well-integrated. Interview angles were thoughtful. Slightly over-broad on the source checklist for the stated purpose."
+      "notes": "Strong adaptation to the tech/startup context. Patent and IP searches were well-integrated. Interview angles were thoughtful. Slightly over-broad on the source checklist for the stated purpose.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "test_id": "PBB-003",
@@ -40,10 +46,15 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Excellent revolving-door angle coverage. Military records and procurement databases were correctly identified. Verification priorities were sharply focused on the conflict-of-interest question. Slightly dense — could be more scannable."
+      "notes": "Excellent revolving-door angle coverage. Military records and procurement databases were correctly identified. Verification priorities were sharply focused on the conflict-of-interest question. Slightly dense \u2014 could be more scannable.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.43
 }

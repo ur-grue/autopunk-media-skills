@@ -1,15 +1,16 @@
 {
   "skill_name": "house-style-enforcer",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.29,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.3,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -24,10 +25,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "All 13 deviations correctly found. Ambiguous case (basis points) correctly flagged for editor judgment rather than resolved arbitrarily. Consistency check section adds genuine value. Rules with no applicable instances explicitly stated — good transparency."
+      "notes": "All 13 deviations correctly found. Ambiguous case (basis points) correctly flagged for editor judgment rather than resolved arbitrarily. Consistency check section adds genuine value. Rules with no applicable instances explicitly stated \u2014 good transparency.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
@@ -41,16 +45,19 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.33,
-      "notes": "-ise/-ize variants all caught. Attribution order reversals ('X said' → 'said X') flagged systematically. One edge case (quoted speech within a longer sentence) correctly noted as ambiguous. Consistency check correctly identifies the attribution pattern as writer's default."
+      "notes": "-ise/-ize variants all caught. Attribution order reversals ('X said' \u2192 'said X') flagged systematically. One edge case (quoted speech within a longer sentence) correctly noted as ambiguous. Consistency check correctly identifies the attribution pattern as writer's default.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "id": "tc-003",
       "input": {
         "house_style_rules": "3 rules only (minimal style sheet): no semicolons in news copy, all acronyms spelled out on first use, times in 12-hour format with am/pm lowercase",
-        "draft": "200 words with clean adherence to all three rules — testing false positive rate"
+        "draft": "200 words with clean adherence to all three rules \u2014 testing false positive rate"
       },
       "scores": {
         "coherence": 4,
@@ -58,10 +65,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.0,
-      "notes": "Clean draft — all three rules checked, no deviations found. Output correctly states this explicitly rather than padding with marginal suggestions. Low false positive rate confirmed. Passes threshold."
+      "notes": "Clean draft \u2014 all three rules checked, no deviations found. Output correctly states this explicitly rather than padding with marginal suggestions. Low false positive rate confirmed. Passes threshold.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,21 +1,23 @@
 {
   "skill_name": "topic-background-brief",
   "status": "passed",
-  "overall_mean": 4.89,
+  "overall_mean": 4.76,
   "test_cases": [
     {
       "id": 1,
-      "input_summary": "Tram line extension investigation: deliberately unstructured notes including potential developer-council conflict of interest, budget discrepancy (£67m vs £78m), alternative routes",
+      "input_summary": "Tram line extension investigation: deliberately unstructured notes including potential developer-council conflict of interest, budget discrepancy (\u00a367m vs \u00a378m), alternative routes",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0,
-      "consistency_note": "Output contained only information from provided notes; budget discrepancy and conflict-of-interest flagged explicitly as contradictions/open questions — not resolved or augmented"
+      "case_mean": 4.86,
+      "consistency_note": "Output contained only information from provided notes; budget discrepancy and conflict-of-interest flagged explicitly as contradictions/open questions \u2014 not resolved or augmented",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 2,
@@ -26,10 +28,12 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67,
-      "consistency_note": "Output added no information from general knowledge; unverified rumour about tender process correctly flagged as unconfirmed, not included as fact"
+      "case_mean": 4.57,
+      "consistency_note": "Output added no information from general knowledge; unverified rumour about tender process correctly flagged as unconfirmed, not included as fact",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 3,
@@ -40,10 +44,13 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0,
-      "consistency_note": "Output contained only provided information; missing names (campaign group, arts council chair's public response) correctly flagged as gaps to fill"
+      "case_mean": 4.86,
+      "consistency_note": "Output contained only provided information; missing names (campaign group, arts council chair's public response) correctly flagged as gaps to fill",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

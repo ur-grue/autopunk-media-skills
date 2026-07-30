@@ -1,6 +1,6 @@
 {
   "skill_name": "crowdfunding-campaign-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.3,
   "test_cases": [
     {
@@ -9,11 +9,11 @@
       "input": {
         "title": "Saltwater",
         "format": "Feature documentary, 85 minutes",
-        "goal": "€35,000",
+        "goal": "\u20ac35,000",
         "platform": "Kickstarter",
         "what_funded": "Post-production",
         "audience": "Ocean conservation community, documentary enthusiasts",
-        "tiers": "€10, €25, €75, €150"
+        "tiers": "\u20ac10, \u20ac25, \u20ac75, \u20ac150"
       },
       "scores": {
         "coherence": 5,
@@ -21,10 +21,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Opening hook addresses conservation community directly. Campaign body answers all four required questions. Reward tiers specific and proportionate. Campaign updates have real news hooks."
+      "notes": "Opening hook addresses conservation community directly. Campaign body answers all four required questions. Reward tiers specific and proportionate. Campaign updates have real news hooks.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-02",
@@ -34,7 +37,7 @@
         "format": "Investigative podcast, 6-episode season 2",
         "goal": "$18,000",
         "platform": "Seed&Spark",
-        "what_funded": "Production costs — researcher salary, travel, mixing",
+        "what_funded": "Production costs \u2014 researcher salary, travel, mixing",
         "audience": "Existing season 1 listeners (8,000), financial journalism readers",
         "background": "Season 1 won a regional podcast award"
       },
@@ -44,10 +47,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Season 2 continuation framing correctly builds on existing audience trust. Reward tiers appropriate for podcast format (early access, transcripts, bonus episodes)."
+      "notes": "Season 2 continuation framing correctly builds on existing audience trust. Reward tiers appropriate for podcast format (early access, transcripts, bonus episodes).",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     },
     {
       "id": "tc-03",
@@ -55,7 +61,7 @@
       "input": {
         "title": "Night Shift",
         "format": "Photography book and online exhibition",
-        "goal": "£12,000",
+        "goal": "\u00a312,000",
         "platform": "Kickstarter",
         "what_funded": "Print costs and exhibition venue hire",
         "audience": "Photography community, night workers, documentary photography enthusiasts",
@@ -67,12 +73,16 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Photography book format adapts well — physical reward tiers (signed book, print) correctly differentiated. Five-year timeline communicated as evidence of commitment."
+      "notes": "Photography book format adapts well \u2014 physical reward tiers (signed book, print) correctly differentiated. Five-year timeline communicated as evidence of commitment.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
   ],
-  "overall_mean": 4.28,
-  "passed": true
+  "overall_mean": 4.24,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

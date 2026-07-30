@@ -1,46 +1,53 @@
 {
   "skill_name": "headline-writer",
   "status": "passed",
-  "overall_mean": 5.0,
+  "overall_mean": 4.86,
   "test_cases": [
     {
       "id": 1,
-      "input_summary": "Breaking news — government announces £28bn emergency offshore wind fund with 50GW target by 2035, 40,000 new jobs; environmental groups criticise absence of onshore wind provision. Target: national broadsheet, print and web.",
+      "input_summary": "Breaking news \u2014 government announces \u00a328bn emergency offshore wind fund with 50GW target by 2035, 40,000 new jobs; environmental groups criticise absence of onshore wind provision. Target: national broadsheet, print and web.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 2,
-      "input_summary": "Human-interest feature — 12 volunteers with no professional experience transform derelict Victorian mill into working community arts centre over 6 years, funded entirely by crowdfunding and donated labour. Target: regional magazine, print.",
+      "input_summary": "Human-interest feature \u2014 12 volunteers with no professional experience transform derelict Victorian mill into working community arts centre over 6 years, funded entirely by crowdfunding and donated labour. Target: regional magazine, print.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 3,
-      "input_summary": "Opinion column — local news consolidation under two major media groups is structurally destroying original local journalism through cost-cutting logic; columnist argues for public funding model. Target: national digital news outlet, opinion section.",
+      "input_summary": "Opinion column \u2014 local news consolidation under two major media groups is structurally destroying original local journalism through cost-cutting logic; columnist argues for public funding model. Target: national digital news outlet, opinion section.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

@@ -1,15 +1,16 @@
 {
   "skill_name": "seo-title-optimizer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.43,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.5,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,9 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,23 +39,28 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.83
+      "case_mean": 4.71,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Topic: Interview with a climate scientist on ocean acidification. Audience: Science-curious adults, not specialists. Goal: Inform/educate. Tone: Serious, journalistic.",
-      "output_summary": "Generated 10 titles including 'What Ocean Acidification Is Doing to Our Food Supply', 'The Silent Ocean Crisis Scientists Are Warning About'. Appropriately avoided clickbait for journalism context. Two titles slightly over 65 characters — minor flag. Keyword front-loaded in 6 of 10 titles.",
+      "output_summary": "Generated 10 titles including 'What Ocean Acidification Is Doing to Our Food Supply', 'The Silent Ocean Crisis Scientists Are Warning About'. Appropriately avoided clickbait for journalism context. Two titles slightly over 65 characters \u2014 minor flag. Keyword front-loaded in 6 of 10 titles.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 3
+        "actionability": 3,
+        "editorial_naturalness": 4
       },
-      "case_mean": 3.83
+      "case_mean": 3.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

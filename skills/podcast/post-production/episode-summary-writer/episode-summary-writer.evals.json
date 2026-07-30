@@ -1,30 +1,33 @@
 {
   "skill_name": "episode-summary-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.24,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
       "id": "tc-001",
       "input": "Episode: 'The Climate Scientist Who Changed Her Mind.' Content: interview with an environmental scientist who was a nuclear energy skeptic for 20 years and has publicly reversed her position based on the math of decarbonization. Key quote: 'I was wrong. The numbers don't work without nuclear.' Show: Science journalism podcast. Keyword: nuclear energy climate.",
-      "output_summary": "Platform short (93 words) led with the reversal as the hook — specific and immediately compelling. Directory standard added the research context and her institutional credibility. Promotional version opened with the key quote, built the argument, and closed with a 'why this matters now' paragraph. All three lengths added new information progressively. Keyword 'nuclear energy climate' appeared naturally in the platform short. Tone consistent across all three.",
+      "output_summary": "Platform short (93 words) led with the reversal as the hook \u2014 specific and immediately compelling. Directory standard added the research context and her institutional credibility. Promotional version opened with the key quote, built the argument, and closed with a 'why this matters now' paragraph. All three lengths added new information progressively. Keyword 'nuclear energy climate' appeared naturally in the platform short. Tone consistent across all three.",
       "scores": {
         "coherence": 5,
         "consistency": 4,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,23 +39,28 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.33
+      "case_mean": 4.29,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Episode: solo meditation-style reflection on gratitude and daily practice. No guest, no argument, primarily contemplative. Show: mindfulness podcast. Keyword: daily gratitude practice.",
-      "output_summary": "Correctly adapted to contemplative register — no argument-driven hook. Platform short used invitation language ('an episode for slowing down'). Directory standard described the content without overselling. Promotional version was appropriately quieter in register. Keyword appeared. The promotional version was slightly generic in places — the content provided was genuinely contemplative rather than argumentative, limiting specificity. Limitation note in the skill's Known Limitations section correctly anticipated this case.",
+      "output_summary": "Correctly adapted to contemplative register \u2014 no argument-driven hook. Platform short used invitation language ('an episode for slowing down'). Directory standard described the content without overselling. Promotional version was appropriately quieter in register. Keyword appeared. The promotional version was slightly generic in places \u2014 the content provided was genuinely contemplative rather than argumentative, limiting specificity. Limitation note in the skill's Known Limitations section correctly anticipated this case.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.0
+      "case_mean": 4.0,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

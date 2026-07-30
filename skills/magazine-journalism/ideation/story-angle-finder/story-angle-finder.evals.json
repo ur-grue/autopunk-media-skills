@@ -1,15 +1,16 @@
 {
   "skill_name": "story-angle-finder",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.7,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,9 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.67
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-002",
@@ -36,23 +39,28 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.5
+      "case_mean": 4.43,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": "tc-003",
       "input": "Topic: Traditional textile crafts in rural communities under economic pressure. Publication: Literary/cultural magazine. Evergreen focus. Long-form preferred.",
-      "output_summary": "Generated 6 angles including: the inheritance story (who will learn these skills), a single-subject profile of a master craftsperson, the globalization pricing angle, a counterintuitive story about young urban artisans reviving traditions, and a philosophical/essay angle on craft as embodied knowledge. All angles suited to literary long-form. Pitch lines appropriately literary in register. The data/economic angle was less developed than others given the literary publication context — a reasonable limitation.",
+      "output_summary": "Generated 6 angles including: the inheritance story (who will learn these skills), a single-subject profile of a master craftsperson, the globalization pricing angle, a counterintuitive story about young urban artisans reviving traditions, and a philosophical/essay angle on craft as embodied knowledge. All angles suited to literary long-form. Pitch lines appropriately literary in register. The data/economic angle was less developed than others given the literary publication context \u2014 a reasonable limitation.",
       "scores": {
         "coherence": 4,
         "consistency": 4,
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "case_mean": 4.17
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

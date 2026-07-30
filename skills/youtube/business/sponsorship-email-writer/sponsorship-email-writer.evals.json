@@ -1,15 +1,16 @@
 {
   "skill_name": "sponsorship-email-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.5,
+  "overall_mean": 4.38,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.7,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.3
+    "actionability": 4.3,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -28,19 +29,22 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Opens with concept, not channel introduction. Rate, timeline, and deliverables all stated. Next step is specific ('reply here and I'll send my standard contract'). Under 280 words. Excellent."
+      "notes": "Opens with concept, not channel introduction. Rate, timeline, and deliverables all stated. Next step is specific ('reply here and I'll send my standard contract'). Under 280 words. Excellent.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-002",
       "input": {
         "brand": "Specialty coffee subscription service (third-wave coffee, $18-$30/month)",
         "integration": "Dedicated mention at the start of a video about morning routines",
-        "video_concept": "Redesigning your morning from the ground up — 12-minute long-form",
+        "video_concept": "Redesigning your morning from the ground up \u2014 12-minute long-form",
         "rate": "$600",
-        "timeline": "Flexible — within next month",
+        "timeline": "Flexible \u2014 within next month",
         "channel_metrics": "22K subscribers, 80K monthly views, morning routine/lifestyle audience"
       },
       "scores": {
@@ -49,10 +53,13 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Natural product-content fit. Email is concise and correctly calibrated for a smaller channel. Rate is stated without apology. Flexible timeline handled gracefully."
+      "notes": "Natural product-content fit. Email is concise and correctly calibrated for a smaller channel. Rate is stated without apology. Flexible timeline handled gracefully.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-003",
@@ -70,10 +77,14 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "VPN is a common creator sponsorship category. Without a specific video concept, the product-content fit section is weaker than TC-001 and TC-002. Output correctly flags this and uses a generic but professional framing. Actionable — passes threshold."
+      "notes": "VPN is a common creator sponsorship category. Without a specific video concept, the product-content fit section is weaker than TC-001 and TC-002. Output correctly flags this and uses a generic but professional framing. Actionable \u2014 passes threshold.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

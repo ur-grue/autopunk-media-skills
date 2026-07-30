@@ -1,6 +1,6 @@
 {
   "skill_name": "travel-logistics-brief",
-  "status": "stable",
+  "status": "passed",
   "overall_score": 4.39,
   "test_cases": [
     {
@@ -12,10 +12,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.5,
-      "notes": "Safety framework was appropriately elevated for the press freedom context. Equipment import regulations were correctly flagged as a major risk. Digital security measures were well-detailed. Pre-departure checklist was sharp."
+      "notes": "Safety framework was appropriately elevated for the press freedom context. Equipment import regulations were correctly flagged as a major risk. Digital security measures were well-detailed. Pre-departure checklist was sharp.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "test_id": "TLB-002",
@@ -26,10 +29,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Good adaptation to solo travel in a low-infrastructure environment. Health precautions were appropriate. Local fixer engagement was correctly prioritised. Check-in protocol was well-calibrated to the risk level."
+      "notes": "Good adaptation to solo travel in a low-infrastructure environment. Health precautions were appropriate. Local fixer engagement was correctly prioritised. Check-in protocol was well-calibrated to the risk level.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     },
     {
       "test_id": "TLB-003",
@@ -40,10 +46,15 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean_score": 4.33,
-      "notes": "Appropriately scaled down the safety framework for low-risk travel. Conference accreditation and access logistics were well-covered. Equipment transport within the EU was correctly noted as straightforward. Pre-departure list was practical."
+      "notes": "Appropriately scaled down the safety framework for low-risk travel. Conference accreditation and access logistics were well-covered. Equipment transport within the EU was correctly noted as straightforward. Pre-departure list was practical.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.34
 }

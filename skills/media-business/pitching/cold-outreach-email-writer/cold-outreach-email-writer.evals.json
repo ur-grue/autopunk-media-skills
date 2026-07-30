@@ -1,6 +1,6 @@
 {
   "skill_name": "cold-outreach-email-writer",
-  "status": "complete",
+  "status": "passed",
   "eval_score": 4.4,
   "test_cases": [
     {
@@ -8,7 +8,7 @@
       "description": "Documentary pitch to broadcaster head of docs",
       "input": {
         "sender": "Clara Denton, Meridian Films",
-        "project": "THE INVENTORY — documentary following auction house specialist cataloguing a collector's estate",
+        "project": "THE INVENTORY \u2014 documentary following auction house specialist cataloguing a collector's estate",
         "recipient": "Head of Documentaries, public broadcaster",
         "stage": "Treatment and showreel ready",
         "ask": "Introductory call"
@@ -19,17 +19,20 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
       "mean": 4.67,
-      "notes": "Subject line professional, pitch paragraph crisp at two sentences, ask specific. No hyperbole. Closing clear."
+      "notes": "Subject line professional, pitch paragraph crisp at two sentences, ask specific. No hyperbole. Closing clear.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
     },
     {
       "id": "tc-02",
       "description": "Series pitch to streaming platform acquisitions",
       "input": {
         "sender": "Theo Bergmann, Wide Frame Productions",
-        "project": "THRESHOLD — 6-part drama series, young emergency doctors across three European cities, first year of practice",
+        "project": "THRESHOLD \u2014 6-part drama series, young emergency doctors across three European cities, first year of practice",
         "recipient": "Acquisitions, international streaming platform",
         "connection": "Met briefly at Series Mania",
         "stage": "Scripts for episodes 1-3 complete, broadcaster interest from one European partner",
@@ -41,17 +44,20 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.5,
-      "notes": "Series Mania reference adds warm context without overstating the connection. Script-read ask is the right level of commitment for a cold contact."
+      "notes": "Series Mania reference adds warm context without overstating the connection. Script-read ask is the right level of commitment for a cold contact.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-03",
       "description": "Podcast pitch to podcast network",
       "input": {
         "sender": "Amara Osei, independent producer",
-        "project": "THE PAPER TRAIL — investigative podcast series, each season follows one financial fraud case through documents, interviews, and courtroom audio",
+        "project": "THE PAPER TRAIL \u2014 investigative podcast series, each season follows one financial fraud case through documents, interviews, and courtroom audio",
         "recipient": "Commissioning producer, podcast network",
         "stage": "Pilot episode complete",
         "ask": "Listen to pilot episode (link attached)"
@@ -62,12 +68,16 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
       "mean": 4.17,
-      "notes": "Pilot-listen ask is appropriately concrete. Podcast format pitch adapts well to the email format. Slightly less strong on the subject line for audio-first projects."
+      "notes": "Pilot-listen ask is appropriately concrete. Podcast format pitch adapts well to the email format. Slightly less strong on the subject line for audio-first projects.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
   ],
-  "overall_mean": 4.44,
-  "passed": true
+  "overall_mean": 4.38,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
 }

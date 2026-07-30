@@ -2,14 +2,15 @@
   "skill_name": "press-kit-generator",
   "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -21,9 +22,12 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Three synopsis lengths were genuinely differentiated in scope and emphasis. Production Notes was correctly adjusted for a first-time director — focused on the project's origins rather than director's track record. No confirmed broadcast was handled cleanly."
+      "notes": "Three synopsis lengths were genuinely differentiated in scope and emphasis. Production Notes was correctly adjusted for a first-time director \u2014 focused on the project's origins rather than director's track record. No confirmed broadcast was handled cleanly.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc2",
@@ -34,9 +38,12 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Critical quotes were integrated naturally into the Production Notes. Subject profile captured the musician's biography in relation to the film rather than as a standalone biography. All three synopsis lengths worked for their stated contexts."
+      "notes": "Critical quotes were integrated naturally into the Production Notes. Subject profile captured the musician's biography in relation to the film rather than as a standalone biography. All three synopsis lengths worked for their stated contexts.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc3",
@@ -47,9 +54,13 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "notes": "Scale was correctly adjusted for a short film — Production Notes was brief and specific rather than padding. Festival submission context informed the synopsis tone. Thin credits block was handled cleanly."
+      "notes": "Scale was correctly adjusted for a short film \u2014 Production Notes was brief and specific rather than padding. Festival submission context informed the synopsis tone. Thin credits block was handled cleanly.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

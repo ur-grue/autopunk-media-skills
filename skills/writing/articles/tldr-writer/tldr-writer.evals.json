@@ -1,46 +1,53 @@
 {
   "skill_name": "tldr-writer",
   "status": "passed",
-  "overall_mean": 5.0,
+  "overall_mean": 4.86,
   "test_cases": [
     {
       "id": 1,
-      "input_summary": "Breaking news — rail operator cancels 240 trains per day indefinitely after wage talks with drivers' union collapse; 12% pay rise demanded, eight intercity routes affected, government calls for return to table.",
+      "input_summary": "Breaking news \u2014 rail operator cancels 240 trains per day indefinitely after wage talks with drivers' union collapse; 12% pay rise demanded, eight intercity routes affected, government calls for return to table.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 2,
-      "input_summary": "Investigative feature — three water companies discharged sewage for 2.1 million hours (up 34%), paid executives £14.3m in bonuses; fined £18m (under 1% of profit); proposed legislation would raise maximum fine to 10% of turnover.",
+      "input_summary": "Investigative feature \u2014 three water companies discharged sewage for 2.1 million hours (up 34%), paid executives \u00a314.3m in bonuses; fined \u00a318m (under 1% of profit); proposed legislation would raise maximum fine to 10% of turnover.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     },
     {
       "id": 3,
-      "input_summary": "Policy analysis — government's free childcare expansion from 9 months (September launch) depends on recruiting 45,000 new workers; three analysts say target unrealistic given current pay and training pipelines.",
+      "input_summary": "Policy analysis \u2014 government's free childcare expansion from 9 months (September launch) depends on recruiting 45,000 new workers; three analysts say target unrealistic given current pay and training pipelines.",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5
+        "actionability": 5,
+        "editorial_naturalness": 4
       },
-      "case_mean": 5.0
+      "case_mean": 4.86,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any."
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }

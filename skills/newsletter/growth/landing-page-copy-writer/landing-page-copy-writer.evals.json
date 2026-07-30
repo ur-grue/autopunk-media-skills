@@ -1,15 +1,16 @@
 {
   "skill_name": "landing-page-copy-writer",
-  "status": "stable",
+  "status": "passed",
   "eval_date": "2026-03-16",
-  "overall_mean": 4.4,
+  "overall_mean": 4.33,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.0
   },
   "test_cases": [
     {
@@ -22,7 +23,7 @@
         "subscriber_count": 9400,
         "open_rate": "51%",
         "best_edition": "The 1970s Inflation We're Not Supposed to Remember",
-        "testimonial": "The only newsletter I read the same day it arrives. — Senior economist"
+        "testimonial": "The only newsletter I read the same day it arrives. \u2014 Senior economist"
       },
       "output_summary": "Full page copy: two headline options (benefit-led, not brand-led), specific subheadline, two-sentence value proposition with genuine differentiator, social proof with real numbers and job-title testimonial, four-bullet what-to-expect section, three CTA button options. 350 words total. No hype language.",
       "scores": {
@@ -31,15 +32,18 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-02",
       "input": {
         "newsletter": "Night Market",
-        "description": "Weekly newsletter for independent food and hospitality professionals — crop economics, supplier relationships, revenue models",
+        "description": "Weekly newsletter for independent food and hospitality professionals \u2014 crop economics, supplier relationships, revenue models",
         "cadence": "Every Thursday",
         "tone": "Direct, energetic, like advice from someone who has made all the mistakes",
         "subscriber_count": 2100,
@@ -54,15 +58,18 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.5
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
     },
     {
       "id": "tc-03",
       "input": {
         "newsletter": "Carbon Ledger",
-        "description": "Biweekly deep-dives on corporate climate accounting — ESG reporting standards, greenwashing cases, and regulatory changes — for sustainability professionals and financial analysts",
+        "description": "Biweekly deep-dives on corporate climate accounting \u2014 ESG reporting standards, greenwashing cases, and regulatory changes \u2014 for sustainability professionals and financial analysts",
         "cadence": "Every other Tuesday",
         "tone": "Methodical, precise, no advocacy",
         "subscriber_count": 560,
@@ -77,9 +84,13 @@
         "fluency": 4,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
-      "mean": 4.17
+      "mean": 4.17,
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
     }
-  ]
+  ],
+  "editorial_naturalness_mean": 4.0
 }
