@@ -1,0 +1,53 @@
+{
+  "skill_name": "embargo-management",
+  "status": "passed",
+  "overall_mean": 4.81,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "FTSE 100 pharmaceutical company announcing positive Phase III cancer drug trial results; market-sensitive under MAR and Reg FD; 30 journalists, 5 wire services, 10 investment analysts.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Regulatory section earns its weight — MAR and Reg FD flags are specific to the listed-company scenario rather than boilerplate compliance language.",
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "European government minister announcing a new immigration policy framework; politically sensitive, triggers parliamentary debate; some journalists on the list have previously broken embargoes.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Government comms register has conventions (lobby terms, off-the-record briefing protocols) that differ from corporate PR; the skill's default corporate register is adequate but not native to political communications.",
+      "case_mean": 4.57
+    },
+    {
+      "id": 3,
+      "input_summary": "Seed-stage startup announcing a consumer app to 5 tech journalists; routine sensitivity; no regulatory considerations; simple embargo.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Proportionate and clean; regulatory section correctly states N/A rather than padding with inapplicable frameworks.",
+      "case_mean": 4.86
+    }
+  ]
+}
