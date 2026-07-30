@@ -3,13 +3,15 @@
   "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.4,
+  "editorial_naturalness_mean": 4.7,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.7
   },
   "test_cases": [
     {
@@ -21,8 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; direct verbs throughout, no empty intensifiers; issue-type taxonomy reads like a working fact desk vocabulary",
       "notes": "Correctly prioritized the unattributed claim as highest risk. Distinguished IPCC data (primary source, high confidence) from university press release (secondary source, check underlying study). Recommended fixes were specific."
     },
     {
@@ -34,8 +39,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "No lexical or structural tells; percentage-point correction language is precise and unpadded — reads like a desk note from a numbers-literate editor",
       "notes": "Caught both percentage/percentage-point errors. The relative risk mortality claim was correctly flagged as requiring the original study citation and causal language correction."
     },
     {
@@ -47,8 +55,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Register correct; one structural tell — summary section is slightly formulaic compared to the tailored analysis in the other test cases",
       "notes": "Summary was accurate — four statistics marked Likely Accurate, one flagged for outdated data. Did not over-flag clean statistics. Actionable fix for the outdated figure was specific."
     }
   ],

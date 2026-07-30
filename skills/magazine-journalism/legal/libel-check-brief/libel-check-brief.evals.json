@@ -3,13 +3,15 @@
   "status": "passed",
   "eval_date": "2026-03-16",
   "overall_mean": 4.4,
+  "editorial_naturalness_mean": 4.7,
   "dimension_means": {
     "coherence": 4.7,
     "consistency": 4.3,
     "fluency": 4.7,
     "relevance": 4.3,
     "professionalism": 4.3,
-    "actionability": 4.0
+    "actionability": 4.0,
+    "editorial_naturalness": 4.7
   },
   "test_cases": [
     {
@@ -21,8 +23,11 @@
         "fluency": 5,
         "relevance": 5,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; Red/Amber/Green tiering with plain-language legal concern reads like in-house counsel's pre-publication note; no hedge fog or SaaS verbs",
       "notes": "Correctly applied higher risk standard for private individual. Anonymous bullying claims correctly flagged Red. Attribution for a Green passage was appropriately confirmed as protected."
     },
     {
@@ -34,8 +39,11 @@
         "fluency": 5,
         "relevance": 4,
         "professionalism": 4,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 5
       },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "No tells; legal register correctly calibrated to public-figure standard; Latinate verbs used as terms of art, not as AI hedging",
       "notes": "Correctly applied lower threshold for public figure. Unsourced allegation was still Red-flagged even under actual malice standard. Documented public record passages correctly assigned Green."
     },
     {
@@ -47,8 +55,11 @@
         "fluency": 4,
         "relevance": 4,
         "professionalism": 5,
-        "actionability": 4
+        "actionability": 4,
+        "editorial_naturalness": 4
       },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Register correct; one minor structural tell — UK-law section is slightly more cautious and hedgy than U.S. framework sections, as if less confident in the jurisdiction",
       "notes": "Correctly switched to UK libel framework when jurisdiction was specified. Noted that UK law places burden of proof on publisher, not plaintiff — a meaningful difference in risk assessment. One passage categorization could have been Amber rather than Red."
     }
   ],
