@@ -87,6 +87,7 @@ The Commission's review is a beginning. The question is whether we treat it as t
 - An op-ed written by the assistant is a draft written in the author's declared voice — it must be read, personalised, and approved by the named author before submission, not submitted as written. Most publications require the stated author to vouch for the piece.
 - If the central argument is weak, contradicted by public evidence, or legally contentious, the assistant will flag this — but cannot refuse to draft the piece. The communications team is responsible for assessing the reputational risk of the argument itself.
 - The assistant cannot tailor the piece to a specific editor's preferences or a publication's house style without examples of what that style looks like.
+- **Disclosure obligation:** If this op-ed is placed on behalf of an organisation (i.e., the PR team arranged the placement, not the bylined author independently), the publication may require disclosure of the PR involvement. Check the publication's submission guidelines for advertorial or sponsored content policies. For regulated industries (pharmaceuticals, finance, energy), sector-specific disclosure rules may also apply. Run the [disclosure-assessment](../disclosure-assessment/SKILL.md) skill if the relationship between the author's organisation and the article's subject creates a material connection.
 
 ## Related Skills
 - [speech-writer](../speech-writer/SKILL.md)
