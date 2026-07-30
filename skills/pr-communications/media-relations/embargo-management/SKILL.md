@@ -1,11 +1,11 @@
 ---
 name: embargo-management
 description: "Produces a complete embargo management brief for a specific embargoed announcement, covering embargo terms, distribution protocol, communication templates, breach response protocol, and a pre-lift checklist."
-status: draft
+status: stable
 category: pr-communications
 subcategory: media-relations
 version: 1.0
-eval_score: null
+eval_score: 4.81
 tags: [pr, media-relations, embargo, press-release, communications]
 ---
 # Embargo Management

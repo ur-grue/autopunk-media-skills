@@ -1,5 +1,53 @@
 {
   "skill_name": "source-protection",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.81,
+  "editorial_naturalness_mean": 4.33,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "Military officer in Southeast Asia providing photographs of extrajudicial killings to an international wire service correspondent; EXTREME risk with physical safety threats.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Extreme-risk scenarios push the register slightly toward security-manual formality; the Known Limitations section correctly flags this as a starting point, not a complete protocol.",
+      "case_mean": 4.71
+    },
+    {
+      "id": 2,
+      "input_summary": "Senior chemist at a US pharmaceutical company providing lab notebooks showing falsified clinical trial data for a drug under FDA review; corporate whistleblower context.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Clean professional register throughout; legal questions framed as items for in-house counsel consultation — reads like a senior investigative journalist's working document.",
+      "case_mean": 5.0
+    },
+    {
+      "id": 3,
+      "input_summary": "School board member in rural US providing suppressed building safety audit minutes to a local newspaper; LOW risk with social and political retaliation only.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Full five-section assessment structure may feel slightly ceremonial for a LOW-risk community story; a working local journalist might produce a shorter memo — but the content remains sound.",
+      "case_mean": 4.71
+    }
+  ]
 }

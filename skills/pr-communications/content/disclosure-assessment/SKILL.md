@@ -1,11 +1,11 @@
 ---
 name: disclosure-assessment
 description: "Produces a disclosure requirements brief for a specific piece of content, identifying what must be disclosed, under which regulatory framework, and in what format — covering FTC, ASA, UCPD, and platform-specific rules across all common media formats."
-status: draft
+status: stable
 category: pr-communications
 subcategory: content
 version: 1.0
-eval_score: null
+eval_score: 4.90
 tags: [pr, content, disclosure, ftc, asa, sponsored-content, ethics, compliance]
 ---
 # Disclosure Assessment

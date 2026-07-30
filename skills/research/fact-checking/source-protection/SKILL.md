@@ -1,11 +1,11 @@
 ---
 name: source-protection
 description: "Produces a structured source-protection assessment for a specific source in a specific story, covering risk level, communication security guidance, legal protections available, editorial handling recommendations, and a pre-publication checklist."
-status: draft
+status: stable
 category: research
 subcategory: fact-checking
 version: 1.0
-eval_score: null
+eval_score: 4.81
 tags: [research, journalism, source-protection, ethics, security, confidentiality]
 ---
 # Source-Protection Assessment

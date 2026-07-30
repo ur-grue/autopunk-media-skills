@@ -1,5 +1,53 @@
 {
   "skill_name": "disclosure-assessment",
-  "status": "pending",
-  "test_cases": []
+  "status": "passed",
+  "overall_mean": 4.90,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "US fitness influencer (500K subscribers) with paid supplement brand partnership making health claims in a YouTube integration; dual FTC/ASA/ACMA jurisdiction across US, UK, Australia.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "YouTube disclosure guidance correctly maps platform-level paid promotion tools alongside regulatory requirements; reads like internal compliance guidance at a talent agency.",
+      "case_mean": 5.0
+    },
+    {
+      "id": 2,
+      "input_summary": "PR agency ghost-drafts an op-ed for a pharmaceutical CMO about a disease category the company's lead product addresses; published in a national newspaper without agency disclosure.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "Ghostwriting disclosure sits in a genuine regulatory gray zone; the output appropriately hedges but the hedging accumulates across the section.",
+      "case_mean": 4.71
+    },
+    {
+      "id": 3,
+      "input_summary": "UK history podcast host reads a VPN ad with both affiliate link and flat sponsorship fee; makes privacy/security claims; audience across UK, Germany, France — triggering ASA, UCPD, and platform rules.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Dual commercial relationship (affiliate plus flat fee) correctly surfaced as requiring fuller disclosure than either alone; format-specific audio guidance avoids falling into print-centric defaults.",
+      "case_mean": 5.0
+    }
+  ]
 }
