@@ -2,26 +2,25 @@
   "agent_name": "podcast-producer-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.74,
+  "overall_mean": 4.67,
   "editorial_naturalness_mean": 4.00,
-  "audit_note": "TC1 EN corrected from 5 to 4 — noted tell ('theatrical question framing') violates EN=5 rubric anchor (zero tells required). TC1 also uses existing example input (protocol violation). Recalculated means.",
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "Tech podcast 'Build Mode' interview with Priya Sharma (bootstrapped SaaS founder), conversational/direct tone, two sponsors, 50 minutes — existing example",
+      "brief_summary": "True crime podcast 'Cold Trail' co-hosted narrative episode on the 1998 Millbrook disappearance, investigative/suspenseful tone, two sponsors (SimpliSafe, BetterHelp), 60 minutes — simulated deliverable, full pipeline including concept generation",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
-        "relevance": 5,
+        "relevance": 4,
         "professionalism": 5,
         "actionability": 4,
         "editorial_naturalness": 4,
-        "cross_step_consistency": 5,
+        "cross_step_consistency": 4,
         "deliverable_completeness": 5
       },
-      "editorial_naturalness_note": "One tell: theatrical question framing ('the question you have not answered publicly') reads more written than spoken. Corrected from 5 to 4 — the EN=5 anchor requires zero tells. Otherwise the package inhabits each section's genre conventions with precision, particularly the ad reads.",
-      "case_mean": 4.78
+      "editorial_naturalness_note": "The agent's spoken-register craft does not fully shift from interview/analytical mode to the suspenseful narrative pacing true crime demands — co-hosted handoffs may default to generic alternation rather than the organic dynamic of established co-hosts. Ad reads for SimpliSafe and BetterHelp land well as genre-standard true crime sponsors.",
+      "case_mean": 4.56
     },
     {
       "id": 2,

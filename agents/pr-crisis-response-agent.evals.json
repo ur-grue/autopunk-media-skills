@@ -7,7 +7,7 @@
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "Greenfield Foods undeclared allergen recall — mid-sized food manufacturer, FSA-notified voluntary recall, full 7-step pipeline with proactive media outreach and press release — existing example",
+      "brief_summary": "SkyBridge Regional Airlines emergency landing at Manchester — engine failure on Flight SB-442, 3 passengers hospitalized with minor injuries, mobile phone footage on social media, AAIB investigation opened, COO as spokesperson, proactive media outreach and press release — simulated deliverable, full 7-step pipeline",
       "scores": {
         "coherence": 5,
         "consistency": 5,
@@ -19,7 +19,7 @@
         "cross_step_consistency": 5,
         "deliverable_completeness": 5
       },
-      "editorial_naturalness_note": "Two minor tells — one stock crisis phrase and one boilerplate internal-memo close; otherwise the package inhabits each document's genre conventions with precision, particularly the spokesperson landmines which read as operational comms advice rather than template output.",
+      "editorial_naturalness_note": "One stock safety phrase likely ('the safety of our passengers and crew is always our top priority') that is both genre convention and AI default. The FAQ section is a strength — AAIB investigation constraints and social media footage create complexity that pushes past template output. Spokesperson landmines section handles the footage-versus-official-statement tension well.",
       "case_mean": 4.78
     },
     {

@@ -3,7 +3,7 @@ name: newsroom-operations-agent
 type: agent
 status: stable
 version: 1.0
-eval_score: 4.67
+eval_score: 4.52
 maxTurns: 25
 allowedTools:
   - Read

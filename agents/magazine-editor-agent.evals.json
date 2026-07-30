@@ -2,25 +2,25 @@
   "agent_name": "magazine-editor-agent",
   "eval_type": "workflow",
   "status": "passed",
-  "overall_mean": 4.67,
-  "editorial_naturalness_mean": 4.67,
+  "overall_mean": 4.56,
+  "editorial_naturalness_mean": 4.33,
   "test_cases": [
     {
       "id": 1,
-      "brief_summary": "910-word feature about the last independent bookshop in Dunminster, regional county magazine, AP base with 5 house style rules, AI-assisted draft with register issues — existing example, full 7-step pipeline",
+      "brief_summary": "1,800-word profile of a marine biologist studying microplastics in North Sea fish stocks, science and environment quarterly, Chicago style, no house style rules, partly AI-drafted with jargon-heavy methodology sections — simulated deliverable, house-style step skipped, ai-writing-detox included",
       "scores": {
         "coherence": 5,
         "consistency": 5,
         "fluency": 5,
         "relevance": 5,
         "professionalism": 5,
-        "actionability": 5,
-        "editorial_naturalness": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4,
         "cross_step_consistency": 5,
-        "deliverable_completeness": 5
+        "deliverable_completeness": 4
       },
-      "editorial_naturalness_note": "Zero tells. The structural diagnosis is outstanding editorial craft — 'The opening paragraph is the weakest in the piece and the strongest material (Woodward's voice, the community story) is buried behind generic framing' is exactly the kind of judgment a working editor makes. The ai-writing-detox step correctly identifies tells in the input draft, demonstrating meta-awareness of the very patterns the eval framework tests for.",
-      "case_mean": 5.00
+      "editorial_naturalness_note": "One structural tell: the ai-writing-detox diagnosis of science-register AI tells is accurate but the replacement suggestions for methodology language risk swapping one form of stiffness for another — 'we analyzed' replacing 'analysis was conducted' is correct but the surrounding sentences still carry the explainer-blog cadence that LLMs default to for science communication.",
+      "case_mean": 4.67
     },
     {
       "id": 2,

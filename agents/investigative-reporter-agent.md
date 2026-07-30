@@ -3,7 +3,7 @@ name: investigative-reporter-agent
 type: agent
 status: stable
 version: 1.0
-eval_score: 4.93
+eval_score: 4.85
 maxTurns: 25
 allowedTools:
   - Read
